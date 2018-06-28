@@ -1,0 +1,78 @@
+[Captions]
+TFinLancamentoTipoResult.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinLancamentoTipoResult.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinLancamentoTipoResult.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinLancamentoTipoResult.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinLancamentoTipoResult.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinLancamentoTipoResult.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinLancamentoTipoResult.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinLancamentoTipoResult.bbExportaExcel=Spreadsheet~!@#$Excel~!@#$Excel~!@#$
+TFinLancamentoTipoResult.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinLancamentoTipoResult.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinLancamentoTipoResult.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinLancamentoTipoResult.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinLancamentoTipoResult.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinLancamentoTipoResult.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinLancamentoTipoResult.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinLancamentoTipoResult.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinLancamentoTipoResult.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinLancamentoTipoResult.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinLancamentoTipoResult.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinLancamentoTipoResult.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinLancamentoTipoResult.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinLancamentoTipoResult.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinLancamentoTipoResult.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinLancamentoTipoResult.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinLancamentoTipoResult.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinLancamentoTipoResult.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinLancamentoTipoResult.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinLancamentoTipoResult.bbListaImprime=&Print Line~!@#$Imprimir Linha~!@#$Imprimir~!@#$
+TFinLancamentoTipoResult.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinLancamentoTipoResult.bbListaOpen=&Open Line~!@#$A&bir Linha~!@#$A&brir Línea~!@#$
+TFinLancamentoTipoResult.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinLancamentoTipoResult.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinLancamentoTipoResult.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinLancamentoTipoResult.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinLancamentoTipoResult.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TFinLancamentoTipoResult.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TFinLancamentoTipoResult.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TFinLancamentoTipoResult.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinLancamentoTipoResult.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinLancamentoTipoResult.brwGridAccountCode=AccountCode~!@#$Código~!@#$Código~!@#$
+TFinLancamentoTipoResult.brwGridAccType=AccType~!@#$Tipo de conta~!@#$Tipo de conta~!@#$
+TFinLancamentoTipoResult.brwGridActualBalace=ActualBalace~!@#$Saldo Final~!@#$Saldo Final~!@#$
+TFinLancamentoTipoResult.brwGridAmount=Amount~!@#$Valor~!@#$Monto~!@#$
+TFinLancamentoTipoResult.brwGridIDLancamentoTipo=ID~!@#$ID~!@#$ID~!@#$
+TFinLancamentoTipoResult.brwGridPreviousBalance=PreviousBalance~!@#$Saldo Anterior~!@#$Saldo Anterior~!@#$
+TFinLancamentoTipoResult.brwGridRecordType=RecordType~!@#$Tipo de Registro~!@#$Tipo de Registro~!@#$
+TFinLancamentoTipoResult.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinLancamentoTipoResult.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinLancamentoTipoResult.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinLancamentoTipoResult.btSelEmpresa=Select company~!@#$Selecionar Empresa~!@#$Seleccionar Empresa~!@#$
+TFinLancamentoTipoResult.Button1=All~!@#$Tudo~!@#$Todo~!@#$
+TFinLancamentoTipoResult.Button2=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinLancamentoTipoResult.cbxHideZeros=Hide zero amounts~!@#$Ocultar valores zerados~!@#$Ocultar valores zerados~!@#$
+TFinLancamentoTipoResult.cbxStatus=~!@#$~!@#$~!@#$
+TFinLancamentoTipoResult.Label1=Records :~!@#$Registros :~!@#$Registros :~!@#$
+TFinLancamentoTipoResult.Label2=to~!@#$até~!@#$Hasta~!@#$
+TFinLancamentoTipoResult.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinLancamentoTipoResult.lblModuloSadow=Run Time~!@#$~!@#$~!@#$
+TFinLancamentoTipoResult.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinLancamentoTipoResult.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinLancamentoTipoResult.TFinLancamentoTipoResult=FinLancamentoTipoResult~!@#$~!@#$~!@#$
+TFinLancamentoTipoResult.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinLancamentoTipoResult.chkInterest=Add Interest~!@#$Calcular c/ Juros~!@#$Adic. Juros~!@#$
+TFinLancamentoTipoResult.lbStartBalance=Start Balance :~!@#$Iniciar Saldo em :~!@#$Iniciar Saldo:~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFinLancamentoTipoResult.cmbData.Items="Due Date","Payment Day"~!@#$"Data Vencimento","Data Pagamento"~!@#$"Fecha Vencimiento","Fecha Pago"~!@#$
+TFinLancamentoTipoResult.cmbSituacao.Items=Open,"Partial Payment",History,Canceled,All~!@#$Aberto,"Pagamento Parcial",Histórico,Cancelado,Tudo~!@#$Abierto,"Pago Parcial",Histórico,Cancelado,Todo~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

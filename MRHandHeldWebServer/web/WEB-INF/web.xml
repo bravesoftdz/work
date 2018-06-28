@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>SearchBarcode</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.inventoryservlet.SVLSearchBarcode</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ItemCountInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.inventoryservlet.SVLItemCountInsert</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>CounteredExist</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.inventoryservlet.SVLCounteredExist</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>GetUser</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.SVLGetUser</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>LiveCountInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.inventoryservlet.SVLLiveCountInsert</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>PurchaseInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLPurchaseInsert</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>SearchPO</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLSearchPO</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>SaleInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.salesservlet.SVLSaleInsert</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>POInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLPOInsert</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>SearchBarcodePO</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLSearchBarcodePO</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>RequestInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLRequestInsert</servlet-class>
+	</servlet> 
+	
+	<servlet>
+		<servlet-name>BarcodePrintInsert</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.inventoryservlet.SVLBarcodePrintInsert</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>NewSearchBarcode</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLNewSearchBarcode</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ValidateReceiving</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLValidateReceiving</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>SearchPurchaseSimple</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLSearchPurchaseSimple</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>NewValidateReceiving</servlet-name>
+		<servlet-class>com.mainretail.handheldserver.purchaseservlet.SVLNewValidateReceiving</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SearchBarcode</servlet-name>
+		<url-pattern>/searchbarcode</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ItemCountInsert</servlet-name>
+		<url-pattern>/insertbarcode</url-pattern>		
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>CounteredExist</servlet-name>
+		<url-pattern>/counteredexist</url-pattern>		
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>GetUser</servlet-name>
+		<url-pattern>/userlogin</url-pattern>
+	</servlet-mapping>  
+	
+	<servlet-mapping>
+		<servlet-name>LiveCountInsert</servlet-name>
+		<url-pattern>/insertlivecount</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>PurchaseInsert</servlet-name>
+		<url-pattern>/purchaseinsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SearchPO</servlet-name>
+		<url-pattern>/searchpo</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet-mapping>
+		<servlet-name>SaleInsert</servlet-name>
+		<url-pattern>/saleinsert</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet-mapping>
+		<servlet-name>POInsert</servlet-name>
+		<url-pattern>/poinsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SearchBarcodePO</servlet-name>
+		<url-pattern>/searchbarcodepo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RequestInsert</servlet-name>
+		<url-pattern>/requestinsert</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet-mapping>
+		<servlet-name>BarcodePrintInsert</servlet-name>
+		<url-pattern>/barcodeprintinsert</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet-mapping>
+		<servlet-name>NewSearchBarcode</servlet-name>
+		<url-pattern>/newsearchbarcode</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet-mapping>
+		<servlet-name>ValidateReceiving</servlet-name>
+		<url-pattern>/validatereceiving</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>NewValidateReceiving</servlet-name>
+		<url-pattern>/newvalidatereceiving</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SearchPurchaseSimple</servlet-name>
+		<url-pattern>/searchpurchasesimple</url-pattern>
+	</servlet-mapping>
+	
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>mrpool</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+</web-app>

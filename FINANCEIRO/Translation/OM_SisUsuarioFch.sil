@@ -1,0 +1,66 @@
+[Captions]
+TSisUsuarioFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisUsuarioFch.btExclui=Remove ->~!@#$Remover - >~!@#$Remover - >~!@#$
+TSisUsuarioFch.btFirstRec=~!@#$~!@#$~!@#$
+TSisUsuarioFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisUsuarioFch.btInclui=<- Add~!@#$< - Adicionar~!@#$< - Agregar~!@#$
+TSisUsuarioFch.cbxBK=Net Profit~!@#$Lucro Líquido~!@#$Lucro Neto~!@#$
+TSisUsuarioFch.cbxItemHold=Items on Hold~!@#$Modelos em N.Pend~!@#$Items En B.Pend~!@#$
+TSisUsuarioFch.cbxItemsBuy=Items to Buy~!@#$Modelos para Comprar~!@#$Items Para Comprar~!@#$
+TSisUsuarioFch.cbxPastDue=Payment Past Due~!@#$Pagamento Vencido~!@#$Pago Vencido~!@#$
+TSisUsuarioFch.cbxPayApp=Acc. Payable to Approve~!@#$Ctas.A Pagar para Aprovar~!@#$Ctas.Por Pagar para Aprobar~!@#$
+TSisUsuarioFch.cbxRecApp=Acc. Receivable to Approve~!@#$Ctas.A Receber para Aprovar~!@#$Ctas.Por Recibir para Aprobar~!@#$
+TSisUsuarioFch.cbxTotalSales=Total Sales~!@#$Total Vendas~!@#$Total Ventas~!@#$
+TSisUsuarioFch.dxDBGridMaskColumn1=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisUsuarioFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisUsuarioFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisUsuarioFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisUsuarioFch.grdMembroGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisUsuarioFch.Label1=Login :~!@#$Login :~!@#$Login :~!@#$
+TSisUsuarioFch.Label10=No member of :~!@#$Não membro de :~!@#$No miembro de :~!@#$
+TSisUsuarioFch.Label11=User Type (Main Retail) :~!@#$Tipo Usuário (Main Retail) :~!@#$Tipo Usuario (Main Retail) :~!@#$
+TSisUsuarioFch.Label2=Full Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TSisUsuarioFch.Label3=Password :~!@#$Senha :~!@#$Contraseña :~!@#$
+TSisUsuarioFch.Label4=Confirm password :~!@#$Confirmar Senha :~!@#$Confirmar Contraseña :~!@#$
+TSisUsuarioFch.Label8=The password is not sensitive of (caps lock).~!@#$A senha não é suscetível à tecla de maiúscula~!@#$La contraseña no es susceptible a la tecla de mayúscula~!@#$
+TSisUsuarioFch.Label9=Member of :~!@#$Membro de :~!@#$Miembro de :~!@#$
+TSisUsuarioFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisUsuarioFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TSisUsuarioFch.lblPTitulo=User~!@#$Usuário~!@#$Usuario~!@#$
+TSisUsuarioFch.lblPTituloShadow=User~!@#$Usuário~!@#$Usuario~!@#$
+TSisUsuarioFch.tsCadastro=Identification~!@#$Identificação~!@#$Identificación~!@#$
+TSisUsuarioFch.tsGrupo=Groups~!@#$Grupos~!@#$Grupos~!@#$
+TSisUsuarioFch.TSisUsuarioFch=SisUsuarioFch~!@#$SisUsuárioFch~!@#$SisUsuarioFch~!@#$
+TSisUsuarioFch.tsQuickInfo=Quick Info~!@#$Rápida Info~!@#$Rápida Info~!@#$
+
+[DisplayLabels]
+TSisUsuarioFch.quFormCodigoUsuario=CodigoUsuario~!@#$CódigoUsuário~!@#$CódigoUsuario~!@#$
+TSisUsuarioFch.quFormContadorClasse=ContadorClasse~!@#$ClasseContador~!@#$ClaseContador ~!@#$
+TSisUsuarioFch.quFormIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TSisUsuarioFch.quFormIDUsuario=IDUsuario~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TSisUsuarioFch.quFormSenha=Senha~!@#$Senha~!@#$Contraseña~!@#$
+TSisUsuarioFch.quFormUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TSisUsuarioFch.quMembroDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TSisUsuarioFch.quMembroGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisUsuarioFch.quMembroHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TSisUsuarioFch.quMembroIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisUsuarioFch.quNaoMembroGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisUsuarioFch.quNaoMembroIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+
+[Hints]
+TSisUsuarioFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TSisUsuarioFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TSisUsuarioFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TSisUsuarioFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TSisUsuarioFch.btOK=~!@#$~!@#$~!@#$
+TSisUsuarioFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TSisUsuarioFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

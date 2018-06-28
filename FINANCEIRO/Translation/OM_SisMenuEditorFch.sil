@@ -1,0 +1,86 @@
+[Captions]
+TSisMenuEditorFch.btAcaoNova=New~!@#$Novo~!@#$Nuevo~!@#$
+TSisMenuEditorFch.btAcaoRemove=Remove~!@#$Remover~!@#$Remover~!@#$
+TSisMenuEditorFch.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TSisMenuEditorFch.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TSisMenuEditorFch.btOperacaoPost=Post~!@#$Fixar~!@#$Fijar~!@#$
+TSisMenuEditorFch.Button1=Save~!@#$Salvar~!@#$Guardar~!@#$
+TSisMenuEditorFch.Button2=Delete~!@#$Eliminar~!@#$Eliminar~!@#$
+TSisMenuEditorFch.Button3=New~!@#$Novo~!@#$Nuevo~!@#$
+TSisMenuEditorFch.DBCheckBox1=Show menu~!@#$Mostrar Menú~!@#$Mostrar Menú~!@#$
+TSisMenuEditorFch.dxDBGrid1Acessa=Permissao~!@#$Permissão~!@#$Permiso~!@#$
+TSisMenuEditorFch.dxDBGrid1Grupo=Operacao~!@#$Operação~!@#$Operación~!@#$
+TSisMenuEditorFch.dxDBGridCheckColumn1=Acessa~!@#$Acessa~!@#$Accede~!@#$
+TSisMenuEditorFch.dxDBGridMaskColumn1=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisMenuEditorFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.grdAcaoIDOperacao=ID~!@#$ID~!@#$ID~!@#$
+TSisMenuEditorFch.grdAcaoOperacao=Operation~!@#$Operação~!@#$Operación~!@#$
+TSisMenuEditorFch.Label1=MenuItem~!@#$MenúItem~!@#$MenúItem~!@#$
+TSisMenuEditorFch.Label10=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagem~!@#$
+TSisMenuEditorFch.Label11=Language~!@#$Língua~!@#$Idioma~!@#$
+TSisMenuEditorFch.Label2=FormID~!@#$FormaID~!@#$FormaID~!@#$
+TSisMenuEditorFch.Label3=LoaderType~!@#$Tipo Carga~!@#$Tipo Carga~!@#$
+TSisMenuEditorFch.Label4=Params~!@#$Parámetros~!@#$Parámetros~!@#$
+TSisMenuEditorFch.Label5=Priority~!@#$Prioridade~!@#$Prioridad~!@#$
+TSisMenuEditorFch.Label6=Parent~!@#$Parent~!@#$Parent~!@#$
+TSisMenuEditorFch.Label7=OBS~!@#$OBS~!@#$OBS~!@#$
+TSisMenuEditorFch.Label8=TClassName~!@#$TClasseNome~!@#$TClaseNombre~!@#$
+TSisMenuEditorFch.Label9=Menu Preview~!@#$Ver Menú~!@#$Ver Menú~!@#$
+TSisMenuEditorFch.lblPTitulo=Menu edit~!@#$Editar Menú~!@#$Editar Menú~!@#$
+TSisMenuEditorFch.lblPTituloShadow=Menu edit~!@#$Editar Menú~!@#$Editar Menú~!@#$
+TSisMenuEditorFch.Panel1=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.Panel2=Permission(s)~!@#$Permissões~!@#$Permiso (s)~!@#$
+TSisMenuEditorFch.Panel3=Group(s) of access~!@#$Grupo(s) de Acesso~!@#$Grupo(s) de Acceso~!@#$
+TSisMenuEditorFch.Panel4=Operation~!@#$Operação~!@#$Operación~!@#$
+TSisMenuEditorFch.Panel5=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.pnlPBarra=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TSisMenuEditorFch.TabSheet1=Advanced Config~!@#$Config Avançada~!@#$Config Avanzada~!@#$
+TSisMenuEditorFch.tsAcesso=Access control~!@#$Control Acesso~!@#$Control Acceso~!@#$
+TSisMenuEditorFch.TSisMenuEditorFch=SisMenuEditorFch~!@#$SisMenúEditorFch~!@#$SisMenúEditorFch~!@#$
+TSisMenuEditorFch.tsOperacao=Operation~!@#$Operação~!@#$Operación~!@#$
+
+[DisplayLabels]
+TSisMenuEditorFch.BooleanField1=MenuBarBefore~!@#$BarraMenúAnterior~!@#$BarraMenúAnterior~!@#$
+TSisMenuEditorFch.IntegerField1=IDMenuItem~!@#$IDItemMenú~!@#$IDItemMenú~!@#$
+TSisMenuEditorFch.IntegerField2=FormID~!@#$FormaID~!@#$FormaID~!@#$
+TSisMenuEditorFch.IntegerField3=IDMenuItemParent~!@#$IDItemMenúParent~!@#$IDItemMenúParent~!@#$
+TSisMenuEditorFch.IntegerField4=LoaderType~!@#$Tipo Carga~!@#$Tipo Carga~!@#$
+TSisMenuEditorFch.IntegerField6=Priority~!@#$Prioridade~!@#$Prioridade~!@#$
+TSisMenuEditorFch.quGrupoAcessa=Acessa~!@#$Acessa~!@#$Accede~!@#$
+TSisMenuEditorFch.quGrupoGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisMenuEditorFch.quGrupoIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisMenuEditorFch.quGrupoIDMenuItem=IDMenuItem~!@#$IDItemMenú~!@#$IDItemMenú~!@#$
+TSisMenuEditorFch.quMenuItemClassName=ClassName~!@#$NomeClasse~!@#$NombreClase~!@#$
+TSisMenuEditorFch.quMenuItemFormID=FormID~!@#$FormaID~!@#$FormaID~!@#$
+TSisMenuEditorFch.quMenuItemIDMenuItem=IDMenuItem~!@#$IDMenúItem~!@#$IDMenúItem~!@#$
+TSisMenuEditorFch.quMenuItemIDMenuItemParent=IDMenuItemParent~!@#$IDItemMenúParent~!@#$IDItemMenúParent~!@#$
+TSisMenuEditorFch.quMenuItemImageIndex=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagem~!@#$
+TSisMenuEditorFch.quMenuItemLoaderType=LoaderType~!@#$Tipo Carga~!@#$Tipo Carga~!@#$
+TSisMenuEditorFch.quMenuItemMenuBarBefore=MenuBarBefore~!@#$BarraMenúAnterior~!@#$BarraMenúAnterior~!@#$
+TSisMenuEditorFch.quMenuItemMenuItem=MenuItem~!@#$MenúItem~!@#$MenúItem~!@#$
+TSisMenuEditorFch.quMenuItemObs=Obs~!@#$Obs~!@#$Obs~!@#$
+TSisMenuEditorFch.quMenuItemParametro=Parametro~!@#$Parámetro~!@#$Parámetro~!@#$
+TSisMenuEditorFch.quMenuItemPriority=Priority~!@#$Prioridade~!@#$Prioridad~!@#$
+TSisMenuEditorFch.quOperacaoIDMenuItem=IDMenuItem~!@#$IDItemMenú~!@#$IDItemMenú~!@#$
+TSisMenuEditorFch.quOperacaoIDOperacao=IDOperacao~!@#$IDOperação~!@#$IDOperación~!@#$
+TSisMenuEditorFch.quOperacaoOperacao=Operacao~!@#$Operação~!@#$Operación~!@#$
+TSisMenuEditorFch.quOperacaoPermissaoIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisMenuEditorFch.quOperacaoPermissaoIDMenuItem=IDMenuItem~!@#$IDItemMenú~!@#$IDItemMenú~!@#$
+TSisMenuEditorFch.quOperacaoPermissaoIDOperacao=IDOperacao~!@#$IDOperação~!@#$IDOperación~!@#$
+TSisMenuEditorFch.quOperacaoPermissaoOperacao=Operacao~!@#$Operação~!@#$Operación~!@#$
+TSisMenuEditorFch.quOperacaoPermissaoPermissao=Permissao~!@#$Permissão~!@#$Permiso~!@#$
+TSisMenuEditorFch.StringField1=MenuItem~!@#$ItemMenú~!@#$ItemMenú~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,49 @@
+[Captions]
+TbrwFrmSpecialPrice.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmSpecialPrice.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmSpecialPrice.Label1=IDSpecialPrice~!@#$IDPreçoEspecial :~!@#$IDPrecioEspecial :~!@#$
+TbrwFrmSpecialPrice.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmSpecialPrice.Label2=Special Price~!@#$Preço Especial :~!@#$Precio Especial :~!@#$
+TbrwFrmSpecialPrice.Label4=Maximun :~!@#$Máximo :~!@#$Máximo :~!@#$
+TbrwFrmSpecialPrice.Label5=Minimun :~!@#$Mínimo :~!@#$Mínimo :~!@#$
+TbrwFrmSpecialPrice.Label6=Average :~!@#$Média : ~!@#$Promedio :~!@#$
+TbrwFrmSpecialPrice.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmSpecialPrice.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmSpecialPrice.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmSpecialPrice.Panel7=Actual Inventory Mark-Ups~!@#$Margem Atual do Estoque~!@#$Margen Actual Inventario~!@#$
+TbrwFrmSpecialPrice.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmSpecialPrice.TbrwFrmSpecialPrice=User Types~!@#$Usuário~!@#$Usuario~!@#$
+
+[DisplayLabels]
+TbrwFrmSpecialPrice.quFormIDSpecialPrice=IDSpecialPrice~!@#$IDPreçoEspecial~!@#$IDPrecioEspecial~!@#$
+TbrwFrmSpecialPrice.quFormSpecialPrice=SpecialPrice~!@#$Preço Especial~!@#$PrecioEspecial~!@#$
+TbrwFrmSpecialPrice.quMarkUpAvgMarkUp=AvgMarkUp~!@#$MargemMédia~!@#$MargenPromedio~!@#$
+TbrwFrmSpecialPrice.quMarkUpMaxMarkUp=MaxMarkUp~!@#$MargemMáx~!@#$MargenMáx~!@#$
+TbrwFrmSpecialPrice.quMarkUpMinMarkUp=MinMarkUp~!@#$MargemMín~!@#$MargenMín~!@#$
+TbrwFrmSpecialPrice.quSaleHistoryMarkUp=Sales MarkUp~!@#$Margem Vendas~!@#$Margen Ventas~!@#$
+TbrwFrmSpecialPrice.quSaleHistoryMonth=Month~!@#$Mês~!@#$Mes~!@#$
+TbrwFrmSpecialPrice.quSaleHistoryMonthName=Month~!@#$Mês~!@#$Mes~!@#$
+TbrwFrmSpecialPrice.quSaleHistoryTotCost=TotCost~!@#$TotCusto~!@#$TotCosto~!@#$
+TbrwFrmSpecialPrice.quSaleHistoryTotSale=TotSale~!@#$TotVenda~!@#$TotVenta~!@#$
+TbrwFrmSpecialPrice.quSaleHistoryYear=Year~!@#$Ano~!@#$Año~!@#$
+TbrwFrmSpecialPrice.quSpecialPriceToGroupCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TbrwFrmSpecialPrice.quSpecialPriceToGroupIDGroup=IDGroup~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TbrwFrmSpecialPrice.quSpecialPriceToGroupIDSpecialPrice=IDSpecialPrice~!@#$IDPreçoEspecial~!@#$IDPrecioEspecial~!@#$
+TbrwFrmSpecialPrice.quSpecialPriceToGroupSpecialMarkUp=SpecialMarkUp~!@#$Margem Especial~!@#$MargenEspecial~!@#$
+
+[Hints]
+TbrwFrmSpecialPrice.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmSpecialPrice.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmSpecialPrice.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmSpecialPrice.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmSpecialPrice.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmSpecialPrice.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

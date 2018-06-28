@@ -1,0 +1,105 @@
+[Captions]
+TFinFluxoCaixa.btDetalhe=Detail~!@#$Detalhe~!@#$Detalle~!@#$
+TFinFluxoCaixa.btGo=&GO!~!@#$&IR! ~!@#$&IR! ~!@#$
+TFinFluxoCaixa.btMostra=Show records~!@#$Mostrar Registros~!@#$Mostrar Registros~!@#$
+TFinFluxoCaixa.btNehumDetalhe=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinFluxoCaixa.btPrint=&Print~!@#$Im&primir~!@#$Im&primir~!@#$
+TFinFluxoCaixa.btSelEmpresa=select one or more companies~!@#$Selecionar uma ou mais empresas~!@#$Seleccionar una o más empresas~!@#$
+TFinFluxoCaixa.btTodaPessoa=All~!@#$Tudo~!@#$Todo~!@#$
+TFinFluxoCaixa.btTodoCC=All~!@#$Tudo~!@#$Todo~!@#$
+TFinFluxoCaixa.btTodosDetalhes=All~!@#$Tudo~!@#$Todo~!@#$
+TFinFluxoCaixa.btTodoTL=All~!@#$Tudo~!@#$Todo~!@#$
+TFinFluxoCaixa.btTodoTP=All~!@#$Tudo~!@#$Todo~!@#$
+TFinFluxoCaixa.Button1=All~!@#$Tudo~!@#$Todo~!@#$
+TFinFluxoCaixa.Button2=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinFluxoCaixa.cbCentroCusto=Show cost center~!@#$Mostrar Centro Custos~!@#$Mostrar Centro Costos~!@#$
+TFinFluxoCaixa.cbEmpresa=Show company~!@#$Mostrar Empresa~!@#$Mostrar Empresa~!@#$
+TFinFluxoCaixa.cbLancamentoTipo=Show record type~!@#$Mostrar Tipo Registro~!@#$Mostrar Tipo Registro~!@#$
+TFinFluxoCaixa.cbPessoa=Show entity~!@#$Mostrar Entidade~!@#$Mostrar Entidad~!@#$
+TFinFluxoCaixa.cbPessoaTipo=Show entity type~!@#$Mostrar Tipo Entidade~!@#$Mostrar Tipo Entidad~!@#$
+TFinFluxoCaixa.cbSubCC=Sub Level~!@#$Sub Nível~!@#$Sub Nivel~!@#$
+TFinFluxoCaixa.cbSubLT=Sub Level~!@#$Sub Nível~!@#$Sub Nivel~!@#$
+TFinFluxoCaixa.grdFluxoCaixaCentroCusto=Cost Center~!@#$Centro Custos~!@#$Centro Costos~!@#$
+TFinFluxoCaixa.grdFluxoCaixaCodigoEmpresa=Company~!@#$Empresa~!@#$Empresa~!@#$
+TFinFluxoCaixa.grdFluxoCaixaCredito=Credit~!@#$Crédito~!@#$Crédito~!@#$
+TFinFluxoCaixa.grdFluxoCaixaData=Date~!@#$Data~!@#$Fecha~!@#$
+TFinFluxoCaixa.grdFluxoCaixaDebito=Debit~!@#$Débito~!@#$Débito~!@#$
+TFinFluxoCaixa.grdFluxoCaixaLancamentoTipo=Record Type~!@#$Tipo Registro~!@#$Tipo Registro~!@#$
+TFinFluxoCaixa.grdFluxoCaixaPessoa=Entity~!@#$Entidade~!@#$Entidad~!@#$
+TFinFluxoCaixa.grdFluxoCaixaPessoaTipo=Entity Type~!@#$Tipo Entidade~!@#$Tipo Entidad~!@#$
+TFinFluxoCaixa.grdFluxoCaixaSaldo=Balance~!@#$Saldo~!@#$Saldo~!@#$
+TFinFluxoCaixa.grdLancamentoDataEmissao=IssueDate~!@#$DataEmissão~!@#$FechaEmisión~!@#$
+TFinFluxoCaixa.grdLancamentoDataVencimento=DueDate~!@#$DataVencimento~!@#$FechaVencimiento~!@#$
+TFinFluxoCaixa.grdLancamentoIDLancamento=Record ID~!@#$Registro ID~!@#$Registro ID~!@#$
+TFinFluxoCaixa.grdLancamentoLancamentoTipo=RecordType~!@#$TipoRegistro~!@#$TipoRegistro~!@#$
+TFinFluxoCaixa.grdLancamentoPessoa=Entity~!@#$Entidade~!@#$Entidad~!@#$
+TFinFluxoCaixa.grdLancamentoTotalQuitado=Paid~!@#$Pago~!@#$Pagado~!@#$
+TFinFluxoCaixa.grdLancamentoValorNominal=Amount~!@#$Valor~!@#$Monto~!@#$
+TFinFluxoCaixa.Label1=User balance  :~!@#$Saldo Usuário :~!@#$Saldo Usuario :~!@#$
+TFinFluxoCaixa.Label10=Entity :~!@#$Entidade :~!@#$Entidad :~!@#$
+TFinFluxoCaixa.Label11=If the user balance is left blank, accounts balance will be used instead.~!@#$Se o Saldo Usuário não for preenchido, será usado o saldo anterior recebido. ~!@#$Si el Saldo Usuario no es llenado, será usado en vez de eso el saldo de las cuentas.~!@#$
+TFinFluxoCaixa.Label2=Cost Center :~!@#$Centro Custos :~!@#$Centro Costos :~!@#$
+TFinFluxoCaixa.Label3=Start Date :~!@#$Data Inicio :~!@#$Fecha Inicio :~!@#$
+TFinFluxoCaixa.Label4=End Date :~!@#$Data Término :~!@#$Fecha Término :~!@#$
+TFinFluxoCaixa.Label5=Grouping :~!@#$Agrupar :~!@#$Agrupar :~!@#$
+TFinFluxoCaixa.Label6=Record type :~!@#$Tipo Registro :~!@#$Tipo Registro :~!@#$
+TFinFluxoCaixa.Label7=Entity type :~!@#$Tipo Entidade :~!@#$Tipo Entidad :~!@#$
+TFinFluxoCaixa.Label8=Balance of all Bank Accounts, on start date :~!@#$Saldo de todas as Contas Bancarias, com data de inicio :~!@#$Saldo de todas las Cuentas Bancarias, con fecha de inicio :~!@#$
+TFinFluxoCaixa.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinFluxoCaixa.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinFluxoCaixa.pnlAviso=pnlAviso~!@#$pnlAviso~!@#$pnlAviso~!@#$
+TFinFluxoCaixa.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinFluxoCaixa.pnlBrwCmd=pnlBrwCmd~!@#$pnlBrwCmd~!@#$pnlBrwCmd~!@#$
+TFinFluxoCaixa.pnlBrwTitle=Records of selected group~!@#$Registro de grupo selecionado~!@#$Registro de grupo seleccionado~!@#$
+TFinFluxoCaixa.pnlEmpresa=pnlEmpresa~!@#$pnlEmpresa~!@#$pnlEmpresa~!@#$
+TFinFluxoCaixa.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinFluxoCaixa.pnlLancamento=pnlLancamento~!@#$pnlLançamento~!@#$pnlContabilización~!@#$
+TFinFluxoCaixa.SpeedButton1=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFinFluxoCaixa.SpeedButton2=New~!@#$Novo~!@#$Nuevo~!@#$
+TFinFluxoCaixa.TFinFluxoCaixa=Fluxo de Caixa~!@#$Fluxo de Caixa~!@#$Flujo de Caja~!@#$
+TFinFluxoCaixa.tsBasico=Basic~!@#$Básico~!@#$Básico~!@#$
+TFinFluxoCaixa.tsDetalhe=Details~!@#$Detalhes~!@#$Detalles~!@#$
+TFinFluxoCaixa.tsFiltro=Filters~!@#$Filtros~!@#$Filtros~!@#$
+TFinFluxoCaixa.chkInterest=Add Interest~!@#$Calcular c/ Juros~!@#$Adic. Juros~!@#$
+TFinFluxoCaixa.chkOpenRecord=Paid records~!@#$Somente lançamentos em aberto~!@#$Registros em aberto~!@#$
+
+[DisplayLabels]
+TFinFluxoCaixa.quFluxoCaixaAno=Ano~!@#$Ano~!@#$Año~!@#$
+TFinFluxoCaixa.quFluxoCaixaCentroCusto=CentroCusto~!@#$CentroCusto~!@#$CentroCostos~!@#$
+TFinFluxoCaixa.quFluxoCaixaCodigoEmpresa=Empresa~!@#$Empresa~!@#$Empresa~!@#$
+TFinFluxoCaixa.quFluxoCaixaCredito=Credito~!@#$Crédito~!@#$Crédito~!@#$
+TFinFluxoCaixa.quFluxoCaixaData=Data~!@#$Data~!@#$Fecha~!@#$
+TFinFluxoCaixa.quFluxoCaixaDebito=Debito~!@#$Débito~!@#$Débito~!@#$
+TFinFluxoCaixa.quFluxoCaixagrao=grao~!@#$grão~!@#$grano~!@#$
+TFinFluxoCaixa.quFluxoCaixaIDCentroCusto=IDCentroCusto~!@#$IDCentroCusto~!@#$IdCentroCostos~!@#$
+TFinFluxoCaixa.quFluxoCaixaIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TFinFluxoCaixa.quFluxoCaixaIDLancamentoTipo=IDLancamentoTipo~!@#$IDTipoLançamento~!@#$IDTipoContabilización~!@#$
+TFinFluxoCaixa.quFluxoCaixaIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFinFluxoCaixa.quFluxoCaixaIDPessoaTipo=IDTipoPessoa~!@#$IDTipoPessoa~!@#$IDTipoPersona~!@#$
+TFinFluxoCaixa.quFluxoCaixaLancamentoTipo=LancamentoTipo~!@#$TipoLançamento~!@#$TipoContabilización~!@#$
+TFinFluxoCaixa.quFluxoCaixaPessoa=Pessoa~!@#$Pessoa~!@#$Persona~!@#$
+TFinFluxoCaixa.quFluxoCaixaPessoaTipo=TipoPessoa~!@#$TipoPessoa~!@#$TipoPersona~!@#$
+TFinFluxoCaixa.quFluxoCaixaSaldo=Saldo~!@#$Saldo~!@#$Saldo~!@#$
+TFinFluxoCaixa.quLancamentoCentroCusto=CentroCusto~!@#$CentroCusto~!@#$CentroCostos~!@#$
+TFinFluxoCaixa.quLancamentoDataEmissao=Record Date~!@#$DataRegistro~!@#$FechaRegistro~!@#$
+TFinFluxoCaixa.quLancamentoDataVencimento=Vencimento~!@#$Vencimento~!@#$Vencimiento~!@#$
+TFinFluxoCaixa.quLancamentoIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFinFluxoCaixa.quLancamentoLancamentoTipo=LancamentoTipo~!@#$TipoLançamento~!@#$TipoContabilización~!@#$
+TFinFluxoCaixa.quLancamentoPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TFinFluxoCaixa.quLancamentoPessoa=Pessoa~!@#$Pessoa~!@#$Persona~!@#$
+TFinFluxoCaixa.quLancamentoTotalQuitado=Quitado~!@#$Pago~!@#$Pagado~!@#$
+TFinFluxoCaixa.quLancamentoValorNominal=Valor~!@#$Valor~!@#$Valor~!@#$
+TFinFluxoCaixa.quSaldoSaldo=Saldo~!@#$Saldo~!@#$Saldo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TFinFluxoCaixa.cmbGranulacao.Items=Yearly,Monthly,Weekly,Daily~!@#$Anual,Mensal,Semanal,Diário~!@#$Anual,Mensual,Semanal,Diário~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

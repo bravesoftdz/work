@@ -1,0 +1,20 @@
+[Captions]
+TFrmAddKitItems.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmAddKitItems.btnSave=&Save~!@#$&Salvar~!@#$Guardar~!@#$
+TFrmAddKitItems.grdBrowseKitItemDBDescription=Description~!@#$Descrição~!@#$Descripción ~!@#$
+TFrmAddKitItems.grdBrowseKitItemDBMarked=Marked~!@#$Marcar~!@#$Marcar~!@#$
+TFrmAddKitItems.grdBrowseKitItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmAddKitItems.grdBrowseKitItemDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmAddKitItems.grdBrowseKitItemDBSellingPrice=SellingPrice~!@#$Prç Venda~!@#$Prc Venta~!@#$
+TFrmAddKitItems.grdBrowseKitItemLevel=~!@#$~!@#$~!@#$
+TFrmAddKitItems.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmAddKitItems.TFrmAddKitItems=Kit-Items~!@#$Kit-Itens~!@#$Kit-Itens~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

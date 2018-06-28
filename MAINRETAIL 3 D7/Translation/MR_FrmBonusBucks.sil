@@ -1,0 +1,52 @@
+[Captions]
+TFrmBonusBucks.btCalendarAll=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmBonusBucks.btClose=&Close~!@#$&Fechar~!@#$&Cierre~!@#$
+TFrmBonusBucks.btColumn=Colum&ns~!@#$Colunas~!@#$Columnas~!@#$
+TFrmBonusBucks.btExcel=E&xport~!@#$Exportar~!@#$Exportación~!@#$
+TFrmBonusBucks.btGroup=&Grouping~!@#$Agrupar~!@#$El agrupar~!@#$
+TFrmBonusBucks.btnApplyCalendar=Apply Calendar~!@#$Aplicar Calendario~!@#$Aplicar el calendario~!@#$
+TFrmBonusBucks.btnApplyCalendarAll=Apply Calendar All~!@#$Aplicar calen. todos~!@#$Aplicar el calendario todo~!@#$
+TFrmBonusBucks.btnApplyPercAll=Apply (%) All~!@#$Aplicar (%) todos~!@#$Aplicar (%) todos~!@#$
+TFrmBonusBucks.btnCategAll=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmBonusBucks.btnGroupAll=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmBonusBucks.btnHideFilter=Hide filter~!@#$Sem filtro~!@#$Sin filtro~!@#$
+TFrmBonusBucks.btnRemoveAllCalendar=Remove All Calendar~!@#$Remover calen. todos~!@#$~!@#$
+TFrmBonusBucks.btnRemoveCalendar=Remove Calendar~!@#$Remover calendario~!@#$Remover Calendario~!@#$
+TFrmBonusBucks.btnSave=&Save~!@#$Salvar~!@#$Excepto~!@#$
+TFrmBonusBucks.btnShowFilter=Show filter~!@#$Com filtro~!@#$Con filtro~!@#$
+TFrmBonusBucks.btnSubGroupAll=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmBonusBucks.btSearch=&Search~!@#$Busca~!@#$Búsqueda~!@#$
+TFrmBonusBucks.cxGridDBTableViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmBonusBucks.cxGridDBTableViewDiscountPerc=DiscountPerc~!@#$Percentual de desconto~!@#$Por ciento del descuento~!@#$
+TFrmBonusBucks.cxGridDBTableViewEndDate=EndDate~!@#$Data Final~!@#$Fecha del extremo~!@#$
+TFrmBonusBucks.cxGridDBTableViewStartDate=StartDate~!@#$Data de Inicio~!@#$Comenzar fecha~!@#$
+TFrmBonusBucks.grdRebateItemDBTableViewCategoria=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmBonusBucks.grdRebateItemDBTableViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmBonusBucks.grdRebateItemDBTableViewDiscountPerc=DiscountPerc~!@#$Percentual de desconto~!@#$Por ciento del descuento~!@#$
+TFrmBonusBucks.grdRebateItemDBTableViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmBonusBucks.grdRebateItemDBTableViewModelGroup=ModelGroup~!@#$Grupo~!@#$Grupo~!@#$
+TFrmBonusBucks.grdRebateItemDBTableViewModelSubGroup=ModelSubGroup~!@#$Sub Grupo~!@#$Grupo secundario~!@#$
+TFrmBonusBucks.Label15=User:~!@#$Usuario:~!@#$Usuario:~!@#$
+TFrmBonusBucks.lbCategory=Category :~!@#$Categoria :~!@#$~!@#$
+TFrmBonusBucks.lbGroup=Sub-Category :~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmBonusBucks.lblCalendar=Calendar :~!@#$Calendário :~!@#$Calendario :~!@#$
+TFrmBonusBucks.lblDaysToExpireBonus=Expiration days :~!@#$Dias para expirar :~!@#$Días de la expiración :~!@#$
+TFrmBonusBucks.lblDaysToUseBonus=Days to use coupon :~!@#$Dias para usar :~!@#$Días a utilizar :~!@#$
+TFrmBonusBucks.lblMinSaleValue=Min sale value :~!@#$Valor min venda :~!@#$Valor venta min :~!@#$
+TFrmBonusBucks.lblPercent=Percent (%) :~!@#$Percentual (%) :~!@#$Por ciento :~!@#$
+TFrmBonusBucks.lblRedeemed=Redeemed (%) :~!@#$Dedução (%) :~!@#$Deducción :~!@#$
+TFrmBonusBucks.lbStore=Store :~!@#$Loja :~!@#$Almacén :~!@#$
+TFrmBonusBucks.lbSubGroup=Group :~!@#$Sub Grupo :~!@#$Grupo secundario :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmBonusBucks.cbxMethod.Items="Start with","End with",Contains~!@#$"Começe com","Termine com",Contenha~!@#$Inicia,Termina,Ter~!@#$
+TFrmBonusBucks.cbxType.Items=Model,Description,"Vendor Code"~!@#$Modelo,Descrição,"Cód. Fornec."~!@#$Model,Descripción,"Cód. Fornec."~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

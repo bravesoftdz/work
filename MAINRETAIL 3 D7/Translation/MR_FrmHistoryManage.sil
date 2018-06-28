@@ -1,0 +1,27 @@
+[Captions]
+TFrmHistoryManage.btAdd=&Add   ~!@#$&Adicionar~!@#$Ana&dir~!@#$
+TFrmHistoryManage.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmHistoryManage.grdHistoryDBHistoryType=HistoryType~!@#$Tipo Histórico~!@#$Tipo Historico~!@#$
+TFrmHistoryManage.grdHistoryDBMovDate=MovDate~!@#$Data~!@#$Fecha~!@#$
+TFrmHistoryManage.grdHistoryDBOBS=OBS~!@#$OBS~!@#$OBS~!@#$
+TFrmHistoryManage.grdHistoryDBSystemUser=SystemUser~!@#$Usuário~!@#$Usuário~!@#$
+TFrmHistoryManage.grdHistoryDBSaleCode=SaleCode~!@#$Pedido~!@#$Boleta~!@#$
+
+TFrmHistoryManage.sbHelp=&Help~!@#$A&juda~!@#$Ayuda~!@#$
+TFrmHistoryManage.TFrmHistoryManage=History Manage~!@#$Histórico~!@#$Historico~!@#$
+
+[DisplayLabels]
+TFrmHistoryManage.quHistoryHistoryType=HistoryType~!@#$Tipo Histórico~!@#$Tipo Historico~!@#$
+TFrmHistoryManage.quHistoryMovDate=Date~!@#$Data~!@#$Fetch~!@#$
+TFrmHistoryManage.quHistoryOBS=OBS~!@#$OBS~!@#$OBS~!@#$
+TFrmHistoryManage.quHistorySaleCode=SaleCode~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TFrmHistoryManage.quHistorySystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

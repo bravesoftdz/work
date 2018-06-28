@@ -1,0 +1,89 @@
+[Captions]
+TbrwCashRegMov.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwCashRegMov.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TbrwCashRegMov.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwCashRegMov.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwCashRegMov.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwCashRegMov.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwCashRegMov.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwCashRegMov.btInvoice=&Invoices~!@#$No&tas~!@#$Bole&tas~!@#$
+TbrwCashRegMov.btManage=&Manage~!@#$Admini&strar~!@#$Admini&strar~!@#$
+TbrwCashRegMov.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwCashRegMov.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwCashRegMov.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwCashRegMov.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwCashRegMov.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwCashRegMov.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwCashRegMov.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwCashRegMov.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwCashRegMov.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwCashRegMov.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwCashRegMov.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwCashRegMov.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwCashRegMov.btTotals=&Totals~!@#$&Totais~!@#$&Totales~!@#$
+TbrwCashRegMov.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwCashRegMov.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwCashRegMov.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwCashRegMov.grdBrowseDBCashRegister=CashRegister~!@#$Caixa~!@#$CajaRegistradora~!@#$
+TbrwCashRegMov.grdBrowseDBCashRegStatus=Status~!@#$Status~!@#$Status~!@#$
+TbrwCashRegMov.grdBrowseDBDifference=Difference~!@#$Diferença~!@#$Diferencia~!@#$
+TbrwCashRegMov.grdBrowseDBIDCashRegMov=IDMov~!@#$IDMov~!@#$IDMov~!@#$
+TbrwCashRegMov.grdBrowseDBIDCashRegStatus=IDCashRegStatus~!@#$IDEstadoCaixaReg~!@#$IDEstadoCajaReg~!@#$
+TbrwCashRegMov.grdBrowseDBOpenTime=OpenTime~!@#$Aberta em~!@#$HoraDeApertura~!@#$
+TbrwCashRegMov.grdBrowseDBSystemUser=OpenUser~!@#$Aberta por~!@#$UsuarioQueAbrio~!@#$
+TbrwCashRegMov.grdBrowseDBTotalDeposit=TotalDeposit~!@#$Total Depositado~!@#$TotalDepositado~!@#$
+TbrwCashRegMov.grdBrowseDBTotalSales=TotalSales~!@#$Total Vendas~!@#$TotalVentas~!@#$
+TbrwCashRegMov.grdBrowseDBTotalPetty=TotalPettyCash~!@#$Total Retirado~!@#$Total Retirado~!@#$
+TbrwCashRegMov.grdBrowseDBTotalPayIn=TotalPayIn~!@#$Total Suprimento~!@#$Total C. Peque~!@#$
+TbrwCashRegMov.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwCashRegMov.lbFrom=From :~!@#$Aberto desde :~!@#$Desde :~!@#$
+TbrwCashRegMov.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwCashRegMov.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwCashRegMov.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwCashRegMov.lbTo=To :~!@#$Até :~!@#$Hasta :~!@#$
+TbrwCashRegMov.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwCashRegMov.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwCashRegMov.TbrwCashRegMov=brwCashRegMov~!@#$brwMovCaixaReg~!@#$brwMovCajaReg~!@#$
+TbrwCashRegMov.lbCashRegister=Cash Reg.:~!@#$Caixa :~!@#$Caja :~!@#$
+TbrwCashRegMov.btnPrintOffice=Re-Print:~!@#$Re-Imp.~!@#$Re-Imp.~!@#$
+
+[DisplayLabels]
+TbrwCashRegMov.quBrowseCashRegister=CashRegister~!@#$Caixa~!@#$CajaRegistradora~!@#$
+TbrwCashRegMov.quBrowseCashRegStatus=Status~!@#$Estado~!@#$Estado~!@#$
+TbrwCashRegMov.quBrowseDifference=Difference~!@#$Diferença~!@#$Diferencia~!@#$
+TbrwCashRegMov.quBrowseIDCashRegMov=IDMov~!@#$IDMov~!@#$IDMov~!@#$
+TbrwCashRegMov.quBrowseIDCashRegStatus=IDCashRegStatus~!@#$IDEstCaixReg~!@#$IDEstCajReg~!@#$
+TbrwCashRegMov.quBrowseOpenTime=OpenTime~!@#$Aberta em~!@#$HoraDeApertura~!@#$
+TbrwCashRegMov.quBrowseSystemUser=OpenUser~!@#$Aberta por~!@#$UsuarioQueAbrió~!@#$
+TbrwCashRegMov.quBrowseTotalDeposit=TotalDeposit~!@#$Total Depositado ~!@#$TotalDepositado~!@#$
+TbrwCashRegMov.quBrowseTotalSales=TotalSales~!@#$Total Vendas~!@#$TotalVentas~!@#$
+
+[Hints]
+TbrwCashRegMov.btExcel=Export ~!@#$Exportar~!@#$Exportar ~!@#$
+TbrwCashRegMov.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwCashRegMov.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwCashRegMov.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwCashRegMov.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwCashRegMov.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwCashRegMov.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwCashRegMov.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwCashRegMov.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwCashRegMov.btTotals=Reconciled Totals~!@#$Conciliar Totais~!@#$Conciliar Totales~!@#$
+TbrwCashRegMov.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwCashRegMov.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwCashRegMov.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TbrwCashRegMov.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+TbrwCashRegMov.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TbrwCashRegMov.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

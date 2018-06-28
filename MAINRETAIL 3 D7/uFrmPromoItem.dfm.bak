@@ -1,0 +1,294 @@
+inherited FrmPromoItem: TFrmPromoItem
+  Left = 340
+  Top = 207
+  Width = 684
+  Height = 533
+  AutoSize = True
+  BorderIcons = [biSystemMenu]
+  Caption = 'FrmPromoItem'
+  OnClose = FormClose
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel2: TPanel
+    Width = 676
+    inherited Image1: TImage
+      Width = 449
+    end
+    inherited lblMenu: TLabel
+      Left = 460
+    end
+    inherited EspacamentoSuperior: TPanel
+      Width = 676
+      inherited EEE: TPanel
+        Width = 676
+      end
+    end
+  end
+  inherited Panel1: TPanel
+    Top = 465
+    Width = 676
+    inherited EspacamentoInferior: TPanel
+      Width = 676
+      inherited Panel3: TPanel
+        Width = 676
+      end
+    end
+    inherited hhh: TPanel
+      Left = 531
+      Width = 145
+      inherited btClose: TButton
+        Left = 76
+        Width = 64
+        Cancel = True
+        ModalResult = 2
+        OnClick = btCloseClick
+      end
+      object btSave: TButton
+        Left = 6
+        Top = 3
+        Width = 66
+        Height = 31
+        Caption = '&Save'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ModalResult = 1
+        ParentFont = False
+        TabOrder = 1
+        TabStop = False
+        OnClick = btSaveClick
+      end
+    end
+  end
+  inherited EspacamentoEsquerdo: TPanel
+    Top = 119
+    Height = 346
+  end
+  inherited EspacamentoDireito: TPanel
+    Left = 566
+    Top = 119
+    Height = 346
+  end
+  object Panel4: TPanel [4]
+    Left = 0
+    Top = 40
+    Width = 676
+    Height = 79
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 4
+    object lbSearch: TLabel
+      Left = 41
+      Top = 12
+      Width = 63
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Search with :'
+    end
+    object lbVendor: TLabel
+      Left = 63
+      Top = 41
+      Width = 41
+      Height = 13
+      Alignment = taRightJustify
+      Caption = 'Vendor :'
+    end
+    object cbTypeSearch: TComboBox
+      Left = 109
+      Top = 10
+      Width = 112
+      Height = 21
+      ItemHeight = 13
+      ItemIndex = 0
+      TabOrder = 0
+      Text = 'Model'
+      OnChange = cbTypeSearchChange
+      Items.Strings = (
+        'Model'
+        'Barcode'
+        'Vendor SKU')
+    end
+    object edSearch: TEdit
+      Left = 227
+      Top = 10
+      Width = 224
+      Height = 21
+      TabOrder = 1
+      OnKeyPress = edSearchKeyPress
+    end
+    object scVendor: TSuperComboADO
+      Left = 109
+      Top = 40
+      Width = 342
+      Height = 21
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      LookUpSource = DM.dsLookUpFornecedor
+      DropDownRows = 18
+      ShowBtnAddNew = False
+      ShowBtnUpdate = False
+      IDLanguage = 0
+    end
+  end
+  object grdPromoPrizeItem: TcxGrid [5]
+    Left = 3
+    Top = 119
+    Width = 563
+    Height = 346
+    Align = alClient
+    TabOrder = 5
+    LookAndFeel.Kind = lfFlat
+    object grdPromoPrizeItemDB: TcxGridDBTableView
+      DataController.DataSource = dsPromoItems
+      DataController.Filter.Criteria = {FFFFFFFF0000000000}
+      DataController.KeyFieldNames = 'IDModel'
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      Filtering.MaxDropDownCount = 50
+      Filtering.Visible = fvNever
+      OptionsBehavior.IncSearch = True
+      OptionsCustomize.ColumnFiltering = False
+      OptionsData.Deleting = False
+      OptionsData.Editing = False
+      OptionsData.Inserting = False
+      OptionsSelection.CellSelect = False
+      OptionsView.CellEndEllipsis = True
+      OptionsView.ColumnAutoWidth = True
+      OptionsView.GridLines = glHorizontal
+      OptionsView.GroupByBox = False
+      OptionsView.HeaderAutoHeight = True
+      OptionsView.HeaderEndEllipsis = True
+      Preview.AutoHeight = False
+      Preview.MaxLineCount = 2
+      object grdPromoPrizeItemDBModel: TcxGridDBColumn
+        DataBinding.FieldName = 'Model'
+        Width = 114
+      end
+      object grdPromoPrizeItemDBDescription: TcxGridDBColumn
+        DataBinding.FieldName = 'Description'
+        Width = 447
+      end
+    end
+    object grdPromoPrizeItemLevel: TcxGridLevel
+      GridView = grdPromoPrizeItemDB
+    end
+  end
+  object pnlComand: TPanel [6]
+    Left = 569
+    Top = 119
+    Width = 107
+    Height = 346
+    Align = alRight
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 6
+    object btSearch: TSpeedButton
+      Left = 2
+      Top = 45
+      Width = 104
+      Height = 24
+      Caption = '&Search'
+      Flat = True
+      Margin = 3
+      Spacing = 5
+      OnClick = btSearchClick
+    end
+    object btRemove: TSpeedButton
+      Tag = 2
+      Left = 2
+      Top = 69
+      Width = 104
+      Height = 24
+      Caption = 'F4 Re&move'
+      Flat = True
+      Margin = 3
+      Spacing = 5
+      OnClick = btRemoveClick
+    end
+    object btNewItem: TSpeedButton
+      Left = 2
+      Top = 5
+      Width = 104
+      Height = 24
+      Caption = '&New Item'
+      Flat = True
+      Margin = 4
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = btNewItemClick
+    end
+    object Panel6: TPanel
+      Left = -1
+      Top = 37
+      Width = 110
+      Height = 2
+      BevelOuter = bvLowered
+      TabOrder = 0
+    end
+  end
+  inherited siLang: TsiLangRT
+    StorageFile = 'MR_FrmPromoItem.sil'
+    Left = 609
+    Top = 46
+  end
+  object quSearchItem: TADODataSet
+    Connection = DM.ADODBConnect
+    CommandText = 
+      'SELECT'#13#10#9'M.IDModel,'#13#10#9'M.Model,'#13#10#9'M.Description'#13#10'FROM'#13#10#9'Model M (' +
+      'NOLOCK)'
+    Parameters = <>
+    Left = 515
+    Top = 54
+    object quSearchItemIDModel: TIntegerField
+      FieldName = 'IDModel'
+    end
+    object quSearchItemModel: TStringField
+      FieldName = 'Model'
+      Size = 30
+    end
+    object quSearchItemDescription: TStringField
+      FieldName = 'Description'
+      Size = 50
+    end
+  end
+  object cdsPromoItems: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    AfterOpen = cdsPromoItemsAfterOpen
+    AfterPost = cdsPromoItemsAfterOpen
+    AfterDelete = cdsPromoItemsAfterOpen
+    Left = 220
+    Top = 185
+    object cdsPromoItemsIDPRomo: TIntegerField
+      FieldName = 'IDPromo'
+    end
+    object cdsPromoItemsIDPromoItem: TIntegerField
+      FieldName = 'IDPromoItem'
+    end
+    object cdsPromoItemsIDModel: TIntegerField
+      FieldName = 'IDModel'
+    end
+    object cdsPromoItemsModel: TStringField
+      FieldName = 'Model'
+      Size = 30
+    end
+    object cdsPromoItemsDescription: TStringField
+      FieldName = 'Description'
+      Size = 50
+    end
+  end
+  object dsPromoItems: TDataSource
+    DataSet = cdsPromoItems
+    Left = 220
+    Top = 240
+  end
+end

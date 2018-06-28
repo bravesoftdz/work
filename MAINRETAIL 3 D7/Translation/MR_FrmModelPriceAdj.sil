@@ -1,0 +1,81 @@
+[Captions]
+TfrmModelPriceAdj.btClose=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TfrmModelPriceAdj.btFabricanteAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btGroupAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btnCatgAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btnHorizAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btnManuAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btnPriceGo=&GO~!@#$&IR~!@#$&IR~!@#$
+TfrmModelPriceAdj.btnRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TfrmModelPriceAdj.btnSelectAll=Select All~!@#$Selecionar Tudo~!@#$Seleccionar Todo~!@#$
+TfrmModelPriceAdj.btnStoreAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btnSubGroupAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btnVerticalAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.btPriceSelectAll=Select all~!@#$Marcar todos~!@#$Seleccionar todos~!@#$
+TfrmModelPriceAdj.btPriceUnSelectAll=Un select all~!@#$Desmarcar todos~!@#$El un selecciona todos~!@#$
+TfrmModelPriceAdj.btSelectAll=Select all~!@#$Marcar todos~!@#$Seleccione todos~!@#$
+TfrmModelPriceAdj.btUnSelectAll=Un select all~!@#$Desmarcar todos~!@#$Deseleccione todos~!@#$
+TfrmModelPriceAdj.btVendorAll=All~!@#$Tudo~!@#$Todo~!@#$
+TfrmModelPriceAdj.Button1=&OK~!@#$&OK~!@#$&OK~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableDescription=Descrption~!@#$Descrição~!@#$Descripción~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableMark=Update~!@#$Atualizar~!@#$Actualización~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableOriginalSellingPrice=Old Price~!@#$Preço Ant.~!@#$Ant. Precio~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableOrigStoreSellingPrice=Old Price~!@#$Preço Ant.~!@#$Ant .Precio~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableRealMarkUp=Markup (%)~!@#$Markup (%)~!@#$Markup (%)~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableRealStoreMarkUp=Markup (%)~!@#$Markup (%)~!@#$Markup (%)~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableSellingPrice=New Price~!@#$Novo Preço~!@#$Nuevo Precio~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableStoreCostPrice=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableStoreSellingPrice=New Price~!@#$Novo Preço~!@#$Ant. Precio~!@#$
+TfrmModelPriceAdj.gdUpdatePriceDBTableVendorCost=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TfrmModelPriceAdj.grdFloatingTableViewDescription=Description~!@#$Descrição~!@#$Descripción ~!@#$
+TfrmModelPriceAdj.grdFloatingTableViewFloatPercent=Float %~!@#$Flutuação %~!@#$Flotador %~!@#$
+TfrmModelPriceAdj.grdFloatingTableViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TfrmModelPriceAdj.grdFloatingTableViewName=Category~!@#$Categoria~!@#$Categoría~!@#$
+TfrmModelPriceAdj.grdFloatingTableViewPessoa=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TfrmModelPriceAdj.grdPriceRange=Selling Price Range ~!@#$Margem Preço Venda~!@#$Margen Precio Venta~!@#$
+TfrmModelPriceAdj.Label1=Adjust Based on~!@#$Ajuste Basedo Em~!@#$Ajuste Basado En~!@#$
+TfrmModelPriceAdj.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TfrmModelPriceAdj.Label2=Calc Type~!@#$Tipo Cálculo~!@#$Tipo Cálc~!@#$
+TfrmModelPriceAdj.Label4=  List of Categories~!@#$  Lista de Categorias~!@#$  Lista de Categorías~!@#$
+TfrmModelPriceAdj.Label5=From~!@#$Desde~!@#$Desde~!@#$
+TfrmModelPriceAdj.Label6=To~!@#$Até~!@#$Hasta~!@#$
+TfrmModelPriceAdj.lbCate1=Category :~!@#$Categoria : ~!@#$Categoría :~!@#$
+TfrmModelPriceAdj.lbCateg=Category :~!@#$Categoria : ~!@#$Categoría :~!@#$
+TfrmModelPriceAdj.lbDesc=Description : ~!@#$Descrição :~!@#$Descripción :~!@#$
+TfrmModelPriceAdj.lbHor=Horizontal :~!@#$Horizontal :~!@#$Horizontal :~!@#$
+TfrmModelPriceAdj.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TfrmModelPriceAdj.lblStore=Store :~!@#$Loja : ~!@#$Tienda :~!@#$
+TfrmModelPriceAdj.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TfrmModelPriceAdj.lblValue=Percent (%)~!@#$Porcentagem (%)~!@#$Porcentaje (%)~!@#$
+TfrmModelPriceAdj.lbManu=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TfrmModelPriceAdj.lbManu1=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TfrmModelPriceAdj.lbNew=New Price :~!@#$Ajuste :~!@#$Nuevo Precio :~!@#$
+TfrmModelPriceAdj.lbNewFloat=New % :~!@#$Novo % :~!@#$Nuevo % :~!@#$
+TfrmModelPriceAdj.lbSubG=Sub Group:~!@#$Sub Grupo:~!@#$Sub Grupo:~!@#$
+TfrmModelPriceAdj.lbUpdate=Update :~!@#$Atualizar :~!@#$Atualizar :~!@#$
+TfrmModelPriceAdj.lbVer=Vertical :~!@#$Vertical :~!@#$Vertical :~!@#$
+TfrmModelPriceAdj.rbPromoPrice=Promo Price~!@#$Prç Promoção~!@#$Precio Promo~!@#$
+TfrmModelPriceAdj.rbSalePrice=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TfrmModelPriceAdj.TfrmModelPriceAdj=Selling Prices Adjust~!@#$Ajuste Preço Venda~!@#$Ajuste Precio Venta~!@#$
+TfrmModelPriceAdj.tsFloating=  Floating  ~!@#$  Flutuação  ~!@#$  Flotación  ~!@#$
+TfrmModelPriceAdj.tsPrice=  Price Range  ~!@#$  Margem de Preço  ~!@#$  Gama De Precio  ~!@#$
+TfrmModelPriceAdj.tsPricing=  Price  ~!@#$  Preço  ~!@#$  Precio  ~!@#$
+
+[Hints]
+TfrmModelPriceAdj.btnSelectAll=Select all Categories~!@#$Selecione todas as Categorias~!@#$Seleccione todas las Categorías~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TfrmModelPriceAdj.cbxAdjustMode.Items="Markup (%)","Amount ($)"~!@#$"Markup (%)","Valor ($)"~!@#$"Markup (%)","Valor ($)"~!@#$
+TfrmModelPriceAdj.clbCategories.Items=~!@#$~!@#$~!@#$
+TfrmModelPriceAdj.cmbAdjType.Items="Selling Price",Profit~!@#$"Preço Venda",Lucro~!@#$"Precio Venta",Utilidades~!@#$
+TfrmModelPriceAdj.cmbCalcType.Items="Percent (%)","Amount ($)"~!@#$"Porcentagem (%)","Valor ($)"~!@#$"Porcentaje (%)","Valor ($)"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

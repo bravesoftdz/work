@@ -1,0 +1,68 @@
+[Captions]
+TFinContaCorrenteFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinContaCorrenteFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinContaCorrenteFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFinContaCorrenteFch.cbValor=Show Amount~!@#$Mostrar Quantía~!@#$Mostrar Monto~!@#$
+TFinContaCorrenteFch.grdValorData=Date~!@#$Data~!@#$Fecha~!@#$
+TFinContaCorrenteFch.grdValorSaldo=Balance~!@#$Saldo~!@#$Saldo~!@#$
+TFinContaCorrenteFch.Label1=ID :~!@#$ID :~!@#$ID :~!@#$
+TFinContaCorrenteFch.Label14=Last reconciled amount:~!@#$última quantia reconciliada :~!@#$Monto última reconciliación :~!@#$
+TFinContaCorrenteFch.Label19=Show last days balance~!@#$Mostrar saldo últimos días~!@#$Mostrar saldo últimos días~!@#$
+TFinContaCorrenteFch.Label2=Account # :~!@#$Nº Conta :~!@#$Cuenta :~!@#$
+TFinContaCorrenteFch.Label21=Actual balance:~!@#$Saldo Atual :~!@#$Saldo Actual :~!@#$
+TFinContaCorrenteFch.Label3=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFinContaCorrenteFch.Label4=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFinContaCorrenteFch.Label6=Company :~!@#$Empresa :~!@#$Empresa :~!@#$
+TFinContaCorrenteFch.Label7=Last reconciled date:~!@#$Data última reconciliação :~!@#$Fecha última reconciliación :~!@#$
+TFinContaCorrenteFch.Label8=Memo :~!@#$Memo :~!@#$Memo :~!@#$
+TFinContaCorrenteFch.Label9=Opening Date :~!@#$Data Abertura :~!@#$Fecha Apertura :~!@#$
+TFinContaCorrenteFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinContaCorrenteFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegador~!@#$
+TFinContaCorrenteFch.lblPTitulo=Checking Account~!@#$Conta Corrente~!@#$Cuenta Corriente~!@#$
+TFinContaCorrenteFch.lblPTituloShadow=Conta Corrente~!@#$Conta Corrente~!@#$Cuenta Corriente~!@#$
+TFinContaCorrenteFch.TFinContaCorrenteFch=FinContaCorrenteFch~!@#$FinContaCorrenteFch~!@#$FinContaCorrenteFch~!@#$
+TFinContaCorrenteFch.tsCadastro=Register~!@#$Registrar~!@#$Registrar~!@#$
+TFinContaCorrenteFch.tsSaldo=Balance~!@#$Saldo~!@#$Saldo~!@#$
+TFinContaCorrenteFch.lbOwnNumber=Internal Number :~!@#$Nosso Número :~!@#$Nosso Número :~!@#$
+TFinContaCorrenteFch.lbBankBranch=Bank Branch :~!@#$Agência :~!@#$Agência :~!@#$
+TFinContaCorrenteFch.lbPortfolioNum=Portfolio # :~!@#$Carteira :~!@#$Carteira :~!@#$
+
+[DisplayLabels]
+TFinContaCorrenteFch.quFormCodigoContaCorrente=ID~!@#$ID~!@#$ID~!@#$
+TFinContaCorrenteFch.quFormDataAbertura=DataAbertura~!@#$DataAbertura~!@#$FechaApertura~!@#$
+TFinContaCorrenteFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinContaCorrenteFch.quFormGerente=Gerente~!@#$Gerente~!@#$Gerente~!@#$
+TFinContaCorrenteFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinContaCorrenteFch.quFormIDBanco=Bank~!@#$Banco~!@#$Banco~!@#$
+TFinContaCorrenteFch.quFormIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorrente~!@#$
+TFinContaCorrenteFch.quFormIDEmpresa=Company~!@#$Empresa~!@#$Empresa~!@#$
+TFinContaCorrenteFch.quFormNumero=Account #~!@#$Conta #~!@#$Cuenta #~!@#$
+TFinContaCorrenteFch.quFormOBS=OBS~!@#$OBS~!@#$OBS~!@#$
+TFinContaCorrenteFch.quFormSaldoAtual=SaldoAtual~!@#$SaldoAtual~!@#$SaldoActual~!@#$
+TFinContaCorrenteFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFinContaCorrenteFch.quFormTipo=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFinContaCorrenteFch.quFormUltimaReconciliacao=UltimaReconciliacao~!@#$UltimaReconciliacao~!@#$UltimaReconciliación~!@#$
+TFinContaCorrenteFch.quFormUltimoSaldoBancario=UltimoSaldoBancario~!@#$UltimoSaldoBancario~!@#$UltimoSaldoBancario~!@#$
+TFinContaCorrenteFch.quSaldoData=Data~!@#$Data~!@#$Fecha~!@#$
+TFinContaCorrenteFch.quSaldoIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TFinContaCorrenteFch.quSaldoSaldo=Saldo~!@#$Saldo~!@#$Saldo~!@#$
+
+[Hints]
+TFinContaCorrenteFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinContaCorrenteFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinContaCorrenteFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinContaCorrenteFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinContaCorrenteFch.btOK=~!@#$~!@#$~!@#$
+TFinContaCorrenteFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinContaCorrenteFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinContaCorrenteFch.pnlBottomAlign=~!@#$~!@#$~!@#$
+TFinContaCorrenteFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

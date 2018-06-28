@@ -1,0 +1,16 @@
+[Captions]
+TFrmUserMessageSend.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmUserMessageSend.btnSend=Send~!@#$Enviar~!@#$Enviar~!@#$
+TFrmUserMessageSend.btnSendTo=To ...~!@#$Para ...~!@#$Para ...~!@#$
+TFrmUserMessageSend.Label1=Subject :~!@#$Assunto :~!@#$Sujeto :~!@#$
+TFrmUserMessageSend.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmUserMessageSend.TFrmUserMessageSend=User Message Send~!@#$Mensagem do Usuário~!@#$Mensaje del usuario~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

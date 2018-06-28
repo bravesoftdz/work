@@ -1,0 +1,21 @@
+[Captions]
+TFrmEmailBuilder.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmEmailBuilder.btnOpenFile=~!@#$~!@#$~!@#$
+TFrmEmailBuilder.btnSend=Call &Email~!@#$Chamar email~!@#$Llamar email~!@#$
+TFrmEmailBuilder.Label1=Subject :~!@#$Assunto :~!@#$Assunto :~!@#$
+TFrmEmailBuilder.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmEmailBuilder.Label2=Email BCC :~!@#$CC:~!@#$CC:~!@#$
+TFrmEmailBuilder.Label3=Body :~!@#$Texto :~!@#$Texto :~!@#$
+TFrmEmailBuilder.Label5=Attached :~!@#$Anexo :~!@#$Anexo :~!@#$
+TFrmEmailBuilder.rbEmailTo=Send email to~!@#$Enviar para~!@#$Enviar para~!@#$
+TFrmEmailBuilder.TFrmEmailBuilder=FrmEmailBuilder~!@#$Email~!@#$Email~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

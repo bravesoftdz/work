@@ -1,0 +1,124 @@
+[Captions]
+TSisFeriadoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisFeriadoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TSisFeriadoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisFeriadoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TSisFeriadoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TSisFeriadoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisFeriadoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TSisFeriadoList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TSisFeriadoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisFeriadoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisFeriadoList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TSisFeriadoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisFeriadoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisFeriadoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisFeriadoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisFeriadoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisFeriadoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisFeriadoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisFeriadoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TSisFeriadoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisFeriadoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisFeriadoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisFeriadoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisFeriadoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisFeriadoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisFeriadoList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TSisFeriadoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisFeriadoList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TSisFeriadoList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TSisFeriadoList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TSisFeriadoList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TSisFeriadoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisFeriadoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisFeriadoList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisFeriadoList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TSisFeriadoList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TSisFeriadoList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TSisFeriadoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisFeriadoList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TSisFeriadoList.brwGridData=Date~!@#$Data~!@#$Fecha~!@#$
+TSisFeriadoList.brwGridFeriado=Holiday~!@#$Feriado~!@#$Feriado~!@#$
+TSisFeriadoList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TSisFeriadoList.btExecuta=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TSisFeriadoList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TSisFeriadoList.cbxStatus=~!@#$~!@#$~!@#$
+TSisFeriadoList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TSisFeriadoList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisFeriadoList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisFeriadoList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisFeriadoList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TSisFeriadoList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisFeriadoList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisFeriadoList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TSisFeriadoList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TSisFeriadoList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TSisFeriadoList.pnlDivisor=~!@#$~!@#$~!@#$
+TSisFeriadoList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisFeriadoList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TSisFeriadoList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TSisFeriadoList.pnlGenFilter=~!@#$~!@#$~!@#$
+TSisFeriadoList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisFeriadoList.TSisFeriadoList=SisFeriadoList~!@#$SisFeriadoLista~!@#$SisFeriadoLista~!@#$
+TSisFeriadoList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TSisFeriadoList.quBrowseData=Date~!@#$Data~!@#$Fecha~!@#$
+TSisFeriadoList.quBrowseFeriado=Holiday~!@#$Feriado~!@#$Feriado~!@#$
+TSisFeriadoList.quBrowseIDFeriado=IDFeriado~!@#$IDFeriado~!@#$IDFeriado~!@#$
+
+[Hints]
+TSisFeriadoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisFeriadoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TSisFeriadoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisFeriadoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TSisFeriadoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TSisFeriadoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisFeriadoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TSisFeriadoList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisFeriadoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisFeriadoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisFeriadoList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TSisFeriadoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisFeriadoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisFeriadoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisFeriadoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisFeriadoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisFeriadoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisFeriadoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisFeriadoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TSisFeriadoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisFeriadoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisFeriadoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisFeriadoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisFeriadoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisFeriadoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisFeriadoList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TSisFeriadoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisFeriadoList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TSisFeriadoList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TSisFeriadoList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TSisFeriadoList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TSisFeriadoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisFeriadoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisFeriadoList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TSisFeriadoList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TSisFeriadoList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TSisFeriadoList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TSisFeriadoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisFeriadoList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisFeriadoList.brwGrid=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TSisFeriadoList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

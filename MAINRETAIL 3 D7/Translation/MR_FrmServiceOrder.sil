@@ -1,0 +1,44 @@
+[Captions]
+TFrmServiceOrder.btClose=&Close~!@#Fe&char~!@#&Cerrar~!@#
+TFrmServiceOrder.btnEditItem=(F3) Edit     ~!@#(F3) Editar    ~!@#(F3) Editar  ~!@#
+TFrmServiceOrder.btnNew=New~!@#Novo~!@#Nuevo~!@#
+TFrmServiceOrder.btnNewItem=(F2) New      ~!@#(F2) Novo     ~!@#(F2) Nuevo    ~!@#
+TFrmServiceOrder.btnRemoveItem=(F4) Remove~!@#(F4) Remover~!@#(F4) Remover~!@#
+TFrmServiceOrder.grdItemsDBDescription=Description~!@#Descrição~!@#Descripción~!@#
+TFrmServiceOrder.grdItemsDBEndDate=EndDate~!@#Data Final~!@#Fetcha Final~!@#
+TFrmServiceOrder.grdItemsDBIniDate=IniDate~!@#Data Inicial~!@#Fetcha Inicial~!@#
+TFrmServiceOrder.grdItemsDBManufacture=Manufacture~!@#Fabricante~!@#Fabricante~!@#
+TFrmServiceOrder.grdItemsDBOBS=OBS~!@#OBS~!@#OBS~!@#
+TFrmServiceOrder.grdItemsDBSubTotal=SubTotal~!@#SubTotal~!@#SubTotal~!@#
+TFrmServiceOrder.grdItemsDBTotalDiscount=Discount~!@#Desconto~!@#Desconto~!@#
+TFrmServiceOrder.Label1=Search~!@#Procurar~!@#Procurar~!@#
+TFrmServiceOrder.Label10=Date :~!@#Data :~!@#Fetcha~!@#
+TFrmServiceOrder.Label15=User:~!@#Usuário:~!@#Usuario:~!@#
+TFrmServiceOrder.Label2=Print~!@#Imprimir~!@#Imprimir~!@#
+TFrmServiceOrder.Label3=Service Order~!@#Ordem de Serviço~!@#Orden de Servicio~!@#
+TFrmServiceOrder.Label4=Number :~!@#Número :~!@#Número :~!@#
+TFrmServiceOrder.Label5=Store~!@#Loja~!@#Loja~!@#
+TFrmServiceOrder.Label6=User~!@#Usuário~!@#Usuario~!@#
+TFrmServiceOrder.Label7=Status~!@#Status~!@#Status~!@#
+TFrmServiceOrder.Label8=Notes~!@#OBS~!@#OBS~!@#
+TFrmServiceOrder.lbCompleted=COMPLETED~!@#FINALIZADO~!@#RETIRADO~!@#
+TFrmServiceOrder.lbAmountPaidInfo=Amount Paid at Sale :~!@#Valor pago :~!@#Valor pago :~!@#
+TFrmServiceOrder.lbBillTo=Customer Information~!@#Informação do Cliente~!@#Información del cliente~!@#
+TFrmServiceOrder.lbInvoiceTotal=Gande Total :~!@#Total :~!@#Total :~!@#
+TFrmServiceOrder.lbNetDueInfo=Net Due :~!@#Saldo :~!@#Saldo :~!@#
+TFrmServiceOrder.lbSubTotal=SubTotal :~!@#SubTotal :~!@#SubTotal :~!@#
+TFrmServiceOrder.TFrmServiceOrder=Service Order~!@#Ordem de Serviço~!@#Orden de Servicio~!@#
+TFrmServiceOrder.btnMessage=Message   ~!@#Mensagem    ~!@#Mensagem   ~!@#
+TFrmServiceOrder.btnCustomer=Customer      ~!@#Cliente           ~!@#Cliente           ~!@#
+TFrmServiceOrder.btnConfig=Desc. Pay    ~!@#Conf. Pgto   ~!@#Conf. Pgto   ~!@#
+TFrmServiceOrder.btnHistory=SO History~!@#Histórico OS~!@#Histórico OS~!@#
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

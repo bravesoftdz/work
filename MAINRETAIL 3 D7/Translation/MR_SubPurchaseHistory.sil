@@ -1,0 +1,20 @@
+[DisplayLabels]
+TSubPurchaseHistory.quHistoryCode=Code~!@#$Código~!@#$Código~!@#$
+TSubPurchaseHistory.quHistoryCostPrice=Cost~!@#$$ Custo~!@#$Costo~!@#$
+TSubPurchaseHistory.quHistoryDocumentNumber=Invoice#~!@#$N. Fiscal~!@#$N. Fiscal~!@#$
+TSubPurchaseHistory.quHistoryFreight=Freight~!@#$Frete~!@#$Flete~!@#$
+TSubPurchaseHistory.quHistoryIDFornecedor=IDVendor~!@#$IDFornec.~!@#$IDProveedor~!@#$
+TSubPurchaseHistory.quHistoryIDPurchase=IDPurchase~!@#$Nº Doc.~!@#$Nº Doc.~!@#$
+TSubPurchaseHistory.quHistoryMovDate=Date~!@#$Data~!@#$Fecha~!@#$
+TSubPurchaseHistory.quHistoryOtherCost=OtherCost~!@#$OutroCusto~!@#$OtroCosto~!@#$
+TSubPurchaseHistory.quHistoryQty=Quantity~!@#$Qtd~!@#$Cantidad~!@#$
+TSubPurchaseHistory.quHistoryVendor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

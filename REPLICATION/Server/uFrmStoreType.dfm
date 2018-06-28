@@ -1,0 +1,486 @@
+object FrmStoreType: TFrmStoreType
+  Left = 167
+  Top = 72
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Store info'
+  ClientHeight = 616
+  ClientWidth = 434
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 49
+    Top = 18
+    Width = 50
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Customer :'
+  end
+  object btnAddStore: TSpeedButton
+    Left = 343
+    Top = 67
+    Width = 47
+    Height = 22
+    Caption = 'Add'
+    OnClick = btnAddStoreClick
+  end
+  object Bevel1: TBevel
+    Left = 34
+    Top = 384
+    Width = 351
+    Height = 6
+    Shape = bsTopLine
+  end
+  object Label2: TLabel
+    Left = 68
+    Top = 45
+    Width = 31
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Store :'
+  end
+  object Label3: TLabel
+    Left = 47
+    Top = 71
+    Width = 52
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Password :'
+  end
+  object btnDel: TSpeedButton
+    Left = 343
+    Top = 393
+    Width = 47
+    Height = 22
+    Caption = 'Delete'
+    OnClick = btnDelClick
+  end
+  object Label4: TLabel
+    Left = 6
+    Top = 99
+    Width = 93
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Server connection :'
+  end
+  object Label5: TLabel
+    Left = 56
+    Top = 327
+    Width = 51
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Schedule :'
+  end
+  object btnOpenConnection: TSpeedButton
+    Left = 338
+    Top = 94
+    Width = 25
+    Height = 22
+    Glyph.Data = {
+      96030000424D9603000000000000360000002800000010000000120000000100
+      18000000000060030000D40E0000D40E00000000000000000000FF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+      FFFF00FFFF00FFFF00FF23A8D68FD8F447BFE92DB1E07AAEEEFF00FFFF00FFFF
+      00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF15A3D48BD5F4
+      94E3FF78DAFF65D2F954C9F147C1EA53C9EEFF00FFFF00FFFF00FFFF00FFFF00
+      FFFF00FFFF00FFFF00FF0BA0D377CEF0A3EAFF81E7FF81E7FF81E7FF81E7FF7C
+      E6FD72DDF766D8F455CEEF55CEEFFF00FFFF00FFFF00FFFF00FF11A3D66CCBF6
+      A2EAFB8DEFFF8CF3FF8BF2FF8BF2FF8CF3FF8BF2FF8CF2FF80E6FE75DCFD55CE
+      EFFF00FFFF00FFFF00FF27ADDE5FC5F49DE4F4A6FFFF99FDFF95F9FF95F9FF99
+      FDFF92F8FF97FBFF85EAFF87E7FF55CEEFFF00FFFF00FFFF00FF2AAFDE55C4F1
+      86D5EDB9FCFDA3FDFFA3FDFFA3FDFFA3FDFFA3FDFFA3FDFF90F2FF97E4FF9FEC
+      F7FF00FFFF00FFFF00FF2BB0DE6DD5FA5AC8ED75D2EE93DEF1B7EBFBCDF9FFC1
+      FDFFBCFDFFBCFDFFA3EFFF9AE3FFCFF5FC77A4EAFF00FFFF00FF38B8E382E8FF
+      75DEFC77E0FA50BFE74ABEEA59C0E6D1EFF4D3FFFFD3FFFFB2EEFF9CE0F444A1
+      5477C0BAFF00FFFF00FF3DBCE48EF5FF8EF5FF8EF5FF8EF5FF8EF5FF82F1FF3E
+      C1E452C1E550C4EA44B8D62C9B5E3CC6672A9F4DFF00FFFF00FF43C0E79FFEFF
+      9CFFFF9CFFFFA0FFFFAEFFFFABFFFFA4FDFF96FCFF71E0E22C9F6B2DBB575AE3
+      8449D06C2A9F4DFF00FF50C4EBBCFDFFA5FCFF9DFEFFB7F9FC91DEF174D7F16B
+      D5F16BD7E767BE852BA94351DA795AE3845AE3844AC769FF00FF42BBE88ED7F2
+      9EE3F5B0ECF892D7F54DA8EAFF00FFFF00FFFF00FF78B1784C9D4F33BD565AE3
+      8442C66449AC5673AB6EFF00FF4AA6E94DA8EA50A9EA4DA8EAFF00FFFF00FFFF
+      00FFFF00FFFF00FFFF00FF4A885E47D3773BBC5BFF00FFFF00FFFF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF4390593CC9
+      6C5BA177FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+      00FFFF00FFFF00FF67756729B551379754FF00FFFF00FFFF00FFFF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FF88608D7E547A5D4A634C7255209D2D239738FF00
+      FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFA4
+      A2A85A9D5566A562FF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
+    OnClick = btnOpenConnectionClick
+  end
+  object btnOpenSchedule: TSpeedButton
+    Left = 346
+    Top = 322
+    Width = 25
+    Height = 22
+    Glyph.Data = {
+      96030000424D9603000000000000360000002800000010000000120000000100
+      18000000000060030000D40E0000D40E00000000000000000000FF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+      FFFF00FFFF00FFFF00FF23A8D68FD8F447BFE92DB1E07AAEEEFF00FFFF00FFFF
+      00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF15A3D48BD5F4
+      94E3FF78DAFF65D2F954C9F147C1EA53C9EEFF00FFFF00FFFF00FFFF00FFFF00
+      FFFF00FFFF00FFFF00FF0BA0D377CEF0A3EAFF81E7FF81E7FF81E7FF81E7FF7C
+      E6FD72DDF766D8F455CEEF55CEEFFF00FFFF00FFFF00FFFF00FF11A3D66CCBF6
+      A2EAFB8DEFFF8CF3FF8BF2FF8BF2FF8CF3FF8BF2FF8CF2FF80E6FE75DCFD55CE
+      EFFF00FFFF00FFFF00FF27ADDE5FC5F49DE4F4A6FFFF99FDFF95F9FF95F9FF99
+      FDFF92F8FF97FBFF85EAFF87E7FF55CEEFFF00FFFF00FFFF00FF2AAFDE55C4F1
+      86D5EDB9FCFDA3FDFFA3FDFFA3FDFFA3FDFFA3FDFFA3FDFF90F2FF97E4FF9FEC
+      F7FF00FFFF00FFFF00FF2BB0DE6DD5FA5AC8ED75D2EE93DEF1B7EBFBCDF9FFC1
+      FDFFBCFDFFBCFDFFA3EFFF9AE3FFCFF5FC77A4EAFF00FFFF00FF38B8E382E8FF
+      75DEFC77E0FA50BFE74ABEEA59C0E6D1EFF4D3FFFFD3FFFFB2EEFF9CE0F444A1
+      5477C0BAFF00FFFF00FF3DBCE48EF5FF8EF5FF8EF5FF8EF5FF8EF5FF82F1FF3E
+      C1E452C1E550C4EA44B8D62C9B5E3CC6672A9F4DFF00FFFF00FF43C0E79FFEFF
+      9CFFFF9CFFFFA0FFFFAEFFFFABFFFFA4FDFF96FCFF71E0E22C9F6B2DBB575AE3
+      8449D06C2A9F4DFF00FF50C4EBBCFDFFA5FCFF9DFEFFB7F9FC91DEF174D7F16B
+      D5F16BD7E767BE852BA94351DA795AE3845AE3844AC769FF00FF42BBE88ED7F2
+      9EE3F5B0ECF892D7F54DA8EAFF00FFFF00FFFF00FF78B1784C9D4F33BD565AE3
+      8442C66449AC5673AB6EFF00FF4AA6E94DA8EA50A9EA4DA8EAFF00FFFF00FFFF
+      00FFFF00FFFF00FFFF00FF4A885E47D3773BBC5BFF00FFFF00FFFF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF4390593CC9
+      6C5BA177FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+      00FFFF00FFFF00FF67756729B551379754FF00FFFF00FFFF00FFFF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FF88608D7E547A5D4A634C7255209D2D239738FF00
+      FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFA4
+      A2A85A9D5566A562FF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
+    OnClick = btnOpenScheduleClick
+  end
+  object btnTestConnection: TSpeedButton
+    Left = 365
+    Top = 94
+    Width = 25
+    Height = 22
+    Hint = 'Test connection'
+    Glyph.Data = {
+      F6000000424DF600000000000000760000002800000010000000100000000100
+      04000000000080000000C40E0000C40E00001000000000000000000000000000
+      800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00DDDDDDDDDDDD
+      DDDDDDDDDDDDDDDDDDDDDDDDD90DDDDDDDDDDDDD9990DDDDDDDDDDDD9990DDDD
+      DDDDDDD999990DDDDDDDDD9999990DDDDDDDD7990D9990DDDDDD790DDDD990DD
+      DDDDDDDDDDD9990DDDDDDDDDDDDD990DDDDDDDDDDDDDD990DDDDDDDDDDDDDD79
+      0DDDDDDDDDDDDDD790DDDDDDDDDDDDDDD990DDDDDDDDDDDDDDDD}
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = btnTestConnectionClick
+  end
+  object Label6: TLabel
+    Left = 66
+    Top = 360
+    Width = 41
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Version :'
+  end
+  object Label7: TLabel
+    Left = 26
+    Top = 127
+    Width = 73
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Replicate since'
+  end
+  object btnSaveSchedule: TSpeedButton
+    Left = 365
+    Top = 270
+    Width = 25
+    Height = 22
+    Enabled = False
+    Glyph.Data = {
+      36030000424D3603000000000000360000002800000010000000100000000100
+      18000000000000030000C40E0000C40E00000000000000000000FF00FFFF00FF
+      FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+      FFFF00FFFF00FFFF00FFFF00FFFF00FF00000000000000000000000000000000
+      0000000000000000000000000000000000000000000000FF00FFFF00FF000000
+      008284008284000000000000000000000000000000000000C6C3C6C6C3C60000
+      00008284000000FF00FFFF00FF00000000828400828400000000000000000000
+      0000000000000000C6C3C6C6C3C6000000008284000000FF00FFFF00FF000000
+      008284008284000000000000000000000000000000000000C6C3C6C6C3C60000
+      00008284000000FF00FFFF00FF00000000828400828400000000000000000000
+      0000000000000000000000000000000000008284000000FF00FFFF00FF000000
+      0082840082840082840082840082840082840082840082840082840082840082
+      84008284000000FF00FFFF00FF00000000828400828400000000000000000000
+      0000000000000000000000000000008284008284000000FF00FFFF00FF000000
+      008284000000C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C60000
+      00008284000000FF00FFFF00FF000000008284000000C6C3C6C6C3C6C6C3C6C6
+      C3C6C6C3C6C6C3C6C6C3C6C6C3C6000000008284000000FF00FFFF00FF000000
+      008284000000C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C60000
+      00008284000000FF00FFFF00FF000000008284000000C6C3C6C6C3C6C6C3C6C6
+      C3C6C6C3C6C6C3C6C6C3C6C6C3C6000000008284000000FF00FFFF00FF000000
+      008284000000C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C6C6C3C60000
+      00000000000000FF00FFFF00FF000000008284000000C6C3C6C6C3C6C6C3C6C6
+      C3C6C6C3C6C6C3C6C6C3C6C6C3C6000000C6C3C6000000FF00FFFF00FF000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF
+      00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
+    OnClick = btnSaveScheduleClick
+  end
+  object Label8: TLabel
+    Left = 48
+    Top = 159
+    Width = 51
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Main Store'
+  end
+  object Label9: TLabel
+    Left = 35
+    Top = 189
+    Width = 64
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'Server Type :'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 575
+    Width = 434
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    TabOrder = 6
+    DesignSize = (
+      434
+      41)
+    object Bevel2: TBevel
+      Left = 0
+      Top = 0
+      Width = 434
+      Height = 6
+      Align = alTop
+      Shape = bsTopLine
+    end
+    object BitBtn1: TBitBtn
+      Left = 273
+      Top = 10
+      Width = 75
+      Height = 25
+      Anchors = [akTop, akRight]
+      Caption = '&Save'
+      Default = True
+      ModalResult = 1
+      TabOrder = 0
+    end
+    object BitBtn2: TBitBtn
+      Left = 353
+      Top = 10
+      Width = 75
+      Height = 25
+      Anchors = [akTop, akRight]
+      Cancel = True
+      Caption = '&Cancel'
+      ModalResult = 2
+      TabOrder = 1
+      NumGlyphs = 2
+    end
+  end
+  object edtCustomer: TEdit
+    Left = 104
+    Top = 14
+    Width = 233
+    Height = 21
+    TabOrder = 0
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object edtStore: TEdit
+    Left = 104
+    Top = 41
+    Width = 233
+    Height = 21
+    TabOrder = 1
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object edtPW: TEdit
+    Left = 104
+    Top = 67
+    Width = 233
+    Height = 21
+    PasswordChar = '*'
+    TabOrder = 2
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object treeCustomer: TTreeView
+    Left = 69
+    Top = 395
+    Width = 271
+    Height = 166
+    Indent = 19
+    SortType = stText
+    TabOrder = 5
+    OnClick = treeCustomerClick
+    Items.Data = {
+      01000000200000000000000000000000FFFFFFFFFFFFFFFF0000000002000000
+      0743544943656C6C1E0000000000000000000000FFFFFFFFFFFFFFFF00000000
+      00000000054C6F6A61311E0000000000000000000000FFFFFFFFFFFFFFFF0000
+      000000000000054C6F6A6132}
+  end
+  object edtConnection: TEdit
+    Left = 104
+    Top = 95
+    Width = 233
+    Height = 21
+    Color = clSilver
+    ReadOnly = True
+    TabOrder = 3
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object edtSchedule: TEdit
+    Left = 112
+    Top = 323
+    Width = 233
+    Height = 21
+    Color = clSilver
+    ReadOnly = True
+    TabOrder = 4
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object edtVersion: TEdit
+    Left = 112
+    Top = 356
+    Width = 233
+    Height = 21
+    Color = clSilver
+    ReadOnly = True
+    TabOrder = 7
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object chkDisableSchedule: TCheckBox
+    Left = 160
+    Top = 126
+    Width = 105
+    Height = 17
+    Caption = 'Disable Schedule'
+    TabOrder = 8
+    OnClick = chkDisableScheduleClick
+  end
+  object edtRepSince: TEdit
+    Left = 104
+    Top = 123
+    Width = 49
+    Height = 21
+    TabOrder = 9
+    OnChange = edtRepSinceChange
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object edtMainStore: TEdit
+    Left = 104
+    Top = 155
+    Width = 49
+    Height = 21
+    TabOrder = 10
+    OnChange = edtRepSinceChange
+    OnKeyPress = edtCustomerKeyPress
+  end
+  object pnlProcessor: TPanel
+    Left = 24
+    Top = 216
+    Width = 339
+    Height = 82
+    BevelOuter = bvNone
+    TabOrder = 11
+    object Label10: TLabel
+      Left = 16
+      Top = -1
+      Width = 22
+      Height = 13
+      Caption = 'Host'
+    end
+    object Label11: TLabel
+      Left = 288
+      Top = -1
+      Width = 19
+      Height = 13
+      Caption = 'Port'
+    end
+    object Label12: TLabel
+      Left = 16
+      Top = 39
+      Width = 82
+      Height = 13
+      Caption = 'Connect as Store'
+    end
+    object Label13: TLabel
+      Left = 144
+      Top = 39
+      Width = 46
+      Height = 13
+      Caption = 'Password'
+    end
+    object Label14: TLabel
+      Left = 224
+      Top = 39
+      Width = 57
+      Height = 13
+      Caption = 'Packet Size'
+    end
+    object edtHost: TEdit
+      Left = 16
+      Top = 15
+      Width = 265
+      Height = 21
+      Color = clSilver
+      TabOrder = 0
+      OnChange = edtRepSinceChange
+    end
+    object edtPort: TEdit
+      Left = 288
+      Top = 15
+      Width = 49
+      Height = 21
+      Color = clSilver
+      TabOrder = 1
+      OnChange = edtRepSinceChange
+    end
+    object edtStoreAuth: TEdit
+      Left = 16
+      Top = 55
+      Width = 121
+      Height = 21
+      Color = clSilver
+      TabOrder = 2
+      OnChange = edtRepSinceChange
+    end
+    object edtPassword: TMaskEdit
+      Left = 144
+      Top = 55
+      Width = 73
+      Height = 21
+      Color = clSilver
+      PasswordChar = '*'
+      TabOrder = 3
+      OnChange = edtRepSinceChange
+    end
+    object edtPacketSize: TEdit
+      Left = 224
+      Top = 55
+      Width = 113
+      Height = 21
+      Color = clSilver
+      TabOrder = 4
+      OnChange = edtRepSinceChange
+    end
+  end
+  object cmbServerType: TComboBox
+    Left = 104
+    Top = 184
+    Width = 145
+    Height = 21
+    Style = csDropDownList
+    ItemHeight = 13
+    TabOrder = 12
+    OnChange = cmbServerTypeChange
+    Items.Strings = (
+      'Server'
+      'Processor'
+      'Files Only')
+  end
+end

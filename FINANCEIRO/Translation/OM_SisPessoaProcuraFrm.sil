@@ -1,0 +1,33 @@
+[Captions]
+TSisPessoaProcuraFrm.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TSisPessoaProcuraFrm.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TSisPessoaProcuraFrm.btProcuraCliente=Search~!@#$Buscar~!@#$Buscar~!@#$
+TSisPessoaProcuraFrm.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.grdResultadoCodigoPessoa=ID~!@#$ID~!@#$ID~!@#$
+TSisPessoaProcuraFrm.grdResultadoPessoa=Name~!@#$Nome~!@#$Nombre~!@#$
+TSisPessoaProcuraFrm.Label2=Type Name or Surname of the customer and click Search~!@#$Escreva o Nome ou Sobrenome do cliente e clique Buscar~!@#$Escriba el Nombre o Apellido del cliente y luego presione Buscar~!@#$
+TSisPessoaProcuraFrm.lblTitulo=Procura de Cliente~!@#$Procura de Cliente~!@#$Búsqueda de Cliente~!@#$
+TSisPessoaProcuraFrm.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.pnlPBarra=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TSisPessoaProcuraFrm.TSisPessoaProcuraFrm=Search ...~!@#$Buscar ...~!@#$Buscar ...~!@#$
+
+[DisplayLabels]
+TSisPessoaProcuraFrm.quResultCode=Code~!@#$Código~!@#$Código~!@#$
+TSisPessoaProcuraFrm.quResultIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TSisPessoaProcuraFrm.quResultPessoa=Pessoa~!@#$Pessoa~!@#$Persona~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisPessoaProcuraFrm.cmbField.Items=Name,Phone~!@#$Nome,Fone~!@#$Nombre,Fono~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

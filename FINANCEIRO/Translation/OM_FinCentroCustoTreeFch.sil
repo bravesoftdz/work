@@ -1,0 +1,41 @@
+[Captions]
+TFinCentroCustoTreeFch.bbNovoItem=New Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinCentroCustoTreeFch.bbNovoSubItem=New Sub Item~!@#$Novo Sub Item~!@#$Nuevo Sub Item~!@#$
+TFinCentroCustoTreeFch.bbRemoveItem=Remove Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinCentroCustoTreeFch.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFinCentroCustoTreeFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinCentroCustoTreeFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinCentroCustoTreeFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinCentroCustoTreeFch.Label1=Cost Center~!@#$Centro Custo~!@#$Centro Costo~!@#$
+TFinCentroCustoTreeFch.Label2=Cost Center ID~!@#$Centro Custo ID~!@#$Centro Costo ID~!@#$
+TFinCentroCustoTreeFch.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinCentroCustoTreeFch.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinCentroCustoTreeFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinCentroCustoTreeFch.pnlFicha=~!@#$~!@#$~!@#$
+TFinCentroCustoTreeFch.TFinCentroCustoTreeFch=FinCentroCustoTreeFch~!@#$FinCentroCustoTreeFch~!@#$FinCentroCostoTreeFch~!@#$
+
+[DisplayLabels]
+TFinCentroCustoTreeFch.quTreeViewImageIndex=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagen~!@#$
+TFinCentroCustoTreeFch.quTreeViewSelectedIndex=SelectedIndex~!@#$IndiceSelecionado~!@#$IndiceSeleccionado~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsCentroCusto=CentroCusto~!@#$CentroCusto~!@#$CentroCosto~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsCodigoCentroCusto=CodigoCentroCusto~!@#$CódigoCentroCusto~!@#$CódigoCentroCosto~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsIDCentroCusto=IDCentroCusto~!@#$IDCentroCusto~!@#$IDCentroCosto~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsIDCentroCustoParent=IDCentroCustoParent~!@#$IDCentroCusto~!@#$IDCentroCusto~!@#$
+TFinCentroCustoTreeFch.TblTreeViewsSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinCentroCustoTreeFch.bbNovoItem=New Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinCentroCustoTreeFch.bbNovoSubItem=New Sub Item~!@#$Novo Sub Item~!@#$Nuevo Sub Item~!@#$
+TFinCentroCustoTreeFch.bbRemoveItem=Remove Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinCentroCustoTreeFch.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

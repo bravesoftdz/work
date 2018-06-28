@@ -1,0 +1,25 @@
+[Captions]
+TFrmMarginTable.btClose=&Close~!@#$Fe&char~!@#$Ce&rrar~!@#$
+TFrmMarginTable.btGroup=Apply~!@#$Aplicar~!@#$Aplicar~!@#$
+TFrmMarginTable.btRecalcAllGroup=Apply All~!@#$Aplicar Todos~!@#$Aplicar Todos~!@#$
+TFrmMarginTable.clTreeMSRP=MSRP Margin~!@#$Margem Sugestão~!@#$Margem Sugestão~!@#$
+TFrmMarginTable.clTreeText=Tree~!@#$Árvore~!@#$Categorias~!@#$
+TFrmMarginTable.clTreeValue=Sale Margin~!@#$Margem Venda~!@#$Margem Venda~!@#$
+TFrmMarginTable.grdBrowseDBCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmMarginTable.grdBrowseDBGroupMargin=GroupMargin~!@#$MargemCategoria~!@#$MargenCategoria~!@#$
+TFrmMarginTable.grdBrowseDBModelGroup=ModelGroup~!@#$Grupo~!@#$Grupo~!@#$
+TFrmMarginTable.grdBrowseDBModelGroupMargin=ModelGroupMargin~!@#$MargemGrupo~!@#$MargemGrupo~!@#$
+TFrmMarginTable.grdBrowseDBModelSubGroup=ModelSubGroup~!@#$SubGrupo~!@#$SubGrupo~!@#$
+TFrmMarginTable.grdBrowseDBModelSubGroupMargin=ModelSubGroupMargin~!@#$MargemSubGrupo~!@#$MargemSubGrupo~!@#$
+TFrmMarginTable.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmMarginTable.lblMenu=First Menu Item~!@#$Primeiro Item de Menu~!@#$Primer Artículo De Menú~!@#$
+TFrmMarginTable.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

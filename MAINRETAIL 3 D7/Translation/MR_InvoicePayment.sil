@@ -1,0 +1,33 @@
+[Captions]
+TInvoicePayment.btClose=&Close~!@#$Fechar~!@#$Cerrar~!@#$
+TInvoicePayment.hhh=~!@#$~!@#$~!@#$
+TInvoicePayment.Label1=Paid :~!@#$Caixa :~!@#$Caja :~!@#$
+TInvoicePayment.Label2=on date :~!@#$no dia :~!@#$en fecha :~!@#$
+TInvoicePayment.Label3=Cashier :~!@#$Aberto :~!@#$Cajero :~!@#$
+TInvoicePayment.Panel1=~!@#$~!@#$~!@#$
+TInvoicePayment.Panel3=~!@#$~!@#$~!@#$
+TInvoicePayment.pnlLayaway=~!@#$~!@#$~!@#$
+TInvoicePayment.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TInvoicePayment.TInvoicePayment=Payments for this Invoice~!@#$Pagamentos para esta Nota~!@#$Pagos para esta Boleta~!@#$
+
+[DisplayLabels]
+TInvoicePayment.quCashRegDetailCashRegister=CashRegister~!@#$Caixa Registradora~!@#$CajaRegistradora~!@#$
+TInvoicePayment.quCashRegDetailOpenTime=OpenTime~!@#$Hora Abertura~!@#$HoraAbertura~!@#$
+TInvoicePayment.quCashRegDetailOpenUser=OpenUser~!@#$Aberto por~!@#$UsuarioAbrio~!@#$
+TInvoicePayment.quPaymentDataVencimento=DataVencimento~!@#$Vencimento~!@#$FechaVencimiento~!@#$
+TInvoicePayment.quPaymentIDDocumentoTipo=IDDocumentoTipo~!@#$IDDocumentoTipo~!@#$IDTipoDocumento~!@#$
+TInvoicePayment.quPaymentIDLancamentoTipo=IDLancamentoTipo~!@#$IDLançamentoTipo~!@#$IDTipoContabilización~!@#$
+TInvoicePayment.quPaymentIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDFormaPago~!@#$
+TInvoicePayment.quPaymentIDPreSale=IDPreSale~!@#$IDPreVenda~!@#$IDPreVenta~!@#$
+TInvoicePayment.quPaymentIDQuitacaoMeioPrevisto=IDQuitacaoMeioPrevisto~!@#$IDQuitaçãoMeioPrevisto~!@#$IDFormaPagoPrevista~!@#$
+TInvoicePayment.quPaymentMeioPag=MeioPag~!@#$Pago com~!@#$FormaPago~!@#$
+TInvoicePayment.quPaymentValorNominal=ValorNominal~!@#$Valor~!@#$ValorNominal~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

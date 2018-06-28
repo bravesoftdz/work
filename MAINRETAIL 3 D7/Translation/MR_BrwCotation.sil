@@ -1,0 +1,74 @@
+[Captions]
+TbrwCotation.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwCotation.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwCotation.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwCotation.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwCotation.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwCotation.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwCotation.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwCotation.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwCotation.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwCotation.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwCotation.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwCotation.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwCotation.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwCotation.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwCotation.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwCotation.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwCotation.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwCotation.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwCotation.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwCotation.btStoreAll=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwCotation.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwCotation.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwCotation.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwCotation.grdBrowseDBCotacao=Quotation~!@#$Cotação~!@#$Cotización~!@#$
+TbrwCotation.grdBrowseDBDataCotacao=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwCotation.grdBrowseDBIDCotacao=ID~!@#$ID~!@#$ID~!@#$
+TbrwCotation.grdBrowseDBUltimaEmissao=Last Print~!@#$Ultima Impressão~!@#$Ultima Impresión~!@#$
+TbrwCotation.hhh=~!@#$~!@#$~!@#$
+TbrwCotation.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwCotation.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwCotation.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwCotation.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwCotation.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwCotation.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwCotation.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwCotation.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwCotation.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwCotation.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwCotation.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwCotation.TbrwCotation=brwCotation~!@#$brwCotação~!@#$brwCotización~!@#$
+
+[DisplayLabels]
+TbrwCotation.quBrowseCotacao=Quotation~!@#$Cotação~!@#$Cotización~!@#$
+TbrwCotation.quBrowseDataCotacao=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwCotation.quBrowseIDCotacao=ID~!@#$ID~!@#$ID~!@#$
+TbrwCotation.quBrowseUltimaEmissao=Last Print~!@#$Ultima Impressão~!@#$Ultima Impresión~!@#$
+
+[Hints]
+TbrwCotation.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwCotation.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwCotation.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwCotation.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwCotation.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwCotation.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwCotation.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwCotation.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwCotation.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwCotation.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwCotation.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwCotation.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TbrwCotation.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

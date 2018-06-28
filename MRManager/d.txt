@@ -1,0 +1,52 @@
+IDEstado	Estado	Desativado	Hidden	TaxPerc	ReplLastChange	Codigo	TaxPerc2   		False	False		01/10/2008 7:33:38 PM		
+AK 	Alaska	False	False		01/10/2008 7:33:38 PM		
+AL 	Alabama	False	False		01/10/2008 7:33:38 PM		
+AR 	Arkansas	False	False		01/10/2008 7:33:38 PM		
+AZ 	Arizona	False	False		01/10/2008 7:33:38 PM		
+CA 	California	False	False		01/10/2008 7:33:38 PM		
+CO 	Colorado	False	False		01/10/2008 7:33:38 PM		
+CT 	Connecticut	False	False		01/10/2008 7:33:38 PM		
+DC 	D.C.	False	False		01/10/2008 7:33:38 PM		
+DE 	Delaware	False	False		01/10/2008 7:33:38 PM		
+FL 	Florida	False	False		01/10/2008 7:33:38 PM		
+GA 	Georgia	False	False		01/10/2008 7:33:38 PM		
+HI 	Hawaii	False	False		01/10/2008 7:33:38 PM		
+IA 	Iowa	False	False		01/10/2008 7:33:38 PM		
+ID 	Idaho	False	False		01/10/2008 7:33:38 PM		
+IL 	Illinois	False	False		01/10/2008 7:33:38 PM		
+IN 	Indiana	False	False		01/10/2008 7:33:38 PM		
+KS 	Kansas	False	False		01/10/2008 7:33:38 PM		
+KY 	Kentucky	False	False		01/10/2008 7:33:38 PM		
+LA 	Louisiana	False	False		01/10/2008 7:33:38 PM		
+MA 	Massachusetts	False	False		01/10/2008 7:33:38 PM		
+MD 	Maryland	False	False		01/10/2008 7:33:38 PM		
+ME 	Maine	False	False		01/10/2008 7:33:38 PM		
+MI 	Michigan	False	False		01/10/2008 7:33:38 PM		
+MN 	Minnesota	False	False		01/10/2008 7:33:38 PM		
+MO 	Missouri	False	False		01/10/2008 7:33:38 PM		
+MS 	Mississippi	False	False		01/10/2008 7:33:38 PM		
+MT 	Montana	False	False		01/10/2008 7:33:38 PM		
+NC 	North Carolina	False	False		01/10/2008 7:33:38 PM		
+ND 	North Dakota	False	False		01/10/2008 7:33:38 PM		
+NE 	Nebraska	False	False		01/10/2008 7:33:38 PM		
+NH 	New Hampshire	False	False		01/10/2008 7:33:38 PM		
+NJ 	New Jersey	False	False		01/10/2008 7:33:38 PM		
+NM 	New Mexico	False	False		01/10/2008 7:33:38 PM		
+NV 	Nevada	False	False		01/10/2008 7:33:38 PM		
+NY 	New York	False	False		01/10/2008 7:33:38 PM		
+OH 	Ohio	False	False		01/10/2008 7:33:38 PM		
+OK 	Oklahoma	False	False		01/10/2008 7:33:38 PM		
+OR 	Oregon	False	False		01/10/2008 7:33:38 PM		
+PA 	Pennsylvania	False	False		01/10/2008 7:33:38 PM		
+RI 	Rhode Island	False	False		01/10/2008 7:33:38 PM		
+SC 	South Carolina	False	False		01/10/2008 7:33:38 PM		
+SD 	South Dakota	False	False		01/10/2008 7:33:38 PM		
+TN 	Tennessee	False	False		01/10/2008 7:33:38 PM		
+TX 	Texas	False	False		01/10/2008 7:33:38 PM		
+UT 	Utah	False	False		01/10/2008 7:33:38 PM		
+VA 	Virginia	False	False		01/10/2008 7:33:38 PM		
+VT 	Vermont	False	False		01/10/2008 7:33:38 PM		
+WA 	Washington	False	False		01/10/2008 7:33:38 PM		
+WI 	Wisconsin	False	False		01/10/2008 7:33:38 PM		
+WV 	West Virginia	False	False		01/10/2008 7:33:38 PM		
+WY 	Wyoming	False	False		01/10/2008 7:33:38 PM		

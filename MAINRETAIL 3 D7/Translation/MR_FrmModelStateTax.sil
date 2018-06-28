@@ -1,0 +1,15 @@
+[Captions]
+TFrmModelStateTax.btClose=&Close~!@#$Fe&char~!@#$Cerrar~!@#$
+TFrmModelStateTax.Label15=User:~!@#$Usuário :~!@#$Usuário :~!@#$
+TFrmModelStateTax.lbSaleTax=Sale Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFrmModelStateTax.lbState=State :~!@#$Estado :~!@#$Estado :~!@#$
+TFrmModelStateTax.TFrmModelStateTax=Model State Tax~!@#$Imposto por Estado~!@#$Impuesto por Estado~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

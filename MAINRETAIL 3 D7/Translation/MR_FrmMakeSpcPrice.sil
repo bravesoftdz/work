@@ -1,0 +1,25 @@
+[Captions]
+TFrmMakeSpcPrice.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmMakeSpcPrice.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFrmMakeSpcPrice.hhh=~!@#$~!@#$~!@#$
+TFrmMakeSpcPrice.Label1=After you make a Special Price,  you  can not give more discounts and any previous dicounts will be removed.~!@#$Depois de fazer um preço Especial, não poderá dar mais desconto e qualquer desconto prévio será eliminado. ~!@#$Despúes de hacer un Precio Especial, no podrá hacer otro descuento y cualquier descuento prévio será eliminado.~!@#$
+TFrmMakeSpcPrice.Label3=Special Prices~!@#$Preços Especiais~!@#$Precios Especiales~!@#$
+TFrmMakeSpcPrice.Panel3=~!@#$~!@#$~!@#$
+TFrmMakeSpcPrice.Panel9=~!@#$~!@#$~!@#$
+TFrmMakeSpcPrice.TFrmMakeSpcPrice=Make Special Prices~!@#$Fazer preço Especial~!@#$Hacer Precio Especial~!@#$
+
+[DisplayLabels]
+TFrmMakeSpcPrice.quSpecialPriceIDSpecialPrice=IDSpecialPrice~!@#$IDPreçoEspecial~!@#$IDPrecioEspecial~!@#$
+TFrmMakeSpcPrice.quSpecialPriceSpecialPrice=SpecialPrice~!@#$PreçoEspecial~!@#$PrecioEspecial~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmMakeSpcPrice.ListPrice.Items=<none>~!@#$<nenhum>~!@#$<ninguno>~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

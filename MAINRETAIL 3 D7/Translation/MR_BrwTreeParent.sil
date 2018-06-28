@@ -1,0 +1,18 @@
+[Captions]
+TbrwTreeParent.btAdd=F2 &Add~!@#$F2  &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwTreeParent.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TbrwTreeParent.btDetail=F3 &Details~!@#$F3 &Detalhes~!@#$F3 &Detalles~!@#$
+TbrwTreeParent.btRemove=F4 &Remove~!@#$F4 &Remover~!@#$F4 &Remover~!@#$
+TbrwTreeParent.Label15=User:~!@#$Usuário:~!@#$Usuario~!@#$
+TbrwTreeParent.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TbrwTreeParent.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwTreeParent.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,36 @@
+[Captions]
+TFrmExportScaleItem.btClose=&Close~!@#&Fechar~!@#&Cerrar~!@#
+TFrmExportScaleItem.btExport=&Export~!@#&Exportar~!@#&Exportar~!@#
+TFrmExportScaleItem.btMarked=&Select all~!@#Marcar &Todos~!@#&Seleccionar Todos~!@#
+TFrmExportScaleItem.btPOColumn=Colum&ns~!@#Colu&nas~!@#Colum&nas~!@#
+TFrmExportScaleItem.btUnMarked=Un select all~!@#&Desmarcar todos~!@#&Desmarcar todos~!@#
+TFrmExportScaleItem.btViewModel=&Model~!@#&Modelo~!@#&Modelo~!@#
+TFrmExportScaleItem.cxGridDBTableView1Category=Category~!@#Categoria~!@#Categoría~!@#
+TFrmExportScaleItem.cxGridDBTableView1Description=Description~!@#Descrição~!@#Descripción~!@#
+TFrmExportScaleItem.cxGridDBTableView1IDBarcode=Barcode~!@#Código de barras~!@#Codigo de barras~!@#
+TFrmExportScaleItem.cxGridDBTableView1Model=Model~!@#Modelo~!@#Modelo~!@#
+TFrmExportScaleItem.cxGridDBTableView1MsgError=Error~!@#Erro~!@#Erro~!@#
+TFrmExportScaleItem.grdScaleItemDBCategory=Category~!@#Categoria~!@#Categoría~!@#
+TFrmExportScaleItem.grdScaleItemDBDescription=Description~!@#Descrição~!@#Descripción~!@#
+TFrmExportScaleItem.grdScaleItemDBIDBarcode=Barcode~!@#Código de barras~!@#Codigo de barras~!@#
+TFrmExportScaleItem.grdScaleItemDBManufacture=Manufacture~!@#Manufaturado~!@#Manufacturado~!@#
+TFrmExportScaleItem.grdScaleItemDBMarked=M~!@#M~!@#M~!@#
+TFrmExportScaleItem.grdScaleItemDBModel=Model~!@#Modelo~!@#Modelo~!@#
+TFrmExportScaleItem.grdScaleItemDBModelPrice=Selling Price~!@#Preço~!@#Precio~!@#
+TFrmExportScaleItem.grdScaleItemDBQtyOnHand=On Hand~!@#Qntde~!@#Cntd~!@#
+TFrmExportScaleItem.grdScaleItemDBStoreSellingPrice=Store Selling Price~!@#Prç da Loja~!@#Prc de Tienda~!@#
+TFrmExportScaleItem.grdScaleItemDBVendor=Vendor~!@#Fornecedor~!@#Fornecedor~!@#
+TFrmExportScaleItem.Label1=Export :~!@#Exportar :~!@#Exportar :~!@#
+TFrmExportScaleItem.rbDescription=Description~!@#Descrição~!@#Descrición~!@#
+TFrmExportScaleItem.rbModel=Model~!@#Modelo~!@#Modelo~!@#
+TFrmExportScaleItem.sbHelp=&Help~!@#&Ajuda~!@#&Ayuda~!@#
+TFrmExportScaleItem.TFrmExportScaleItem=Export Scale Item~!@#Exportação de Produtos de Balança~!@#Exportacíon del Productos de la Balanza~!@#
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

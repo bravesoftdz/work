@@ -1,0 +1,36 @@
+[Captions]
+TFrmPaymentReceive.btClose=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmPaymentReceive.btnCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPaymentReceive.btnFinish=Finish~!@#$Finalizar~!@#$Finalizar~!@#$
+TFrmPaymentReceive.btnLayaway=Layaway~!@#$Crediário~!@#$Crediário~!@#$
+TFrmPaymentReceive.btnPayBonus=Bonus Bucks~!@#$Bônus~!@#$Bonus Bucks~!@#$
+TFrmPaymentReceive.btnPayCash=Cash~!@#$Dinheiro~!@#$Dinheiro~!@#$
+TFrmPaymentReceive.btnPayCheck=Check~!@#$Cheque~!@#$Cheque~!@#$
+TFrmPaymentReceive.btnPayCreditCard=Credit Card~!@#$Cart. Crédito~!@#$Tarj Crédito~!@#$
+TFrmPaymentReceive.btnPayDebitCard=Debit Card~!@#$Cart. Débito~!@#$Tarj Débito~!@#$
+TFrmPaymentReceive.btnPayGift=Gift Card~!@#$Vale Presente~!@#$Vale Presente~!@#$
+TFrmPaymentReceive.btnPayOther=Other~!@#$Outros~!@#$Outros~!@#$
+TFrmPaymentReceive.btnPayStoreAcc=Store Account~!@#$Conta da Loja~!@#$conta Tienda~!@#$
+TFrmPaymentReceive.btnPayStoreCredit=Store Credit~!@#$Crédito Loja~!@#$Crédito Loja~!@#$
+TFrmPaymentReceive.grdPaymentsDBPaymentForm=Payment~!@#$Pagamento~!@#$Pagamento~!@#$
+TFrmPaymentReceive.grdPaymentsDBPaymentValue=PaymentValue~!@#$Valor~!@#$Valor~!@#$
+TFrmPaymentReceive.GridTableViewStyleSheetDevExpress=DevExpress~!@#$~!@#$~!@#$
+TFrmPaymentReceive.Label1=Payments :~!@#$Pagamentos :~!@#$Pagamentos :~!@#$
+TFrmPaymentReceive.Label2=Total Due :~!@#$Total Devido :~!@#$Total Devido :~!@#$
+TFrmPaymentReceive.Label3=Total Sale :~!@#$Total Venda :~!@#$Total Venda :~!@#$
+TFrmPaymentReceive.Label4=Amount Tendered :~!@#$Valor  :~!@#$Valor  :~!@#$
+TFrmPaymentReceive.lbChange=Change :~!@#$Troco :~!@#$Troco :~!@#$
+TFrmPaymentReceive.lbCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPaymentReceive.lbLayway=Layaway~!@#$Crediário~!@#$Crediário~!@#$
+TFrmPaymentReceive.lbStoreCredit=Store Credit~!@#$Crédito Loja~!@#$Crédito Loja~!@#$
+TFrmPaymentReceive.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmPaymentReceive.TFrmPaymentReceive=Receiving~!@#$Pagamentos~!@#$Pagamentos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

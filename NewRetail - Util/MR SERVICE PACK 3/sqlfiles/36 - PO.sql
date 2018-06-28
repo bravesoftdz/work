@@ -1,0 +1,110 @@
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE
+GO
+
+SET ARITHABORT ON
+GO
+
+SET NUMERIC_ROUNDABORT OFF
+GO
+
+SET CONCAT_NULL_YIELDS_NULL ON
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+SET ANSI_WARNINGS ON
+GO
+
+CREATE TABLE dbo.Tmp_PO
+	(
+	IDPO int NOT NULL,
+	IDFornecedor int NOT NULL,
+	IDStore int NULL,
+	DataPedido smalldatetime NOT NULL,
+	Aberto bit NULL,
+	Freight money NOT NULL,
+	Charges money NOT NULL,
+	SubTotal money NOT NULL,
+	Atendido bit NULL,
+	PaymenteType int NULL,
+	EstArrival datetime NULL
+	)  ON [PRIMARY]
+GO
+
+IF EXISTS(SELECT * FROM dbo.PO)
+	 EXEC('INSERT INTO dbo.Tmp_PO (IDPO, IDFornecedor, IDStore, DataPedido, Aberto, Freight, Charges, SubTotal, Atendido, PaymenteType, EstArrival)
+		SELECT IDPO, IDFornecedor, IDStore, DataPedido, Aberto, Freight, Charges, SubTotal, Atendido, PaymenteType, EstArrival FROM dbo.PO TABLOCKX')
+GO
+
+DROP TABLE dbo.PO
+GO
+
+ALTER TABLE dbo.Tmp_PO ADD CONSTRAINT
+	DF_Zero148 DEFAULT (0) FOR Aberto
+GO
+
+ALTER TABLE dbo.Tmp_PO ADD CONSTRAINT
+	DF_Zero149 DEFAULT (0) FOR Freight
+GO
+
+ALTER TABLE dbo.Tmp_PO ADD CONSTRAINT
+	DF_Zero150 DEFAULT (0) FOR Charges
+GO
+
+ALTER TABLE dbo.Tmp_PO ADD CONSTRAINT
+	DF_Zero151 DEFAULT (0) FOR SubTotal
+GO
+
+ALTER TABLE dbo.Tmp_PO ADD CONSTRAINT
+	DF_Zero152 DEFAULT (0) FOR Atendido
+GO
+
+EXECUTE sp_rename N'dbo.Tmp_PO', N'PO', 'OBJECT'
+GO
+
+ALTER TABLE dbo.PO ADD CONSTRAINT
+	PK_PO_1__12 PRIMARY KEY CLUSTERED 
+	(
+	IDPO
+	) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX XIF152PO ON dbo.PO
+	(
+	IDStore
+	) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX XIF153PO ON dbo.PO
+	(
+	IDFornecedor
+	) ON [PRIMARY]
+GO
+
+ALTER TABLE dbo.PO WITH NOCHECK ADD CONSTRAINT
+	FK_Pessoa_PO_IDFornecedor FOREIGN KEY
+	(
+	IDFornecedor
+	) REFERENCES dbo.Pessoa
+	(
+	IDPessoa
+	) NOT FOR REPLICATION
+GO
+
+ALTER TABLE dbo.PO WITH NOCHECK ADD CONSTRAINT
+	FK_Store_PO_IDStore FOREIGN KEY
+	(
+	IDStore
+	) REFERENCES dbo.Store
+	(
+	IDStore
+	) NOT FOR REPLICATION
+GO
+

@@ -1,0 +1,19 @@
+[Captions]
+TFchStoreVendorAccount.TFchStoreVendorAccount=New Vendor Account~!@#$Nova Conta de Fornecedor~!@#$Nueva Cunta Proveedor~!@#$
+TFchStoreVendorAccount.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchStoreVendorAccount.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFchStoreVendorAccount.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFchStoreVendorAccount.lblVendor=Vendor :~!@#$Fornecedor :~!@#$Proveedor :~!@#$
+TFchStoreVendorAccount.lblAccount=Account :~!@#$Conta :~!@#$Cuenta :~!@#$
+
+[DisplayLabels]
+
+[Hints]
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

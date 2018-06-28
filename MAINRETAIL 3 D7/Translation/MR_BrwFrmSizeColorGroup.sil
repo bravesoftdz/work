@@ -1,0 +1,34 @@
+[Captions]
+TbrwFrmSizeColorGroup.btAddCredit=A&dd~!@#$A&dicionar~!@#$&Agregar~!@#$
+TbrwFrmSizeColorGroup.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmSizeColorGroup.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmSizeColorGroup.btDelCredit=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TbrwFrmSizeColorGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmSizeColorGroup.Label2=ID :~!@#$ID :~!@#$ID :~!@#$
+TbrwFrmSizeColorGroup.lblColor=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TbrwFrmSizeColorGroup.lblDescription=Group :~!@#$Grupo :~!@#$Grupo :~!@#$
+TbrwFrmSizeColorGroup.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmSizeColorGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwFrmSizeColorGroup.quFormDescription=Group Description~!@#$Grupo~!@#$Grupo~!@#$
+TbrwFrmSizeColorGroup.quFormIDSizeColorGroup=Group Code~!@#$ID~!@#$ID~!@#$
+TbrwFrmSizeColorGroup.quInvColorToGroupColor=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwFrmSizeColorGroup.quInvSizeToGroupSizeName=Description~!@#$Descrição~!@#$Descripción~!@#$
+
+[Hints]
+TbrwFrmSizeColorGroup.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmSizeColorGroup.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmSizeColorGroup.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmSizeColorGroup.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmSizeColorGroup.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmSizeColorGroup.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

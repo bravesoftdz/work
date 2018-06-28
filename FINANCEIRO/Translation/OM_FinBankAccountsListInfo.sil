@@ -1,0 +1,65 @@
+[Captions]
+TFinBankAccountsListInfo.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinBankAccountsListInfo.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinBankAccountsListInfo.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinBankAccountsListInfo.gridBanco= ~!@#$~!@#$~!@#$
+TFinBankAccountsListInfo.gridNumero=Account Number~!@#$Número Conta~!@#$Número Cuenta~!@#$
+TFinBankAccountsListInfo.gridSaldoAtual=Balance~!@#$Saldo~!@#$Saldo~!@#$
+TFinBankAccountsListInfo.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinBankAccountsListInfo.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinBankAccountsListInfo.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinBankAccountsListInfo.TFinBankAccountsListInfo=FinBankAccountsListInfo~!@#$FinListaInfoCtaBanco~!@#$FinListaInfoCtaBanco~!@#$
+
+[Dialogs]
+TFinBankAccountsListInfo.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TFinBankAccountsListInfo.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TFinBankAccountsListInfo.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinBankAccountsListInfo.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TFinBankAccountsListInfo.Error=Error~!@#$Erro~!@#$Error~!@#$
+TFinBankAccountsListInfo.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFinBankAccountsListInfo.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TFinBankAccountsListInfo.Information=Information~!@#$Informação~!@#$Información~!@#$
+TFinBankAccountsListInfo.No=&No~!@#$&Não~!@#$&No~!@#$
+TFinBankAccountsListInfo.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TFinBankAccountsListInfo.OK=OK~!@#$OK~!@#$OK~!@#$
+TFinBankAccountsListInfo.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TFinBankAccountsListInfo.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TFinBankAccountsListInfo.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TFinBankAccountsListInfo.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[DisplayLabels]
+TFinBankAccountsListInfo.quBrowseBanco=Banco~!@#$Banco~!@#$Banco~!@#$
+TFinBankAccountsListInfo.quBrowseIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TFinBankAccountsListInfo.quBrowseNumero=Numero~!@#$Número~!@#$Número~!@#$
+TFinBankAccountsListInfo.quBrowseSaldoAtual=SaldoAtual~!@#$SaldoAtual~!@#$SaldoActual~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFinBankAccountsListInfo.Currency String=$~!@#$$~!@#$$~!@#$
+TFinBankAccountsListInfo.Date Separator=/~!@#$/~!@#$/~!@#$
+TFinBankAccountsListInfo.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TFinBankAccountsListInfo.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TFinBankAccountsListInfo.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFinBankAccountsListInfo.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFinBankAccountsListInfo.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFinBankAccountsListInfo.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFinBankAccountsListInfo.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TFinBankAccountsListInfo.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFinBankAccountsListInfo.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFinBankAccountsListInfo.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TFinBankAccountsListInfo.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFinBankAccountsListInfo.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFinBankAccountsListInfo.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[MultiLines]
+TFinBankAccountsListInfo.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+TFinBankAccountsListInfo.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TFinBankAccountsListInfo.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

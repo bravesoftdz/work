@@ -1,0 +1,20 @@
+[Captions]
+TFchPessoaHistoryType.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchPessoaHistoryType.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchPessoaHistoryType.btnHistoryAdd=A&dd~!@#$Adicionar~!@#$Agregue~!@#$
+TFchPessoaHistoryType.btnResultDelete=&Remove~!@#$Re&mover~!@#$Re&mover~!@#$
+TFchPessoaHistoryType.grdTypeResultDBPessoaHistoryResult=Result~!@#$Resultado~!@#$Resultado~!@#$
+TFchPessoaHistoryType.grdTypeResultDBResultColor=Color~!@#$Cor~!@#$Coloar~!@#$
+TFchPessoaHistoryType.Label1=History Type :~!@#$Tipo de histórico :~!@#$Tipo de la historia :~!@#$
+TFchPessoaHistoryType.Label15=User:~!@#$Usuário :~!@#$Usuário :~!@#$
+TFchPessoaHistoryType.spHelp=&Help~!@#$A&juda ~!@#$A&yuda~!@#$
+TFchPessoaHistoryType.TFchPessoaHistoryType=History Type~!@#$Tipo de histórico~!@#$Tipo de la historia~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

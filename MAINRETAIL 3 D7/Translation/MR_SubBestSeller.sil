@@ -1,0 +1,69 @@
+[Captions]
+TSubBestSeller.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TSubBestSeller.btExcel=E&xport~!@#$&Exportar~!@#$&Exportar~!@#$
+TSubBestSeller.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TSubBestSeller.btnFilter=&Filter~!@#$&Filtro~!@#$&Filtro~!@#$
+TSubBestSeller.btPrint=&Preview~!@#$&Visualizar~!@#$&Visualizar~!@#$
+TSubBestSeller.grdBestSellerDBAccProfitPerc=Acc. Profit %~!@#$% Lucro Acum.~!@#$% Lucro Acum.~!@#$
+TSubBestSeller.grdBestSellerDBAvgCost=AvgCost~!@#$Custo Médio~!@#$Costo Medio~!@#$
+TSubBestSeller.grdBestSellerDBCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TSubBestSeller.grdBestSellerDBClassification=Classification~!@#$Classificação~!@#$Clasificación~!@#$
+TSubBestSeller.grdBestSellerDBColor=Color~!@#$Cor~!@#$Cor~!@#$
+TSubBestSeller.grdBestSellerDBDBStokeTurnOver=Stoke TO~!@#$Giro Stq~!@#$Griro Stq~!@#$
+TSubBestSeller.grdBestSellerDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSubBestSeller.grdBestSellerDBFreight=Freight~!@#$Frete~!@#$Flete~!@#$
+TSubBestSeller.grdBestSellerDBLastMovDate=LastMovDate~!@#$Última Mov.~!@#$Ultima Llegada~!@#$
+TSubBestSeller.grdBestSellerDBLastPurchaseDate=LastPurchaseDate~!@#$Última Compra~!@#$Ultima Compra~!@#$
+TSubBestSeller.grdBestSellerDBLastSaleDate=LastSaleDate~!@#$Última Venda~!@#$Ultima Venta~!@#$
+TSubBestSeller.grdBestSellerDBMarkUp=MarkUp~!@#$Margem~!@#$Margem~!@#$
+TSubBestSeller.grdBestSellerDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TSubBestSeller.grdBestSellerDBMSRP=MSRP~!@#$$ Sugerido~!@#$Prc Sugerido~!@#$
+TSubBestSeller.grdBestSellerDBNetCost=NetCost~!@#$$ Líquido~!@#$Prc Liquido~!@#$
+TSubBestSeller.grdBestSellerDBOtherCost=OtherCost~!@#$Outro Custo~!@#$Otro Costo~!@#$
+TSubBestSeller.grdBestSellerDBOurPrice=OurPrice~!@#$$ Venda~!@#$Prc Venta~!@#$
+TSubBestSeller.grdBestSellerDBPercents=Profit %~!@#$% Lucro~!@#$% Lucro~!@#$
+TSubBestSeller.grdBestSellerDBProfit=Profit~!@#$Lucro~!@#$Lucro~!@#$
+TSubBestSeller.grdBestSellerDBQtySold=QtySold~!@#$Qtd Vendida~!@#$Ctd Vendita~!@#$
+TSubBestSeller.grdBestSellerDBSizeName=Size~!@#$Tamanho~!@#$Tamaño~!@#$
+TSubBestSeller.grdBestSellerDBTotalSold=Total Sold~!@#$Total Vendido~!@#$Total Ventas~!@#$
+TSubBestSeller.grdBestSellerDBTotQtyOnHand=OnHand~!@#$Qtd Estoque~!@#$Ctd Estoque~!@#$
+TSubBestSeller.grdBestSellerDBVendor=Vendor~!@#$Fornecedor~!@#$Fornecedor~!@#$
+TSubBestSeller.grdBestSellerDBVendorCost=VendorCost~!@#$$ Fornec.~!@#$Prc Fornec.~!@#$
+TSubBestSeller.grdBestSellerDBSubCategory=Sub Category~!@#$Sub Categoria~!@#$Sub Categoria~!@#$
+TSubBestSeller.grdBestSellerDBMGroup=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSubBestSeller.grdBestSellerDBTotalCostSold=Total Cost Sold~!@#$Total Custo~!@#$Custo Total~!@#$
+
+[DisplayLabels]
+TSubBestSeller.quBestSellerAccProfitPerc=Acc. Profit %~!@#$% Lucro Acum.~!@#$% Lucro Acum.~!@#$
+TSubBestSeller.quBestSellerAvgCost=AvgCost~!@#$Custo Médio~!@#$Costo Medio~!@#$
+TSubBestSeller.quBestSellerCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TSubBestSeller.quBestSellerColor=Color~!@#$Cor~!@#$Cor~!@#$
+TSubBestSeller.quBestSellerDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSubBestSeller.quBestSellerFreight=Freight~!@#$Frete~!@#$Flete~!@#$
+TSubBestSeller.quBestSellerLastMovDate=LastMovDate~!@#$Última Mov.~!@#$Ultima Llegada~!@#$
+TSubBestSeller.quBestSellerLastPurchaseDate=LastPurchaseDate~!@#$Última Compra~!@#$Ultima Compra~!@#$
+TSubBestSeller.quBestSellerLastSaleDate=LastSaleDate~!@#$Última Venda~!@#$Ultima Venta~!@#$
+TSubBestSeller.quBestSellerMarkUp=MarkUp~!@#$Margem~!@#$Margem~!@#$
+TSubBestSeller.quBestSellerModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TSubBestSeller.quBestSellerMSRP=MSRP~!@#$$ Sugerido~!@#$Prc Sugerido~!@#$
+TSubBestSeller.quBestSellerNetCost=NetCost~!@#$$ Líquido~!@#$Prc Liquido~!@#$
+TSubBestSeller.quBestSellerOtherCost=OtherCost~!@#$Outro Custo~!@#$Otro Costo~!@#$
+TSubBestSeller.quBestSellerOurPrice=OurPrice~!@#$$ Venda~!@#$Prc Venta~!@#$
+TSubBestSeller.quBestSellerPercents=Profit %~!@#$% Lucro~!@#$% Lucro~!@#$
+TSubBestSeller.quBestSellerProfit=Profit~!@#$Lucro~!@#$Lucro~!@#$
+TSubBestSeller.quBestSellerQtySold=QtySold~!@#$Qtd Vendida~!@#$Ctd Vendita~!@#$
+TSubBestSeller.quBestSellerSizeName=Size~!@#$Tamanho~!@#$Tamaño~!@#$
+TSubBestSeller.quBestSellerTotQtyOnHand=OnHand~!@#$Loja~!@#$Tienda~!@#$
+TSubBestSeller.quBestSellerVendor=Vendor~!@#$Fornecedor~!@#$Fornecedor~!@#$
+TSubBestSeller.quBestSellerVendorCost=VendorCost~!@#$$ Fornec.~!@#$Prc Fornec.~!@#$
+TSubBestSeller.quBestSellerSubCategory=Sub Category~!@#$Sub Categoria~!@#$Sub Categoria~!@#$
+TSubBestSeller.quBestSellerMGroup=Group~!@#$Grupo~!@#$Grupo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

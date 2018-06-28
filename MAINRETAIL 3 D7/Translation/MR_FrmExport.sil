@@ -1,0 +1,25 @@
+[Captions]
+TFrmExport.btClose=&Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmExport.btnSave=&Export~!@#$&Exportar~!@#$&Exportar~!@#$
+TFrmExport.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmExport.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmExport.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmExport.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmExport.hhh=~!@#$~!@#$~!@#$
+TFrmExport.Label1=Export data to~!@#$Exportar dados para~!@#$Exportar datos a~!@#$
+TFrmExport.Panel1=~!@#$~!@#$~!@#$
+TFrmExport.Panel3=~!@#$~!@#$~!@#$
+TFrmExport.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmExport.TFrmExport=Export data to~!@#$Exportar dados~!@#$Exportar datos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmExport.cbxLanguage.Items=Spreadsheet,HTML,XML,Text~!@#$Planilha,HTML,XML,Text~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

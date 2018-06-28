@@ -1,0 +1,58 @@
+[Captions]
+TFrmInvResetView.btAllModel=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmInvResetView.btCancel=Close~!@#$&Fechar~!@#$Cerrar~!@#$
+TFrmInvResetView.btClearCatego=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmInvResetView.btClearStore=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmInvResetView.btClose=&Reset Qty~!@#$&Reduzir Qtd~!@#$&Reducir Ctd~!@#$
+TFrmInvResetView.btnPreview=&Preview~!@#$&Ver~!@#$&Ver~!@#$
+TFrmInvResetView.btnRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmInvResetView.btnRestore=&Restore~!@#$&Restab.~!@#$&Restablecer~!@#$
+TFrmInvResetView.grdModelsCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmInvResetView.grdModelsDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInvResetView.grdModelsIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmInvResetView.grdModelsModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInvResetView.grdModelsPrevQty=QtyReseted~!@#$QtdReduzida~!@#$CtdReducida~!@#$
+TFrmInvResetView.grdModelsQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TFrmInvResetView.grdModelsStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmInvResetView.Label1=Inventory Reset History~!@#$Histórico Estoque Reduzido~!@#$Histórico Estoque Reducido~!@#$
+TFrmInvResetView.Label15=User:~!@#$Usuário:~!@#$Usuario~!@#$
+TFrmInvResetView.Label2=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmInvResetView.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmInvResetView.Label4=Reset Date :~!@#$Zerado em :~!@#$Acerado el :~!@#$
+TFrmInvResetView.Label6=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TFrmInvResetView.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmInvResetView.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmInvResetView.lblUsuarioData=User and Date~!@#$Usuário e Data~!@#$Usuario y Fecha~!@#$
+TFrmInvResetView.ppLabel1=Inventory Reset History~!@#$Histórico Estoque Reduzido~!@#$Histórico Estoque Reducido~!@#$
+TFrmInvResetView.ppLabel11=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInvResetView.ppLabel12=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInvResetView.ppLabel13=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmInvResetView.ppLabel14=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmInvResetView.ppLabel15=QtyOnHand~!@#$Estoque~!@#$CtdExistente~!@#$
+TFrmInvResetView.ppLabel16=QtyReseted~!@#$Zerada~!@#$CtdReducida~!@#$
+TFrmInvResetView.ppLabel2=Reset Date:~!@#$Zerado em : ~!@#$Acerado el :~!@#$
+TFrmInvResetView.ppLabel4=Overflow : ~!@#$Sobrando : ~!@#$Sobrando : ~!@#$
+TFrmInvResetView.ppLabel3=Missing : ~!@#$Faltando : ~!@#$Faltando : ~!@#$
+TFrmInvResetView.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+
+[DisplayLabels]
+TFrmInvResetView.quModelCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmInvResetView.quModelDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInvResetView.quModelIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmInvResetView.quModelModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInvResetView.quModelPrevQty=PrevQty~!@#$Zerada~!@#$CtdAnterior~!@#$
+TFrmInvResetView.quModelQtyOnHand=QtyOnHand~!@#$Estoque~!@#$CtdExistente~!@#$
+TFrmInvResetView.quModelResetDate=ResetDate~!@#$RestabelecerData~!@#$RestablecerFecha~!@#$
+TFrmInvResetView.quModelStore=Store~!@#$Loja~!@#$Tienda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmInvResetView.cbxMethod.Items="Starts with","End with",Contains~!@#$"Começa com","Termina com",Contém~!@#$"Comienza con","Termina con",Contiene~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

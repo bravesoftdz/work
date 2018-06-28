@@ -1,0 +1,97 @@
+[Captions]
+TFinDocumentoDesdobramentoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinDocumentoDesdobramentoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinDocumentoDesdobramentoFch.Label1=Due Date :~!@#$Data Vencimento :~!@#$Fecha Vencimiento :~!@#$
+TFinDocumentoDesdobramentoFch.Label2=Amount :~!@#$Quantía :~!@#$Monto :~!@#$
+TFinDocumentoDesdobramentoFch.Label3=Number :~!@#$Número :~!@#$Número :~!@#$
+TFinDocumentoDesdobramentoFch.Label4=*~!@#$*~!@#$*~!@#$
+TFinDocumentoDesdobramentoFch.Label5=*~!@#$*~!@#$*~!@#$
+TFinDocumentoDesdobramentoFch.Label7=*~!@#$*~!@#$*~!@#$
+TFinDocumentoDesdobramentoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinDocumentoDesdobramentoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinDocumentoDesdobramentoFch.lblPTitulo=Duplicata~!@#$Duplicata~!@#$Duplicado~!@#$
+TFinDocumentoDesdobramentoFch.lblPTituloShadow=Duplicata~!@#$Duplicata~!@#$Duplicado~!@#$
+TFinDocumentoDesdobramentoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.TFinDocumentoDesdobramentoFch=FinDocumentoDesdobramentoFch~!@#$FinDocumentoDesdobramentoFch~!@#$FinFraccionamientoDocumentoFch~!@#$
+
+[DisplayLabels]
+TFinDocumentoDesdobramentoFch.quFormDataAprovacao=DataAprovacao~!@#$DataAprovação~!@#$FechaAprobación~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataEmissao=DataEmissao~!@#$DataEmisión~!@#$FechaEmisión~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataFaturamento=DataFaturamento~!@#$DataFaturamento~!@#$FechaFacturación~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataFimQuitacao=DataFimQuitacao~!@#$DataFimQuitacao~!@#$FechaFinalPago~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataInicioQuitacao=DataInicioQuitacao~!@#$DataInicioQuitacao~!@#$FechaInicialPago~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataLancamento=DataLancamento~!@#$DataLançamento~!@#$FechaContabilización~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataPrimeiraRepeticao=DataPrimeiraRepeticao~!@#$DataPrimeiraRepetição~!@#$FechaPrimeraRepetición~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataProtesto=DataProtesto~!@#$DataProtesto~!@#$FechaProtesto~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataVencimento=DataVencimento~!@#$DataVencimento~!@#$FechaVencimiento~!@#$
+TFinDocumentoDesdobramentoFch.quFormDataVencimentoOriginal=DataVencimentoOriginal~!@#$DataVencimentoOriginal~!@#$FechaVencimientoOriginal~!@#$
+TFinDocumentoDesdobramentoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinDocumentoDesdobramentoFch.quFormDiaRepeticoes=DiaRepeticoes~!@#$DiaRepetições~!@#$DiaRepeticiones~!@#$
+TFinDocumentoDesdobramentoFch.quFormFavorecidoPrevisto=FavorecidoPrevisto~!@#$FavorecidoPrevisto~!@#$FavorecidoPrevisto~!@#$
+TFinDocumentoDesdobramentoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinDocumentoDesdobramentoFch.quFormHistorico=Historico~!@#$Histórico~!@#$Histórico~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDBancoAgenciaQuitPrev=IDBancoAgenciaQuitPrev~!@#$IDRápidaVisualizAgenciaBco~!@#$IDRapidaVisualizAgenciaBco~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDBancoQuitPrev=IDBancoQuitPrev~!@#$IDRápidaVisualizBco~!@#$IDRapidaVisualizBco~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDCentroCusto=IDCentroCusto~!@#$IDCentroCusto~!@#$IDCentroCostos~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDCompra=IDCompra~!@#$IDCompra~!@#$IDCompra~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDContaCorrentePrevista=IDContaCorrentePrevista~!@#$IDContaCorrentePrevista~!@#$IDCuentaCorrientePrevista~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDDesdobramentoTipo=IDDesdobramentoTipo~!@#$IDTipoDesdobramento~!@#$IDTipoFraccionamiento~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDDocumentoTipo=IDDocumentoTipo~!@#$IDDocumentoTipo~!@#$IDDocumentoTipo~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDLancamentoOriginal=IDLancamentoOriginal~!@#$IDLançamentoOriginal~!@#$IDContabilizaciónOriginal~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDLancamentoTipo=IDLancamentoTipo~!@#$IDTipoLançamento~!@#$IDTipoContabilización~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDMoeda=IDMoeda~!@#$IDMoeda~!@#$IDMoneda~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDMoedaCotacao=IDMoedaCotacao~!@#$IDCotaçãoMoeda~!@#$IDCotizaciónMoneda~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDNotaFiscalServico=IDNotaFiscalServico~!@#$IDNotaFiscalServiço~!@#$IDFacturaServicio~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDPessoaTipo=IDPessoaTipo~!@#$IDTipoPessoa~!@#$IDTipoPersona~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDQuitacaoMeioPrevisto=IDQuitacaoMeioPrevisto~!@#$IDQuitacaoMeioPrevisto~!@#$IDMedioPagoPrevisto~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDUsuarioAprovacao=IDUsuarioAprovacao~!@#$IDAprovaçãoUsuário~!@#$IDAprobaciónUsuario~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDUsuarioLancamento=IDUsuarioLancamento~!@#$IDUsuárioLançamento~!@#$IDUsuarioContabilización~!@#$
+TFinDocumentoDesdobramentoFch.quFormIDUsuarioProtesto=IDUsuarioProtesto~!@#$IDUsuárioProtesto~!@#$IDUsuarioProtesto~!@#$
+TFinDocumentoDesdobramentoFch.quFormMoedaSigla=MoedaSigla~!@#$SiglaMoeda~!@#$SiglaMoneda~!@#$
+TFinDocumentoDesdobramentoFch.quFormNumDesdobramento=NumDesdobramento~!@#$NúmDesdobramento~!@#$NúmFraccionamiento~!@#$
+TFinDocumentoDesdobramentoFch.quFormNumDocumento=NumDocumento~!@#$NúmDocumento~!@#$NúmDocumento~!@#$
+TFinDocumentoDesdobramentoFch.quFormNumeroDuplicata=NumeroDuplicata~!@#$NúmeroDuplicata~!@#$NúmeroDuplicado~!@#$
+TFinDocumentoDesdobramentoFch.quFormNumeroRepeticoes=NumeroRepeticoes~!@#$NúmeroRepetições~!@#$NúmeroRepeticiones~!@#$
+TFinDocumentoDesdobramentoFch.quFormNumMeioQuitPrevisto=NumMeioQuitPrevisto~!@#$NúmMeioQuitPrevisto~!@#$NúmMedioPagoPrevisto~!@#$
+TFinDocumentoDesdobramentoFch.quFormPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TFinDocumentoDesdobramentoFch.quFormPeriodicidadeRepeticoes=PeriodicidadeRepeticoes~!@#$PeriocidadeRepetições~!@#$FrecuenciaRepeticiones~!@#$
+TFinDocumentoDesdobramentoFch.quFormPrevisao=Previsao~!@#$Previsão~!@#$Previsión~!@#$
+TFinDocumentoDesdobramentoFch.quFormSituacao=Situacao~!@#$Situação~!@#$Situación~!@#$
+TFinDocumentoDesdobramentoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFinDocumentoDesdobramentoFch.quFormTotalJuros=TotalJuros~!@#$TotalJuros~!@#$TotalIntereses~!@#$
+TFinDocumentoDesdobramentoFch.quFormTotalQuitado=TotalQuitado~!@#$TotalQuitado~!@#$TotalPagado~!@#$
+TFinDocumentoDesdobramentoFch.quFormValorNominal=ValorNominal~!@#$ValorNominal~!@#$ValorNominal~!@#$
+
+[Hints]
+TFinDocumentoDesdobramentoFch.btCancel=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinDocumentoDesdobramentoFch.btHelp=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinDocumentoDesdobramentoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinDocumentoDesdobramentoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinDocumentoDesdobramentoFch.btOK=~!@#$~!@#$~!@#$
+TFinDocumentoDesdobramentoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinDocumentoDesdobramentoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinDocumentoDesdobramentoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinDocumentoDesdobramentoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

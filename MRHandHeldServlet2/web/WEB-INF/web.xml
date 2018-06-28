@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>SynchServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.synch.SynchServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SaleServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.sale.SaleServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>VerifyReceivingServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.purchase.VerifyReceivingServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ReceivingServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.purchase.ReceivingServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ImportPOServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.purchase.ImportPOServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>POServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.purchase.POServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CountingFindServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.inventory.CountingFindServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CountingServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.inventory.CountingServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BarcodePrintListServlet</servlet-name>
+		<servlet-class>com.mainretail.handheldservlet.inventory.BarcodePrintListServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SynchServlet</servlet-name>
+		<url-pattern>/synchservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SaleServlet</servlet-name>
+		<url-pattern>/saleservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>VerifyReceivingServlet</servlet-name>
+		<url-pattern>/verifyreceivingservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ReceivingServlet</servlet-name>
+		<url-pattern>/receivingservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ImportPOServlet</servlet-name>
+		<url-pattern>/importposervlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>POServlet</servlet-name>
+		<url-pattern>/poservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CountingFindServlet</servlet-name>
+		<url-pattern>/countingfindservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CountingServlet</servlet-name>
+		<url-pattern>/countingservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BarcodePrintListServlet</servlet-name>
+		<url-pattern>/barcodeprintlistservlet</url-pattern>
+	</servlet-mapping>
+
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>mrpool</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+</web-app>

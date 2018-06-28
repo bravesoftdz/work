@@ -1,0 +1,315 @@
+;This help file was created with HelpScribble 7.1.0
+;Registered to: PSOFT
+
+:BASE barcode_library.hlp
+:TITLE Barcode library help file (http://barcode.psoft.sk).
+:LINK D7VCL.HLP
+1 Introduction.
+2 Barcode library - main help page.=Scribble100
+2 What's new ?=Scribble105
+2 Trial version limits.=Scribble1005
+2 Zoznam balíèkov.=Scribble920
+2 Barcode library -file lists.=Scribble110
+2 Barcode library - list of components. =Scribble120
+2 Directives - Ean.inc=Scribble910
+2 Barcode library - screenshots=Scribble900
+2 Printing labels.=Scribble130
+1 About barcode, specifications, limits
+2 Barcode printing tips.=Scribble400
+2 Definition of terms.=Scribble500
+2 Barcode types, using, advantages.
+3 Ean 8, Ean 13.=Scribble944
+3 UCC/EAN 128=Scribble951
+3 Barcode types - PDF417=Scribble940
+3 Ean 8, Ean 13.=Scribble944
+3 ISBN, ISSN, ISMN, JAN.=Scribble943
+3 PostNet.=Scribble942
+3 Code 128.=Scribble941
+3 Codabar.=Scribble945
+3 2 of 5.=Scribble946
+3 UPC - Universal product code.=Scribble947
+3 Code 39.=Scribble948
+3 Code 93.=Scribble949
+3 MSI, Plessey.=Scribble950
+3 Ean barcode family.=Scribble952
+1 Basic classes and internal components
+2 TBarcodeCaption class
+3 TBarcodeCaption class Reference=Scribble1010
+3 Properties
+4 Alignment=Scribble1020
+4 AutoCaption=Scribble1025
+4 AutoSize=Scribble1030
+4 Font=Scribble1035
+4 Text=Scribble1040
+4 Visible=Scribble1045
+3 Methods
+4 CreateEAN=Scribble1050
+4 CalcFontRect=Scribble1055
+4 UpdateCaption=Scribble1060
+3 TBarCodeHorzLines component
+4 TBarCodeHorzLines component Reference=Scribble1100
+4 Properties
+5 LinesCount=Scribble1110
+3 TpsPDF417 class
+4 TpsPDF417 class Reference=Scribble1200
+4 Properties
+5 Cols=Scribble1210
+5 Mode=Scribble1215
+5 PaintIfSmall=Scribble1220
+5 Rows=Scribble1225
+5 SecurityLevel=Scribble1230
+5 Truncated=Scribble1235
+4 Methods
+5 CreateEan=Scribble1240
+4 Events
+5 OnChange=Scribble1245
+3 TEanReadThread component
+4 TEanReadThread component Reference=Scribble10010
+4 Methods
+5 CreateEan=Scribble10020
+5 DataReceived=Scribble10025
+1 Basic components
+2 TBarcodeReader component
+3 TBarcodeReader component Reference=Scribble10100
+3 Properties
+4 Active=Scribble10110
+4 BitRate=Scribble10115
+4 DataBits=Scribble10120
+4 LastBarcode=Scribble10125
+4 OnBarcodeReady=Scribble10130
+4 Options=Scribble10135
+4 Parity=Scribble10140
+4 Port=Scribble10145
+4 StopBits=Scribble10150
+4 TimeOut=Scribble10155
+3 Methods
+4 ReConnect=Scribble10160
+2 TCustomEan component
+3 TCustomEan component Reference=Scribble1300
+3 Properties
+4 Angle=Scribble1310
+4 AutoCheckDigit=Scribble1315
+4 AutoInc=Scribble1320
+4 AutoIncFrom=Scribble1325
+4 AutoIncTo=Scribble1330
+4 AutoSize=Scribble1335
+4 BackgroundColor=Scribble1340
+4 BarCode=Scribble1345
+4 Caption=Scribble1350
+4 CaptionBottom=Scribble1355
+4 DemoVersion=Scribble1360
+4 DisableEditor=Scribble1365
+4 Ean13AddUp=Scribble1370
+4 FirstBarCode=Scribble1375
+4 FontAutoSize=Scribble1380
+4 HorzLines=Scribble1385
+4 LabelMask=Scribble1390
+4 LastPaintError=Scribble1395
+4 LinesColor=Scribble1400
+4 PDF417=Scribble1405
+4 Security=Scribble1410
+4 SetOfChars=Scribble1415
+4 ShowLabels=Scribble1420
+4 StartStopLines=Scribble1425
+4 Transparent=Scribble1430
+4 TypBarCode=Scribble1435
+3 Methods
+4 BarcodeTypeName=Scribble1440
+4 DigitVisible=Scribble1445
+4 GetBarcodeInfo=Scribble1450
+4 GetSetOfChars=Scribble1455
+4 GetSetOfCharsVisible=Scribble1460
+4 CheckBarCode=Scribble1465
+4 LastPaintErrorText=Scribble1470
+4 MinWidth=Scribble1475
+4 ActiveSetupWindow=Scribble1480
+4 AddTypesToList=Scribble1485
+4 BarcodeComplete=Scribble1490
+4 Copyright=Scribble1495
+4 CopyToClipboard=Scribble1500
+4 CopyToClipboardWMF=Scribble1505
+4 ExportToHTML=Scribble1510
+4 Next=Scribble1515
+4 Print=Scribble1520
+4 PrintToCanvas=Scribble1525
+4 SaveAsBitmap=Scribble1530
+4 SaveAsEMF=Scribble1535
+4 SaveAsGIF=Scribble1540
+4 SaveAsJPG=Scribble1545
+4 SaveAsWMF=Scribble1550
+4 SaveToFile=Scribble1555
+4 SaveToStreamBmp=Scribble1560
+4 SaveToStreamWmf=Scribble1565
+3 Events
+4 OnChangeBarCode=Scribble1570
+4 OnChangeTypCode=Scribble1575
+4 OnPaint=Scribble1580
+4 OnResize=Scribble1585
+2 TEan component
+3 TEan component Reference=Scribble1600
+3 Properties
+3 Events
+2 TDBEan component
+3 TDBEan component Reference=Scribble4010
+3 Properties
+4 DataField=Scribble4020
+4 DataSource=Scribble4025
+4 Field=Scribble4030
+3 Methods
+1 Quick report components
+2 TQrCustomEan component
+3 TQrCustomEan component Reference=Scribble7010
+3 Properties
+4 Angle=Scribble7020
+4 AutoCheckDigit=Scribble7025
+4 AutoSize=Scribble7030
+4 BackgroundColor=Scribble7035
+4 BarCode=Scribble7040
+4 Caption=Scribble7045
+4 CaptionBottom=Scribble7050
+4 DisableEditor=Scribble7055
+4 Ean=Scribble7060
+4 Ean13AddUp=Scribble7065
+4 FontAutoSize=Scribble7070
+4 HorzLines=Scribble7075
+4 CharWidthMM=Scribble7080
+4 LabelMask=Scribble7085
+4 LastPaintError=Scribble7090
+4 LinesColor=Scribble7095
+4 PDF417=Scribble7100
+4 Security=Scribble7105
+4 ShowLabels=Scribble7110
+4 StartStopLines=Scribble7115
+4 Transparent=Scribble7120
+4 TypBarCode=Scribble7125
+3 Methods
+4 DigitVisible=Scribble7130
+4 GetSetOfChars=Scribble7135
+4 GetSetOfCharsVisible=Scribble7140
+4 CheckBarCode=Scribble7145
+4 LastPaintErrorText=Scribble7150
+4 QrCalcRect=Scribble7155
+4 ActiveSetupWindow=Scribble7160
+4 Copyright=Scribble7165
+4 Next=Scribble7170
+3 Events
+2 TQrEan component
+3 TQrEan component Reference=Scribble7200
+3 Properties
+3 Events
+2 TQrDBEan component
+3 TQrDBEan component Reference=Scribble5010
+3 Properties
+4 DataField=Scribble5020
+4 DataSource=Scribble5025
+4 Field=Scribble5030
+3 Methods
+1 Report Builder components
+2 TRBCustomEan component
+3 TRBCustomEan component Reference=Scribble8010
+3 Properties
+4 Angle=Scribble8020
+4 BackgroundColor=Scribble8025
+4 BarCode=Scribble8030
+4 Caption=Scribble8035
+4 CaptionBottom=Scribble8040
+4 DisableEditor=Scribble8045
+4 Ean13AddUp=Scribble8050
+4 FontAutoSize=Scribble8055
+4 CharWidthMM=Scribble8060
+4 LabelMask=Scribble8065
+4 LastPaintError=Scribble8070
+4 LinesColor=Scribble8075
+4 PDF417=Scribble8080
+4 Security=Scribble8085
+4 ShowLabels=Scribble8090
+4 StartStopLines=Scribble8095
+4 Transparent=Scribble8100
+4 TypBarCode=Scribble8105
+3 Methods
+4 DigitVisible=Scribble8110
+4 Ean=Scribble8115
+4 GetSetOfChars=Scribble8120
+4 GetSetOfCharsVisible=Scribble8125
+4 CheckBarCode=Scribble8130
+4 LastPaintErrorText=Scribble8135
+4 ActiveSetupWindow=Scribble8140
+4 Copyright=Scribble8145
+4 Next=Scribble8150
+2 TRBEan component
+3 TRBEan component Reference=Scribble8200
+3 Properties
+3 Events
+2 TRBDBEan component
+3 TRBDBEan component Reference=Scribble9010
+3 Properties
+1 Ace Reporter components
+2 TAceCustomEan component
+3 TAceCustomEan component Reference=Scribble2010
+3 Properties
+4 Angle=Scribble2020
+4 AutoSize=Scribble2025
+4 BackgroundColor=Scribble2030
+4 BarCode=Scribble2035
+4 Caption=Scribble2040
+4 CaptionBottom=Scribble2045
+4 DisableEditor=Scribble2050
+4 Ean13AddUp=Scribble2055
+4 FontAutoSize=Scribble2060
+4 CharWidthMM=Scribble2065
+4 LabelMask=Scribble2070
+4 LastPaintError=Scribble2075
+4 LinesColor=Scribble2080
+4 PDF417=Scribble2085
+4 Security=Scribble2090
+4 ShowLabels=Scribble2095
+4 StartStopLines=Scribble2100
+4 Transparent=Scribble2105
+4 TypBarCode=Scribble2110
+3 Methods
+4 DigitVisible=Scribble2115
+4 Ean=Scribble2120
+4 GetSetOfChars=Scribble2125
+4 GetSetOfCharsVisible=Scribble2130
+4 CheckBarCode=Scribble2135
+4 LastPaintErrorText=Scribble2140
+4 ActiveSetupWindow=Scribble2145
+4 Copyright=Scribble2150
+4 Next=Scribble2155
+3 Events
+2 TAceEan component
+3 TAceEan component Reference=Scribble2200
+3 Properties
+3 Events
+2 TAceDBEan component
+3 TAceDBEan component Reference=Scribble3010
+3 Properties
+4 DataField=Scribble3020
+4 DataSource=Scribble3025
+4 Field=Scribble3030
+3 Methods
+1 Rave report components
+1 Pragnaan export filter components
+2 TPsQrEan component
+3 TPsQrEan component Reference=Scribble6010
+2 TPsQrDBEan component
+3 TPsQrDBEan component Reference=Scribble6100
+1 Property and component editors
+2 TEanEditor component
+3 TEanEditor component Reference=Scribble11010
+3 Methods
+2 TPDF417PropertyEditor component
+3 TPDF417PropertyEditor component Reference=Scribble11100
+3 Methods
+1 Units and files
+2 Directives - Ean.inc=Scribble910
+2 EanKod unit=Scribble1000
+2 EanDB unit=Scribble4000
+2 EanAce unit=Scribble2000
+2 EanAceDB unit=Scribble3000
+2 EanQR unit=Scribble7000
+2 EanDBQr unit=Scribble5000
+2 EanRB unit=Scribble8000
+2 EanRBDB unit=Scribble9000
+2 EanPragnaan unit=Scribble6000
+2 EanSpecs unit=Scribble12000

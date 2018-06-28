@@ -1,0 +1,52 @@
+[Captions]
+TFrmPreSaleItem.btCancel=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmPreSaleItem.btDiscount=&Discount~!@#$&Desconto~!@#$&Desconto~!@#$
+TFrmPreSaleItem.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmPreSaleItem.btSearch=(F2) Barcode Search ...~!@#$(F2) Buscar por CódBarra/Modelo/Descrição~!@#$(F2) Buscar CódBarra/Modelo/Descripción~!@#$
+TFrmPreSaleItem.btSplit=Split~!@#$Dividir~!@#$To divide~!@#$
+TFrmPreSaleItem.Label1=Quantity~!@#$Quantidade~!@#$Cantidade~!@#$
+TFrmPreSaleItem.Label14=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPreSaleItem.Label2=Our Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmPreSaleItem.Label3=Regular Price~!@#$Preço Normal~!@#$Precio Normal~!@#$
+TFrmPreSaleItem.Label4=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPreSaleItem.Label5=SerialNumber~!@#$Número de Série~!@#$Número de Série~!@#$
+TFrmPreSaleItem.Label6=Barcode~!@#$CódigoBarra~!@#$CódigoBarra~!@#$
+TFrmPreSaleItem.Label7=Sales Person~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmPreSaleItem.Label8=Exchange from  Invoice#~!@#$Nº Nota p/ troca~!@#$Cambio de Boleta #~!@#$
+TFrmPreSaleItem.Label9=Total~!@#$Total~!@#$Total~!@#$
+TFrmPreSaleItem.lblCost=Cost Price~!@#$Preço de Custo~!@#$Precio de Costo~!@#$
+TFrmPreSaleItem.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmPreSaleItem.TFrmPreSaleItem=Hold - Item~!@#$Retenção - Item~!@#$Retención - Item~!@#$
+
+[DisplayLabels]
+TFrmPreSaleItem.quFindExchangeComissionID=ComissionID~!@#$ComissãoID~!@#$ComisiónID~!@#$
+TFrmPreSaleItem.quFindExchangeIDInventoryMov=IDInventoryMov~!@#$IDMovInventario~!@#$IDMovInventario~!@#$
+TFrmPreSaleItem.quFindExchangeQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPreSaleItem.quFindExchangeQtyAvailable=QtyAvailable~!@#$QtdDisponível~!@#$CtdDisponible~!@#$
+TFrmPreSaleItem.quFindExchangeUnitPrice=UnitPrice~!@#$PreçoUnidade~!@#$PrecioUnitário~!@#$
+TFrmPreSaleItem.QuSerialMovSerialNumber=SerialNumber~!@#$NúmeroSérie~!@#$NúmeroSérie~!@#$
+TFrmPreSaleItem.spquKitPriceQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPreSaleItem.spquKitPriceSellingPrice=SellingPrice~!@#$PreçoVenda~!@#$PrecioVenta~!@#$
+TFrmPreSaleItem.spquQuantityCurrentCost=CurrentCost~!@#$CustoAtual~!@#$CostoActual~!@#$
+TFrmPreSaleItem.spquQuantityName=Store~!@#$Loja ~!@#$Tienda~!@#$
+TFrmPreSaleItem.spquQuantityQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdEnTienda~!@#$
+TFrmPreSaleItem.spquQuantityQtyOnOrder=QtyOnOrder~!@#$QtdEmPedido~!@#$CtdEnPedido~!@#$
+TFrmPreSaleItem.spquQuantityQtyOnPrePurchase=QtyOnPrePurchase~!@#$QtdEmPreCompra~!@#$CtdEnPreCompra~!@#$
+TFrmPreSaleItem.spquQuantityQtyOnPreSale=QtyOnHold~!@#$QtdEmNPend~!@#$CtdEnBPend~!@#$
+TFrmPreSaleItem.spquQuantityQtyOnRepair=QtyOnRepair~!@#$QtdEmConserto~!@#$CtdEnReparación~!@#$
+TFrmPreSaleItem.spquQuantityStoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+
+[Hints]
+TFrmPreSaleItem.btCancel=Finish this Invoice~!@#$Terminar esta Nota~!@#$Terminar esta Boleta~!@#$
+TFrmPreSaleItem.btOK=Confirm this Item~!@#$Confirmar este Item~!@#$Confirmar este Item~!@#$
+TFrmPreSaleItem.btShowCost=Show Costs Details & Profit~!@#$Mostrar Detalhe Custo  _Lucro~!@#$Mostrar Detalle Costo _Lucro~!@#$
+TFrmPreSaleItem.EditQty=In case of refund, type negative quantity~!@#$Em caso de Devolução entre a quantidade negativa.~!@#$En el caso de Devolución entre la cantidad negativa. ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

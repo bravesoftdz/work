@@ -1,0 +1,15 @@
+[Captions]
+TFrmModelAddColor.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFrmModelAddColor.Button1=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmModelAddColor.Label1=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFrmModelAddColor.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmModelAddColor.TFrmModelAddColor=Add Vertical~!@#$Adicionar Vertical~!@#$Agregar Vertical~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

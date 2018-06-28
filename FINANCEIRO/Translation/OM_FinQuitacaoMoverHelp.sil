@@ -1,0 +1,29 @@
+[Captions]
+TFinQuitacaoMoverHelp.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFinQuitacaoMoverHelp.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TFinQuitacaoMoverHelp.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.Label1=Exclude selected record(s)~!@#$Excluir registro (s) selecionados~!@#$Excluir registro (s) seleccionados~!@#$
+TFinQuitacaoMoverHelp.Label2=Clear list~!@#$Limpar Lista~!@#$Limpiar Lista~!@#$
+TFinQuitacaoMoverHelp.Label3=Include all records~!@#$Incluir todos os registros~!@#$Incluir todos los registros~!@#$
+TFinQuitacaoMoverHelp.Label4=Include selected record(s)~!@#$Incluir registro (s) selecionados~!@#$Incluir registro (s) seleccionados~!@#$
+TFinQuitacaoMoverHelp.Label6=Click on Ok to continue~!@#$Clique em OK para continuar~!@#$Presione en OK para continuar~!@#$
+TFinQuitacaoMoverHelp.Label7=Use this function to create a list of records (Invoices, etc.) to be paid with the same document.~!@#$Usar esta função para crear uma lista de registros (Faturas,etc) para ser pago com o mesmo documento.~!@#$Usar esta función para crear la lista de registros (Facturas,etc) a ser pagados con el mismo documento.~!@#$
+TFinQuitacaoMoverHelp.Label8=To include a record (Invoice, etc.) for payment drag and drop or use toolbar. The use of toolbar is explained below :~!@#$Para incluir um registro (Fatura,etc) para pagar deve arrasta -lo e coloca-lo ou use a barra de ferramentas. O uso da barra de ferramentas é explicado abaixo :~!@#$Para incluir un registro (Factura,etc) para pagar debe arrastrarlo y colocarlo o use la barra de herramientas. El usu de la barra de herramientas está explicado abajo :~!@#$
+TFinQuitacaoMoverHelp.LabelEffect1=Instructions~!@#$Instruções~!@#$Instrucciones~!@#$
+TFinQuitacaoMoverHelp.Panel3=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.pnlPBarra=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TFinQuitacaoMoverHelp.TFinQuitacaoMoverHelp=Pay multiple help~!@#$Ajuda Pag Múltiplo~!@#$Ayuda Pago Múltiple~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,21 @@
+[Captions]
+TFrmSaleConsult.btClose=&Cancel~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmSaleConsult.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmSaleConsult.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmSaleConsult.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmSaleConsult.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmSaleConsult.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmSaleConsult.hhh=~!@#$~!@#$~!@#$
+TFrmSaleConsult.Panel1=~!@#$~!@#$~!@#$
+TFrmSaleConsult.Panel3=~!@#$~!@#$~!@#$
+TFrmSaleConsult.sbHelp=&Help~!@#$A&juda~!@#$Ayuda~!@#$
+TFrmSaleConsult.TFrmSaleConsult=Sale Consult~!@#$Consultar pedidos~!@#$Consultar boletas~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

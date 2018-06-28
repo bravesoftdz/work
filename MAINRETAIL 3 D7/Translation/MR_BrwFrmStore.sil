@@ -1,0 +1,98 @@
+[Captions]
+TbrwFrmStore.btAddVendorAccount=Add~!@#$Adicionar~!@#$Agregar~!@#$
+TbrwFrmStore.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmStore.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmStore.btnSetTax=Update all categories~!@#$Atualizar Todas as Categorias~!@#$Actualizar Todas las Categ.~!@#$
+TbrwFrmStore.btnSetTaxGov=Update all categories~!@#$Atualizar Todas as Categorias~!@#$Actualizar Todas las Categ.~!@#$
+TbrwFrmStore.btRemoveVendorAccount=Remove~!@#$Remover~!@#$Remover~!@#$
+TbrwFrmStore.chbFranchise=Is Franchise~!@#$Franquia~!@#$Franquia~!@#$
+TbrwFrmStore.Label1=IDStore :~!@#$IDLoja :~!@#$IDTienda :~!@#$
+TbrwFrmStore.Label10=Contact :~!@#$Contato : ~!@#$Contacto :~!@#$
+TbrwFrmStore.Label11=Company :~!@#$Empresa :~!@#$Empresa :~!@#$
+TbrwFrmStore.Label14=Starting Hold :~!@#$Nº Pedido Ini :~!@#$Pedido Inicial :~!@#$
+TbrwFrmStore.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmStore.Label16=Starting Invoice :~!@#$Nº Nota Ini :~!@#$Boleta inicial :~!@#$
+TbrwFrmStore.Label17=Tax Gov :~!@#$Imposto :~!@#$Imposto :~!@#$
+TbrwFrmStore.Label19=Banck account :~!@#$Conta Bancária :~!@#$Cuenta Bancaria :~!@#$
+TbrwFrmStore.Label2=Name~!@#$Nome :~!@#$Nombre :~!@#$
+TbrwFrmStore.Label29=Tax :~!@#$Encargos :~!@#$Encargos :~!@#$
+TbrwFrmStore.Label3=State :~!@#$Estado :~!@#$Estado :~!@#$
+TbrwFrmStore.Label30=Where is your server ?~!@#$Onde está seu Servidor?~!@#$Dónde está su Servidor?~!@#$
+TbrwFrmStore.Label31=Time offset :~!@#$Fora do Horário :~!@#$Fuera del Horario :~!@#$
+TbrwFrmStore.Label33=Your new Time Offset was updated based on windows configurations. If it is not correct, please update it.~!@#$O Novo horário foi atualizado segundo a configuração do Windows. Se não é correto atualize o Windows. ~!@#$El Nuevo horario ha sido actualizado según la configuración de Windows.Si no está correcto actualice el Windows. ~!@#$
+TbrwFrmStore.Label4=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TbrwFrmStore.Label45=Cellular:~!@#$Celular :~!@#$Celular :~!@#$
+TbrwFrmStore.Label46=Beeper:~!@#$Beeper :~!@#$Beeper :~!@#$
+TbrwFrmStore.Label5=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TbrwFrmStore.Label6=Phone :~!@#$Fone :~!@#$Fono :~!@#$
+TbrwFrmStore.Label7=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TbrwFrmStore.Label8=Zip :~!@#$Cep :~!@#$Código postal :~!@#$
+TbrwFrmStore.Label9=Fax :~!@#$Fax :~!@#$Fax :~!@#$
+TbrwFrmStore.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmStore.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmStore.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmStore.Panel5=Store Time Zone~!@#$Horário da Loja~!@#$Horario de la Tienda~!@#$
+TbrwFrmStore.Panel6=Choose a tax for each category.~!@#$Escolher o Imposto para cada Categoria~!@#$Escojer el Impuesto para cada Categoría~!@#$
+TbrwFrmStore.Panel9=Choose an Account for each payment type~!@#$Escolher uma Conta para cada tipo de Pagamento~!@#$Escoger una Cuenta para cada tipo de Pago~!@#$
+TbrwFrmStore.pnlVendorAccountTitle=Vendor Accounts~!@#$Contas de Fornecedores~!@#$Cuentas del Proveedores~!@#$
+TbrwFrmStore.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmStore.tbBasic=  Basic  ~!@#$  Básico  ~!@#$  Básico  ~!@#$
+TbrwFrmStore.tbCategoryTax=  Tax Category  ~!@#$  Categoria Imposto  ~!@#$  Categoría Impuesto  ~!@#$
+TbrwFrmStore.tbPaymentType=  Payments  ~!@#$  Pagamentos  ~!@#$  Pagos  ~!@#$
+TbrwFrmStore.TbrwFrmStore=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+TbrwFrmStore.tbTimeZone=  Time Zone  ~!@#$  Fuso Horário  ~!@#$  Huso Horario  ~!@#$
+TbrwFrmStore.tsTicket=  Ticket Info  ~!@#$  Informação da Nota  ~!@#$  Información de Boleta  ~!@#$
+TbrwFrmStore.tsVendorAccount=  Vendor Account  ~!@#$  Contas de Fornecedor  ~!@#$  Cuenta Proveedor  ~!@#$
+
+[DisplayLabels]
+TbrwFrmStore.quFormAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TbrwFrmStore.quFormBeeper=Beeper~!@#$Beeper~!@#$Beeper~!@#$
+TbrwFrmStore.quFormCellular=Cellular~!@#$Celular~!@#$Celular~!@#$
+TbrwFrmStore.quFormCity=City~!@#$Cidade~!@#$Ciudad~!@#$
+TbrwFrmStore.quFormContato=Contato~!@#$Contacto~!@#$Contacto~!@#$
+TbrwFrmStore.quFormFax=Fax~!@#$Fax~!@#$Fax~!@#$
+TbrwFrmStore.quFormHourDefault=HourDefault~!@#$HoraInicial~!@#$HoraInicial~!@#$
+TbrwFrmStore.quFormIDEmpresa=Company~!@#$Empresa ~!@#$Empresa~!@#$
+TbrwFrmStore.quFormIDEstado=State~!@#$Estado~!@#$Estado~!@#$
+TbrwFrmStore.quFormIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TbrwFrmStore.quFormName=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwFrmStore.quFormTelephone=Phone~!@#$Fone~!@#$Fono~!@#$
+TbrwFrmStore.quFormTicketFooter=TicketFooter~!@#$RodapéNota~!@#$PieBoleta~!@#$
+TbrwFrmStore.quFormTicketHeader=TicketHeader~!@#$CabeçalhoNota~!@#$MembreteBoleta~!@#$
+TbrwFrmStore.quFormZip=Zip~!@#$Cep~!@#$Cód.Postal~!@#$
+TbrwFrmStore.quPaymentIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TbrwFrmStore.quPaymentIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPago~!@#$
+TbrwFrmStore.quPaymentIDStore=IDStore~!@#$IDLoja~!@#$IDStore~!@#$
+TbrwFrmStore.quPaymentMeioPag=Type Payment~!@#$Meio de Pagamento~!@#$Meio Pago~!@#$
+TbrwFrmStore.quPaymentNumero=Number~!@#$Número~!@#$Número~!@#$
+TbrwFrmStore.quPaymentTipo=Type~!@#$Tipo~!@#$Tipo~!@#$
+TbrwFrmStore.quStoreGroupName=GroupName~!@#$Categoria do Estoque~!@#$Categoría Inventário~!@#$
+TbrwFrmStore.quStoreIDGroup=IDGroup~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TbrwFrmStore.quStoreIDTaxCategory=IDTaxCategory~!@#$IDCategoriaTaxa~!@#$IDCategoríaImpuesto~!@#$
+TbrwFrmStore.quStoreImposto=Tax~!@#$Imposto~!@#$Imposto~!@#$
+TbrwFrmStore.quStoreTax=Tax~!@#$% Encargos~!@#$% Encargos~!@#$
+TbrwFrmStore.quStoreTaxCategory=TaxCategory~!@#$Encargos~!@#$Encargos~!@#$
+TbrwFrmStore.quStoreTaxImposto=% Imposto~!@#$% Imposto~!@#$% Imposto~!@#$
+TbrwFrmStore.quVendorAccountAccount=Account~!@#$Conta~!@#$Cuenta~!@#$
+TbrwFrmStore.quVendorAccountVendor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+
+[Hints]
+TbrwFrmStore.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmStore.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmStore.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmStore.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmStore.btnSetTax=Insert tax for all categories.~!@#$Inserir Taxa para todas as Categorias. ~!@#$Insertar Impuesto en todas las Categorías.~!@#$
+TbrwFrmStore.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmStore.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TbrwFrmStore.cmbServerLocation.Items="Here in my store","On the Internet"~!@#$"Aquí na Loja","Na Internet"~!@#$"Aquí en la Tienda","En el Internet"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

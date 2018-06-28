@@ -1,0 +1,25 @@
+[Captions]
+TPrintGuideReceipt.btOk=&OK~!@#$&OK~!@#$&OK~!@#$
+TPrintGuideReceipt.lblPrint=Printing Receipt, Please Wait~!@#$Imprimindo Recibo, Porfavor Espere~!@#$Imprimiendo Recibo, Porfavor Espere~!@#$
+TPrintGuideReceipt.pnlPrinter=If printer does not start, check the "On Line" Button~!@#$Se a Impressora não imprimir, cheque o botão "Em Linha"~!@#$Si la impresora no imprime verifique el botón "En Linea"~!@#$
+TPrintGuideReceipt.TPrintGuideReceipt=Printing Receipt~!@#$Imprimindo Recibo~!@#$Imprimiendo Recibo~!@#$
+
+[DisplayLabels]
+TPrintGuideReceipt.quLancamentoAgency=Agency~!@#$Agencia~!@#$Agencia~!@#$
+TPrintGuideReceipt.quLancamentoDataLancamento=DataLancamento~!@#$DataLançamento~!@#$FechaContabilización~!@#$
+TPrintGuideReceipt.quLancamentoGuide=Guide~!@#$Guía~!@#$Guía~!@#$
+TPrintGuideReceipt.quLancamentoGuideLastName=GuideLastName~!@#$SobrenomeGuía~!@#$ApellidoGuía~!@#$
+TPrintGuideReceipt.quLancamentoIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TPrintGuideReceipt.quLancamentoTotalQuitado=TotalQuitado~!@#$TotalPago~!@#$TotalPagado~!@#$
+TPrintGuideReceipt.quTourGroupEnterDate=EnterDate~!@#$EntrarData~!@#$EntrarFecha~!@#$
+TPrintGuideReceipt.quTourGroupNumInvoices=NumInvoices~!@#$NúmNotas~!@#$NúmBoletas~!@#$
+TPrintGuideReceipt.quTourGroupNumTourist=NumTourist~!@#$NúmTuristas~!@#$NúmeroTuristas~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

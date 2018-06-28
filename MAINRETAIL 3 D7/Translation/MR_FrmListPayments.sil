@@ -1,0 +1,18 @@
+[Captions]
+TFrmListPayments.btClose=&Close~!@#Fe&char~!@#&Cerrar~!@#
+TFrmListPayments.btnOK=&OK~!@#&OK~!@#&OK~!@#
+TFrmListPayments.GridTableViewStyleSheetDevExpress=DevExpress~!@#~!@#~!@#
+TFrmListPayments.Label3=Payment types~!@#Pagamentos~!@#Pagamentos~!@#
+TFrmListPayments.lbF2=Now~!@#A vista~!@#A vista~!@#
+TFrmListPayments.lbF3=Post-Date~!@#Pré-datado~!@#Pré-datado~!@#
+TFrmListPayments.sbHelp=&Help~!@#Ajuda~!@#Ayuda~!@#
+TFrmListPayments.TFrmListPayments=Select Payment~!@#Selecione um pagamento~!@#Selecione um pagamento~!@#
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

@@ -1,0 +1,98 @@
+[Captions]
+TbrwRepairInv.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwRepairInv.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwRepairInv.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwRepairInv.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwRepairInv.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwRepairInv.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwRepairInv.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwRepairInv.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwRepairInv.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwRepairInv.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwRepairInv.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwRepairInv.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwRepairInv.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwRepairInv.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwRepairInv.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwRepairInv.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwRepairInv.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwRepairInv.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwRepairInv.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwRepairInv.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwRepairInv.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwRepairInv.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwRepairInv.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwRepairInv.grdBrowseDBCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TbrwRepairInv.grdBrowseDBDefect=Defect~!@#$Defeito~!@#$Defecto~!@#$
+TbrwRepairInv.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwRepairInv.grdBrowseDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwRepairInv.grdBrowseDBPessoa=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TbrwRepairInv.grdBrowseDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwRepairInv.grdBrowseDBReturnDate=DateReceived~!@#$DataRecebida~!@#$FechaRecibida~!@#$
+TbrwRepairInv.grdBrowseDBSentDate=Ship Date~!@#$Data do Envio~!@#$Fecha Enviado~!@#$
+TbrwRepairInv.grdBrowseDBSerialNumber=SerialNumber~!@#$NúmeroSerie~!@#$NúmeroSerie~!@#$
+TbrwRepairInv.grdBrowseDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwRepairInv.grdBrowseDBTipoRepair=RepairType~!@#$Tipo Conserto~!@#$Tipo Reparación~!@#$
+TbrwRepairInv.grdBrowseDBVendorCode=Vendor Code~!@#$Cod Fornecedor~!@#$Vendor Code~!@#$
+TbrwRepairInv.hhh=~!@#$~!@#$~!@#$
+TbrwRepairInv.Label1=In store~!@#$Na Loja~!@#$En la Tienda~!@#$
+TbrwRepairInv.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwRepairInv.Label2=Credit Issued~!@#$Tipo Crédito~!@#$Tipo de Crédito~!@#$
+TbrwRepairInv.Label3=Status :~!@#$Estado :~!@#$Estado :~!@#$
+TbrwRepairInv.Label4=Date :~!@#$Tipo :~!@#$Tipo :~!@#$
+TbrwRepairInv.Label5=Sent to Vendor~!@#$Enviado ao Fornecedor~!@#$Enviar al Proveedor~!@#$
+TbrwRepairInv.Label6=Back from Vendor~!@#$Volta do Fornecedor~!@#$Devuelto por Proveedor~!@#$
+TbrwRepairInv.Label7=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwRepairInv.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwRepairInv.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwRepairInv.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwRepairInv.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TbrwRepairInv.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwRepairInv.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwRepairInv.pnlPage=Not showing all records~!@#$Não mostrar os registros~!@#$No mostrar los registros~!@#$
+TbrwRepairInv.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwRepairInv.TbrwRepairInv=brwRepairInv~!@#$brwNotCons~!@#$brwBolRep~!@#$
+TbrwRepairInv.btnPrintRepair=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TbrwRepairInv.lblVendor=Vendor :~!@#$Fornecedor :~!@#$Fornecedor :~!@#$
+TbrwRepairInv.btnVendorAll=All~!@#$Tudo~!@#$Todo~!@#$
+
+[DisplayLabels]
+TbrwRepairInv.quBrowseCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TbrwRepairInv.quBrowseDefect=Defect~!@#$Defeito~!@#$Defecto~!@#$
+TbrwRepairInv.quBrowseDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwRepairInv.quBrowseIDRepair=IDRepair~!@#$ID~!@#$ID~!@#$
+TbrwRepairInv.quBrowseModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwRepairInv.quBrowsePessoa=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TbrwRepairInv.quBrowseQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwRepairInv.quBrowseReturnDate=ReturnDate~!@#$DataDevolução~!@#$FechaDevuelto~!@#$
+TbrwRepairInv.quBrowseSentDate=Sent~!@#$Enviar~!@#$Enviar~!@#$
+TbrwRepairInv.quBrowseSerialNumber=SerialNumber~!@#$NúmeroSerie~!@#$NúmeroSerie~!@#$
+TbrwRepairInv.quBrowseStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwRepairInv.quBrowseTipoRepair=TipoRepair~!@#$TipoConserto~!@#$TipoReparación~!@#$
+
+[Hints]
+TbrwRepairInv.btExcel=Export ~!@#$Exportar~!@#$Exportar~!@#$
+TbrwRepairInv.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwRepairInv.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwRepairInv.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwRepairInv.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwRepairInv.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwRepairInv.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwRepairInv.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwRepairInv.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwRepairInv.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwRepairInv.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwRepairInv.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwRepairInv.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$
+TbrwRepairInv.cbxStatus.Items="Show In Store","Show Send to Vendor","Show Back from Vendor","Show Credit","Show All"~!@#$"Mostrar na Loja","Mostrar Enviar ao Fornecedor","Mostrar Volta do Fornecedor","Mostrar Crédito",MostrarTudo~!@#$"Mostraren la Tienda","Mostrar Enviar al Proveedor","Mostrar Devuelto por Proveedor","Mostrar Crédito","Mostrar Todo"~!@#$
+TbrwRepairInv.cbxStatusDate.Items=Sent,Returned~!@#$Enviar,Devolvido~!@#$Enviar,Devuelto~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

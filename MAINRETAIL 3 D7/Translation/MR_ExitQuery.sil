@@ -1,0 +1,15 @@
+[Captions]
+TExitQuery.BitBtn1=Yes~!@#$Sim~!@#$sin~!@#$
+TExitQuery.BitBtn2=No~!@#$Não~!@#$Cancelar~!@#$
+TExitQuery.LabelTit=Exit System? ~!@#$Sair do sistema?~!@#$Quiere realmente Salir ?~!@#$
+TExitQuery.Panel1=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

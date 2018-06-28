@@ -1,0 +1,3 @@
+ALTER TABLE MeioPag ADD
+	RequireCustomer bit NOT NULL DEFAULT 0
+GO

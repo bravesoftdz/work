@@ -1,0 +1,91 @@
+[Captions]
+TFchInventory.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchInventory.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchInventory.btLoopInc=~!@#$~!@#$~!@#$
+TFchInventory.grdDepartmentsTVDepartment=Department~!@#$Departamento~!@#$Departamento~!@#$
+TFchInventory.IDEstado=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFchInventory.Label1=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFchInventory.Label10=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFchInventory.Label11=Difference :~!@#$Diferença :~!@#$Diferencia :~!@#$
+TFchInventory.Label12=Last Movement :~!@#$Último Movimento :~!@#$Ultimo Movimento :~!@#$
+TFchInventory.Label13=Last Adjust :~!@#$Último Ajuste~!@#$Ultimo Ajuste~!@#$
+TFchInventory.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchInventory.Label2=OnHand :~!@#$Loja :~!@#$Existente :~!@#$
+TFchInventory.Label3=OnOrder :~!@#$Pedido :~!@#$EnPedido :~!@#$
+TFchInventory.Label4=OnHold :~!@#$Reservada :~!@#$EnBoletaPend. :~!@#$
+TFchInventory.Label5=OnRepair :~!@#$Conserto :~!@#$EnRepar. :~!@#$
+TFchInventory.Label19=Floating :~!@#$Disponível :~!@#$EnDisp. :~!@#$
+TFchInventory.Label6=Location :~!@#$Prateleira :~!@#$Lugar :~!@#$
+TFchInventory.Label7=Maximun Qty :~!@#$Qtd Máxima :~!@#$Ctd Máxima :~!@#$
+TFchInventory.Label8=Minimun Qty :~!@#$Qtd Mínima :~!@#$Ctd Mínima :~!@#$
+TFchInventory.Label9=Adjusted Quantities :~!@#$Qtds Ajustadas :~!@#$Ctds Ajustadas :~!@#$
+TFchInventory.lbCost=Cost Prices :~!@#$Preço Custo :~!@#$Precio Costo :~!@#$
+TFchInventory.lbAvgPrice=Avg Price :~!@#$Custo Médio:~!@#$Precio Promedio :~!@#$
+TFchInventory.lbClassABC=Class ABC :~!@#$Classe ABC :~!@#$Classe ABC :~!@#$
+TFchInventory.lbClassABCDescription=Automatically calculated by the system unless marked "Strategic"~!@#$Calculado pelo sistema automáticamente a não ser que esteja marcado "Estratégico".~!@#$Calculado automáticamente por el sistema a no ser que esté marcado como "Estratégico".~!@#$
+TFchInventory.lblMenu=First Menu Item~!@#$Item do Primeiro Menu~!@#$Item del Primer Menú~!@#$
+TFchInventory.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchInventory.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchInventory.lbSellingPrice=Selling Price :~!@#$Preço Venda :~!@#$Precio Venta :~!@#$
+TFchInventory.Panel11=Actual Quantities~!@#$Quantidade Atual~!@#$Cantidad Actual~!@#$
+TFchInventory.Panel6=Options~!@#$Opções~!@#$Opciones~!@#$
+TFchInventory.Panel7=Physical Quantities~!@#$Quantidade Física~!@#$Cantidad Física~!@#$
+TFchInventory.pnlInfDepartments=Departments~!@#$Departamentos~!@#$Departamentos~!@#$
+TFchInventory.pnlInfPrices=Store Prices~!@#$Preços da Loja~!@#$Precios del Tienda~!@#$
+TFchInventory.pnlTitleRequest=Automatic request settings~!@#$Ajustes para Auto Requisição~!@#$Ajustes para Auto Solicitud~!@#$
+TFchInventory.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchInventory.TFchInventory=Inventory~!@#$Inventario~!@#$Inventario~!@#$
+TFchInventory.tsInfo=  Info  ~!@#$  Info  ~!@#$  Info  ~!@#$
+TFchInventory.tsQty=  Qty  ~!@#$  Quantidade  ~!@#$  Cantidad  ~!@#$
+TFchInventory.tsRequest=Request~!@#$Requisição~!@#$Petición~!@#$
+TFchInventory.lbDailySales=Daily sales :~!@#$Vendas Diárias :~!@#$Ventas Diárias :~!@#$
+TFchInventory.lbOrderPoint=Order Point :~!@#$Ponto de Pedido :~!@#$Punto de Pedido :~!@#$
+TFchInventory.lbLeadTime=Lead Time :~!@#$Média de Tempo :~!@#$Tiempo Promedio :~!@#$
+TFchInventory.lbSafetyMargin=Safety margin :~!@#$Margem Segurança : ~!@#$Margen Seguridad :~!@#$
+TFchInventory.lbLeadTimeDescription=Average time delay in days, between Purchase Order and Receiving~!@#$Média de espera em dias, entre a Ordem de Compra e o Recebimento.~!@#$Promedio de espera en dias, entre la Orden de Compra y el Recebimiento.~!@#$
+TFchInventory.lbSafetyMarginDescription=Added "Order Point" quantity, calculated by system based on past sales, for determining time for Auto-Request~!@#$Quantidade adicionada ao ponto de pedido, calculada pelo percentual de segurança da classificação ABC.~!@#$Agregar cantidad del "Punto de Pedido" para determinar cuando la Auto Solicitud del Item.~!@#$
+TFchInventory.lbDailySalesDescription=Estimated daily sales during the Lead Time for determining time for Auto-Request~!@#$Média de vendas no período da classificação ABC, que pela "média de tempo" determinará o ponto de pedido.~!@#$Ventas diárias durante el período de "Tiempo Promedio" para determinar cuando la Auto Solicitud del Item.~!@#$
+TFchInventory.lbOrderPointDescription=Quantity on hand at which point the system will Auto-Request this item.~!@#$Quantidade em estoque no qual o sistema automáticamente irá Auto Requisar o Item.~!@#$Cantidad existente en donde el sistema automáticamente irá Auto Solicitar el Item.  ~!@#$
+TFchInventory.Label16=Cost Prices :~!@#$Prç Custo :~!@#$Prc Costo :~!@#$
+TFchInventory.Label17=Avg Price :~!@#$Custo Médio:~!@#$Precio Promedio :~!@#$
+TFchInventory.Label18=Selling Price :~!@#$Prç Venda :~!@#$Prc Venta :~!@#$
+TFchInventory.gbxInvPrices=  Inventory  ~!@#$  Estoque  ~!@#$  Estoque  ~!@#$
+TFchInventory.btPriceTable=Price table~!@#$Tabela de preços~!@#$Tabla de precios~!@#$
+
+[DisplayLabels]
+TFchInventory.quFormDataContagem=DataContagem~!@#$DataContagem~!@#$FechaConteo~!@#$
+TFchInventory.quFormDifference=Difference~!@#$Diferença~!@#$Diferencia~!@#$
+TFchInventory.quFormLocation=Location~!@#$Lugar~!@#$Lugar~!@#$
+TFchInventory.quFormMaxQty=MaxQty~!@#$QtdMax~!@#$CtdMax~!@#$
+TFchInventory.quFormMinQty=MinQty~!@#$QtdMin~!@#$CtdMin~!@#$
+TFchInventory.quFormModelID=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchInventory.quFormQtyContada=QtyContada~!@#$QtdContada~!@#$QtdContada~!@#$
+TFchInventory.quFormQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TFchInventory.quFormQtyOnOrder=QtyOnOrder~!@#$QtdEmPedido~!@#$CtdEnPedido~!@#$
+TFchInventory.quFormQtyOnPreSale=QtyOnHold~!@#$QtdEmNotaPendente~!@#$CtdEnBoletaPendiente~!@#$
+TFchInventory.quFormQtyOnRepair=QtyOnRepair~!@#$QtdEmConserto~!@#$CtdEnReparación~!@#$
+TFchInventory.quFormStoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+TFchInventory.quFormUltimaContagem=UltimaContagem~!@#$Última Contagem~!@#$UltimoConteo~!@#$
+TFchInventory.quFormUltimaMovimentacao=UltimaMovimentacao~!@#$Último Mov.~!@#$UltimoMovimiento~!@#$
+TFchInventory.QuMovHistModelID=ModelID~!@#$ModeloID~!@#$ModeloID~!@#$
+TFchInventory.QuMovHistModelID_1=ModelID_1~!@#$ModeloID_1~!@#$ModeloID_1~!@#$
+TFchInventory.QuMovHistMovDate=MovDate~!@#$DataMov~!@#$FechaMov~!@#$
+
+[Hints]
+TFchInventory.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchInventory.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchInventory.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchInventory.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchInventory.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchInventory.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFchInventory.cmbClassABC.Items=A,B,C,Strategic~!@#$A,B,C,Estratégico~!@#$A,B,C,Estratégico~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

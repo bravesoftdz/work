@@ -1,0 +1,120 @@
+[Captions]
+TSisGrupoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisGrupoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TSisGrupoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisGrupoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TSisGrupoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TSisGrupoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisGrupoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TSisGrupoList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TSisGrupoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisGrupoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisGrupoList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TSisGrupoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisGrupoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisGrupoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisGrupoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisGrupoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisGrupoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisGrupoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisGrupoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TSisGrupoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisGrupoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisGrupoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisGrupoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisGrupoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisGrupoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisGrupoList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TSisGrupoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisGrupoList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TSisGrupoList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TSisGrupoList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TSisGrupoList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TSisGrupoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisGrupoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisGrupoList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisGrupoList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TSisGrupoList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TSisGrupoList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TSisGrupoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisGrupoList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TSisGrupoList.brwGridGrupo=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisGrupoList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TSisGrupoList.btExecuta=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TSisGrupoList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TSisGrupoList.cbxStatus=~!@#$~!@#$~!@#$
+TSisGrupoList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TSisGrupoList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisGrupoList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisGrupoList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisGrupoList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TSisGrupoList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisGrupoList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisGrupoList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TSisGrupoList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TSisGrupoList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TSisGrupoList.pnlDivisor=~!@#$~!@#$~!@#$
+TSisGrupoList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisGrupoList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TSisGrupoList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TSisGrupoList.pnlGenFilter=~!@#$~!@#$~!@#$
+TSisGrupoList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisGrupoList.TSisGrupoList=Grupos de Usuários~!@#$Grupo Usuário~!@#$Grupo Usuarios~!@#$
+TSisGrupoList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TSisGrupoList.quBrowseGrupo=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisGrupoList.quBrowseIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+
+[Hints]
+TSisGrupoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisGrupoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TSisGrupoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisGrupoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TSisGrupoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TSisGrupoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisGrupoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TSisGrupoList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisGrupoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisGrupoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisGrupoList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TSisGrupoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisGrupoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisGrupoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisGrupoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisGrupoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisGrupoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisGrupoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisGrupoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TSisGrupoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisGrupoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisGrupoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisGrupoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisGrupoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisGrupoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisGrupoList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TSisGrupoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisGrupoList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TSisGrupoList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TSisGrupoList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TSisGrupoList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TSisGrupoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisGrupoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisGrupoList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TSisGrupoList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TSisGrupoList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TSisGrupoList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TSisGrupoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisGrupoList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisGrupoList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

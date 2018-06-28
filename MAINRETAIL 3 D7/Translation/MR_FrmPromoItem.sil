@@ -1,0 +1,28 @@
+[Captions]
+TFrmPromoItem.btClose=&Close~!@#$&Fechar~!@#$&Cierrar~!@#$
+TFrmPromoItem.btNewItem=New Item~!@#$Novo~!@#$Nuevo~!@#$
+TFrmPromoItem.btRemove=F4 Re&move~!@#$F4 &Eliminar~!@#$F4 &Eliminar~!@#$
+TFrmPromoItem.btSave=&Save~!@#$Salvar~!@#$Guardar~!@#$
+TFrmPromoItem.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPromoItem.grdBrowseDBIDModel=IDModel~!@#$ID Modelo~!@#$ID Modelo~!@#$
+TFrmPromoItem.grdBrowseDBIDPromo=IDPromo~!@#$ID Promo~!@#$ID Promo~!@#$
+TFrmPromoItem.grdBrowseDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPromoItem.Label11=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmPromoItem.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TFrmPromoItem.lbSearch=Search with :~!@#$Pesquisar por :~!@#$La búsqueda con :~!@#$
+TFrmPromoItem.lbVendor=Vendor :~!@#$Fornecedor :~!@#$Proveedor :~!@#$
+
+[DisplayLabels]
+TFrmPromoItem.quPromoPrizeItemDescription=Description~!@#$Descrição~!@#$Descripción ~!@#$
+TFrmPromoItem.quPromoPrizeItemIDModel=IDModel~!@#$ID Modelo~!@#$ID Modelo~!@#$
+TFrmPromoItem.quPromoPrizeItemIDPromoPrizeItem=IDPromoPrizeItem~!@#$ID Item de Promoção~!@#$ID Artículo Del Promo ~!@#$
+TFrmPromoItem.quPromoPrizeItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

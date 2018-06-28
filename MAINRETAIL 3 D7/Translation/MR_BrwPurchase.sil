@@ -1,0 +1,109 @@
+[Captions]
+TbrwPurchase.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwPurchase.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwPurchase.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwPurchase.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwPurchase.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwPurchase.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwPurchase.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwPurchase.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwPurchase.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwPurchase.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwPurchase.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwPurchase.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwPurchase.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwPurchase.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwPurchase.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwPurchase.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwPurchase.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwPurchase.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwPurchase.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwPurchase.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwPurchase.Button1=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwPurchase.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwPurchase.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwPurchase.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwPurchase.grdBrowseDBDateFinalReceiving=Final Receiving Date~!@#$Data Recebimento Final~!@#$Fecha Contabilización Final~!@#$
+TbrwPurchase.grdBrowseDBDatePreReceiving=Receiving Date~!@#$Data Recebida~!@#$Fecha Recibida~!@#$
+TbrwPurchase.grdBrowseDBDocumentDate=Invoice Date~!@#$Data Fatura~!@#$Fecha Factura~!@#$
+TbrwPurchase.grdBrowseDBDocumentDueDate=Due Date~!@#$Data Vencimento~!@#$Fecha Vencimento~!@#$
+TbrwPurchase.grdBrowseDBDocumentNumber=Doc Number~!@#$Número Documento~!@#$Número Documento~!@#$
+TbrwPurchase.grdBrowseDBDocumentTotal=Invoice Total~!@#$Total Fatura~!@#$Total Factura~!@#$
+TbrwPurchase.grdBrowseDBDocumentType=Doc Type~!@#$Tipo Documento~!@#$Tipo Documento~!@#$
+TbrwPurchase.grdBrowseDBFreight=Freight~!@#$Frete~!@#$Flete~!@#$
+TbrwPurchase.grdBrowseDBIDPurchase=Purchase #~!@#$Nº Pedido~!@#$Pedido #~!@#$
+TbrwPurchase.grdBrowseDBOtherCharges=OtherCharges~!@#$Outras Taxas~!@#$Otros Cargos~!@#$
+TbrwPurchase.grdBrowseDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwPurchase.grdBrowseDBSubTotal=Purchase Total~!@#$Total Pedido~!@#$Total Pedido~!@#$
+TbrwPurchase.grdBrowseDBTotal=Receiving Total~!@#$Total Recebido~!@#$Total Recibido~!@#$
+TbrwPurchase.grdBrowseDBUserFinalReceive=Final Receivied By~!@#$Lançamento Final Por~!@#$Contabilización Final Por~!@#$
+TbrwPurchase.grdBrowseDBUserPreReceive=Received By~!@#$Recebido Por~!@#$Recibido Por~!@#$
+TbrwPurchase.grdBrowseDBVendor=Vendor Name~!@#$Nome Fornecedor~!@#$Nombre Proveedor~!@#$
+TbrwPurchase.grdBrowseDBVendorCode=Vendor Code~!@#$Código Fornecedor~!@#$Código Proveedor~!@#$
+TbrwPurchase.grdBrowseDBIDPO=PO #~!@#$Num. OC~!@#$Num. PC~!@#$
+TbrwPurchase.grdBrowseDBDiscount=Discount~!@#$Desconto~!@#$Desconto~!@#$
+TbrwPurchase.Label1=Date :~!@#$Tipo :~!@#$Tipo :~!@#$
+TbrwPurchase.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwPurchase.Label2=Vendor :~!@#$Fornecedor :~!@#$Proveedor :~!@#$
+TbrwPurchase.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwPurchase.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwPurchase.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwPurchase.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwPurchase.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TbrwPurchase.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwPurchase.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwPurchase.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwPurchase.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwPurchase.TbrwPurchase=brwPurchase~!@#$brwCompra~!@#$brwCompra~!@#$
+TbrwPurchase.btnPrintPurchase=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+
+[DisplayLabels]
+TbrwPurchase.quBrowseDateFinalReceiving=Final Receiving User~!@#$Usuário Lançamento Final~!@#$Usuario Contabilización Final~!@#$
+TbrwPurchase.quBrowseDatePreReceiving=Pre Receiving Date~!@#$Data Pre Recebida~!@#$Fecha Pre Recibida~!@#$
+TbrwPurchase.quBrowseDocumentDate=Document Issue Date~!@#$Data Emissão Documento~!@#$Fecha Emisión Documento~!@#$
+TbrwPurchase.quBrowseDocumentDueDate=Document Due Date~!@#$Data Vencimento Documento~!@#$Data Vencimiento Documento~!@#$
+TbrwPurchase.quBrowseDocumentNumber=Document Number~!@#$Número Documento~!@#$Número Documento~!@#$
+TbrwPurchase.quBrowseDocumentTotal=Document Total~!@#$Total Documento~!@#$Total Documento~!@#$
+TbrwPurchase.quBrowseDocumentType=Document Type~!@#$Tipo Documento~!@#$Tipo Documento~!@#$
+TbrwPurchase.quBrowseFreight=Freight~!@#$Frete~!@#$Flete~!@#$
+TbrwPurchase.quBrowseIDPurchase=Purchase #~!@#$Compra #~!@#$Compra #~!@#$
+TbrwPurchase.quBrowseOtherCharges=OtherCharges~!@#$Outras Taxas~!@#$Otros Cargos~!@#$
+TbrwPurchase.quBrowseStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwPurchase.quBrowseSubTotal=SubTotal~!@#$Sub Total~!@#$Sub Total~!@#$
+TbrwPurchase.quBrowseTotal=Purchase Total~!@#$Total Pedido~!@#$Total Pedido~!@#$
+TbrwPurchase.quBrowseUserFinalReceive=Final Receiving User~!@#$Usuário Lançamento Final~!@#$Usuario Contabilización Final~!@#$
+TbrwPurchase.quBrowseUserPreReceive=Pre Receiving User~!@#$Usuário Pre Recebido~!@#$Usuario Pre Recibido~!@#$
+TbrwPurchase.quBrowseVendor=Vendor Name~!@#$Nome Fornecedor~!@#$Nombre Proveedor~!@#$
+TbrwPurchase.quBrowseVendorCode=Vendor Code~!@#$Código Fornecedor~!@#$Código Proveedor~!@#$
+
+[Hints]
+TbrwPurchase.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwPurchase.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwPurchase.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwPurchase.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwPurchase.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwPurchase.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwPurchase.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwPurchase.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwPurchase.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwPurchase.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwPurchase.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwPurchase.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwPurchase.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$
+TbrwPurchase.cbxDate.Items=Receiving,"Final Receiving"~!@#$Recebido,"Lançamento Final"~!@#$Recibido,"Contabilización Final"~!@#$
+TbrwPurchase.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TbrwPurchase.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+TbrwPurchase.scStore.FilterFields=~!@#$~!@#$~!@#$
+TbrwPurchase.scStore.FilterValues=~!@#$~!@#$~!@#$
+TbrwPurchase.scVendor.FilterFields=~!@#$~!@#$~!@#$
+TbrwPurchase.scVendor.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

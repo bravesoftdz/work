@@ -1,0 +1,57 @@
+[Captions]
+TFrmAdjustLot.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmAdjustLot.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colu&nas~!@#$
+TFrmAdjustLot.btExcel=E&xport~!@#$E&xportar~!@#$E&xportar~!@#$
+TFrmAdjustLot.btFabricanteAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btGroup=&Grouping~!@#$Agrupar~!@#$Agrupar~!@#$
+TFrmAdjustLot.btnCategClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btnColorClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btnGroupClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btnlotClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btnSave=&Save~!@#$&Salvar~!@#$&Salvar~!@#$
+TFrmAdjustLot.btnSizeClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btnSubGroupClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btnVendorclear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAdjustLot.btSearch=&Search~!@#$Produrar~!@#$Procurar~!@#$
+TFrmAdjustLot.cxGridLotDBCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmAdjustLot.cxGridLotDBDescription=Description~!@#$Descrição~!@#$Descrision~!@#$
+TFrmAdjustLot.cxGridLotDBExpirationDate=Lot Exp. Date~!@#$Data Vencimento~!@#$Fetcha Vencimento~!@#$
+TFrmAdjustLot.cxGridLotDBLocation=Location~!@#$Prateleira~!@#$Prateleira~!@#$
+TFrmAdjustLot.cxGridLotDBLot=Lot~!@#$Lote~!@#$Lote~!@#$
+TFrmAdjustLot.cxGridLotDBLotDate=LotDate~!@#$Data Fabric.~!@#$Fetcha Fabric.~!@#$
+TFrmAdjustLot.cxGridLotDBLotQty=Total Qty Lot~!@#$Qtd Total Lote~!@#$Ctd Total Lote~!@#$
+TFrmAdjustLot.cxGridLotDBManufacture=Manufacture~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmAdjustLot.cxGridLotDBMGroup=MGroup~!@#$Grupo~!@#$Grupo~!@#$
+TFrmAdjustLot.cxGridLotDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmAdjustLot.cxGridLotDBModelPrice=ModelPrice~!@#$Prç Custo~!@#$Prc Custo~!@#$
+TFrmAdjustLot.cxGridLotDBQtyOnHand=OnHand~!@#$Estoque~!@#$Estoque~!@#$
+TFrmAdjustLot.cxGridLotDBQtyOnOrder=On Order~!@#$Pedidos~!@#$Pedidos~!@#$
+TFrmAdjustLot.cxGridLotDBQtyOnPreSale=On Hold~!@#$Reservada~!@#$Reservada~!@#$
+TFrmAdjustLot.cxGridLotDBQtyOnRepair=In Repair~!@#$Conserto~!@#$Conserto~!@#$
+TFrmAdjustLot.cxGridLotDBQtyStore=Actual Qty~!@#$Qtd Atual~!@#$Ctd Actual~!@#$
+TFrmAdjustLot.cxGridLotDBSubCategory=SubCategory~!@#$Sub-Categoria~!@#$Sub-Categoria~!@#$
+TFrmAdjustLot.Label1=to~!@#$até~!@#$ate~!@#$
+TFrmAdjustLot.Label15=User:~!@#$Usuário~!@#$Usuario~!@#$
+TFrmAdjustLot.lbCategory=Category :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFrmAdjustLot.lbGroup=Sub-Category:~!@#$Sub-Categoria :~!@#$Sub-Categoria :~!@#$
+TFrmAdjustLot.lbHoriz=Hotizontal :~!@#$Horizontal :~!@#$Horizontal :~!@#$
+TFrmAdjustLot.lbManufect=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmAdjustLot.lbSalePeriod=Lot Expired :~!@#$Venc. lote:~!@#$Vencimento :~!@#$
+TFrmAdjustLot.lbStore=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmAdjustLot.lbSubGroup=Group:~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmAdjustLot.lbVendor=Vendor :~!@#$Fornecedor :~!@#$Fornecedor :~!@#$
+TFrmAdjustLot.lbVerti=Vertical :~!@#$Vertical :~!@#$Vertical :~!@#$
+TFrmAdjustLot.TFrmAdjustLot=Lot Adjust~!@#$Ajustar Lote~!@#$Ajustar Lote~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmAdjustLot.cbxMethod.Items="Start with","End with",Contains~!@#$"Começe com","Termine com",Contenha~!@#$Inicia,Termina,Ter~!@#$
+TFrmAdjustLot.cbxType.Items=Model,Description,"Vendor Code"~!@#$Modelo,Descrição,"Cód. Fornec."~!@#$Model,Descripción,"Cód. Fornec."~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

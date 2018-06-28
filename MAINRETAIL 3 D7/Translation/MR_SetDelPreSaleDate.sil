@@ -1,0 +1,18 @@
+[Captions]
+TSetDelPreSaleDate.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TSetDelPreSaleDate.btClose=&OK~!@#$&OK~!@#$&OK~!@#$
+TSetDelPreSaleDate.Label1=Hold date :~!@#$Data Retenção :~!@#$Fecha Retención :~!@#$
+TSetDelPreSaleDate.lblTip=Leaving the Retention Date empty, the hold will be automatic deleted in 7 days. Setting a retention date, the Hold will wait until this date to be deleted.~!@#$Deixando a Data de Retenção vazia, a nota automáticamente será eliminada em 7 días. Determinando a Data de Retenção a nota ficará até a data estipulada.~!@#$Dejando la Fecha de retención en blanco la boleta será automáticamente eliminada en 7 días. Determinando una Fecha de Retención la boleta se mantendrá hasta la fecha estipulada.~!@#$
+TSetDelPreSaleDate.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TSetDelPreSaleDate.quPreSaleestimatedpay=estimatedpay~!@#$PagoEstimado~!@#$PagoEstimado~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

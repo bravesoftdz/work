@@ -1,0 +1,29 @@
+[Captions]
+TModelAdjustQty.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TModelAdjustQty.btClose=OK~!@#$OK~!@#$OK~!@#$
+TModelAdjustQty.Label1=Adjust. Qty :~!@#$Ajustar Qtd :~!@#$Ajustar Ctd :~!@#$
+TModelAdjustQty.Label2=Current Qty on Hand :~!@#$Qtd Atual em Loja :~!@#$Ctd Actual Existente :~!@#$
+TModelAdjustQty.Label3=Correct Qty :~!@#$Corrigir Qtd :~!@#$Corregir Ctd :~!@#$
+TModelAdjustQty.Label4=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TModelAdjustQty.Label5=Qty in Receiving :~!@#$Qtd em Recebido :~!@#$Ctd en Recibido :~!@#$
+TModelAdjustQty.Label6=Qty on Order :~!@#$Qtd em Pedido :~!@#$Ctd en Pedido :~!@#$
+TModelAdjustQty.Label7=Qty on Repair :~!@#$Qtd em Conserto :~!@#$Ctd en Reparación :~!@#$
+TModelAdjustQty.Label8=Detail:~!@#$Detalhe :~!@#$Detalhe :~!@#$
+TModelAdjustQty.Panel1=~!@#$~!@#$~!@#$
+TModelAdjustQty.Panel3=~!@#$~!@#$~!@#$
+TModelAdjustQty.pnlTitle3=Adjust~!@#$Ajustar~!@#$Ajustar~!@#$
+TModelAdjustQty.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TModelAdjustQty.lbReason=Reason :~!@#$Motivo :~!@#$Motivo :~!@#$
+
+
+[Hints]
+TModelAdjustQty.Label9=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

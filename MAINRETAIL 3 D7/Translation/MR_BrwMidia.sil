@@ -1,0 +1,67 @@
+[Captions]
+TbrwMidia.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwMidia.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwMidia.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwMidia.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwMidia.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwMidia.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwMidia.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwMidia.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwMidia.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwMidia.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwMidia.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwMidia.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwMidia.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwMidia.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwMidia.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwMidia.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwMidia.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwMidia.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwMidia.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwMidia.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwMidia.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwMidia.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwMidia.grdBrowseDBIDMedia=IDMedia~!@#$ID~!@#$ID~!@#$
+TbrwMidia.grdBrowseDBMedia=Media~!@#$Mídia~!@#$Medios~!@#$
+TbrwMidia.hhh=~!@#$~!@#$~!@#$
+TbrwMidia.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwMidia.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwMidia.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwMidia.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwMidia.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwMidia.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwMidia.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwMidia.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwMidia.TbrwMidia=brwMidia~!@#$brwMídia~!@#$brwMedios~!@#$
+
+
+[DisplayLabels]
+TbrwMidia.quBrowseIDMedia=IDMedia~!@#$ID~!@#$ID~!@#$
+TbrwMidia.quBrowseMedia=Media~!@#$Mídia~!@#$Medios~!@#$
+
+[Hints]
+TbrwMidia.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwMidia.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwMidia.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwMidia.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwMidia.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwMidia.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwMidia.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwMidia.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwMidia.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwMidia.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwMidia.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwMidia.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TbrwMidia.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

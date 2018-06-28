@@ -1,0 +1,44 @@
+[Captions]
+TFchCustomerType.btCancel=Cancel~!@#$Cancelar~!@#$Cerrar~!@#$
+TFchCustomerType.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchCustomerType.btLoopInc=~!@#$~!@#$~!@#$
+TFchCustomerType.EEE=~!@#$~!@#$~!@#$
+TFchCustomerType.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchCustomerType.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchCustomerType.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchCustomerType.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchCustomerType.grdDiscountDBCategory=Category~!@#$Categoria~!@#$Categoría ~!@#$
+TFchCustomerType.grdDiscountDBDiscount=Discount~!@#$Desconto~!@#$Descuento ~!@#$
+TFchCustomerType.grdDiscountDBIDGroup=IDGroup~!@#$IDGroup~!@#$IDGroup~!@#$
+TFchCustomerType.grdDiscountDBIDTipoPessoa=IDTipoPessoa~!@#$IDTipoPessoa~!@#$IDTipoPessoa~!@#$
+TFchCustomerType.grdDiscountLevel=~!@#$~!@#$~!@#$
+TFchCustomerType.hhh=~!@#$~!@#$~!@#$
+TFchCustomerType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchCustomerType.lblCustomerType=Commission Type :~!@#$Tipo de Comissão :~!@#$Tipo De la Comisión :~!@#$
+TFchCustomerType.Panel1=~!@#$~!@#$~!@#$
+TFchCustomerType.Panel2=~!@#$~!@#$~!@#$
+TFchCustomerType.Panel3=~!@#$~!@#$~!@#$
+TFchCustomerType.Panel4=~!@#$~!@#$~!@#$
+TFchCustomerType.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchCustomerType.pnlDetail=~!@#$~!@#$~!@#$
+TFchCustomerType.pnlDiscount=~!@#$~!@#$~!@#$
+TFchCustomerType.pnlDiscountTitle=Discounts for this Customer Type~!@#$Descontos para este tipo do cliente ~!@#$Descuentos para este tipo del cliente ~!@#$
+TFchCustomerType.pnlKey=~!@#$~!@#$~!@#$
+TFchCustomerType.pnlNavigation=~!@#$~!@#$~!@#$
+TFchCustomerType.spHelp=&Help~!@#$&Ajuda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TFchCustomerType.quDiscountCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFchCustomerType.quDiscountDiscount=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TFchCustomerType.quDiscountIDGroup=IDGroup~!@#$IDGroup~!@#$IDGroup~!@#$
+TFchCustomerType.quDiscountIDTipoPessoa=IDTipoPessoa~!@#$IDTipoPessoa~!@#$IDTipoPessoa~!@#$
+TFchCustomerType.quFormIDTipoCliente=IDTipoCliente~!@#$IDTipoCliente~!@#$IDTipoCliente~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

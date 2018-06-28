@@ -1,0 +1,98 @@
+object FchSelectParent: TFchSelectParent
+  Left = 435
+  Top = 333
+  BorderIcons = [biSystemMenu, biHelp]
+  BorderStyle = bsDialog
+  Caption = 'Seleção de dados -'
+  ClientHeight = 108
+  ClientWidth = 395
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = [fsBold]
+  Position = poScreenCenter
+  Scaled = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlParent: TPanel
+    Left = 0
+    Top = 67
+    Width = 395
+    Height = 41
+    Align = alBottom
+    BevelOuter = bvNone
+    Color = clBtnShadow
+    TabOrder = 0
+    object pnlParent3: TPanel
+      Left = 0
+      Top = 0
+      Width = 395
+      Height = 6
+      Align = alTop
+      BevelOuter = bvNone
+      TabOrder = 0
+      object pnlParent4: TPanel
+        Left = 0
+        Top = 4
+        Width = 395
+        Height = 2
+        Align = alBottom
+        BevelOuter = bvLowered
+        TabOrder = 0
+      end
+    end
+    object pnlParent2: TPanel
+      Left = 168
+      Top = 6
+      Width = 227
+      Height = 35
+      Align = alRight
+      BevelOuter = bvNone
+      Color = clBtnShadow
+      TabOrder = 1
+      object btClose: TButton
+        Left = 11
+        Top = 6
+        Width = 100
+        Height = 25
+        Caption = 'OK'
+        Default = True
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Verdana'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        TabStop = False
+      end
+      object Button1: TButton
+        Left = 121
+        Top = 5
+        Width = 100
+        Height = 25
+        Cancel = True
+        Caption = 'Cancel'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Verdana'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+        TabStop = False
+      end
+    end
+  end
+  object pnlMainSelect: TPanel
+    Left = 0
+    Top = 0
+    Width = 395
+    Height = 67
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+end

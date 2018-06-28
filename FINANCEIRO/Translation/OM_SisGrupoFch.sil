@@ -1,0 +1,56 @@
+[Captions]
+TSisGrupoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisGrupoFch.btExclui=Remove >~!@#$Remover >~!@#$Remover >~!@#$
+TSisGrupoFch.btExcluiTodos=Remove all >>~!@#$Remover Todos >>~!@#$Remover Todos >>~!@#$
+TSisGrupoFch.btFirstRec=~!@#$~!@#$~!@#$
+TSisGrupoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisGrupoFch.btInclui=< Add~!@#$< Adicionar~!@#$< Agregar~!@#$
+TSisGrupoFch.btIncluiTodos=<<  Add all~!@#$<< Adicionar Todos~!@#$<< Agregar Todos~!@#$
+TSisGrupoFch.grdEmpresaEmpresa=Empresa~!@#$Empresa~!@#$Empresa~!@#$
+TSisGrupoFch.grdMembroUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TSisGrupoFch.grdNaoMembroUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TSisGrupoFch.Label1=Group :~!@#$Grupo :~!@#$Grupo :~!@#$
+TSisGrupoFch.Label10=Not member :~!@#$Não é Membro :~!@#$No es Miembro :~!@#$
+TSisGrupoFch.Label2=Company :~!@#$Empresa :~!@#$Empresa :~!@#$
+TSisGrupoFch.Label9=Member of the group :~!@#$Membro do Grupo :~!@#$Miembro del Grupo :~!@#$
+TSisGrupoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisGrupoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegador~!@#$
+TSisGrupoFch.lblPTitulo=User Group~!@#$Grupo Usuário~!@#$Grupo Usuario~!@#$
+TSisGrupoFch.lblPTituloShadow=User Group~!@#$Grupo Usuário~!@#$Grupo Usuario~!@#$
+TSisGrupoFch.tsEmpresaEspaco=Company~!@#$Empresa~!@#$Empresa~!@#$
+TSisGrupoFch.TSisGrupoFch=SisGrupoFch~!@#$SisGrupoFch~!@#$SisGrupoFch~!@#$
+TSisGrupoFch.tsUsuario=User~!@#$Usuário~!@#$Usuario~!@#$
+
+[DisplayLabels]
+TSisGrupoFch.quEmpresaEmpresa=Empresa~!@#$Empresa~!@#$Empresa~!@#$
+TSisGrupoFch.quEmpresaIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TSisGrupoFch.quEmpresaIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisGrupoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TSisGrupoFch.quFormGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisGrupoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TSisGrupoFch.quFormIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisGrupoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TSisGrupoFch.quMembroCodigoUsuario=CodigoUsuario~!@#$CódigoUsuário~!@#$CódigoUsuario~!@#$
+TSisGrupoFch.quMembroIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisGrupoFch.quMembroIDUsuario=IDUsuario~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TSisGrupoFch.quMembroUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TSisGrupoFch.quNaoMembroIDUsuario=IDUsuario~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TSisGrupoFch.quNaoMembroUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+
+[Hints]
+TSisGrupoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TSisGrupoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TSisGrupoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TSisGrupoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TSisGrupoFch.btOK=~!@#$~!@#$~!@#$
+TSisGrupoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TSisGrupoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,47 @@
+[Captions]
+TFrmInventoryConfig.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmInventoryConfig.btnOK=&Save~!@#$&Salvar~!@#$&Guardar~!@#$
+TFrmInventoryConfig.gbDefaulLeadTime=  Lead Time   ~!@#$   Tempo de entrega   ~!@#$   Tempo de entrega   ~!@#$
+TFrmInventoryConfig.gbxClassesRequest=   Classes to auto request   ~!@#$   Classes para auto requisitar   ~!@#$   Clases a la petición auto   ~!@#$
+TFrmInventoryConfig.GroupBox1=   Safety Stock   ~!@#$   Período da compra para a classe   ~!@#$   Período de la compra para la clase   ~!@#$
+TFrmInventoryConfig.GroupBox2=   Adjust Order Point   ~!@#$   Margem de segurança para a classe   ~!@#$   Margen de seguridad para la clase   ~!@#$
+TFrmInventoryConfig.hhh=~!@#$~!@#$~!@#$
+TFrmInventoryConfig.Label1=A (%) :~!@#$A (%) :~!@#$A (%) :~!@#$
+TFrmInventoryConfig.Label10=C:~!@#$C (%):~!@#$C (%):~!@#$
+TFrmInventoryConfig.Label11=Enter how many days of safety stock that you want on hand for each class. This allows you to weight your inventory so you have more of your best selling items in stock.~!@#$Período em dias que o produto não pode faltar em estoque. Este período será utilizado para calcular a quantidade que será requisitada pelo sistema, com base na média de vendas diárias.~!@#$El período (en días) que el producto no puede ser vacío en el inventario.  Este período será utilizado para calcular la cantidad que será solicitada por el sistema basado en el promedio diario de las ventas.~!@#$
+TFrmInventoryConfig.Label12=You can adjust your order point so the system will order items sooner. This is helpful during holiday seasons when you need more stock on hand. Ex. If the order point in the system is 10 and you enter a variance of 30% then the new order point will be 13. Items will now be ordered when the inventory reaches 13 instead of 10. At the end of the season you may return to 0% and the system will order using the normal order point.~!@#$Percentual da margem de segurança no ponto de pedido. Ele calcula a quantidade que será adicionada ao ponto de pedido para assegurar a pedido do computador.~!@#$Éste es el porcentaje del margen de seguridad en el punto de orden.  Calcula la cantidad que será agregada al punto de orden para sugerir la petición auto de la computadora.~!@#$
+TFrmInventoryConfig.Label13=Enter the % of profit that each class represents. Example. A=80%, B=15%, C=5%. The total must always equal 100%.~!@#$Entre com o percentual que cada classe representa no faturamento da empresa. Exemplo: A=80%, B=15%, C=5%. O total deve ser sempre igual a 100%.~!@#$Incorporar los % del beneficio que cada clase representa. Ejemplo. El A=80%, el B=15%, el C=5%. El total debe igualar siempre 100%.~!@#$
+TFrmInventoryConfig.Label14=Enter the number of months of sales history that the system will use to calculate the class and order point.~!@#$Entre com o número de meses de histórico de vendas que o sistema irá utilizar para calcular a classe ACB.~!@#$Incorporar el número de los meses de la historia de ventas que el sistema utilizará calcular el punto de la clase y de orden.~!@#$
+TFrmInventoryConfig.Label15=Calculation type :~!@#$Tipo de Cálculo :~!@#$Cálculo tipo:~!@#$
+TFrmInventoryConfig.Label16=Select what type of calculation will be used on ABC classification.~!@#$Selecione o tipo de cálculo será utilizada na classificação ABC.~!@#$Seleccione el tipo de cálculo se utilizará en la clasificación ABC.~!@#$
+TFrmInventoryConfig.Label2=B (%) :~!@#$B (%) :~!@#$B (%) :~!@#$
+TFrmInventoryConfig.Label3=C (%) :~!@#$C (%) :~!@#$C (%) :~!@#$
+TFrmInventoryConfig.Label4=A:~!@#$A:~!@#$A:~!@#$
+TFrmInventoryConfig.Label5=B:~!@#$B:~!@#$B:~!@#$
+TFrmInventoryConfig.Label6=C:~!@#$C:~!@#$C:~!@#$
+TFrmInventoryConfig.Label7=A:~!@#$A (%):~!@#$A (%):~!@#$
+TFrmInventoryConfig.Label8=Sales period (in days) :~!@#$Período de vendas (em meses):~!@#$Período de las ventas (en meses):~!@#$
+TFrmInventoryConfig.Label9=B:~!@#$B (%):~!@#$B (%):~!@#$
+TFrmInventoryConfig.lblClassRequest=Check the box of the classes you would like to auto-request. Items in unchecked boxes will not appear on purchase orders.~!@#$Determina quais classes serão requisitadas. Apenas produtos pertencentes às classes marcadas serão auto requisitados.~!@#$~!@#$
+TFrmInventoryConfig.lbLeadDesc=The number of days to add to the safety stock value when a vendor has no lead time statistics available.  Lead time is the number of days it takes from the time a PO is created until it is received.~!@#$Período em dias que o produto não pode faltar em estoque. Este período será utilizado para calcular a quantidade que será requisitada pelo sistema, com base na média de venda diárias.~!@#$El número de días para añadir el valor de las existencias de seguridad cuando un vendedor no tiene tiempo de las estadísticas disponibles. El tiempo es el número de días que tarda desde el momento en un apartado se crea hasta que se recibe.~!@#$
+TFrmInventoryConfig.lbLeadTime=Default Lead Time :~!@#$Tempo de entrega padrão :~!@#$Tempo de entrega padrão :~!@#$
+TFrmInventoryConfig.lbPeriod=Period (in months) :~!@#$Período (em meses) :~!@#$Período (en meses) :~!@#$
+TFrmInventoryConfig.lbStoreToAutoRequest=Store to auto request  :~!@#$Loja para auto requisição  :~!@#$Almacén a la petición auto :~!@#$
+TFrmInventoryConfig.sbHelp=&Help~!@#$Ajuda~!@#$Ayada~!@#$
+TFrmInventoryConfig.TFrmInventoryConfig=Inventory Config~!@#$Configuração do Inventário~!@#$Config Del Inventario~!@#$
+TFrmInventoryConfig.tsAutoReq=  Auto Request  ~!@#$  Auto Requisição  ~!@#$  Auto Req.  ~!@#$
+TFrmInventoryConfig.tsCurveABC=  Curve ABC  ~!@#$  Curva ABC  ~!@#$  Curva ABC  ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmInventoryConfig.cbxCalcType.Items="Qty and Profit","Profit and Qty"~!@#$"Qtd e Faturamento","Faturamento e Qtd"~!@#$"Ctd e Faturamento","Faturamento e Ctd"~!@#$
+TFrmInventoryConfig.scStore.FilterFields=~!@#$~!@#$~!@#$
+TFrmInventoryConfig.scStore.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

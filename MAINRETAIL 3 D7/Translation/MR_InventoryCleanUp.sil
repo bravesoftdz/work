@@ -1,0 +1,48 @@
+[Captions]
+TInventoryCleanUp.btAllModel=All~!@#$Tudo~!@#$Todo~!@#$
+TInventoryCleanUp.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TInventoryCleanUp.btClearCatego=All~!@#$Tudo~!@#$Todo~!@#$
+TInventoryCleanUp.btClearStore=All~!@#$Tudo~!@#$Todo~!@#$
+TInventoryCleanUp.btClose=&Reset Qty~!@#$&Resetar~!@#$&Resetar~!@#$
+TInventoryCleanUp.btnMGroupClear=All~!@#$Tudo~!@#$Todo~!@#$
+TInventoryCleanUp.btnRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TInventoryCleanUp.btnSubCategClear=All~!@#$Tudo~!@#$Todo~!@#$
+TInventoryCleanUp.grdBarcodeCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TInventoryCleanUp.grdBarcodeDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TInventoryCleanUp.grdBarcodeIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TInventoryCleanUp.grdBarcodeModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TInventoryCleanUp.grdBarcodeQtyOnHand=OnHand~!@#$Em Loja~!@#$Existente~!@#$
+TInventoryCleanUp.grdBarcodeStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TInventoryCleanUp.Label1=Reset Inventory to Zero~!@#$Zerar Estoque~!@#$Reducir Inventario a Cero~!@#$
+TInventoryCleanUp.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TInventoryCleanUp.Label2=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TInventoryCleanUp.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TInventoryCleanUp.Label6=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TInventoryCleanUp.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TInventoryCleanUp.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TInventoryCleanUp.lbModelGroup=Group :~!@#$Grupo :~!@#$Grupo :~!@#$
+TInventoryCleanUp.lbQtyType=Qty Type :~!@#$Tipo da Qtd. :~!@#$Tipo de la Cantidad :~!@#$
+TInventoryCleanUp.lbSubCategory=Sub-Category:~!@#$Sub-Categoria:~!@#$Sub-Categoría:~!@#$
+TInventoryCleanUp.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TInventoryCleanUp.TInventoryCleanUp=InventoryCleanUp~!@#$Limpar Estoque~!@#$LimpiarInventario~!@#$
+
+[DisplayLabels]
+TInventoryCleanUp.quModelCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TInventoryCleanUp.quModelDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TInventoryCleanUp.quModelIDModel=IDModel~!@#$IDModelo~!@#$IdModelo~!@#$
+TInventoryCleanUp.quModelModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TInventoryCleanUp.quModelQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TInventoryCleanUp.quModelStore=Store~!@#$Loja~!@#$Tienda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TInventoryCleanUp.cbxMethod.Items="Starts with","End with",Contains~!@#$"Começa com","Termina com",Contém~!@#$"Comienza con","Termina con",Contiene~!@#$
+TInventoryCleanUp.cbxQtyType.Items=Positive,Negative,Both~!@#$Positivo,Negativo,Ambos~!@#$Positivo,Negativo,Ambos~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

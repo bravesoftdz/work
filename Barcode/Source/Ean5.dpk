@@ -1,0 +1,46 @@
+package Ean5;
+
+{$R *.RES}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Barcode components for Delphi 5'}
+{$IMPLICITBUILD ON}
+
+requires
+  Vcl50,
+  Vclx50,
+  Vcldb50,
+  Vclbde50,
+  qrpt50;
+
+contains
+  EanReg in 'EanReg.pas',
+  EanSpecs in 'EanSpecs.pas',
+  EanDB in 'EanDB.pas',
+  EanDBQr in 'EanDBQr.pas',
+  EanKod in 'EanKod.pas',
+  EanPdf417 in 'EanPDF417.pas',
+  EanQR in 'EanQR.pas',
+  EanRead in 'EanRead.pas',
+  EanFmt2 in 'EanFmt2.pas' {EANSetupFmt};
+
+end.

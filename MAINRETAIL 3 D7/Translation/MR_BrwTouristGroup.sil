@@ -1,0 +1,84 @@
+[Captions]
+TbrwTouristGroup.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwTouristGroup.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwTouristGroup.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwTouristGroup.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwTouristGroup.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwTouristGroup.btExcel=F6 &export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwTouristGroup.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwTouristGroup.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwTouristGroup.btInvoice=&Invoices~!@#$Notas~!@#$Boletas~!@#$
+TbrwTouristGroup.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwTouristGroup.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwTouristGroup.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwTouristGroup.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwTouristGroup.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwTouristGroup.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwTouristGroup.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwTouristGroup.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwTouristGroup.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwTouristGroup.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwTouristGroup.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwTouristGroup.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwTouristGroup.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwTouristGroup.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwTouristGroup.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwTouristGroup.grdBrowseDBEnterDate=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwTouristGroup.grdBrowseDBIDAgency=IDAgency~!@#$IDAgência~!@#$IDAgencia~!@#$
+TbrwTouristGroup.grdBrowseDBIDGuide=IDAgent~!@#$IDAgente~!@#$IDAgente~!@#$
+TbrwTouristGroup.grdBrowseDBIDTouristGroup=IDGroup~!@#$ID~!@#$ID~!@#$
+TbrwTouristGroup.grdBrowseDBNumInvoice=Tot Invs~!@#$Total nº notas~!@#$TotBoletas~!@#$
+TbrwTouristGroup.grdBrowseDBStatusGuia=Agent Status~!@#$Estado do Guía~!@#$Estado del Guía~!@#$
+TbrwTouristGroup.grdBrowseDBSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TbrwTouristGroup.grdBrowseDBTipTouristGroup=TipAgencyGroup~!@#$Dica grupo agência~!@#$TipGrupoAgencia~!@#$
+TbrwTouristGroup.grdBrowseDBTotInvoice=Sales w/o Tax~!@#$Vendas sem Impostos~!@#$Ventas sin Impuesto~!@#$
+TbrwTouristGroup.hhh=~!@#$~!@#$~!@#$
+TbrwTouristGroup.Label15=User:~!@#$Usuário:~!@#$Usuario~!@#$
+TbrwTouristGroup.Label3=Agency :~!@#$Agência :~!@#$Agencia :~!@#$
+TbrwTouristGroup.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwTouristGroup.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwTouristGroup.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwTouristGroup.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwTouristGroup.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwTouristGroup.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwTouristGroup.pnlTip=~!@#$~!@#$~!@#$
+TbrwTouristGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwTouristGroup.TbrwTouristGroup=TbrwTouristGroup~!@#$TbrwGrupoTurismo~!@#$TbrwGrupoTurismo~!@#$
+
+[DisplayLabels]
+TbrwTouristGroup.quBrowseEnterDate=EnterDate~!@#$EntrarData~!@#$EntrarFecha~!@#$
+TbrwTouristGroup.quBrowseIDAgency=IDAgency~!@#$IDAgencia~!@#$IDAgencia~!@#$
+TbrwTouristGroup.quBrowseIDGuide=IDGuide~!@#$IDGuía~!@#$IDGuía~!@#$
+TbrwTouristGroup.quBrowseIDTouristGroup=#~!@#$#~!@#$#~!@#$
+TbrwTouristGroup.quBrowseNumInvoice=Inv #~!@#$Nota #~!@#$Boleta #~!@#$
+TbrwTouristGroup.quBrowseStatusAgency=StatusAgency~!@#$EstadoAgencia~!@#$EstadoAgencia~!@#$
+TbrwTouristGroup.quBrowseStatusGuia=StatusGuia~!@#$EstadoGuía~!@#$EstadoGuía~!@#$
+TbrwTouristGroup.quBrowseSystemUser=Included By~!@#$Incluído Por~!@#$Incluído Por~!@#$
+TbrwTouristGroup.quBrowseTipTouristGroup=TipTouristGroup~!@#$DicaGrupoTurismo~!@#$TipGrupoTurismo~!@#$
+TbrwTouristGroup.quBrowseTotInvoice=Total Sales~!@#$Total Vendas~!@#$Total Ventas~!@#$
+
+[Hints]
+TbrwTouristGroup.btExcel=Export ~!@#$Exportar ~!@#$Exportar~!@#$
+TbrwTouristGroup.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwTouristGroup.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwTouristGroup.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwTouristGroup.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwTouristGroup.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwTouristGroup.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwTouristGroup.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwTouristGroup.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwTouristGroup.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwTouristGroup.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwTouristGroup.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwTouristGroup.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

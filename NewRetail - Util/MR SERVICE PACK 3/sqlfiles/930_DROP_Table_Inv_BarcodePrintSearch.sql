@@ -1,0 +1,2 @@
+DROP TABLE Inv_BarcodePrintSearch
+GO

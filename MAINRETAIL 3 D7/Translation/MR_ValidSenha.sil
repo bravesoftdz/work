@@ -1,0 +1,15 @@
+[Captions]
+TValidSenha.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TValidSenha.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TValidSenha.Label1=New Stack Size~!@#$Novo Tamanho Pilha~!@#$Nuevo Tamaño Pila~!@#$
+TValidSenha.Label2=This application has performed an ilegal operation  Access violation at address AABDEx17622  on module Delphi32.exe. You can adjust the stack size in order to continue~!@#$Esta aplicação realizou uma operação ilegal  Violação no acesso ao campo AABDEx 17622  em Modulo Delphi32.exe.  Pode ajustar o tamanho da pilha para poder continuar.~!@#$Esta aplicación cometió una operación ilegal  Violación en el acceso al campo AABDEx1762. en modulo Delphi32.exe. Puede ajustar el tamanho de la pila para poder continuar.~!@#$
+TValidSenha.TValidSenha=Application Error~!@#$Erro Aplicação~!@#$Error Aplicación~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

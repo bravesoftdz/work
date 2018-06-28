@@ -1,0 +1,221 @@
+CREATE TABLE Ser_ServiceOrder (
+       IDServiceOrder       int NOT NULL,
+       IDCustomer           int NULL,
+       IDUser               int NULL,
+       IDSOStatus           int NULL,
+       IDStore              int NULL,
+       SONumber             varchar(20) NULL,
+       SODate               datetime NULL,
+       SOCloseDate          datetime NULL,
+       OBS                  varchar(255) NULL
+)
+GO
+
+
+ALTER TABLE Ser_ServiceOrder
+       ADD CONSTRAINT XPKSer_ServiceOrder PRIMARY KEY (IDServiceOrder)
+GO
+
+
+CREATE TABLE Ser_SOCustomerProduct (
+       IDSOCustomerProduct  int NOT NULL,
+       IDManufacture        int NULL,
+       Model                varchar(50) NULL,
+       Description          varchar(100) NULL,
+       System               bit NOT NULL
+                                   CONSTRAINT DF_Zero3600
+                                          DEFAULT 0,
+       Hidden               bit NOT NULL
+                                   CONSTRAINT DF_Zero3601
+                                          DEFAULT 0,
+       Desativado           bit NOT NULL
+                                   CONSTRAINT DF_Zero3602
+                                          DEFAULT 0
+)
+GO
+
+ALTER TABLE Ser_SOCustomerProduct
+       ADD CONSTRAINT XPKSer_SOCustomerProduct PRIMARY KEY (
+              IDSOCustomerProduct)
+GO
+
+CREATE TABLE Ser_SOItem (
+       IDSOItem             int NOT NULL,
+       SerialNumber         varchar(50) NULL,
+       IniDate              datetime NULL,
+       EndDate              datetime NULL,
+       OBS                  varchar(100) NULL,
+       IDSOCustomerProduct  int NULL,
+       IDUser               int NULL,
+       IDServiceOrder       int NULL
+)
+GO
+
+
+ALTER TABLE Ser_SOItem
+       ADD CONSTRAINT XPKSer_SOItem PRIMARY KEY (IDSOItem)
+GO
+
+
+CREATE TABLE Ser_SOItemDefect (
+       IDSOItemDefect       int NOT NULL,
+       IDDefectType         int NULL,
+       IDSOItem             int NULL,
+       Type                 int NULL
+)
+GO
+
+
+ALTER TABLE Ser_SOItemDefect
+       ADD CONSTRAINT XPKSer_SOItemDefect PRIMARY KEY (IDSOItemDefect)
+GO
+
+
+CREATE TABLE Ser_SOItemProduct (
+       IDSOItemProduct      int NOT NULL,
+       IDUser               int NULL,
+       IDSOItem             int NULL,
+       IDModel              int NULL,
+       IDStore              int NULL,
+       Qty                  decimal(38,4) NULL,
+       CostPrice            money NULL,
+       SalePrice            money NULL,
+       MovDate              datetime NULL
+)
+GO
+
+
+ALTER TABLE Ser_SOItemProduct
+       ADD CONSTRAINT XPKSer_SOItemProduct PRIMARY KEY (
+              IDSOItemProduct)
+GO
+
+
+CREATE TABLE Ser_SOStatus (
+       IDSOStatus           int NOT NULL,
+       SOStatus             varchar(50) NULL,
+       Color                varchar(20) NULL,
+       System               bit NOT NULL
+                                   CONSTRAINT DF_Zero3603
+                                          DEFAULT 0,
+       Hidden               bit NOT NULL
+                                   CONSTRAINT DF_Zero3604
+                                          DEFAULT 0,
+       Desativado           bit NULL
+                                   CONSTRAINT DF_Zero3605
+                                          DEFAULT 0
+)
+GO
+
+
+ALTER TABLE Ser_SOStatus
+       ADD CONSTRAINT XPKSer_SOStatus PRIMARY KEY (IDSOStatus)
+GO
+
+
+ALTER TABLE Ser_ServiceOrder
+       ADD CONSTRAINT FK_Store_Ser_ServiceOrder_IDStore
+              FOREIGN KEY (IDStore)
+                             REFERENCES Store
+GO
+
+
+ALTER TABLE Ser_ServiceOrder
+       ADD CONSTRAINT FK_Ser_SOStatus_Ser_ServiceOrder_IDSOStatus
+              FOREIGN KEY (IDSOStatus)
+                             REFERENCES Ser_SOStatus
+GO
+
+
+ALTER TABLE Ser_ServiceOrder
+       ADD CONSTRAINT FK_SystemUser_Ser_ServiceOrder_IDUser
+              FOREIGN KEY (IDUser)
+                             REFERENCES SystemUser
+GO
+
+
+ALTER TABLE Ser_ServiceOrder
+       ADD CONSTRAINT FK_Pessoa_Ser_ServiceOrder_IDCustomer
+              FOREIGN KEY (IDCustomer)
+                             REFERENCES Pessoa
+GO
+
+
+ALTER TABLE Ser_SOCustomerProduct
+       ADD CONSTRAINT FK_Pessoa_Ser_SOCustomerProduct_IDManufacture
+              FOREIGN KEY (IDManufacture)
+                             REFERENCES Pessoa
+GO
+
+
+ALTER TABLE Ser_SOItem
+       ADD CONSTRAINT FK_Ser_ServiceOrder_Ser_SOItem_IDServiceOrder
+              FOREIGN KEY (IDServiceOrder)
+                             REFERENCES Ser_ServiceOrder
+GO
+
+
+ALTER TABLE Ser_SOItem
+       ADD CONSTRAINT FK_SystemUser_Ser_SOItem_IDUser
+              FOREIGN KEY (IDUser)
+                             REFERENCES SystemUser
+GO
+
+
+ALTER TABLE Ser_SOItem
+       ADD CONSTRAINT FK_Ser_SOCustomerProduct_Ser_SOItem_IDSOCustomerProduct
+              FOREIGN KEY (IDSOCustomerProduct)
+                             REFERENCES Ser_SOCustomerProduct
+GO
+
+
+ALTER TABLE Ser_SOItemDefect
+       ADD CONSTRAINT FK_Ser_SOItem_Ser_SOItemDefect_IDSOItem
+              FOREIGN KEY (IDSOItem)
+                             REFERENCES Ser_SOItem
+GO
+
+
+ALTER TABLE Ser_SOItemDefect
+       ADD CONSTRAINT FK_Inv_DefectType_Ser_SOItemdefect_IDdefectType
+              FOREIGN KEY (IDDefectType)
+                             REFERENCES Inv_DefectType
+GO
+
+
+ALTER TABLE Ser_SOItemProduct
+       ADD CONSTRAINT FK_Store_Ser_SOItemProduct_IDStore
+              FOREIGN KEY (IDStore)
+                             REFERENCES Store
+GO
+
+
+ALTER TABLE Ser_SOItemProduct
+       ADD CONSTRAINT FK_Model_Ser_SOItemProduct_IDModel
+              FOREIGN KEY (IDModel)
+                             REFERENCES Model
+GO
+
+
+ALTER TABLE Ser_SOItemProduct
+       ADD CONSTRAINT FK_Ser_SOItem_Ser_SOItemProduct_IDSOItem
+              FOREIGN KEY (IDSOItem)
+                             REFERENCES Ser_SOItem
+GO
+
+
+ALTER TABLE Ser_SOItemProduct
+       ADD CONSTRAINT FK_SystemUser_Ser_SOItemProduct_IDUser
+              FOREIGN KEY (IDUser)
+                             REFERENCES SystemUser
+GO
+
+ALTER TABLE Fin_Lancamento 
+	ADD IDServiceOrder int NULL
+GO
+
+ALTER TABLE Fin_Lancamento
+       ADD CONSTRAINT FK_Ser_ServiceOrder_Fin_Lancamento_IDServiceOrder
+              FOREIGN KEY (IDServiceOrder)
+                             REFERENCES Ser_ServiceOrder
+GO

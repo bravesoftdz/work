@@ -1,0 +1,36 @@
+[Captions]
+TFrmSERASA.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TfrmSERASA.btnPrint=&Print~!@#$Im&primir~!@#$Im&primir~!@#$
+TFrmSERASA.btnSearch=&Search~!@#$Con&sultar~!@#$Bu&scar~!@#$
+TFrmSERASA.Label1=Check~!@#$Informação do Cheque~!@#$Cheque~!@#$
+TFrmSERASA.Label10=Port :~!@#$Porta:~!@#$Porta:~!@#$
+TFrmSERASA.Label11=Doc :~!@#$Doc:~!@#$Doc:~!@#$
+TFrmSERASA.Label12=Station :~!@#$Estação :~!@#$Estación~!@#$
+TFrmSERASA.Label13=Option :~!@#$Opção :~!@#$Opcion :~!@#$
+TFrmSERASA.Label14=Branch :~!@#$Agência :~!@#$Agencia :~!@#$
+TFrmSERASA.Label15=Account :~!@#$Nº Conta :~!@#$Nº Conta :~!@#$
+TFrmSERASA.Label2=Initial :~!@#$Inicial :~!@#$Inicial~!@#$
+TFrmSERASA.Label3=Final :~!@#$Final :~!@#$Final~!@#$
+TFrmSERASA.Label4=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFrmSERASA.Label5=SERASA login~!@#$SERASA login~!@#$SERASA login~!@#$
+TFrmSERASA.Label6=User :~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmSERASA.Label7=PW :~!@#$Senha :~!@#$Contraseña :~!@#$
+TFrmSERASA.Label8=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFrmSERASA.Label9=Server IP :~!@#$IP :~!@#$IP :~!@#$
+TFrmSERASA.lbAmount=Amount :~!@#$Valor :~!@#$Monto :~!@#$
+TFrmSERASA.lbCustomerInfo=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmSERASA.lbDate=Date :~!@#$Data :~!@#$Fetcha :~!@#$
+TFrmSERASA.lbDoc=Doc :~!@#$Doc :~!@#$Doc :~!@#$
+TFrmSERASA.lbName=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TFrmSERASA.lbPhone=Phone :~!@#$Tel :~!@#$Tel :~!@#$
+TFrmSERASA.sbHelp=&Help~!@#$A&juda~!@#$Ayuda~!@#$
+TFrmSERASA.TFrmSERASA=SERASA~!@#$SERASA~!@#$SERASA~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

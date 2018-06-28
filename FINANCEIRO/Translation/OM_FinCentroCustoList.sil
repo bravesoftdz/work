@@ -1,0 +1,124 @@
+[Captions]
+TFinCentroCustoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinCentroCustoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinCentroCustoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinCentroCustoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinCentroCustoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinCentroCustoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinCentroCustoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinCentroCustoList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinCentroCustoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinCentroCustoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinCentroCustoList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinCentroCustoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinCentroCustoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinCentroCustoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinCentroCustoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinCentroCustoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinCentroCustoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinCentroCustoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinCentroCustoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinCentroCustoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinCentroCustoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinCentroCustoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinCentroCustoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinCentroCustoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinCentroCustoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinCentroCustoList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinCentroCustoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinCentroCustoList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinCentroCustoList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinCentroCustoList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinCentroCustoList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinCentroCustoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinCentroCustoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinCentroCustoList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinCentroCustoList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Vista~!@#$
+TFinCentroCustoList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Vista~!@#$
+TFinCentroCustoList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Vista Actual~!@#$
+TFinCentroCustoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinCentroCustoList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinCentroCustoList.brwGridCentroCusto=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinCentroCustoList.brwGridCodigoCentroCusto=Code~!@#$Código~!@#$Código~!@#$
+TFinCentroCustoList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinCentroCustoList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinCentroCustoList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinCentroCustoList.cbxStatus=~!@#$~!@#$~!@#$
+TFinCentroCustoList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TFinCentroCustoList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinCentroCustoList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinCentroCustoList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinCentroCustoList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinCentroCustoList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinCentroCustoList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinCentroCustoList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinCentroCustoList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinCentroCustoList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinCentroCustoList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinCentroCustoList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinCentroCustoList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinCentroCustoList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinCentroCustoList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinCentroCustoList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinCentroCustoList.TFinCentroCustoList=FinCentroCustoList~!@#$FinListCentroCusto~!@#$FinListCentroCusto~!@#$
+TFinCentroCustoList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TFinCentroCustoList.quBrowseCentroCusto=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinCentroCustoList.quBrowseCodigoCentroCusto=Code~!@#$Código~!@#$Código~!@#$
+TFinCentroCustoList.quBrowseIDCentroCusto=IDCentroCusto~!@#$IDCentroCusto~!@#$IDCentroCosto~!@#$
+
+[Hints]
+TFinCentroCustoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinCentroCustoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinCentroCustoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinCentroCustoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinCentroCustoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinCentroCustoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinCentroCustoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinCentroCustoList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinCentroCustoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinCentroCustoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinCentroCustoList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinCentroCustoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinCentroCustoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinCentroCustoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinCentroCustoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinCentroCustoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinCentroCustoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinCentroCustoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinCentroCustoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinCentroCustoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinCentroCustoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinCentroCustoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinCentroCustoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinCentroCustoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinCentroCustoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinCentroCustoList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinCentroCustoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinCentroCustoList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinCentroCustoList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinCentroCustoList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinCentroCustoList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinCentroCustoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinCentroCustoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinCentroCustoList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinCentroCustoList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar vista~!@#$
+TFinCentroCustoList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Vista~!@#$
+TFinCentroCustoList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar vista actual~!@#$
+TFinCentroCustoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinCentroCustoList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinCentroCustoList.brwGrid=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TFinCentroCustoList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

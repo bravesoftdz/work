@@ -1,0 +1,97 @@
+[Captions]
+TFrmConsultHold.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmConsultHold.btnExec=&GO!~!@#$&OK~!@#$&OK~!@#$
+TFrmConsultHold.btnHistory=Add History~!@#$Histórico~!@#$Histórico~!@#$
+TFrmConsultHold.btnPayments=Detail~!@#$Detalhe~!@#$Detalhe~!@#$
+TFrmConsultHold.btnPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFrmConsultHold.btnUpdateHold=Update Hold #~!@#$Alterar Nº Pedido~!@#$Alterar Nº Boleta~!@#$
+TFrmConsultHold.btnUpdateInv=Update Invoice #~!@#$Alterar Nº Nota~!@#$Alterar Nº Factura~!@#$
+TFrmConsultHold.Button2=All~!@#$Todos~!@#$Todos~!@#$
+TFrmConsultHold.grdDeliveryDBDeliverAddress=DeliverAddress~!@#$Endereço Entrega~!@#$Dirección Envio~!@#$
+TFrmConsultHold.grdDeliveryDBDeliverDate=DeliverDate~!@#$Data Entrega~!@#$Fecha Envio~!@#$
+TFrmConsultHold.grdDeliveryDBDeliverOBS=DeliverOBS~!@#$OBS Entrega~!@#$OBS Dirección~!@#$
+TFrmConsultHold.grdDeliveryDBDeliverType=DeliverType~!@#$Tipo Entrega~!@#$Tipo Envio~!@#$
+TFrmConsultHold.grdDeliveryDBInvoiceCode=Invoice Hold~!@#$Nº Nota~!@#$Nº Factura~!@#$
+TFrmConsultHold.grdDeliveryDBSaleCode=Sale Code~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TFrmConsultHold.grdDeliveryDBUserDeliver=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmConsultHold.grdHoldDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmConsultHold.grdHoldDBSaleCode=Hold~!@#$Pedido~!@#$Boleta~!@#$
+TFrmConsultHold.grdHoldDBPreSaleDate=Hold Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmConsultHold.grdInvExpensesDBAmount=Amount~!@#$Valor~!@#$Monto~!@#$
+TFrmConsultHold.grdInvExpensesDBCostType=CostType~!@#$Tipo~!@#$Tipo~!@#$
+TFrmConsultHold.grdItemDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmConsultHold.grdItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmConsultHold.grdItemDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmConsultHold.grdItemDBTotalItem=TotalItem~!@#$Total~!@#$Total~!@#$
+TFrmConsultHold.grdItemDBSaleCode=SaleCode~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TFrmConsultHold.grdItemDBInvoiceCode=Invoice #~!@#$Nº Nota~!@#$Nº Boleta~!@#$
+TFrmConsultHold.grdItemDBSalesPerson=Sales Person~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmConsultHold.Label1=Document :~!@#$Documento :~!@#$Documento :~!@#$
+TFrmConsultHold.Label2=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TFrmConsultHold.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmConsultHold.Label4=Hold :~!@#$Pedido :~!@#$Boleta :~!@#$
+TFrmConsultHold.Label5=Hold~!@#$Pedido~!@#$Boleta~!@#$
+TFrmConsultHold.Label6=Items~!@#$Items~!@#$Items~!@#$
+TFrmConsultHold.Label7=Status :~!@#$Status :~!@#$Status :~!@#$
+TFrmConsultHold.lbCustomer=Customer Info~!@#$Info do Cliente~!@#$Info do Cliente~!@#$
+TFrmConsultHold.lbFrom=From :~!@#$De :~!@#$Desde :~!@#$
+TFrmConsultHold.lbTo=To~!@#$até~!@#$ate~!@#$
+TFrmConsultHold.sbHelp=&Help~!@#$A&juda~!@#$Ayuda~!@#$
+TFrmConsultHold.TFrmConsultHold=Consult Hold~!@#$Consultar Pedidos~!@#$Consultar Boletas~!@#$
+TFrmConsultHold.tsDelivery=Delivery~!@#$Entrega~!@#$Envio~!@#$
+TFrmConsultHold.tsNotes=Notes~!@#$OBS~!@#$OBS~!@#$
+TFrmConsultHold.tsOtherCosts=Other Costs~!@#$Outros Custos~!@#$Otros Custos~!@#$
+TFrmConsultHold.tsPayments=Payments~!@#$Pagamentos~!@#$Pagamentos~!@#$
+TFrmConsultHold.lblCanceledHold=Canceled!~!@#$Cancelado!~!@#$Cancelado~!@#$
+
+[DisplayLabels]
+TFrmConsultHold.quAddExpensesAmount=Amount~!@#$Valor~!@#$Valor~!@#$
+TFrmConsultHold.quAddExpensesCostType=CostType~!@#$Tipo de Custo~!@#$Tipo Costo~!@#$
+TFrmConsultHold.quDeliveryInfoDeliverAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFrmConsultHold.quDeliveryInfoDeliverConfirmation=DeliverConfirmation~!@#$Entrega Confirmada~!@#$Envio Confirmado~!@#$
+TFrmConsultHold.quDeliveryInfoDeliverDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmConsultHold.quDeliveryInfoDeliverOBS=OBS~!@#$OBS~!@#$OBS~!@#$
+TFrmConsultHold.quDeliveryInfoDeliverType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFrmConsultHold.quHoldsAditionalExpenses=AditionalExpenses~!@#$Despesas Adicionais~!@#$Despesas Adicionais~!@#$
+TFrmConsultHold.quHoldsIDPreSale=Hold~!@#$Pedido~!@#$Boleta~!@#$
+TFrmConsultHold.quHoldsInvoiceDate=InvoiceDate~!@#$Data Nota~!@#$Fetcha Boleta~!@#$
+TFrmConsultHold.quHoldsLayaway=Layaway~!@#$Pedido~!@#$Boleta~!@#$
+TFrmConsultHold.quHoldsName=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmConsultHold.quHoldsNote=Note~!@#$Observação~!@#$Observación~!@#$
+TFrmConsultHold.quHoldsPreSaleDate=PreSaleDate~!@#$Data Pedido~!@#$Data Boleta~!@#$
+TFrmConsultHold.quHoldsSaleCode=SaleCode~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TFrmConsultHold.quHoldsSubTotal=SubTotal~!@#$Sub Total~!@#$Sub Total~!@#$
+TFrmConsultHold.quHoldsTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFrmConsultHold.quHoldsTotalInvoice=TotalInvoice~!@#$Total Nota~!@#$Total Boleta~!@#$
+TFrmConsultHold.quPreSaleItemCodColor=CodColor~!@#$Cod Cor~!@#$Cod Color~!@#$
+TFrmConsultHold.quPreSaleItemCodSize=CodSize~!@#$Cod Tamanho~!@#$Cod Tamanho~!@#$
+TFrmConsultHold.quPreSaleItemColor=Color~!@#$Cor~!@#$Color~!@#$
+TFrmConsultHold.quPreSaleItemCostPrice=CostPrice~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TFrmConsultHold.quPreSaleItemDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmConsultHold.quPreSaleItemDiscount=Discount~!@#$Dsct~!@#$Descuento~!@#$
+TFrmConsultHold.quPreSaleItemExchangeInvoice=ExchangeInvoice~!@#$Trocar Nota~!@#$Cambiar Boleta~!@#$
+TFrmConsultHold.quPreSaleItemIsDelivered=IsDelivered~!@#$Entrega~!@#$Envio~!@#$
+TFrmConsultHold.quPreSaleItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmConsultHold.quPreSaleItemQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmConsultHold.quPreSaleItemSalePrice=SalePrice~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmConsultHold.quPreSaleItemSalesPerson=SalesPerson~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmConsultHold.quPreSaleItemSizeName=SizeName~!@#$Tamanho~!@#$Tamanho~!@#$
+TFrmConsultHold.quPreSaleItemSuggRetail=SuggRetail~!@#$Preço Sug~!@#$Precio Sug~!@#$
+TFrmConsultHold.quPreSaleItemTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFrmConsultHold.quPreSaleItemTaxValue=TaxValue~!@#$Valor Imposto~!@#$Valor Impuesto~!@#$
+TFrmConsultHold.quPreSaleItemTotalItem=TotalItem~!@#$Total Item~!@#$Total Item~!@#$
+TFrmConsultHold.quPreSaleItemUnitSalePrice=UnitSalePrice~!@#$Preço Unit.~!@#$Precio Unit.~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmConsultHold.cbmDocs.Items=,"Driver License","Social Security","Customer Card","Employee ID"~!@#$,"Carteira Motorista","Carteira Identidade","Cartão Cliente",C.P.F.~!@#$,"Licencia Conducir","Carnet Identidad","Tarjeta Cliente",ID~!@#$
+TFrmConsultHold.cbmName.Items=,"First Name","Last Name","Full Name"~!@#$,Nome,Sobrenome,"Nome Completo"~!@#$,Nombre,Apellido,"Nombre Completo"~!@#$
+TFrmConsultHold.cbsStatus.Items=All,"Holds only","Invoices only"~!@#$Todos,"Somente pedidos","Somente notas"~!@#$Todos,"Sólo boletas","Sólo facturas"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

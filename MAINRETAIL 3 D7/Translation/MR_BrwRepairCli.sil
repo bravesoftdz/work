@@ -1,0 +1,106 @@
+[Captions]
+TbrwRepairCli.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwRepairCli.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwRepairCli.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwRepairCli.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwRepairCli.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwRepairCli.btExcel=F6 %Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwRepairCli.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwRepairCli.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwRepairCli.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwRepairCli.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwRepairCli.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwRepairCli.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwRepairCli.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwRepairCli.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwRepairCli.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwRepairCli.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwRepairCli.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwRepairCli.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwRepairCli.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwRepairCli.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwRepairCli.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwRepairCli.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwRepairCli.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwRepairCli.grdBrowseDBCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TbrwRepairCli.grdBrowseDBCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TbrwRepairCli.grdBrowseDBDefect=Defect~!@#$Defeito~!@#$Defecto~!@#$
+TbrwRepairCli.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwRepairCli.grdBrowseDBFase=Status~!@#$Status~!@#$Estado~!@#$
+TbrwRepairCli.grdBrowseDBIDRepair= ~!@#$~!@#$~!@#$
+TbrwRepairCli.grdBrowseDBLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TbrwRepairCli.grdBrowseDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwRepairCli.grdBrowseDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwRepairCli.grdBrowseDBReceiveDate=Rec F/Cust~!@#$Recebido do Cliente~!@#$Recibido del Cliente~!@#$
+TbrwRepairCli.grdBrowseDBReturnDate=Back F/Vendor~!@#$Volta do Fornecedor~!@#$Vuelve del Proveedor~!@#$
+TbrwRepairCli.grdBrowseDBSentDate=Ship Date~!@#$Data do Envio~!@#$Fecha Enviado~!@#$
+TbrwRepairCli.grdBrowseDBSerialNumber=SerialNumber~!@#$NúmerodeSérie~!@#$NúmerodeSérie~!@#$
+TbrwRepairCli.grdBrowseDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwRepairCli.grdBrowseDBTipoRepair=RepairType~!@#$Tipo de Conserto~!@#$Tipo de Reparación~!@#$
+TbrwRepairCli.grdBrowseDBVendor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TbrwRepairCli.hhh=~!@#$~!@#$~!@#$
+TbrwRepairCli.Label1=Returned to Customer~!@#$Entregue ao Cliente~!@#$Entregado al Cliente~!@#$
+TbrwRepairCli.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwRepairCli.Label2=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TbrwRepairCli.Label3=Status :~!@#$Status :~!@#$Estado :~!@#$
+TbrwRepairCli.Label4=Recvd from Customer~!@#$Recebido do Cliente~!@#$Recibido del Cliente~!@#$
+TbrwRepairCli.Label5=Sent to Vendor~!@#$Enviar ao Fornecedor~!@#$Enviar al Proveedor~!@#$
+TbrwRepairCli.Label6=Back from Vendor~!@#$Volta do Fornecedor~!@#$Vuelve del Proveedor~!@#$
+TbrwRepairCli.Label7=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwRepairCli.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwRepairCli.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwRepairCli.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwRepairCli.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TbrwRepairCli.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwRepairCli.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwRepairCli.pnlPage=Not showing all records~!@#$Sem registros~!@#$No registros~!@#$
+TbrwRepairCli.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwRepairCli.quBrowseCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TbrwRepairCli.quBrowseCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TbrwRepairCli.quBrowseDefect=Defect~!@#$Defeito~!@#$Defecto~!@#$
+TbrwRepairCli.quBrowseDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwRepairCli.quBrowseFase=Status~!@#$Estado~!@#$Estado~!@#$
+TbrwRepairCli.quBrowseIDRepair=ID~!@#$ID~!@#$ID~!@#$
+TbrwRepairCli.quBrowseLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TbrwRepairCli.quBrowseModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwRepairCli.quBrowseQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwRepairCli.quBrowseReceiveDate=ReceiveDate~!@#$DataRecebido~!@#$FechaRecibido~!@#$
+TbrwRepairCli.quBrowseReturnDate=ReturnDate~!@#$DataDevolução~!@#$FechaDevuelto~!@#$
+TbrwRepairCli.quBrowseSentDate=Sent~!@#$Enviar~!@#$Enviar~!@#$
+TbrwRepairCli.quBrowseSerialNumber=SerialNumber~!@#$NúmeroSerie~!@#$NúmeroSerie~!@#$
+TbrwRepairCli.quBrowseStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwRepairCli.quBrowseTipoRepair=TipoRepair~!@#$TipoConserto~!@#$TipoReparación~!@#$
+TbrwRepairCli.quBrowseVendor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+
+[Hints]
+TbrwRepairCli.btExcel=Export ~!@#$Exportar~!@#$Exportar ~!@#$
+TbrwRepairCli.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwRepairCli.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwRepairCli.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwRepairCli.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwRepairCli.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwRepairCli.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwRepairCli.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwRepairCli.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwRepairCli.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwRepairCli.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwRepairCli.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwRepairCli.cbxStatus.Items="Show Recvd from Customer","Show Sent to Vendor","Show Back from Vendor","Show Returned to Customer","Show All"~!@#$"Mostrar Recebido do Cliente","Mostrar Enviado ao Fornecedor","Mostrar Volta do Fornecedor","Mostrar Entregue ao Cliente","Mostrar Tudo"~!@#$"Mostrar Recibido del Cliente","Mostrar Enviado al Proveedor","Mostrar Devuelto por Proveedor","Mostrar Entregado al Cliente","Mostrar Todo"~!@#$
+TbrwRepairCli.cbxStatusDate.Items="Rec F/Customer","Ship Date","Back F/Vendor"~!@#$"Recebido do Cliente","Data do Envio","Volta do Fornecedor"~!@#$"Recibido del Cliente","Fecha del Envio","Devuelto por Proveedor"~!@#$
+TbrwRepairCli.cmbStore.FilterFields=~!@#$~!@#$~!@#$
+TbrwRepairCli.cmbStore.FilterValues=~!@#$~!@#$~!@#$
+TbrwRepairCli.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TbrwRepairCli.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

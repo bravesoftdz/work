@@ -1,0 +1,111 @@
+[Captions]
+TbrwInvoice.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwInvoice.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwInvoice.btClose=&Close~!@#$F&echar~!@#$&Cerrar~!@#$
+TbrwInvoice.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwInvoice.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwInvoice.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwInvoice.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwInvoice.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwInvoice.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwInvoice.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwInvoice.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwInvoice.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwInvoice.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwInvoice.btnInvTax=&Tax~!@#$Im&posto~!@#$Im&puesto~!@#$
+TbrwInvoice.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwInvoice.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwInvoice.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwInvoice.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwInvoice.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwInvoice.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwInvoice.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwInvoice.btUnpay=&Unpay~!@#$&Impago~!@#$S&in Pagar~!@#$
+TbrwInvoice.btViewInvoice=F3 &Details~!@#$F3 &Detalhes~!@#$F3 &Detalles~!@#$
+TbrwInvoice.Button1=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwInvoice.Button2=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwInvoice.chkInvCalceled=Display Invoices Calceled~!@#$Mostrar Pedidos cancelados~!@#$Demuestre Facturas Calceled~!@#$
+TbrwInvoice.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwInvoice.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwInvoice.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwInvoice.grdBrowseDBAditionalExpenses=AditionalExpenses~!@#$Despesas Adicionais~!@#$Gastos Adicionales~!@#$
+TbrwInvoice.grdBrowseDBCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TbrwInvoice.grdBrowseDBFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TbrwInvoice.grdBrowseDBIDAgency=IDAgency~!@#$IDAgencia~!@#$IDAgencia~!@#$
+TbrwInvoice.grdBrowseDBIDGuide=IDAgent~!@#$IDAgente~!@#$IDAgente~!@#$
+TbrwInvoice.grdBrowseDBIDInvoice=MR Invoice#~!@#$Nº Nota Sis~!@#$Boleta # Sys~!@#$
+TbrwInvoice.grdBrowseDBIDPreSale=Request Number~!@#$Nº Pedido Sis~!@#$IDBolPendiente Sys~!@#$
+TbrwInvoice.grdBrowseDBInvoiceCode=Invoice#~!@#$Nº Fatura~!@#$Nº Factura~!@#$
+TbrwInvoice.grdBrowseDBInvoiceDate=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwInvoice.grdBrowseDBLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TbrwInvoice.grdBrowseDBLayaway=L~!@#$C~!@#$C~!@#$
+TbrwInvoice.grdBrowseDBMediaID=MediaID~!@#$MídiaID~!@#$MediosID~!@#$
+TbrwInvoice.grdBrowseDBParentTotal=ParentTotal~!@#$Total Not.~!@#$Total Fac.~!@#$
+TbrwInvoice.grdBrowseDBSaleCode=Layaway#~!@#$Nº Pedido~!@#$Nº Crédito~!@#$
+TbrwInvoice.grdBrowseDBSubTotal=SubTotal~!@#$Subtotal~!@#$Subtotal~!@#$
+TbrwInvoice.grdBrowseDBTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TbrwInvoice.grdBrowseDBTipTouristGroup=Tip Group~!@#$Dica de Grupo~!@#$Inf Grupo~!@#$
+TbrwInvoice.grdBrowseDBTotalInvoice=Total~!@#$Total~!@#$Total~!@#$
+TbrwInvoice.gridLayawayDBAmountPaid=AmountPaid~!@#$Quantia Paga~!@#$Abonado~!@#$
+TbrwInvoice.gridLayawayDBDataLancamento=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwInvoice.gridLayawayDBFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TbrwInvoice.gridLayawayDBIDInvoice=Invoice#~!@#$Nº Fatura~!@#$Nº Factura~!@#$
+TbrwInvoice.gridLayawayDBIDPreSale=IDPreSale~!@#$IDPreSale~!@#$IDPreSale~!@#$
+TbrwInvoice.gridLayawayDBInvoiceCode=Invoice#~!@#$Nº Fatura~!@#$Nº Factura~!@#$
+TbrwInvoice.gridLayawayDBLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TbrwInvoice.gridLayawayDBSaleCode=Layaway#~!@#$Nº Pedido~!@#$Nº Crédito~!@#$
+TbrwInvoice.gridLayawayDBCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TbrwInvoice.Label1=Document:~!@#$Documento:~!@#$Docs:~!@#$
+TbrwInvoice.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwInvoice.Label2=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TbrwInvoice.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwInvoice.Label4=Agent :~!@#$Guia :~!@#$Agente :~!@#$
+TbrwInvoice.Label5=Media :~!@#$Mídia :~!@#$Medios :~!@#$
+TbrwInvoice.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwInvoice.lbGrandTotal=Grand total :~!@#$Total Final :~!@#$Total Final :~!@#$
+TbrwInvoice.lbLayway=Layaway~!@#$Crediário~!@#$Crédito~!@#$
+TbrwInvoice.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwInvoice.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwInvoice.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwInvoice.lbLPaid=Layaway previous payments :~!@#$Pagamentos Prévios ao Crediário :~!@#$Pagos Realizados al Crédito :~!@#$
+TbrwInvoice.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwInvoice.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwInvoice.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwInvoice.sbHistory=History~!@#$Histórico~!@#$Historial~!@#$
+TbrwInvoice.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwInvoice.lbServiceOrder=Service Order~!@#$Ordem de serviço~!@#$Ordem de serviço~!@#$
+TbrwInvoice.cxServiceOrderViewDataLancamento=Date~!@#$Data~!@#$Fetcha~!@#$
+TbrwInvoice.cxServiceOrderViewCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TbrwInvoice.cxServiceOrderViewSONumber=SONum~!@#$Nº OS~!@#$Nº OS~!@#$
+TbrwInvoice.cxServiceOrderViewAmountPaid=Amount~!@#$Valor~!@#$Valor~!@#$
+TbrwInvoice.lbSOTotal=Service Order payments :~!@#$Total Ordem de serviço~!@#$Total Ordem de serviço~!@#$
+TbrwInvoice.lbStoreAccount=Store Account payments :~!@#$Total Crédito da Loja :~!@#$Total Crédito da Loja~!@#$
+TbrwInvoice.lbGrandTotal=Total :~!@#$Total :~!@#$Total :~!@#$
+
+[Hints]
+TbrwInvoice.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwInvoice.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwInvoice.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwInvoice.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwInvoice.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwInvoice.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwInvoice.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwInvoice.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwInvoice.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwInvoice.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwInvoice.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwInvoice.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwInvoice.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+TbrwInvoice.cbmDocs.Items="","Driver License","Social Security","Customer Card","Employee ID"~!@#$"","Carteira de Motorista","Carteira de Identidade","Cartão do Cliente","C.P.F."~!@#$"","Licencia Conducir","Carnet Identidad","Tarjeta Cliente","ID"~!@#$
+TbrwInvoice.cbmName.Items="","First Name","Last Name","Full Name"~!@#$"","Nome","Sobrenome","Nome Completo"~!@#$"","Nombre","Apellido","Nombre Completo"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

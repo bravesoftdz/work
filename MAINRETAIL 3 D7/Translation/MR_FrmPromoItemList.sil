@@ -1,0 +1,60 @@
+[Captions]
+TFrmPromoItemList.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmPromoItemList.btFabricanteAll=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnCategClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnColorClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnGroupClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnSave=&Save~!@#$&Salvar~!@#$Guardar~!@#$
+TFrmPromoItemList.btnSizeClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnStoreAll=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnSubGroupClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btnVendorAll=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmPromoItemList.btSearch=&Search~!@#$&Buscar~!@#$&Buscar~!@#$
+TFrmPromoItemList.btSelectAll=Select all~!@#$Selecionar Todos~!@#$Seleccione Todos~!@#$
+TFrmPromoItemList.btUnSelectAll=Un select all~!@#$Desmarcar Todos~!@#$Un Seleccione Todos~!@#$
+TFrmPromoItemList.cbxPrimaryBarcode=Primary Barcode~!@#$Cód. de Barras Primário~!@#$Barcode primario ~!@#$
+TFrmPromoItemList.grdPromoPrizeItemDBCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmPromoItemList.grdPromoPrizeItemDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPromoItemList.grdPromoPrizeItemDBManufacture=Manufacture~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmPromoItemList.grdPromoPrizeItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPromoItemList.grdPromoPrizeItemDBVendor=Vendor~!@#$Fornecedor~!@#$Fornecedor~!@#$
+TFrmPromoItemList.grdPromoPrizeItemLevel=~!@#$~!@#$~!@#$
+TFrmPromoItemList.Label15=User:~!@#$Usuário:~!@#$Usuario: ~!@#$
+TFrmPromoItemList.lbCategory=Category :~!@#$Categoria~!@#$Categoria~!@#$
+TFrmPromoItemList.lbGroup=Sub-Category:~!@#$Grupo~!@#$Grupo~!@#$
+TFrmPromoItemList.lbHoriz=Hotizontal :~!@#$Hotizontal :~!@#$Hotizontal :~!@#$
+TFrmPromoItemList.lbManufect=Manufacturer :~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmPromoItemList.lbStore=Store :~!@#$Loja :~!@#$Almacén :~!@#$
+TFrmPromoItemList.lbSubGroup=Group:~!@#$Sub Grupo :~!@#$Sub Grupo :~!@#$
+TFrmPromoItemList.lbVendor=Vendor :~!@#$Fornecedor :~!@#$Fornecedor :~!@#$
+TFrmPromoItemList.lbVerti=Vertical :~!@#$Vertical :~!@#$Vertical :~!@#$
+TFrmPromoItemList.cbxPrimVendor=List primary vendor only~!@#$Listar Fornecedor primário~!@#$Listar Fornecedor primário~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmPromoItemList.cbxMethod.Items="Start with","End with",Contains~!@#$"Começe com","Termine com",Contenha~!@#$Inicia,Termina,Ter~!@#$
+TFrmPromoItemList.cbxType.Items=Barcode,Model,Description,"Vendor Code"~!@#$"Código de Barra",Modelo,Descrição,"Cód. Fornec."~!@#$Barcode,Model,Descripción,"Cód. Fornec."~!@#$
+TFrmPromoItemList.scCategory.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scCategory.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scColor.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scColor.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scFabricante.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scFabricante.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scGroup.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scGroup.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scSize.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scSize.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scStore.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scStore.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scSubGroup.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scSubGroup.FilterValues=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scVendor.FilterFields=~!@#$~!@#$~!@#$
+TFrmPromoItemList.scVendor.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

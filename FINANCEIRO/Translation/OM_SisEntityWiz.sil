@@ -1,0 +1,129 @@
+[Captions]
+TSisEntityWiz.BClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TSisEntityWiz.BHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TSisEntityWiz.BNext=&Next >~!@#$&Seguinte >~!@#$&Siguiente >~!@#$
+TSisEntityWiz.BPrev=< &Back~!@#$< &Voltar~!@#$< &Volver~!@#$
+TSisEntityWiz.cbxNonDublicated=Eliminate duplicated NAME while importing data?~!@#$Eliminar NOMES duplicados enquanto importa os Dados?~!@#$Eliminar NOMBRES Duplicados mientras importa los datos?~!@#$
+TSisEntityWiz.dxDBCGrid1Address=Address~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1BirthDay=BirthDay~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1CellPhone=CellPhone~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1City=City~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Code=Code~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1CompanyContact=CompanyContact~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Contact=Contact~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Country=Country~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1CustomerCard=CustomerCard~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1DBA=DBA~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1DoubleHourValue=DoubleHourValue~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1DriveLicence=DriveLicence~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Email=Email~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1EntityFullName=EntityFullName~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Fax=Fax~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1FederalID=FederalID~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1FirstName=FirstName~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1HomePage=HomePage~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1HorsPerWeek=HorsPerWeek~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1HourValue=HourValue~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1IDPessoa=ID~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1IDStore=IDStore~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1IDTipoPessoa=IDTipoPessoa~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1IDTipoPessoaRoot=IDTipoPessoaRoot~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1IDUser=IDUser~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1LastName=LastName~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1OBS=OBS~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1OverHourValue=OverHourValue~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Phone=Phone~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1SalesTax=SalesTax~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1SocialSecurity=SocialSecurity~!@#$~!@#$~!@#$
+TSisEntityWiz.dxDBCGrid1Zip=Zip~!@#$~!@#$~!@#$
+TSisEntityWiz.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisEntityWiz.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisEntityWiz.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisEntityWiz.Label1=Which type of file you want to import or export ?~!@#$Qual tipo de arquivo deseja importar ou exportar?~!@#$Cuál tipo de archivo desea importar o exportar?~!@#$
+TSisEntityWiz.Label2=Where is the file located ?~!@#$Onde está localizado o arquivo?~!@#$Dónde está localizado el archivo?~!@#$
+TSisEntityWiz.Label20=List of software available.~!@#$Lista de Software disponível.~!@#$Lista de Software disponible.~!@#$
+TSisEntityWiz.Label29=You have completed the required steps of your Office Manager import/export. Review your information below. Click << &Back to correct any data.~!@#$Você completou os passos requeridos do seu Office Manager Importar/Exportar. Verifique a informação abaixo. Clique <<Voltar para corregir qualquer dado.~!@#$Usted finalizó los pasos requeridos por su Office Manager Importar/Exportar. Verifique los datos . Presione <<Volver para cambiar algún dato.~!@#$
+TSisEntityWiz.Label3=Type~!@#$Tipo~!@#$Tipo~!@#$
+TSisEntityWiz.Label37=Completing the Office Manager Import/Export Wizard~!@#$Terminando o Office Manager Importar/Exportar Wizard~!@#$Terminando el Office Manager Importar/Exportar Wizard.~!@#$
+TSisEntityWiz.Label4=Completed~!@#$Terminado~!@#$Terminado~!@#$
+TSisEntityWiz.Label5=General Ledge Account~!@#$Contabilidade Geral~!@#$Contabilidad General~!@#$
+TSisEntityWiz.Label6=All Entities on the list will be associated with the selected General Ledge Account.~!@#$Todas as Entidades da lista serão associadas à Contabilidade Geral~!@#$Todas las Entiades de la lista serán asociadas a la Contabilidad General~!@#$
+TSisEntityWiz.lbColumnInfo=You have to match each column available in Software column with each column available in Office Manager column. If you don't know the meaning of the Software columns, click on Back button and see the columns header from the previous grid. ~!@#$Você deve igualar cada coluna do Software selecionado com cada coluna do Office Manager, se não souber o significado da coluna do Software, clique no botão Voltar e veja as colunas da tela anterior.~!@#$Tiene que igualar cada columna del Software seleccionado con cada columna del Office Manager, si no sabe el significado de la columna del software, presione en Volver y vea la columna correspondiente en la pantalla.~!@#$
+TSisEntityWiz.lbDirOption=Path~!@#$Localização~!@#$Localización~!@#$
+TSisEntityWiz.lbEditDescription=lbEditDescription~!@#$lbEditarDescrição~!@#$lbEditarDescripción~!@#$
+TSisEntityWiz.lbEditName=lbEditName~!@#$lbEditarNome~!@#$lbEditarNombre~!@#$
+TSisEntityWiz.lbExportLines=lbExportLines~!@#$lbExportarLinhas~!@#$lbExportarLíneas~!@#$
+TSisEntityWiz.lbGridInfo=lbGridInfo~!@#$lbInfRede~!@#$lbInfMalla~!@#$
+TSisEntityWiz.lbSoftware=The data will exported to ~!@#$Os dados serão exportados a~!@#$Los datos serán exportados a~!@#$
+TSisEntityWiz.lbTip=~!@#$~!@#$~!@#$
+TSisEntityWiz.lbTotalColumns=lbTotalColumns~!@#$lbTotalColunas~!@#$lbTotalColumnas~!@#$
+TSisEntityWiz.Panel1=~!@#$~!@#$~!@#$
+TSisEntityWiz.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisEntityWiz.rgOperation=Which operation do you want to execute?~!@#$Qual operação quer que seja realizada?~!@#$Cuál operación desea que sea realizada?~!@#$
+TSisEntityWiz.sbOpenFile=~!@#$~!@#$~!@#$
+TSisEntityWiz.tsColumns=Columns~!@#$Colunas~!@#$Columnas~!@#$
+TSisEntityWiz.tsExport=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisEntityWiz.tsFileType=File Type~!@#$Tipo Arquivo~!@#$Tipo Archivo~!@#$
+TSisEntityWiz.tsFinish=Finishing wizard~!@#$Terminando Wizard~!@#$Terminando Wizard~!@#$
+TSisEntityWiz.tsImport=Import~!@#$Importar~!@#$Importar~!@#$
+TSisEntityWiz.TSisEntityWiz=SisEntityWiz~!@#$SisEntWiz~!@#$SisEntWiz~!@#$
+TSisEntityWiz.tsOption=Option~!@#$Opção~!@#$Opción~!@#$
+TSisEntityWiz.tsSoftwareList=Software list~!@#$Lista Software~!@#$Lista Software~!@#$
+
+[DisplayLabels]
+TSisEntityWiz.quPessoaAddress=Address~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaBirthDay=BirthDay~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaCellPhone=CellPhone~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaCity=City~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaCode=Code~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaCompanyContact=CompanyContact~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaContact=Contact~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaCountry=Country~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaCustomerCard=CustomerCard~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaDBA=DBA~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaDoubleHourValue=DoubleHourValue~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaDriveLicence=DriveLicence~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaEmail=Email~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaEntityFullName=EntityFullName~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaFax=Fax~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaFederalID=FederalID~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaFirstName=FirstName~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaHomePage=HomePage~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaHorsPerWeek=HorsPerWeek~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaHourValue=HourValue~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaIDPessoa=ID~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaIDStore=IDStore~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaIDTipoPessoa=IDTipoPessoa~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaIDTipoPessoaRoot=IDTipoPessoaRoot~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaIDUser=IDUser~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaLastName=LastName~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaOBS=OBS~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaOverHourValue=OverHourValue~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaPhone=Phone~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaSalesTax=SalesTax~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaSocialSecurity=SocialSecurity~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaType=Type~!@#$~!@#$~!@#$
+TSisEntityWiz.quPessoaZip=Zip~!@#$~!@#$~!@#$
+
+[Hints]
+TSisEntityWiz.tsColumns=Select and match columns to be imported or exported.~!@#$Selecionar e igualar as colunas que serão importadas ou exportadas. ~!@#$Seleccionar e igualar las columnas que serán importadas o exportadas.~!@#$
+TSisEntityWiz.tsExport=List of data that will be exported from Office Manager.~!@#$Lista de dados que serão exportados desde o Office Manager ~!@#$Lista de datos que serán exportados desde el Office Manager~!@#$
+TSisEntityWiz.tsFileType=Type and path of the file you are importing or exporting.~!@#$Escreva o arquivo e localização que deseja importar ou exportar.~!@#$Digitar el archivo y localización que desea importar o exportar.~!@#$
+TSisEntityWiz.tsFinish=Summary of Impor or Export wizard.~!@#$Resumo de Importar ou Exportar Wizard~!@#$Resumo de Importar o Exportar Wizard~!@#$
+TSisEntityWiz.tsImport=List of data that will be imported to Office Manager.~!@#$Lista de dados que serão exportados para o Office Manager ~!@#$Lista de datos que serán exportados para el Office Manager~!@#$
+TSisEntityWiz.TSisEntityWiz=~!@#$~!@#$~!@#$
+TSisEntityWiz.tsOption=Select import or export data. ~!@#$Selecionar Importar ou Exportar dados.~!@#$Seleccionar Importar o Exportar datos.~!@#$
+TSisEntityWiz.tsSoftwareList=Select a software that you want to import or export data.~!@#$Selecionar o Software que precisa para Importar ou Exportar dados.~!@#$Seleccionar el Software que necesita para Importar o Exportar datos.~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisEntityWiz.cbxFileType.Items=Vendor,Customer,Employee~!@#$Fornecedor,Cliente,Empregado~!@#$Proveedor,Cliente,Funcionario~!@#$
+TSisEntityWiz.rgOperation.Items=Import,Export~!@#$Importar,Exportar~!@#$Importar,Exportar~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

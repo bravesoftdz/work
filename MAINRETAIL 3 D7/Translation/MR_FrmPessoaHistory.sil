@@ -1,0 +1,19 @@
+[Captions]
+TFrmPessoaHistory.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmPessoaHistory.btnSave=&Save~!@#$&Salvar~!@#$&Salvar~!@#$
+TFrmPessoaHistory.Label1=Customer : ~!@#$Cliente :~!@#$Cliente :~!@#$
+TFrmPessoaHistory.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmPessoaHistory.Label2=Date : ~!@#$Data :~!@#$Fetcha :~!@#$
+TFrmPessoaHistory.Label3=Type : ~!@#$Tipo :~!@#$Tipo :~!@#$
+TFrmPessoaHistory.Label4=Result : ~!@#$Resultado :~!@#$Resultado :~!@#$
+TFrmPessoaHistory.Label5=Memo : ~!@#$Obs :~!@#$Obs :~!@#$
+TFrmPessoaHistory.lbUser=User : ~!@#$Usuário:~!@#$Usuário:~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

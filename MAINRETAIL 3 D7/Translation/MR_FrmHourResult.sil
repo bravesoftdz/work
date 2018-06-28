@@ -1,0 +1,58 @@
+[Captions]
+TFrmHourResult.btAreaTodas=All~!@#$Tudo ~!@#$Todo~!@#$
+TFrmHourResult.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmHourResult.BTN=&Print~!@#$&Imprimir~!@#$&Imprimir~!@#$
+TFrmHourResult.lbSaldoCash=Net~!@#$Saldo~!@#$Neto~!@#$
+TFrmHourResult.lbSalesCash=Sales~!@#$Vendas~!@#$Ventas~!@#$
+TFrmHourResult.lbExpCash=Expenses~!@#$Despesas~!@#$Gastos~!@#$
+TFrmHourResult.Label15=User:~!@#$Usuário:~!@#$Usuario~!@#$
+TFrmHourResult.Label17=Net~!@#$Lucro Líquido~!@#$Neto~!@#$
+TFrmHourResult.Label18=Profit~!@#$Lucro Bruto~!@#$Utilidades~!@#$
+TFrmHourResult.Label19=Expenses~!@#$Despesas~!@#$Gastos~!@#$
+TFrmHourResult.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmHourResult.lbTotalSelected=Total~!@#$Total Selecionado~!@#$Total~!@#$
+TFrmHourResult.lbInvoice=Income~!@#$Receitas~!@#$Receitas~!@#$
+TFrmHourResult.lbCFExp=Net~!@#$Despesas~!@#$Despesas~!@#$
+TFrmHourResult.lbCFNet=Balance~!@#$Saldo~!@#$Saldo~!@#$
+TFrmHourResult.lblSalesCategoryTotal=Total~!@#$Total Selecionado~!@#$Total~!@#$
+
+[DisplayLabels]
+TFrmHourResult.BCDField1=Amount~!@#$Quantía~!@#$Monto~!@#$
+TFrmHourResult.BCDField2=Amount~!@#$Quantía~!@#$Monto~!@#$
+TFrmHourResult.dsBKExpday=day~!@#$Día~!@#$Día~!@#$
+TFrmHourResult.dsBKExpensesday=day~!@#$Día~!@#$Día~!@#$
+TFrmHourResult.dsBKExpensesTotal=Total~!@#$Total~!@#$Total~!@#$
+TFrmHourResult.dsBKExpTotal=Total~!@#$Total~!@#$Total~!@#$
+TFrmHourResult.dsBKProfitday=day~!@#$Día~!@#$Día~!@#$
+TFrmHourResult.dsBKProfitProfit=Profit~!@#$Lucro~!@#$Utilidades~!@#$
+TFrmHourResult.dsBKSalesday=day~!@#$Día~!@#$Día~!@#$
+TFrmHourResult.dsBKSalesProfit=Profit~!@#$Lucro~!@#$Utilidades~!@#$
+TFrmHourResult.dsCategoryProfit=Profit~!@#$Lucro~!@#$Utilidades~!@#$
+TFrmHourResult.dsCategoryTabGroup=TabGroup~!@#$TabGrupo~!@#$TabGrupo~!@#$
+TFrmHourResult.dsResultHora=Hora~!@#$Hora~!@#$Hora~!@#$
+TFrmHourResult.dsResultInvoicePerHour=InvoicePerHour~!@#$NotasPorHora~!@#$BoletasPorHora~!@#$
+TFrmHourResult.dsResultMoneyHora=Hora~!@#$Hora~!@#$Hora~!@#$
+TFrmHourResult.dsResultMoneyProfitPerHour=ProfitPerHour~!@#$LucroPorHora~!@#$UtilidadesPorHora~!@#$
+TFrmHourResult.dsResultMonth3Amount=Amount~!@#$Quantía~!@#$Monto~!@#$
+TFrmHourResult.dsResultMonth3Month=Month~!@#$Mês~!@#$Mes~!@#$
+TFrmHourResult.dsResultMonth3MonthNum=MonthNum~!@#$NúmMês~!@#$NúmMes~!@#$
+TFrmHourResult.dsResultMonth3Year=Year~!@#$Ano~!@#$Año~!@#$
+TFrmHourResult.IntegerField1=Year~!@#$Ano~!@#$Año~!@#$
+TFrmHourResult.IntegerField2=Year~!@#$Ano~!@#$Año~!@#$
+TFrmHourResult.IntegerField3=MonthNum~!@#$NúmMês~!@#$NúmMes~!@#$
+TFrmHourResult.IntegerField4=MonthNum~!@#$NúmMês~!@#$NúmMes~!@#$
+TFrmHourResult.StringField1=Month~!@#$Mês~!@#$Mes~!@#$
+TFrmHourResult.StringField2=Month~!@#$Mês~!@#$Mes~!@#$
+
+[Hints]
+TFrmHourResult.SBtnClear1=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFrmHourResult.SBtnPercent1=Percent~!@#$Porcentagem~!@#$Porcentaje~!@#$
+TFrmHourResult.SbtnValue1=Amount~!@#$Quantía~!@#$Monto~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

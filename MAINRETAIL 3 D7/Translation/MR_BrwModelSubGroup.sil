@@ -1,0 +1,64 @@
+[Captions]
+TbrwModelSubGroup.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwModelSubGroup.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwModelSubGroup.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwModelSubGroup.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwModelSubGroup.btExcel=F6 E&xport~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwModelSubGroup.btFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwModelSubGroup.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwModelSubGroup.btnExec=&GO!~!@#$&IR~!@#$&IR~!@#$
+TbrwModelSubGroup.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwModelSubGroup.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwModelSubGroup.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwModelSubGroup.EEE=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.EspacamentoDireito=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.EspacamentoInferior=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.grdBrowseDBIDModelSubGroup=ID~!@#$ID~!@#$ID~!@#$
+TbrwModelSubGroup.grdBrowseDBModelGroup=Group~!@#$Grupo~!@#$Grupo~!@#$
+TbrwModelSubGroup.grdBrowseDBModelSubGroup=Sub Group~!@#$Sub Group~!@#$Sub Group~!@#$
+TbrwModelSubGroup.grdBrowseDBName=Category~!@#$Categoria~!@#$Categoría~!@#$
+TbrwModelSubGroup.grdBrowseDBUserCode=UserCode~!@#$Código Usuário~!@#$Código Usuario~!@#$
+TbrwModelSubGroup.grdBrowseLevel=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.hhh=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwModelSubGroup.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwModelSubGroup.Panel1=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.Panel2=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.Panel3=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.panel8=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pblGO=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlAviso=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlBasicFilter=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlButton=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlDivisor=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlDivisoria2=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlGenFilter=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlMain=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlMainBrowse=~!@#$~!@#$~!@#$
+TbrwModelSubGroup.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwModelSubGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwModelSubGroup.quBrowseIDModelSubGroup=IDModelSubGroup~!@#$IDSubGrupo~!@#$IDSubGrupo~!@#$
+TbrwModelSubGroup.quBrowseIDMSRPMargemTable=IDMSRPMargemTable~!@#$IDSugestãoPreçoMargem~!@#$IDBordePrecioSugerencia~!@#$
+TbrwModelSubGroup.quBrowseIDSalePriceMargemTable=IDSalePriceMargemTable~!@#$IDPreçoMargem~!@#$IDBordePrecio~!@#$
+TbrwModelSubGroup.quBrowseModelGroup=ModelGroup~!@#$Grupo ~!@#$Grupo ~!@#$
+TbrwModelSubGroup.quBrowseModelSubGroup=ModelSubGroup~!@#$SubGrupo ~!@#$SubGrupo ~!@#$
+TbrwModelSubGroup.quBrowseMSRPMargemPercent=MSRPMargemPercent~!@#$SugestãoPreçoMargemPercentage~!@#$BordePrecioSugerenciaPorciento~!@#$
+TbrwModelSubGroup.quBrowseName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwModelSubGroup.quBrowseSalePriceMargemPercent=SalePriceMargemPercent~!@#$PreçoMargemPercentage~!@#$BordePrecioPorciento~!@#$
+TbrwModelSubGroup.quBrowseUseMSRPPercent=UseMSRPPercent~!@#$UseSugestãoPercentage~!@#$UsoSugerenciaPorciento~!@#$
+TbrwModelSubGroup.quBrowseUseSalePricePercent=UseSalePricePercent~!@#$UsePercentage~!@#$UsoPorciento~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

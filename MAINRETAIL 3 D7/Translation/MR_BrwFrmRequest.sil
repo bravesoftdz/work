@@ -1,0 +1,46 @@
+[Captions]
+TbrwFrmRequest.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmRequest.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmRequest.btLoopInc=~!@#$~!@#$~!@#$
+TbrwFrmRequest.Label1=IDRequest~!@#$IDRequerido~!@#$IDSolicitado~!@#$
+TbrwFrmRequest.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmRequest.Label19=Last Purchase Info~!@#$Info Ultima Compra~!@#$Info Ultima Compra~!@#$
+TbrwFrmRequest.Label2=Date~!@#$Data :~!@#$Fecha :~!@#$
+TbrwFrmRequest.Label3=Description~!@#$Descrição :~!@#$Descripción :~!@#$
+TbrwFrmRequest.Label4=Model~!@#$Modelo :~!@#$Modelo :~!@#$
+TbrwFrmRequest.Label5=User~!@#$Usuário :~!@#$Usuario :~!@#$
+TbrwFrmRequest.Label6=Qty Request :~!@#$Qtd Pedida :~!@#$Ctd Pedida :~!@#$
+TbrwFrmRequest.Label7=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TbrwFrmRequest.Label8=Qty :~!@#$Qtd :~!@#$Ctd :~!@#$
+TbrwFrmRequest.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmRequest.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmRequest.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmRequest.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmRequest.TbrwFrmRequest=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+
+[DisplayLabels]
+TbrwFrmRequest.quFormDateRequest=DateRequest~!@#$DataPedida~!@#$FechaPedida~!@#$
+TbrwFrmRequest.quFormDescription=Description~!@#$Descrição~!@#$DescripciónID~!@#$
+TbrwFrmRequest.quFormIDRequest=IDRequest~!@#$IDPedido~!@#$IDPedido~!@#$
+TbrwFrmRequest.quFormModelID=ModelID~!@#$ModeloID~!@#$ModeloID~!@#$
+TbrwFrmRequest.quFormQtyReq=QtyReq~!@#$QtdPed~!@#$CtdPed~!@#$
+TbrwFrmRequest.quFormStoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+TbrwFrmRequest.quFormType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TbrwFrmRequest.quFormUserID=UserID~!@#$UsuárioID~!@#$UsuarioID~!@#$
+
+[Hints]
+TbrwFrmRequest.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmRequest.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmRequest.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmRequest.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmRequest.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmRequest.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

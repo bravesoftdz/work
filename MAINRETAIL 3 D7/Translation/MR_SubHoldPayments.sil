@@ -1,0 +1,32 @@
+[Captions]
+TSubHoldPayments.grdBrowseDBCheckNumber=CheckNumber~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBCustomerDocument=CustomerDocument~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBCustomerName=CustomerName~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBCustomerPhone=CustomerPhone~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBDataVencimento=Due Date~!@#$Data Vencimento~!@#$Fecha Vencimiento~!@#$
+TSubHoldPayments.grdBrowseDBHistorico=Historico~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBIDBankCheck=IDBankCheck~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBIDDocumentoTipo=IDDocumentoTipo~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBIDLancamentoTipo=IDLancamentoTipo~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBIDMeioPag=ID~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBIDPreSale=IDPreSale~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBIDQuitacaoMeioPrevisto=IDQuitacaoMeioPrevisto~!@#$~!@#$~!@#$
+TSubHoldPayments.grdBrowseDBMeioPag=PaymentType~!@#$Tipo de Pgto~!@#$Tipo Pago~!@#$
+TSubHoldPayments.grdBrowseDBPayPlace=Payment Place~!@#$Local Pgto~!@#$Local Pago~!@#$
+TSubHoldPayments.grdBrowseDBValorNominal=Amount~!@#$Valor~!@#$Monto~!@#$
+TSubHoldPayments.lbBank=Bank :~!@#$Banco : ~!@#$Banco :~!@#$
+TSubHoldPayments.lbCheckNum=Number :~!@#$Número : ~!@#$Número :~!@#$
+TSubHoldPayments.lbCustomer=Customer :~!@#$Cliente : ~!@#$Cliente :~!@#$
+TSubHoldPayments.lbDoc=Doc :~!@#$Doc : ~!@#$Doc :~!@#$
+TSubHoldPayments.lbHistory=History :~!@#$Histórico : ~!@#$Notas :~!@#$
+TSubHoldPayments.lbPhone=Phone :~!@#$Tel : ~!@#$Tel :~!@#$
+TSubHoldPayments.munPrintBillter=Print Billet~!@#$Imprimir Boleto~!@#$Imprimir Boleto~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

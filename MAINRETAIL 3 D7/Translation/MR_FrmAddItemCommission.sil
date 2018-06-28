@@ -1,0 +1,29 @@
+[Captions]
+TFrmAddItemCommission.btAdd=Add~!@#$Adicionar~!@#$Agreguar~!@#$
+TFrmAddItemCommission.btApplyAll=Apply to All~!@#$Aplicar Todos~!@#$Appli Todo~!@#$
+TFrmAddItemCommission.btClose=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmAddItemCommission.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmAddItemCommission.btRemove=Remove~!@#$Remover~!@#$Borrar~!@#$
+TFrmAddItemCommission.EEE=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.hhh=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmAddItemCommission.Label7=Sales Person:~!@#$Funcionário:~!@#$Persona De las Ventas:~!@#$
+TFrmAddItemCommission.lblMenu=Commission~!@#$Comissão~!@#$Comisión~!@#$
+TFrmAddItemCommission.lblSubMenu=Commission~!@#$Comissão~!@#$Comisión~!@#$
+TFrmAddItemCommission.lbPercent=Percent:~!@#$Percentagem:~!@#$Por ciento:~!@#$
+TFrmAddItemCommission.Panel1=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.Panel2=~!@#$~!@#$~!@#$
+TFrmAddItemCommission.Panel3=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

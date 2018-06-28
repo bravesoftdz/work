@@ -1,0 +1,50 @@
+[Captions]
+TbrwFrmModelSubGroup.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmModelSubGroup.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmModelSubGroup.Label1=Sub Group :~!@#$Sub Grupo :~!@#$Sub Grupo :~!@#$
+TbrwFrmModelSubGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmModelSubGroup.Label20=Group :~!@#$Grupo :~!@#$Grupo :~!@#$
+TbrwFrmModelSubGroup.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmModelSubGroup.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmModelSubGroup.lbQuestion=It would like to calculate the edge~!@#$Gostaria de calcular a margem~!@#$Quisiera calcular el borde~!@#$
+TbrwFrmModelSubGroup.lbQuestion2=It would like to calculate the edge~!@#$Gostaria de calcular a margem~!@#$Quisiera calcular el borde~!@#$
+TbrwFrmModelSubGroup.lbUserCode=UserCode :~!@#$Código Usuário :~!@#$Código Usuario :~!@#$
+TbrwFrmModelSubGroup.pnlNavigation=~!@#$~!@#$~!@#$
+TbrwFrmModelSubGroup.pnMSRP=MSRP~!@#$Preço Sugerido pelo Fabricante~!@#$Precio Sugerido para el Fabricante~!@#$
+TbrwFrmModelSubGroup.pnSalePrice=Sale Price~!@#$Preço de Venda~!@#$Precio de Venta ~!@#$
+TbrwFrmModelSubGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmModelSubGroup.tsPricing=Pricing~!@#$Cálculo do Preço~!@#$Tasación~!@#$
+TbrwFrmModelSubGroup.chkRecalcPrices=Recalculate Prices~!@#$Recalcular Preços~!@#$Recalcular Precio~!@#$
+
+
+[DisplayLabels]
+TbrwFrmModelSubGroup.quFormIDModelGroup=IDModelGroup~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TbrwFrmModelSubGroup.quFormIDModelSubGroup=IDModelSubGroup~!@#$IDSubGrupo~!@#$IDSubGrupo~!@#$
+TbrwFrmModelSubGroup.quFormIDMSRPMargemTable=IDMSRPMargemTable~!@#$IDSugestãoPreçoMargem~!@#$IDBordePrecioSugerencia~!@#$
+TbrwFrmModelSubGroup.quFormIDSalePriceMargemTable=IDSalePriceMargemTable~!@#$IDPreçoMargem~!@#$IDBordePrecio~!@#$
+TbrwFrmModelSubGroup.quFormModelSubGroup=ModelSubGroup~!@#$SubGrupo ~!@#$SubGrupo ~!@#$
+TbrwFrmModelSubGroup.quFormMSRPMargemPercent=MSRPMargemPercent~!@#$SugestãoPreçoMargemPercentage~!@#$BordePrecioSugerenciaPorciento~!@#$
+TbrwFrmModelSubGroup.quFormSalePriceMargemPercent=SalePriceMargemPercent~!@#$PreçoMargemPercentage~!@#$BordePrecioPorciento~!@#$
+TbrwFrmModelSubGroup.quFormUseMSRPPercent=UseMSRPPercent~!@#$UseSugestãoPercentage~!@#$UsoSugerenciaPorciento~!@#$
+TbrwFrmModelSubGroup.quFormUseSalePricePercent=UseSalePricePercent~!@#$UsePercentage~!@#$UsoPorciento~!@#$
+
+[Hints]
+TbrwFrmModelSubGroup.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmModelSubGroup.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmModelSubGroup.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmModelSubGroup.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmModelSubGroup.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmModelSubGroup.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TbrwFrmModelSubGroup.cbMSRP.Items="With percentage","With band of price"~!@#$"Com porcentagem","Com a faixa do preço"~!@#$"Con porcentaje","Con la venda del precio"~!@#$
+TbrwFrmModelSubGroup.cbSalePrice.Items="With percentage","With band of price"~!@#$"Com porcentagem","Com a faixa do preço"~!@#$"Con porcentaje","Con la venda del precio"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

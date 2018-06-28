@@ -1,0 +1,78 @@
+[Captions]
+TsisTextEditorFrm.btnAlignCenter=Center~!@#$Centro~!@#$Centro~!@#$
+TsisTextEditorFrm.btnAlignLeft=Align Left~!@#$Alinhar Esq.~!@#$Alinear Izq.~!@#$
+TsisTextEditorFrm.btnAlignRight=Align Right~!@#$Alinhar Dir.~!@#$Alinear Der.~!@#$
+TsisTextEditorFrm.btnBold=Bold~!@#$Bold~!@#$Bold~!@#$
+TsisTextEditorFrm.btnBullets=Bullets~!@#$Bullets~!@#$Bullets~!@#$
+TsisTextEditorFrm.btnClear=Clear~!@#$Limpar~!@#$Limpiar~!@#$
+TsisTextEditorFrm.btnCopy=Copy~!@#$Copiar~!@#$Copiar~!@#$
+TsisTextEditorFrm.btnCut=Cut~!@#$Cortar~!@#$Cortar~!@#$
+TsisTextEditorFrm.btnFind=Find~!@#$Encontrar~!@#$Encontrar~!@#$
+TsisTextEditorFrm.btnItalic=Italic~!@#$Italic~!@#$Italic~!@#$
+TsisTextEditorFrm.btnNew=New~!@#$Novo~!@#$Nuevo~!@#$
+TsisTextEditorFrm.btnOpen=Open~!@#$Abrir~!@#$Abrir~!@#$
+TsisTextEditorFrm.btnPaste=Paste~!@#$Grudar~!@#$Pegar~!@#$
+TsisTextEditorFrm.btnPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TsisTextEditorFrm.btnReplace=Replace ...~!@#$Substituir ...~!@#$Reemplazar ...~!@#$
+TsisTextEditorFrm.btnSave=Save~!@#$Salvar~!@#$Guardar~!@#$
+TsisTextEditorFrm.btnSelectAll=Select All~!@#$Selecionar Tudo~!@#$Seleccionar Todo~!@#$
+TsisTextEditorFrm.btnUnderline=Undeline~!@#$Sublinhar~!@#$Subrayar~!@#$
+TsisTextEditorFrm.btnUndo=Undo~!@#$Desfazer~!@#$Deshacer~!@#$
+TsisTextEditorFrm.cbxFontName=Font Name~!@#$Nome Fonte~!@#$Nombre Fuente~!@#$
+TsisTextEditorFrm.cbxSize=Size~!@#$Tamanho~!@#$Tamaño~!@#$
+TsisTextEditorFrm.cbxTextColor=Font Color~!@#$Cor Fonte~!@#$Color Fuente~!@#$
+TsisTextEditorFrm.EspacamentoDireito=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TsisTextEditorFrm.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TsisTextEditorFrm.lbPos=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.TsisTextEditorFrm=sisTextEditorFrm~!@#$sisTextEditorFrm~!@#$sisTextEditorFrm~!@#$
+
+[Hints]
+TsisTextEditorFrm.btnAlignCenter=Center~!@#$Centro~!@#$Centrar~!@#$
+TsisTextEditorFrm.btnAlignLeft=Align Left~!@#$Alinhar Esq.~!@#$Alinear Izq.~!@#$
+TsisTextEditorFrm.btnAlignRight=Align Right~!@#$Alinhar Dir.~!@#$Alinear Der.~!@#$
+TsisTextEditorFrm.btnBold=Bold~!@#$Bold~!@#$Bold~!@#$
+TsisTextEditorFrm.btnBullets=Bullets~!@#$Bullets~!@#$Bullets~!@#$
+TsisTextEditorFrm.btnClear=Clear selection~!@#$Limpar Seleção~!@#$Limpiar Selección~!@#$
+TsisTextEditorFrm.btnCopy=Copy~!@#$Copiar~!@#$Copiar~!@#$
+TsisTextEditorFrm.btnCut=Cut~!@#$Cortar~!@#$Cortar~!@#$
+TsisTextEditorFrm.btnFind=Find~!@#$Encontrar~!@#$Encontrar~!@#$
+TsisTextEditorFrm.btnItalic=Italic~!@#$Italic~!@#$Italic~!@#$
+TsisTextEditorFrm.btnNew=New~!@#$Novo~!@#$Nuevo~!@#$
+TsisTextEditorFrm.btnOpen=Open~!@#$Abrir~!@#$Abrir~!@#$
+TsisTextEditorFrm.btnPaste=Paste~!@#$Grudar~!@#$Pegar~!@#$
+TsisTextEditorFrm.btnPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TsisTextEditorFrm.btnReplace=Replace ~!@#$Substituir~!@#$Reemplazar~!@#$
+TsisTextEditorFrm.btnSave=Save~!@#$Salvar~!@#$Guardar~!@#$
+TsisTextEditorFrm.btnSelectAll=Select All~!@#$Selecionar Tudo ~!@#$Seleccionar Todo~!@#$
+TsisTextEditorFrm.btnUnderline=Undeline~!@#$Sublinhar~!@#$Subrayar~!@#$
+TsisTextEditorFrm.btnUndo=Undo~!@#$Desfazer~!@#$Deshacer~!@#$
+TsisTextEditorFrm.cbxFontName=Font Name~!@#$Nome Fonte~!@#$Nombre Fuente~!@#$
+TsisTextEditorFrm.cbxSize=Size~!@#$Tamanho~!@#$Tamaño~!@#$
+TsisTextEditorFrm.cbxTextColor=Font Color~!@#$Cor Fonte~!@#$Color Fuente~!@#$
+TsisTextEditorFrm.Editor=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.EspacamentoDireito=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.imgOff=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.imgOn=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.lblModulo=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.lblModuloSadow=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.lbPos=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TsisTextEditorFrm.TsisTextEditorFrm=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TsisTextEditorFrm.bmMDI.Categories=File,Edit,Format,Menu~!@#$Arquivo,Editar,Formato,Menú~!@#$Archivo,Editar,Formato,Menú~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

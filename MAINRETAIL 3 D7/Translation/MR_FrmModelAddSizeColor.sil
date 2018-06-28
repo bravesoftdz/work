@@ -1,0 +1,20 @@
+[Captions]
+TFrmModelAddSizeColor.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmModelAddSizeColor.btnColor=All~!@#$Todos~!@#$Todos~!@#$
+TFrmModelAddSizeColor.btnSave=&Save~!@#$&Salvar~!@#$&Guardar~!@#$
+TFrmModelAddSizeColor.btnSize=All~!@#$Todos~!@#$Todos~!@#$
+TFrmModelAddSizeColor.chkBarcodeCreate=&Automatically create barcodes~!@#$Criar código de barras automático~!@#$Cree automáticamente código barras~!@#$
+TFrmModelAddSizeColor.Label1=Barcodes will be created with (IDModel, IDManufacture, IDHoriz., IDVert.)~!@#$Criação do código de barras (IDModelo, IDFabricante, IDHoriz., IDVert.)~!@#$Código barra se creará con (IDModelo, IDFabricante, IDHoriz, IDVert)~!@#$
+TFrmModelAddSizeColor.Panel4=Vertical~!@#$Vertical~!@#$Vertical~!@#$
+TFrmModelAddSizeColor.pnlTitle6=Horizontal~!@#$Horizontal~!@#$Horizontal~!@#$
+TFrmModelAddSizeColor.sbHelp=&Help~!@#$&Ajuda~!@#$A&yuda~!@#$
+TFrmModelAddSizeColor.TFrmModelAddSizeColor=Model Add Vert. and Horiz items~!@#$Adicionar itens Vert. e Horiz.~!@#$Agregar itens Vert. e Horiz.~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

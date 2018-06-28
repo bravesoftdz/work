@@ -1,0 +1,80 @@
+[Captions]
+TSisQuickRepFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisQuickRepFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisQuickRepFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisQuickRepFch.lb1=Model~!@#$Modelo~!@#$Modelo~!@#$
+TSisQuickRepFch.lb10=Grand Total~!@#$Total Final~!@#$Total Final~!@#$
+TSisQuickRepFch.lb2=Descriprion~!@#$Descrição~!@#$Descripción~!@#$
+TSisQuickRepFch.lb3=Category~!@#$Categoría~!@#$Categoría~!@#$
+TSisQuickRepFch.lb4=Qty~!@#$Qtde~!@#$Ctd~!@#$
+TSisQuickRepFch.lb5=Cost~!@#$Custo~!@#$Costo~!@#$
+TSisQuickRepFch.lb6=Our Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TSisQuickRepFch.lb7=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TSisQuickRepFch.lb8=SubTotal~!@#$SubTotal~!@#$SubTotal~!@#$
+TSisQuickRepFch.lb9=Tax %~!@#$Taxa %~!@#$Impuesto %~!@#$
+TSisQuickRepFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisQuickRepFch.ppLabel1=Invoice Total :~!@#$Total Nota :~!@#$Total Boleta :~!@#$
+TSisQuickRepFch.ppLabel11=Model~!@#$Modelo~!@#$Modelo~!@#$
+TSisQuickRepFch.ppLabel12=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSisQuickRepFch.ppLabel13=Category~!@#$Categoría~!@#$Categoría~!@#$
+TSisQuickRepFch.ppLabel14=PO #~!@#$OC #~!@#$OC #~!@#$
+TSisQuickRepFch.ppLabel15=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TSisQuickRepFch.ppLabel16=Our Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TSisQuickRepFch.ppLabel17=Sugg. Retail~!@#$Preço Sug~!@#$Precio Sug~!@#$
+TSisQuickRepFch.ppLabel18=Invoice Total :~!@#$Total Nota :~!@#$Total Boleta :~!@#$
+TSisQuickRepFch.ppLabel19=Invoice #~!@#$Nota #~!@#$Boleta #~!@#$
+TSisQuickRepFch.ppLabel2=Date~!@#$Data~!@#$Fecha~!@#$
+TSisQuickRepFch.ppLabel20=Date~!@#$Data~!@#$Fecha~!@#$
+TSisQuickRepFch.ppLabel21=Purchase Total :~!@#$Total Compra :~!@#$Total Compra :~!@#$
+TSisQuickRepFch.ppLabel22=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TSisQuickRepFch.ppLabel23=ZipCode~!@#$CEP~!@#$C.Postal~!@#$
+TSisQuickRepFch.ppLabel26=Media~!@#$Mídia~!@#$Medios~!@#$
+TSisQuickRepFch.ppLabel27=Sold By~!@#$Vendido Por~!@#$Vendido Por~!@#$
+TSisQuickRepFch.ppLabel3=User~!@#$Usuário~!@#$Usuario~!@#$
+TSisQuickRepFch.ppLabel4=Qty~!@#$Qtde~!@#$Ctd~!@#$
+TSisQuickRepFch.ppLabel5=Vendor Total :~!@#$Total Fornecedor :~!@#$Total Proveedor :~!@#$
+TSisQuickRepFch.ppLabel6=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TSisQuickRepFch.TSisQuickRepFch=Quick Info Preview~!@#$Ver Rápida Info~!@#$Ver Rapida Info~!@#$
+
+[Dialogs]
+TSisQuickRepFch.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TSisQuickRepFch.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TSisQuickRepFch.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisQuickRepFch.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TSisQuickRepFch.Error=Error~!@#$Erro~!@#$Error~!@#$
+TSisQuickRepFch.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TSisQuickRepFch.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TSisQuickRepFch.Information=Information~!@#$Informação~!@#$Información~!@#$
+TSisQuickRepFch.No=&No~!@#$&Não~!@#$&No~!@#$
+TSisQuickRepFch.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TSisQuickRepFch.OK=OK~!@#$OK~!@#$OK~!@#$
+TSisQuickRepFch.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TSisQuickRepFch.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TSisQuickRepFch.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TSisQuickRepFch.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TSisQuickRepFch.Currency String=$~!@#$$~!@#$$~!@#$
+TSisQuickRepFch.Date Separator=/~!@#$/~!@#$/~!@#$
+TSisQuickRepFch.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TSisQuickRepFch.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TSisQuickRepFch.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TSisQuickRepFch.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TSisQuickRepFch.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TSisQuickRepFch.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TSisQuickRepFch.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TSisQuickRepFch.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TSisQuickRepFch.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TSisQuickRepFch.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TSisQuickRepFch.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TSisQuickRepFch.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TSisQuickRepFch.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

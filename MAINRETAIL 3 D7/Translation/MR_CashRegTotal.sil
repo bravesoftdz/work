@@ -1,0 +1,70 @@
+[Captions]
+TCashRegTotal.BitBtn1=&Print~!@#$&Imprimir~!@#$&Imprimir~!@#$
+TCashRegTotal.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TCashRegTotal.dxDBGridMaskColumn1=Payment Type~!@#$Tipo Pagamento~!@#$Tipo de pago~!@#$
+TCashRegTotal.dxDBGridMaskColumn2=Amount~!@#$Quantia~!@#$Monto~!@#$
+TCashRegTotal.grdPaymentTypeMeioPag=Payment Type~!@#$Tipo Pagamento~!@#$Tipo de Pago~!@#$
+TCashRegTotal.grdPaymentTypeValor=Amount~!@#$Quantia~!@#$Monto~!@#$
+TCashRegTotal.hhh=~!@#$~!@#$~!@#$
+TCashRegTotal.Label1=Cash :~!@#$Dinheiro :~!@#$Efectivo :~!@#$
+TCashRegTotal.Label10=Other :~!@#$Outros :~!@#$Otros :~!@#$
+TCashRegTotal.Label12=Total Post Dated :~!@#$Total Pre Datado :~!@#$Total A Fecha :~!@#$
+TCashRegTotal.Label14=Check :~!@#$Cheque :~!@#$Cheque :~!@#$
+TCashRegTotal.Label16=Credit Cards :~!@#$Cart. Crédito :~!@#$Tarjetas de Crédito :~!@#$
+TCashRegTotal.Label19=Other :~!@#$Outros :~!@#$Otros :~!@#$
+TCashRegTotal.Label2=Credit Cards :~!@#$Cartões de Crédito :~!@#$Tarjetas de Crédito :~!@#$
+TCashRegTotal.Label20=Cash :~!@#$Dinheiro :~!@#$Efectivo :~!@#$
+TCashRegTotal.Label22=Total :~!@#$Total :~!@#$Total :~!@#$
+TCashRegTotal.Label25=Post Dated :~!@#$Pre Datado :~!@#$A Fecha :~!@#$
+TCashRegTotal.Label28=Credit Cards :~!@#$Cart. Crédito :~!@#$Tarjetas de Crédito :~!@#$
+TCashRegTotal.Label3=Other :~!@#$Outros :~!@#$Otros :~!@#$
+TCashRegTotal.Label31=Other :~!@#$Outros :~!@#$Otros :~!@#$
+TCashRegTotal.Label33=Total :~!@#$Total  :~!@#$Total :~!@#$
+TCashRegTotal.Label36=Post Dated :~!@#$Pre Datado :~!@#$A Fecha :~!@#$
+TCashRegTotal.Label38=Check :~!@#$Cheque :~!@#$Cheque :~!@#$
+TCashRegTotal.Label4=Total Paid :~!@#$Total Pago :~!@#$Total Pagado :~!@#$
+TCashRegTotal.Label6=Cash :~!@#$Dinheiro :~!@#$Efectivo :~!@#$
+TCashRegTotal.Label8=Credit Cards :~!@#$Cartões de Crédito :~!@#$Tarjetas de Crédito :~!@#$
+TCashRegTotal.Panel1=~!@#$~!@#$~!@#$
+TCashRegTotal.Panel10=Daily Average~!@#$Média Diária~!@#$Promedio Diário~!@#$
+TCashRegTotal.Panel3=~!@#$~!@#$~!@#$
+TCashRegTotal.Panel4=Post Dated Totals~!@#$Totais Pre Datados~!@#$Totales A Fecha~!@#$
+TCashRegTotal.Panel5=~!@#$~!@#$~!@#$
+TCashRegTotal.Panel6=System Totals~!@#$Pgto a vista~!@#$Pgto a vista~!@#$
+TCashRegTotal.Panel7=~!@#$~!@#$~!@#$
+TCashRegTotal.Panel8=Reconciled Totals~!@#$Totais Conciliados~!@#$Totales Conciliados~!@#$
+TCashRegTotal.Panel9=~!@#$~!@#$~!@#$
+TCashRegTotal.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TCashRegTotal.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TCashRegTotal.TCashRegTotal=Cash Register Totals~!@#$Totais Caixa Registradora~!@#$Total Caja Registradora~!@#$
+TCashRegTotal.Label40=Debit Cards :~!@#$Cart. Débito :~!@#$Tarjetas Débito :~!@#$
+TCashRegTotal.Label42=Debit Cards :~!@#$Cart. Débito :~!@#$Tarjetas Débito :~!@#$
+
+[DisplayLabels]
+TCashRegTotal.quCashLogAvgCardCheck=AvgCardCheck~!@#$MédiaCartõesVerificado~!@#$PromTarjetasRevisado~!@#$
+TCashRegTotal.quCashLogAvgCardPreCheck=AvgCardPreCheck~!@#$MédiaCartõesPreVerificado~!@#$PromTarjetasAFecRevisado~!@#$
+TCashRegTotal.quCashLogAvgCashCheck=AvgCashCheck~!@#$MédiaDinheiroVerificado~!@#$PromEfectivoRevisado~!@#$
+TCashRegTotal.quCashLogAvgCheckCheck=AvgCheckCheck~!@#$MédiaChequeVerificado~!@#$PromChequesRevisado~!@#$
+TCashRegTotal.quCashLogAvgGeralCheck=AvgGeralCheck~!@#$MédiaGeralVerificada~!@#$PromGeneralRevisado~!@#$
+TCashRegTotal.quCashLogAvgOtherCheck=AvgOtherCheck~!@#$MédiaOutrosVerificado~!@#$PromOtrosRevisado~!@#$
+TCashRegTotal.quCashLogTotCardCheck=TotCardCheck~!@#$TotCartõesVerificado~!@#$TotTarjetasRevisado~!@#$
+TCashRegTotal.quCashLogTotCardPreCheck=TotCardPreCheck~!@#$TotCartõesPreVerificado~!@#$TotTarjetasAFecRevisado~!@#$
+TCashRegTotal.quCashLogTotCashCheck=TotCashCheck~!@#$TotCaixaVerificado~!@#$TotCajaRevisado~!@#$
+TCashRegTotal.quCashLogTotCheckCheck=TotCheckCheck~!@#$TotChequesVerificado~!@#$TotChequesRevisados~!@#$
+TCashRegTotal.quCashLogTotGeralCheck=TotGeralCheck~!@#$TotGeralVerificado~!@#$TotGeneralRevisado~!@#$
+TCashRegTotal.quCashLogTotOtherCheck=TotOtherCheck~!@#$TotOutrosVerificado~!@#$TotOtrosRevisado~!@#$
+TCashRegTotal.quLancTotalMeioPag=MeioPag~!@#$MeioPag~!@#$MedioPag~!@#$
+TCashRegTotal.quLancTotalPreMeioPag=MeioPag~!@#$MeioPag~!@#$MedioPag~!@#$
+TCashRegTotal.quLancTotalPreTipo=Tipo~!@#$Tipo~!@#$Tipo~!@#$
+TCashRegTotal.quLancTotalPreValor=Valor~!@#$Valor ~!@#$Monto~!@#$
+TCashRegTotal.quLancTotalTipo=Tipo~!@#$Tipo~!@#$Tipo~!@#$
+TCashRegTotal.quLancTotalValor=Valor~!@#$Quantia~!@#$Monto~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

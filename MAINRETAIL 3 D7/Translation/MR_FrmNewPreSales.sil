@@ -1,0 +1,74 @@
+[Captions]
+TFrmNewPreSales.btAdd=F2 &Add Group~!@#$F2 Adicionar &Grupo~!@#$F2 Agregar &Grupo~!@#$
+TFrmNewPreSales.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmNewPreSales.btClose=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmNewPreSales.btCustomerColumns=F5 Columns~!@#$F5 Colunas~!@#$F5 Columnas~!@#$
+TFrmNewPreSales.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TFrmNewPreSales.btLayawayColumns=F5 Columns~!@#$F5 Colunas~!@#$F5 Columnas~!@#$
+TFrmNewPreSales.btnImpBudget=F4 &Import Budget~!@#$F4 &Importar Orçmto~!@#$F4 &importar~!@#$
+TFrmNewPreSales.btnImportBudget=F4 &Import Budget~!@#$F4 &Importar Orçmto~!@#$F4 &importar~!@#$
+TFrmNewPreSales.dxDBGridMaskColumn1=DriverLicense~!@#$CarteiraMotorista~!@#$LicenciaConducir~!@#$
+TFrmNewPreSales.dxDBGridMaskColumn2=SocialSecurity~!@#$CarteiraIdentidade~!@#$CarnetIdentidad~!@#$
+TFrmNewPreSales.dxDBGridMaskColumn3=CustomerCard~!@#$CartãoCliente~!@#$TarjetaCliente~!@#$
+TFrmNewPreSales.dxDBGridMaskColumn4=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TFrmNewPreSales.dxDBGridMaskColumn5=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmNewPreSales.dxDBGridMaskColumn6=ZIP~!@#$CEP~!@#$C.POSTAL~!@#$
+TFrmNewPreSales.Label11=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmNewPreSales.Label12=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmNewPreSales.Label13=Zip code~!@#$Cep~!@#$C.Postal~!@#$
+TFrmNewPreSales.Label14=Zip code~!@#$Cep~!@#$C.Postal~!@#$
+TFrmNewPreSales.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmNewPreSales.Label2=Last Name~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmNewPreSales.Label22=Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmNewPreSales.Label23=Search for~!@#$Buscar por~!@#$Buscar por~!@#$
+TFrmNewPreSales.Label24=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmNewPreSales.Label25=Media~!@#$Mídia~!@#$Medios~!@#$
+TFrmNewPreSales.Label26=Media~!@#$Mídia~!@#$Medios~!@#$
+TFrmNewPreSales.Label3=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmNewPreSales.Label4=First Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmNewPreSales.Label5=Search for~!@#$Buscar por~!@#$Buscar por~!@#$
+TFrmNewPreSales.Label8=First Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmNewPreSales.Label9=Last Name~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmNewPreSales.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmNewPreSales.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFrmNewPreSales.lbParamSearch=Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmNewPreSales.pnlFastCustumer=~!@#$~!@#$~!@#$
+TFrmNewPreSales.sbDetailCustumer=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TFrmNewPreSales.sbNewCostumer=F2 &New customer~!@#$F2 &Novo Cliente~!@#$F2 Cliente &Nuevo~!@#$
+TFrmNewPreSales.sdAddLayway=F2 &New customer~!@#$F2 &Novo Cliente~!@#$F2 Cliente &Nuevo~!@#$
+TFrmNewPreSales.SpeedButton3=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TFrmNewPreSales.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmNewPreSales.tbsCostumerFile=&Register Customer F6~!@#$Cliente &Registrado F6~!@#$Cliente &Registrado F6~!@#$
+TFrmNewPreSales.tbsFast=&Fast Sale F5~!@#$&Venda Expressa F5~!@#$&Venta Rápida F5~!@#$
+TFrmNewPreSales.tbsGuide=&Outside Agent F7~!@#$Guia de &Viagem F7~!@#$Guia de &Viagem F7~!@#$
+TFrmNewPreSales.tbsLayaway=&Layaway F8~!@#$&Crediário F8~!@#$&Crédito F8~!@#$
+
+[DisplayLabels]
+TFrmNewPreSales.quCostumerFileCEP=ZIP~!@#$CEP~!@#$C.POSTAL~!@#$
+TFrmNewPreSales.quCostumerFileCustomerCard=CustomerCard~!@#$CartãoCliente~!@#$TarjetaCliente~!@#$
+TFrmNewPreSales.quCostumerFileDriverLicense=DriverLicense~!@#$CarteiraMotorista~!@#$LicenciaConducir~!@#$
+TFrmNewPreSales.quCostumerFileIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrmNewPreSales.quCostumerFilePessoa=Pessoa~!@#$Pessoa~!@#$Persona~!@#$
+TFrmNewPreSales.quCostumerFilePessoaFirstName=PessoaFirstName~!@#$NomePessoa~!@#$NombrePersona~!@#$
+TFrmNewPreSales.quCostumerFilePessoaLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmNewPreSales.quCostumerFileSocialSecurity=SocialSecurity~!@#$CarteiraIdentidade~!@#$CarnetIdentidad~!@#$
+TFrmNewPreSales.quGuidesEnterDate=EnterDate~!@#$EntrarData~!@#$EntrarFecha~!@#$
+TFrmNewPreSales.quGuidesIDTouristGroup=IDTouristGroup~!@#$IDGrupoTurismo~!@#$IDGrupoTurismo~!@#$
+TFrmNewPreSales.quGuidesStatus=Status~!@#$Estado~!@#$Estado~!@#$
+TFrmNewPreSales.quGuidesTipTouristGroup=TipTouristGroup~!@#$Grupo~!@#$InfoGrupoTurismo~!@#$
+TFrmNewPreSales.quMediaIDMedia=IDMedia~!@#$IDMídia~!@#$IDMedios~!@#$
+TFrmNewPreSales.quMediaMedia=Media~!@#$Mídia~!@#$Medios~!@#$
+TFrmNewPreSales.quTestRefreshInvoiceCount=InvoiceCount~!@#$ContarNotas~!@#$ContarBoletas~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmNewPreSales.cbSearchFor.Items="First Name","Last Name","Driver License","Social Security","Customer Card","Full Name","Employee ID","Federal ID #"~!@#$Nome,Sobrenome,"Carteira Motorista","Carteira Identidade","Cartão Cliente","Nome Completo",C.P.F.,C.N.P.J.~!@#$Nombre,Apellido,"Licencia Conducir","Carnet Identidad","Tarjeta Cliente","Nombre Completo",ID,"Federal ID #"~!@#$
+TFrmNewPreSales.cbSearchForLay.Items="First Name","Last Name","Driver License","Social Security","Customer Card","Full Name","Employee ID","Federal ID #"~!@#$Nome,Sobrenome,"Carteira Motorista","Carteira Identidade","Cartão Cliente","Nome Completo",C.P.F.,C.N.P.J.~!@#$Nombre,Apellido,"Licencia Conducir","Carnet Identidad","Tarjeta Cliente","Nombre Completo",ID,"Federal ID #"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

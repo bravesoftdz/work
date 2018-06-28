@@ -1,0 +1,131 @@
+[Captions]
+TFinContaCorrenteList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinContaCorrenteList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinContaCorrenteList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinContaCorrenteList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinContaCorrenteList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinContaCorrenteList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinContaCorrenteList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinContaCorrenteList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinContaCorrenteList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinContaCorrenteList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinContaCorrenteList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinContaCorrenteList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinContaCorrenteList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinContaCorrenteList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinContaCorrenteList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinContaCorrenteList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinContaCorrenteList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinContaCorrenteList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinContaCorrenteList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinContaCorrenteList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinContaCorrenteList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinContaCorrenteList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinContaCorrenteList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinContaCorrenteList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinContaCorrenteList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinContaCorrenteList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinContaCorrenteList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinContaCorrenteList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinContaCorrenteList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinContaCorrenteList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinContaCorrenteList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinContaCorrenteList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinContaCorrenteList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinContaCorrenteList.bbMostraSaldo=Show Balance~!@#$Mostrar Saldo~!@#$Mostrar Saldo~!@#$
+TFinContaCorrenteList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinContaCorrenteList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Vista~!@#$
+TFinContaCorrenteList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Vista~!@#$
+TFinContaCorrenteList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Vist actual~!@#$
+TFinContaCorrenteList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinContaCorrenteList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinContaCorrenteList.brwGridCodigoContaCorrente=ID~!@#$ID~!@#$ID~!@#$
+TFinContaCorrenteList.brwGridContaCorrenteTipo=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFinContaCorrenteList.brwGridEmpresa=Company~!@#$Empresa~!@#$Empresa~!@#$
+TFinContaCorrenteList.brwGridNumero=Number~!@#$Número~!@#$Número~!@#$
+TFinContaCorrenteList.brwGridSaldoAtual=Actual Balance~!@#$Saldo Atual~!@#$Saldo Actual~!@#$
+TFinContaCorrenteList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinContaCorrenteList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinContaCorrenteList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinContaCorrenteList.cbxStatus=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TFinContaCorrenteList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinContaCorrenteList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinContaCorrenteList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinContaCorrenteList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinContaCorrenteList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinContaCorrenteList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinContaCorrenteList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinContaCorrenteList.TFinContaCorrenteList=FinContaCorrenteList~!@#$FinContaCorrenteLista~!@#$FinCuentaCorrienteLista~!@#$
+TFinContaCorrenteList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TFinContaCorrenteList.quBrowseCodigoContaCorrente=ID~!@#$ID~!@#$ID~!@#$
+TFinContaCorrenteList.quBrowseEmpresa=Company~!@#$Empresa~!@#$Empresa~!@#$
+TFinContaCorrenteList.quBrowseIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TFinContaCorrenteList.quBrowseNumero=Number~!@#$Número~!@#$Número~!@#$
+TFinContaCorrenteList.quBrowseSaldoAtual=Actual Balance~!@#$Saldo Atual~!@#$Saldo Actual~!@#$
+TFinContaCorrenteList.quBrowseTipo=Type~!@#$Tipo~!@#$Tipo~!@#$
+
+[Hints]
+TFinContaCorrenteList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinContaCorrenteList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinContaCorrenteList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinContaCorrenteList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinContaCorrenteList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinContaCorrenteList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinContaCorrenteList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinContaCorrenteList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinContaCorrenteList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinContaCorrenteList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinContaCorrenteList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinContaCorrenteList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinContaCorrenteList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinContaCorrenteList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinContaCorrenteList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinContaCorrenteList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinContaCorrenteList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinContaCorrenteList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinContaCorrenteList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinContaCorrenteList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinContaCorrenteList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinContaCorrenteList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinContaCorrenteList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinContaCorrenteList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinContaCorrenteList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinContaCorrenteList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinContaCorrenteList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinContaCorrenteList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinContaCorrenteList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinContaCorrenteList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinContaCorrenteList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinContaCorrenteList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinContaCorrenteList.bbMostraSaldo=Show Balance~!@#$Mostrar Saldo~!@#$Mostrar Saldo~!@#$
+TFinContaCorrenteList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinContaCorrenteList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar vista~!@#$
+TFinContaCorrenteList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Vista~!@#$
+TFinContaCorrenteList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar vista actual~!@#$
+TFinContaCorrenteList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinContaCorrenteList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinContaCorrenteList.brwGrid=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinContaCorrenteList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

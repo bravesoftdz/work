@@ -1,0 +1,67 @@
+[Captions]
+TFrmPagaOther.btAddCommission=Record Payment~!@#$Registrar Pag.~!@#$Registrar Pago~!@#$
+TFrmPagaOther.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmPagaOther.btPreviewCommission=Print statement~!@#$Imprimir Info~!@#$Imprimir Info~!@#$
+TFrmPagaOther.btPrint=~!@#$~!@#$~!@#$
+TFrmPagaOther.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmPagaOther.grdPaymentDataLancamento=Data~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaOther.grdPaymentIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaOther.grdPaymentSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaOther.grdPaymentValorNominal=Total~!@#$Total~!@#$Total~!@#$
+TFrmPagaOther.hhh=~!@#$~!@#$~!@#$
+TFrmPagaOther.Label11=First select commissionable name and commission period below. Click GO.~!@#$Primeiro selecione o nome do comissionado e depois o período da comissão abaixo. Clique IR.~!@#$Primero seleccione el nombre del comisionado y luego el período de la comisión abajo. Presione IR>~!@#$
+TFrmPagaOther.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmPagaOther.Label18=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmPagaOther.Label2=To :~!@#$Até~!@#$Hasta~!@#$
+TFrmPagaOther.Label20=Payment Date :~!@#$Data Pagamento :~!@#$Fecha de Pago :~!@#$
+TFrmPagaOther.Label21=Adjustments :~!@#$Ajustes :~!@#$Ajustes :~!@#$
+TFrmPagaOther.Label28=Bank Account :~!@#$Conta Bancária :~!@#$Cuenta Bancária :~!@#$
+TFrmPagaOther.Label29=Payment Type :~!@#$Tipo Pagamento :~!@#$Tipo de Pago :~!@#$
+TFrmPagaOther.Label3=Then, click on RECORD PAYMENT to record and print payment.~!@#$Depois, clique em REGISTRAR PAGAMENTO para registrar e imprimir pagamento.~!@#$Después presione en REGISTRAR PAGO para registrar e imprimir el pago.~!@#$
+TFrmPagaOther.Label4=Other Commission :~!@#$Outra Comissão :~!@#$Otras Comisiones :~!@#$
+TFrmPagaOther.Label5=Debit :~!@#$Débito :~!@#$Débito :~!@#$
+TFrmPagaOther.Label6=Amount :~!@#$Quantía :~!@#$Monto :~!@#$
+TFrmPagaOther.Label7=Sales :~!@#$Vendas :~!@#$Ventas :~!@#$
+TFrmPagaOther.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmPagaOther.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmPagaOther.lblTip=To calculate and pay Other Commissions:~!@#$Para calcular e pagar Outra Comissão :~!@#$Para calcular y pagar Otras Comisiones :~!@#$
+TFrmPagaOther.Panel11=Payment History~!@#$Histórico Pagamento~!@#$Histórico de Pago~!@#$
+TFrmPagaOther.Panel6=Unpaid Commissions~!@#$Comissões não pagas~!@#$Comisiones sin Pagar~!@#$
+TFrmPagaOther.pnlInicio=~!@#$~!@#$~!@#$
+TFrmPagaOther.ppLabel1=Other Commisssion~!@#$Outra Comissão~!@#$Otras Comisiones~!@#$
+TFrmPagaOther.ppLabel10=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPagaOther.ppLabel2=Invoice #~!@#$Nota #~!@#$Boleta #~!@#$
+TFrmPagaOther.ppLabel3=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaOther.ppLabel4=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaOther.ppLabel5=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaOther.ppLabel6=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaOther.ppLabel8=Commisssion~!@#$Comissão~!@#$Comisión~!@#$
+TFrmPagaOther.ppLabel9=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmPagaOther.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmPagaOther.TFrmPagaOther=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TFrmPagaOther.quHistPagDataLancamento=DataLancamento~!@#$Data~!@#$FechaContabilización~!@#$
+TFrmPagaOther.quHistPagIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaOther.quHistPagUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaOther.quHistPagValorNominal=ValorNominal~!@#$Valor~!@#$ValorNominal~!@#$
+TFrmPagaOther.quOtherCommisDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaOther.quOtherCommisFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TFrmPagaOther.quOtherCommisIDInvoice=IDInvoice~!@#$IDNota~!@#$IDBoleta~!@#$
+TFrmPagaOther.quOtherCommisInvoiceDate=InvoiceDate~!@#$DataNota~!@#$FechaBoleta~!@#$
+TFrmPagaOther.quOtherCommisLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmPagaOther.quOtherCommisModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaOther.quOtherCommisMovCommission=MovCommission~!@#$MovComissão~!@#$MovComisión~!@#$
+TFrmPagaOther.quOtherCommisMovCost=MovCost~!@#$MovCusto~!@#$MovCosto~!@#$
+TFrmPagaOther.quOtherCommisMovSale=MovSale~!@#$MovVendas~!@#$MovVentas~!@#$
+TFrmPagaOther.quOtherCommisOthers=Others~!@#$Outros~!@#$Otros~!@#$
+TFrmPagaOther.quOtherCommisQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,32 @@
+[Captions]
+TbrwMovDocument.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Añadir~!@#$
+TbrwMovDocument.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwMovDocument.btFilter=Show &Filters~!@#$Anular &Filtros~!@#$Mostrar &Filtro~!@#$
+TbrwMovDocument.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwMovDocument.btnExec=&Go!~!@#$&IR~!@#$&IR~!@#$
+TbrwMovDocument.lbFrom=From :~!@#$Desde :~!@#$De :~!@#$
+TbrwMovDocument.lblCustomer=Customer :~!@#$Cliente :~!@#$Cliente :~!@#$
+TbrwMovDocument.lblDate=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TbrwMovDocument.lblDocumentNumber=Number :~!@#$Número :~!@#$Número :~!@#$
+TbrwMovDocument.lblDocumentStatus=Status :~!@#$Estado :~!@#$Estado :~!@#$
+TbrwMovDocument.lblDocumentType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TbrwMovDocument.lbTo=To~!@#$a~!@#$a~!@#$
+
+[DisplayLabels]
+TbrwMovDocument.quBrowseCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TbrwMovDocument.quBrowseDocumentDate=DocumentDate~!@#$Data~!@#$Fecha~!@#$
+TbrwMovDocument.quBrowseDocumentNumber=DocumentNumber~!@#$Número~!@#$Número~!@#$
+TbrwMovDocument.quBrowseDocumentStatus=DocumentStatus~!@#$Estado~!@#$Estado~!@#$
+TbrwMovDocument.quBrowseDocumentType=DocumentType~!@#$Tipo~!@#$Tipo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwMovDocument.cbxDocumentStatus.Items="All","Created","Signed for the customer","waiting sending","Sent","Received","Filed"~!@#$"Todos","Criado","Assinado pelo cliente","Aguardando envio","Enviado","Recebido","Arquivado"~!@#$"Todos","Criado","Assinado pelo cliente","Aguardando envio","Enviado","Recebido","Arquivado"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

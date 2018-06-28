@@ -1,0 +1,55 @@
+[Captions]
+TQueryInventory.btClose=&Close~!@#$Fechar~!@#$Cerrar~!@#$
+TQueryInventory.btDetail=&Details~!@#$&Detalhes~!@#$&Detalles~!@#$
+TQueryInventory.Label1=Select a Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TQueryInventory.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TQueryInventory.Label2=Category :~!@#$Categoría :~!@#$Categoría :~!@#$
+TQueryInventory.Label3=Weight :~!@#$Peso :~!@#$Peso :~!@#$
+TQueryInventory.Label4=Our Price :~!@#$Preço Venda :~!@#$Precio Venta :~!@#$
+TQueryInventory.Label5=Model~!@#$Modelo~!@#$Modelo~!@#$
+TQueryInventory.Label6=Barcode :~!@#$CódigoBarra :~!@#$CódigoBarra :~!@#$
+TQueryInventory.lbDescrip=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TQueryInventory.lblCost=Current Cost :~!@#$Custo Atual :~!@#$Costo Actual :~!@#$
+TQueryInventory.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TQueryInventory.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TQueryInventory.lbSubGroup=Sub Group :~!@#$Sub Grupo :~!@#$Sub Grupo :~!@#$
+TQueryInventory.Panel4=Barcodes for this Model~!@#$Cód.Barra para este Modelo~!@#$Cód.Barra para este Modelo~!@#$
+TQueryInventory.pnlCostPrice=~!@#$~!@#$~!@#$
+TQueryInventory.pnlLancDocTitle=Quantities in each Store~!@#$Qtds em cada Loja~!@#$Ctds en cada Tienda~!@#$
+TQueryInventory.pnlModel=~!@#$~!@#$~!@#$
+TQueryInventory.spHelp=&Help~!@#$A&juda ~!@#$A&yuda~!@#$
+TQueryInventory.tbsBarCodes=Barcodes~!@#$Códigos Barra~!@#$Códigos Barra~!@#$
+TQueryInventory.tbsQty=Quantity~!@#$Quantidade~!@#$Cantidad~!@#$
+TQueryInventory.tsPO=PO~!@#$OC~!@#$OC~!@#$
+TQueryInventory.TQueryInventory=QueryInventory~!@#$Ver Estoque~!@#$Estoque~!@#$
+TQueryInventory.tsImage1=Image1~!@#$Imagem1~!@#$Imagem1~!@#$
+TQueryInventory.tsImage2=Image2~!@#$Imagem2~!@#$Imagem2~!@#$
+TQueryInventory.tsImages=Images/Characteristic~!@#$Imagens/característica~!@#$Imagens/característica~!@#$
+TQueryInventory.rbDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TQueryInventory.rbModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TQueryInventory.lbPromo=Promo Price :~!@#$Prç Promoção :~!@#$Precio Promo :~!@#$
+
+[DisplayLabels]
+TQueryInventory.quShowBarcodesData=Date~!@#$Data~!@#$Fetcha~!@#$
+TQueryInventory.quShowBarcodesIDBarcode=Barcode~!@#$CódigoBarra~!@#$CódigoBarra~!@#$
+TQueryInventory.quShowBarcodesIDBarcode=Barcode~!@#$CódigoBarra~!@#$CódigoBarra~!@#$
+TQueryInventory.spQtyCurrentCost=CurrentCost~!@#$CustoAtual~!@#$CostoActual~!@#$
+TQueryInventory.spQtyName=Store~!@#$Loja~!@#$Tienda~!@#$
+TQueryInventory.spQtyQtyOnHand=QtyOnHand~!@#$Estoque~!@#$CtdEnTienda~!@#$
+TQueryInventory.spQtyQtyOnOrder=QtyOnOrder~!@#$Pedido~!@#$CtdEnPedido~!@#$
+TQueryInventory.spQtyQtyOnPrePurchase=QtyOnPrePurchase~!@#$Recebidos~!@#$CtdEnPreCompra~!@#$
+TQueryInventory.spQtyQtyOnPreSale=QtyOnHold~!@#$Pendente~!@#$CtdEnBPendiente~!@#$
+TQueryInventory.spQtyQtyOnRepair=QtyOnRepair~!@#$Conserto~!@#$CtdEnReparación~!@#$
+TQueryInventory.spQtyStoreID=StoreID~!@#$LojaiD~!@#$TiendaID~!@#$
+
+[Hints]
+TQueryInventory.btShowCost=Show Costs Details & Profit~!@#$Mostrar Detalhes Custo_Lucro~!@#$Mostrar Detalle Costo _Lucro~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

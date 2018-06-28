@@ -1,0 +1,122 @@
+[Captions]
+TFinDocumentoTipoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinDocumentoTipoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinDocumentoTipoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinDocumentoTipoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinDocumentoTipoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinDocumentoTipoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinDocumentoTipoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinDocumentoTipoList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinDocumentoTipoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinDocumentoTipoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinDocumentoTipoList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinDocumentoTipoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinDocumentoTipoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinDocumentoTipoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinDocumentoTipoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinDocumentoTipoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinDocumentoTipoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinDocumentoTipoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinDocumentoTipoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinDocumentoTipoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinDocumentoTipoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinDocumentoTipoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinDocumentoTipoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinDocumentoTipoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinDocumentoTipoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinDocumentoTipoList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinDocumentoTipoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinDocumentoTipoList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinDocumentoTipoList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinDocumentoTipoList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinDocumentoTipoList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinDocumentoTipoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinDocumentoTipoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinDocumentoTipoList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinDocumentoTipoList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TFinDocumentoTipoList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TFinDocumentoTipoList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TFinDocumentoTipoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinDocumentoTipoList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinDocumentoTipoList.brwGridCodigoDocumentoTipo=ID~!@#$ID~!@#$ID~!@#$
+TFinDocumentoTipoList.brwGridDocumentoTipo=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinDocumentoTipoList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinDocumentoTipoList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinDocumentoTipoList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinDocumentoTipoList.cbxStatus=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TFinDocumentoTipoList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.lblFilterBar=  Filters) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinDocumentoTipoList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinDocumentoTipoList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinDocumentoTipoList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinDocumentoTipoList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinDocumentoTipoList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinDocumentoTipoList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinDocumentoTipoList.TFinDocumentoTipoList=Tipos de Documento~!@#$Tipos de Documento~!@#$Tipos de Documento~!@#$
+TFinDocumentoTipoList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TFinDocumentoTipoList.quBrowseCodigoDocumentoTipo=ID~!@#$ID~!@#$ID~!@#$
+TFinDocumentoTipoList.quBrowseDocumentoTipo=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinDocumentoTipoList.quBrowseIDDocumentoTipo=IDDocumentoTipo~!@#$IDTipoDocumento~!@#$IDTipoDocumento~!@#$
+
+[Hints]
+TFinDocumentoTipoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinDocumentoTipoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinDocumentoTipoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinDocumentoTipoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinDocumentoTipoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinDocumentoTipoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinDocumentoTipoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinDocumentoTipoList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinDocumentoTipoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinDocumentoTipoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinDocumentoTipoList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinDocumentoTipoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinDocumentoTipoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinDocumentoTipoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinDocumentoTipoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinDocumentoTipoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinDocumentoTipoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinDocumentoTipoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinDocumentoTipoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinDocumentoTipoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinDocumentoTipoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinDocumentoTipoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinDocumentoTipoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinDocumentoTipoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinDocumentoTipoList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinDocumentoTipoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinDocumentoTipoList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinDocumentoTipoList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinDocumentoTipoList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinDocumentoTipoList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinDocumentoTipoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinDocumentoTipoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinDocumentoTipoList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinDocumentoTipoList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TFinDocumentoTipoList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TFinDocumentoTipoList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TFinDocumentoTipoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinDocumentoTipoList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinDocumentoTipoList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

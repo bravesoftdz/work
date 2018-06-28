@@ -1,0 +1,1054 @@
+inherited FrmAddKitItems: TFrmAddKitItems
+  Left = 226
+  Top = 7
+  Width = 766
+  Height = 591
+  BorderIcons = [biSystemMenu]
+  Caption = 'FrmAddKitItems'
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel2: TPanel
+    Width = 750
+    inherited Image1: TImage
+      Width = 523
+    end
+    inherited lblMenu: TLabel
+      Left = 542
+    end
+    inherited EspacamentoSuperior: TPanel
+      Width = 750
+      inherited EEE: TPanel
+        Width = 750
+      end
+    end
+  end
+  inherited Panel1: TPanel
+    Top = 512
+    Width = 750
+    inherited EspacamentoInferior: TPanel
+      Width = 750
+      inherited Panel3: TPanel
+        Width = 750
+      end
+    end
+    inherited hhh: TPanel
+      Left = 601
+      Width = 149
+      inherited btClose: TButton
+        Left = 74
+        OnClick = btCloseClick
+      end
+      object btnSave: TButton
+        Left = 4
+        Top = 3
+        Width = 66
+        Height = 31
+        Caption = '&Save'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+        TabStop = False
+        OnClick = btnSaveClick
+      end
+    end
+  end
+  inherited EspacamentoEsquerdo: TPanel
+    Height = 472
+  end
+  inherited EspacamentoDireito: TPanel
+    Left = 747
+    Height = 472
+  end
+  object pgKitOption: TPageControl [4]
+    Left = 3
+    Top = 40
+    Width = 744
+    Height = 472
+    ActivePage = tsKit
+    Align = alClient
+    TabOrder = 4
+    object tsKit: TTabSheet
+      Caption = 'Kit'
+      object grdBrowseKitItem: TcxGrid
+        Left = 0
+        Top = 0
+        Width = 736
+        Height = 444
+        Align = alClient
+        TabOrder = 0
+        LookAndFeel.Kind = lfFlat
+        object grdBrowseKitItemDB: TcxGridDBTableView
+          DataController.DataSource = dsKitItem
+          DataController.Filter.Criteria = {FFFFFFFF0000000000}
+          DataController.KeyFieldNames = 'IDModel'
+          DataController.Summary.DefaultGroupSummaryItems = <
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubSellingPrice'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubFinalCost'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubVendorCost'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubFreightCost'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubOtherCost'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubRealMarkUpValue'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubSuggRetail'
+            end
+            item
+              Format = '0'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'PositiveQty'
+            end
+            item
+              Format = '#,##0.00'
+              Kind = skSum
+              Position = spFooter
+              FieldName = 'SubSellingPrice'
+            end>
+          DataController.Summary.FooterSummaryItems = <>
+          DataController.Summary.SummaryGroups = <>
+          Filtering.MaxDropDownCount = 50
+          Filtering.Visible = fvNever
+          OptionsCustomize.ColumnFiltering = False
+          OptionsData.Deleting = False
+          OptionsData.DeletingConfirmation = False
+          OptionsData.Inserting = False
+          OptionsView.CellEndEllipsis = True
+          OptionsView.ColumnAutoWidth = True
+          OptionsView.GridLines = glHorizontal
+          OptionsView.GroupByBox = False
+          OptionsView.GroupFooters = gfVisibleWhenExpanded
+          OptionsView.HeaderAutoHeight = True
+          OptionsView.HeaderEndEllipsis = True
+          Preview.AutoHeight = False
+          Preview.MaxLineCount = 2
+          object grdBrowseKitItemDBMarked: TcxGridDBColumn
+            DataBinding.FieldName = 'Marked'
+            PropertiesClassName = 'TcxCheckBoxProperties'
+            Properties.DisplayUnchecked = 'False'
+            Properties.ReadOnly = False
+            Properties.ValueChecked = 1
+            Properties.ValueUnchecked = 0
+            Width = 52
+          end
+          object grdBrowseKitItemDBModel: TcxGridDBColumn
+            DataBinding.FieldName = 'Model'
+            Options.Editing = False
+            Width = 94
+          end
+          object grdBrowseKitItemDBDescription: TcxGridDBColumn
+            DataBinding.FieldName = 'Description'
+            Options.Editing = False
+            Width = 236
+          end
+          object grdBrowseKitItemDBQty: TcxGridDBColumn
+            DataBinding.FieldName = 'Qty'
+            Width = 61
+          end
+          object grdBrowseKitItemDBSellingPrice: TcxGridDBColumn
+            Tag = 1
+            DataBinding.FieldName = 'SellingPrice'
+            Width = 118
+          end
+        end
+        object grdBrowseKitItemLevel: TcxGridLevel
+          GridView = grdBrowseKitItemDB
+        end
+      end
+    end
+    object tsKitPet: TTabSheet
+      Caption = 'Kit Pet'
+      ImageIndex = 1
+      object pnlCustomerInfo: TPanel
+        Left = 0
+        Top = 0
+        Width = 736
+        Height = 83
+        Align = alTop
+        BevelOuter = bvNone
+        TabOrder = 0
+        object lbCustomer: TLabel
+          Left = 5
+          Top = 8
+          Width = 53
+          Height = 13
+          Alignment = taRightJustify
+          Caption = 'Customer :'
+        end
+        object SubCustomer: TSubListPanel
+          Left = 60
+          Top = 6
+          Width = 529
+          Height = 75
+          BevelOuter = bvNone
+          Color = clBtnShadow
+          TabOrder = 0
+          SubListClassName = 'TSubCustomerInfo'
+          AfterParamChanged = SubCustomerAfterParamChanged
+        end
+      end
+      object Panel4: TPanel
+        Left = 0
+        Top = 83
+        Width = 736
+        Height = 361
+        Align = alClient
+        BevelOuter = bvNone
+        TabOrder = 1
+        object Panel5: TPanel
+          Left = 0
+          Top = 245
+          Width = 736
+          Height = 116
+          Align = alBottom
+          BevelOuter = bvNone
+          TabOrder = 0
+          object Panel6: TPanel
+            Left = 0
+            Top = 0
+            Width = 736
+            Height = 16
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = ' Optional Services '
+            Color = clBtnShadow
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWhite
+            Font.Height = -12
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 0
+          end
+          object gridOptionalService: TcxGrid
+            Left = 0
+            Top = 16
+            Width = 736
+            Height = 100
+            Align = alClient
+            TabOrder = 1
+            LookAndFeel.Kind = lfFlat
+            object cxGridDBTableMicro: TcxGridDBTableView
+              DataController.DataSource = dsServiceOptional
+              DataController.Filter.Criteria = {FFFFFFFF0000000000}
+              DataController.KeyFieldNames = 'Idmodel'
+              DataController.Summary.DefaultGroupSummaryItems = <
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubSellingPrice'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubFinalCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubVendorCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubFreightCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubOtherCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubRealMarkUpValue'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubSuggRetail'
+                end
+                item
+                  Format = '0'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'PositiveQty'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubSellingPrice'
+                end>
+              DataController.Summary.FooterSummaryItems = <>
+              DataController.Summary.SummaryGroups = <>
+              Filtering.MaxDropDownCount = 50
+              Filtering.Visible = fvNever
+              OptionsCustomize.ColumnFiltering = False
+              OptionsData.Deleting = False
+              OptionsData.DeletingConfirmation = False
+              OptionsData.Inserting = False
+              OptionsView.CellEndEllipsis = True
+              OptionsView.ColumnAutoWidth = True
+              OptionsView.GridLines = glHorizontal
+              OptionsView.GroupByBox = False
+              OptionsView.GroupFooters = gfVisibleWhenExpanded
+              OptionsView.HeaderAutoHeight = True
+              OptionsView.HeaderEndEllipsis = True
+              Preview.AutoHeight = False
+              Preview.MaxLineCount = 2
+              object cxGridDBTableMicroMarked: TcxGridDBColumn
+                DataBinding.FieldName = 'Marked'
+                PropertiesClassName = 'TcxCheckBoxProperties'
+                Properties.DisplayUnchecked = 'True'
+                Properties.ImmediatePost = True
+                Properties.ReadOnly = False
+                Properties.ValueChecked = 1
+                Properties.ValueUnchecked = 0
+                Properties.OnEditValueChanged = cxGridDBTableMicroMarkedPropertiesEditValueChanged
+                Width = 54
+              end
+              object cxGridDBTableMicroMicrochip: TcxGridDBColumn
+                DataBinding.FieldName = 'Model'
+                Options.Editing = False
+                Width = 103
+              end
+              object cxGridDBTableMicroMicrochipNum: TcxGridDBColumn
+                Caption = 'Description'
+                DataBinding.FieldName = 'description'
+                Options.Editing = False
+                Width = 291
+              end
+              object cxGridDBTableMicroAmount: TcxGridDBColumn
+                Caption = 'Sale Price'
+                DataBinding.FieldName = 'sellingprice'
+                Width = 294
+              end
+            end
+            object cxGridLevel1: TcxGridLevel
+              GridView = cxGridDBTableMicro
+            end
+          end
+        end
+        object Panel7: TPanel
+          Left = 0
+          Top = 0
+          Width = 736
+          Height = 245
+          Align = alClient
+          BevelOuter = bvNone
+          Caption = 'Panel5'
+          TabOrder = 1
+          object Panel9: TPanel
+            Left = 0
+            Top = 0
+            Width = 736
+            Height = 16
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Pet'
+            Color = clBtnShadow
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWhite
+            Font.Height = -12
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 0
+          end
+          object cxGrid1: TcxGrid
+            Left = 0
+            Top = 16
+            Width = 736
+            Height = 111
+            Align = alTop
+            TabOrder = 1
+            LookAndFeel.Kind = lfFlat
+            object cxGridDBTableView1: TcxGridDBTableView
+              DataController.DataSource = dsKitItem
+              DataController.Filter.Criteria = {FFFFFFFF0000000000}
+              DataController.KeyFieldNames = 'IDModel'
+              DataController.Summary.DefaultGroupSummaryItems = <
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubSellingPrice'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubFinalCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubVendorCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubFreightCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubOtherCost'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubRealMarkUpValue'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubSuggRetail'
+                end
+                item
+                  Format = '0'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'PositiveQty'
+                end
+                item
+                  Format = '#,##0.00'
+                  Kind = skSum
+                  Position = spFooter
+                  FieldName = 'SubSellingPrice'
+                end>
+              DataController.Summary.FooterSummaryItems = <>
+              DataController.Summary.SummaryGroups = <>
+              Filtering.MaxDropDownCount = 50
+              Filtering.Visible = fvNever
+              OptionsCustomize.ColumnFiltering = False
+              OptionsData.Deleting = False
+              OptionsData.DeletingConfirmation = False
+              OptionsData.Inserting = False
+              OptionsView.CellEndEllipsis = True
+              OptionsView.ColumnAutoWidth = True
+              OptionsView.GridLines = glHorizontal
+              OptionsView.GroupByBox = False
+              OptionsView.GroupFooters = gfVisibleWhenExpanded
+              OptionsView.HeaderAutoHeight = True
+              OptionsView.HeaderEndEllipsis = True
+              Preview.AutoHeight = False
+              Preview.MaxLineCount = 2
+              object cxGridDBColumn1: TcxGridDBColumn
+                DataBinding.FieldName = 'Marked'
+                PropertiesClassName = 'TcxCheckBoxProperties'
+                Properties.DisplayUnchecked = 'True'
+                Properties.ImmediatePost = True
+                Properties.ReadOnly = False
+                Properties.ValueChecked = 1
+                Properties.ValueUnchecked = 0
+                Properties.OnChange = cxGridDBColumn1PropertiesChange
+                Properties.OnEditValueChanged = cxGridDBColumn1PropertiesEditValueChanged
+                Options.Editing = False
+                Width = 62
+              end
+              object cxGridDBColumn2: TcxGridDBColumn
+                DataBinding.FieldName = 'Model'
+                Options.Editing = False
+                Width = 88
+              end
+              object cxGridDBColumn3: TcxGridDBColumn
+                DataBinding.FieldName = 'Description'
+                Options.Editing = False
+                Width = 296
+              end
+              object cxGridDBColumn4: TcxGridDBColumn
+                Caption = 'Sale Price'
+                DataBinding.FieldName = 'SellingPrice'
+                Width = 296
+              end
+              object cxGridDBColumn5: TcxGridDBColumn
+                DataBinding.FieldName = 'SKU'
+                PropertiesClassName = 'TcxButtonEditProperties'
+                Properties.Buttons = <
+                  item
+                    Default = True
+                    Kind = bkEllipsis
+                  end>
+                Properties.OnButtonClick = cxGridDBTableViewPetPetPropertiesButtonClick
+                Visible = False
+                Width = 148
+              end
+            end
+            object cxGridLevel2: TcxGridLevel
+              GridView = cxGridDBTableView1
+            end
+          end
+          object Panel8: TPanel
+            Left = 0
+            Top = 127
+            Width = 736
+            Height = 118
+            Align = alClient
+            Caption = 'Panel8'
+            TabOrder = 2
+            object Panel10: TPanel
+              Left = 1
+              Top = 1
+              Width = 734
+              Height = 16
+              Align = alTop
+              BevelOuter = bvNone
+              Caption = 'Required Services'
+              Color = clBtnShadow
+              Font.Charset = ANSI_CHARSET
+              Font.Color = clWhite
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ParentFont = False
+              TabOrder = 0
+            end
+            object gridRequireService: TcxGrid
+              Left = 1
+              Top = 17
+              Width = 734
+              Height = 100
+              Align = alClient
+              TabOrder = 1
+              LookAndFeel.Kind = lfFlat
+              object cxGridDBTableViewPet: TcxGridDBTableView
+                DataController.DataSource = dsServiceRequire
+                DataController.Filter.Criteria = {FFFFFFFF0000000000}
+                DataController.KeyFieldNames = 'IdModel'
+                DataController.Summary.DefaultGroupSummaryItems = <
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubSellingPrice'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubFinalCost'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubVendorCost'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubFreightCost'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubOtherCost'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubRealMarkUpValue'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubSuggRetail'
+                  end
+                  item
+                    Format = '0'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'PositiveQty'
+                  end
+                  item
+                    Format = '#,##0.00'
+                    Kind = skSum
+                    Position = spFooter
+                    FieldName = 'SubSellingPrice'
+                  end>
+                DataController.Summary.FooterSummaryItems = <>
+                DataController.Summary.SummaryGroups = <>
+                Filtering.MaxDropDownCount = 50
+                Filtering.Visible = fvNever
+                OptionsCustomize.ColumnFiltering = False
+                OptionsData.Deleting = False
+                OptionsData.DeletingConfirmation = False
+                OptionsData.Inserting = False
+                OptionsView.CellEndEllipsis = True
+                OptionsView.ColumnAutoWidth = True
+                OptionsView.GridLines = glHorizontal
+                OptionsView.GroupByBox = False
+                OptionsView.GroupFooters = gfVisibleWhenExpanded
+                OptionsView.HeaderAutoHeight = True
+                OptionsView.HeaderEndEllipsis = True
+                Preview.AutoHeight = False
+                Preview.MaxLineCount = 2
+                object cxGridDBTableViewPetMarked: TcxGridDBColumn
+                  DataBinding.FieldName = 'Marked'
+                  PropertiesClassName = 'TcxCheckBoxProperties'
+                  Properties.DisplayUnchecked = 'True'
+                  Properties.ImmediatePost = True
+                  Properties.ReadOnly = False
+                  Properties.ValueChecked = 1
+                  Properties.ValueUnchecked = 0
+                  Options.Editing = False
+                  Width = 46
+                end
+                object cxGridDBTableViewPetModel: TcxGridDBColumn
+                  DataBinding.FieldName = 'Model'
+                  Options.Editing = False
+                  Width = 105
+                end
+                object cxGridDBTableViewPetDescription: TcxGridDBColumn
+                  DataBinding.FieldName = 'Description'
+                  Options.Editing = False
+                  Width = 295
+                end
+                object cxGridDBTableViewPetDBColumn1: TcxGridDBColumn
+                  Caption = 'Sale Price'
+                  DataBinding.FieldName = 'SellingPrice'
+                  Width = 294
+                end
+              end
+              object cxGridLevelPet: TcxGridLevel
+                GridView = cxGridDBTableViewPet
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object quKitItem: TADODataSet [5]
+    Connection = DM.ADODBConnect
+    CursorType = ctStatic
+    CommandText = 
+      'SELECT DISTINCT'#13#10#9'M.IDModel,'#13#10#9'M.Model,'#13#10#9'M.Description,'#13#10#9'P.Qty' +
+      ','#13#10#9'CAST(TG.PuppyTracker as int) as PuppyTracker,'#13#10#9'CASE WHEN Is' +
+      'Null(I.SellingPrice, 0) = 0 THEN M.SellingPrice ELSE IsNull(I.Se' +
+      'llingPrice, 0) END as SellingPrice,'#13#10#9'CASE WHEN IsNull(M.Replace' +
+      'mentCost, 0) = 0 THEN (IsNull(M.VendorCost,0) + IsNull(M.OtherCo' +
+      'st,0) + IsNull(M.FreightCost, 0)) ELSE IsNull(M.ReplacementCost,' +
+      ' 0) END as VendorCost,'#13#10#9'CAST(1 as int) as Marked,'#13#10#9'CAST(1 as i' +
+      'nt) as IDCustomer,'#13#10#9'PCM.IDMicrochip,'#13#10#9'CAST(0 as money) as PetS' +
+      'alePrice,'#13#10#9'CAST(0 as money) as PetPromoPrice,'#13#10#9'CAST(0 as money' +
+      ') as PetCostPrice,'#13#10#9'CAST(0 as int) as IDPet,'#13#10#9'CAST(1 as int) a' +
+      's IDStatus,'#13#10#9'CAST('#39#39' as varchar(50)) as SKU,'#13#10'               CA' +
+      'ST(D.RequireOnSale as int) RequireOnSale,'#13#10#9'cast(tg.packModel as' +
+      ' int) as PackModel,'#13#10#9'CAST(tg.service as int) as service,'#13#10'     ' +
+      '            tg.puppytracker'#13#10'FROM'#13#10#9'dbo.PackModel P (NOLOCK)'#13#10#9'J' +
+      'OIN Model M (NOLOCK) ON (P.IDModel = M.IDModel)'#13#10'               ' +
+      ' LEFT JOIN PT_GlobalSettingDetail D on M.IdModel = D.IdModel'#13#10#9'J' +
+      'OIN TabGroup TG (NOLOCK) ON (TG.IDGroup = M.GroupID)'#13#10#9'LEFT JOIN' +
+      ' Inventory I (NOLOCK) ON (I.StoreID = :IDStore AND M.IDModel = I' +
+      '.ModelID)'#13#10#9'LEFT JOIN Pet_Microchip PCM (NOLOCK) ON (PCM.IDModel' +
+      ' = P.IDModel)'#13#10'WHERE'#13#10#9'P.IDPackModel = :IDModel'#13#10'ORDER BY'#13#10#9'TG.P' +
+      'uppyTracker DESC'
+    Parameters = <
+      item
+        Name = 'IDStore'
+        DataType = ftInteger
+        Size = -1
+        Value = Null
+      end
+      item
+        Name = 'IDModel'
+        DataType = ftInteger
+        Size = -1
+        Value = Null
+      end>
+    Left = 96
+    Top = 88
+    object quKitItemIDModel: TIntegerField
+      FieldName = 'IDModel'
+    end
+    object quKitItemModel: TStringField
+      FieldName = 'Model'
+      Size = 30
+    end
+    object quKitItemDescription: TStringField
+      FieldName = 'Description'
+      Size = 50
+    end
+    object quKitItemQty: TBCDField
+      FieldName = 'Qty'
+      Precision = 32
+    end
+    object quKitItemPuppyTracker: TIntegerField
+      FieldName = 'PuppyTracker'
+      ReadOnly = True
+    end
+    object quKitItemSellingPrice: TBCDField
+      FieldName = 'SellingPrice'
+      Precision = 19
+    end
+    object quKitItemVendorCost: TBCDField
+      FieldName = 'VendorCost'
+      Precision = 19
+    end
+    object quKitItemMarked: TIntegerField
+      FieldName = 'Marked'
+    end
+    object quKitItemIDCustomer: TIntegerField
+      FieldName = 'IDCustomer'
+      ReadOnly = True
+    end
+    object quKitItemIDMicrochip: TIntegerField
+      FieldName = 'IDMicrochip'
+    end
+    object quKitItemPetSalePrice: TBCDField
+      FieldName = 'PetSalePrice'
+      ReadOnly = True
+      Precision = 19
+    end
+    object quKitItemPetPromoPrice: TBCDField
+      FieldName = 'PetPromoPrice'
+      ReadOnly = True
+      Precision = 19
+    end
+    object quKitItemPetCostPrice: TBCDField
+      FieldName = 'PetCostPrice'
+      ReadOnly = True
+      Precision = 19
+    end
+    object quKitItemIDPet: TIntegerField
+      FieldName = 'IDPet'
+    end
+    object quKitItemIDStatus: TIntegerField
+      FieldName = 'IDStatus'
+    end
+    object quKitItemSKU: TStringField
+      FieldName = 'SKU'
+      Size = 50
+    end
+    object quKitItemRequireOnSale: TIntegerField
+      FieldName = 'RequireOnSale'
+      ReadOnly = True
+    end
+    object quKitItemPackModel: TIntegerField
+      FieldName = 'PackModel'
+      ReadOnly = True
+    end
+    object quKitItemservice: TIntegerField
+      FieldName = 'service'
+      ReadOnly = True
+    end
+  end
+  object dsKitItem: TDataSource [6]
+    DataSet = cdsKitModel
+    Left = 308
+    Top = 92
+  end
+  object dspKitModel: TDataSetProvider [7]
+    DataSet = quKitItem
+    Left = 160
+    Top = 92
+  end
+  object cdsKitModel: TClientDataSet [8]
+    Aggregates = <>
+    Params = <
+      item
+        DataType = ftInteger
+        Name = 'IDStore'
+        ParamType = ptInput
+        Size = -1
+      end
+      item
+        DataType = ftInteger
+        Name = 'IDModel'
+        ParamType = ptInput
+        Size = -1
+      end>
+    ProviderName = 'dspKitModel'
+    Left = 240
+    Top = 92
+    object cdsKitModelIDModel: TIntegerField
+      FieldName = 'IDModel'
+    end
+    object cdsKitModelModel: TStringField
+      FieldName = 'Model'
+      Size = 30
+    end
+    object cdsKitModelDescription: TStringField
+      FieldName = 'Description'
+      Size = 50
+    end
+    object cdsKitModelQty: TBCDField
+      FieldName = 'Qty'
+      Precision = 32
+    end
+    object cdsKitModelPuppyTracker: TIntegerField
+      FieldName = 'PuppyTracker'
+      ReadOnly = True
+    end
+    object cdsKitModelSellingPrice: TBCDField
+      FieldName = 'SellingPrice'
+      OnChange = cdsKitModelSellingPriceChange
+      Precision = 19
+    end
+    object cdsKitModelVendorCost: TBCDField
+      FieldName = 'VendorCost'
+      Precision = 19
+    end
+    object cdsKitModelMarked: TIntegerField
+      FieldName = 'Marked'
+    end
+    object cdsKitModelIDCustomer: TIntegerField
+      FieldName = 'IDCustomer'
+      ReadOnly = True
+    end
+    object cdsKitModelIDMicrochip: TIntegerField
+      FieldName = 'IDMicrochip'
+    end
+    object cdsKitModelPetSalePrice: TBCDField
+      FieldName = 'PetSalePrice'
+      ReadOnly = True
+      Precision = 19
+    end
+    object cdsKitModelPetPromoPrice: TBCDField
+      FieldName = 'PetPromoPrice'
+      ReadOnly = True
+      Precision = 19
+    end
+    object cdsKitModelPetCostPrice: TBCDField
+      FieldName = 'PetCostPrice'
+      ReadOnly = True
+      Precision = 19
+    end
+    object cdsKitModelIDPet: TIntegerField
+      FieldName = 'IDPet'
+    end
+    object cdsKitModelIDStatus: TIntegerField
+      FieldName = 'IDStatus'
+    end
+    object cdsKitModelSKU: TStringField
+      FieldName = 'SKU'
+      Size = 50
+    end
+    object cdsKitModelRequireOnSale: TIntegerField
+      FieldName = 'RequireOnSale'
+      ReadOnly = True
+    end
+    object cdsKitModelPackModel: TIntegerField
+      FieldName = 'PackModel'
+      ReadOnly = True
+    end
+    object cdsKitModelservice: TIntegerField
+      FieldName = 'service'
+      ReadOnly = True
+    end
+  end
+  inherited siLang: TsiLangRT
+    StorageFile = 'MR_FrmAddKitItems.sil'
+    Left = 104
+  end
+  object quPetMicrochip: TADODataSet
+    Connection = DM.ADODBConnect
+    CursorType = ctStatic
+    CommandText = 
+      'SELECT'#13#10#9'M.IDMicrochip,'#13#10#9'M.Microchip,'#13#10#9'M.Amount,'#13#10#9'CAST(1 as B' +
+      'it) as Marked,'#13#10#9'PM.MicrochipNum,'#13#10#9'M.IDModel'#13#10'FROM'#13#10#9'Pet_Microc' +
+      'hip M (NOLOCK)'#13#10#9'JOIN Pet_PetMicrochip PM (NOLOCK) ON (M.IDMicro' +
+      'chip = PM.IDMicrochip)'#13#10'WHERE'#13#10#9'PM.IDPet = :IDPet'#13#10
+    Parameters = <
+      item
+        Name = 'IDPet'
+        Attributes = [paSigned]
+        DataType = ftInteger
+        Precision = 10
+        Size = 4
+        Value = Null
+      end>
+    Left = 480
+    Top = 482
+    object quPetMicrochipIDMicrochip: TIntegerField
+      FieldName = 'IDMicrochip'
+    end
+    object quPetMicrochipMicrochip: TStringField
+      FieldName = 'Microchip'
+      ReadOnly = True
+      Size = 50
+    end
+    object quPetMicrochipAmount: TBCDField
+      FieldName = 'Amount'
+      Precision = 19
+    end
+    object quPetMicrochipIDModel: TIntegerField
+      FieldName = 'IDModel'
+    end
+    object quPetMicrochipMarked: TBooleanField
+      FieldName = 'Marked'
+    end
+    object quPetMicrochipMicrochipNum: TStringField
+      FieldName = 'MicrochipNum'
+      ReadOnly = True
+    end
+  end
+  object dspPetMicrochip: TDataSetProvider
+    DataSet = quPetMicrochip
+    Left = 480
+    Top = 442
+  end
+  object cdsPetMicrochip: TClientDataSet
+    Aggregates = <>
+    Params = <
+      item
+        DataType = ftInteger
+        Precision = 10
+        Name = 'IDPet'
+        ParamType = ptInput
+        Size = 4
+      end>
+    ProviderName = 'dspPetMicrochip'
+    Left = 391
+    Top = 447
+    object cdsPetMicrochipIDMicrochip: TIntegerField
+      FieldName = 'IDMicrochip'
+    end
+    object cdsPetMicrochipMicrochip: TStringField
+      FieldName = 'Microchip'
+      ReadOnly = True
+      Size = 50
+    end
+    object cdsPetMicrochipAmount: TBCDField
+      FieldName = 'Amount'
+      DisplayFormat = '#,##0.00'
+      Precision = 19
+    end
+    object cdsPetMicrochipIDModel: TIntegerField
+      FieldName = 'IDModel'
+    end
+    object cdsPetMicrochipMarked: TBooleanField
+      FieldName = 'Marked'
+    end
+    object cdsPetMicrochipMicrochipNum: TStringField
+      FieldName = 'MicrochipNum'
+      ReadOnly = True
+    end
+  end
+  object dsPetMicrochip: TDataSource
+    DataSet = cdsPetMicrochip
+    Left = 286
+    Top = 451
+  end
+  object quSearchMicrochip: TADODataSet
+    Connection = DM.ADODBConnect
+    CursorType = ctStatic
+    CommandText = 
+      'SELECT'#13#10#9'P.IDPet,'#13#10#9'P.SKU,'#13#10#9'P.VendorCost,'#13#10#9'P.SalePrice,'#13#10#9'P.Pr' +
+      'omoPrice,'#13#10#9'P.IDStatus'#13#10'FROM'#13#10#9'Pet P (NOLOCK)'#13#10#9'JOIN Pet_PetMicr' +
+      'ochip PM (NOLOCK) ON (PM.IDPet = P.IDPet)'#13#10'WHERE'#13#10#9'P.Desativado ' +
+      '= 0'#13#10#9'AND P.Hidden = 0'#13#10#9'AND P.System = 0'#13#10#9'AND PM.MicrochipNum ' +
+      '= :MicrochipNum'#13#10
+    Parameters = <
+      item
+        Name = 'MicrochipNum'
+        Attributes = [paNullable]
+        DataType = ftString
+        NumericScale = 255
+        Precision = 255
+        Size = 20
+        Value = Null
+      end>
+    Left = 95
+    Top = 211
+    object quSearchMicrochipIDPet: TIntegerField
+      FieldName = 'IDPet'
+    end
+    object quSearchMicrochipSKU: TStringField
+      FieldName = 'SKU'
+      Size = 30
+    end
+    object quSearchMicrochipVendorCost: TBCDField
+      FieldName = 'VendorCost'
+      Precision = 19
+    end
+    object quSearchMicrochipSalePrice: TBCDField
+      FieldName = 'SalePrice'
+      Precision = 19
+    end
+    object quSearchMicrochipPromoPrice: TBCDField
+      FieldName = 'PromoPrice'
+      Precision = 19
+    end
+    object quSearchMicrochipIDStatus: TIntegerField
+      FieldName = 'IDStatus'
+    end
+  end
+  object dsServiceRequire: TDataSource
+    DataSet = cdsServiceRequire
+    Left = 365
+    Top = 316
+  end
+  object cdsServiceRequire: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 272
+    Top = 315
+  end
+  object dsServiceOptional: TDataSource
+    DataSet = cdsServiceOptional
+    Left = 122
+    Top = 439
+  end
+  object cdsServiceOptional: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 37
+    Top = 439
+  end
+end

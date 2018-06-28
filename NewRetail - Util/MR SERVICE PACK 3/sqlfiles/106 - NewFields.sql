@@ -1,0 +1,2 @@
+ALTER TABLE Invoice ADD Canceled bit NOT NULL DEFAULT 0
+GO

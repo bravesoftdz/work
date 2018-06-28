@@ -1,0 +1,30 @@
+[Captions]
+TFinContaCorrenteReconcile.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFinContaCorrenteReconcile.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TFinContaCorrenteReconcile.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.Label1=1.~!@#$1.~!@#$1.~!@#$
+TFinContaCorrenteReconcile.Label2=Enter the following bank statement's information ~!@#$Entre a informação do saldo bancario~!@#$Entre la información del saldo bancario.~!@#$
+TFinContaCorrenteReconcile.Label3=Opening Balance~!@#$Saldo Inicial~!@#$Saldo Inicial~!@#$
+TFinContaCorrenteReconcile.Label4=Ending Balance~!@#$Saldo Final~!@#$Saldo Final~!@#$
+TFinContaCorrenteReconcile.lbReconcDate=Runtime Info~!@#$Info Tempo Rodado~!@#$Info Tiempo Corrido~!@#$
+TFinContaCorrenteReconcile.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.pnlPBarra=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TFinContaCorrenteReconcile.TFinContaCorrenteReconcile=Reconcile Bank Statement~!@#$Reconciliar Saldo Bancario~!@#$Reconciliar Saldo Bancario~!@#$
+
+[DisplayLabels]
+TFinContaCorrenteReconcile.quContaCorrenteUltimaReconciliacao=UltimaReconciliacao~!@#$UltimaReconciliação~!@#$UltimaReconciliación~!@#$
+TFinContaCorrenteReconcile.quContaCorrenteUltimoSaldoBancario=UltimoSaldoBancario~!@#$UltimoSaldoBancario~!@#$UltimoSaldoBancario~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

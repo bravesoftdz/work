@@ -1,0 +1,24 @@
+[Captions]
+TFchPessoaAddress.lbName=Name:~!@#$Nome:~!@#$Nombre:~!@#$
+TFchPessoaAddress.btCancel=Cancel~!@#$Cancelar~!@#$Cancelación ~!@#$
+TFchPessoaAddress.btClose=Save~!@#$OK~!@#$Excepto ~!@#$
+TFchPessoaAddress.cbIsBillTo=Address to Bill~!@#$Endereço de cobrança~!@#$Dirección a la cuenta ~!@#$
+TFchPessoaAddress.Label15=User:~!@#$Usuário :~!@#$Usuario  :~!@#$
+TFchPessoaAddress.lbAddress=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TFchPessoaAddress.lbCity=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFchPessoaAddress.lbCountry=Country :~!@#$País :~!@#$País :~!@#$
+TFchPessoaAddress.lblCompanyReg=Company reg. :~!@#$CNPJ :~!@#$CNPJ :~!@#$
+TFchPessoaAddress.lblNaighborhood=Neighborhood :~!@#$Bairro :~!@#$Bairro :~!@#$
+TFchPessoaAddress.lbState=State:~!@#$Estado :~!@#$Estado :~!@#$
+TFchPessoaAddress.lbTax=Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFchPessoaAddress.lbZip=Zip Code:~!@#$CEP :~!@#$Zip Code :~!@#$
+TFchPessoaAddress.lbMunicipio=City Code :~!@#$Município :~!@#$Municipio :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

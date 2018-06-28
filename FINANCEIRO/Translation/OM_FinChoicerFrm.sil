@@ -1,0 +1,59 @@
+[Captions]
+TFinChoicerFrm.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFinChoicerFrm.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TFinChoicerFrm.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinChoicerFrm.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinChoicerFrm.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinChoicerFrm.gbxMain=Question ?~!@#$Pergunta ?~!@#$Pregunta ?~!@#$
+TFinChoicerFrm.lbChoice1=Choice text 1~!@#$Escolher texto 1~!@#$Escoger texto 1~!@#$
+TFinChoicerFrm.lbChoice2=Choice text 2~!@#$Escolher texto 2~!@#$Escoger texto 2~!@#$
+TFinChoicerFrm.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinChoicerFrm.pnlPBarra=~!@#$~!@#$~!@#$
+TFinChoicerFrm.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TFinChoicerFrm.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TFinChoicerFrm.rdChoice1=Choice1~!@#$Escolher1~!@#$Escoger1~!@#$
+TFinChoicerFrm.rdChoice2=Choice2~!@#$Escolher2~!@#$Escoger2~!@#$
+TFinChoicerFrm.TFinChoicerFrm=Select one option~!@#$Selecionar uma Opção~!@#$Seleccionar una Opción~!@#$
+
+[Dialogs]
+TFinChoicerFrm.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TFinChoicerFrm.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TFinChoicerFrm.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinChoicerFrm.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TFinChoicerFrm.Error=Error~!@#$Erro~!@#$Error~!@#$
+TFinChoicerFrm.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFinChoicerFrm.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TFinChoicerFrm.Information=Information~!@#$Informação~!@#$Información~!@#$
+TFinChoicerFrm.No=&No~!@#$&Não~!@#$&No~!@#$
+TFinChoicerFrm.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TFinChoicerFrm.OK=OK~!@#$OK~!@#$OK~!@#$
+TFinChoicerFrm.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TFinChoicerFrm.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TFinChoicerFrm.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TFinChoicerFrm.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFinChoicerFrm.Currency String=$~!@#$$~!@#$$~!@#$
+TFinChoicerFrm.Date Separator=/~!@#$/~!@#$/~!@#$
+TFinChoicerFrm.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TFinChoicerFrm.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TFinChoicerFrm.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFinChoicerFrm.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFinChoicerFrm.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFinChoicerFrm.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFinChoicerFrm.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TFinChoicerFrm.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFinChoicerFrm.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFinChoicerFrm.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TFinChoicerFrm.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFinChoicerFrm.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFinChoicerFrm.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

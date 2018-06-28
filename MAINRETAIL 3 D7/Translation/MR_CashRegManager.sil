@@ -1,0 +1,112 @@
+[Captions]
+TCashRegManager.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TCashRegManager.btCloseCash=(F9) Close Register~!@#$(F9) Fechar Caixa~!@#$(F9) Cerrar Caja~!@#$
+TCashRegManager.btDeposit=(F10) Deposit~!@#$(F10) Sangria~!@#$(F10) Depósito~!@#$
+TCashRegManager.btFastPay=Pay~!@#$Pagamento~!@#$Pago~!@#$
+TCashRegManager.btFastSale=(F5) Xpress Sale~!@#$(F5) Venda Rápida~!@#$(F5) Venta Rápida~!@#$
+TCashRegManager.btnAddCash=(F12) Pay In~!@#$(F12) Suprimento~!@#$(F12) Caja Chica~!@#$
+TCashRegManager.btnBudget=(&8) Budget~!@#$(&8) Orçamento~!@#$(&8) Presupuesto~!@#$
+TCashRegManager.btnCancelHold=(&5) Unlock\Cancel Hold~!@#$(&5) Destravar Pedido~!@#$(&5) Destravar Boleto~!@#$
+TCashRegManager.btnCashConfig=(F3) Configuration~!@#$(F3) Configuração~!@#$(F3) Configuración~!@#$
+TCashRegManager.btnCashHistory=(F4) Cash Reg History~!@#$(F4) Histórico~!@#$(F4) Historia~!@#$
+TCashRegManager.BtnCloseCash=(F9) Close~!@#$(F9) Fechar Caixa~!@#$(F9) Cerrar~!@#$
+TCashRegManager.btnComission=(&8) Commissions~!@#$(&8) Comissões~!@#$(&8) Comisiones~!@#$
+TCashRegManager.btnCustomer=(&4) Customer~!@#$(&4)Cadastro de Clientes~!@#$(&4) Cliente~!@#$
+TCashRegManager.btnCustomerRepair=(&7) Customer Repair~!@#$(&7) Reparação Cliente~!@#$(&7) Reparacion Cliente~!@#$
+TCashRegManager.BtnDeposit=(F10) Deposit~!@#$(F10) Sangria~!@#$(F10) Depósito~!@#$
+TCashRegManager.btNew=(F2) Full Invoice~!@#$(F2) Nota Completa~!@#$(F2) Boleta Completa~!@#$
+TCashRegManager.btnFullInv=(&6) Full Inventory~!@#$(&6) Manutenção de Estoque~!@#$(&6) Inventario repleto~!@#$
+TCashRegManager.BtnInventory=(&1) View Inventory~!@#$(&1) Ver Estoque~!@#$(&1) Ver Estoque~!@#$
+TCashRegManager.btnInventoryRepair=(&6) Inventory Repair~!@#$(&6) Reparação Estoque~!@#$(&6) Reparacion Estoque~!@#$
+TCashRegManager.BtnInvoice=&Full Invoice(F2)~!@#$(F2) Nota Completa~!@#$(F2) Boleta Completa~!@#$
+TCashRegManager.btnInvoices=(&5) Invoice History~!@#$(&5) Histórico de Notas~!@#$(&5) Historico de la factura~!@#$
+TCashRegManager.btnLayaway=(F3) Layaway~!@#$(F3) Crediário~!@#$(F3) Crédito~!@#$
+TCashRegManager.btnMessage=(&0) Message~!@#$(&0) Mensagem~!@#$(&0) Messaje~!@#$
+TCashRegManager.btnNewPDV=Sale~!@#$Vender~!@#$Vender~!@#$
+TCashRegManager.BtnOpenHold=(F6) Open Hold~!@#$(F6) Abrir Nota~!@#$(F6) Abrir Boleta~!@#$
+TCashRegManager.btnOutAgnt=(F4) Outside Agent~!@#$(F4) Guia de Viagem~!@#$(F4) Guia de Viagem~!@#$
+TCashRegManager.BtnPettyCash=(F11) Petty Cash~!@#$(F11) Retirada~!@#$(F11) Retirada~!@#$
+TCashRegManager.btnPO=(&7) PO~!@#$(&7) Pedido Compra~!@#$(&7) Pedido Compra~!@#$
+TCashRegManager.btnPrintInv=(&9) Print Inventory~!@#$(&9) Imprimir Estoque~!@#$(&9) Imprimir Estoque~!@#$
+TCashRegManager.btnSalesRequest=(&2) Request~!@#$(2) Requisição do Vendedor~!@#$(&2) Requerimento~!@#$
+TCashRegManager.btnSetupInv=In&voice~!@#$Tipo de Nota~!@#$Tipo Boleta~!@#$
+TCashRegManager.btnSetupPrinter=Prin&ter~!@#$Impressora~!@#$Impresora~!@#$
+TCashRegManager.btnSetupTicket=Tic&ket~!@#$Recibo da Impressora~!@#$Recibo Impresora~!@#$
+TCashRegManager.btnShowConfig=&Show configuration~!@#$Mo&strar configuração~!@#$Mue&stre configuración~!@#$
+TCashRegManager.btnTimeClock=(&3) Time Clock~!@#$(&3) Ponto~!@#$(&3) Reloj Registrador~!@#$
+TCashRegManager.BtnUnlockHold=(F7) Unlock~!@#$(F7) Destravar~!@#$(F7) Desbloq.~!@#$
+TCashRegManager.btnViewInv=View Inventory~!@#$Consultar Estoque~!@#$Ver Estoque~!@#$
+TCashRegManager.BtnXSale=(F5) Xpress Sale~!@#$(F5) Venda Rápida~!@#$(F5) Venta Rápida~!@#$
+TCashRegManager.btPay=(F6) Open Hold~!@#$(F6) Abrir Nota Pend.~!@#$(F6) Abrir Boleta~!@#$
+TCashRegManager.btUnlock=(F7) Unlock~!@#$(F7) Destravar~!@#$(F7) Desbloquear~!@#$
+TCashRegManager.grdCashDBTableView1SaleCode=Hold #~!@#$Nº Nota #~!@#$Boleta #~!@#$
+TCashRegManager.grdPreSalesFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TCashRegManager.grdPreSalesIDPreSale=Hold #~!@#$Nº Nota Pendente~!@#$Boleta Pendiente #~!@#$
+TCashRegManager.grdPreSalesLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TCashRegManager.grdPreSalesPreSaleDate=Date~!@#$Data~!@#$Fecha~!@#$
+TCashRegManager.grdPreSalesTotInvoice=Total~!@#$Total~!@#$Total~!@#$
+TCashRegManager.Label1=Enter the hold # :~!@#$Entrar Nº Nota :~!@#$Entrar # Boleta Pendiente :~!@#$
+TCashRegManager.Label10=Sales options~!@#$Opções de vendas~!@#$Opciones de ventas~!@#$
+TCashRegManager.Label11=Press (Alt + number)~!@#$(Alt + número)~!@#$(Alt + número)~!@#$
+TCashRegManager.Label12=Shortcuts~!@#$Atalhos~!@#$Atajos~!@#$
+TCashRegManager.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TCashRegManager.Label2=Payment date :~!@#$Dia Pagamento :~!@#$Día de Pago ;~!@#$
+TCashRegManager.Label3=Function~!@#$Função~!@#$Función~!@#$
+TCashRegManager.Label4=Cash Register~!@#$Caixa Registradora~!@#$Caja Registradora~!@#$
+TCashRegManager.Label5=Press (Alt + number)~!@#$(Alt + número)~!@#$(Alt + número)~!@#$
+TCashRegManager.Label6=Shortcuts~!@#$Atalhos~!@#$Atajos~!@#$
+TCashRegManager.Label7=Invoices On Hold~!@#$Notas Pendentes~!@#$Boletas Pendientes~!@#$
+TCashRegManager.Label8=Setup~!@#$Configurar~!@#$Configuración~!@#$
+TCashRegManager.Label9=Invoice~!@#$Nota~!@#$Boleta~!@#$
+TCashRegManager.lbBudget=Budget~!@#$Orçamento~!@#$Presupuesto~!@#$
+TCashRegManager.lbCancelHold=Cancel Hold~!@#$Cancelar Pedido~!@#$Cancele Factura~!@#$
+TCashRegManager.lbCloseDay=Close Day~!@#$Fechar o dia~!@#$Cerrar día~!@#$
+TCashRegManager.lbConsultHold=Consult Hold~!@#$Consultar Pedidos~!@#$Consultar Facturas~!@#$
+TCashRegManager.lbFinalizeHold=Finalize Hold~!@#$Entrega feita~!@#$Complete Factura~!@#$
+TCashRegManager.lblCashInfo=Cash Register Manager~!@#$Caixa Registradora Gerente~!@#$Caja Registradora Gerente~!@#$
+TCashRegManager.lblCashOverLoad=CASH~!@#$FAZER~!@#$HACER~!@#$
+TCashRegManager.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TCashRegManager.lblOverLoad=OverLoad~!@#$DEPÓSITO~!@#$DEPOSITO~!@#$
+TCashRegManager.lblSubMenu=Cash Register Manager~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TCashRegManager.lbOpenHold=Create Hold~!@#$Criar Pedido~!@#$Cree Factura~!@#$
+TCashRegManager.lbOpenPOSHold=Create POS Hold~!@#$Criar Pedido PDV~!@#$Cree Factura POS~!@#$
+TCashRegManager.lbPrintDelivery=Print Delivery~!@#$Imprimir Entrega~!@#$Imprimir Entrega~!@#$
+TCashRegManager.lbSearchHold=Search Hold~!@#$Pedidos em aberto~!@#$Búsqueda Factura~!@#$
+TCashRegManager.pnInfo=Invoices On Hold~!@#$Notas Pendentes~!@#$Boletas Pendientes~!@#$
+TCashRegManager.sbSetupCashReg=Cash &Register~!@#$Caixa &Registradora~!@#$Caja &Registradora~!@#$
+TCashRegManager.SpeedButton1=(&1) View Inventory~!@#$(&1) Ver Estoque~!@#$(&1) Ver Estoque~!@#$
+TCashRegManager.SpeedButton2=(&2) Request~!@#$(2) Requisição do Vendedor~!@#$(&2) Requerimento~!@#$
+TCashRegManager.SpeedButton3=(&3) Time Clock~!@#$(&3) Ponto~!@#$(&3) Reloj Registrador~!@#$
+TCashRegManager.SpeedButton4=(&4) Customer~!@#$(&4) Cadastro de Clientes~!@#$(&4) Cliente~!@#$
+TCashRegManager.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TCashRegManager.TCashRegManager=CashRegister Manager~!@#$CaixaRegistradora Gerente~!@#$CajaRegistradora Gerente~!@#$
+TCashRegManager.tsFast=Fast!  ~!@#$Rápido!~!@#$Rápido!~!@#$
+TCashRegManager.grdCashDBTableView1Pessoa=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TCashRegManager.btnStoreAccount=(&9) Store Account~!@#$(&9) Conta Loja~!@#$(&9) Cuenta Tienda~!@#$
+TCashRegManager.btnStoreAcc=(&6) Store Account~!@#$(&6) Conta Loja~!@#$(&6) Cuenta Tienda~!@#$
+
+[DisplayLabels]
+TCashRegManager.quCashRegCashRegister=CashRegister~!@#$CaixaRegistradora~!@#$CajaRegistradora~!@#$
+TCashRegManager.quCashRegIDCashRegMov=IDCashRegMov~!@#$IDMovCaixaReg~!@#$IDMovCajaReg~!@#$
+TCashRegManager.quCashRegIDCashRegStatus=IDCashRegStatus~!@#$IDEstadoCaixaReg~!@#$IDEstadoCajaReg~!@#$
+TCashRegManager.quCashRegOpenTime=OpenTime~!@#$Hora Abertura~!@#$Hora Apertura~!@#$
+TCashRegManager.quCashRegSystemUser=SystemUser~!@#$UsuárioSistema~!@#$UsuarioSistema~!@#$
+TCashRegManager.quPreSaleFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TCashRegManager.quPreSaleIDPreSale=#~!@#$Nº~!@#$ID~!@#$
+TCashRegManager.quPreSaleLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TCashRegManager.quPreSalePessoa=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TCashRegManager.quPreSalePreSaleDate=Date~!@#$Data~!@#$Fecha~!@#$
+TCashRegManager.quPreSaleTotInvoice=Total~!@#$Total~!@#$Total~!@#$
+TCashRegManager.quTestRefreshInvoiceCount=InvoiceCount~!@#$ContarNotas~!@#$ContarBoletas~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TCashRegManager.rgFaixa.Items=Today,"All Holds",LayAway~!@#$Hoje,Pendentes,Crediário~!@#$Hoy,Pendientes,Crédito~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

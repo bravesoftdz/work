@@ -1,0 +1,13 @@
+In order to run powershell scripts, you may need to change some configuration
+parameters on your system. One method is to do the following:
+
+ * Start
+ * In the "Search programs and files" box, type "PowerShell" but do not press
+   the Enter key. Five entries should appear under the "Programs (5)" heading.
+ * Right click on "Windows PowerShell"
+ * Select "Run as administrator"
+ * Select "Yes" to the User Access Control
+ * Enter the following command in the PowerShell:
+   Set-ExecutionPolicy Bypass
+ * Enter "Y" at the prompt asking "Do you want to change the execution policy?"
+

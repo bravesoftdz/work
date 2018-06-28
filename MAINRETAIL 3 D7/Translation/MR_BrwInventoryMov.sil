@@ -1,0 +1,86 @@
+[Captions]
+TbrwInventoryMov.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwInventoryMov.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwInventoryMov.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwInventoryMov.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwInventoryMov.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwInventoryMov.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwInventoryMov.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwInventoryMov.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwInventoryMov.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwInventoryMov.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwInventoryMov.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwInventoryMov.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwInventoryMov.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwInventoryMov.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwInventoryMov.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwInventoryMov.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwInventoryMov.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwInventoryMov.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwInventoryMov.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwInventoryMov.Button1=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwInventoryMov.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwInventoryMov.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwInventoryMov.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwInventoryMov.grdBrowseDBCostPrice=CostPrice~!@#$Preço de Custo~!@#$Precio de Costo~!@#$
+TbrwInventoryMov.grdBrowseDBDocumentID=Doc. ID~!@#$Doc.ID~!@#$Doc.ID~!@#$
+TbrwInventoryMov.grdBrowseDBIDInventoryMov=IDInventoryMov~!@#$IDMovInventário~!@#$IDMovInventario~!@#$
+TbrwInventoryMov.grdBrowseDBMovDate=Mov Date~!@#$Data Mov~!@#$Fecha Mov~!@#$
+TbrwInventoryMov.grdBrowseDBName=Movement Type~!@#$Tipos de Movimento~!@#$Tipos de Movimientos~!@#$
+TbrwInventoryMov.grdBrowseDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwInventoryMov.grdBrowseDBSalePrice=Sold Price~!@#$Preço de Venta~!@#$Precio de Venta~!@#$
+TbrwInventoryMov.grdBrowseDBSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TbrwInventoryMov.grdBrowseDBSystemUser=System User~!@#$Usuário do Sistema~!@#$Usuario del Sistema~!@#$
+TbrwInventoryMov.hhh=~!@#$~!@#$~!@#$
+TbrwInventoryMov.Label15=User:~!@#$Usuário:~!@#$Usuario~!@#$
+TbrwInventoryMov.Label3=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TbrwInventoryMov.Label4=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwInventoryMov.Label5=Quantity On Hand~!@#$Qtd em Estoque~!@#$Ctd Existente~!@#$
+TbrwInventoryMov.Label6=Quantity On Order~!@#$Qtd Em Pedidos~!@#$Ctd En Pedidos~!@#$
+TbrwInventoryMov.Label7=Quantity On Hold~!@#$Qtd Pendentes~!@#$Ctd Pendientes~!@#$
+TbrwInventoryMov.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwInventoryMov.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwInventoryMov.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwInventoryMov.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwInventoryMov.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwInventoryMov.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwInventoryMov.quBrowseCostPrice=CostPrice~!@#$PreçoCusto~!@#$PrecioCosto~!@#$
+TbrwInventoryMov.quBrowseDocumentID=DocumentID~!@#$DocumentoID~!@#$DocumentoID~!@#$
+TbrwInventoryMov.quBrowseIDInventoryMov=IDInventoryMov~!@#$IDMovInventario~!@#$IDMovInventario~!@#$
+TbrwInventoryMov.quBrowseMovDate=MovDate~!@#$DataMov~!@#$FechaMov~!@#$
+TbrwInventoryMov.quBrowseName=Movement Type~!@#$Tipo de Movimento~!@#$Tipos de Movimientos~!@#$
+TbrwInventoryMov.quBrowseQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwInventoryMov.quBrowseSalePrice=SalePrice~!@#$PreçoVenda~!@#$PrecioVenta~!@#$
+TbrwInventoryMov.quBrowseSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TbrwInventoryMov.quBrowseSystemUser=SystemUser~!@#$UsuárioSistema~!@#$UsuarioSistema~!@#$
+TbrwInventoryMov.spQuantityQtyOnHand=QtyOnHand~!@#$QtdEmEstoque~!@#$CtdExistente~!@#$
+TbrwInventoryMov.spQuantityQtyOnOrder=QtyOnOrder~!@#$QtdEmPedidos~!@#$CtdEnPedidos~!@#$
+TbrwInventoryMov.spQuantityQtyOnPreSale=QtyOnPreSale~!@#$QtdEmNotasPendentes~!@#$CtdEnBoletasPendientes~!@#$
+
+[Hints]
+TbrwInventoryMov.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwInventoryMov.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwInventoryMov.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwInventoryMov.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwInventoryMov.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwInventoryMov.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwInventoryMov.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwInventoryMov.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwInventoryMov.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwInventoryMov.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwInventoryMov.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwInventoryMov.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwInventoryMov.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

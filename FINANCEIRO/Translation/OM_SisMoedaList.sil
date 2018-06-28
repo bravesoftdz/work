@@ -1,0 +1,132 @@
+[Captions]
+TSisMoedaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisMoedaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TSisMoedaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisMoedaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TSisMoedaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TSisMoedaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisMoedaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TSisMoedaList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TSisMoedaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisMoedaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisMoedaList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TSisMoedaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisMoedaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisMoedaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisMoedaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisMoedaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisMoedaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisMoedaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisMoedaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TSisMoedaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisMoedaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisMoedaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisMoedaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisMoedaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisMoedaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisMoedaList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TSisMoedaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisMoedaList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TSisMoedaList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TSisMoedaList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TSisMoedaList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TSisMoedaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisMoedaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisMoedaList.bbPadrao=Change default~!@#$Trocar Original~!@#$Cambiar Original~!@#$
+TSisMoedaList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisMoedaList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TSisMoedaList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TSisMoedaList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TSisMoedaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisMoedaList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TSisMoedaList.brwGridDataCotacao=Quotation Date~!@#$Data Cotação~!@#$Fecha Cotización~!@#$
+TSisMoedaList.brwGridMoeda=Currency~!@#$Moeda~!@#$Moneda~!@#$
+TSisMoedaList.brwGridMoedaPadrao=Default Currency~!@#$Moeda Original~!@#$Moneda Original~!@#$
+TSisMoedaList.brwGridSigla=Acronym~!@#$Sigla~!@#$Sigla~!@#$
+TSisMoedaList.brwGridValorMoedaPadrao=Actual Quotation~!@#$Cotação Atual~!@#$Cotización Actual~!@#$
+TSisMoedaList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TSisMoedaList.btExecuta=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TSisMoedaList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TSisMoedaList.cbxStatus=~!@#$~!@#$~!@#$
+TSisMoedaList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TSisMoedaList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisMoedaList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisMoedaList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisMoedaList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TSisMoedaList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisMoedaList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisMoedaList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TSisMoedaList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TSisMoedaList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TSisMoedaList.pnlDivisor=~!@#$~!@#$~!@#$
+TSisMoedaList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisMoedaList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TSisMoedaList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TSisMoedaList.pnlGenFilter=~!@#$~!@#$~!@#$
+TSisMoedaList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisMoedaList.TSisMoedaList=Moedas~!@#$Moedas~!@#$Monedas~!@#$
+TSisMoedaList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TSisMoedaList.quBrowseCodigoMoeda=Código~!@#$Código~!@#$Código~!@#$
+TSisMoedaList.quBrowseDataCotacao=Quotation Date~!@#$Data Cotação~!@#$Fecha Cotización~!@#$
+TSisMoedaList.quBrowseIDMoeda=IDMoeda~!@#$IDMoeda~!@#$IDMoneda~!@#$
+TSisMoedaList.quBrowseMoeda=Currency~!@#$Moeda~!@#$Moneda~!@#$
+TSisMoedaList.quBrowseMoedaPadrao=Default Currency~!@#$Moeda Original~!@#$Moneda Original~!@#$
+TSisMoedaList.quBrowseSigla=Acronym~!@#$Sigla~!@#$Sigla~!@#$
+TSisMoedaList.quBrowseValorMoedaPadrao=Actual Quotation~!@#$Cotação Atual~!@#$Cotización Actual~!@#$
+
+[Hints]
+TSisMoedaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisMoedaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TSisMoedaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisMoedaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TSisMoedaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TSisMoedaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisMoedaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TSisMoedaList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisMoedaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisMoedaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisMoedaList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TSisMoedaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisMoedaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisMoedaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisMoedaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisMoedaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisMoedaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisMoedaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisMoedaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TSisMoedaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisMoedaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisMoedaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisMoedaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisMoedaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisMoedaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisMoedaList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TSisMoedaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisMoedaList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TSisMoedaList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TSisMoedaList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TSisMoedaList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TSisMoedaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisMoedaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisMoedaList.bbPadrao=Change default~!@#$Trocar Original~!@#$Cambiar Original~!@#$
+TSisMoedaList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TSisMoedaList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TSisMoedaList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TSisMoedaList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TSisMoedaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisMoedaList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisMoedaList.brwGrid=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisMoedaList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

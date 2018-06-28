@@ -1,0 +1,1 @@
+<?xml version="1.0" standalone="yes"?>  <DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="IDTaxCategory" fieldtype="i4"/><FIELD attrname="TaxCategory" fieldtype="string" WIDTH="50"/><FIELD attrname="Tax" fieldtype="fixed" DECIMALS="4" WIDTH="19"/></FIELDS><PARAMS/></METADATA><ROWDATA></ROWDATA></DATAPACKET>

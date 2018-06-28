@@ -1,0 +1,67 @@
+[Captions]
+TFrmPagaVendedor.btAddCommission=Record Payment~!@#$Registrar Pagamento~!@#$Registrar Pago~!@#$
+TFrmPagaVendedor.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmPagaVendedor.btPreviewCommission=Print statement~!@#$Imprimir Info~!@#$Imprimir Info~!@#$
+TFrmPagaVendedor.btPrint=~!@#$~!@#$~!@#$
+TFrmPagaVendedor.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmPagaVendedor.DeletePayment1=&Delete Payment~!@#$&Eliminar Pagamento~!@#$&Eliminar Pago~!@#$
+TFrmPagaVendedor.grdPaymentDataLancamento=Data~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaVendedor.grdPaymentIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaVendedor.grdPaymentSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaVendedor.grdPaymentValorNominal=Total~!@#$Total~!@#$Total~!@#$
+TFrmPagaVendedor.Label1=Commission :~!@#$Comissão :~!@#$Comisión :~!@#$
+TFrmPagaVendedor.Label11=First select Salesperson and commission period below. Click GO.~!@#$Primeiro selecione o Vendedor e depois o período de comissão abaixo. Clique IR>~!@#$Primero seleccione el Vendedor y luego el período de comisión abajo. Presione IR.~!@#$
+TFrmPagaVendedor.Label12=Amount :~!@#$Quantía :~!@#$Monto :~!@#$
+TFrmPagaVendedor.Label13=Adjustments :~!@#$Ajustes :~!@#$Ajustes :~!@#$
+TFrmPagaVendedor.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmPagaVendedor.Label2=Payment Type :~!@#$Tipo Pagamento :~!@#$Tipo de Pago :~!@#$
+TFrmPagaVendedor.Label20=Payment Date :~!@#$Data Pagamento :~!@#$Fecha de Pago :~!@#$
+TFrmPagaVendedor.Label24=Debit :~!@#$Débito :~!@#$Débito :~!@#$
+TFrmPagaVendedor.Label25=To :~!@#$Até~!@#$Hasta~!@#$
+TFrmPagaVendedor.Label26=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmPagaVendedor.Label3=Then, click on RECORD PAYMENT to record and print payment.~!@#$Depois clique em REGISTRAR PAGAMENTO para registrar e imprimir o pagamento.~!@#$Después presione en REGISTRAR PAGO para registrar e imprimir el pago.~!@#$
+TFrmPagaVendedor.Label4=Sales Person :~!@#$Vendedor :~!@#$Vendedor :~!@#$
+TFrmPagaVendedor.Label5=Bank Account :~!@#$Conta Bancária :~!@#$Cuenta Bancária :~!@#$
+TFrmPagaVendedor.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmPagaVendedor.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmPagaVendedor.lblTip=To calculate and pay a Sales Person Commission:~!@#$Para calcular e pagar a comissão do Vendedor :~!@#$Para calcular y pagar la comisión del Vendedor :~!@#$
+TFrmPagaVendedor.Panel11=Payment History~!@#$Histórico Pagamento~!@#$Histórico de Pago~!@#$
+TFrmPagaVendedor.Panel6=Unpaid Commissions~!@#$Comissões não pagas~!@#$Comisiones sin Pagar~!@#$
+TFrmPagaVendedor.ppLabel1=Sales Person Commission~!@#$Comissão Vendedor~!@#$Comisión Vendedor~!@#$
+TFrmPagaVendedor.ppLabel10=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPagaVendedor.ppLabel14=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmPagaVendedor.ppLabel15=Commisssion~!@#$Comissão~!@#$Comisión~!@#$
+TFrmPagaVendedor.ppLabel2=Invoice #~!@#$Nº Nota~!@#$Boleta #~!@#$
+TFrmPagaVendedor.ppLabel3=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaVendedor.ppLabel4=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaVendedor.ppLabel5=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaVendedor.ppLabel6=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaVendedor.ppLabel7=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TFrmPagaVendedor.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmPagaVendedor.TFrmPagaVendedor=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TFrmPagaVendedor.quHistPagDataLancamento=DataLancamento~!@#$Data~!@#$FechaContabilización~!@#$
+TFrmPagaVendedor.quHistPagIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaVendedor.quHistPagUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaVendedor.quHistPagValorNominal=ValorNominal~!@#$Valor~!@#$ValorNominal~!@#$
+TFrmPagaVendedor.quSalesPersonCommisDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaVendedor.quSalesPersonCommisFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TFrmPagaVendedor.quSalesPersonCommisIDInvoice=IDInvoice~!@#$IDNota~!@#$IDBoleta~!@#$
+TFrmPagaVendedor.quSalesPersonCommisInvoiceDate=InvoiceDate~!@#$DataNota~!@#$FechaBoleta~!@#$
+TFrmPagaVendedor.quSalesPersonCommisLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmPagaVendedor.quSalesPersonCommisModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaVendedor.quSalesPersonCommisMovCommission=MovCommission~!@#$MovComissão~!@#$MovComisión~!@#$
+TFrmPagaVendedor.quSalesPersonCommisMovCost=MovCost~!@#$MovCusto~!@#$MovCosto~!@#$
+TFrmPagaVendedor.quSalesPersonCommisMovSale=MovSale~!@#$MovVendas~!@#$MovVentas~!@#$
+TFrmPagaVendedor.quSalesPersonCommisQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaVendedor.quSalesPersonCommisSalesPerson=SalesPerson~!@#$Vendedor~!@#$Vendedor~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

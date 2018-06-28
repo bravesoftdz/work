@@ -1,0 +1,1 @@
+<?xml version="1.0" standalone="yes"?>  <DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="IDDepartment" fieldtype="i4"/><FIELD attrname="Department" fieldtype="string" WIDTH="50"/></FIELDS><PARAMS/></METADATA><ROWDATA><ROW IDDepartment="0" Department="System Department"/></ROWDATA></DATAPACKET>

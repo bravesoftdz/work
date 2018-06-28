@@ -1,0 +1,103 @@
+[Captions]
+TSisEmpresaFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisEmpresaFch.btFchBrwDetalhe=&Detail~!@#$&Detalhes~!@#$&Detalles~!@#$
+TSisEmpresaFch.btFchBrwNovo=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TSisEmpresaFch.btFchBrwRemove=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TSisEmpresaFch.btFchBrwRestaura=&Restore~!@#$&Reestabelecer~!@#$&Restablecer~!@#$
+TSisEmpresaFch.grbFchBrwCodigoDepartamento=Depart. ID~!@#$Depat.ID~!@#$Depart.ID~!@#$
+TSisEmpresaFch.grbFchBrwDepartamento=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSisEmpresaFch.grdGrupoGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisEmpresaFch.grdGrupoPermissao=Permissao~!@#$Autorização~!@#$Autorización~!@#$
+TSisEmpresaFch.GroupBox1= Alíquotas de Impostos ~!@#$ Alíquotas de Impostos ~!@#$Porcentaje de Impuestos~!@#$
+TSisEmpresaFch.GroupBox2= Notas fiscais de serviços ~!@#$ Notas fiscais de serviços ~!@#$Facturas de Servicios~!@#$
+TSisEmpresaFch.GroupBox3= Notas fiscais de movimentação ~!@#$ Notas fiscais de movimentação ~!@#$Movimiento de Facturas~!@#$
+TSisEmpresaFch.Label16=Setup which user group has access to this company~!@#$Organizar qual usuário pode acessar esta empresa.~!@#$Organizar cuál usuario puede accesar a esta empresa.~!@#$
+TSisEmpresaFch.Label17=ISS :~!@#$ISS :~!@#$IVA :~!@#$
+TSisEmpresaFch.Label18=Confins :~!@#$Confins :~!@#$Límites :~!@#$
+TSisEmpresaFch.Label19=PIS :~!@#$PIS :~!@#$Fondo de Ayuda al Empleado :~!@#$
+TSisEmpresaFch.Label2=Code :~!@#$Código :~!@#$Código :~!@#$
+TSisEmpresaFch.Label20=Contribuição Social :~!@#$Contribuição Social :~!@#$Donaciones :~!@#$
+TSisEmpresaFch.Label21=Última Fatura de Serviços :~!@#$Última Fatura de Serviços :~!@#$Ultima Factura de Servicios :~!@#$
+TSisEmpresaFch.Label22=A próxima fatura emitida pelo sistema, será igual a este valor mais um.~!@#$A próxima fatura emitida pelo sistema, será igual a este valor mais um.~!@#$La próxima factura emitida por el sistema, será igual a este valor más uno.~!@#$
+TSisEmpresaFch.Label23=Perncentual de retenção de INSS :~!@#$Percentual de retenção de INSS :~!@#$Porcentaje de retención de Servicio Salud :~!@#$
+TSisEmpresaFch.Label25=Último # Formulário :~!@#$Último # Formulário :~!@#$Ultimo # Formulario :~!@#$
+TSisEmpresaFch.Label26=Modelo :~!@#$Modelo :~!@#$Modelo :~!@#$
+TSisEmpresaFch.Label27=Modelo :~!@#$Modelo :~!@#$Modelo :~!@#$
+TSisEmpresaFch.Label28=na porta :~!@#$na porta :~!@#$en la puerta :~!@#$
+TSisEmpresaFch.Label29=na porta :~!@#$na porta :~!@#$en la puerta :~!@#$
+TSisEmpresaFch.Label3=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TSisEmpresaFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisEmpresaFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TSisEmpresaFch.lblPTitulo=Company~!@#$Empresa~!@#$Empresa~!@#$
+TSisEmpresaFch.lblPTituloShadow=Company~!@#$Empresa~!@#$Empresa~!@#$
+TSisEmpresaFch.pnlBrwTitle=  Departments~!@#$Departamentos~!@#$Departamentos~!@#$
+TSisEmpresaFch.tsBrowse=  Departamentos  ~!@#$Departamentos~!@#$Departamentos~!@#$
+TSisEmpresaFch.tsCadastro=  Company  ~!@#$Empresa~!@#$Empresa~!@#$
+TSisEmpresaFch.tsControleAcesso=  Access control  ~!@#$Controle de Acesso~!@#$Control Acceso~!@#$
+TSisEmpresaFch.TSisEmpresaFch=SisEmpresaFch~!@#$SisEmpresaFch~!@#$SisEmpresaFch~!@#$
+TSisEmpresaFch.tsTributos=  Configurações fiscais ~!@#$  Configurações fiscais ~!@#$Configuraciones Fiscales~!@#$
+TSisEmpresaFch.btOpenLogo=Change~!@#$Mudar~!@#$Mudar~!@#$
+TSisEmpresaFch.lbLegalName=Legal Name :~!@#$Razão Social :~!@#$Razão Social :~!@#$
+TSisEmpresaFch.lbDBA=DBA :~!@#$Nome Fantazia :~!@#$Nome Fantazia :~!@#$
+TSisEmpresaFch.lbCNPJ=Federal ID :~!@#$CNPJ :~!@#$CNPJ :~!@#$
+TSisEmpresaFch.lbIE=Estate #:~!@#$I.E. :~!@#$I.E. :~!@#$
+TSisEmpresaFch.lbIM=Local #:~!@#$I.M. :~!@#$I.M. :~!@#$
+TSisEmpresaFch.lbAddress=Address :~!@#$Endereço :~!@#$Endereço :~!@#$
+TSisEmpresaFch.lbCompl=Complement:~!@#$Complemento :~!@#$Complemento :~!@#$
+TSisEmpresaFch.lbNeig=Nghbor :~!@#$Bairro :~!@#$Bairro :~!@#$
+TSisEmpresaFch.lbCEP=ZIP:~!@#$CEP :~!@#$CEP :~!@#$
+TSisEmpresaFch.lbCity=City :~!@#$Cidade :~!@#$Cidade :~!@#$
+TSisEmpresaFch.lbCountry=Country :~!@#$País :~!@#$País :~!@#$
+TSisEmpresaFch.lbState=State :~!@#$UF :~!@#$UF :~!@#$
+TSisEmpresaFch.lbMunicipio=Inter-State :~!@#$Municipio :~!@#$Municipio :~!@#$
+TSisEmpresaFch.lbTel=Phone :~!@#$Tel. :~!@#$Tel. :~!@#$
+TSisEmpresaFch.lbContact=Contact :~!@#$Contato :~!@#$Contato :~!@#$
+
+
+[DisplayLabels]
+TSisEmpresaFch.quFchBrwCodigoDepartamento=CodigoDepartamento~!@#$CódigoDepartamento~!@#$CódigoDepartamento~!@#$
+TSisEmpresaFch.quFchBrwDepartamento=Departamento~!@#$Departamento~!@#$Departamento~!@#$
+TSisEmpresaFch.quFchBrwIDDepartamento=IDDepartamento~!@#$IDDepartamento~!@#$IDDepartamento~!@#$
+TSisEmpresaFch.quFchBrwIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TSisEmpresaFch.quFormBairro=Bairro~!@#$Bairro~!@#$Comuna~!@#$
+TSisEmpresaFch.quFormCEP=CEP~!@#$CEP~!@#$C.Postal~!@#$
+TSisEmpresaFch.quFormCGC=CGC~!@#$CGC~!@#$Identidad~!@#$
+TSisEmpresaFch.quFormCidade=Cidade~!@#$Cidade~!@#$Ciudad~!@#$
+TSisEmpresaFch.quFormCodigoEmpresa=Code~!@#$Código~!@#$Código~!@#$
+TSisEmpresaFch.quFormConfins=Confins~!@#$Confins~!@#$Límites~!@#$
+TSisEmpresaFch.quFormContribuicaoSocial=ContribuicaoSocial~!@#$Contribuição Social~!@#$Donaciones~!@#$
+TSisEmpresaFch.quFormCoplemento=Coplemento~!@#$Complemento~!@#$Complemento~!@#$
+TSisEmpresaFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TSisEmpresaFch.quFormEmpresa=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSisEmpresaFch.quFormEndereco=Endereco~!@#$Endereço~!@#$Dirección~!@#$
+TSisEmpresaFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TSisEmpresaFch.quFormIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TSisEmpresaFch.quFormInscricaoEstadual=InscricaoEstadual~!@#$InscriçãoEstadual~!@#$Inscripción~!@#$
+TSisEmpresaFch.quFormInscricaoMunicipal=InscricaoMunicipal~!@#$InscriçãoMunicipal~!@#$InscripciónMunicipal~!@#$
+TSisEmpresaFch.quFormISS=ISS~!@#$ISS~!@#$IVA~!@#$
+TSisEmpresaFch.quFormNFModeloFormulario=NFModeloFormulario~!@#$NFModeloFormulário~!@#$NFModeloFormulario~!@#$
+TSisEmpresaFch.quFormNFSModeloFormulario=NFSModeloFormulario~!@#$NFSModeloFormulário~!@#$NFSModeloFormulario~!@#$
+TSisEmpresaFch.quFormNFSPorta=NFSPorta~!@#$NFSPorta~!@#$NFSPuerta~!@#$
+TSisEmpresaFch.quFormPais=Pais~!@#$País~!@#$País~!@#$
+TSisEmpresaFch.quFormPercRetencaoINSS=PercRetencaoINSS~!@#$%RetençãoINSS~!@#$%RetenciónServSalud~!@#$
+TSisEmpresaFch.quFormPIS=PIS~!@#$PIS~!@#$Fondo Ayuda Empleado~!@#$
+TSisEmpresaFch.quFormPorta=Porta~!@#$Porta~!@#$Puerta~!@#$
+TSisEmpresaFch.quFormRazaoSocial=RazaoSocial~!@#$RazãoSocial~!@#$RazónSocial~!@#$
+TSisEmpresaFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TSisEmpresaFch.quFormUltimaFatura=UltimaFatura~!@#$UltimaFatura~!@#$UltimaFactura~!@#$
+TSisEmpresaFch.quFormUltimoNumeroFormulario=UltimoNumeroFormulario~!@#$UltimoNúmeroFormulário~!@#$UltimoNúmeroFormulario~!@#$
+TSisEmpresaFch.quGrupoGrupo=Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TSisEmpresaFch.quGrupoIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TSisEmpresaFch.quGrupoIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisEmpresaFch.quGrupoPermissao=Permissao~!@#$Autorização~!@#$Autorización~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisEmpresaFch.DBComboBox1.Items="Suporte Inf.","Help Desk"~!@#$"Inf. de Ajuda","Serviço ao Cliente"~!@#$"Inf de Ayuda","Servicio al Cliente"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

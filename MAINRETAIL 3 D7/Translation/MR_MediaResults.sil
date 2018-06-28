@@ -1,0 +1,63 @@
+[Captions]
+TMediaResults.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TMediaResults.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TMediaResults.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TMediaResults.grdCategDBCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TMediaResults.grdCategDBCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TMediaResults.grdCategDBProfit=Profit~!@#$Margem~!@#$Ganancias~!@#$
+TMediaResults.grdCategDBSale=Sale~!@#$Venda~!@#$Venta~!@#$
+TMediaResults.gridMediaDBAvgInvoice=AvgInv~!@#$Ticket Médio~!@#$PromBoletas~!@#$
+TMediaResults.gridMediaDBInvoiceDate=InvoiceDate~!@#$Data~!@#$Fecha~!@#$
+TMediaResults.gridMediaDBInvoices=# Inv~!@#$Qtd Vendida~!@#$Nº Boleta~!@#$
+TMediaResults.gridMediaDBSales=Sales~!@#$Vendas~!@#$Ventas~!@#$
+TMediaResults.Label14=Total Profit :~!@#$Margem :~!@#$Total Ganancias :~!@#$
+TMediaResults.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TMediaResults.Label16=Total Sale:~!@#$Total Vendas :~!@#$Total Ventas :~!@#$
+TMediaResults.Label2=Media :~!@#$Mídia :~!@#$Medios :~!@#$
+TMediaResults.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TMediaResults.Label7=Total Cost :~!@#$Total Custo :~!@#$Total Costo :~!@#$
+TMediaResults.Label8=to~!@#$Até~!@#$Hasta~!@#$
+TMediaResults.Label9=From~!@#$Desde~!@#$Desde~!@#$
+TMediaResults.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TMediaResults.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TMediaResults.lbResult=Avg~!@#$Ticket Médio~!@#$Promedio~!@#$
+TMediaResults.lbTax=Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TMediaResults.Panel6=Total by Media~!@#$Total por Mídia~!@#$Total por Medios~!@#$
+TMediaResults.pnlLancDocTitle=Total Sales by Category~!@#$Vendas Totais por Categoria~!@#$Total Ventas por Categoría~!@#$
+TMediaResults.SBtnClear1=No~!@#$Não~!@#$No~!@#$
+TMediaResults.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TMediaResults.TMediaResults=MediaResults~!@#$ResultadosMídia~!@#$ResultadosMedios~!@#$
+TMediaResults.tsAllMedia=All Medias~!@#$Todas Mídias~!@#$Todos Medios~!@#$
+TMediaResults.tsMedia=Media~!@#$Mídia~!@#$Medios~!@#$
+
+[DisplayLabels]
+TMediaResults.dstAllMediaProfitCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TMediaResults.dstAllMediaProfitProfit=Profit~!@#$Lucro~!@#$Utilidades~!@#$
+TMediaResults.dstAllMediaProfitSale=Sale~!@#$Vendas~!@#$Ventas~!@#$
+TMediaResults.dstAllMediasIDMedia=IDMedia~!@#$IDMídia~!@#$IDMedios~!@#$
+TMediaResults.dstAllMediasMedia=Media~!@#$Mídia~!@#$Medios~!@#$
+TMediaResults.dstAllMediasProfit=Profit~!@#$Lucro~!@#$Utilidades~!@#$
+TMediaResults.dstMediaAvgInvoice=AvgInvoice~!@#$MédiaNotas~!@#$PromBoletas~!@#$
+TMediaResults.dstMediaInvoiceDate=InvoiceDate~!@#$DataNota~!@#$FechaBoleta~!@#$
+TMediaResults.dstMediaInvoices=Invoices~!@#$Notas~!@#$Boletas~!@#$
+TMediaResults.dstMediaSales=Sales~!@#$Vendas~!@#$Ventas~!@#$
+TMediaResults.dstProfitCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TMediaResults.dstProfitCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TMediaResults.dstProfitProfit=Profit~!@#$Lucro~!@#$Utilidades~!@#$
+TMediaResults.dstProfitSale=Sale~!@#$Venda~!@#$Venta~!@#$
+
+[Hints]
+TMediaResults.sbShowBar=Show Bar~!@#$Mostrar Barra~!@#$Mostrar Barra~!@#$
+TMediaResults.sbShowPie=Show Pie~!@#$Mostrar Torta~!@#$Mostrar Torta~!@#$
+TMediaResults.SBtnClear1=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TMediaResults.SBtnPercent1=Percent~!@#$Porcentagem~!@#$Porcentaje~!@#$
+TMediaResults.SbtnValue1=Amount~!@#$Quantía~!@#$Monto~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

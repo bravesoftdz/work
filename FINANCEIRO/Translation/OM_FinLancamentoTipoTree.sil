@@ -1,0 +1,37 @@
+[Captions]
+TFinLancamentoTipoTree.bbNovoItem=New Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinLancamentoTipoTree.bbNovoSubItem=New Sub Item~!@#$Novo Sub Item~!@#$Nuevo Sub Item~!@#$
+TFinLancamentoTipoTree.bbRemoveItem=Remove Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinLancamentoTipoTree.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFinLancamentoTipoTree.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTree.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTree.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTree.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinLancamentoTipoTree.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinLancamentoTipoTree.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTree.pnlFicha=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTree.TFinLancamentoTipoTree=FinLancamentoTipoTree~!@#$FinLançamentoTipoTree~!@#$FinContabilizaciónTipoTree~!@#$
+
+[DisplayLabels]
+TFinLancamentoTipoTree.quTreeViewCodigoContabil=CodigoContabil~!@#$CódigoContabilidade~!@#$CódigoContabilidade~!@#$
+TFinLancamentoTipoTree.quTreeViewIDLancamentoTipo=IDLancamentoTipo~!@#$IDTipoLançamento~!@#$IDTipoContabilización~!@#$
+TFinLancamentoTipoTree.quTreeViewImageIndex=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagen~!@#$
+TFinLancamentoTipoTree.quTreeViewLancamentoTipo=LancamentoTipo~!@#$TipoLançamento~!@#$TipoContabilización~!@#$
+TFinLancamentoTipoTree.quTreeViewPath=Path~!@#$Localização~!@#$Localización~!@#$
+TFinLancamentoTipoTree.quTreeViewPathName=PathName~!@#$NomeLocalização~!@#$NombreLocalización~!@#$
+TFinLancamentoTipoTree.quTreeViewSelectedIndex=SelectedIndex~!@#$IndiceSelecionado~!@#$IndiceSeleccionado~!@#$
+
+[Hints]
+TFinLancamentoTipoTree.bbNovoItem=New Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinLancamentoTipoTree.bbNovoSubItem=New Sub Item~!@#$Novo Sub Item~!@#$Nuevo Sub Item~!@#$
+TFinLancamentoTipoTree.bbRemoveItem=Remove Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinLancamentoTipoTree.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

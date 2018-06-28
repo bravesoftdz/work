@@ -1,0 +1,14 @@
+<?xml version = "1.0" standalone = "yes"?>
+<DATAPACKET Version = "2.0">
+            <METADATA>
+                      <FIELDS>
+                              <FIELD attrname = "CreationTime" fieldtype = "DateTime"/>
+                              <FIELD attrname = "Version" fieldtype = "string" WIDTH = "10"/>
+                      </FIELDS>
+                      <PARAMS/>
+            </METADATA>
+            <ROWDATA>
+                     <ROW CreationTime = "20110323T224736" Version = "3289"/>
+            </ROWDATA>
+</DATAPACKET>
+

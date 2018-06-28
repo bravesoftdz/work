@@ -1,0 +1,21 @@
+[Captions]
+TFrmMarginTableApply.Aplicar=&Ok~!@#$Aplicar~!@#$Aplicar~!@#$
+TFrmMarginTableApply.Cancelar=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmMarginTableApply.lbQuestion=It would like to calculate the edge~!@#$Gostaria de calcular a margem~!@#$Quisiera calcular el borde~!@#$
+TFrmMarginTableApply.lbQuestion2=It would like to calculate the edge~!@#$Gostaria de calcular a margem~!@#$Quisiera calcular el borde~!@#$
+TFrmMarginTableApply.pnMSRP=MSRP~!@#$Preço Sugerido~!@#$Precio Sugerido~!@#$
+TFrmMarginTableApply.pnSalePrice=Sale Price~!@#$Preço de Venda~!@#$Precio de Venta ~!@#$
+TFrmMarginTableApply.TFrmMarginTableApply=Margin Table Apply~!@#$Aplicar Margem~!@#$Aplicar Margem~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmMarginTableApply.cbMSRP.Items="With percentage","With band of price"~!@#$"Com porcentagem","Com a faixa do preço"~!@#$"Con porcentaje","Con la venda del precio"~!@#$
+TFrmMarginTableApply.cbSalePrice.Items="With percentage","With band of price"~!@#$"Com porcentagem","Com a faixa do preço"~!@#$"Con porcentaje","Con la venda del precio"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,100 @@
+[Captions]
+TFrmNewPOAuto.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmNewPOAuto.btColumn=Columns~!@#$Colunas~!@#$Columnas~!@#$
+TFrmNewPOAuto.btCreatePO=Create PO~!@#$Criar PO~!@#$Cree PO~!@#$
+TFrmNewPOAuto.btDetail=Detail~!@#$Detalhes~!@#$Detalle~!@#$
+TFrmNewPOAuto.btExport=Export~!@#$Exportar~!@#$Exportación~!@#$
+TFrmNewPOAuto.btFabricanteAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmNewPOAuto.btGroup=Grouping~!@#$Agrupar~!@#$Agrupar~!@#$
+TFrmNewPOAuto.btnAllVendor=All~!@#$Todos~!@#$Todos~!@#$
+TFrmNewPOAuto.btnCategClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmNewPOAuto.btnGroupClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmNewPOAuto.btnItemsDetail=Detail~!@#$Detalhes~!@#$Detalle~!@#$
+TFrmNewPOAuto.btnSubGroupClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmNewPOAuto.btPOColumn=Columns~!@#$Colunas~!@#$Columnas~!@#$
+TFrmNewPOAuto.btPOGroup=Grouping~!@#$Agrupar~!@#$Agrupar~!@#$
+TFrmNewPOAuto.btRemoveItem=Remove~!@#$Remover~!@#$Quite~!@#$
+TFrmNewPOAuto.btSearch=&Search~!@#$&Procurar~!@#$&Busquear~!@#$
+TFrmNewPOAuto.btSelectAll=Select all~!@#$Marcar todos~!@#$Seleccione todos~!@#$
+TFrmNewPOAuto.btUnSelectAll=Un select all~!@#$Desmarcar todos~!@#$Deseleccione todos~!@#$
+TFrmNewPOAuto.cbShowLegend=Show~!@#$Exibir~!@#$Demostración ~!@#$
+TFrmNewPOAuto.cbxPrimaryVendor=Only primary vendor~!@#$Somente fornec. primário~!@#$Solamente vend. primario ~!@#$
+TFrmNewPOAuto.gbLegend=Legend~!@#$Legenda~!@#$Leyenda ~!@#$
+TFrmNewPOAuto.grdPODBIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFrmNewPOAuto.grdPODBIDVendor=IDVendor~!@#$IDFornecedor~!@#$IDProvedor~!@#$
+TFrmNewPOAuto.grdPODBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmNewPOAuto.grdPODBVendor=Vendor~!@#$Fornecedor~!@#$Provedor~!@#$
+TFrmNewPOAuto.grdPOFilterDBAvgSaleMonth=Month Sale Avg~!@#$Média de Venda Mensal~!@#$Promedio de la venta del mes~!@#$
+TFrmNewPOAuto.grdPOFilterDBAvgSaleQty=Avg Sale~!@#$Média Venda~!@#$Media Venta~!@#$
+TFrmNewPOAuto.grdPOFilterDBAvgSaleWeek=Week Sale Avg~!@#$Média de Venda Semanal~!@#$Promedio de la venta de la semana ~!@#$
+TFrmNewPOAuto.grdPOFilterDBCaseQty=Case Qty~!@#$Qtd Emb.~!@#$Ctd Emb.~!@#$
+TFrmNewPOAuto.grdPOFilterDBCaseQtyOrdered=Case Qty Ordered~!@#$Qtd Emb. Req.~!@#$Ctd Emb. Req.~!@#$
+TFrmNewPOAuto.grdPOFilterDBCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmNewPOAuto.grdPOFilterDBClasseABC=Class ABC~!@#$Classe ABC~!@#$Clase ABC~!@#$
+TFrmNewPOAuto.grdPOFilterDBDateRequest=Req. Date~!@#$Data Req.~!@#$Data Req.~!@#$
+TFrmNewPOAuto.grdPOFilterDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmNewPOAuto.grdPOFilterDBExtCost=Ext Cost~!@#$Custo Ext.~!@#$Costo Ext.~!@#$
+TFrmNewPOAuto.grdPOFilterDBFinalCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TFrmNewPOAuto.grdPOFilterDBManufacture=Manufact~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmNewPOAuto.grdPOFilterDBMaxQty=Max Qty~!@#$Qtd Max~!@#$Ctd Max~!@#$
+TFrmNewPOAuto.grdPOFilterDBMGroup=Group~!@#$Sub-grupo~!@#$Sub-grupo~!@#$
+TFrmNewPOAuto.grdPOFilterDBMinQty=Mim Qty~!@#$Qtd Min~!@#$Ctd Min~!@#$
+TFrmNewPOAuto.grdPOFilterDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmNewPOAuto.grdPOFilterDBMSRP=Sugg. retail~!@#$Preço Sug~!@#$Precio Sug~!@#$
+TFrmNewPOAuto.grdPOFilterDBQtyOnHand=OnHand~!@#$Em Estoq.~!@#$Ctd Tienda~!@#$
+TFrmNewPOAuto.grdPOFilterDBQtyOnOrder=Qty On Order~!@#$Qtd em Pedido~!@#$Qty On Order~!@#$
+TFrmNewPOAuto.grdPOFilterDBQtyOrdered=Qty Ordered~!@#$Qtd Req.~!@#$Ctd Ordenada~!@#$
+TFrmNewPOAuto.grdPOFilterDBQtySold=Qty Sold~!@#$Qtd Vendida~!@#$Ctd Venta~!@#$
+TFrmNewPOAuto.grdPOFilterDBQtyToOrder=Qty Ordered~!@#$Qtd Req.~!@#$Ctd Ordenada~!@#$
+TFrmNewPOAuto.grdPOFilterDBSellingPrice=Our price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmNewPOAuto.grdPOFilterDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmNewPOAuto.grdPOFilterDBSubCategory=Sub-category~!@#$Grupo~!@#$Grupo~!@#$
+TFrmNewPOAuto.grdPOFilterDBSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmNewPOAuto.grdPOFilterDBTotQtyOnHand=Total Qty~!@#$Qtd Total~!@#$Ctd Total~!@#$
+TFrmNewPOAuto.grdPOFilterDBUnitType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFrmNewPOAuto.grdPOFilterDBVendor=Vendor~!@#$Fornecedor~!@#$Provedor~!@#$
+TFrmNewPOAuto.grdPOFilterDBBarcode=Barcode~!@#$Cód. Barras~!@#$Cod. Barras~!@#$
+TFrmNewPOAuto.grdPOItemDBCaseQtyOrdered=Case Qty Ordered~!@#$Qtd Emb. Req.~!@#$Ctd Emb. Req.~!@#$
+TFrmNewPOAuto.grdPOItemDBCostPrice=Cost~!@#$Custo~!@#$Costo~!@#$
+TFrmNewPOAuto.grdPOItemDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmNewPOAuto.grdPOItemDBIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFrmNewPOAuto.grdPOItemDBIDVendor=IDVendor~!@#$IDFornecedor~!@#$IDProvedor~!@#$
+TFrmNewPOAuto.grdPOItemDBModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmNewPOAuto.grdPOItemDBModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmNewPOAuto.grdPOItemDBQtyOrdered=Qty Ordered~!@#$Qtd Req.~!@#$Ctd Ordenada~!@#$
+TFrmNewPOAuto.grdPOItemDBSalePrice=Our price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmNewPOAuto.grdPOItemDBSuggRetail=Sugg. retail~!@#$Preço Sug~!@#$Precio Sug~!@#$
+TFrmNewPOAuto.grdPOFilterDBQtyPositiveOrdered=Qty Positive Ordered~!@#$Qtd Positiva Req.~!@#$Ctd Positiva Ordenada~!@#$
+TFrmNewPOAuto.grdPOFilterDBWeight=Weight~!@#$Peso~!@#$Peso~!@#$
+TFrmNewPOAuto.grdPOFilterDBExtWeight=Total Weight~!@#$Peso Total~!@#$Peso Total~!@#$
+TFrmNewPOAuto.lblCategory=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TFrmNewPOAuto.lblEstArrival=Est. arriv. :~!@#$ChegAprox :~!@#$Lleg. aprox. :~!@#$
+TFrmNewPOAuto.lblGroup=Sub-category :~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmNewPOAuto.lblManufect=Manufecturer :~!@#$Fabricante :~!@#$~!@#$
+TFrmNewPOAuto.lblObs=Obs :~!@#$Obs :~!@#$Obs :~!@#$
+TFrmNewPOAuto.lblOrderDate=Ordered on :~!@#$Pedido em :~!@#$Pedido el :~!@#$
+TFrmNewPOAuto.lblPayDays=Pay in (days) :~!@#$Pagar em (dias) :~!@#$Paga adentro (días) :~!@#$
+TFrmNewPOAuto.lblPOInfo=PO Info~!@#$PO Info~!@#$PO Info~!@#$
+TFrmNewPOAuto.lblRequest=Request :~!@#$Requisição :~!@#$Petición :~!@#$
+TFrmNewPOAuto.lblStore=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmNewPOAuto.lblSubGroup=Group :~!@#$Sub-grupo :~!@#$Sub-grupo :~!@#$
+TFrmNewPOAuto.lblTotal=PO Total Due: 0.00~!@#$Total Pedido :~!@#$Total Pedido :~!@#$
+TFrmNewPOAuto.lblVendor=Vendor :~!@#$Fornec. :~!@#$Prov. :~!@#$
+TFrmNewPOAuto.lbOnPO=On Order~!@#$Em Pedido~!@#$En orden ~!@#$
+TFrmNewPOAuto.lbSales=Sales since :~!@#$Vendas Desde :~!@#$Venta :~!@#$
+TFrmNewPOAuto.lbWeight=Weight :~!@#$Peso :~!@#$Peso :~!@#$
+TFrmNewPOAuto.lbMinPO=Min PO :~!@#$Mín OC :~!@#$Min OC :~!@#$
+
+
+[Hints]
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmNewPOAuto.cbxReqType.Items=All,Computer,"Sales Person",HandHeld~!@#$Todas,Computador,Vendedor,Coletor~!@#$Todas,Computador,Vendedor,Coletor~!@#$
+TFrmNewPOAuto.cmbList.Items="Min/Max Qty","Auto Request","Sales Qty","All Inventory"~!@#$"Qtd Min/Max","Auto Req.","Qtd Vendas","Todo Estoque"~!@#$"Ctd Min/Max","Auto Req.","Ctd Ventas","Todo Estoque"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

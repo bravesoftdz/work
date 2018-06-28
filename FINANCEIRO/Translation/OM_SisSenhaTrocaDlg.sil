@@ -1,0 +1,58 @@
+[Captions]
+TSisSenhaTrocaDlg.btCancel=Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TSisSenhaTrocaDlg.btOk=Change~!@#$Trocar~!@#$Cambiar~!@#$
+TSisSenhaTrocaDlg.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.Label1=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TSisSenhaTrocaDlg.Label2=Actual password :~!@#$Senha Atual :~!@#$Contraseña Actual :~!@#$
+TSisSenhaTrocaDlg.Label3=New password :~!@#$Nova Senha :~!@#$Nueva Contraseña :~!@#$
+TSisSenhaTrocaDlg.Label4=Confirm the new password :~!@#$Confirmar nova senha :~!@#$Confirmar nueva contraseña :~!@#$
+TSisSenhaTrocaDlg.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.pnlPBarra=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TSisSenhaTrocaDlg.TSisSenhaTrocaDlg=Change Password~!@#$Trocar Senha~!@#$Cambiar Contraseña~!@#$
+
+[Dialogs]
+TSisSenhaTrocaDlg.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TSisSenhaTrocaDlg.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TSisSenhaTrocaDlg.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisSenhaTrocaDlg.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TSisSenhaTrocaDlg.Error=Error~!@#$Erro~!@#$Error~!@#$
+TSisSenhaTrocaDlg.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TSisSenhaTrocaDlg.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TSisSenhaTrocaDlg.Information=Information~!@#$Informação~!@#$Información~!@#$
+TSisSenhaTrocaDlg.No=&No~!@#$&Não~!@#$&No~!@#$
+TSisSenhaTrocaDlg.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TSisSenhaTrocaDlg.OK=OK~!@#$OK~!@#$OK~!@#$
+TSisSenhaTrocaDlg.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TSisSenhaTrocaDlg.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TSisSenhaTrocaDlg.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TSisSenhaTrocaDlg.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TSisSenhaTrocaDlg.Currency String=$~!@#$$~!@#$$~!@#$
+TSisSenhaTrocaDlg.Date Separator=/~!@#$/~!@#$/~!@#$
+TSisSenhaTrocaDlg.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TSisSenhaTrocaDlg.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TSisSenhaTrocaDlg.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TSisSenhaTrocaDlg.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TSisSenhaTrocaDlg.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TSisSenhaTrocaDlg.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TSisSenhaTrocaDlg.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TSisSenhaTrocaDlg.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TSisSenhaTrocaDlg.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TSisSenhaTrocaDlg.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TSisSenhaTrocaDlg.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TSisSenhaTrocaDlg.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TSisSenhaTrocaDlg.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

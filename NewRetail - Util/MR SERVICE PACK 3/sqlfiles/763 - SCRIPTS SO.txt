@@ -1,0 +1,28 @@
+INSERT Ser_SOStatus (IDSOStatus, SOStatus, Color, System)
+VALUES (1, 'Open', '$00804000', 1)
+GO
+
+INSERT Ser_SOStatus (IDSOStatus, SOStatus, Color, System)
+VALUES (2, 'Closed', '$00408000', 1)
+GO
+
+Delete Sis_CodigoIncremental
+Where Tabela = 'Ser_SOStatus.IDSOStatus'
+GO
+
+INSERT Sis_CodigoIncremental (Tabela, UltimoCodigo)
+VALUES ('Ser_SOStatus.IDSOStatus', 2)
+GO
+
+INSERT Ser_SOStatus (IDSOStatus, SOStatus, Color, System, Hidden, Desativado)
+VALUES (0, '', '', 1, 1, 0)
+GO
+
+Update Sis_CodigoIncremental
+Set UltimoCodigo = 50
+Where Tabela = 'InventoryMovType.IDInventMovType'
+GO
+
+INSERT InventoryMovType (IDInventMovType, Name, Entrando, System, Desativado, Hidden, UpdateOnHand, UpdatePreOnPreSale)
+VALUES (50, 'Service Order', 0, 1, 0, 0, 0, 1)
+GO

@@ -1,0 +1,116 @@
+[Captions]
+FrmInventoryCount.gridBarcodesDBCountDate=CountDate~!@#$Data Contagem~!@#$Fecha Cuenta~!@#$
+FrmInventoryCount.gridBarcodesDBCounted=Counted~!@#$Contado~!@#$Contado~!@#$
+FrmInventoryCount.gridBarcodesDBDiffer=Differ~!@#$Diferença~!@#$Diferencie~!@#$
+FrmInventoryCount.gridBarcodesDBIDBarcode=IDBarcode~!@#$Cod. barras~!@#$Cod. barras~!@#$
+FrmInventoryCount.gridBarcodesDBQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TFrmInventoryCount.btAdd=Add~!@#$Adicionar~!@#$Agregue~!@#$
+TFrmInventoryCount.btAdjust=&Save~!@#$&Salvar~!@#$&Guardar~!@#$
+TFrmInventoryCount.btClose=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmInventoryCount.btCloseInvCount=Close inventory count~!@#$Fechar contagem~!@#$Cerrar contagem~!@#$
+TFrmInventoryCount.btCustomizeColumns=Columns~!@#$Colunas~!@#$Columnas~!@#$
+TFrmInventoryCount.btDeleteInvCount=Remove inventory count~!@#$&Remover Contagem~!@#$&Remover Contagem~!@#$
+TFrmInventoryCount.btExportBarcodeFile=&Export~!@#$Exportar~!@#$Exportar~!@#$
+TFrmInventoryCount.btGroupItem=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TFrmInventoryCount.btInvCountItemPreview=Preview~!@#$Mostrar~!@#$Mostrar~!@#$
+TFrmInventoryCount.btInvCountItemRemove=&Remove item~!@#$&Remover Item~!@#$&Remover Item~!@#$
+TFrmInventoryCount.btNewInvCount=Choose inventory count~!@#$Tipo de contagem~!@#$Tipo de contagem~!@#$
+TFrmInventoryCount.btnExport=&Export~!@#$Exportar~!@#$Exportar~!@#$
+TFrmInventoryCount.btnNext=Next~!@#$Próximo~!@#$Después~!@#$
+TFrmInventoryCount.btnPreviewBarcodeFile=Preview~!@#$Mostrar~!@#$Mostrar~!@#$
+TFrmInventoryCount.btnRefreshItem=&Refresh~!@#$Atualiza&r~!@#$Atualiza&r~!@#$
+TFrmInventoryCount.btnSearchDesc=(F2) Search ...~!@#$(F2) Procurar ...~!@#$(F2) Procurar ...~!@#$
+TFrmInventoryCount.gbList=Not Listed~!@#$Não Listados~!@#$No mencionado~!@#$
+TFrmInventoryCount.grdInvCountDBCountTypeName=Count Type List~!@#$Tipo de contagem~!@#$Tipo de contagem~!@#$
+TFrmInventoryCount.grdInvCountItemDBBarcode=Barcode~!@#$Cód. de Barra ~!@#$Cód. de Barra ~!@#$
+TFrmInventoryCount.grdInvCountItemDBCountDate=CountDate~!@#$Data Contagem~!@#$Fecha Cuenta~!@#$
+TFrmInventoryCount.grdInvCountItemDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInventoryCount.grdInvCountItemDBDifference=Difference~!@#$Diferença~!@#$Diferencie~!@#$
+TFrmInventoryCount.grdInvCountItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInventoryCount.grdInvCountItemDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmInventoryCount.grdInvCountItemDBQtyFrozen=QtyFrozen~!@#$Qtd Congelada~!@#$Qtd Congelada~!@#$
+TFrmInventoryCount.grdInvCountItemDBSalePrice=SalePrice~!@#$Prç Venda~!@#$Precio Venta~!@#$
+TFrmInventoryCount.GroupBox1=Current Quantities~!@#$Quantidades Atuais~!@#$Cantidades Actuales~!@#$
+TFrmInventoryCount.gridBarcodesDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInventoryCount.Label1=Barcode :~!@#$Cód. de Barra : ~!@#$Cód de Barra :~!@#$
+TFrmInventoryCount.Label10=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmInventoryCount.Label11=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TFrmInventoryCount.Label14=Model being Counted~!@#$Modelo Contado~!@#$Modelo Contado~!@#$
+TFrmInventoryCount.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmInventoryCount.Label2=Reason for Adjustment:~!@#$Motivo do Ajuste :~!@#$Motivo del Ajuste :~!@#$
+TFrmInventoryCount.Label3=Store:~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmInventoryCount.Label4=Hand :~!@#$Loja :~!@#$Existente :~!@#$
+TFrmInventoryCount.Label5=Hold :~!@#$Pendente :~!@#$Pendiente :~!@#$
+TFrmInventoryCount.Label6=Qty Counted :~!@#$Qtd Contada :~!@#$Ctd Contada :~!@#$
+TFrmInventoryCount.Label7=Order :~!@#$Pedidos :~!@#$Pedidos :~!@#$
+TFrmInventoryCount.Label8=Repair :~!@#$Conserto :~!@#$Reparación :~!@#$
+TFrmInventoryCount.Label9=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFrmInventoryCount.lbCountDate=Start date :~!@#$Data :~!@#$Fetcha :~!@#$
+TFrmInventoryCount.lbCountDetail=Count Detail~!@#$Detalhe da contagem~!@#$Detalhe da contagem~!@#$
+TFrmInventoryCount.lbCountInfo=Count info~!@#$Contagem~!@#$Contagem~!@#$
+TFrmInventoryCount.lbCountStore=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmInventoryCount.lbCountUser=User :~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmInventoryCount.lbFields=Fields :~!@#$Campos :~!@#$Campos :~!@#$
+TFrmInventoryCount.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFrmInventoryCount.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFrmInventoryCount.LbSeparetor=Separetor Char :~!@#$Separador :~!@#$Separador :~!@#$
+TFrmInventoryCount.lbTextField=Text Field Order :~!@#$Ordem dos Campos :~!@#$Orden Del Campo :~!@#$
+TFrmInventoryCount.menCyclecount=Create Cycle count~!@#$Criar contagem Ciclo~!@#$Criar contagem Ciclo~!@#$
+TFrmInventoryCount.menLiveCount=Create Live count~!@#$Criar contagem Tempo Real~!@#$Criar contagem Tempo Real~!@#$
+TFrmInventoryCount.menPhysicalcount=Create Physical count~!@#$Criar contagem Física~!@#$Criar contagem Física~!@#$
+TFrmInventoryCount.menStartupStore=Create Start up count~!@#$Criar contagem Inicial~!@#$Criar contagem Inicial~!@#$
+TFrmInventoryCount.rgdCountType=Count Type~!@#$Tipo de contagem~!@#$Tipo de contagem~!@#$
+TFrmInventoryCount.rgFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFrmInventoryCount.rgType=Action~!@#$Ação~!@#$Acción~!@#$
+TFrmInventoryCount.rgTypeImport=Action~!@#$Ação~!@#$Acción~!@#$
+TFrmInventoryCount.spHelp=&Help~!@#$A&juda ~!@#$A&yuda~!@#$
+TFrmInventoryCount.spOpen=Open File~!@#$Abrir Arquivo~!@#$Abra El Archivo~!@#$
+TFrmInventoryCount.tsBarcode=  Barcode List  ~!@#$  Listados  ~!@#$  Listados  ~!@#$
+TFrmInventoryCount.tsHandHeld=  Hand Held Count  ~!@#$  Contagem com Palm  ~!@#$  Contagem com Palm  ~!@#$
+TFrmInventoryCount.tsImport=  Import File  ~!@#$  Importar Arquivo  ~!@#$  Abra El Archivo  ~!@#$
+TFrmInventoryCount.tsImport=  Import File  ~!@#$  Importar Arquivo  ~!@#$  Importar Arquivo  ~!@#$
+TFrmInventoryCount.tsManual=  Manual  ~!@#$  Manual  ~!@#$  Manual  ~!@#$
+TFrmInventoryCount.tsNotFound=Not Found~!@#$Não encontrado~!@#$No Encontrado~!@#$
+TFrmInventoryCount.tsSelection=  Selection  ~!@#$  Selecionar  ~!@#$  Selecionar  ~!@#$
+TFrmInventoryCount.lbHand=Hand :~!@#$Em Est. :~!@#$Existente :~!@#$
+TFrmInventoryCount.lbCountScan=Scanned :~!@#$Adicionado :~!@#$Informado :~!@#$
+TFrmInventoryCount.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFrmInventoryCount.lbSalePrice=Selling Price :~!@#$Prç Venda :~!@#$Prc Venta :~!@#$
+TFrmInventoryCount.pnlLastScan=Last Item Scanned~!@#$Último item digitado~!@#$Último tema escaneada~!@#$
+TFrmInventoryCount.lbNewHand=New On Hand :~!@#$Nova Qtd Est.:~!@#$Nueva Ctd Est.:~!@#$
+
+[DisplayLabels]
+TFrmInventoryCount.cdsBarcodeListCounted=Counted~!@#$Contado~!@#$Contado~!@#$
+TFrmInventoryCount.cdsBarcodeListDiffer=Differ~!@#$Diferença~!@#$Diferencie~!@#$
+TFrmInventoryCount.cdsBarcodeListIDBarcode=IDBarcode~!@#$Cod. Barras~!@#$Cod. barras~!@#$
+TFrmInventoryCount.cdsBarcodeListQtyOnHand=QtyOnHand~!@#$Em estoque~!@#$CtdExistente~!@#$
+TFrmInventoryCount.quBarCodeIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmInventoryCount.quModelCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmInventoryCount.quModelDataContagem=DataContagem~!@#$Data~!@#$FechaContada~!@#$
+TFrmInventoryCount.quModelQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TFrmInventoryCount.quModelQtyOnOrder=QtyOnOrder~!@#$QtdEmPedido ~!@#$CtdEnPedido~!@#$
+TFrmInventoryCount.quModelQtyOnPreSale=QtyOnPreSale~!@#$QtdEmPreVenda~!@#$CtdEnPreVenta~!@#$
+TFrmInventoryCount.quModelQtyOnRepair=QtyOnRepair~!@#$QtdEmConserto~!@#$CtdEnReparación~!@#$
+TFrmInventoryCount.spAdjustName=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmInventoryCount.spAdjustQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TFrmInventoryCount.spAdjustQtyOnOrder=QtyOnOrder~!@#$QtdEmPedido~!@#$CtdEnPedido~!@#$
+TFrmInventoryCount.spAdjustQtyOnPreSale=QtyOnHold~!@#$QtdEmPendente~!@#$CtdEnPendiente~!@#$
+TFrmInventoryCount.spAdjustStoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmInventoryCount.cbFields.Items=Barcode,Date,Time,Qty,Model~!@#$"Cód. de barras",Data,Hora,Qtde,Modelo~!@#$"Cod. de barras",Fecha,Hora,Cntd,Modelo~!@#$
+TFrmInventoryCount.cbFilter.Items=None,"Counted  > 0","Counted  < 0","Counted  = 0","OnHand  > 0","OnHand  < 0","OnHand  = 0","Differ  > 0","Differ  < 0","Differ <> 0"~!@#$Nenhum,"Contado  > 0","Contado  < 0","Contado  = 0","Estoque  > 0","Estoque  < 0","Estoque  = 0","Diferença  > 0","Diferença  < 0","Diferença <> 0"~!@#$Ningunos,"Contado  > 0","Contado  < 0","Contado  = 0","Existente  > 0","Existente  < 0","Existente  = 0","Diferencie  > 0","Diferencie  < 0","Diferencie <> 0"~!@#$
+TFrmInventoryCount.MemReason.Lines=~!@#$~!@#$~!@#$
+TFrmInventoryCount.rgdCountType.Items="Manual count","Import file","Hand Held count"~!@#$"Contagem manual","Importar arquivo","Contagem com Palm"~!@#$"Contagem manual","Importar arquivo","Contagem com Palm"~!@#$
+TFrmInventoryCount.rgType.Items=ADD,Replace~!@#$Adicionar,Substituir~!@#$Agr.,Reemp.~!@#$
+TFrmInventoryCount.rgTypeImport.Items=ADD,Replace~!@#$Adicionar,Substituir~!@#$Agregue,Substituya~!@#$
+TFrmInventoryCount.tcManualCount.Tabs=Manual,"Check Inventory"~!@#$Manual,"Verifica Estoque"~!@#$Manual,"Verifica Estoque"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

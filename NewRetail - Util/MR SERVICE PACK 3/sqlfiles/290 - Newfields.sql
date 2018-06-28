@@ -1,0 +1,3 @@
+ALTER TABLE PO
+	ADD OBS varchar(255) NULL
+GO

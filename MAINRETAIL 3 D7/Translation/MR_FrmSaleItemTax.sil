@@ -1,0 +1,42 @@
+[Captions]
+TFrmSaleItemTax.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmSaleItemTax.btDeleteObs=Remove~!@#$Remover~!@#$Quitar~!@#$
+TFrmSaleItemTax.btnAddObs=Add~!@#$Salvar~!@#$Salvar~!@#$
+TFrmSaleItemTax.btnExec=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TFrmSaleItemTax.btSaveTax=Save~!@#$Salvar~!@#$Gravar~!@#$
+TFrmSaleItemTax.Button2=All~!@#$Todos~!@#$Todos~!@#$
+TFrmSaleItemTax.chkInvCalceled=Display Canceled Invoices~!@#$Mostrar Pedidos cancelados~!@#$Demuestre Facturas Calceled~!@#$
+TFrmSaleItemTax.grdInvoiceDBInvoiceCode=Invoice~!@#$Nota~!@#$Factura~!@#$
+TFrmSaleItemTax.grdInvoiceDBInvoiceDate=InvoiceDate~!@#$Data~!@#$Fetcha~!@#$
+TFrmSaleItemTax.grdInvoiceDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmSaleItemTax.grdInvoiceLevel=~!@#$~!@#$~!@#$
+TFrmSaleItemTax.grdItemDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmSaleItemTax.grdItemDBInvoiceCode=Invoice #~!@#$Nº Nota~!@#$Nº Factura~!@#$
+TFrmSaleItemTax.grdItemDBIsDelivered=Delivered~!@#$Entrega~!@#$Envio~!@#$
+TFrmSaleItemTax.grdItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmSaleItemTax.grdItemDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmSaleItemTax.grdItemDBSaleCode=Hold #~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TFrmSaleItemTax.grdItemDBTotalItem=TotalItem~!@#$Total~!@#$Total~!@#$
+TFrmSaleItemTax.grdItemTaxDBTableView1Tax=Tax~!@#$%~!@#$%~!@#$
+TFrmSaleItemTax.grdItemTaxDBTableView1TaxValue=TaxValue~!@#$Valor~!@#$Valor~!@#$
+TFrmSaleItemTax.grdItemTaxLevel1=~!@#$~!@#$~!@#$
+TFrmSaleItemTax.hhh=~!@#$~!@#$~!@#$
+TFrmSaleItemTax.Label1=Products~!@#$Produtos~!@#$Produtos~!@#$
+TFrmSaleItemTax.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmSaleItemTax.Label2=Invoice #~!@#$Nº Nota~!@#$Nº Factura~!@#$
+TFrmSaleItemTax.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmSaleItemTax.Label4=Invoices~!@#$Notas~!@#$Facturas~!@#$
+TFrmSaleItemTax.Label5=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFrmSaleItemTax.lbFrom=From :~!@#$De :~!@#$Desde :~!@#$
+TFrmSaleItemTax.lbInvOBD=Observation~!@#$Observação~!@#$Observasion~!@#$
+TFrmSaleItemTax.lbTo=To~!@#$até~!@#$hasta~!@#$
+TFrmSaleItemTax.TFrmSaleItemTax=Sale Item Tax~!@#$Impostos~!@#$Impuestos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

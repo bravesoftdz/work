@@ -1,0 +1,18 @@
+[Captions]
+TFrmMRDPVConfigKey.lbApplyDiscount=Applying item discount :~!@#$Aplicando desconto no item :~!@#$Descuento del artículo :~!@#$
+TFrmMRDPVConfigKey.lbApplyDiscountPerExp=d[value] [% or $] for [percent or dollar] [quantity *]. For example: To Apply 10 percent discount with 10 quantities type: d10%10* [scan or search barcode]~!@#$d [valor] [ % ou $] [ percentual ou dinheiro] [quantidade *]. Por exemplo: Para aplicar 10 porcento de desconto com 10 quantidades digitar: d10%10* [pistole ou procure o produto]~!@#$d [valor] [ % o $] para [por ciento o el dólar] [la cantidad *]. Por ejemplo: Aplicar el 10 por ciento el descuento con 10 cantidades escribe a máquina: d10%10* [escudriña o busca barcode]~!@#$
+TFrmMRDPVConfigKey.lbChangeSearch=Search by Barcode or Model :~!@#$Procurar por Cód. de Barras ou Modelo:~!@#$Busque por Cod. de Barras o el Modelo:~!@#$
+TFrmMRDPVConfigKey.lbSearchDetail=Press (Ctrl) to change the scan search mode between barcode or model search.~!@#$Pressione (Ctrl) para mudar a modo de procura entre cód. de barras ou modelo. ~!@#$Apriete (Ctrl) cambiar el escudriña el modo de la búsqueda entre la búsqueda de cod. barras o modelo.~!@#$
+TFrmMRDPVConfigKey.TFrmMRDPVConfigKey=Config~!@#$Configuração~!@#$Configuración~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmMRDPVConfigKey.cbxFunction.Items="No function","Search options","Add customer","Finalize sale","Create new sale","Open hold","Add observation","Delete Item",Help,"Apply/Remove hold discount",Exit,"Call payment types","Change user","View Inventory","Create New Refund","No Sale","Apply/Remove item discount","Credit Card"~!@#$"Sem função",Procurar,"Adicionar Cliente","Finalizar venda","Iniciar nova venda","Abrir pedido","Adicionar observação","Deletar item da nota",Ajuda,"Aplicar/Retirar desconto da nota","Sair da tela de venda","Formas de pagamentos","Trocar de Usuário","Ver Estoque","Iniciar Nova Devolução","Abrir Gaveta","Aplicar/Retirar desconto no item","Funções do TEF"~!@#$"Nenhuma função",Busque,"Agregue a cliente","Complete la venta","Cree la venta nueva","Abra el boleto","Agregue la observación","Borre Artículo",Ayuda,"Descuento de asidero de aplica/quita",Salida,"Formas de pagos","Cambiar usuario","Ver Estoque","Crear Nuevo Reembolso","Abrir el Cajón","Descuento de item de aplica/quita",Tarjeta~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

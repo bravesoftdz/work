@@ -1,0 +1,29 @@
+[Captions]
+TFrmSendFax.ApdFaxStatus1=Fax Status~!@#$Estado Fax~!@#$Estado Fax~!@#$
+TFrmSendFax.btAdd=&Add   ~!@#$&Adicionar~!@#$&Agregar~!@#$
+TFrmSendFax.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmSendFax.btDetail=&Details~!@#$&Detalhes~!@#$&Detalles~!@#$
+TFrmSendFax.btRemove=Re&move~!@#$Re&mover~!@#$Re&mover~!@#$
+TFrmSendFax.EEE=~!@#$~!@#$~!@#$
+TFrmSendFax.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmSendFax.Label5=Redial attempts :~!@#$Tentativas para Rediscar :~!@#$Remarcar Intentos :~!@#$
+TFrmSendFax.Label6=Retry wait time :~!@#$Tempo de Espera :~!@#$Tiempo de Espera :~!@#$
+TFrmSendFax.lblMenu=Send Fax~!@#$Enviar Fax~!@#$Enviar Fax~!@#$
+TFrmSendFax.lblSubMenu=~!@#$~!@#$~!@#$
+TFrmSendFax.Panel5=Faxes to send~!@#$Lista de Faxes para Enviar~!@#$Faxes por Enviar~!@#$
+TFrmSendFax.pnlDialConfig=~!@#$~!@#$~!@#$
+TFrmSendFax.pnlFaxList=~!@#$~!@#$~!@#$
+TFrmSendFax.pnlTitle3=Dialing configuration~!@#$Configuração da Ligação~!@#$Configuración de Llamada~!@#$
+TFrmSendFax.sbSelectPort=Select &fax~!@#$&Selecionar Fax~!@#$&Seleccionar Fax~!@#$
+TFrmSendFax.sbSendFaxes=&Send faxes~!@#$&Enviar Faxes~!@#$&Enviar Faxes~!@#$
+TFrmSendFax.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmSendFax.TFrmSendFax=SendFax~!@#$Enviar Fax~!@#$EnviarFax~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

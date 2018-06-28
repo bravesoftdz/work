@@ -1,0 +1,1 @@
+<?xml version="1.0" standalone="yes"?>  <DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="IDInvTechFeatures" fieldtype="i4"/><FIELD attrname="IDModel" fieldtype="i4"/><FIELD attrname="TechFeature" fieldtype="string" WIDTH="255"/></FIELDS><PARAMS/></METADATA><ROWDATA></ROWDATA></DATAPACKET>

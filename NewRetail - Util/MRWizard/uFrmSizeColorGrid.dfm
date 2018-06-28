@@ -1,0 +1,204 @@
+object FrmSizeColorGrid: TFrmSizeColorGrid
+  Left = 122
+  Top = 106
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Grid'
+  ClientHeight = 470
+  ClientWidth = 688
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 12
+    Top = 8
+    Width = 658
+    Height = 21
+    AutoSize = False
+    Caption = 'Monte sua grade, e preencha as quantidades e valores de venda.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    WordWrap = True
+  end
+  object pnlBotton: TPanel
+    Left = 0
+    Top = 439
+    Width = 688
+    Height = 31
+    Align = alBottom
+    BevelOuter = bvNone
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    object imgBotton: TImage
+      Left = 0
+      Top = 0
+      Width = 688
+      Height = 31
+      Align = alClient
+      Picture.Data = {
+        07544269746D61705E050000424D5E0500000000000036000000280000000E00
+        00001E0000000100180000000000280500000000000000000000000000000000
+        0000AE8D51AE8D51AD8C50AD8C50AD8C50AC8B4FAC8B4FAC8B4FAC8B4FAC8B4F
+        AC8B4FAC8B4FAC8B4FAC8B4F0000D7D1C6D7D1C6D6D0C6D6D0C6D6D0C6D6D0C6
+        D6D0C6D6D0C6D6D0C6D6D0C6D6D0C6D6D0C6D6D0C6D6D0C60000D8D2C8D8D2C8
+        D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2
+        C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2
+        C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2
+        C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2
+        C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8
+        D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8
+        D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8
+        D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7
+        0000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7
+        D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7
+        D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8
+        D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2
+        C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2
+        C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2
+        C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2
+        C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8
+        D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8
+        D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8
+        D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7
+        0000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7
+        D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7
+        D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D8D2C8D8D2C8
+        D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2
+        C7D8D2C70000D8D2C8D8D2C8D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2
+        C7D8D2C7D8D2C7D8D2C7D8D2C7D8D2C70000D9D3C8D9D3C8D9D3C8D9D3C8D9D3
+        C8D9D3C8D9D3C8D9D3C8D9D3C8D9D3C8D9D3C8D9D3C8D9D3C8D9D3C80000DBD5
+        CADBD5CADBD5CADBD5CADBD5CADBD5CADBD5CADBD5CADBD5CADBD5CADBD5CADB
+        D5CADBD5CADBD5CA0000DCD6CCDCD6CCDCD6CCDCD6CCDCD6CCDCD6CCDCD6CCDC
+        D6CCDCD6CCDCD6CCDCD6CCDCD6CCDCD6CCDCD6CC0000DED8CDDED8CDDED8CDDE
+        D8CDDED8CDDED8CDDED8CDDED8CDDED8CDDED8CDDED8CDDED8CDDED8CDDED8CD
+        0000E0DBD0E0DBD0E0DBD0E0DBD0E0DBD0E0DBD0E0DBD0E0DBD0E0DBD0E0DBD0
+        E0DBD0E0DBD0E0DBD0E0DBD00000E2DCD2E2DCD2E2DCD2E2DCD2E2DCD2E2DCD2
+        E2DCD2E2DCD2E2DCD2E2DCD2E2DCD2E2DCD2E2DCD2E2DCD20000E4DFD4E4DFD4
+        E4DFD4E4DFD4E4DFD4E4DFD4E4DFD4E4DFD4E4DFD4E4DFD4E4DFD4E4DFD4E4DF
+        D4E4DFD40000E7E1D6E7E1D6E6E1D6E6E1D6E6E1D6E6E1D6E6E1D6E6E1D6E6E1
+        D6E6E1D6E6E1D6E6E1D6E6E1D6E6E1D60000FFFBFFFFFBFFFFFBFFFFFBFFFFFB
+        FFFFFBFFFFFBFFFFFBFFFFFBFFFFFBFFFFFBFFFFFBFFFFFBFFFFFBFF0000B4A9
+        9BB4A99BB4A99BB4A99BB4A99BB4A99BB4A99BB4A99BB4A99BB4A99BB4A99BB4
+        A99BB4A99BB4A99B0000}
+      Stretch = True
+    end
+    object btnClose: TBitBtn
+      Left = 587
+      Top = 4
+      Width = 90
+      Height = 25
+      Caption = '&Close'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = btnCloseClick
+    end
+  end
+  object sgGrid: TStringGrid
+    Left = 8
+    Top = 64
+    Width = 557
+    Height = 371
+    BorderStyle = bsNone
+    Color = 14607076
+    ColCount = 1
+    DefaultRowHeight = 18
+    FixedCols = 0
+    RowCount = 1
+    FixedRows = 0
+    GridLineWidth = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goDrawFocusSelected, goThumbTracking]
+    TabOrder = 1
+    OnSelectCell = sgGridSelectCell
+    ColWidths = (
+      64)
+  end
+  object pnlValues: TPanel
+    Left = 8
+    Top = 29
+    Width = 209
+    Height = 30
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 2
+    object rdQtd: TRadioButton
+      Left = 8
+      Top = 8
+      Width = 73
+      Height = 17
+      Caption = 'Quantidade'
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      OnClick = rdQtdClick
+    end
+    object rbSalePrice: TRadioButton
+      Left = 100
+      Top = 8
+      Width = 113
+      Height = 17
+      Caption = 'Pre'#231'o Venda'
+      TabOrder = 1
+      OnClick = rdQtdClick
+    end
+  end
+  object edtValue: TEdit
+    Left = 252
+    Top = 80
+    Width = 109
+    Height = 21
+    BorderStyle = bsNone
+    TabOrder = 3
+    Visible = False
+    OnExit = edtValueExit
+    OnKeyPress = edtValueKeyPress
+  end
+  object btnApplyLine: TButton
+    Left = 568
+    Top = 63
+    Width = 115
+    Height = 25
+    Caption = 'Aplicar para linha'
+    TabOrder = 4
+    OnClick = btnApplyLineClick
+  end
+  object btnApplyColumn: TButton
+    Left = 568
+    Top = 91
+    Width = 115
+    Height = 25
+    Caption = 'Aplicar para Coluna'
+    TabOrder = 5
+    OnClick = btnApplyColumnClick
+  end
+  object btCreateGrid: TButton
+    Left = 568
+    Top = 118
+    Width = 115
+    Height = 25
+    Caption = 'Criar/Alterar Grade'
+    TabOrder = 6
+    OnClick = btCreateGridClick
+  end
+end

@@ -1,0 +1,53 @@
+[Captions]
+TFrmPessoaAddress.btCancel=Cancel~!@#$Cancelar~!@#$Cancelación ~!@#$
+TFrmPessoaAddress.btClose=Save~!@#$OK~!@#$Excepto ~!@#$
+TFrmPessoaAddress.btFirstRec=<<~!@#$~!@#$~!@#$
+TFrmPessoaAddress.btLastRec=>>~!@#$~!@#$~!@#$
+TFrmPessoaAddress.btLoopInc=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.btNextRec=>~!@#$~!@#$~!@#$
+TFrmPessoaAddress.btPriorRec=<~!@#$~!@#$~!@#$
+TFrmPessoaAddress.cbIsBillTo=Address to Bill~!@#$Endereço de cobrança~!@#$Dirección a la cuenta ~!@#$
+TFrmPessoaAddress.EEE=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.hhh=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label1=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label15=User:~!@#$Usuário :~!@#$Usuario  :~!@#$
+TFrmPessoaAddress.Label2=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label3=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label35=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label4=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label5=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Label6=*~!@#$~!@#$~!@#$
+TFrmPessoaAddress.lbAddress=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TFrmPessoaAddress.lbCity=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFrmPessoaAddress.lbCountry=Country :~!@#$País :~!@#$País :~!@#$
+TFrmPessoaAddress.lblMenu=First Menu Item~!@#$~!@#$~!@#$
+TFrmPessoaAddress.lblModified=Edit Mode~!@#$~!@#$~!@#$
+TFrmPessoaAddress.lblSubMenu=Main Menu~!@#$~!@#$~!@#$
+TFrmPessoaAddress.lblUserName=lblUserName~!@#$~!@#$~!@#$
+TFrmPessoaAddress.lbName=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TFrmPessoaAddress.lbState=State:~!@#$Estado :~!@#$Estado :~!@#$
+TFrmPessoaAddress.lbTax=Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFrmPessoaAddress.lbZip=Zip Code:~!@#$CEP :~!@#$Zip Code :~!@#$
+TFrmPessoaAddress.Panel1=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Panel2=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Panel3=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.Panel4=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.pnlAutoInc=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.pnlDetail=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.pnlKey=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.pnlNavigation=~!@#$~!@#$~!@#$
+TFrmPessoaAddress.spHelp=&Help~!@#$~!@#$~!@#$
+TFrmPessoaAddress.TFrmPessoaAddress=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

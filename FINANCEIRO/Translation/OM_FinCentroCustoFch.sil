@@ -1,0 +1,124 @@
+[Captions]
+TFinCentroCustoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinCentroCustoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinCentroCustoFch.btLastRec=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btLoopInc=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btNextRec=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFinCentroCustoFch.btPrintFch=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btPriorRec=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.Label1=Code :~!@#$Código :~!@#$Código :~!@#$
+TFinCentroCustoFch.Label2=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinCentroCustoFch.Label5=*~!@#$*~!@#$*~!@#$
+TFinCentroCustoFch.Label7=*~!@#$*~!@#$*~!@#$
+TFinCentroCustoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinCentroCustoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegador~!@#$
+TFinCentroCustoFch.lblPTitulo=Cost Center~!@#$Centro Custo~!@#$Centro Costo~!@#$
+TFinCentroCustoFch.lblPTituloShadow=Cost Center~!@#$Centro Custo~!@#$Centro Costo~!@#$
+TFinCentroCustoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.TFinCentroCustoFch=FinCentroCustoFch~!@#$FinCentroCustoFch~!@#$FinCentroCustoFch~!@#$
+
+[Dialogs]
+TFinCentroCustoFch.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TFinCentroCustoFch.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TFinCentroCustoFch.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinCentroCustoFch.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TFinCentroCustoFch.Error=Error~!@#$Erro~!@#$Error~!@#$
+TFinCentroCustoFch.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFinCentroCustoFch.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TFinCentroCustoFch.Information=Information~!@#$Informação~!@#$Información~!@#$
+TFinCentroCustoFch.No=&No~!@#$&Não~!@#$&No~!@#$
+TFinCentroCustoFch.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TFinCentroCustoFch.OK=OK~!@#$OK~!@#$OK~!@#$
+TFinCentroCustoFch.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TFinCentroCustoFch.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TFinCentroCustoFch.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TFinCentroCustoFch.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[DisplayLabels]
+TFinCentroCustoFch.quFormCentroCusto=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinCentroCustoFch.quFormCodigoCentroCusto=Code~!@#$Código~!@#$Código~!@#$
+TFinCentroCustoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinCentroCustoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinCentroCustoFch.quFormIDCentroCusto=IDCentroCusto~!@#$IDCentroCusto~!@#$IDCentroCosto~!@#$
+TFinCentroCustoFch.quFormIDCentroCustoParent=IDCentroCustoParent~!@#$IDCentroCusto~!@#$IDCentroCusto~!@#$
+TFinCentroCustoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinCentroCustoFch.btCancel=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinCentroCustoFch.btHelp=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinCentroCustoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinCentroCustoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinCentroCustoFch.btOK=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinCentroCustoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinCentroCustoFch.DBEdit1=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.DBEdit2=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.imgOff=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.imgOn=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.Label1=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.Label2=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.Label5=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.Label7=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.lblModified=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.lblNavegacao=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.lblPTitulo=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.lblPTituloShadow=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.TFinCentroCustoFch=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFinCentroCustoFch.Currency String=$~!@#$$~!@#$$~!@#$
+TFinCentroCustoFch.Date Separator=/~!@#$/~!@#$/~!@#$
+TFinCentroCustoFch.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TFinCentroCustoFch.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TFinCentroCustoFch.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFinCentroCustoFch.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFinCentroCustoFch.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFinCentroCustoFch.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFinCentroCustoFch.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TFinCentroCustoFch.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFinCentroCustoFch.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFinCentroCustoFch.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TFinCentroCustoFch.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFinCentroCustoFch.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFinCentroCustoFch.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[MultiLines]
+TFinCentroCustoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+TFinCentroCustoFch.FormConfig.DependentTableKeys=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.FormConfig.DependentTables=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.FormConfig.RequiredFields=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.FormConfig.UniqueFields=CodigoCentroCusto,CentroCusto~!@#$~!@#$~!@#$
+TFinCentroCustoFch.quForm.FilterFields=~!@#$~!@#$~!@#$
+TFinCentroCustoFch.quForm.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

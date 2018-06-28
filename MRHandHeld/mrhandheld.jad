@@ -1,0 +1,12 @@
+MIDlet-5: Log,log.png,com.mainretail.handheld.debug.LogMIDlet
+MIDlet-4: Config,config.png,com.mainretail.handheld.serverconfiguration.MRServerConfig
+MIDlet-3: Purchase,purchase.png,com.mainretail.handheld.purchase.MRPurchase
+MIDlet-Jar-Size: 0
+MIDlet-2: Inventory,inventory.png,com.mainretail.handheld.inventory.MRInventory
+MIDlet-1: Sales,sales.png,com.mainretail.handheld.sales.MRSales
+MIDlet-Jar-URL: mrhandheld.jar
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 2.2.1q
+MIDlet-Name: MainRetail - HandHeld
+MIDlet-Vendor: MainRetail
+MicroEdition-Profile: MIDP-2.0

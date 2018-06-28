@@ -1,0 +1,69 @@
+[Captions]
+TPreSaleReceive.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TPreSaleReceive.btnPartialPayment=&Delay Payment~!@#$Ca&dastrar~!@#$Pre-Datar~!@#$
+TPreSaleReceive.btnPartialPayment2=&Delay Payment~!@#$Ca&dastrar~!@#$Pre-Datar~!@#$
+TPreSaleReceive.btOK=&Receive~!@#$&Recebido~!@#$&Recibido~!@#$
+TPreSaleReceive.cbxCloseLayaway=Close &Layaway?~!@#$&Fechar Pedido?~!@#$Cerrar Crédi&to?~!@#$
+TPreSaleReceive.Label1=Authorization # :~!@#$Nº Autorização :~!@#$Autorización # :~!@#$
+TPreSaleReceive.Label12=Payment Type~!@#$Tipo Pagto :~!@#$Tipo de Pago~!@#$
+TPreSaleReceive.Label13=Receive on :~!@#$Recebido em :~!@#$Recibido el :~!@#$
+TPreSaleReceive.Label16=Amount~!@#$Quantía~!@#$Monto~!@#$
+TPreSaleReceive.Label18=Payment Type~!@#$Tipo Pagto :~!@#$Tipo de Pago~!@#$
+TPreSaleReceive.Label22=Amount~!@#$Quantía~!@#$Monto~!@#$
+TPreSaleReceive.Label24=Payment Type~!@#$Tipo Pagto :~!@#$Tipo de Pago~!@#$
+TPreSaleReceive.Label28=Amount~!@#$Quantía~!@#$Monto~!@#$
+TPreSaleReceive.Label3=Multiple Payments~!@#$Vários Pagamentos~!@#$Varios Pagos~!@#$
+TPreSaleReceive.Label30=Payment Type~!@#$Tipo Pagto :~!@#$Tipo de Pago~!@#$
+TPreSaleReceive.Label33=Amount~!@#$Quantía~!@#$Monto~!@#$
+TPreSaleReceive.Label35=Payment Type~!@#$Tipo Pagto :~!@#$Tipo de Pago~!@#$
+TPreSaleReceive.Label38=Amount~!@#$Quantía~!@#$Monto~!@#$
+TPreSaleReceive.Label4=Payment Type~!@#$Forma Pagto :~!@#$Tipo de Pago~!@#$
+TPreSaleReceive.Label8=Invoice total :~!@#$Total Nota :~!@#$Total Boleta :~!@#$
+TPreSaleReceive.lbBalance=Balance :~!@#$Saldo :~!@#$Saldo :~!@#$
+TPreSaleReceive.lblAuto1=Auhtorization#~!@#$Nº Autorização~!@#$Autorización #~!@#$
+TPreSaleReceive.lblAuto2=Auhtorization#~!@#$Nº Autorização~!@#$Autorización #~!@#$
+TPreSaleReceive.lblAuto3=Auhtorization#~!@#$Nº Autorização~!@#$Autorización #~!@#$
+TPreSaleReceive.lblAuto4=Auhtorization#~!@#$Nº Autorização~!@#$Autorización #~!@#$
+TPreSaleReceive.lblAuto5=Auhtorization#~!@#$Nº Autorização~!@#$Autorización #~!@#$
+TPreSaleReceive.lblCashTotal=Cash total :~!@#$Total Dinheiro :~!@#$Total Efectivo :~!@#$
+TPreSaleReceive.lblChange=Change :~!@#$Troco :~!@#$Cambio :~!@#$
+TPreSaleReceive.lblCustomerCredit=Customer Credit~!@#$Crédito do Cliente~!@#$crédito del cliente~!@#$
+TPreSaleReceive.lblDep1=Deposit Date~!@#$Depósito~!@#$Depósito~!@#$
+TPreSaleReceive.lblDep2=Deposit Date~!@#$Depósito~!@#$Depósito~!@#$
+TPreSaleReceive.lblDep3=Deposit Date~!@#$Depósito~!@#$Depósito~!@#$
+TPreSaleReceive.lblDep4=Deposit Date~!@#$Depósito~!@#$Depósito~!@#$
+TPreSaleReceive.lblDep5=Deposit Date~!@#$Depósito~!@#$Depósito~!@#$
+TPreSaleReceive.lblLayaway=Received :~!@#$Recebido :~!@#$Recibido :~!@#$
+TPreSaleReceive.lblPayment=Payment :~!@#$Pagamento :~!@#$Pago :~!@#$
+TPreSaleReceive.lblPreDate=You Can not have Pre Dates~!@#$Não pode Pre-datar~!@#$No puede se a Fecha~!@#$
+TPreSaleReceive.lblReceived=Cash received :~!@#$Recebido :~!@#$Recibido :~!@#$
+TPreSaleReceive.lbPaymentPlace=Payment Place :~!@#$Local do Pgto :~!@#$Local Pago :~!@#$
+TPreSaleReceive.lbPayPlace1=Payment Place~!@#$Local do Pgto~!@#$Local Pago~!@#$
+TPreSaleReceive.lbPayPlace2=Payment Place~!@#$Local do pgto~!@#$Local Pago~!@#$
+TPreSaleReceive.lbPayPlace3=Payment Place~!@#$Local do pgto~!@#$Local Pago~!@#$
+TPreSaleReceive.lbPayPlace4=Payment Place~!@#$Local do pgto~!@#$Local Pago~!@#$
+TPreSaleReceive.lbPayPlace5=Payment Place~!@#$Local do pgto~!@#$Local Pago~!@#$
+TPreSaleReceive.pnlDateTitle=Choose a Deposit Date~!@#$Escolha a Data de Pagamento~!@#$Escoja la Fecha de Depósito~!@#$
+TPreSaleReceive.pnlPayTitle=Choose a Payment Type~!@#$Escolha um Tipo de Pagamento~!@#$Escoja un Tipo de Pago~!@#$
+TPreSaleReceive.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TPreSaleReceive.tbMultiple=&Multiple~!@#$&Vários~!@#$&Varios~!@#$
+TPreSaleReceive.tbSingle=&Single~!@#$&Único~!@#$&Unico~!@#$
+TPreSaleReceive.pnlPaymentSugg=Payment Suggestion~!@#$Condição de Pagamento~!@#$El pago de sugerencias~!@#$
+TPreSaleReceive.grdBrowseDBMeioPag=Payment~!@#$Pagamento~!@#$El pago~!@#$
+TPreSaleReceive.grdBrowseDBAmount=Amount~!@#$Valor~!@#$Valor~!@#$
+TPreSaleReceive.grdBrowseDBEstimetedDate=Due Date~!@#$Data Estimada~!@#$fecha estimada~!@#$
+
+
+[DisplayLabels]
+TPreSaleReceive.quPaymentValueTotal=Total~!@#$Total~!@#$Total~!@#$
+TPreSaleReceive.spquPayTypeMinDifDay=DifDay~!@#$DifDía~!@#$DifDía~!@#$
+TPreSaleReceive.spquPayTypeMinTotalSale=TotalSale~!@#$TotalVenda~!@#$TotalVenta~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

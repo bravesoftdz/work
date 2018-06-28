@@ -1,0 +1,85 @@
+[Captions]
+TFinDocumentoTipoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinDocumentoTipoFch.btFchBrwDetalhe=&Detail~!@#$&Detalhes~!@#$&Detalles~!@#$
+TFinDocumentoTipoFch.btFchBrwNovo=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TFinDocumentoTipoFch.btFchBrwRemove=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TFinDocumentoTipoFch.btFchBrwRestaura=&Restore~!@#$&Reestabelecer~!@#$&Restablecer~!@#$
+TFinDocumentoTipoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinDocumentoTipoFch.btLastRec=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btLoopInc=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btNextRec=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFinDocumentoTipoFch.btPrintFch=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btPriorRec=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.cbPossuiDesdobramento=Document type has one or more disbursements~!@#$Tipo de Documento tem um ou mais desdobramentos.~!@#$Tipo de Documento fraccionado.~!@#$
+TFinDocumentoTipoFch.DBCheckBox1=Disbursement required~!@#$Desdobramentos requeridos~!@#$Fraccionamientos requeridos~!@#$
+TFinDocumentoTipoFch.DBCheckBox2=Document number required~!@#$Número Documento Requerido~!@#$Número Documento Requerido~!@#$
+TFinDocumentoTipoFch.DBCheckBox3=Issue date required~!@#$Data emissão requerida~!@#$Fecha emisión requerida~!@#$
+TFinDocumentoTipoFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.grbFchBrwCodigoDesdobramentoTipo=ID~!@#$ID~!@#$ID~!@#$
+TFinDocumentoTipoFch.grbFchBrwDesdobramentoTipo=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinDocumentoTipoFch.GroupBox1= Disbursements config : ~!@#$ Config. Desdobramentos~!@#$ Config. Fraccionamientos~!@#$
+TFinDocumentoTipoFch.Label1=ID :~!@#$ID :~!@#$ID :~!@#$
+TFinDocumentoTipoFch.Label12=*~!@#$*~!@#$*~!@#$
+TFinDocumentoTipoFch.Label2=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinDocumentoTipoFch.Label4=*~!@#$*~!@#$*~!@#$
+TFinDocumentoTipoFch.Label5=Doc. Identifier :~!@#$Identificador Doc. :~!@#$Identificador Doc. :~!@#$
+TFinDocumentoTipoFch.Label6=Leave blank if not known.~!@#$Deixar em branco se não sabe.~!@#$Dejar en blanco si no lo sabe.~!@#$
+TFinDocumentoTipoFch.Label8=Default disbursements :~!@#$Desdobramentos padrão :~!@#$Frac. Originales :~!@#$
+TFinDocumentoTipoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinDocumentoTipoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinDocumentoTipoFch.lblPTitulo=Type of Document~!@#$Tipo de Documento~!@#$Tipo de Documento~!@#$
+TFinDocumentoTipoFch.lblPTituloShadow=Tipo de Documento~!@#$Tipo de Documento~!@#$Tipo de Documento~!@#$
+TFinDocumentoTipoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.pnlBottomAlign=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.pnlBrw=pnlBrw~!@#$pnlBrw~!@#$pnlBrw~!@#$
+TFinDocumentoTipoFch.pnlBrwCmd=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.pnlBrwEspacoEsquerdo=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.pnlBrwTitle=  Disbursement types~!@#$Tipos Desdobramentos~!@#$Tipos Fraccionamientos~!@#$
+TFinDocumentoTipoFch.pnlBrwTitleBotton=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.TFinDocumentoTipoFch=FinDocumentoTipoFch~!@#$FinTipoDocumentoFch~!@#$FinTipoDocumentoFch~!@#$
+TFinDocumentoTipoFch.tsBrowse=Disbursements~!@#$Desdobramentos~!@#$Fraccionamientos~!@#$
+TFinDocumentoTipoFch.tsCadastro=Registration~!@#$Registro~!@#$Registro~!@#$
+
+[DisplayLabels]
+TFinDocumentoTipoFch.quFchBrwCodigoDesdobramentoTipo=Código~!@#$Código~!@#$Código~!@#$
+TFinDocumentoTipoFch.quFchBrwDesdobramentoTipo=Descrição~!@#$Descrição~!@#$Descripción~!@#$
+TFinDocumentoTipoFch.quFchBrwIDDesdobramentoTipo=IDDesdobramentoTipo~!@#$IDTipoDesdobramento~!@#$IDTipoFraccionamiento~!@#$
+TFinDocumentoTipoFch.quFchBrwIDDocumentoTipo=IDDocumentoTipo~!@#$IDTipoDocumento~!@#$IDTipoDocumento~!@#$
+TFinDocumentoTipoFch.quFormCodigoDocumentoTipo=CodigoDocumentoTipo~!@#$CódigoTipoDocumento~!@#$CódigoTipoDocumento~!@#$
+TFinDocumentoTipoFch.quFormDataEmissaoObrigatoria=DataEmissaoObrigatoria~!@#$DataEmissaoObrigatoria~!@#$FechaEmissãoObligatoria~!@#$
+TFinDocumentoTipoFch.quFormDesdobramentoObrigatorio=DesdobramentoObrigatorio~!@#$DesdobramentoObrigatorio~!@#$FraccionamientoObligatorio~!@#$
+TFinDocumentoTipoFch.quFormDocumentoTipo=DocumentoTipo~!@#$TipoDocumento~!@#$TipoDocumento~!@#$
+TFinDocumentoTipoFch.quFormIDDesdobramentoTipoDefault=IDDesdobramentoTipoDefault~!@#$IDTipoDesdobramentoOriginal~!@#$IDTipoFraccionamientoOriginal~!@#$
+TFinDocumentoTipoFch.quFormIDDocumentoTipo=IDDocumentoTipo~!@#$IDTipoDocumento~!@#$IDTipoDocumento~!@#$
+TFinDocumentoTipoFch.quFormIdentificadorDocumento=IdentificadorDocumento~!@#$IdentificadorDocumento~!@#$IdentificadorDocumento~!@#$
+TFinDocumentoTipoFch.quFormNumDocumentoObrigatorio=NumDocumentoObrigatorio~!@#$NúmDocumentoObrigatorio~!@#$NúmDocumentoObligatorio~!@#$
+TFinDocumentoTipoFch.quFormPossuiDesdobramento=PossuiDesdobramento~!@#$PossuiDesdobramento~!@#$PoseeFraccionamiento~!@#$
+
+[Hints]
+TFinDocumentoTipoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinDocumentoTipoFch.btHelp=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinDocumentoTipoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinDocumentoTipoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinDocumentoTipoFch.btOK=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinDocumentoTipoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinDocumentoTipoFch.cbPossuiDesdobramento=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.imgFolder=Doucle-click to show deleted~!@#$Duplo clique para mostrar os eliminados~!@#$Presione dos veces para mostrar los eliminados~!@#$
+TFinDocumentoTipoFch.imgOff=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.imgOn=~!@#$~!@#$~!@#$
+TFinDocumentoTipoFch.ImgTrash=Doucle-click to show non deleted items~!@#$Duplo clique para não mostrar os eliminados~!@#$Presione dos veces para no mostrar los eliminados~!@#$
+TFinDocumentoTipoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

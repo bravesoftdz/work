@@ -1,0 +1,73 @@
+[Captions]
+TFchTranfModelItem.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TFchTranfModelItem.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchTranfModelItem.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchTranfModelItem.btColumn=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFchTranfModelItem.btDetail=F3 &Details ~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TFchTranfModelItem.btExcel=F6 Spreadsheet~!@#$F6 Planilha~!@#$F6 Planilla~!@#$
+TFchTranfModelItem.btGroup=&Grouping~!@#$&Agrupar~!@#$&Agrupar~!@#$
+TFchTranfModelItem.btLoopInc=~!@#$~!@#$~!@#$
+TFchTranfModelItem.btPreview=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TFchTranfModelItem.btRemove=F4 Re&move~!@#$F4 &Eliminar~!@#$F4 &Eliminar~!@#$
+TFchTranfModelItem.dxDBGrid1CurrentCost=Current Cost~!@#$Custo Atual~!@#$Costo Actual~!@#$
+TFchTranfModelItem.dxDBGrid1IDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchTranfModelItem.dxDBGrid1Name=Store~!@#$Loja~!@#$Tienda~!@#$
+TFchTranfModelItem.dxDBGrid1QtyOnHand=Qty OnHand~!@#$Qtd EmLoja~!@#$Ctd Existente~!@#$
+TFchTranfModelItem.dxDBGrid1QtyOnOrder=Qty OnOrder~!@#$Qtd EmPedido~!@#$Ctd EnPedido ~!@#$
+TFchTranfModelItem.dxDBGrid1QtyOnPrePurchase=Qty InReceiving~!@#$Qtd PreRecebendo~!@#$Ctd PreContabilizada~!@#$
+TFchTranfModelItem.dxDBGrid1QtyOnPreSale=Qty OnHold~!@#$Qtd EmNotaPendente~!@#$Ctd EnBoletaPendiente ~!@#$
+TFchTranfModelItem.dxDBGrid1QtyOnRepair=Qty OnRepair~!@#$Qtd EmConserto~!@#$Ctd EnReparación~!@#$
+TFchTranfModelItem.dxDBGrid1StoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+TFchTranfModelItem.Label1=Change for the correct name~!@#$Trocar pelo nome correto~!@#$Cambiar por el nombre correcto~!@#$
+TFchTranfModelItem.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchTranfModelItem.Label2=Qty transfer :~!@#$Qtd transfer. :~!@#$Ctd transfer. :~!@#$
+TFchTranfModelItem.Label4=Item to Transfer~!@#$Item para Transferir~!@#$Item para Transferir~!@#$
+TFchTranfModelItem.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchTranfModelItem.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchTranfModelItem.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchTranfModelItem.pnlsdjhfksdhfjksdhf=~!@#$~!@#$~!@#$
+TFchTranfModelItem.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchTranfModelItem.TFchTranfModelItem=FchTranfModelItem~!@#$FchTransfModItem~!@#$FchTransfModItem~!@#$
+TFchTranfModelItem.tsItem=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchTranfModelItem.lbCost=Transfer Cost :~!@#$Custo Transf.:~!@#$Custo Transf.:~!@#$
+TFchTranfModelItem.lbTax=Tax Value :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFchTranfModelItem.lbModel=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFchTranfModelItem.lbBarcode=Barcode :~!@#$Cód. Barra :~!@#$Cód. Barra :~!@#$
+TFchTranfModelItem.lbSellingPrice=Selling Price :~!@#$Prç Venda :~!@#$Prc Venta :~!@#$
+TFchTranfModelItem.lbLot=Lot :~!@#$Lote :~!@#$Lote :~!@#$
+TFchTranfModelItem.lbTaxCode=Tax Code :~!@#$Cód. Sit. Trib :~!@#$Cod. Impost. :~!@#$
+
+[DisplayLabels]
+TFchTranfModelItem.quBrowseIDLojaOrigem=IDLojaOrigem~!@#$IDLojaOrigem~!@#$IDTiendaOrigen~!@#$
+TFchTranfModelItem.quFormIDModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchTranfModelItem.quFormIDModelTransf=IDModelTransf~!@#$IDModeloTransf~!@#$IDModeloTransf~!@#$
+TFchTranfModelItem.quFormIDModelTransfDet=IDModelTransfDet~!@#$IDModeloTransfDet~!@#$IDModeloTransfDet~!@#$
+TFchTranfModelItem.quFormQty=Total qty to transfer~!@#$Total qtd para transferir~!@#$Total ctd para transferir~!@#$
+TFchTranfModelItem.quQuantityCurrentCost=CurrentCost~!@#$CustoAtual~!@#$CostoActual~!@#$
+TFchTranfModelItem.quQuantityIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchTranfModelItem.quQuantityName=Name~!@#$Nome~!@#$Nombre~!@#$
+TFchTranfModelItem.quQuantityQtyOnHand=QtyOnHand~!@#$Na Loja~!@#$CtdExistente~!@#$
+TFchTranfModelItem.quQuantityQtyOnOrder=QtyOnOrder~!@#$Pedidos~!@#$CtdEnPedido~!@#$
+TFchTranfModelItem.quQuantityQtyOnPrePurchase=QtyOnPrePurchase~!@#$Recebidos~!@#$CtdEnPreCompra~!@#$
+TFchTranfModelItem.quQuantityQtyOnPreSale=QtyOnPreSale~!@#$Nota Pendente~!@#$CtdEnPreVenta~!@#$
+TFchTranfModelItem.quQuantityQtyOnRepair=QtyOnRepair~!@#$Conserto~!@#$CtdEnReparación~!@#$
+TFchTranfModelItem.quQuantityStoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+
+[Hints]
+TFchTranfModelItem.btExcel=Export grid to Spreadsheet~!@#$Exportar rede à Planilha~!@#$Exportar red a Planilla~!@#$
+TFchTranfModelItem.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchTranfModelItem.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchTranfModelItem.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchTranfModelItem.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchTranfModelItem.btPreview=~!@#$~!@#$~!@#$
+TFchTranfModelItem.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchTranfModelItem.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,49 @@
+[Captions]
+TbrwFrmInventoryMov.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmInventoryMov.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmInventoryMov.btLoopInc=~!@#$~!@#$~!@#$
+TbrwFrmInventoryMov.Label1=ID Inventory Movement :~!@#$ID :~!@#$ID :~!@#$
+TbrwFrmInventoryMov.Label15=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TbrwFrmInventoryMov.Label2=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TbrwFrmInventoryMov.Label3=Quantity :~!@#$Quantidade :~!@#$Cantidad :~!@#$
+TbrwFrmInventoryMov.Label4=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TbrwFrmInventoryMov.Label5=Document # :~!@#$Documento # :~!@#$Documento # :~!@#$
+TbrwFrmInventoryMov.Label6=Movement Date :~!@#$Data Mov. :~!@#$Fecha Mov. :~!@#$
+TbrwFrmInventoryMov.Label7=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TbrwFrmInventoryMov.Label8=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TbrwFrmInventoryMov.Label9=Notes :~!@#$Observações :~!@#$Observaciones :~!@#$
+TbrwFrmInventoryMov.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmInventoryMov.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmInventoryMov.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmInventoryMov.lblUserName=lblUserName~!@#$lblNomeUsuario~!@#$lblNombreUsuario~!@#$
+TbrwFrmInventoryMov.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmInventoryMov.TbrwFrmInventoryMov=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+TbrwFrmInventoryMov.Label16=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TbrwFrmInventoryMov.lblReason=Reason :~!@#$Motivo :~!@#$Razón :~!@#$
+
+[DisplayLabels]
+TbrwFrmInventoryMov.quFormDocumentID=Document #~!@#$Documento #~!@#$Documento #~!@#$
+TbrwFrmInventoryMov.quFormIDInventoryMov=IDInventoryMov~!@#$IDMovInventario~!@#$IDMovInventario~!@#$
+TbrwFrmInventoryMov.quFormInventMovTypeID=Type~!@#$Tipo~!@#$Tipo~!@#$
+TbrwFrmInventoryMov.quFormModelID=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwFrmInventoryMov.quFormMovDate=Movement Date~!@#$Data Movimento~!@#$Fecha Movimento~!@#$
+TbrwFrmInventoryMov.quFormNotes=Notes~!@#$Observacões~!@#$Observaciones~!@#$
+TbrwFrmInventoryMov.quFormQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TbrwFrmInventoryMov.quFormStoreID=Store~!@#$Loja~!@#$Tienda~!@#$
+
+[Hints]
+TbrwFrmInventoryMov.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmInventoryMov.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmInventoryMov.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmInventoryMov.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmInventoryMov.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmInventoryMov.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$

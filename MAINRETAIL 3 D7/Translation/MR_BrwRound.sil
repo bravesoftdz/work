@@ -1,0 +1,51 @@
+[Captions]
+TbrwRound.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregue~!@#$
+TbrwRound.btClose=&Close~!@#$Fe&char~!@#$Ce&rrar~!@#$
+TbrwRound.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwRound.btDetail=F3 &Details~!@#$F3 &Detalhes~!@#$F3 &Detalhes~!@#$
+TbrwRound.btExcel=F6 E&xport~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwRound.btFilter=Show &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwRound.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwRound.btnExec=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TbrwRound.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwRound.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwRound.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwRound.EEE=~!@#$~!@#$~!@#$
+TbrwRound.EspacamentoDireito=~!@#$~!@#$~!@#$
+TbrwRound.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TbrwRound.EspacamentoInferior=~!@#$~!@#$~!@#$
+TbrwRound.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TbrwRound.grdBrowseDBIDRoundingTABLE=ID~!@#$ID~!@#$ID~!@#$
+TbrwRound.grdBrowseDBRoundingTable=RoundingTable~!@#$Tabela de Arredondamento~!@#$Tabla de Redondos~!@#$
+TbrwRound.grdBrowseLevel=~!@#$~!@#$~!@#$
+TbrwRound.hhh=~!@#$~!@#$~!@#$
+TbrwRound.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TbrwRound.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwRound.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwRound.Panel1=~!@#$~!@#$~!@#$
+TbrwRound.Panel2=~!@#$~!@#$~!@#$
+TbrwRound.Panel3=~!@#$~!@#$~!@#$
+TbrwRound.panel8=~!@#$~!@#$~!@#$
+TbrwRound.pblGO=~!@#$~!@#$~!@#$
+TbrwRound.pnlAviso=~!@#$~!@#$~!@#$
+TbrwRound.pnlBasicFilter=~!@#$~!@#$~!@#$
+TbrwRound.pnlButton=~!@#$~!@#$~!@#$
+TbrwRound.pnlDivisor=~!@#$~!@#$~!@#$
+TbrwRound.pnlDivisoria2=~!@#$~!@#$~!@#$
+TbrwRound.pnlGenFilter=~!@#$~!@#$~!@#$
+TbrwRound.pnlMain=~!@#$~!@#$~!@#$
+TbrwRound.pnlMainBrowse=~!@#$~!@#$~!@#$
+TbrwRound.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwRound.quBrowseIDRoundingTABLE=ID~!@#$ID~!@#$ID~!@#$
+TbrwRound.quBrowseRoundingTable=RoundingTable~!@#$Tabela de Arredondamento~!@#$Tabla de Redondos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

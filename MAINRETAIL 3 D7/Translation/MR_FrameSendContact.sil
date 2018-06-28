@@ -1,0 +1,46 @@
+[Captions]
+TFrameSendContact.btPreviewVendorFax=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFrameSendContact.lbFormType=lbFormType~!@#$Enviar Pedido por~!@#$Enviar Pedido por~!@#$
+TFrameSendContact.ppLabel1=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrameSendContact.ppLabel2=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrameSendContact.ppLabel4=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TFrameSendContact.ppLabel6=Report Title~!@#$Título Informe~!@#$Título Informe~!@#$
+TFrameSendContact.ppLabel7=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrameSendContact.ppLabel3=Manufacture~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrameSendContact.ppLabel8=User and Date~!@#$Usuário e Data~!@#$Usuario y Fecha~!@#$
+TFrameSendContact.sbEmailFile=E-mail~!@#$E-mail~!@#$E-mail~!@#$
+TFrameSendContact.sbSendFax=Fax~!@#$Fax~!@#$Fax~!@#$
+
+[DisplayLabels]
+TFrameSendContact.quModelDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrameSendContact.quModelModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrameSendContact.quModelQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrameSendContact.quVendorEmail=Email~!@#$E-mail~!@#$E-mail~!@#$
+TFrameSendContact.quVendorFax=Fax~!@#$Fax~!@#$Fax~!@#$
+TFrameSendContact.quVendorIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrameSendContact.quVendorVendor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+
+[Hints]
+TFrameSendContact.btPreviewVendorFax=Preview Models~!@#$Visualizar Modelos~!@#$Visualizar Modelos~!@#$
+TFrameSendContact.lbFormType=~!@#$~!@#$~!@#$
+TFrameSendContact.sbEmailFile=Send by e-mail ~!@#$Enviar por E-mail~!@#$Enviar por E-mail~!@#$
+TFrameSendContact.sbSendFax=Send by Fax~!@#$Enviar por Fax~!@#$Enviar por Fax~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrameSendContact.Emails.AttachedFiles=~!@#$~!@#$~!@#$
+TFrameSendContact.Emails.BlindCopyTo=~!@#$~!@#$~!@#$
+TFrameSendContact.Emails.CopyTo=~!@#$~!@#$~!@#$
+TFrameSendContact.Emails.Recipients=~!@#$~!@#$~!@#$
+TFrameSendContact.ppMemo2.Lines="Store Info"~!@#$"Info Loja"~!@#$"Info Tienda"~!@#$
+TFrameSendContact.ppMemo2.TabStopPositions=~!@#$~!@#$~!@#$
+TFrameSendContact.ppMemo3.TabStopPositions=~!@#$~!@#$~!@#$
+TFrameSendContact.ppModel.ColumnPositions=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

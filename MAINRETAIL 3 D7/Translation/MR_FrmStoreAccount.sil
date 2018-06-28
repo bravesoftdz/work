@@ -1,0 +1,46 @@
+[Captions]
+TFrmStoreAccount.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmStoreAccount.btnCheck=Select~!@#$Selecionar~!@#$Selecionar~!@#$
+TFrmStoreAccount.btnClearAll=Unselect All~!@#$Desmarcar todos~!@#$Desmarcar todos~!@#$
+TFrmStoreAccount.btnCustomer=&Change Customer~!@#$Tro&car Cliente~!@#$Tro&car Cliente~!@#$
+TFrmStoreAccount.btnPayment=&Record Payment~!@#$&Receber~!@#$&Receber~!@#$
+TFrmStoreAccount.btnPrint=Re-Print~!@#$Re-Imprimir~!@#$Re-Imprimir~!@#$
+TFrmStoreAccount.btnSellAll=Select All~!@#$Selecionar Todos~!@#$Selecionar Todos~!@#$
+TFrmStoreAccount.btnUncheck=Unselect~!@#$Desmarcar~!@#$Desmarcar~!@#$
+TFrmStoreAccount.cxgrdHistoryDBAmount=Amount~!@#$Valor~!@#$Valor~!@#$
+TFrmStoreAccount.cxgrdHistoryDBIDStoreAccount=IDStoreAccount~!@#$~!@#$~!@#$
+TFrmStoreAccount.cxgrdHistoryDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmStoreAccount.cxgrdHistoryDBSystemUser=SystemUser~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmStoreAccount.cxgrdHistoryDBTransactionDate=TransactionDate~!@#$Data~!@#$Fetcha~!@#$
+TFrmStoreAccount.grdAccountDBAmount=Amount~!@#$Valor~!@#$Valor~!@#$
+TFrmStoreAccount.grdAccountDBInvoiceCode=Invoice #~!@#$Nº Nota~!@#$Nº Nota~!@#$
+TFrmStoreAccount.grdAccountDBSaleCode=Hold #~!@#$Nº Pedido~!@#$Nº Pedido~!@#$
+TFrmStoreAccount.grdAccountDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmStoreAccount.grdAccountDBSystemUser=User~!@#$Vendedor~!@#$Usuários~!@#$
+TFrmStoreAccount.grdAccountDBTransactionDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmStoreAccount.Label1=Payment :~!@#$Tipo Pgto :~!@#$Tipo Pgto :~!@#$
+TFrmStoreAccount.Label2=Total Due :~!@#$Saldo a Pagar :~!@#$Pagar :~!@#$
+TFrmStoreAccount.Label3=Loyalty :~!@#$Nº Cliente :~!@#$Nº Cliente :~!@#$
+TFrmStoreAccount.Label4=Customer :~!@#$Cliente :~!@#$Cliente :~!@#$
+TFrmStoreAccount.lbChange=Change :~!@#$Troco :~!@#$Troco :~!@#$
+TFrmStoreAccount.lbPaymentAmount=Payment Amount :~!@#$Valor Pgto :~!@#$Valor a pagar :~!@#$
+TFrmStoreAccount.TFrmStoreAccount=Store Account~!@#$Conta Loja~!@#$Conta Loja~!@#$
+TFrmStoreAccount.tsActiveAcc=Store Account~!@#$Conta Loja~!@#$Conta Loja~!@#$
+TFrmStoreAccount.tsHistory=History~!@#$Histórico~!@#$Histórico~!@#$
+TFrmStoreAccount.dbGridTempTransactionDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmStoreAccount.dbGridTempSystemUser=SystemUser~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmStoreAccount.dbGridTempStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmStoreAccount.dbGridTempAmount=Amount~!@#$Valor~!@#$Valor~!@#$
+TFrmStoreAccount.btnRemoveTemp=Remove~!@#$Remover~!@#$Remover~!@#$
+TFrmStoreAccount.grdAccountDBDueDate=DueDate~!@#$Dt. Venc.~!@#$Dt. Venc.~!@#$
+TFrmStoreAccount.btnPartialPayment=&Delay~!@#$Pre-&datar~!@#$Pre-&datar~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

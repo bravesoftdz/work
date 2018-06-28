@@ -1,0 +1,41 @@
+[Captions]
+TFrmEditPreSale.btAdd=F2   &New Hold~!@#$F2 &Nova Nota~!@#$F2 &Nueva Boleta~!@#$
+TFrmEditPreSale.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmEditPreSale.btnJoinHold=F12  &Join Hold~!@#$F12 &Juntar Pedidos~!@#$F12 Agregar Boletos~!@#$
+TFrmEditPreSale.btnViewRequest=F9  &View Request~!@#$F9 &Ver Requisição~!@#$F9 Requerimientos~!@#$
+TFrmEditPreSale.btOK=F3   &Open Hold~!@#$F3 A&brir Nota~!@#$F3 A&brir Boleta~!@#$
+TFrmEditPreSale.btRemove=F4   &Remove~!@#$F4 &Remover~!@#$F4 &Remover~!@#$
+TFrmEditPreSale.btBudget=F5  &Budget~!@#$F5 &Orçamento~!@#$F5 &Presupuesto~!@#$
+TFrmEditPreSale.btUndoHold=Undo &Delivery~!@#$&Desfazer entrega~!@#$&Desfazer entrega~!@#$
+TFrmEditPreSale.btUnlock=F10  &Unlock~!@#$F10 &Destravar~!@#$F10 &Desbloquear~!@#$
+TFrmEditPreSale.btViewInvent=F11  &View Inventory~!@#$F11 &Ver Estoque~!@#$F11 &Ver Inventario~!@#$
+TFrmEditPreSale.grdPreSalesDBPessoa=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmEditPreSale.grdPreSalesDBPreSaleDate=Pre Sale Date~!@#$Data do Pedido~!@#$Pre fecha de la venta~!@#$
+TFrmEditPreSale.grdPreSalesDBSaleCode=Sale Code~!@#$Pedido~!@#$Código de la venta~!@#$
+TFrmEditPreSale.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmEditPreSale.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFrmEditPreSale.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFrmEditPreSale.rgFaixa=~!@#$~!@#$~!@#$
+TFrmEditPreSale.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+
+[DisplayLabels]
+TFrmEditPreSale.quHoldSplitedPreSaleDate=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmEditPreSale.quHoldSplitedSaleCode=Hold # ~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TFrmEditPreSale.quTestDeleteComissionID=ComissionID~!@#$ComissãoID~!@#$ComisiónID~!@#$
+TFrmEditPreSale.quTestLayawayLayaway=Layaway~!@#$Crediário~!@#$Crédito~!@#$
+TFrmEditPreSale.quTestOpenUsernOpenHoldCaixa=nOpenHoldCaixa~!@#$nAbrirNotaCaixa~!@#$nAbrirBoletaCaja ~!@#$
+TFrmEditPreSale.quTestOpenUsernOpenUser=nOpenUser~!@#$nUsuárioAbriu~!@#$nUsuarioAbrió~!@#$
+TFrmEditPreSale.quTestRefreshInvoiceCount=InvoiceCount~!@#$ContarNotas~!@#$ContarBoletas~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmEditPreSale.rbUndoHold.Items=Hold,"Undo Delivery"~!@#$Pedidos,"Desfazer Entrega"~!@#$Pendientes,Entregas~!@#$
+TFrmEditPreSale.rgFaixa.Items=Today,"All Holds",LayAway~!@#$Hoje,Pendentes,Crediário~!@#$Hoy,Pendientes,Crédito~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

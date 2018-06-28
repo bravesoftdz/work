@@ -1,0 +1,53 @@
+[Captions]
+TFrmMarginTableUpdate.BitBtn1=Select All~!@#$Selecionar Todos~!@#$Seleccione Todos ~!@#$
+TFrmMarginTableUpdate.BitBtn2=UnSelet~!@#$Desmarcar Todos~!@#$Un Selecto ~!@#$
+TFrmMarginTableUpdate.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmMarginTableUpdate.btnColumns=Columns~!@#$Colunas~!@#$Columnas~!@#$
+TFrmMarginTableUpdate.btSave=&Save~!@#$&Salvar~!@#$&Guardar~!@#$
+TFrmMarginTableUpdate.EEE=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1Category=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1CostPrice=CostPrice~!@#$Preço de Custo~!@#$Precio De Costo~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1DBColumn1=IDModel~!@#$IDModel~!@#$IDModel~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1Description=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1IsUpdate=IsUpdate~!@#$Atualizar~!@#$Actualización ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1MarginPercent=MarginPercent~!@#$% Margem~!@#$Por ciento Margen ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1MarginValue=MarginValue~!@#$Valor da Margem~!@#$Valor Del Margen ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1Model=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1ModelGroup=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1MSRP=Old MSRP~!@#$Ant Prç Sugerido ~!@#$Precio de MSRP ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1NewMSRPPrice=NewMSRPPrice~!@#$Novo Preço Sugerido~!@#$Nuevo Precio de MSRP ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1NewSellingPrice=NewSellingPrice~!@#$Novo Preço de Venda~!@#$Nuevo Precio de Venta ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1RealMarkUpPercent=MarkupPercent~!@#$% Markup~!@#$Por ciento Markup~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1RealMarkUpValue=MarkupValue~!@#$Valor de Markup~!@#$Valor del Markup~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1SalePrice=Old SellingPrice~!@#$Ant. Prç de Venda~!@#$Precio de Venta ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1SubCategory=SubCategory~!@#$Sub Categoria~!@#$Categoría Secun.~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpDBTableView1Update=IsUpdate~!@#$Modificar~!@#$Es La Actualización ~!@#$
+TFrmMarginTableUpdate.grdMarginTableUpLevel1=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.hhh=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.Label15=User:~!@#$Usuário:~!@#$Usuario: ~!@#$
+TFrmMarginTableUpdate.Panel1=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.Panel2=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.Panel3=~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.Panel4=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TFrmMarginTableUpdate.cdsMarginTableUpdateCostPrice=CostPrice~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.cdsMarginTableUpdateDescription=Description~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.cdsMarginTableUpdateIDModel=IDModel~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.cdsMarginTableUpdateIsUpdate=IsUpdate~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.cdsMarginTableUpdateModel=Model~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.cdsMarginTableUpdateNewMSRPPrice=NewMSRPPrice~!@#$~!@#$~!@#$
+TFrmMarginTableUpdate.cdsMarginTableUpdateNewSellingPrice=NewSellingPrice~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

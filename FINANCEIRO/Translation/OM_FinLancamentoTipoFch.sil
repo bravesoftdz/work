@@ -1,0 +1,64 @@
+[Captions]
+TFinLancamentoTipoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinLancamentoTipoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinLancamentoTipoFch.cbSugereCC=Auto fill account~!@#$Conta corrente padrão~!@#$Llenar en forma automática~!@#$
+TFinLancamentoTipoFch.cbSugerePessoa=Sugere automaticamento o RUN TIME :~!@#$Sugere automaticamento o RUN TIME :~!@#$Sugiere en forma automática el TIEMPO CORRIDO~!@#$
+TFinLancamentoTipoFch.cbSugereCentroCusto=Auto fill cost center~!@#$Centro de custo padrão~!@#$Llenar en forma automática~!@#$
+TFinLancamentoTipoFch.GroupBox1=Action occur when including new record of this type :~!@#$Ação acontece quando se inclui este tipo de registro~!@#$La acción ocurre cuando se incluye este tipo de registro~!@#$
+TFinLancamentoTipoFch.Label1=Entity Type~!@#$Tipo Entidade~!@#$Tipo Entidad~!@#$
+TFinLancamentoTipoFch.Label2=Code :~!@#$Código :~!@#$Código :~!@#$
+TFinLancamentoTipoFch.Label3=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinLancamentoTipoFch.Label4=Entity Name~!@#$Nome Entidade~!@#$Nombre Entidad~!@#$
+TFinLancamentoTipoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinLancamentoTipoFch.lblNavegacao=Navigation~!@#$Navegador~!@#$Navegante~!@#$
+TFinLancamentoTipoFch.lblPTitulo=Record Type~!@#$Tipo Registro~!@#$Tipo Registro~!@#$
+TFinLancamentoTipoFch.lblPTituloShadow=Record Type~!@#$Tipo Registro~!@#$Tipo Registro~!@#$
+TFinLancamentoTipoFch.rgTipo=Module~!@#$Modulo~!@#$Modulo~!@#$
+TFinLancamentoTipoFch.tsCadastro=Registration~!@#$Registro~!@#$Registro~!@#$
+TFinLancamentoTipoFch.tsLancamento=Record's default values~!@#$Valores Originais de Registros~!@#$Valores originales de registros~!@#$
+TFinLancamentoTipoFch.lbGroup=Group :~!@#$Grupo :~!@#$Grupo :~!@#$
+
+[DisplayLabels]
+TFinLancamentoTipoFch.quFormCodigoContabil=Code~!@#$Código~!@#$Código~!@#$
+TFinLancamentoTipoFch.quFormContaCorrenteFixa=ContaCorrenteFixa~!@#$ContaCorrenteFixa~!@#$CuentaCorrienteFija~!@#$
+TFinLancamentoTipoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinLancamentoTipoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinLancamentoTipoFch.quFormIDContaCorrenteDefault=IDContaCorrenteDefault~!@#$IDContaCorrenteOriginal~!@#$IDCuentaCorrienteOriginal~!@#$
+TFinLancamentoTipoFch.quFormIDLancamentoTipo=IDLancamentoTipo~!@#$IDTipoLançamento~!@#$IDTipoContabilización~!@#$
+TFinLancamentoTipoFch.quFormIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFinLancamentoTipoFch.quFormIDPessoaTipo=IDPessoaTipo~!@#$IDPessoaTipo~!@#$IDTipoPersona~!@#$
+TFinLancamentoTipoFch.quFormLancamentoTipo=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinLancamentoTipoFch.quFormPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TFinLancamentoTipoFch.quFormPath=Path~!@#$Localização~!@#$Localización~!@#$
+TFinLancamentoTipoFch.quFormPathName=PathName~!@#$NomeLocalização~!@#$NombreLocalización~!@#$
+TFinLancamentoTipoFch.quFormPermitePessoaNula=PermitePessoaNula~!@#$PermitePessoaNula~!@#$PermitePersonaNula~!@#$
+TFinLancamentoTipoFch.quFormPessoaFixa=PessoaFixa~!@#$PessoaFixa~!@#$PersonaFija~!@#$
+TFinLancamentoTipoFch.quFormSintetico=Sintetico~!@#$Sintetico~!@#$Sintético~!@#$
+TFinLancamentoTipoFch.quFormSugereContaCorrente=SugereContaCorrente~!@#$SugereContaCorrente~!@#$SugiereCuentaCorriente~!@#$
+TFinLancamentoTipoFch.quFormSugerePessoa=SugerePessoa~!@#$SugerePessoa~!@#$SugierePersona~!@#$
+TFinLancamentoTipoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinLancamentoTipoFch.btCancel=~!@#$~!@#$~!@#$
+TFinLancamentoTipoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinLancamentoTipoFch.btHelp=~!@#$~!@#$~!@#$
+TFinLancamentoTipoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinLancamentoTipoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinLancamentoTipoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinLancamentoTipoFch.btOK=~!@#$~!@#$~!@#$
+TFinLancamentoTipoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinLancamentoTipoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinLancamentoTipoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+TFinLancamentoTipoFch.DBRadioGroup1.Items=Analítica,Sintética~!@#$Analítica,Sintética~!@#$Analítica,Sintética~!@#$
+TFinLancamentoTipoFch.FormConfig.UniqueFields=CodigoContabil,LancamentoTipo~!@#$~!@#$~!@#$
+TFinLancamentoTipoFch.rgTipo.Items="Account receivable","Account payable"~!@#$"Contas A Receber","Contas a Pagar"~!@#$"Cuentas Para Recibir","Cuentas Para Pagar"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

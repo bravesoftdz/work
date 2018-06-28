@@ -1,0 +1,33 @@
+[Captions]
+TFrmMRPDV.Label4=Media :~!@#$Mídia :~!@#$Medios~!@#$
+TFrmMRPDV.Label5=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmMRPDV.lblHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmMRPDV.lbProdInfo=Product~!@#$Produto~!@#$Produto~!@#$
+TFrmMRPDV.lbSalePrice=Unit price~!@#$Preço Unitário~!@#$Precio por unidad~!@#$
+TFrmMRPDV.lbSCAddCustomer=Add Customer~!@#$Adicionar cliente~!@#$Agregue a Cliente~!@#$
+TFrmMRPDV.lbSCAddPayment=Add Payment~!@#$Adicionar Pagamento~!@#$Agregue el Pago~!@#$
+TFrmMRPDV.lbSCChangeUser=Change User~!@#$Trocar Usuário~!@#$Cambie a Usuario~!@#$
+TFrmMRPDV.lbSCExit=Exit~!@#$Sair~!@#$Cerrar~!@#$
+TFrmMRPDV.lbSCInvAdjust=Inventory Adjustment~!@#$Ajustar Estoque~!@#$Inventarie el Ajuste~!@#$
+TFrmMRPDV.lbSCInvDisc=Invoice discount~!@#$Desconto~!@#$Descuento de factura~!@#$
+TFrmMRPDV.lbSCLayaway=Layaway~!@#$Crediário~!@#$Layaway~!@#$
+TFrmMRPDV.lbSCNewSale=New Sale~!@#$Nova venda~!@#$Nueva Venta~!@#$
+TFrmMRPDV.lbSCSearch=Search~!@#$Procurar~!@#$Busque~!@#$
+TFrmMRPDV.lbSCViewInvent=View Inventory~!@#$Ver Estoque~!@#$Vea el Inventario~!@#$
+TFrmMRPDV.lbAccessory=Sale suggestions~!@#$Sugestões da venda~!@#$Sugerencias de la venta ~!@#$
+
+[Collections]
+TFrmMRPDV.lvwItems.Columns-0+.Caption=Invoice product(s)~!@#$Produto(s) na nota~!@#$Produto(s) del factura~!@#$
+TFrmMRPDV.lvwItems.Columns-1+.Caption=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmMRPDV.lvwItems.Columns-2+.Caption=Discount~!@#$Desc.~!@#$Desc.~!@#$
+TFrmMRPDV.lvwItems.Columns-3+.Caption=Total Items~!@#$Total~!@#$Total~!@#$
+TFrmMRPDV.lvwPayments.Columns-0+.Caption=Payment Type~!@#$Tipo Pagamento~!@#$Tipo Pago~!@#$
+TFrmMRPDV.lvwPayments.Columns-1+.Caption=Amount~!@#$Valor~!@#$Valor~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

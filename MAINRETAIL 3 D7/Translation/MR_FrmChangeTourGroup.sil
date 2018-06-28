@@ -1,0 +1,32 @@
+[Captions]
+TFrmChangeTourGroup.btAdd=&Add      ~!@#$&Adicionar~!@#$&Agregar~!@#$
+TFrmChangeTourGroup.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmChangeTourGroup.btClose=Update~!@#$Atualizar~!@#$Actualizar~!@#$
+TFrmChangeTourGroup.grdSerialEnterDate=EnterDate~!@#$EntrarData~!@#$EntrarFecha ~!@#$
+TFrmChangeTourGroup.grdSerialIDTouristGroup=ID~!@#$ID~!@#$ID~!@#$
+TFrmChangeTourGroup.grdSerialTipTouristGroup=Tip~!@#$Dica~!@#$Info~!@#$
+TFrmChangeTourGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmChangeTourGroup.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFrmChangeTourGroup.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFrmChangeTourGroup.rgPeriodo=Show Groups~!@#$Mostrar Grupos~!@#$Mostrar Grupos~!@#$
+TFrmChangeTourGroup.TFrmChangeTourGroup=FrmChangeTourGroup~!@#$Agente~!@#$FrmCambiarGrupoTurismo~!@#$
+TFrmChangeTourGroup.grdBrowseSearchDBTipTouristGroup=TipTouristGroup~!@#$Agente~!@#$InfoGrupoTurismo~!@#$
+TFrmChangeTourGroup.grdBrowseSearchDBEnterDate=EnterDate~!@#$Data~!@#$EntrarFecha~!@#$
+TFrmChangeTourGroup.grdBrowseSearchDBAgent=Agent~!@#$Agente~!@#$Agente~!@#$
+
+[DisplayLabels]
+TFrmChangeTourGroup.quGuideEnterDate=EnterDate~!@#$Data~!@#$EntrarFecha~!@#$
+TFrmChangeTourGroup.quGuideIDTouristGroup=IDTouristGroup~!@#$ID~!@#$IDGrupoTurismo~!@#$
+TFrmChangeTourGroup.quGuideTipTouristGroup=TipTouristGroup~!@#$Agente~!@#$InfoGrupoTurismo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmChangeTourGroup.rgPeriodo.Items=All,Recent,Today,"Last Week","Last Month"~!@#$Todos,Recente,Hoje,"Semana Passada","Mês Passado"~!@#$Todos,Reciente,Hoy,"Semana Pasada","Mes Pasado"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

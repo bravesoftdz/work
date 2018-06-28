@@ -1,0 +1,3 @@
+ALTER TABLE Pur_PurchaseItem ADD
+	IsPromo bit NOT NULL DEFAULT 0
+GO

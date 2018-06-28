@@ -1,0 +1,107 @@
+[Captions]
+TFchCashRegMov.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchCashRegMov.btCashConf=&Checked~!@#$&Verificado~!@#$&Verificado~!@#$
+TFchCashRegMov.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchCashRegMov.btConf=O&pen~!@#$A&brir~!@#$A&brir~!@#$
+TFchCashRegMov.btnOBS=Show OBS~!@#$Mostrar OBS~!@#$Mostrar OBS~!@#$
+TFchCashRegMov.btnPettOBS=Show OBS~!@#$Mostrar OBS~!@#$Mostrar OBS~!@#$
+TFchCashRegMov.btnPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFchCashRegMov.dxDBGridMaskColumn1=Payment Type~!@#$Tipo Pagamento~!@#$Tipo Pago~!@#$
+TFchCashRegMov.dxDBGridMaskColumn2=Amount~!@#$Quantia~!@#$Monto~!@#$
+TFchCashRegMov.grdDepositCashierDeposit=CashierDeposit~!@#$DepósitoCaixa~!@#$DepósitoCaja~!@#$
+TFchCashRegMov.grdDepositConferedDeposit=Mgr. Total~!@#$Total Gerente~!@#$Total Gerente~!@#$
+TFchCashRegMov.grdDepositDifference=Difference~!@#$Diferença~!@#$Diferencia~!@#$
+TFchCashRegMov.grdDepositIDCashRegLog=IDCashRegLog~!@#$IDCaixReg~!@#$IDCajReg~!@#$
+TFchCashRegMov.grdDepositLogDocument=Document#~!@#$Documento#~!@#$Documento#~!@#$
+TFchCashRegMov.grdDepositLogTime=Time~!@#$Hora~!@#$Hora~!@#$
+TFchCashRegMov.grdDepositsDBReason=Reason~!@#$Motivo~!@#$Motivo~!@#$
+TFchCashRegMov.grdDepositsDBSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFchCashRegMov.grdDepositSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFchCashRegMov.grdPaymentTypeMeioPag=Payment Type~!@#$Tipo Pagamento~!@#$Tipo Pago~!@#$
+TFchCashRegMov.grdPaymentTypeValor=Amount~!@#$Quantia~!@#$Monto~!@#$
+TFchCashRegMov.grdPettyCashDBReason=Reason~!@#$Motivo~!@#$Motivo~!@#$
+TFchCashRegMov.grdPettyCashLogTime=LogTime~!@#$HoraReg~!@#$HoraReg~!@#$
+TFchCashRegMov.grdPettyCashSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFchCashRegMov.grdPettyCashTotalCash=PettyValue~!@#$ValorC.Pequena~!@#$ValorC.Chica~!@#$
+TFchCashRegMov.Label1=Open User:~!@#$Aberto por :~!@#$Abierto por :~!@#$
+TFchCashRegMov.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchCashRegMov.Label2=Open Time:~!@#$Hora que Abriu :~!@#$Hora que Abrió :~!@#$
+TFchCashRegMov.Label25=Open Cash:~!@#$Caixa Aberto :~!@#$Caja Abierta :~!@#$
+TFchCashRegMov.Label26=Total Sales :~!@#$Total Vendas :~!@#$Total Ventas :~!@#$
+TFchCashRegMov.Label3=Status:~!@#$Estado :~!@#$Estado :~!@#$
+TFchCashRegMov.Label31=Total Deposit :~!@#$Total Sangria :~!@#$Total Depósito :~!@#$
+TFchCashRegMov.Label33=Difference :~!@#$Diferença :~!@#$Diferencia :~!@#$
+TFchCashRegMov.Label4=Manager Total :~!@#$Sangria Gerente :~!@#$Total Gerente :~!@#$
+TFchCashRegMov.Label40=Cashier Total :~!@#$Total Caixa :~!@#$Total Caja :~!@#$
+TFchCashRegMov.Label42=Manager Total :~!@#$Total Gerente :~!@#$Total Gerente :~!@#$
+TFchCashRegMov.Label44=Difference :~!@#$Diferença : ~!@#$Diferencia :~!@#$
+TFchCashRegMov.Label6=System Total :~!@#$Total Sistema :~!@#$Total Sistema :~!@#$
+TFchCashRegMov.Label7=System Total :~!@#$Total Sistema :~!@#$Total Sistema :~!@#$
+TFchCashRegMov.Label9=Final Difference :~!@#$Diferença Final :~!@#$Diferencia Final :~!@#$
+TFchCashRegMov.LabelEffect1=Petty~!@#$C.Pequena~!@#$C.Chica~!@#$
+TFchCashRegMov.LabelEffect2=Deposit~!@#$Depósito~!@#$Depósito~!@#$
+TFchCashRegMov.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchCashRegMov.lblModified=Edit Mode~!@#$Modo Edição~!@#$Modo Edición~!@#$
+TFchCashRegMov.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchCashRegMov.lbPettTotal=Petty Cash :~!@#$Retirada :~!@#$Retirada :~!@#$
+TFchCashRegMov.lbPettyCash=Petty Cash :~!@#$Retirada :~!@#$Retirada :~!@#$
+TFchCashRegMov.lbRetirada=Pay In :~!@#$Total Suprimento :~!@#$Suprimento :~!@#$
+TFchCashRegMov.lbRetirada2=Pay In :~!@#$Suprimento :~!@#$Suprimento :~!@#$
+TFchCashRegMov.Panel13=Manager Totals~!@#$Totais Gerente~!@#$Totales de Gerente~!@#$
+TFchCashRegMov.Panel6=Cash Register Total~!@#$Total Caixa Registradora~!@#$Total Caja Registradora~!@#$
+TFchCashRegMov.Panel9=System Totals~!@#$Totais Sistema~!@#$Totales Sistema~!@#$
+TFchCashRegMov.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchCashRegMov.TabSheet1=Deposit~!@#$Sangria~!@#$Depósito~!@#$
+TFchCashRegMov.TabSheet2=Petty Cash~!@#$Suprimento~!@#$Caja Chica~!@#$
+TFchCashRegMov.TabSheet3=Paid~!@#$Pago~!@#$Pagado~!@#$
+TFchCashRegMov.TabSheet4=Post Dated~!@#$Pre Datado~!@#$A Fecha~!@#$
+TFchCashRegMov.TFchCashRegMov=Cash Register Movement~!@#$Movimento Caixa Registradora~!@#$Movimiento Caja Registradora~!@#$
+
+[DisplayLabels]
+TFchCashRegMov.quFormCalcDeposit=CalcDeposit~!@#$DepósitoCalc~!@#$DepósitoCalc~!@#$
+TFchCashRegMov.quFormFinalCount=FinalCount~!@#$ContagemFinal~!@#$ContadoFinal~!@#$
+TFchCashRegMov.quFormFinalDifference=FinalDifference~!@#$DiferençaFinal~!@#$DiferenciaFinal~!@#$
+TFchCashRegMov.quFormFinalWidraw=FinalWidraw~!@#$RetiroFinal~!@#$RetiroFinal~!@#$
+TFchCashRegMov.quFormIDCashRegister=IDCashRegister~!@#$IDCaixReg~!@#$IDCajReg~!@#$
+TFchCashRegMov.quFormIDCashRegMov=IDCashRegMov~!@#$IDMovCaixReg~!@#$IDMovCajReg~!@#$
+TFchCashRegMov.quFormIDCashRegStatus=IDCashRegStatus~!@#$IDEstCaixReg~!@#$IDEstCajReg~!@#$
+TFchCashRegMov.quFormIDOpenUser=IDOpenUser~!@#$IDUsuárioAbriu~!@#$IDUsuarioAbrió~!@#$
+TFchCashRegMov.quFormManagerCount=ManagerCount~!@#$ContagemGerente~!@#$ContadoGerente~!@#$
+TFchCashRegMov.quFormManagerDifference=ManagerDifference~!@#$DiferençaGerente~!@#$DiferenciaGerente~!@#$
+TFchCashRegMov.quFormOpenDeposit=OpenDeposit~!@#$AbrirDepósito~!@#$AbrirDepósito~!@#$
+TFchCashRegMov.quFormOpenTime=OpenTime~!@#$HoraAberta~!@#$HoraAbierta~!@#$
+TFchCashRegMov.quFormSystemDifference=SystemDifference~!@#$DiferençaSistema~!@#$DiferenciaSistema~!@#$
+TFchCashRegMov.quFormTotalPetty=TotalPetty~!@#$TotalC.Pequena~!@#$TotalC.Chica~!@#$
+TFchCashRegMov.quFormTotalSales=TotalSales~!@#$TotalVendas~!@#$TotalVentas~!@#$
+TFchCashRegMov.quFormTotalWidraw=TotalWidraw~!@#$TotalRetirado~!@#$TotalRetirado~!@#$
+TFchCashRegMov.quLancTotalMeioPag=MeioPag~!@#$MeioPag~!@#$MedioPag~!@#$
+TFchCashRegMov.quLancTotalPreMeioPag=MeioPag~!@#$MeioPag~!@#$MedioPag~!@#$
+TFchCashRegMov.quLancTotalPreValor=Valor~!@#$Valor~!@#$Valor~!@#$
+TFchCashRegMov.quLancTotalValor=Valor~!@#$Valor~!@#$Valor~!@#$
+TFchCashRegMov.quLogDepositCashierDeposit=CashierDeposit~!@#$DepósitoCaixa~!@#$DepósitoCaja~!@#$
+TFchCashRegMov.quLogDepositConferedDeposit=Conf.Deposit~!@#$Depósito Conferido~!@#$Depósito Conferido~!@#$
+TFchCashRegMov.quLogDepositDifference=Difference~!@#$Diferença~!@#$Diferencia~!@#$
+TFchCashRegMov.quLogDepositIDCashRegLog=IDCashRegLog~!@#$IDCaixReg~!@#$IDCajReg~!@#$
+TFchCashRegMov.quLogDepositLogDocument=Envelop#~!@#$Envelope#~!@#$Sobre#~!@#$
+TFchCashRegMov.quLogDepositLogTime=Time~!@#$Hora~!@#$Hora~!@#$
+TFchCashRegMov.quLogDepositSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFchCashRegMov.quLogPettyLogTime=LogTime~!@#$Hora Reg~!@#$Hora Reg~!@#$
+TFchCashRegMov.quLogPettySystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFchCashRegMov.quLogPettyTotalCash=PettyValue~!@#$ValorC.Pequena~!@#$ValorC.Chica~!@#$
+
+[Hints]
+TFchCashRegMov.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchCashRegMov.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchCashRegMov.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchCashRegMov.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchCashRegMov.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchCashRegMov.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

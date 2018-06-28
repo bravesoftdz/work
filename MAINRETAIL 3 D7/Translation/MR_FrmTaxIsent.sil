@@ -1,0 +1,22 @@
+[Captions]
+TFrmTaxIsent.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmTaxIsent.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmTaxIsent.Label1=Arrival - Departure card number :~!@#$Chegada - Saída número cartão~!@#$Llegada - Salida número tarjeta~!@#$
+TFrmTaxIsent.Label2=Passport :~!@#$Passaporte :~!@#$Pasaporte :~!@#$
+TFrmTaxIsent.Label3=Passport Emission Date :~!@#$Data Emissão Passaporte :~!@#$Fecha Emisión Pasaporte :~!@#$
+TFrmTaxIsent.Label4=AirLine :~!@#$Linha Aérea :~!@#$Linea Aérea :~!@#$
+TFrmTaxIsent.Label5=Business Name :~!@#$Empresa :~!@#$Empresa :~!@#$
+TFrmTaxIsent.Label6=Tax ID #~!@#$CGC/CPNJ~!@#$Impuesto ID #~!@#$
+TFrmTaxIsent.Label7=Ticket :~!@#$Passagem :~!@#$Pasaje :~!@#$
+TFrmTaxIsent.Label8=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TFrmTaxIsent.pnlPreSale=Tax Exempt~!@#$Isentar Imposto~!@#$Exentar Impuesto~!@#$
+TFrmTaxIsent.TFrmTaxIsent=Tax Exempt~!@#$Isentar imposto~!@#$Exentar Impuesto~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,53 @@
+[Captions]
+TFchPessoa.Accounting=Accounting~!@#$Financeiro~!@#$Contabilidad~!@#$
+TFchNutrition.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchNutrition.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchNutrition.btFirstRec=<<~!@#$~!@#$~!@#$
+TFchNutrition.btLastRec=>>~!@#$~!@#$~!@#$
+TFchNutrition.btLoopInc=~!@#$~!@#$~!@#$
+TFchNutrition.btnAddNutri=&Add~!@#$~!@#$~!@#$
+TFchNutrition.btNextRec=>~!@#$~!@#$~!@#$
+TFchNutrition.btnModelNutriDown=Down~!@#$~!@#$~!@#$
+TFchNutrition.btnModelNutriUP=Up~!@#$~!@#$~!@#$
+TFchNutrition.btnRemoveNutri=&Remove~!@#$Remover~!@#$Eliminar~!@#$
+TFchNutrition.btnVideo=&Video~!@#$Video~!@#$Video~!@#$
+TFchNutrition.btPriorRec=<~!@#$~!@#$~!@#$
+TFchNutrition.EEE=~!@#$~!@#$~!@#$
+TFchNutrition.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchNutrition.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchNutrition.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchNutrition.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchNutrition.grdNutritionItemDBDescription=Description~!@#$Descrição~!@#$descripción~!@#$
+TFchNutrition.grdNutritionItemDBFieldLength=Length~!@#$Tamanho~!@#$Tamaño~!@#$
+TFchNutrition.grdNutritionItemDBFieldPos=Pos~!@#$~!@#$~!@#$
+TFchNutrition.grdNutritionItemLvl=~!@#$~!@#$~!@#$
+TFchNutrition.hhh=~!@#$~!@#$~!@#$
+TFchNutrition.Label15=User:~!@#$Usuário~!@#$Usuario~!@#$
+TFchNutrition.Label43=*~!@#$~!@#$~!@#$
+TFchNutrition.lbDescription=Description :~!@#$Descrição~!@#$descripción~!@#$
+TFchNutrition.lblMenu=First Menu Item~!@#$~!@#$~!@#$
+TFchNutrition.lblModified=Edit Mode~!@#$~!@#$~!@#$
+TFchNutrition.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$~!@#$
+TFchNutrition.lblUserName=lblUserName~!@#$Usuário~!@#$~!@#$
+TFchNutrition.lbNutItem=Nut.Item/Size :~!@#$Item/Tamanho~!@#$~!@#$
+TFchNutrition.Panel1=~!@#$~!@#$~!@#$
+TFchNutrition.Panel2=~!@#$~!@#$~!@#$
+TFchNutrition.Panel3=~!@#$~!@#$~!@#$
+TFchNutrition.Panel4=~!@#$~!@#$~!@#$
+TFchNutrition.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchNutrition.pnlDetail=~!@#$~!@#$~!@#$
+TFchNutrition.pnlKey=~!@#$~!@#$~!@#$
+TFchNutrition.pnlNavigation=~!@#$~!@#$~!@#$
+TFchNutrition.pnlNutritionItem=Nutrition Item~!@#$Item~!@#$Item~!@#$
+TFchNutrition.pnlVendorList=~!@#$~!@#$~!@#$
+TFchNutrition.spHelp=&Help~!@#$Ajuda~!@#$ayuda~!@#$
+TFchNutrition.TFchNutrition=FchNutrition~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

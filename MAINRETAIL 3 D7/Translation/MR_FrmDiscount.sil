@@ -1,0 +1,25 @@
+[Captions]
+TFrmDiscount.btClose=&Cancel~!@#$&Cancelar~!@#$&Cerrar~!@#$
+TFrmDiscount.btnApplay=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmDiscount.GroupBox1=~!@#$~!@#$~!@#$
+TFrmDiscount.GroupBox2=~!@#$~!@#$~!@#$
+TFrmDiscount.hhh=~!@#$~!@#$~!@#$
+TFrmDiscount.Label1=Our Price :~!@#$Preço :~!@#$Precio :~!@#$
+TFrmDiscount.Label15=User:~!@#$Usuario:~!@#$Usuario:~!@#$
+TFrmDiscount.Label2=Amount:~!@#$Valor :~!@#$Monto :~!@#$
+TFrmDiscount.pnlButtom=~!@#$~!@#$~!@#$
+TFrmDiscount.pnlLine=~!@#$~!@#$~!@#$
+TFrmDiscount.rbAcre=Addition~!@#$Acréscimo~!@#$Acréscimo~!@#$
+TFrmDiscount.rbPerc=Percent~!@#$Percentual~!@#$Percentual~!@#$
+TFrmDiscount.rbValor=Value~!@#$Valor~!@#$Monto~!@#$
+TFrmDiscount.rdDesc=Discount~!@#$Desconto~!@#$Desconto~!@#$
+TFrmDiscount.spHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

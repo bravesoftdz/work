@@ -1,0 +1,30 @@
+[Captions]
+TFrmUserMessageUserList.btAreaTodas=All~!@#$Todo~!@#$Todo~!@#$
+TFrmUserMessageUserList.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmUserMessageUserList.btnSave=&Save~!@#$&Salvar~!@#$Salvar~!@#$
+TFrmUserMessageUserList.btnUserType=All~!@#$Todo~!@#$Todo~!@#$
+TFrmUserMessageUserList.cxGridDBTableView1User=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmUserMessageUserList.gridUsersDBTableView1SystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFrmUserMessageUserList.gridUsersDBTableView1UserType=UserType~!@#$Grupo~!@#$Grupo~!@#$
+TFrmUserMessageUserList.gridUsersLevel1=~!@#$~!@#$~!@#$
+TFrmUserMessageUserList.lbStore=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmUserMessageUserList.lbUserType=User Type :~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmUserMessageUserList.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmUserMessageUserList.TFrmUserMessageUserList=Message User List~!@#$Lista de Usuário de mensagem~!@#$Lista de Usuario~!@#$
+
+[DisplayLabels]
+TFrmUserMessageUserList.cdsReceiversIDUser=IDUser~!@#$~!@#$~!@#$
+TFrmUserMessageUserList.cdsReceiversSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmUserMessageUserList.quUsersIDUser=IDUser~!@#$~!@#$~!@#$
+TFrmUserMessageUserList.quUsersImage=Image~!@#$Imagem~!@#$Imagem~!@#$
+TFrmUserMessageUserList.quUsersSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFrmUserMessageUserList.quUsersUserType=UserType~!@#$Grupo~!@#$Grupo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

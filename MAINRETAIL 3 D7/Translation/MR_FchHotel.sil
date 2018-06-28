@@ -1,0 +1,46 @@
+[Captions]
+TFchHotel.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchHotel.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchHotel.btLoopInc=~!@#$~!@#$~!@#$
+TFchHotel.Label1=Notes :~!@#$Observações :~!@#$Observaciones :~!@#$
+TFchHotel.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchHotel.Label19=Location Info~!@#$Info Lugar~!@#$Info Lugar~!@#$
+TFchHotel.Label2=IDLocation :~!@#$IDLugar :~!@#$IDLugar :~!@#$
+TFchHotel.Label3=Location :~!@#$Lugar :~!@#$Lugar :~!@#$
+TFchHotel.Label4=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TFchHotel.Label5=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFchHotel.Label6=ZIP :~!@#$CEP :~!@#$Código Postal :~!@#$
+TFchHotel.Label7=Phone :~!@#$Fone :~!@#$Fono :~!@#$
+TFchHotel.Label8=Fax :~!@#$Fax :~!@#$Fax :~!@#$
+TFchHotel.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchHotel.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchHotel.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchHotel.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchHotel.TFchHotel=Hotel~!@#$Hotel ~!@#$Hotel~!@#$
+
+[DisplayLabels]
+TFchHotel.quFormCEP=ZIP~!@#$CEP~!@#$Código postal~!@#$
+TFchHotel.quFormCidade=City~!@#$Cidade~!@#$Ciudad~!@#$
+TFchHotel.quFormEndereco=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFchHotel.quFormFax=Fax~!@#$Fax~!@#$Fax~!@#$
+TFchHotel.quFormHotel=Location~!@#$Lugar~!@#$Lugar~!@#$
+TFchHotel.quFormIDHotel=IDHotel~!@#$IDHotel~!@#$IDHotel~!@#$
+TFchHotel.quFormOBS=OBS~!@#$OBS~!@#$OBS~!@#$
+TFchHotel.quFormTelefone=Telephone~!@#$Telefone~!@#$Teléfono~!@#$
+
+[Hints]
+TFchHotel.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchHotel.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchHotel.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchHotel.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchHotel.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchHotel.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

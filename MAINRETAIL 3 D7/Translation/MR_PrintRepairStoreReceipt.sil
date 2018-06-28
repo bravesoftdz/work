@@ -1,0 +1,32 @@
+[Captions]
+TPrintRepairStoreReceipt.btOk=&OK~!@#$&OK~!@#$&OK~!@#$
+TPrintRepairStoreReceipt.lblPrint=Printing Receipt, Please Wait~!@#$Imprimindo Recibo, Porfavor Espere ~!@#$Imprimiendo Recibo, Porfavor Espere~!@#$
+TPrintRepairStoreReceipt.pnlPrinter=If printer does not start, check the "On Line" Button~!@#$Se a impressora não imprimir, cheque o botão "Em Linha"~!@#$Si la impresora no imprime, verifique el botón "En Línea"~!@#$
+TPrintRepairStoreReceipt.TPrintRepairStoreReceipt=Printing Receipt~!@#$Imprimindo Recibo~!@#$Imprimiendo Recibo~!@#$
+
+[DisplayLabels]
+TPrintRepairStoreReceipt.quRepairAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TPrintRepairStoreReceipt.quRepairBackDate=BackDate~!@#$DataRetorno~!@#$FechaDevuelto~!@#$
+TPrintRepairStoreReceipt.quRepairCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TPrintRepairStoreReceipt.quRepairDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TPrintRepairStoreReceipt.quRepairIDRepair=IDRepair~!@#$IDConserto~!@#$IDReparación~!@#$
+TPrintRepairStoreReceipt.quRepairModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TPrintRepairStoreReceipt.quRepairOBSLine1=OBSLine1~!@#$OBSLinha1~!@#$OBSLínea1~!@#$
+TPrintRepairStoreReceipt.quRepairOBSLine2=OBSLine2~!@#$OBSLinha2~!@#$OBSLínea2~!@#$
+TPrintRepairStoreReceipt.quRepairOBSLine3=OBSLine3~!@#$OBSLinha3~!@#$OBSLínea3~!@#$
+TPrintRepairStoreReceipt.quRepairOBSLine4=OBSLine4~!@#$OBSLínha4~!@#$OBSLínea4~!@#$
+TPrintRepairStoreReceipt.quRepairOBSReceive=OBSReceive~!@#$OBSRecebido~!@#$OBSRecibido~!@#$
+TPrintRepairStoreReceipt.quRepairQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TPrintRepairStoreReceipt.quRepairReceiveDate=ReceiveDate~!@#$DataRecebida~!@#$FechaRecibida~!@#$
+TPrintRepairStoreReceipt.quRepairSerialNumber=SerialNumber~!@#$NúmeroSérie~!@#$NúmeroSérie~!@#$
+TPrintRepairStoreReceipt.quRepairSysUser=SysUser~!@#$UsuárioSistema~!@#$UsuarioSistema~!@#$
+TPrintRepairStoreReceipt.quRepairTicketHeader=TicketHeader~!@#$CabeçalhoRecibo~!@#$TítuloRecibo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

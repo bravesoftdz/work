@@ -1,0 +1,81 @@
+[Captions]
+TFrmTeleMarketing.btCategoryAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTeleMarketing.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmTeleMarketing.btDelFilter=~!@#$~!@#$~!@#$
+TFrmTeleMarketing.btFabricanteAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTeleMarketing.btnAddHistory=Add~!@#$Adic.~!@#$Adic.~!@#$
+TFrmTeleMarketing.btnConfigureLabel=Configure label~!@#$Config. Etiqueta~!@#$Config. Etiqueta~!@#$
+TFrmTeleMarketing.btnCreateHold=Finalize Hold~!@#$Salvar Pedido~!@#$Guardar Boleta~!@#$
+TFrmTeleMarketing.btnDeleteItem=Item~!@#$Item~!@#$Item~!@#$
+TFrmTeleMarketing.btnEditCustomer=Edit~!@#$Editar~!@#$Editar~!@#$
+TFrmTeleMarketing.btnEditHistory=Edit~!@#$Editar~!@#$Editar~!@#$
+TFrmTeleMarketing.btnEndCall=End call~!@#$Fechar chamada~!@#$final llamada~!@#$
+TFrmTeleMarketing.btnExec=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TFrmTeleMarketing.btnExecute=Execute~!@#$Atualizar~!@#$Atualizar~!@#$
+TFrmTeleMarketing.btnMessage=Message~!@#$Mensagem~!@#$Menssagem~!@#$
+TFrmTeleMarketing.btnMGroupAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTeleMarketing.btnNewHold=Hold~!@#$Pedido~!@#$Boleta~!@#$
+TFrmTeleMarketing.btnOpenFilter=~!@#$~!@#$~!@#$
+TFrmTeleMarketing.btnReport=Print label~!@#$Etiquetas~!@#$Imp. etiqueta~!@#$
+TFrmTeleMarketing.btnStartCall=Start call~!@#$Iniciar chamada~!@#$comienzo llamada~!@#$
+TFrmTeleMarketing.btnSubCateAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTeleMarketing.btnVendorAll=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTeleMarketing.chkLayaway=Layaway~!@#$Crediário~!@#$Crediário~!@#$
+TFrmTeleMarketing.grdCustomerDBCell=Cell~!@#$Cel.~!@#$Cel.~!@#$
+TFrmTeleMarketing.grdCustomerDBEmail=Email~!@#$Email~!@#$Email~!@#$
+TFrmTeleMarketing.grdCustomerDBFullName=FullName~!@#$Nome~!@#$Nombre~!@#$
+TFrmTeleMarketing.grdCustomerDBMovDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmTeleMarketing.grdCustomerDBPhone=APhone~!@#$Tel.~!@#$Tel.~!@#$
+TFrmTeleMarketing.grdCustomerDBPResult=Result~!@#$Resultado~!@#$Resultado~!@#$
+TFrmTeleMarketing.grdCustomerDBPType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFrmTeleMarketing.grdCustomerLevel=~!@#$~!@#$~!@#$
+TFrmTeleMarketing.grdHistoryDBMovDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmTeleMarketing.grdHistoryDBObs=Obs~!@#$Obs~!@#$Obs~!@#$
+TFrmTeleMarketing.grdHistoryDBPessoaHistoryResult=Result~!@#$Resultado~!@#$Resultado~!@#$
+TFrmTeleMarketing.grdHistoryDBPessoaHistoryType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFrmTeleMarketing.grdHistoryDBSystemUser=User~!@#$Usuário~!@#$Usuário~!@#$
+TFrmTeleMarketing.grdProductsViewCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmTeleMarketing.grdProductsViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmTeleMarketing.grdProductsViewExtSalePrice=Total Sold~!@#$Total~!@#$Total~!@#$
+TFrmTeleMarketing.grdProductsViewMGroup=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFrmTeleMarketing.grdProductsViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmTeleMarketing.grdProductsViewMovDate=MovDate~!@#$Data~!@#$Fetcha~!@#$
+TFrmTeleMarketing.grdProductsViewQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmTeleMarketing.grdProductsViewSalePrice=Total Sold~!@#$Total~!@#$Total~!@#$
+TFrmTeleMarketing.grdProductsViewSubCategory=SubCategory~!@#$SubCategoria~!@#$SubCategoria~!@#$
+TFrmTeleMarketing.grdSellItemsViewCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmTeleMarketing.grdSellItemsViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmTeleMarketing.grdSellItemsViewFinalPrice=FinalPrice~!@#$Preço Venda~!@#$Prc Venta~!@#$
+TFrmTeleMarketing.grdSellItemsViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmTeleMarketing.grdSellItemsViewPromotionPrice=Promotion~!@#$Promocição~!@#$Promoción~!@#$
+TFrmTeleMarketing.grdSellItemsViewQtyOnHand=OnHand~!@#$EmEstoque~!@#$EmEstoque~!@#$
+TFrmTeleMarketing.grdSellItemsViewVendor=Vendor~!@#$Fornecedor~!@#$Fornecedor~!@#$
+TFrmTeleMarketing.gridFilterViewFilterName=FilterName~!@#$Filtro~!@#$Filtro~!@#$
+TFrmTeleMarketing.gridSaleItemsViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmTeleMarketing.gridSaleItemsViewItemTotal=ItemTotal~!@#$Total~!@#$Total~!@#$
+TFrmTeleMarketing.gridSaleItemsViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmTeleMarketing.gridSaleItemsViewQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmTeleMarketing.gridSaleItemsViewSalePrice=SalePrice~!@#$Prç Venda~!@#$Prc Venta~!@#$
+TFrmTeleMarketing.Label1=Vendor :~!@#$Fornecedor:~!@#$Fornecedor:~!@#$
+TFrmTeleMarketing.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TFrmTeleMarketing.Label2=Category :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFrmTeleMarketing.Label3=Customer :~!@#$Cliente :~!@#$Cliente :~!@#$
+TFrmTeleMarketing.Label4=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmTeleMarketing.Label5=Media :~!@#$Mídia :~!@#$Medios :~!@#$
+TFrmTeleMarketing.Label6=Total :~!@#$Total :~!@#$Total :~!@#$
+TFrmTelemarketing.Label7=Customer :~!@#$Cliente :~!@#$Cliente :~!@#$
+TFrmTelemarketing.Label8=History :~!@#$Histórico :~!@#$Historico :~!@#$
+TFrmTeleMarketing.lbGroup=Group :~!@#$Grupo~!@#$Grupo~!@#$
+TFrmTeleMarketing.lbSubCategory=Sub Category :~!@#$Sub Categoria :~!@#$Sub Categoria :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmTeleMarketing.cbxSaleHistory.Items=,Resumed,Detailed~!@#$,Resumido,Detalhado~!@#$,Resumido,Detalhado~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

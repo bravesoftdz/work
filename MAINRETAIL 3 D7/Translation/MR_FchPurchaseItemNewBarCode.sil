@@ -1,0 +1,26 @@
+[Captions]
+TFchPurchaseItemNewBarCode.btCancel=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFchPurchaseItemNewBarCode.btOK=&Save~!@#$&Salvar~!@#$&Salvar~!@#$
+TFchPurchaseItemNewBarCode.grdHistoryData=Date~!@#$Data~!@#$Fecha~!@#$
+TFchPurchaseItemNewBarCode.grdHistoryIDBarcode=Current barcodes for selected model~!@#$Códigos de Barrras atuais para o modelo selecionado.~!@#$Códigos de Barras actuales para el modelo seleccionado.~!@#$
+TFchPurchaseItemNewBarCode.grdHistoryIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchPurchaseItemNewBarCode.Label1=Search :~!@#$Buscar :~!@#$Buscar :~!@#$
+TFchPurchaseItemNewBarCode.Label6=If you did not find this model, press Alt-N to create a new inventory item.~!@#$Se não achar o modelo,pressione Alt-N para crear um novo Item no Inventario.~!@#$Si no encuentra el modelo, presione Alt-N para crear un nuevo Item en el Inventario.~!@#$
+TFchPurchaseItemNewBarCode.Label7=Search for the Model below, select model to associate it with this new barcode.~!@#$Buscar pelo Modelo abaixo, selecione modelo para associa-lo com o novo Código de Barra.~!@#$Buscar por el Modelo abajo,seleccione el modelo para asociarlo con el nuevo Código de Barra.~!@#$
+TFchPurchaseItemNewBarCode.TFchPurchaseItemNewBarCode=Barcode not Found~!@#$Código Barra não Encontrado~!@#$Código de Barra no Encontrado~!@#$
+TFchPurchaseItemNewBarCode.Titulo=The Barcode you entered does not exist.~!@#$O Código de Barra digitado não existe.~!@#$El Código de Barra digitado no existe.~!@#$
+TFchPurchaseItemNewBarCode.lbBarcode=Barcode :~!@#$Cód. Barra:~!@#$Cód. Barra:~!@#$
+
+[DisplayLabels]
+TFchPurchaseItemNewBarCode.quBarCodeData=Data~!@#$Data~!@#$Fecha~!@#$
+TFchPurchaseItemNewBarCode.quBarCodeIDBarcode=Barcode~!@#$CódigoBarra~!@#$CódigoBarra~!@#$
+TFchPurchaseItemNewBarCode.quBarCodeIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

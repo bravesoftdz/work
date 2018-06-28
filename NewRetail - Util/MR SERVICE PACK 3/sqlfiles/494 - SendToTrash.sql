@@ -1,0 +1,3 @@
+ALTER TABLE Model ADD
+	SendToTrash Boolean NOT NULL CONSTRAINT DF_Model_SendToTrash_Zero DEFAULT 0
+GO

@@ -1,0 +1,69 @@
+[Captions]
+TBrwTaxCategory.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TBrwTaxCategory.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TBrwTaxCategory.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TBrwTaxCategory.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TBrwTaxCategory.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TBrwTaxCategory.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TBrwTaxCategory.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TBrwTaxCategory.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwTaxCategory.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TBrwTaxCategory.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwTaxCategory.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TBrwTaxCategory.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwTaxCategory.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwTaxCategory.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwTaxCategory.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwTaxCategory.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwTaxCategory.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TBrwTaxCategory.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TBrwTaxCategory.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TBrwTaxCategory.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwTaxCategory.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TBrwTaxCategory.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TBrwTaxCategory.grdBrowseDBIDTaxCategory=ID~!@#$ID~!@#$ID~!@#$
+TBrwTaxCategory.grdBrowseDBTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TBrwTaxCategory.grdBrowseDBTaxCategory=TaxCategory~!@#$Categoria~!@#$Categoría Impuesto~!@#$
+TBrwTaxCategory.Label1=Sale Tax Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TBrwTaxCategory.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TBrwTaxCategory.Label2=Tax Type :~!@#$Impostos de : ~!@#$Impuesto de :~!@#$
+TBrwTaxCategory.lblBasicFilter=~!@#$~!@#$~!@#$
+TBrwTaxCategory.lblGenFilter=~!@#$~!@#$~!@#$
+TBrwTaxCategory.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TBrwTaxCategory.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TBrwTaxCategory.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TBrwTaxCategory.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TBrwTaxCategory.quBrowseIDTaxCategory=IDTaxCategory~!@#$IDCategoriaTaxa~!@#$IDCategoríaImp~!@#$
+TBrwTaxCategory.quBrowseTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TBrwTaxCategory.quBrowseTaxCategory=TaxCategory~!@#$CategoríaDeTaxas~!@#$CategoríaDeImpuestos~!@#$
+
+[Hints]
+TBrwTaxCategory.btExcel=Export ~!@#$Exportar ~!@#$Exportar~!@#$
+TBrwTaxCategory.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwTaxCategory.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwTaxCategory.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TBrwTaxCategory.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwTaxCategory.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwTaxCategory.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwTaxCategory.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwTaxCategory.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwTaxCategory.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwTaxCategory.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TBrwTaxCategory.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TBrwTaxCategory.cbxSaleType.Items="Sale Charge",Tax~!@#$"Encargos de Venda",Imposto~!@#$"Encargos da Venta",Impuesto~!@#$
+TBrwTaxCategory.cbxTaxType.Items=Sale,Purchase~!@#$Venda,Compra~!@#$Venta,Compra~!@#$
+TBrwTaxCategory.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TBrwTaxCategory.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

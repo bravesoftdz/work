@@ -1,0 +1,16 @@
+[Captions]
+TFrmNewBarcode.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmNewBarcode.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFrmNewBarcode.hhh=~!@#$~!@#$~!@#$
+TFrmNewBarcode.Label1=To assign a new barcode to a model, pass the scanner on product or Type the Number and press Enter.~!@#$Para designar um novo Código de Barra a um modelo, escaneie o produto ou entre os dígitos e clique no OK. ~!@#$Para designar un nuevo Código de Barra a un modelo, escanee el producto o ingrese los dígitos de éste y presione OK.~!@#$
+TFrmNewBarcode.Label3=New Barcode~!@#$Novo Cód. Barra :~!@#$Nuevo Cód. Barra :~!@#$
+TFrmNewBarcode.TFrmNewBarcode=Assign New Barcode~!@#$Designar Novo CódBarra~!@#$Designar Nuevo CódBarra~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

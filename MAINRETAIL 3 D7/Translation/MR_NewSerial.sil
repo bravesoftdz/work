@@ -1,0 +1,26 @@
+[Captions]
+TNewSerial.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TNewSerial.btLoopInc=~!@#$~!@#$~!@#$
+TNewSerial.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TNewSerial.Label1=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TNewSerial.Label2=Serial Number :~!@#$Número Série :~!@#$Número Serie :~!@#$
+TNewSerial.lblMenu=Serial Number~!@#$Número Serie~!@#$Número Serie~!@#$
+TNewSerial.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TNewSerial.lblSubMenu=~!@#$~!@#$~!@#$
+TNewSerial.lbSubMenu=Serial Number~!@#$Número Serie~!@#$Número Serie~!@#$
+TNewSerial.TNewSerial=New Serial Number~!@#$Novo Número Serie~!@#$Nuevo Número Serie~!@#$
+
+
+[Hints]
+TNewSerial.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar inserindo dados sem fechar a tela .~!@#$Continuar introduciendo datos sin cerrar la pantalla.~!@#$
+TNewSerial.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$Clique aqui para a inclusão ficar em Loop~!@#$Presione aquí para que la inclusión quede en Loop.~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

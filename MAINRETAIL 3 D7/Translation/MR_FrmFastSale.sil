@@ -1,0 +1,117 @@
+[Captions]
+TFrmFastSale.btAddItem=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TFrmFastSale.btCancel=&Cancel~!@#$&Fechar~!@#$&Cancelar~!@#$
+TFrmFastSale.btDepartment=Department~!@#$Departamento~!@#$Departamento~!@#$
+TFrmFastSale.btDiscountItem=F3 &Detail~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TFrmFastSale.btnPartialPayment=&Delay Payment~!@#$Pre-&Datar nota~!@#$Pre-Datar~!@#$
+TFrmFastSale.btReceive=&Receive~!@#$&Recebido~!@#$&Recibido~!@#$
+TFrmFastSale.btRemoveItem=F4 R&emove~!@#$F4 R&emover~!@#$F4 R&emover~!@#$
+TFrmFastSale.btSerial=F5 &SerialNumber~!@#$F5 &NúmeroSérie~!@#$F5 &NúmeroSérie~!@#$
+TFrmFastSale.Label1=Barcode~!@#$Código Barra~!@#$Código Barra~!@#$
+TFrmFastSale.Label10=Payment Type ~!@#$Forma Pagamento~!@#$Tipo de Pago~!@#$
+TFrmFastSale.Label12=Authorization # ~!@#$Autorização #~!@#$Autorización #~!@#$
+TFrmFastSale.Label13=Tax ~!@#$Imposto~!@#$Impuesto~!@#$
+TFrmFastSale.Label14=Sub total ~!@#$Sub Total~!@#$Sub Total~!@#$
+TFrmFastSale.Label16=Total ~!@#$Total~!@#$Total~!@#$
+TFrmFastSale.Label17=Choose a Payment Type~!@#$Escolher Forma Pagamento ~!@#$Escoger Tipo de Pago~!@#$
+TFrmFastSale.Label2=User:~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmFastSale.Label24=(F8) Media :~!@#$(F8) Mídia :~!@#$(F8) Medios :~!@#$
+TFrmFastSale.Label25=(F7) ZIP :~!@#$(F7) CEP :~!@#$(F7) Postal :~!@#$
+TFrmFastSale.Label3=XPress Sale~!@#$Venda Rápida~!@#$Venta Rápida~!@#$
+TFrmFastSale.Label4=(F9) Customer :~!@#$(F9) Cliente :~!@#$(F9) Cliente :~!@#$
+TFrmFastSale.Label6=Item(s) on Hold~!@#$Item (s) Nota Pendente~!@#$Item (s) Boleta Pendiente~!@#$
+TFrmFastSale.Label7=Qty~!@#$Qtd~!@#$Qtd~!@#$
+TFrmFastSale.lblChange=Change~!@#$Troco~!@#$Cambio~!@#$
+TFrmFastSale.lblReceived=Cash received~!@#$Recebido~!@#$Recibido~!@#$
+TFrmFastSale.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmFastSale.TFrmFastSale=Xpress Sale~!@#$Venda Rápida~!@#$Venta Rápida~!@#$
+
+[DisplayLabels]
+TFrmFastSale.quBarCodeIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmFastSale.quBarCodeSellingPrice=SellingPrice~!@#$PreçoVenda~!@#$PrecioVenta~!@#$
+TFrmFastSale.quBarCodeVendorCost=VendorCost~!@#$CustoFornecedor~!@#$CostoProveedor~!@#$
+TFrmFastSale.quPaymentValueTotal=Total~!@#$Total~!@#$Total~!@#$
+TFrmFastSale.quPreSaleInfoAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFrmFastSale.quPreSaleInfoAirLine=AirLine~!@#$LinhaAérea~!@#$LineaAérea~!@#$
+TFrmFastSale.quPreSaleInfoCardNumber=CardNumber~!@#$NúmeroCartão~!@#$NúmeroTarjeta~!@#$
+TFrmFastSale.quPreSaleInfoCompanyCGC=CompanyCGC~!@#$CGCEmpresa~!@#$IdentidadEmpresa~!@#$
+TFrmFastSale.quPreSaleInfoCompanyName=CompanyName~!@#$NomeEmpresa~!@#$NombreEmpresa~!@#$
+TFrmFastSale.quPreSaleInfoDeliverAddress=DeliverAddress~!@#$EndereçoEnvio~!@#$DirecciónEnvio~!@#$
+TFrmFastSale.quPreSaleInfoDeliverDate=DeliverDate~!@#$DataEnvio~!@#$FechaEnvio~!@#$
+TFrmFastSale.quPreSaleInfoDeliverTypeID=DeliverTypeID~!@#$TipoEnvioID~!@#$TipoEnvioID~!@#$
+TFrmFastSale.quPreSaleInfoDepositDate=DepositDate~!@#$DataDeposito~!@#$FechaDeposito~!@#$
+TFrmFastSale.quPreSaleInfoFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TFrmFastSale.quPreSaleInfoIDCustomer=IDCustomer~!@#$IDCliente~!@#$IDCliente~!@#$
+TFrmFastSale.quPreSaleInfoIDInvoice=IDInvoice~!@#$IDNota~!@#$IDBoleta~!@#$
+TFrmFastSale.quPreSaleInfoIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPago~!@#$
+TFrmFastSale.quPreSaleInfoIDPreSale=IDPreSale~!@#$IDPreVenda~!@#$IDPreVenta~!@#$
+TFrmFastSale.quPreSaleInfoIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFrmFastSale.quPreSaleInfoIDTouristGroup=IDTouristGroup~!@#$IDGrupoTurismo~!@#$IDGrupoTurismo~!@#$
+TFrmFastSale.quPreSaleInfoInvoiceDate=InvoiceDate~!@#$DataNota~!@#$FechaBoleta~!@#$
+TFrmFastSale.quPreSaleInfoLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmFastSale.quPreSaleInfoLayaway=Layaway~!@#$Crediário~!@#$Crédito~!@#$
+TFrmFastSale.quPreSaleInfoMediaID=MediaID~!@#$MídiaID~!@#$MediosID~!@#$
+TFrmFastSale.quPreSaleInfoNote=Note~!@#$Observação~!@#$Observación~!@#$
+TFrmFastSale.quPreSaleInfoOtherComissionID=OtherComissionID~!@#$OutraComissãoID~!@#$OtraComisiónID~!@#$
+TFrmFastSale.quPreSaleInfoPassport=Passport~!@#$Passaporte~!@#$Pasaporte~!@#$
+TFrmFastSale.quPreSaleInfoPassportDate=PassportDate~!@#$DataPassaporte~!@#$FechaPasaporte~!@#$
+TFrmFastSale.quPreSaleInfoPreSaleDate=PreSaleDate~!@#$DataPreVenda~!@#$FechaPreVenta~!@#$
+TFrmFastSale.quPreSaleInfoTicket=Ticket~!@#$Passagem~!@#$Pasaje~!@#$
+TFrmFastSale.quPreSaleInfoZip=Zip~!@#$Cep~!@#$C.Postal~!@#$
+TFrmFastSale.quVerifyOpenHoldnOpenHoldCaixa=nOpenHoldCaixa~!@#$nAbrirPendenteCaixa~!@#$nAbrirPendienteCaja~!@#$
+TFrmFastSale.quVerifyOpenHoldnOpenUser=nOpenUser~!@#$nUsuárioAbriu~!@#$nUsuarioAbrio~!@#$
+TFrmFastSale.spquKitPriceQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmFastSale.spquKitPriceSellingPrice=SellingPrice~!@#$PreçoVenda~!@#$PrecioVenta~!@#$
+TFrmFastSale.spquPreSaleItemCostPrice=CostPrice~!@#$PreçoCusto~!@#$PrecioCosto~!@#$
+TFrmFastSale.spquPreSaleItemDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmFastSale.spquPreSaleItemDiscActual=DiscActual~!@#$DescAtual~!@#$DescActual~!@#$
+TFrmFastSale.spquPreSaleItemDiscount=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TFrmFastSale.spquPreSaleItemExchangeInvoice=ExchangeInvoice~!@#$TrocarNota~!@#$CambiarBoleta~!@#$
+TFrmFastSale.spquPreSaleItemIDComission=IDComission~!@#$IDComissão~!@#$IDComisión~!@#$
+TFrmFastSale.spquPreSaleItemIDInventoryMov=IDInventoryMov~!@#$IDMovInventario~!@#$IDMovInventario~!@#$
+TFrmFastSale.spquPreSaleItemIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TFrmFastSale.spquPreSaleItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmFastSale.spquPreSaleItemModelID=ModelID~!@#$ModeloID~!@#$ModeloID~!@#$
+TFrmFastSale.spquPreSaleItemQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmFastSale.spquPreSaleItemSalePrice=SalePrice~!@#$$ Venda~!@#$PrecioVenta~!@#$
+TFrmFastSale.spquPreSaleItemSalesPerson=SalesPerson~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmFastSale.spquPreSaleItemSerialNumber=SerialNumber~!@#$N/S~!@#$N/S~!@#$
+TFrmFastSale.spquPreSaleItemSubTotalItem=SubTotalItem~!@#$SubTotalItem~!@#$SubTotalItem~!@#$
+TFrmFastSale.spquPreSaleItemSuggRetail=SuggRetail~!@#$Preço Sug.~!@#$PrecioSug~!@#$
+TFrmFastSale.spquPreSaleItemTax=Tax~!@#$Imposto~!@#$Imposto~!@#$
+TFrmFastSale.spquPreSaleItemTotalItem=Total~!@#$Total~!@#$Total~!@#$
+TFrmFastSale.spquPreSaleValueDiscountPrc=DiscountPrc~!@#$PrçDesconto~!@#$PrcDescuento~!@#$
+TFrmFastSale.spquPreSaleValueItemDiscount=ItemDiscount~!@#$DescontoItem~!@#$DescuentoItem~!@#$
+TFrmFastSale.spquPreSaleValueNewSubTotal=NewSubTotal~!@#$NovoSubTotal~!@#$NuevoSubTotal~!@#$
+TFrmFastSale.spquPreSaleValuenOpenUser=nOpenUser~!@#$nUsuárioAbriu~!@#$nUsuarioAbrio~!@#$
+TFrmFastSale.spquPreSaleValueShowOpenUser=ShowOpenUser~!@#$MostrarUsuárioAbriu~!@#$MostrarUsuarioAbrio~!@#$
+TFrmFastSale.spquPreSaleValueSpecialPrice=SpecialPrice~!@#$PreçoEspecial~!@#$PrecioEspecial~!@#$
+TFrmFastSale.spquPreSaleValueSpecialPriceID=SpecialPriceID~!@#$PreçoEspecialID~!@#$PrecioEspecialID~!@#$
+TFrmFastSale.spquPreSaleValueSubTotal=SubTotal~!@#$Sub Total~!@#$Sub Total~!@#$
+TFrmFastSale.spquPreSaleValueSubTotalTaxable=SubTotalTaxable~!@#$SubTotalTributável~!@#$SubTotalTributable~!@#$
+TFrmFastSale.spquPreSaleValueTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFrmFastSale.spquPreSaleValueTaxIsemptItemDiscount=TaxIsemptItemDiscount~!@#$ItemDescontoImpostoIsenta~!@#$ItemDescuentoImpuestoExento~!@#$
+TFrmFastSale.spquPreSaleValueTaxIsemptValue=TaxIsemptValue~!@#$ValorImpostosenta~!@#$ValorImpuestoExento~!@#$
+TFrmFastSale.spquPreSaleValueTaxIsent=TaxExempt~!@#$Isento Imposto~!@#$ExentoImpuesto~!@#$
+TFrmFastSale.spquPreSaleValueTaxPrc=TaxPrc~!@#$Prç Imposto~!@#$PrcImpuesto~!@#$
+TFrmFastSale.spquPreSaleValueTotalInvoice=TotalInvoice~!@#$TotalNota~!@#$TotalBoleta~!@#$
+TFrmFastSale.spquQuantityCurrentCost=CurrentCost~!@#$CustoAtual~!@#$CostoActual~!@#$
+TFrmFastSale.spquQuantityName=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmFastSale.spquQuantityQtyOnHand=QtyOnHand~!@#$QtdEmLoja~!@#$CtdExistente~!@#$
+TFrmFastSale.spquQuantityQtyOnOrder=QtyOnOrder~!@#$QtdEmPedido~!@#$CtdEnPedido~!@#$
+TFrmFastSale.spquQuantityQtyOnPrePurchase=QtyOnPrePurchase~!@#$QtdEmPreCompra~!@#$CtdEnPreCompra~!@#$
+TFrmFastSale.spquQuantityQtyOnPreSale=QtyOnHold~!@#$QtdEmNPendente~!@#$CtdEnBPendiente~!@#$
+TFrmFastSale.spquQuantityQtyOnRepair=QtyOnRepair~!@#$QtdEmConserto~!@#$CtdEnReparación~!@#$
+TFrmFastSale.spquQuantityStoreID=StoreID~!@#$LojaID~!@#$TiendaID~!@#$
+
+[Hints]
+TFrmFastSale.edtQty=In case of refund, type negative quantity~!@#$Em caso de devolução, entre a quantidade negativa~!@#$En el caso de devolución, entre la cantidad negativa~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

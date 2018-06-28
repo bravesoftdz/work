@@ -1,0 +1,7209 @@
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Cotation_CreatePO]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Cotation_CreatePO]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Inventory_Tranfer_IN]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Inventory_Tranfer_IN]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Inventory_Tranfer_Import]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Inventory_Tranfer_Import]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Inventory_Tranfer_OUT]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Inventory_Tranfer_OUT]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Model_Adjust]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Model_Adjust]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PO_AddItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PO_AddItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PO_ChangeItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PO_ChangeItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PO_Item_Do]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PO_Item_Do]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_AddItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_AddItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_CancelHold]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_CancelHold]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_ChangeItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_ChangeItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_DivideHold]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_DivideHold]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_Import_Estimated]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_Import_Estimated]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_Pay]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_Pay]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_RemoveItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_RemoveItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_Split]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_Split]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_SubAddItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_SubAddItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_SubRemoveItem]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_SubRemoveItem]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_UnPay]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_UnPay]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_PreSale_quPreSaleItemSplited]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_PreSale_quPreSaleItemSplited]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Purchase_Do]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Purchase_Do]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Repair_Do]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Repair_Do]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Request_GenerateComputer]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Request_GenerateComputer]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_TourGroup_AddGift]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_TourGroup_AddGift]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Inventory_Count]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Inventory_Count]
+GO
+
+CREATE PROCEDURE sp_Cotation_CreatePO
+	(
+	@IDCotacao	int,
+	@IDFornecedor	int,
+	@IDStore	int,
+	@IDUser	int,
+	@Date		DateTime
+	)
+
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		Crio os PO para os itens marcados de uma cotacao
+		Caso seja passado um iDFornecedor, somente crio para ele, senão para todos
+
+		- Teste se existe algum PO aberto
+		- Incluo os Itens
+		- Atualiza o total do PO
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Teste se existe algum PO aberto
+		-202  Erro em Incluo os Itens
+		-203  Erro em Atualiza o total do PO
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	01 June 2001		Rodrigo Costa   	Coloquei o SubTotal na PO
+	25 June 2001		Davi Gouveia		Log de Return Values
+	21 Oct	2003		André Bogado		Chamada a sp_Sis_GetNextCode
+							Delcaração de PreInventoryMov_Cursor
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+
+DECLARE @PO			int
+DECLARE @ErrorLevel 		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de PreInventoryMov
+DECLARE @IDPreInventoryMov 	int
+DECLARE @InventMovTypeID 	int 
+DECLARE @DocumentID 	int 
+DECLARE @StoreID 		int 
+DECLARE @ModelID 		int 
+DECLARE @MovDate 		smalldatetime 
+DECLARE @Qty 		float
+DECLARE @CostPrice 		money 
+DECLARE @IDPessoa 		int 
+DECLARE @UserID 		int 
+
+SET @ErrorLevel = 0
+
+-- Teste se existe algum PO aberto
+IF EXISTS
+	(
+	SELECT
+		IDPO
+	FROM
+		PO
+	WHERE
+		PO.IDFornecedor = @IDFornecedor
+		AND
+		PO.IDStore = @IDStore
+		AND
+		PO.Aberto = 1
+	)
+	BEGIN
+		SELECT 
+			@PO = PO.IDPO
+		FROM
+			PO
+		WHERE
+			PO.IDFornecedor = @IDFornecedor
+			AND
+			PO.IDStore = @IDStore
+			AND
+			PO.Aberto = 1
+	END
+ELSE
+	BEGIN
+		-- Obtenho IDPO e guardo em @PO
+		EXEC sp_Sis_GetNextCode 'PO.IDPO', @PO OUTPUT
+		INSERT 	PO (IDPO,IDFornecedor, DataPedido, IDStore, Aberto)
+		VALUES	(@PO,@IDFornecedor, @Date, @IDStore, 1)
+	END
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+
+-- Incluo os Itens
+--Declaração do Cursor de PreInventoryMov
+
+DECLARE PreInventoryMov_Cursor CURSOR FOR
+
+SELECT
+	2,
+	@PO,
+	@IDStore,
+	CR.IDModel,
+	@Date,
+	CTM.QtyCotada,
+	CR.Cost,
+	@IDFornecedor,
+	@IDUser
+FROM
+	CotacaoResult CR
+	JOIN CotacaoToModel CTM ON (CR.IDModel = CTM.IDModel AND CR.IDCotacao =CTM.IDCotacao)
+WHERE
+	CR.PO = 1
+	AND
+	CR.IDFornecedor = @IDFornecedor
+	AND
+	CR.IDCotacao = @IDCotacao
+
+OPEN PreInventoryMov_Cursor
+
+--Inicialização de PreInventoryMov_Cursor
+FETCH NEXT FROM PreInventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@DocumentID,
+	@StoreID,
+	@ModelID,
+	@MovDate,
+	@Qty,
+	@CostPrice,
+	@IDPessoa,
+	@UserID
+--Enquanto tem registros
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode 'PreInventoryMov.IDPreInventoryMov', @IDPreInventoryMov OUTPUT
+
+	INSERT PreInventoryMov
+		(
+		IDPreInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		StoreID,
+		ModelID,
+		MovDate,
+		DateEstimatedMov,
+		Qty,
+		CostPrice,
+		IDPessoa,
+		UserID
+		)
+	VALUES 
+		(
+		@IDPreInventoryMov,
+		@InventMovTypeID,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@MovDate,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@IDPessoa,
+		@UserID	
+		)
+
+	FETCH NEXT FROM PreInventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@IDPessoa,
+		@UserID
+END
+--fechamento do cursor
+CLOSE PreInventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE PreInventoryMov_Cursor
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Atualiza o total do PO
+
+EXEC sp_PO_AtuPOTotal @PO
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+OK:
+	RETURN 0
+
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Cotation_CreatePO', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_Inventory_Tranfer_IN
+	(
+	@IDModelTransf	int
+	)
+ AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Testa qual das sub's devo rodar
+		- Atualizo o model
+
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+	 000  Ok
+	-201  Erro em deletar Model
+	-202  Erro em Inserir Model
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------
+	16 Jul 2005		Rodrigo Costa		Criação;
+        ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de InventoryMov
+DECLARE @DocumentID 	int 
+DECLARE @ModelID 		int 
+DECLARE @Qty 		float
+DECLARE @CostPrice		money
+DECLARE @IDUser 		int 
+DECLARE @PreInventoryMovID 	int 
+DECLARE @IDInventoryMov    	int
+DECLARE @StoreIDOrigem 	int 
+DECLARE @StoreIDDestino 	int 
+
+
+BEGIN TRAN
+
+
+/*--------------------------------------------------------------*/
+/*		Parte da Delecao do InventoryMov        	*/
+/*--------------------------------------------------------------*/
+DELETE
+	InventoryMov
+FROM
+	ModelTransfDet MTD
+WHERE	
+	InventoryMov.InventMovTypeID = 8
+	AND
+	InventoryMov.DocumentID = @IDModelTransf
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO   ERRO
+END
+
+/*--------------------------------------------------------------*/
+/*		Parte da Insercao do InventoryMov        	*/
+/*--------------------------------------------------------------*/
+
+--Declaração do Cursor de InventoryMov
+DECLARE TransferIN_Cursor CURSOR FOR
+	SELECT
+		MTD.IDModelTransf,
+		MT.IDLojaOrigem,
+		MT.IDLojaDestino,
+		MTD.IDModel,
+		MTD.Qty,
+		MT.IDUser,
+		MTD.IDModelTransfDet, /* guarda a linha correspondente a inserida */
+		MTD.CostPrice
+	FROM
+		ModelTransfDet MTD,
+		ModelTransf MT
+	WHERE
+		MTD.IDModelTransf = MT.IDModelTransf
+		AND
+		MT.IDModelTransf = @IDModelTransf
+
+OPEN TransferIN_Cursor
+
+--Inicialização de TransferIN_Cursor
+FETCH NEXT FROM TransferIN_Cursor INTO
+	@DocumentID,
+	@StoreIDOrigem,
+	@StoreIDDestino,
+	@ModelID,
+	@Qty,
+	@IDUser,
+	@PreInventoryMovID,
+	@CostPrice
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+--Inclusao da loja original
+	EXEC sp_Sis_GetNextCode'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		StoreID,
+		ModelID,
+		IDPessoa,
+		MovDate,
+		Qty,
+		IDUser,
+		PreInventoryMovID,
+		CostPrice
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		8,   /* entrada da loja destino */
+		@DocumentID,
+		@StoreIDDestino,
+		@ModelID,
+		0,
+		GetDate(),
+		@Qty,
+		@IDUser,
+		@PreInventoryMovID, /* guarda a linha correspondente a inserida */
+		@CostPrice
+		)
+
+	FETCH NEXT FROM TransferIN_Cursor INTO
+		@DocumentID,
+		@StoreIDOrigem,
+		@StoreIDDestino,
+		@ModelID,
+		@Qty,
+		@IDUser,
+		@PreInventoryMovID,
+		@CostPrice
+END
+--fechamento do cursor
+CLOSE TransferIN_Cursor
+--Destruição do cursor
+DEALLOCATE TransferIN_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO   ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Inventory_Tranfer_IN', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_Inventory_Tranfer_Import
+	(
+	@IDTransfOUT	int,
+	@IDTransfIN	int
+	)
+ AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Insiro a Transferencia
+
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+	 000  Ok
+	-201  Erro em importar models
+	-202  Erro em atualizar imported
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------
+	16 Jul 2005		Rodrigo Costa		Criação;
+        ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de InventoryMov
+DECLARE @ModelID 		int 
+DECLARE @Qty 			float 
+DECLARE @CostPrice		money
+DECLARE @Tax			money 
+DECLARE @IDModelTransfDet    	int
+
+BEGIN TRAN
+
+/*--------------------------------------------------------------*/
+/*		Parte da Insercao do InventoryMov        	*/
+/*--------------------------------------------------------------*/
+
+--Declaração do Cursor de InventoryMov
+DECLARE TransferItem_Cursor CURSOR FOR
+	SELECT
+		MTD.IDModel,
+		MTD.Qty,
+		MTD.Tax,
+		MTD.CostPrice
+	FROM
+		ModelTransfDet MTD
+	WHERE
+		MTD.IDModelTransf = @IDTransfOUT
+
+OPEN TransferItem_Cursor
+
+--Inicialização de TransferItem_Cursor
+FETCH NEXT FROM TransferItem_Cursor INTO
+	@ModelID,
+	@Qty,
+	@Tax,
+	@CostPrice
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+--Inclusao da loja original
+	EXEC sp_Sis_GetNextCode'ModelTransfDet.IDModelTransfDet', @IDModelTransfDet OUTPUT
+
+	INSERT ModelTransfDet
+		(
+		IDModelTransfDet,
+		IDModelTransf,
+		IDModel,
+		Qty,
+		CostPrice,
+		Tax
+		)
+	VALUES
+		(
+		@IDModelTransfDet,
+		@IDTransfIN,
+		@ModelID,
+		@Qty,
+		@CostPrice,
+		@Tax
+		)
+
+	FETCH NEXT FROM TransferItem_Cursor INTO
+		@ModelID,
+		@Qty,
+		@Tax,
+		@CostPrice
+END
+--fechamento do cursor
+CLOSE TransferItem_Cursor
+--Destruição do cursor
+DEALLOCATE TransferItem_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO   ERRO
+END
+
+/*--------------------------------------------------------------*/
+/*		Atualizo a importacao		        	*/
+/*--------------------------------------------------------------*/
+
+UPDATE
+	ModelTransf
+SET
+	Imported = 1
+WHERE
+	IDModelTransf = @IDTransfOUT
+	
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO   ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Inventory_Tranfer_Import', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_Inventory_Tranfer_OUT
+	(
+	@IDModelTransf	int
+	)
+ AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Testa qual das sub's devo rodar
+		- Atualizo o model
+
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+	 000  Ok
+	-201  Erro em deletar Model
+	-202  Erro em Inserir Model
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------
+	16 Jul 2005		Rodrigo Costa		Criação;
+        ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de InventoryMov
+DECLARE @DocumentID 	int 
+DECLARE @ModelID 		int 
+DECLARE @Qty 		float
+DECLARE @CostPrice 		money
+DECLARE @IDUser 		int 
+DECLARE @PreInventoryMovID 	int 
+DECLARE @IDInventoryMov    	int
+DECLARE @StoreIDOrigem 	int 
+DECLARE @StoreIDDestino 	int 
+
+
+BEGIN TRAN
+
+
+/*--------------------------------------------------------------*/
+/*		Parte da Delecao do InventoryMov        	*/
+/*--------------------------------------------------------------*/
+DELETE
+	InventoryMov
+FROM
+	ModelTransfDet MTD
+WHERE	
+	InventoryMov.InventMovTypeID = 7
+	AND
+	InventoryMov.DocumentID = @IDModelTransf
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO   ERRO
+END
+
+/*--------------------------------------------------------------*/
+/*		Parte da Insercao do InventoryMov        	*/
+/*--------------------------------------------------------------*/
+
+--Declaração do Cursor de InventoryMov
+DECLARE TransferOUT_Cursor CURSOR FOR
+	SELECT
+		MTD.IDModelTransf,
+		MT.IDLojaOrigem,
+		MT.IDLojaDestino,
+		MTD.IDModel,
+		MTD.Qty,
+		MT.IDUser,
+		MTD.IDModelTransfDet, /* guarda a linha correspondente a inserida */
+		MTD.CostPrice
+	FROM
+		ModelTransfDet MTD,
+		ModelTransf MT
+	WHERE
+		MTD.IDModelTransf = MT.IDModelTransf
+		AND
+		MT.IDModelTransf = @IDModelTransf
+
+OPEN TransferOUT_Cursor
+
+--Inicialização de TransferOUT_Cursor
+FETCH NEXT FROM TransferOUT_Cursor INTO
+	@DocumentID,
+	@StoreIDOrigem,
+	@StoreIDDestino,
+	@ModelID,
+	@Qty,
+	@IDUser,
+	@PreInventoryMovID,
+	@CostPrice
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+--Inclusao da loja original
+	EXEC sp_Sis_GetNextCode'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		StoreID,
+		ModelID,
+		IDPessoa,
+		MovDate,
+		Qty,
+		IDUser,
+		PreInventoryMovID,
+		CostPrice
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		7,   /* saida da loja original */
+		@DocumentID,
+		@StoreIDOrigem,
+		@ModelID,
+		0,
+		GetDate(),
+		@Qty,
+		@IDUser,
+		@PreInventoryMovID, /* guarda a linha correspondente a inserida */
+		@CostPrice
+		)
+
+	FETCH NEXT FROM TransferOUT_Cursor INTO
+		@DocumentID,
+		@StoreIDOrigem,
+		@StoreIDDestino,
+		@ModelID,
+		@Qty,
+		@IDUser,
+		@PreInventoryMovID,
+		@CostPrice
+END
+--fechamento do cursor
+CLOSE TransferOUT_Cursor
+--Destruição do cursor
+DEALLOCATE TransferOUT_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO   ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Inventory_Tranfer_OUT', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_Model_Adjust
+		(
+	             @QtyOnOrder        	float,
+	             @QtyOnRepair       	float,
+		@QtyOnPrePurchase  	float,
+		@IDModel    	   	int,
+		@IDStore      	   	int,
+		@Difference 	   	float,
+		@IDUser		int,
+		@Date			Datetime,
+		@Notes			varchar(255) -- Davi
+		)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Ajuste por entrada ou saida de estoque
+		- Atualiza o Inventory
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Ajuste por entrada de estoque
+		-202  Erro em Ajuste por saida de estoque
+		-203  Erro em Atualiza o Inventory
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	25 June 2001		Davi Gouveia		Log de Return Values
+ 	21 Oct	2003		Rodrigo Costa		Chamada a sp_Sis_GetNextCode para @IDInventoryMov; 
+							Criado @IDInventoryMov;
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+DECLARE @ErrorLevel 		int
+DECLARE @SysError		int
+DECLARE @IDInventoryMov	int
+
+SET @ErrorLevel = 0
+
+EXEC sp_Sis_GetNextCode 'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+IF @Difference > 0
+BEGIN
+	/*	Ajuste por entrada de estoque	*/
+	INSERT InventoryMov 	(
+				IDInventoryMov,
+				InventMovTypeID,
+				DocumentID,
+				StoreID,
+				ModelID,
+				MovDate,
+				Qty,
+				IDUser,
+				Notes --Davi
+				)
+				VALUES
+				(
+				@IDInventoryMov,
+				4,
+				0,
+				@IDStore,
+				@IDModel,
+				@Date,
+				Abs(@Difference),
+				@IDUser,
+				@Notes --Davi
+				)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -201
+		GOTO ERRO
+	END
+END
+ELSE
+BEGIN
+	/*	Ajuste por saida de estoque	*/
+	INSERT InventoryMov 	(
+				IDInventoryMov,
+				InventMovTypeID,
+				DocumentID,
+				StoreID,
+				ModelID,
+				MovDate,
+				Qty,
+				IDUser,
+				Notes --Davi
+				)
+				VALUES
+				(
+				@IDInventoryMov,
+				3,
+				0,
+				@IDStore,
+				@IDModel,
+				@Date,
+				Abs(@Difference),
+				@IDUser,
+				@Notes --Davi
+				)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+
+END
+
+OK:
+	RETURN 0
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Model_Adjust', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+CREATE PROCEDURE sp_PO_ChangeItem
+		(
+		@IDModel                	int,
+		@IDPOItem 	  	int,
+		@IDPO			int,
+		@Qty			float,
+		@CostPrice		money,
+		@SalePrice		money,
+		@SuggRetail		money,
+		@DataPedido    		smalldatetime,
+		@EstimatedDate	smalldatetime
+		)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Muda os valores do POItem atual
+		- Atualiza o Model
+		- Atualiza o total do PO
+		- Verifica Condição de fechamento do PO e atualiza
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok		
+		-201  Erro em Muda os valores do POItem atual
+		-202  Erro em Atualiza o Model
+		-203  Erro em Atualiza o total do PO
+		-204  Erro em Verifica Condição de fechamento do PO e atualiza
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	18 Aug  2004		Rodrigo Costa		Gravar error log
+	30 Nov 2005		Carlos Lima		Atualizar totais e fechamento
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @SubTotal	money
+DECLARE @ErrorLevel	int
+DECLARE @SysError	int
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+
+
+/*------------------------------------------------------------------------------*/
+/*     	      Muda os valores do POItem atual					*/
+/*------------------------------------------------------------------------------*/
+
+UPDATE
+	dbo.vwPOItem
+SET	
+	Qty 			= @Qty,
+	CostPrice  		= @CostPrice,
+	SalePrice  		= @SalePrice,
+	SuggRetail 		= @SuggRetail,
+	MovDate 		= @DataPedido,
+	DateEstimatedMov 	= @EstimatedDate
+WHERE
+	IDPOItem = @IDPOItem
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+/*------------------------------------------------------------------------------*/
+/*                             Atualiza o Model                                 */
+/*------------------------------------------------------------------------------*/
+UPDATE 
+	MODEL
+SET
+	SuggRetail = @SuggRetail
+FROM
+	MODEL
+WHERE
+	IDModel = @IDModel
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+/*------------------------------------------------------------------------------*/
+/*		Atualiza o total do PO						*/
+/*------------------------------------------------------------------------------*/
+
+EXEC sp_PO_AtuPOTotal @IDPO
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*               Verifica Condição de fechamento do PO e atualiza		*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+EXEC sp_PO_CalcTotalQty @IDPO	
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PO_ChangeItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_PO_Item_Do
+		(
+		@IDPreInventoryMov 	int,
+		@IDPO			int
+		)
+AS
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Deleto a POItemRequest
+		- Atualiza SuggRetail no Model
+		- Atualiza as informações nos Subs
+		- Atualiza Total no PO
+		- Incluo a POItemRequest
+		- Atualizo a condição de fechamento do PO
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Deteto a POItemRequest
+		-202  Erro em Atualiza o Model
+		-203  Erro em Copio os dados do master para os subs
+		-204  Erro em Atualiza o total do PO
+		-205  Erro em Recrio  a POItemRequest
+		-206  Erro em  Atualizo a condição de fechamento do PO
+
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	04 dezembro 2000	Eduardo Costa		Criação;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	01 Dec 2005		Carlos Lima		Verificar a condição de fechamento do PO e atualizar
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @QtyAtual	float
+DECLARE @ErrorLevel	int
+DECLARE @SysError	int
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+
+------------------------------------------------------------------------------
+-- Deteto a POItemRequest
+
+DELETE
+	POIR
+FROM
+	POItemRequest POIR
+	JOIN 
+	PreInventoryMov PIM ON (POIR.IDPreInventoryMov = PIM.IDPreInventoryMov)
+WHERE
+	PIM.DocumentID = @IDPO
+	AND
+	PIM.InventMovTypeID = 2 -- Compra
+
+SET @SysError = @@ERROR 
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+
+
+------------------------------------------------------------------------------
+-- Atualiza o Model
+
+UPDATE
+	M
+SET
+	M.SuggRetail = PIM.SuggRetail
+FROM
+	PreInventoryMov PIM
+	JOIN 
+	Model M ON (PIM.ModelID = M.IDModel)
+WHERE
+	PIM.IDPreInventoryMov = @IDPreInventoryMov
+	AND
+	IsNull(PIM.SuggRetail,0) <> 0
+
+SET @SysError = @@ERROR 
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+
+
+------------------------------------------------------------------------------
+-- Copio os dados do master para os subs
+
+UPDATE
+	PIMS
+SET
+	PIMS.CostPrice 			= PIMM.CostPrice,
+	PIMS.SuggRetail		= PIMM.SuggRetail,
+	PIMS.IDPessoa			= PIMM.IDPessoa,
+	PIMS.DateEstimatedMov		= PIMM.DateEstimatedMov,
+	PIMS.StoreID			= PIMM.StoreID,
+	PIMS.SalePrice			= PIMM.SalePrice,
+	PIMS.DocumentID		= PIMM.DocumentID,
+	PIMS.MovDate			= PIMM.MovDate,
+	PIMS.InventMovTypeID		= PIMM.InventMovTypeID,
+	PIMS.UserID			= PIMM.UserID
+FROM
+	PreInventoryMov PIMM
+	JOIN 
+	PreInventoryMov PIMS ON (PIMM.IDPreInventoryMov = PIMS.IDPreInventoryMovParent)
+WHERE
+	PIMM.IDPreInventoryMov = @IDPreInventoryMov
+
+SET @SysError = @@ERROR 
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Atualiza o total do PO
+
+EXEC sp_PO_AtuPOTotal @IDPO
+
+SET @SysError = @@ERROR 
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+
+
+------------------------------------------------------------------------------
+-- Recrio  a POItemRequest
+
+INSERT
+	POItemRequest
+	(
+	IDPreInventoryMov,
+	IDRequest,
+	Qty
+	)
+SELECT
+	PIM.IDPreInventoryMov,
+	R.IDRequest,
+	CASE WHEN R.QtyReq <= PIM.Qty THEN R.QtyReq ELSE R.QtyReq - PIM.Qty END
+FROM
+	Request R
+	JOIN 
+	PreInventoryMov PIM ON (R.ModelID = PIM.ModelID)
+WHERE
+	IsNull(R.QtyReq, 0) > IsNull(R.QtyOrdered, 0)
+	AND
+	PIM.DocumentID = @IDPO
+	AND
+	PIM.InventMovTypeID = 2 -- Compra
+
+
+SET @SysError = @@ERROR 
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Atualizo a condição de fechamento do PO
+
+EXEC sp_PO_CalcTotalQty @IDPO
+	
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -206
+	GOTO ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PO_Item_Do', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_AddItem
+		(
+		@PreSaleID     			int,
+		@IDCliente			int,
+		@ModelID     			int,
+		@StoreID     			int,
+		@UserID      			int,
+		@IDComission			int,
+		@Qty         			float,
+		@SalePrice      			money,
+		@CostPrice			money,
+		@Discount    			money,
+		@MovDate     			smalldatetime,
+		@ResetDiscount  		bit	= 0,
+		@Manager			bit	= 0,
+		@Date				DateTime,
+		@IDPreInvMovExchange	int,
+		@PreInventMovID  		int	Output
+		)
+AS
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 	SUMARIO
+
+		- Testa se o discount total ainda e valido
+		- Inclui a movimentaçao
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 @Result  Ok
+		-201      Erro em exec @Result = sp_PreSale_SubTestDiscount
+		-202      Erro em exec sp_PreSale_SubResetDiscount
+		-203      Erro em exec @Result = sp_PreSale_SubAddItem
+		-204      Erro em exec sp_PreSale_SubCalcTotal
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	01 Fev 2005		Rodrigo Costa		Novo campo @IDPreInvMovExchange
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+ 
+DECLARE @Result		int
+DECLARE @Value		money
+DECLARE @ErrorLevel		int 
+DECLARE @SysError		int
+
+SET @ErrorLevel = 0
+ 
+
+/*------------------------------------------------------------------------------*/
+/*                Testa se o discount total ainda e valido                      */
+/*------------------------------------------------------------------------------*/ 
+
+SELECT @Value = IsNUll((@SalePrice * @Qty),0)
+
+IF @Manager = 0 BEGIN
+	EXEC @Result = sp_PreSale_SubTestDiscount 	@PreSaleID,
+							@ModelID,
+							@UserID,
+							@Discount,
+							@Value,
+							'I',
+							1
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -201
+		GOTO ERRO
+	END
+
+	IF @ResetDiscount = 1 and @Result <> 0
+	BEGIN
+		EXEC sp_PreSale_SubResetDiscount	@PreSaleID
+	END
+	ELSE
+	BEGIN
+		IF @Result <> 0
+		BEGIN
+			RETURN @Result
+		END
+	END
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+END
+
+/*------------------------------------------------------------------------------*/
+/*	        	         Inclui a movimentaçao                          */
+/*------------------------------------------------------------------------------*/
+
+BEGIN TRAN
+
+EXEC @Result = sp_PreSale_SubAddItem
+					@PreSaleID,
+					@IDCliente,
+					@ModelID,
+					@StoreID,
+					@UserID,
+					@IDComission,
+					@Qty,
+					@SalePrice,
+					@CostPrice,
+					@Discount,
+					@MovDate,
+					@IDPreInvMovExchange,
+					@PreInventMovID		Output
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+if @Result <> 0
+	rollback tran
+else
+	exec sp_PreSale_SubCalcTotal @PreSaleID, @Date
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+
+OK:
+	IF @Result = 0
+		COMMIT TRAN
+	RETURN @Result
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_AddItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_CancelHold
+                                   (
+                                   	@IDPreSale int,
+					@IDUser int
+                                   )
+AS
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            SUMARIO
+ 
+
+                        - Update Cash RegisterMovent
+                        - Desquita o lancamento
+                        - Deleta o lancamento
+
+
+            TABELA DE ERROS PARA RETURN_VALUE
+
+                         000  Ok
+                        -201  Erro em Inser no PreInventoryMov (Cancelamento)
+                        -202  Erro em Delete no PreInventoryMov
+                        -203  Erro em Delete nos registros de Lançamento e Quitação
+                        -204  Erro em Update no Invoice
+
+
+            LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+        --------------------------------------- 	--------------------------------------	-----------------------------------------------------------------------------------------------------
+	15 Oct 2004		Carlos Lima		Criação
+	27 Jan 2005		Rodrigo Costa		Inclusao do @IDUser para deletar os lancamentos
+	01 Fev 2005		Rodrigo Costa		Criacao do Cursor para delecao do PreInvMov
+	30 Mar 2005		Rodrigo Costa		Chamada na sp para deletar os lancamentos
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+BEGIN TRAN
+
+DECLARE @ErrorLevel	int
+DECLARE @SysError	int
+DECLARE @IDLancamento	int
+ 
+
+-- Variaveis para o cursor PreInv_Cursor
+DECLARE  @IDPreInventoryMov		int
+DECLARE  @StoreID			int
+DECLARE  @ModelID			int
+DECLARE  @IDPessoa			int
+DECLARE  @UserID			int
+DECLARE  @IDCotacao			int
+DECLARE  @IDPreInventoryMovParent	int
+DECLARE  @BarCodeID			TBarCode
+DECLARE  @DocumentID			int
+DECLARE  @MovDate			smalldatetime
+DECLARE  @Qty				float
+DECLARE  @CostPrice			money
+DECLARE  @SalePrice			money
+DECLARE  @Discount			money
+DECLARE  @DateEstimatedMov		smalldatetime
+DECLARE  @DateRealMov			smalldatetime
+DECLARE  @QtyRealMov			float
+DECLARE  @Marked			bit
+DECLARE  @ExchangeInvoice		int
+DECLARE  @SuggRetail			money
+DECLARE  @IDParentPack			int
+DECLARE  @IDModelService		int
+DECLARE  @IDPreInvMovOld		int
+
+
+SET @ErrorLevel = 0
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*          Insere movimentaçao de cancelamento com base na movimentação anterior                    */
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+--Declaração do Cursor de PreInv_Cursor
+DECLARE PreInv_Cursor CURSOR FOR 
+            SELECT                       
+                        StoreID,
+                        ModelID,
+                        IDPessoa,
+                        UserID,
+                        IDCotacao,
+                        IDPreInventoryMovParent,
+                        BarCodeID,
+                        DocumentID,
+                        MovDate,
+                        Qty,
+                        CostPrice,
+                        SalePrice,
+                        Discount,
+                        DateEstimatedMov,
+                        DateRealMov,
+                        QtyRealMov,
+                        Marked,
+                        ExchangeInvoice,
+                        SuggRetail,
+                        IDParentPack,
+                        IDModelService
+            FROM
+                        PreInventoryMov
+            WHERE
+                        DocumentID = @IDPreSale
+                        AND 
+			InventMovTypeID = 1
+
+OPEN PreInv_Cursor
+
+--Inicialização de PreInv_Cursor
+FETCH NEXT FROM PreInv_Cursor INTO
+            @StoreID,
+            @ModelID,
+            @IDPessoa,
+            @UserID,
+            @IDCotacao,
+            @IDPreInventoryMovParent,
+            @BarCodeID,
+            @DocumentID,
+            @MovDate,
+            @Qty,
+            @CostPrice,
+            @SalePrice,
+            @Discount,
+            @DateEstimatedMov,
+            @DateRealMov,
+            @QtyRealMov,
+            @Marked,
+            @ExchangeInvoice,
+            @SuggRetail,
+            @IDParentPack,
+            @IDModelService
+
+--Enquanto tem registros
+WHILE @@FETCH_STATUS = 0
+BEGIN
+            EXEC sp_Sis_GetNextCode 'Preinventorymov.IDPreInventoryMov', @IDPreInventoryMov OUTPUT
+
+            INSERT PreInventoryMov
+                        (
+                        IDPreInventoryMov,
+                        InventMovTypeID,
+                        StoreID,
+                        ModelID,
+                        IDPessoa,
+                        UserID,
+                        IDCotacao,
+                        IDPreInventoryMovParent,
+                        BarCodeID,
+                        DocumentID,
+                        MovDate,
+                        Qty,
+                        CostPrice,
+                        SalePrice,
+                        Discount,
+                        DateEstimatedMov,
+                        DateRealMov,
+                        QtyRealMov,
+                        Marked,
+                        ExchangeInvoice,
+                        SuggRetail,
+                        IDParentPack,
+                        IDModelService
+                        )
+                        VALUES
+                        (
+                        @IDPreInventoryMov,
+                        25,
+                        @StoreID,
+                        @ModelID,
+                        @IDPessoa,
+                        @UserID,
+                        @IDCotacao,
+                        @IDPreInventoryMovParent,
+                        @BarCodeID,
+                        @DocumentID,
+                        @MovDate,
+                        @Qty,
+                        @CostPrice,
+                        @SalePrice,
+                        @Discount,
+                        @DateEstimatedMov,
+                        @DateRealMov,
+                        @QtyRealMov,
+                        @Marked,
+                        @ExchangeInvoice,
+                        @SuggRetail,
+                        @IDParentPack,
+                        @IDModelService
+                        )
+
+            FETCH NEXT FROM PreInv_Cursor INTO
+                        @StoreID,
+                        @ModelID,
+                        @IDPessoa,
+                        @UserID,
+                        @IDCotacao,
+                        @IDPreInventoryMovParent,
+                        @BarCodeID,
+                        @DocumentID,
+                        @MovDate,
+                        @Qty,
+                        @CostPrice,
+                        @SalePrice,
+                        @Discount,
+                        @DateEstimatedMov,
+                        @DateRealMov,
+                        @QtyRealMov,
+                        @Marked,
+                        @ExchangeInvoice,
+                        @SuggRetail,
+                        @IDParentPack,
+                        @IDModelService
+END
+
+--fechamento do cursor
+CLOSE PreInv_Cursor
+--Destruição do cursor
+DEALLOCATE PreInv_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+            SET @ErrorLevel = -201
+            GOTO ERRO
+END
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*          Deletar movimentaçao de cancelamento com base na movimentação anterior                    */
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+--Declaração do Cursor de PreInvDel_Cursor
+DECLARE PreInvDel_Cursor CURSOR STATIC FOR 
+	SELECT
+		IDPreInventoryMov
+	FROM
+		PreInventoryMov
+	WHERE
+		DocumentID = @IDPreSale
+		AND 
+		InventMovTypeID = 1
+
+OPEN PreInvDel_Cursor
+
+--Inicialização de PreInv_Cursor
+FETCH NEXT FROM PreInvDel_Cursor INTO
+            @IDPreInvMovOld
+
+--Enquanto tem registros
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	--Deletar os items
+	EXEC sp_PreSale_SubRemoveItem @IDPreInvMovOld
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+	            SET @ErrorLevel = -202
+	            GOTO ERRO
+	END
+
+            FETCH NEXT FROM PreInvDel_Cursor INTO
+                        @IDPreInvMovOld
+END
+
+--fechamento do cursor
+CLOSE PreInvDel_Cursor
+--Destruição do cursor
+DEALLOCATE PreInvDel_Cursor
+
+/*
+DELETE FROM
+            PreInventoryMov
+WHERE
+            DocumentID = @IDPreSale
+            AND InventMovTypeID = 1
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+            SET @ErrorLevel = -202
+            GOTO ERRO
+END
+*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*          Deleta todos os lançamentos e Quitações                                                                                */
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+EXEC sp_PreSale_DeletePayments @IDPreSale, @IDUser
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+            SET @ErrorLevel = -203
+            GOTO ERRO
+END
+
+ 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*          Atualiza Status de Cancelado no invoice                                                                       */
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+UPDATE 
+            Invoice
+SET
+            Canceled = 1
+WHERE
+            IDPreSale = @IDPreSale
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+            SET @ErrorLevel = -204
+            GOTO ERRO
+END
+
+
+OK:
+            COMMIT TRAN
+            RETURN 0
+ERRO:
+            ROLLBACK TRAN
+            PRINT CAST(@ErrorLevel AS VARCHAR)
+
+            DECLARE @ErrorLevelStr varchar(10)
+            SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+            EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_CancelHold', @ErrorLevelStr
+            RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_ChangeItem
+		(
+		@PreSaleID      			int,
+		@ModelID     			int,
+		@UserID      			int,
+		@IDComission			int,
+		@Qty         			float,
+		@SalePrice      			money,
+		@CostPrice      			money = Null,
+		@Discount    			money,
+		@MovDate     			smalldatetime,
+		@Manager			bit 	= 0,
+		@ResetDiscount		bit	= 0,
+		@Date				DateTime,
+		@PreInventMovID		int	output 
+		)
+AS
+ /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Testa se o discount total ainda e valido
+		- Efetivamente remove e inclui o inventory moviment
+		- Passa os seriais do item antigo para o novo
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em exec @Result = sp_PreSale_SubTestDiscount
+		-202  Erro em exec sp_PreSale_SubResetDiscount
+		-203  Erro em exec @result = sp_PreSale_SubRemoveItem
+		-204  Erro em exec @result = sp_PreSale_SubAddItem
+		-205  Erro em Passa os seriais do item antigo para o novo
+		-206  Erro em exec sp_PreSale_SubCalcTotal
+		-207  Erro em atualizar quantidades trocadas
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	01 Fev 2005		Rodrigo Costa		Inclusao do IDPreInvMovExchange e qtyExchanged
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+ DECLARE @Result  			int
+DECLARE @Value			money
+DECLARE @StoreID			int
+DECLARE @IDCliente			int
+DECLARE @IDOldUser			int
+DECLARE @OldPreInventoryMovID 	int 
+DECLARE @ErrorLevel			int
+DECLARE @SysError			int
+DECLARE @IDPreInvMovExchange	int
+DECLARE @QtyExchanged		float
+
+SET @ErrorLevel = 0
+
+
+SET @OldPreInventoryMovID = @PreInventMovID
+
+/*------------------------------------------------------------------------------*/
+/*                Testa se o discount total ainda e valido                      */
+/*------------------------------------------------------------------------------*/
+ SELECT @Value = IsNull((@Qty * @SalePrice), 0)
+
+if @Manager = 0
+   begin 
+
+	exec @Result = sp_PreSale_SubTestDiscount 	@PreSaleID,
+							@ModelID,
+							@UserID,
+ 							@Discount,
+							@Value,
+							'A', 
+							@PreInventMovID
+  	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 	
+	BEGIN
+		SET @ErrorLevel = -201
+		GOTO ERRO
+	END
+ 
+	if @ResetDiscount = 1 and @Result <> 0
+	   begin
+		exec sp_PreSale_SubResetDiscount	@PreSaleID
+
+		SET @SysError = @@ERROR
+		IF @SysError <> 0 	
+		BEGIN
+			SET @ErrorLevel = -202
+			GOTO ERRO
+		END
+	   end
+	else
+	   begin
+		if @Result <> 0
+		   begin
+			Return @Result
+		   end 
+	   end
+   end
+
+/*------------------------------------------------------------------------------*/
+/*                            Descobre o Store                                  */
+/*------------------------------------------------------------------------------*/
+
+SELECT
+	@StoreID = StoreID,
+	@IDCliente = IDPessoa,
+	@IDPreInvMovExchange = IDPreInvMovExchange,
+	@QtyExchanged = QtyExchanged
+FROM 
+	PreInventoryMov
+WHERE 
+	PreInventoryMov.IDPreInventoryMov = @PreInventMovID
+
+/*-------------------------------------------------------------*/
+/*    Efetivamente remove e inclui o inventory moviment        */
+/*-------------------------------------------------------------*/
+begin tran
+
+exec @result = sp_PreSale_SubRemoveItem	@PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 	
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+exec @result = sp_PreSale_SubAddItem	@PreSaleID,
+					@IDCliente,
+					@ModelID,
+					@StoreID,
+ 					@UserID,
+ 					@IDComission,
+ 					@Qty,
+					@SalePrice,
+					@CostPrice,
+					@Discount,
+					@MovDate,
+					@IDPreInvMovExchange,
+					@PreInventMovID 	output
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 	
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+/*-------------------------------------------------------------*/
+/*    Atualiza as quantidades trocadas      */
+/*-------------------------------------------------------------*/
+
+UPDATE
+	PreInventoryMov
+SET
+	QtyExchanged = @QtyExchanged
+WHERE
+	IDPreInventoryMov = @PreInventMovID
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 	
+BEGIN
+	SET @ErrorLevel = -207
+	GOTO ERRO
+END
+
+/*-------------------------------------------------------------*/
+/*    Passa os seriais do item antigo para o novo      */
+/*-------------------------------------------------------------*/
+UPDATE
+	PSM
+SET
+	PSM.PreInventoryMovID = @PreInventMovID
+FROM
+	PreSerialMov PSM
+WHERE
+	PSM.PreInventoryMovID = @OldPreInventoryMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 	
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+
+if @Result <> 0 	rollback tran
+else
+begin
+	exec sp_PreSale_SubCalcTotal @PreSaleID, @Date
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 	
+	BEGIN
+		SET @ErrorLevel = -206
+		GOTO ERRO
+	END
+end
+
+OK:
+	IF @Result = 0
+		COMMIT TRAN
+	RETURN @Result
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_ChangeItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_DivideHold
+	(
+	@IDPreSale   int,
+	@DeliverTypeID  int,
+	@DeliverDate  dateTime,
+	@DeliverAddress varchar(100),
+	@DeliverOBS  varchar(255),
+	@NewIDPreSale  int  output
+	)
+AS
+ 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	 SUMARIO
+	 
+	  - Cria um novo cabeçalho para o PreSale
+	  - Inclui as quantidades dos items marcados para o novo PreSale
+	  - Atualiza as quantiades do Antigo PreSale
+	  - Remove os items marcados do Antigo PreSale
+	  - Recalcula o total do novo PreSale
+	  - Recalcula o total do antigo PreSale
+	 
+	 TABELA DE ERROS PARA RETURN_VALUE
+	 
+	   000  Ok
+	  -201  Erro em Cria um novo cabeçalho para o PreSale
+	  -202  Erro em Inclui as quantidades dos items marcados para o novo PreSale
+	  -203  Erro em Atualiza as quantiades do Antigo PreSale
+	  -204  Erro em Remove os items marcados do Antigo PreSale
+	  -205  Erro em exec sp_PreSale_SubCalcTotal
+	  -206  Erro em Recalcula o total do antigo PreSale
+	  -207  Erro em atualizar a comissao
+	 
+	
+	 LOG DE MODIFICAÇÕES
+	 
+	Data			Programador			Modificação
+	-------------------------------------	--------------------------------------- 	-----------------------------------------------------------------------------------------------------
+	22 Oct 	2004  		Carlos Lima  			Criação;
+	29 Oct 	2004  		Rodrigo Costa  			Correcao;  Nao pode colocar a data do invoice, ainda nao e um invoice
+	20 Jan	2005		Rodrigo Costa			Correcao; Removido o Discount + SalePrice do insert
+	03 Fev  2005		Rodrigo Costa			Atualizao das garantias quando marcar entrega
+	05 May	2005		Rodrigo Costa			Novo campo de desired markup
+	12 May	2005		Rodrigo Costa			Removido o IDPreSale do Update IDPreInvParent para atualizar os desdobramentos
+	01 Dec	2005		Leonardo Riego 			Removido campo de ComissionID da PreInventoryMov e atualizacao da SaleItemCommission com o novo IDPreInventoryMov
+	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+ 
+DECLARE @ErrorLevel			int
+DECLARE @SysError			int
+ 
+
+--Declaração de variáveis para o Cursor de PreInventoryMov
+DECLARE @IDPreInventoryMov		int
+DECLARE @IDPreInvMovOld		int
+DECLARE @InventMovTypeID		int
+DECLARE @StoreID    			int
+DECLARE @ModelID    			int
+DECLARE @IDPessoa     		int
+DECLARE @UserID     			int
+DECLARE @IDCotacao    		int
+DECLARE @IDPreInventoryMovParent  	int
+DECLARE @BarCodeID    		TBarCode
+DECLARE @DocumentID    		int
+DECLARE @MovDate    		smalldatetime
+DECLARE @Qty    			float
+DECLARE @CostPrice    		money
+DECLARE @SalePrice    		money
+DECLARE @Discount     		money
+DECLARE @DateEstimatedMov   	smalldatetime
+DECLARE @DateRealMov   		smalldatetime
+DECLARE @QtyRealMov    		float
+DECLARE @Marked     			bit
+DECLARE @ExchangeInvoice   		int
+DECLARE @SuggRetail    		money
+DECLARE @IDParentPack    		int
+DECLARE @IDModelService    		int
+DECLARE @DesiredMarkup		money
+ 
+DECLARE @Date    			DateTime
+DECLARE @SaleCode 			varchar(20)
+DECLARE @IDStore 			int
+ 
+SET @ErrorLevel = 0
+ 
+BEGIN TRAN
+ 
+/*------------------------------------------------------------------------------------------------------*/
+/*      Cria um novo cabeçalho para o PreSale   */
+/*-----------------------------------------------------------------------------------------------------*/ 
+EXEC sp_Sis_GetNextCode'Invoice.IDPreSale', @NewIDPreSale OUTPUT
+
+SELECT	
+	@IDStore = IDStore
+FROM
+	Invoice
+WHERE
+	IDPreSale = @IDPreSale
+
+EXEC SP_PreSale_GetNewSaleCode @IDPreSale, @IDStore, @SaleCode output
+ 
+INSERT Invoice 
+	(
+	IDPreSale,
+	CashRegMovID,
+	SpecialPriceID,
+	IDMeioPag,
+	IDTouristGroup,
+	DeliverTypeID,
+	MediaID,
+	IDCustomer,
+	IDStore,
+	IDInvoice,
+	OtherComissionID,
+	IDLancPagOtherCom,	PreSaleDate,
+	--InvoiceDate,  -Nao pode colocar a data do invoice, ainda nao e um invoice
+	DeliverDate,
+	DeliverAddress,
+	Passport,
+	PassportDate,
+	Ticket,
+	AirLine,
+	CompanyName,
+	CompanyCGC,
+	DepositDate,
+	Tax,
+	SubTotal,
+	Note,
+	ItemDiscount,
+	TaxIsent,
+	--nOpenUser,
+	--RefreshInvoice,
+	Printed,
+	CashReceived,
+	EstimatedPay,
+	CardNumber,
+	OtherExpences,
+	Address,
+	TaxIsemptValue,
+	TaxIsemptItemDiscount,
+	Layaway,
+	FirstName,
+	LastName,
+	ZIP,
+	--nOpenHoldCaixa,
+	PrintNotes,
+	DeliverOBS,
+	DeliverConfirmation,
+	IDFormOfPayment,
+	AditionalExpenses,
+	Canceled,
+	IDPreSaleParent,
+	SaleCode
+	)
+	SELECT
+		@NewIDPreSale,
+		CashRegMovID,
+		SpecialPriceID,
+		IDMeioPag,
+		IDTouristGroup,
+		@DeliverTypeID,
+		MediaID,
+		IDCustomer,
+		IDStore,
+		IDInvoice,
+		OtherComissionID,
+		IDLancPagOtherCom,
+		PreSaleDate,
+		--GetDate(), -Nao pode colocar a data do invoice, ainda nao e um invoice
+		@DeliverDate,
+		@DeliverAddress,
+		Passport,
+		PassportDate,
+		Ticket,
+		AirLine,
+		CompanyName,
+		CompanyCGC,
+		DepositDate,
+		Tax,
+		SubTotal,
+		Note,
+		ItemDiscount,
+		TaxIsent,
+		--nOpenUser,
+		--RefreshInvoice,
+		Printed,
+		CashReceived,
+		EstimatedPay,
+		CardNumber,
+		OtherExpences,
+		Address,
+		TaxIsemptValue,
+		TaxIsemptItemDiscount,
+		Layaway,
+		FirstName,
+		LastName,
+		ZIP,
+		--nOpenHoldCaixa,
+		PrintNotes,
+		@DeliverOBS,
+		1,--O PreSale deve ser  criado com a entrega já confirmada, pois sua criação parte de uma confirmação de entrega
+		IDFormOfPayment,
+		AditionalExpenses,
+		Canceled,
+		@IDPreSale,
+		@SaleCode
+ 
+	FROM
+		Invoice
+	WHERE
+		Invoice.IDPreSale = @IDPreSale
+ 
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+ 
+
+/*---------------------------------------------------------------------------------------------------*/
+/*           Inclui os items marcados para o novo PreSale              */
+/*---------------------------------------------------------------------------------------------------*/
+--Declaração do Cursor de PreInventoryMov
+DECLARE PreInventoryMov_Cursor CURSOR FOR
+ 
+SELECT
+	InventMovTypeID,
+	StoreID,
+	ModelID,
+	IDPessoa,
+	UserID,
+	IDCotacao,
+	IDPreInventoryMovParent,
+	BarCodeID,
+	@NewIDPreSale,
+	MovDate,
+	Qty,
+	CostPrice,
+	SalePrice,
+	Discount,
+	DateEstimatedMov,
+	DateRealMov,
+	QtyRealMov,
+	Marked,
+	ExchangeInvoice,
+	SuggRetail,
+	IDParentPack,
+	IDModelService,
+ 	IDPreInventoryMov,
+	DesiredMarkup
+FROM
+	dbo.PreInventoryMov
+WHERE
+	DocumentID = @IDPreSale
+   	AND
+   	Marked = 1
+	AND
+   	InventMovTypeID = 1
+ 
+
+OPEN PreInventoryMov_Cursor
+ 
+--Inicialização de PreInventoryMov_Cursor
+FETCH NEXT FROM PreInventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@StoreID,
+	@ModelID,
+	@IDPessoa,
+	@UserID,
+	@IDCotacao,
+	@IDPreInventoryMovParent,
+	@BarCodeID,
+	@DocumentID,
+	@MovDate,
+	@Qty,
+	@CostPrice,
+	@SalePrice,
+	@Discount,
+	@DateEstimatedMov,
+	@DateRealMov,
+	@QtyRealMov,
+	@Marked,
+	@ExchangeInvoice,
+	@SuggRetail,
+	@IDParentPack,
+	@IDModelService,
+	@IDPreInvMovOld,
+	@DesiredMarkup
+--Enquanto tem registros
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'PreInventoryMov.IDPreInventoryMov', @IDPreInventoryMov OUTPUT
+ 
+	--Inclui as quantidades dos items marcados para o novo PreSale
+	INSERT PreInventoryMov
+		(
+		IDPreInventoryMov,
+		InventMovTypeID,
+		StoreID,
+		ModelID,
+		IDPessoa,
+		UserID,
+		IDCotacao,
+		IDPreInventoryMovParent,
+		BarCodeID,
+		DocumentID,
+		MovDate,
+		Qty,
+		CostPrice,
+		SalePrice,
+		Discount,
+		DateEstimatedMov,
+		DateRealMov,
+		QtyRealMov,
+		Marked,
+		ExchangeInvoice,
+		SuggRetail,
+		IDParentPack,
+		IDModelService,
+		DesiredMarkup
+		)
+	VALUES
+		(
+		@IDPreInventoryMov,
+		@InventMovTypeID,
+		@StoreID,
+		@ModelID,
+		@IDPessoa,
+		@UserID,
+		@IDCotacao,
+		@IDPreInventoryMovParent,
+		@BarCodeID,
+		@DocumentID,
+		@MovDate,
+		@QtyRealMov,
+		@CostPrice,
+		@SalePrice,
+		((@Discount / @Qty) * @QtyRealMov), --Desconto tem que ser dividido nos invoices
+		@DateEstimatedMov,
+		@DateRealMov,
+		0,
+		0,
+		@ExchangeInvoice,
+		@SuggRetail,
+		@IDParentPack,
+		@IDModelService,
+		@DesiredMarkup
+		)
+ 
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+
+
+	--Atualizar os SaleItemCommisison
+	UPDATE
+		SaleItemCommission
+	SET
+		IDPreInventoryMov = @IDPreInventoryMov
+	WHERE
+		IDPreInventoryMov = @IDPreInvMovOld
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -207
+		GOTO ERRO
+	END
+
+
+	--Atualizar os IDPreInvParent
+	UPDATE
+		PreInventoryMov
+	SET
+		IDPreInventoryMovParent = @IDPreInventoryMov
+	WHERE
+		--DocumentID = @IDPreSale
+   		--AND
+   		InventMovTypeID = 1
+		AND
+		IDPreInventoryMovParent = @IDPreInvMovOld
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+
+ 
+	FETCH NEXT FROM PreInventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@StoreID,
+		@ModelID,
+		@IDPessoa,
+		@UserID,
+		@IDCotacao,
+		@IDPreInventoryMovParent,
+		@BarCodeID,
+		@DocumentID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@DateEstimatedMov,
+		@DateRealMov,
+		@QtyRealMov,
+		@Marked,
+		@ExchangeInvoice,
+		@SuggRetail,
+		@IDParentPack,
+		@IDModelService,
+		@IDPreInvMovOld,
+		@DesiredMarkup
+END
+--fechamento do cursor
+CLOSE PreInventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE PreInventoryMov_Cursor
+ 
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+ 
+/*---------------------------------------------------------------------------------------------------------*/
+/*           Atualiza as quantiades do Antigo PreSale  e o Desconto      */
+/*---------------------------------------------------------------------------------------------------------*/
+UPDATE PreInventoryMov
+SET	Qty = Qty - QtyRealMov,
+	Discount = Discount - ((Discount / Qty) * QtyRealMov), --Desconto tem que ser dividido nos invoices
+ 	Marked = 0,
+	QtyRealMov = 0
+WHERE
+	DocumentID = @IDPreSale
+	AND
+	Marked = 1
+	AND
+	InventMovTypeID = 1
+ 
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+ 
+/*---------------------------------------------------------------------------------------------------------*/
+/*           Remove os items marcados do Antigo PreSale   */
+/*---------------------------------------------------------------------------------------------------------*/
+ 
+DELETE PreInventoryMov
+WHERE
+	DocumentID = @IDPreSale
+	AND
+	Qty = 0
+	AND 
+	InventMovTypeID = 1
+ 
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+ 
+/*---------------------------------------------------------------------------------------------------------*/
+/*            Recalcula o total do novo PreSale                */
+/*---------------------------------------------------------------------------------------------------------*/
+SET @Date = getDate()
+ 
+EXEC sp_PreSale_SubCalcTotal @NewIDPreSale , @Date
+ 
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO 
+END
+ 
+/*---------------------------------------------------------------------------------------------------------*/
+/*            Recalcula o total do antigo PreSale                */
+/*---------------------------------------------------------------------------------------------------------*/
+SET @Date = getDate()
+ 
+EXEC sp_PreSale_SubCalcTotal @IDPreSale , @Date
+ 
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -206
+	GOTO ERRO 
+END
+ 
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+ 
+	 DECLARE @ErrorLevelStr varchar(10)
+	 SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	 EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_DivideHold', @ErrorLevelStr
+ 
+ 	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_Import_Estimated
+			(
+			@IDEstimated		int,
+			@TaxIsent		bit,
+			@MediaID		int,
+			@IDStore		int,
+			@IDUser		int,
+			@NewIDPreSale	int   Output 			
+			)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Cria um novo cabeçalho para o PreSale
+		- Inclui os items do orcamento
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Cria um novo cabeçalho para o PreSale
+		-202  Erro em Atualizar o Orcamento
+		-203  Erro ao importas os items do orcamento
+		-204  Erro em exec sp_PreSale_SubCalcTotal
+		-205  Erro em passar Prospect para Cliente
+		-206  Erro em inserir comissao
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	19 Aug  2005		Rodrigo Costa		Criacao;
+	09 Dec	2005		Rodrigo Costa		Inclusao da comissao
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+--Declaração de variáveis para o Cursor de PreInventoryMov
+DECLARE @InventMovTypeID 	int 
+DECLARE @StoreID		int
+DECLARE @DocumentID 		int 
+DECLARE @ModelID 		int 
+DECLARE @MovDate 		smalldatetime 
+DECLARE @Qty 			float
+DECLARE @CostPrice 		money 
+DECLARE @SalePrice 		money 
+DECLARE @IDPessoa 		int 
+DECLARE @DateEstimatedMov 	smalldatetime 
+DECLARE @DateRealMov 		smalldatetime 
+DECLARE @ComissionID 		int 
+DECLARE @IDPreInventoryMov	int
+DECLARE @DesiredMarkup		money
+DECLARE @Date			DateTime
+DECLARE @IDSaleItemCommission	int
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+ 
+/*---------------------------------------------------------------------*/
+/*                  Cria um novo cabeçalho para o PreSale              */
+/*---------------------------------------------------------------------*/ 
+
+EXEC sp_Sis_GetNextCode 'Invoice.IDPreSale', @NewIDPreSale OUTPUT
+INSERT Invoice	(
+		IDPreSale,
+		IDStore,
+ 		PreSaleDate,
+		IDCustomer,
+		TaxIsent,
+		MediaID,
+		FirstName,
+		LastName,
+		Layaway
+		)
+		SELECT
+			@NewIDPreSale,
+			E.IDStore,
+ 			GetDate(),
+			IsNull(E.IDPessoa,0),
+ 			@TaxIsent,
+			@MediaID,
+			P.PessoaFirstName,
+			P.PessoaLastName,
+			1
+		FROM
+			Estimated E
+			LEFT OUTER JOIN Pessoa P ON (P.IDPessoa = E.IDPessoa)
+		WHERE
+			E.IDEstimated = @IDEstimated
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+-- Atualizo o orcamento
+UPDATE
+	Estimated
+SET
+	IDPreSale = @NewIDPreSale
+WHERE
+	IDEstimated = @IDEstimated
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+-- Atualizo o Cliente
+UPDATE
+	Pessoa
+SET
+	IDTipoPessoa = 1
+WHERE
+	IDPessoa = (Select IDPessoa FROM Estimated Where IDEstimated = @IDEstimated)
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+
+/*---------------------------------------------------------------------*/
+/*           Inclui os items marcados para o novo PreSale              */
+/*---------------------------------------------------------------------*/
+--Declaração do Cursor de PreInventoryMov
+DECLARE PreInventoryMov_Cursor CURSOR FOR
+
+		SELECT
+			1,
+			@NewIDPreSale,
+			@IDStore,
+			EI.IDModel,
+			GetDate(),
+			EI.Qty,
+			IsNull(M.VendorCost, M.VendorCost),
+			M.SellingPrice,
+			IsNull(E.IDPessoa,0),
+			E.EstimatedDate,
+			GetDate(),
+			SU.ComissionID,
+			TG.DesiredMarkup
+		FROM
+			EstimatedItem EI
+			JOIN Model M ON (M.IDModel = EI.IDModel) 
+			JOIN TabGroup TG ON (M.GroupID = TG.IDGroup) 
+			JOIN Estimated E ON (E.IDEstimated = EI.IDEstimated)
+			JOIN SystemUser SU ON (SU.IDUser = E.IDUser)
+		WHERE
+			EI.IDEstimated = @IDEstimated
+
+
+OPEN PreInventoryMov_Cursor
+
+--Inicialização de PreInventoryMov_Cursor
+FETCH NEXT FROM PreInventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@DocumentID,
+	@StoreID,
+	@ModelID,
+	@MovDate,
+	@Qty,
+	@CostPrice,
+	@SalePrice,
+	@IDPessoa,
+	@DateEstimatedMov,
+	@DateRealMov,
+	@ComissionID,
+	@DesiredMarkup
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'PreInventoryMov.IDPreInventoryMov', @IDPreInventoryMov OUTPUT
+
+	INSERT PreInventoryMov
+		(
+		IDPreInventoryMov,
+		InventMovTypeID,
+		UserID,
+		DocumentID,
+		StoreID,
+		ModelID,
+		MovDate,
+		Qty,
+		CostPrice,
+		SalePrice,
+		IDPessoa,
+		DateEstimatedMov,
+		DateRealMov,
+		DesiredMarkup
+		)
+	VALUES
+		(
+		@IDPreInventoryMov,
+		@InventMovTypeID,
+		@IDUser,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@IDPessoa,
+		@DateEstimatedMov,
+		@DateRealMov,
+		@DesiredMarkup
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -203
+		GOTO ERRO
+	END
+
+	
+	/*****************************************************************************************
+		Inclusão do Comissionado na tabela de SaleItemCommission
+	******************************************************************************************/
+	EXEC sp_Sis_GetNextCode'SaleItemCommission.IDSaleItemCommission', @IDSaleItemCommission OUTPUT
+	INSERT INTO dbo.SaleItemCommission
+		(
+		 IDSaleItemCommission,
+		 IDPreInventoryMov,
+		 IDCommission,
+		 CommissionPercent
+		)
+		VALUES
+		(
+		 @IDSaleItemCommission,
+		 @IDPreInventoryMov,
+		 @ComissionID,
+		 100
+		)
+	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		SET @ErrorLevel = -206
+		GOTO ERRO
+	END
+
+
+	FETCH NEXT FROM PreInventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@IDPessoa,
+		@DateEstimatedMov,
+		@DateRealMov,
+		@ComissionID,
+		@DesiredMarkup
+END
+--fechamento do cursor
+CLOSE PreInventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE PreInventoryMov_Cursor
+
+SET @Date = GetDate()
+EXEC sp_PreSale_SubCalcTotal @NewIDPreSale, @Date
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO 
+END 
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_Import_Estimated', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE  PROCEDURE sp_PreSale_Pay
+			(
+			@PreSaleID		int,
+			@IDCashRegMov 	int,
+			@PayDate 		smalldatetime,
+			@IDStore		int,
+			@IDTouristGroup 	int,
+			@OtherComID 		int,
+			@CashReceived   	money,
+			@Date			Datetime,
+			@IDInvoice 		int output
+			)
+AS
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+	- Transforma a PreSale em Sale
+	- Move os PreInventMov para o InventMov
+	- Insert Encargos de Venda na tabela de Taxas InventoryMovTax
+	- Insert Impostos de Venda na tabela de Taxas InventoryMovTax
+	- Move os PreSerialMov para o SerialMov
+	- Deleta os seriais do Inventario
+	- Deleta Pre Inventory Movement
+	- Marca os lancamentos como confimados, e troca o documento
+	- Update Cash RegisterMovent
+	- Atualiza o custo medio dos modelos
+	- Calc commissions for report performace
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+	 000  Ok
+	-201  Erro ao gerar novo IDInvoice
+	-202  Erro ao transformar Hold em Invoice
+	-203  Erro movendo os PreInventMov para o InventMov
+	-204  Erro movendo os PreSerialMov para o SerialMov
+	-205  Erro ao deletar/inserir os Seriais do Inventario
+	-206  Erro ao deletar o PreSerialMov
+	-207  Erro ao deletar o PreInventoryMov
+	-208  Erro ao inserir as linhas de quitacao
+	-209  Erro as inserir as linhas de ligação entre lancamento e quitacao
+	-210  Erro ao atualizar o NumDocumento nas parcelas do Invoice
+	-212  Erro ao Atualizar as comissões
+	-213  Erro ao mover Model Pack de PreInvMov para InvMov
+	-214  Erro ao Impostos
+	-215  Atualiza o custo medio dos modelos
+	-216  Erro ao Colocar PreInventMovParent para Null
+	-217  Erro ao atualizar SaleItemCommission
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	26 may  2000		Eduardo Costa		Alteração para suporte as novas tabelas do financeiro;
+	27 may  2000   		Eduardo Costa		Criação da rotina de tratamento e retorno de erros;
+	14 aug  2000   		Eduardo Costa		A quitação dos lancamentos do invoice foi transferida
+							para o close da caixa registradora;
+	15 aug  2000		Rodrigo Costa		Novo campo SalesTax para calcular a tax
+	26 June 2001		Davi Gouveia		Log de Return Values
+	29 June 2001		Rodrigo Costa		Alteracao no delete Serial do Inventory, criado um join com a tbl PreSerialMov
+	29 Oct	2003		Rodrigo Costa		Criado sp_Sis_GetNextCode para Invoice; Cursor InventoryMov;
+							Deletado INSERT InvoiceGen (BitGen) VALUES (1), SELECT @IDInvoice = @@IDENTITY; 
+							Criado Cursor para InvMov
+	18 Dec 2003		Andre Bogado		Alteração no cursor de InvMov para atualizar InventoryMovTax
+	22 Dec 2003		Rodrigo Costa		Incluir os Serias no Inventory se for Refound
+	25 May 2004		Rodrigo Costa		Mover PackModels do PreInvMov para o InvMov
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	20 Set 2004		Rodrigo Costa		Correcao do Calculo de InventoryMovTax (IM.SalePrice-IM.Discount)
+	07 Dez 2004		Rodrigo Costa		Novo calculo das taxas
+	01 Fev 2005		Rodrigo Costa		Mover as QtyExchanged de Pre para Inv
+	25 Fev 2005		Rodrigo Costa		Quando finalizar o Invoice nao pode atualizar o IDStore
+	29 Mar 	2005		Rodrigo Costa		Atualiza o custo medio dos modelos; gravar o custo medio na venda
+	11 Apr	2005		Rodrigo Costa		Inclusao do campo DesiredMarkup no PreInv e InventoryMov
+	17 May	2005		Rodrigo Costa		Cursor para alterar PreInvMovParent
+	01 July	2005		Rodrigo Costa		Gerar numero sequencial para Items de Servico
+	28 Nov	2005		Leonardo Riego		Atualiza SaleItemCommission
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @DataPagamento  	smalldatetime
+DECLARE @ComissionPayed 	money
+DECLARE @IDCentroCusto	int
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+DECLARE @InvoiceCode	varchar(20)
+DECLARE @ServiceField	varchar(30)
+--Declaração de variáveis para o Cursor de InventoryMov
+DECLARE @InventMovTypeID 		int 
+DECLARE @DocumentID 		int 
+DECLARE @IDPessoa 			int 
+DECLARE @ModelID 			int 
+DECLARE @BarCodeID 			char(20)
+DECLARE @MovDate 			smalldatetime 
+DECLARE @Qty 			float
+DECLARE @CostPrice 			money 
+DECLARE @SalePrice 			money 
+DECLARE @Discount 			money 
+DECLARE @PreInventoryMovID 		int 
+DECLARE @IDUser 			int 
+DECLARE @SalesTax 			money
+DECLARE @StoreID 			int
+DECLARE @IDInventoryMov		int
+DECLARE @IDParentPack		int
+DECLARE @QtyExchanged		float
+DECLARE @IDPreInvMovExchange 	int
+DECLARE @AvgCost			money
+DECLARE @DesiredMarkup		money
+DECLARE @IsService		bit
+DECLARE	@AutoCreateSrvNum	bit
+DECLARE @ServiceNum		int
+DECLARE	@IDGroup		int
+
+--PRINT 'Starting transaction'
+BEGIN TRAN
+
+SET  @ErrorLevel = 0
+
+-- Retorna o Centro de Custo referente a loja
+SELECT @IDCentroCusto = (SELECT IDCentroCusto  FROM Store WHERE IDStore = @IDStore)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 GOTO ERRO
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*		Transforma a PreSale em Sale    		  					*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+-- Calcula o proximo IDInvoice
+EXEC sp_Sis_GetNextCode 'InvoiceGen.IDInvoice', @IDInvoice OUTPUT
+
+EXEC SP_PreSale_GetNewInvoiceCode @IDStore, @InvoiceCode OUTPUT
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+ -- Transforma o hold em invoice
+UPDATE Invoice
+SET		Invoice.IDInvoice    	= @IDInvoice,
+		Invoice.InvoiceDate  	= @PayDate,
+		Invoice.CashReceived 	= @CashReceived,
+		Invoice.CashRegMovID 	= @IDCashRegMov,
+		Invoice.InvoiceCode	= @InvoiceCode
+
+WHERE 	Invoice.IDPreSale = @PreSaleID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	     Move os PreInventMov para o InventMov                      */
+/*------------------------------------------------------------------------------------------------------*/
+--Declaração do Cursor de InventoryMov
+
+DECLARE InventoryMov_Cursor CURSOR FOR
+
+	SELECT	PIM.InventMovTypeID,
+			@IDInvoice,
+			PIM.IDPessoa,
+			PIM.StoreID,
+			PIM.ModelID,
+			PIM.BarCodeID,
+			@PayDate,
+			PIM.Qty,
+			PIM.CostPrice,
+			PIM.SalePrice,
+			PIM.Discount,
+			PIM.IDPreInventoryMov,
+			PIM.UserID,
+			(CASE WHEN (TC.SpecialDateStart <= @Date) AND (TC.SpecialDateEnd >= @Date) AND ( ISNULL((( ISNULL(PIM.SalePrice, 0) - ISNULL(PIM.Discount, 0)) / PIM.Qty), 0) < ISNULL(TC.MaxItemValue, 0))
+				 THEN TC.SpecialTax ELSE TC.Tax END / 100.00)  as Tax,-- Tax
+			PIM.IDParentPack,
+			PIM.QtyExchanged,
+			PIM.IDPreInvMovExchange,
+			M.AvgCost,
+			TG.DesiredMarkup,
+			TG.ServiceAutoNumber,
+			TG.Service,
+			TG.IDGroup
+	FROM		
+			dbo.PreInventoryMov PIM
+			JOIN Model M ON ( PIM.ModelID = M.IDModel )
+			JOIN TabGroup TG ON ( M.GroupID = TG.IDGroup )
+			JOIN StoreToTabGroup STC ON ( STC.IDStore = PIM.StoreID AND STC.IDGroup = TG.IDGroup )
+			JOIN TaxCategory TC ON ( TC.IDTaxCategory = STC.IDTaxCategory )
+
+	WHERE   	PIM.DocumentID = @PreSaleID
+			AND
+			PIM.InventMovTypeID = 1
+
+OPEN InventoryMov_Cursor
+
+--Inicialização de InventoryMov_Cursor
+FETCH NEXT FROM InventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@DocumentID,
+	@IDPessoa,
+	@StoreID,
+	@ModelID,
+	@BarCodeID,
+	@MovDate,
+	@Qty,
+	@CostPrice,
+	@SalePrice,
+	@Discount,
+	@PreInventoryMovID,
+	@IDUser,
+	@SalesTax,
+	@IDParentPack,
+	@QtyExchanged,
+	@IDPreInvMovExchange,
+	@AvgCost,
+	@DesiredMarkup,
+	@AutoCreateSrvNum,
+	@IsService,
+	@IDGroup
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0BEGIN
+
+	SET @ServiceNum = Null
+
+	IF (@AutoCreateSrvNum = 1 AND @IsService = 1  )
+	BEGIN
+		SET @ServiceField = 'TabGroup.Service'+CAST(@IDGroup as Varchar(10))
+		EXEC sp_Sis_GetNextCode @ServiceField, @ServiceNum OUTPUT
+	END
+
+	EXEC sp_Sis_GetNextCode 'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		IDPessoa,
+		StoreID,
+		ModelID,
+		BarCodeID,
+		MovDate,
+		Qty,
+		CostPrice,
+		SalePrice,
+		Discount,
+		PreInventoryMovID,
+		IDUser,
+		SalesTax,
+		IDParentPack,
+		QtyExchanged,
+		IDPreInvMovExchange,
+		AvgCost,
+		DesiredMarkup,
+		SequencyNum
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		@InventMovTypeID,
+		@DocumentID,
+		@IDPessoa,
+		@StoreID,
+		@ModelID,
+		@BarCodeID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@PreInventoryMovID,
+		@IDUser,
+		@SalesTax,
+		@IDParentPack,
+		@QtyExchanged,
+		@IDPreInvMovExchange,
+		@AvgCost,
+		@DesiredMarkup,
+		@ServiceNum
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE InventoryMov_Cursor
+		DEALLOCATE InventoryMov_Cursor
+		SET @ErrorLevel = -203
+		GOTO ERRO
+	END
+
+	-- Atualiza SaleItemCommission
+	UPDATE SaleItemCommission
+	SET
+	 	IDPreInventoryMov = NULL,
+		IDInventoryMov = @IDInventoryMov
+	WHERE
+		IDPreInventoryMov = @PreInventoryMovID
+	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE InventoryMov_Cursor
+		DEALLOCATE InventoryMov_Cursor
+		SET @ErrorLevel = -217
+		GOTO ERRO
+	END
+
+	-- Insert Encargos de Venda na tabela de Taxas InventoryMovTax
+	INSERT INTO InventoryMovTax 
+		(
+		IDInventoryMov, 
+		IDTaxCategory, 
+		Tax, 
+		TaxValue 
+		)
+	SELECT 
+		IM.IDInventoryMov,
+		ISNULL (TC.IDTaxCategory,0) AS IDTaxCategory,
+		ISNULL (TC.Tax,0)/100 AS Tax,
+		ISNULL (((IM.SalePrice * IM.Qty) - IM.Discount) * TC.Tax,0)/100 AS TaxValue
+
+	FROM 	InventoryMov IM
+		JOIN Model Mo ON (IM.ModelID = Mo.IDModel)
+		JOIN StoreToTabGroup SG ON (SG.IDStore = IM.StoreID AND SG.IDGroup = Mo.GroupID )
+		JOIN TaxCategory TC ON (SG.IDTaxCategory = TC.IDTaxCategoryParent)
+
+	WHERE
+	 	IM.IDInventoryMov = @IDInventoryMov
+
+	-- Insert Impostos de Venda na tabela de Taxas InventoryMovTax
+	INSERT INTO InventoryMovTax 
+		(
+		IDInventoryMov, 
+		IDTaxCategory, 
+		Tax, 
+		TaxValue 
+		)
+	SELECT 
+		IM.IDInventoryMov,
+		ISNULL (TC.IDTaxCategory,0) AS IDTaxCategory,
+		ISNULL (TC.Tax,0)/100 AS Tax,
+		ISNULL (((IM.SalePrice * IM.Qty) - IM.Discount) * TC.Tax,0)/100 AS TaxValue
+
+	FROM 	InventoryMov IM
+		JOIN Model Mo ON (IM.ModelID = Mo.IDModel)
+		JOIN StoreToTabGroup SG ON (SG.IDStore = IM.StoreID AND SG.IDGroup = Mo.GroupID )
+		JOIN TaxCategory TC ON (SG.IDSaleTax = TC.IDTaxCategory)
+
+	WHERE
+	 	IM.IDInventoryMov = @IDInventoryMov
+
+
+
+	FETCH NEXT FROM InventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@DocumentID,
+		@IDPessoa,
+		@StoreID,
+		@ModelID,
+		@BarCodeID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@PreInventoryMovID,
+		@IDUser,
+		@SalesTax,
+		@IDParentPack,
+		@QtyExchanged,
+		@IDPreInvMovExchange,
+		@AvgCost,
+		@DesiredMarkup,
+		@AutoCreateSrvNum,
+		@IsService,
+		@IDGroup
+END
+--fechamento do cursor
+CLOSE InventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE InventoryMov_Cursor
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	     Move os PreSerialMov para o SerialMov                	*/
+/*--------------------------------------------------------------------------------------------------------*/
+INSERT 	dbo.SerialMov ( InventoryMovID,	SerialNumber )
+
+	SELECT	IM.IDInventoryMov,
+			PSM.SerialNumber
+
+	FROM		PreSerialMov PSM
+			JOIN InventoryMov IM ON (PSM.PreInventoryMovID = IM.PreInventoryMovID)
+
+	WHERE 	IM.DocumentID = @IDInvoice
+			AND
+			IM.InventMovTypeID = 1
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	       Deleta/Insert os seriais do Inventario			*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+DELETE	
+		InventorySerial
+FROM	
+		PreInventoryMov PIM, PreSerialMov PSV
+WHERE	
+		PIM.DocumentID = @PreSaleID
+		AND
+		PIM.InventMovTypeID = 1
+		AND
+		InventorySerial.ModelID = PIM.ModelID
+		AND
+		InventorySerial.StoreID = @IDStore
+		AND
+		InventorySerial.Serial = PSV.SerialNumber
+		AND
+		PIM.Qty > 0
+
+--Refound
+INSERT
+		InventorySerial (StoreID, ModelID, Serial)
+SELECT
+		@IDStore,
+		PIM.ModelID,	
+		PSV.SerialNumber
+FROM
+		PreInventoryMov PIM
+		JOIN PreSerialMov PSV ON (PIM. IDPreInventoryMov = PSV.PreInventoryMovID)
+WHERE	
+		PIM.DocumentID = @PreSaleID
+		AND
+		PIM.InventMovTypeID = 1
+		AND
+		PIM.Qty < 0
+		
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	       Deleta PreSerial Movement			*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+DELETE 	
+		PreSerialMov
+FROM		
+		PreInventoryMov PIM
+WHERE 	
+		PIM.DocumentID = @PreSaleID
+		AND
+		PIM.InventMovTypeID = 1
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -206
+	GOTO ERRO
+END
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	       Atualiza  os ModelsPack de InvMov			*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+UPDATE 
+	IMC 
+SET 
+	IMC.IDParentPack = IMP.IDInventoryMov
+FROM 
+	InventoryMov IMC
+	JOIN InventoryMov IMP ON ( IMP.PreInventoryMovID = IMC.IDParentPack)
+WHERE 
+	IMC.DocumentID = @DocumentID
+	AND
+	IMC.InventMovTypeID = 1
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -213
+	GOTO ERRO
+END
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	       Deleta PreInventory Movement			*/
+/*--------------------------------------------------------------------------------------------------------*/
+DECLARE @IDPreInventoryMov int
+
+--Declaração do Cursor de PreInventoryMov
+DECLARE PreInventoryMovDelParent_Cursor CURSOR FOR
+
+	SELECT
+		IDPreInventoryMov
+	FROM
+		PreInventoryMov
+	WHERE
+		DocumentID = @PreSaleID
+
+OPEN PreInventoryMovDelParent_Cursor
+
+--Inicialização de PreInventoryMov_Cursor
+FETCH NEXT FROM PreInventoryMovDelParent_Cursor INTO
+	@IDPreInventoryMov
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+
+	UPDATE 	
+		PreInventoryMov
+	SET
+		PreInventoryMov.IDPreInventoryMovParent = NULL
+	WHERE 	
+		PreInventoryMov.IDPreInventoryMovParent = @IDPreInventoryMov
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMovDelParent_Cursor
+		DEALLOCATE PreInventoryMovDelParent_Cursor
+		SET @ErrorLevel = -216
+		GOTO ERRO
+	END
+
+
+	FETCH NEXT FROM PreInventoryMovDelParent_Cursor INTO
+		@IDPreInventoryMov
+
+END
+--fechamento do cursor
+CLOSE PreInventoryMovDelParent_Cursor
+--Destruição do cursor
+DEALLOCATE PreInventoryMovDelParent_Cursor
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	       Deleta PreInventory Movement			*/
+/*--------------------------------------------------------------------------------------------------------*/
+DELETE 	
+		PreInventoryMov
+WHERE 	
+		PreInventoryMov.DocumentID = @PreSaleID
+		AND
+		PreInventoryMov.InventMovTypeID = 1
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -207
+	GOTO ERRO
+END
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	Marca os lancamentos como confimados,  	  	*/
+/*	e troca o documento					*/
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+UPDATE
+	Fin_Lancamento
+SET
+	NumDocumento = Convert(varchar(50), @IDInvoice),
+	DataEmissao = @PayDate,
+	Previsao = 0
+WHERE
+	IDPreSale =  @PreSaleID
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -210
+	GOTO ERRO
+END
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	Atualiza o custo medio dos modelos  		  	*/
+/*--------------------------------------------------------------------------------------------------------*/
+UPDATE  
+	M
+SET
+	M.AvgCost = 0
+FROM 
+	Model M
+	JOIN InventoryMov IM ON (M.IDModel = IM.ModelID)
+	JOIN Invoice I ON (I.IDInvoice = IM.DocumentID AND IM.InventMovTypeID = 1)
+WHERE
+	I.IDPreSale = @PreSaleID
+	AND
+	M.TotQtyOnHand <= 0
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -215
+	GOTO ERRO
+END
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*	Calc commissions for report performace	     		*/
+/*	Temporariamente desativa por motivo de performance     	*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*
+PRINT 'Calc Comissions'
+EXEC sp_PreSale_CacheCommission @IDInvoice
+
+
+
+IF @@ERROR <> 0
+BEGIN
+	SET @ErrorLevel = -212
+	GOTO ERRO
+END
+*/
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+	ROLLBACK TRAN
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_Pay', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_PreSale_RemoveItem
+			( 
+			@PreSaleID 		int,
+			@ModelID		int,
+			@UserID 		int,
+			@PreInventMovID	int,
+			@Discount		money,
+			@SalePrice		money,
+			@Qty			float,
+			@Date			DateTime,
+			@ResetDiscount	bit  	= 0,
+			@Manager		bit	= 0
+			)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Testa se o discount total ainda e valido
+		- Efetivamente remove o inventory moviment
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em exec @Result = sp_PreSale_SubTestDiscount
+		-202  Erro em exec sp_PreSale_SubResetDiscount
+		-203  Erro em Delecao do PreSerialMov
+		-204  Erro em exec @result = sp_PreSale_SubRemoveItem
+		-205  Erro em exec sp_PreSale_SubCalcTotal
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+DECLARE @Result  	int 
+DECLARE @Value	money
+DECLARE @ErrorLevel	int
+DECLARE @SysError	int
+
+SET @ErrorLevel = 0
+
+/*------------------------------------------------------------------------------*/
+/*                Testa se o discount total ainda e valido                      */
+/*------------------------------------------------------------------------------*/ 
+
+SELECT @Value = IsNull((@Qty * @SalePrice), 0) 
+
+if @Manager = 0
+   begin
+ 
+	exec @Result = sp_PreSale_SubTestDiscount
+						@PreSaleID,
+						@ModelID,
+						@UserID,
+						@Discount,
+						@Value,
+						'E'
+ 	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+ 	BEGIN
+ 		PRINT '-201'
+ 		RETURN -201
+ 	END
+
+ 	if @ResetDiscount = 1 and @Result <> 0
+	   begin
+		exec sp_PreSale_SubResetDiscount	@PreSaleID
+		SET @SysError = @@ERROR
+		IF @SysError <> 0
+		BEGIN
+ 			PRINT '-202'
+ 			RETURN -202
+ 		END
+	   end
+	else
+	   begin
+		if @Result <> 0
+		   begin
+ 			Return @Result
+		   end
+	   end
+   end
+
+/*-------------------------------------------------------------*/
+/*          Efetivamente remove o inventory moviment           */
+/*-------------------------------------------------------------*/ 
+begin tran
+ 
+/*--------------------------------------------------------------*/
+/*		Delecao do PreSerialMov	        */
+/*--------------------------------------------------------------*/
+DELETE
+	PSM
+FROM
+	PreSerialMov PSM
+WHERE
+	PSM.PreInventoryMovID =  @PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+exec @result = sp_PreSale_SubRemoveItem	@PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END 
+ 
+if @Result <> 0
+begin
+	SET @ErrorLevel = @Result
+	GOTO ERRO
+end
+else
+begin
+	exec sp_PreSale_SubCalcTotal @PreSaleID, @Date
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -205
+		GOTO ERRO
+	END
+end
+
+OK:
+	COMMIT TRAN
+	RETURN @Result
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_RemoveItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_PreSale_Split
+			(
+			@IDPreSale 		int,
+			@NewIDPreSale	int   Output 			
+			)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Cria um novo cabeçalho para o PreSale
+		- Inclui os items marcados para o novo PreSale
+		- Remove os items marcados para o novo PreSale
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Cria um novo cabeçalho para o PreSale
+		-202  Erro em Inclui os items marcados para o novo PreSale
+		-203  Erro em Remove os items marcados para o novo PreSale
+		-204  Erro em exec sp_PreSale_SubCalcTotal
+		-205  Erro em exec sp_PreSale_SubCalcTotal
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	29 Oct 	2003		Rodrigo Costa		Removido SELECT @NewIDPreSale = @@IDENTITY;
+							Chama sp_GetNextCode para IDPreSale
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	05 May	2005		Rodrigo Costa		Novo campo de desired markup
+	09 Dec	2005		Rodrigo Costa		Inclusao das comissoes
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+--Declaração de variáveis para o Cursor de PreInventoryMov
+DECLARE @InventMovTypeID 	int 
+DECLARE @DocumentID 		int 
+DECLARE @StoreID 		int 
+DECLARE @ModelID 		int 
+DECLARE @BarCodeID 		char(20)
+DECLARE @MovDate 		smalldatetime 
+DECLARE @Qty 			float 
+DECLARE @CostPrice 		money 
+DECLARE @SalePrice 		money 
+DECLARE @Discount 		money 
+DECLARE @IDPessoa 		int 
+DECLARE @DateEstimatedMov 	smalldatetime 
+DECLARE @DateRealMov 		smalldatetime 
+DECLARE @QtyRealMov 		float
+DECLARE @ComissionID 		int 
+DECLARE @IDPreInventoryMov	int
+DECLARE @DesiredMarkup		money
+DECLARE @Date			DateTime
+DECLARE @IDPreInvMovOld		int
+
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+ 
+/*---------------------------------------------------------------------*/
+/*                  Cria um novo cabeçalho para o PreSale              */
+/*---------------------------------------------------------------------*/ 
+EXEC sp_Sis_GetNextCode'Invoice.IDPreSale', @NewIDPreSale OUTPUT
+INSERT Invoice	(
+		IDPreSale,
+		IDInvoice,
+		IDMeioPag,
+		SpecialPriceID,
+ 		IDTouristGroup,
+ 		PreSaleDate,
+ 		InvoiceDate,
+		OtherComissionID,
+		IDCustomer,
+		DeliverTypeID,
+		DeliverDate,
+		DeliverAddress,
+		Passport,
+		PassportDate,
+ 		Ticket,
+		AirLine,
+		CompanyName,
+		CompanyCGC,
+		DepositDate,
+		Note,
+		TaxIsent,
+		MediaID
+		)
+		SELECT
+			@NewIDPreSale,
+			IDInvoice,
+			IDMeioPag,
+			SpecialPriceID,
+			IDTouristGroup,
+ 			PreSaleDate,
+			InvoiceDate,
+			OtherComissionID,
+			IDCustomer,
+			DeliverTypeID,
+			DeliverDate,
+			DeliverAddress,
+			Passport,
+			PassportDate,
+			Ticket,
+ 			AirLine,
+			CompanyName,
+			CompanyCGC,
+			DepositDate,
+			Note,
+ 			TaxIsent,
+			MediaID
+		FROM
+			Invoice
+		WHERE
+			Invoice.IDPreSale = @IDPreSale
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+
+/*---------------------------------------------------------------------*/
+/*           Inclui os items marcados para o novo PreSale              */
+/*---------------------------------------------------------------------*/
+--Declaração do Cursor de PreInventoryMov
+DECLARE PreInventoryMov_Cursor CURSOR FOR
+
+		SELECT
+			IDPreInventoryMov,
+			InventMovTypeID,
+			@NewIDPreSale,
+			StoreID,
+			ModelID,
+			BarCodeID,
+			MovDate,
+			Qty,
+			CostPrice,
+			SalePrice,
+			Discount,
+			IDPessoa,
+			DateEstimatedMov,
+			DateRealMov,
+			QtyRealMov,
+			DesiredMarkup
+		FROM
+			dbo.PreInventoryMov
+		WHERE
+			DocumentID = @IDPreSale
+			AND
+			Marked = 1
+			AND
+			InventMovTypeID = 1
+
+
+OPEN PreInventoryMov_Cursor
+
+--Inicialização de PreInventoryMov_Cursor
+FETCH NEXT FROM PreInventoryMov_Cursor INTO
+	@IDPreInvMovOld,
+	@InventMovTypeID,
+	@DocumentID,
+	@StoreID,
+	@ModelID,
+	@BarCodeID,
+	@MovDate,
+	@Qty,
+	@CostPrice,
+	@SalePrice,
+	@Discount,
+	@IDPessoa,
+	@DateEstimatedMov,
+	@DateRealMov,
+	@QtyRealMov,
+	@DesiredMarkup
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'PreInventoryMov.IDPreInventoryMov', @IDPreInventoryMov OUTPUT
+
+	INSERT PreInventoryMov
+		(
+		IDPreInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		StoreID,
+		ModelID,
+		BarCodeID,
+		MovDate,
+		Qty,
+		CostPrice,
+		SalePrice,
+		Discount,
+		IDPessoa,
+		DateEstimatedMov,
+		DateRealMov,
+		QtyRealMov,
+		DesiredMarkup
+		)
+	VALUES
+		(
+		@IDPreInventoryMov,
+		@InventMovTypeID,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@BarCodeID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@IDPessoa,
+		@DateEstimatedMov,
+		@DateRealMov,
+		@QtyRealMov,
+		@DesiredMarkup
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+
+	--Atualizar os SaleItemCommisison
+	UPDATE
+		SaleItemCommission
+	SET
+		IDPreInventoryMov = @IDPreInventoryMov
+	WHERE
+		IDPreInventoryMov = @IDPreInvMovOld
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -207
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM PreInventoryMov_Cursor INTO
+		@IDPreInvMovOld,
+		@InventMovTypeID,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@BarCodeID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@IDPessoa,
+		@DateEstimatedMov,
+		@DateRealMov,
+		@QtyRealMov,
+		@DesiredMarkup
+END
+--fechamento do cursor
+CLOSE PreInventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE PreInventoryMov_Cursor
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+/*---------------------------------------------------------------------*/
+/*           Remove os items marcados para o novo PreSale              */
+/*---------------------------------------------------------------------*/
+DELETE
+	PreInventoryMov
+WHERE
+	DocumentID = @IDPreSale
+	AND
+	Marked = 1
+	AND
+	InventMovTypeID = 1
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+SET @Date = GetDate()
+
+exec sp_PreSale_SubCalcTotal @IDPreSale, @Date
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+EXEC sp_PreSale_SubCalcTotal @NewIDPreSale, @Date 
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO 
+END 
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_Split', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_SubAddItem
+		(
+		@PreSaleID      			int,
+		@IDCliente			int,
+		@ModelID     			int,
+		@StoreID     			int,
+		@UserID      			int,
+		@IDComission			int,
+		@Qty         			float,
+ 		@SalePrice      			money,
+		@CostPrice      			money = Null,
+		@Discount    			money,
+		@MovDate     			smalldatetime,
+		@IDPreInvMovExchange 	int,
+		@PreInventMovID 		int Output
+ 		)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Insert on Inventory Movement
+		- Inserir no Customer Credit
+		- Inserir as quantidades para troca
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Insert on Inventory Movement
+		-203  Erro em Inclusão de Models de PacketModel
+		-204  Erro em Inserir no Customer Credit
+		-205  Erro em Inserir no Customer Credit do PackModel
+		-206  Erro em Inserir as quantidades para troca do PreInvMov
+		-207  Erro em Inserir as quantidades para troca InvMov
+		-208  Erro em Inserir na SaleItemCommission	
+		-209  Erro em Inserir na SaleItemCommission referente ao item de Kit	
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	29 Oct	2003		Rodrigo Costa		Criado sp_Sis_GetNextCod;
+	24 May	2004		André Bogado		Criado Cursor para KitModel 
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	01 Dec 2004		Rodrigo Costa		Gravar no Customer Credit
+	01 Fev 	2005		Rodrigo Costa		Inclusao do campo @IDPreInvMovExchange
+	11 Apr	2005		Rodrigo Costa		Inclusao do campo DesiredMarkup no PreInvMov
+	28 Nov	2005		Leonardo Riego		Gravar na SaleItemCommission
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+DECLARE @ComissionID 	int
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+DECLARE @IDSaleItemCommission   int
+
+--Declaração de variáveis para o Cursor de ModelChild
+DECLARE @ModelIDChild  	int 
+DECLARE @QtyChild  		float
+DECLARE @PreInvMovIDPack	int
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+
+/*-------------------------------------------------------------*/
+/*                  Insert on PreInventory Movement               */
+/*-------------------------------------------------------------*/
+
+EXEC sp_Sis_GetNextCode'PreInventoryMov.IDPreInventoryMov', @PreInventMovID OUTPUT
+INSERT dbo.PreInventoryMov
+	(
+	IDPreInventoryMov,
+	InventMovTypeID,
+	IDPessoa,
+	DocumentID,
+	ModelID,
+	StoreID,
+	MovDate,
+ 	Qty,
+	SalePrice,
+	Discount,
+	CostPrice,
+	UserID,
+	IDPreInvMovExchange,
+	DesiredMarkup
+	)
+	SELECT
+		@PreInventMovID,
+		1,
+		@IDCliente,
+ 		@PreSaleID,
+		@ModelID,
+		@StoreID,
+		@MovDate,
+		@Qty,
+		@SalePrice,
+ 		@Discount,
+		IsNull(@CostPrice, (M.VendorCost+M.OtherCost+M.FreightCost)),
+		@UserID,
+		@IDPreInvMovExchange,
+		TG.DesiredMarkup
+	FROM
+ 		dbo.Model M
+		JOIN TabGroup TG ON (TG.IDGroup = M.GroupID)
+ 	WHERE
+		M.IDModel = @ModelID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+/*****************************************************************************************
+	Inclusão do Comissionado na tabela de SaleItemCommission
+******************************************************************************************/
+EXEC sp_Sis_GetNextCode'SaleItemCommission.IDSaleItemCommission', @IDSaleItemCommission OUTPUT
+INSERT INTO dbo.SaleItemCommission
+	(
+	 IDSaleItemCommission,
+	 IDPreInventoryMov,
+	 IDCommission,
+	 CommissionPercent
+	)
+	VALUES
+	(
+	 @IDSaleItemCommission,
+	 @PreInventMovID,
+	 @IDComission,
+	 100
+	)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 
+BEGIN
+	SET @ErrorLevel = -208
+	GOTO ERRO
+END
+
+/*****************************************************************************************
+	Inclusão das quantidades para troca
+******************************************************************************************/
+IF (@IDPreInvMovExchange IS NOT NULL)
+BEGIN
+	--Pre Inv Mov
+	UPDATE
+		PreInventoryMov
+	SET 
+		QtyExchanged = IsNull(QtyExchanged,0) + ABS(@Qty)
+	WHERE 
+		IDPreInventoryMov = @IDPreInvMovExchange
+		AND 
+		InventMovTypeID = 1
+	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		SET @ErrorLevel = -206
+		GOTO ERRO
+	END
+	
+	-- Inv Mov
+	UPDATE
+		InventoryMov
+	SET 
+		QtyExchanged = IsNull(QtyExchanged,0) + ABS(@Qty)
+	WHERE 
+		PreInventoryMovID = @IDPreInvMovExchange
+		AND 
+		InventMovTypeID = 1
+	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		SET @ErrorLevel = -207
+		GOTO ERRO
+	END
+END
+
+/*****************************************************************************************
+	Inclusão dos Creditos para o modelo caso tenha
+******************************************************************************************/
+EXEC sp_PreSale_AddModelCredit
+			@PreInventMovID,
+			@IDCliente,
+			@UserID,
+			@StoreID,
+			@MovDate
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+ 
+
+/*****************************************************************************************
+	Inclusão de Models de PacketModel
+******************************************************************************************/
+
+--Declaração do Cursor de ModelChild
+
+DECLARE ModelChild_Cursor CURSOR FOR
+
+	SELECT
+		M.IDModel,
+		P.Qty
+	FROM
+ 		dbo.PackModel P
+		JOIN dbo.Model M ON (P.IDModel= M.IDModel)
+ 	WHERE
+		P.IDPackModel = @ModelID
+
+
+OPEN ModelChild_Cursor
+
+--Inicialização de ModelChild_Cursor
+FETCH NEXT FROM ModelChild_Cursor INTO
+	@ModelIDChild,
+	@QtyChild
+
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'PreInventoryMov.IDPreInventoryMov', @PreInvMovIDPack OUTPUT
+
+	INSERT dbo.PreInventoryMov
+	(
+	IDPreInventoryMov,
+	InventMovTypeID,
+	IDPessoa,
+	DocumentID,
+	ModelID,
+	StoreID,
+	MovDate,
+ 	Qty,
+	SalePrice,
+	Discount,
+	CostPrice,
+	UserID,
+	IDParentPack
+	)
+	SELECT
+		@PreInvMovIDPack,
+		1,
+		@IDCliente,
+ 		@PreSaleID,
+		@ModelIDChild,
+		@StoreID,
+		@MovDate,
+		@Qty * @QtyChild,--Qtde Comprada x Qtde do Kit
+		0,
+ 		0,
+		FinalCost,
+		@UserID,
+		@PreInventMovID
+	FROM
+ 		dbo.Model
+ 	WHERE
+		dbo.Model.IDModel = @ModelIDChild
+
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		CLOSE ModelChild_Cursor
+		DEALLOCATE ModelChild_Cursor
+		SET @ErrorLevel = -203
+		GOTO ERRO
+	END
+
+	/*****************************************************************************************
+	               Inclusão do Comissionado na tabela de SaleItemCommission
+        ******************************************************************************************/
+        EXEC sp_Sis_GetNextCode'SaleItemCommission.IDSaleItemCommission', @IDSaleItemCommission OUTPUT
+        INSERT INTO dbo.SaleItemCommission
+	(
+	 IDSaleItemCommission,
+	 IDPreInventoryMov,
+	 IDCommission,
+	 CommissionPercent
+	)
+	VALUES
+	(
+	 @IDSaleItemCommission,
+	 @PreInvMovIDPack,
+	 @IDComission,
+	 100
+	)
+
+        SET @SysError = @@ERROR
+        IF @SysError <> 0 
+        BEGIN
+		SET @ErrorLevel = -209
+		GOTO ERRO
+        END
+
+	/*****************************************************************************************
+		Inclusão dos Creditos dos item do pack caso tenha
+	******************************************************************************************/
+	EXEC sp_PreSale_AddModelCredit
+			@PreInvMovIDPack,
+			@IDCliente,
+			@UserID,
+			@StoreID,
+			@MovDate
+
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		SET @ErrorLevel = -205
+		GOTO ERRO
+	END
+
+	--Leitura do Proximo 
+	FETCH NEXT FROM ModelChild_Cursor INTO
+		@ModelIDChild,
+		@QtyChild
+
+END
+--fechamento do cursor
+CLOSE ModelChild_Cursor
+
+--Destruição do cursor
+DEALLOCATE ModelChild_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0 
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+	ROLLBACK TRAN
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_SubAddItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_SubRemoveItem
+			(
+			@PreInventMovID int
+			)
+AS 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Delete on Pre Inventory Movement Items Packages
+		- Delete on Pre Inventory Movement
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro no Delete
+		-202  Erro no Delete PackItems
+		-203  Erro no Delete CustomerCredit
+		-204  Erro no Delete CustomerCredit do PackModel
+		-205  Erro em atulaizar qtyExchanged no Pre
+		-206  Erro em atulaizar qtyExchanged no Inv
+		-207  Erro no Delete SaleItemCommission	
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	25 May 2004		Rodrigo Costa		Deletar os PackModels
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+	01 Dec 2004		Rodrigo Costa		Deletar os Credits for Customer
+	28 Nov 2005		Leonardo Riego		Deletar as linhas da SaleItemCommission
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel			int
+DECLARE @SysError			int
+DECLARE @IDPreInvMovExchange	int
+DECLARE @Qty			float
+
+SET @ErrorLevel = 0
+
+
+/*-------------------------------------------------------------*/
+/* Delete on os Customers Credit  do  PreInventoryMovPack        */
+/*-------------------------------------------------------------*/
+UPDATE
+	CustomerCredit
+SET
+	IsUsed = 1
+FROM
+	PreInventoryMov PIM 
+WHERE
+	PIM.IDParentPack = @PreInventMovID
+	AND
+	CustomerCredit.IDPreInventoryMov = PIM.IDPreInventoryMov
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+/*****************************************************************************************
+	Deletar as quantidades para troca
+******************************************************************************************/
+SELECT
+	@IDPreInvMovExchange = IDPreInvMovExchange,
+	@Qty = Qty
+FROM
+	PreInventoryMov
+WHERE
+	IDPreInventoryMov = @PreInventMovID
+
+IF (@IDPreInvMovExchange IS NOT Null)
+BEGIN
+	--Pre Inv Mov
+	UPDATE
+		PreInventoryMov
+	SET 
+		QtyExchanged = IsNull(QtyExchanged,0) - ABS(@Qty)
+	WHERE 
+		IDPreInventoryMov = @IDPreInvMovExchange
+		AND 
+		InventMovTypeID = 1
+	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		SET @ErrorLevel = -205
+		GOTO ERRO
+	END
+	
+	-- Inv Mov
+	UPDATE
+		InventoryMov
+	SET 
+		QtyExchanged = IsNull(QtyExchanged,0) - ABS(@Qty)
+	WHERE 
+		PreInventoryMovID = @IDPreInvMovExchange
+		AND 
+		InventMovTypeID = 1
+	
+	SET @SysError = @@ERROR
+	IF @SysError <> 0 
+	BEGIN
+		SET @ErrorLevel = -206
+		GOTO ERRO
+	END
+END
+
+/*-------------------------------------------------------------*/
+/*                Delete os Commissions for SaleItemCommission   */
+/*-------------------------------------------------------------*/
+
+DELETE
+	dbo.SaleItemCommission
+WHERE
+	dbo.SaleItemCommission.IDPreInventoryMov = @PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -207
+	GOTO ERRO
+END
+
+/*-------------------------------------------------------------*/
+/*                  Delete on Pre Inventory Movement Pack           */
+/*-------------------------------------------------------------*/
+
+DELETE
+	dbo.PreInventoryMov
+WHERE
+	dbo.PreInventoryMov.IDParentPack = @PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+
+/*-------------------------------------------------------------*/
+/*                  Delete os Customers Credit  do  PreInventoryMov        */
+/*-------------------------------------------------------------*/
+UPDATE
+	CustomerCredit
+SET
+	IsUsed = 1
+WHERE
+	IDPreInventoryMov = @PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+
+/*-------------------------------------------------------------*/
+/*                  Delete on Pre Inventory Movement           */
+/*-------------------------------------------------------------*/
+
+DELETE
+	dbo.PreInventoryMov
+WHERE
+	dbo.PreInventoryMov.IDPreInventoryMov = @PreInventMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+OK:
+	RETURN 0
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_SubRemoveItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_PreSale_UnPay
+			(
+			@PreSaleID	int
+			)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Unmove os PreInventMov para o InventMov
+		- Deleta os InventoryMovTax
+		- Deleta os preInventory Movement
+		- Desquita os lancamentos
+		- Update Cash RegisterMovent
+		- Transforma a PreSale em Sale
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Unmove os PreInventMov para o InventMov
+		-202  Erro em Deleta os preInventory Movement
+		-203  Erro em Deleta os registros de ligacao
+		-204  Erro em Deleta os registros de quitacao
+		-205  Erro em Troca o documento dos lancamentos
+		-206  Erro em Update Cash RegisterMovent
+		-207  Erro em Transforma a PreSale em Sale
+		-208  Erro em Deleta os InventoryMovTax
+		-209  Erro em Alterar comissao
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	26 May	2000		Eduardo Costa		suporte ao novo financeiro e suporte a tratamento de erro
+	26 June 2001		Davi Gouveia		Log de Return Values
+	28 Oct	2003		Rodrigo Costa		Created Cursor for PreInvMov;
+							Call sp_GetNextCode;
+	18 Aug	2004		Rodrigo Costa		Gravar error log
+	24 Mar	2005		Carlos Lima		Deleta os InventoryMovTax
+	30 Mar  2005		Rodrigo Costa		Criar table temp para as quitacoes
+	09 Dec	2005		Rodrigo Costa		Alterar comissao
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+
+BEGIN TRAN
+
+DECLARE @IDInvoice 		int
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de PreInventoryMov
+DECLARE @InventMovTypeID 	int 
+DECLARE @DocumentID 		int 
+DECLARE @IDPessoa 		int 
+DECLARE @StoreID 		int 
+DECLARE @ModelID 		int 
+DECLARE @BarCodeID 		char(20)
+DECLARE @MovDate 		smalldatetime 
+DECLARE @Qty 			float
+DECLARE @CostPrice 		money 
+DECLARE @SalePrice 		money 
+DECLARE @Discount 		money 
+DECLARE @ComissionID 		int 
+DECLARE @UserID 		int 
+DECLARE @IDPreInventoryMov	int
+DECLARE @IDInventoryMov		int
+
+
+SET @ErrorLevel = 0
+
+SELECT 	@IDInvoice = IDInvoice
+FROM		Invoice
+WHERE 	IDPreSale = @PreSaleID
+
+/*----------------------------------------------------------------*/
+/*	    Unmove os PreInventMov para o InventMov                */
+/*----------------------------------------------------------------*/
+
+
+--Declaração do Cursor de PreInventoryMov
+
+DECLARE PreInventoryMov_Cursor CURSOR FOR
+
+	SELECT
+		IM.IDInventoryMov,
+		IM.InventMovTypeID,
+		@PreSaleID,
+		IM.IDPessoa,
+		IM.StoreID,
+		IM.ModelID,
+		IM.BarCodeID,
+		IM.MovDate,
+		IM.Qty,
+		IM.CostPrice,
+		IM.SalePrice,
+		IM.Discount,
+		IM.IDUser
+
+	FROM	
+		InventoryMov IM
+	WHERE   
+		IM.DocumentID = @IDInvoice 
+		AND
+		IM.InventMovTypeID = 1
+
+OPEN PreInventoryMov_Cursor
+
+--Inicialização de PreInventoryMov_Cursor
+FETCH NEXT FROM PreInventoryMov_Cursor INTO
+	@IDInventoryMov,
+	@InventMovTypeID,
+	@DocumentID,
+	@IDPessoa,
+	@StoreID,
+	@ModelID,
+	@BarCodeID,
+	@MovDate,
+	@Qty,
+	@CostPrice,
+	@SalePrice,
+	@Discount,
+	@UserID
+--Enquanto tem registros
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode 'PreInventoryMov.IDPreInventoryMov', @IDPreInventoryMov OUTPUT
+
+	INSERT PreInventoryMov
+		(
+		IDPreInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		IDPessoa,
+		StoreID,
+		ModelID,
+		BarCodeID,
+		MovDate,
+		Qty,
+		CostPrice,
+		SalePrice,
+		Discount,
+		UserID
+		)
+	VALUES 
+		(
+		@IDPreInventoryMov,
+		@InventMovTypeID,
+		@DocumentID,
+		@IDPessoa,
+		@StoreID,
+		@ModelID,
+		@BarCodeID,
+		@MovDate,
+		@Qty,
+		@CostPrice,		@SalePrice,
+		@Discount,
+		@UserID	
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -201
+		GOTO ERRO
+	END
+
+	--Atualizar os SaleItemCommisison
+	UPDATE
+		SaleItemCommission
+	SET
+		IDPreInventoryMov = @IDPreInventoryMov,	
+		IDInventoryMov = Null
+	WHERE
+		IDInventoryMov = @IDInventoryMov
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE PreInventoryMov_Cursor
+		DEALLOCATE PreInventoryMov_Cursor
+		SET @ErrorLevel = -209
+		GOTO ERRO
+	END
+
+
+	FETCH NEXT FROM PreInventoryMov_Cursor INTO	
+		@IDInventoryMov,
+		@InventMovTypeID,
+		@DocumentID,
+		@IDPessoa,
+		@StoreID,
+		@ModelID,
+		@BarCodeID,
+		@MovDate,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@UserID
+END
+--fechamento do cursor
+CLOSE PreInventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE PreInventoryMov_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+/*----------------------------------------------------------------*/
+/*	       Deleta os InventoryMovTax			  */
+/*----------------------------------------------------------------*/
+
+
+DELETE
+	InventoryMovTax
+FROM
+	InventoryMov
+WHERE
+	InventoryMov.IDInventoryMov = InventoryMovTax.IDInventoryMov 
+	AND
+ 	InventoryMov.DocumentID = @IDInvoice
+	AND
+	InventoryMov.InventMovTypeID = 1 
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -208
+	GOTO ERRO
+END
+
+
+/*----------------------------------------------------------------*/
+/*	       Deleta os preInventory Movement			  */
+/*----------------------------------------------------------------*/
+
+DELETE 
+	InventoryMov
+WHERE
+ 	InventoryMov.DocumentID = @IDInvoice
+	AND
+	InventoryMov.InventMovTypeID = 1 
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+/*----------------------------------------------------------------*/
+/*	       Desquita os lancamentos         			  */
+/*----------------------------------------------------------------*/
+
+/*----------- Cria tabela com as quitacoes a serem deletadas ------------ */
+SELECT
+	Q.IDQuitacao
+INTO
+	#sp_PreSale_Remove_QuitToDelete
+FROM
+	Fin_Quitacao Q
+	JOIN Fin_LancQuit LQ ON (LQ.IDQuitacao = Q.IDQuitacao)
+	JOIN Fin_Lancamento L ON (LQ.IDLancamento = L.IDLancamento)
+WHERE
+	L.IDPreSale = @PreSaleID
+
+
+/*---------------- Deleta os registros de ligacao -------------------- */
+DELETE
+	LQ
+FROM
+	Fin_LancQuit LQ
+	JOIN
+	Fin_Lancamento 	L ON (L.IDLancamento = LQ.IDLancamento)
+WHERE
+	L.IDPreSale = @PreSaleID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+/*--------------- Deleta os registros de quitacao -----------------*/
+DELETE
+	Q
+FROM
+	Fin_Quitacao Q
+	JOIN #sp_PreSale_Remove_QuitToDelete QTD ON (QTD.IDQuitacao = Q.IDQuitacao)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+/*---------------- Troca o documento dos lancamentos --------------------*/
+UPDATE
+	Fin_Lancamento
+SET
+	NumDocumento = Convert(varchar(50), @PreSaleID)
+WHERE
+	IDPreSale = @PreSaleID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+/*----------------------------------------------------------------*/
+/*		Update Cash RegisterMovent    		     	  */
+/*----------------------------------------------------------------*/ 
+UPDATE
+	dbo.CashRegMov
+SET
+	dbo.CashRegMov.TotalSales = IsNull(dbo.CashRegMov.TotalSales, 0) -
+		   	  		    IsNull(IsNull(Inv.SubTotal, 0) - IsNull(Inv.ItemDiscount, 0) -
+					    IsNull(Inv.Tax, 0), 0) 
+FROM
+	Invoice	Inv
+WHERE
+	Inv.IDPreSale = @PreSaleID
+	AND
+	CashRegMov.IDCashRegMov = Inv.CashRegMovID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -206
+	GOTO ERRO
+END
+
+/*----------------------------------------------------------------*/
+/*		Transforma a PreSale em Sale    		  */
+/*----------------------------------------------------------------*/
+UPDATE dbo.Invoice
+	SET	dbo.Invoice.IDInvoice    = null,
+		dbo.Invoice.InvoiceDate  = null,
+		dbo.Invoice.CashReceived = null,
+		dbo.Invoice.IDStore	 = null,
+		dbo.Invoice.CashRegMovID = null
+	WHERE
+	 	dbo.Invoice.IDPreSale 	= @PreSaleID
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -207
+	GOTO ERRO
+END
+
+OK:
+	COMMIT TRAN	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_UnPay', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE  PROCEDURE dbo.sp_PreSale_quPreSaleItemSplited
+	(
+		@DocumentID      	int,
+		@IsPreSale		bit,
+		@Date			DateTime
+	)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Retorna itens de um determinado PreSale
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro Criando TempTable
+		-202  Erro no 1o select
+		-203  Erro no 2o select
+		-204  Erro no 1o select
+		-205  Erro no 2o select
+		-205  Erro no Select Fields
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	27 Octu 2004		Rodrigo Costa		Criacao;
+	07 Dez	2004		Rodrigo Costa		Novo calculo das taxas
+	01 July	2005		Rodrigo Costa		Exibir campo auto incremental do item servico
+	01 Dez 2005		Leonardo Riego		Modificado para pegar o nome do Comissionado da função.
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel	int
+DECLARE @SysError	int
+
+SET @ErrorLevel = 0
+
+-- Criação e carca da Tabela Temporária e inclusao dos Items
+CREATE TABLE #InventoryItems
+	(
+	IDItem 			int Null,
+	IDModel 		int Null,
+	IDSalesPerson		int Null,
+	IDUser			int Null,
+	IDStore			int Null,
+	Qty			float Null,
+	ExchangeInvoice		int Null,
+	SalePrice		Money,
+	CostPrice		Money,
+	Discount		Money,
+	Tax			Money,
+	IsDelivered		bit,
+	SaleCode		varchar(20),
+	InvoiceCode		varchar(20),
+	AutoServiceNum		int Null,
+	SalesPerson		varchar(50)
+	)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+
+-- Inclusao dos item do PreInventoryMov Parent
+INSERT
+	#InventoryItems 
+	(
+	IDItem, 
+	IDModel,
+	IDSalesPerson,
+	IDUser,
+	IDStore,
+	Qty, 
+	ExchangeInvoice, 
+	SalePrice, 
+	CostPrice, 
+	Discount, 
+	Tax,
+	IsDelivered,
+	SaleCode,
+	InvoiceCode,
+	AutoServiceNum,
+	SalesPerson
+	)
+SELECT 
+	PIM.IDPreInventoryMov, 
+	PIM.ModelID,
+	0 AS ComissionID, 
+	PIM.UserID,
+	PIM.StoreID,
+	PIM.Qty, 
+	PIM.ExchangeInvoice, 
+	PIM.SalePrice,
+	PIM.CostPrice, 
+	PIM.Discount, 
+ 	 (CASE WHEN (TC.SpecialDateStart <=  @Date) AND (TC.SpecialDateEnd >= @Date) AND ( ISNULL((( ISNULL(PIM.SalePrice, 0) - ISNULL(PIM.Discount, 0)) / PIM.Qty), 0) < ISNULL(TC.MaxItemValue, 0))
+		 THEN (IsNull(TC.SpecialTax,0) + IsNull(TCI.Tax, 0)) ELSE (IsNull(TC.Tax,0) + IsNull(TCI.Tax,0)) END) as Tax, -- Tax
+	0,
+	I.SaleCode,
+	I.InvoiceCode,
+	0,
+	(SELECT dbo.SalesPersonPreInvMov(PIM.IDPreInventoryMov)) AS SalesPerson
+FROM 
+	PreInventoryMov PIM
+	JOIN Model M ON ( PIM.ModelID = M.IDModel )
+	JOIN TabGroup TG ON ( M.GroupID = TG.IDGroup )
+	JOIN StoreToTabGroup STC ON ( STC.IDStore = PIM.StoreID AND STC.IDGroup = TG.IDGroup )
+	LEFT OUTER JOIN TaxCategory TC ON ( TC.IDTaxCategory = STC.IDTaxCategory )
+	LEFT OUTER JOIN TaxCategory TCI ON ( TCI.IDTaxCategory = STC.IDSaleTax )
+	JOIN Invoice I ON (I.IDPreSale = PIM.DocumentID AND PIM.InventMovTypeID IN (1,25) ) 
+WHERE 
+	PIM.DocumentID = @DocumentID
+	AND
+	PIM.InventMovTypeID IN (1,25) --Sale and Canceled
+	AND
+	PIM.IDParentPack Is Null
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+	 
+-- Inclusao dos PreInventoryMov Splits
+INSERT
+	#InventoryItems 
+	(
+	IDItem, 
+	IDModel,
+	IDSalesPerson, 
+	IDUser,
+	IDStore,
+	Qty, 
+	ExchangeInvoice, 
+	SalePrice, 
+	CostPrice, 
+	Discount, 
+	Tax,
+	IsDelivered,
+	SaleCode,
+	InvoiceCode,
+	AutoServiceNum,
+	SalesPerson
+	)
+SELECT 
+	PIM.IDPreInventoryMov, 
+	PIM.ModelID,
+	0 AS ComissionID, 
+	PIM.UserID,
+	PIM.StoreID,
+	PIM.Qty, 
+	PIM.ExchangeInvoice, 
+	PIM.SalePrice,
+	PIM.CostPrice, 
+	PIM.Discount, 
+ 	 (CASE WHEN (TC.SpecialDateStart <=  @Date) AND (TC.SpecialDateEnd >= @Date) AND ( ISNULL((( ISNULL(PIM.SalePrice, 0) - ISNULL(PIM.Discount, 0)) / PIM.Qty), 0) < ISNULL(TC.MaxItemValue, 0))
+	 THEN (IsNull(TC.SpecialTax,0) + IsNull(TCI.Tax, 0)) ELSE (IsNull(TC.Tax,0) + IsNull(TCI.Tax,0)) END) as Tax, -- Tax
+	0,
+	I.SaleCode,
+	I.InvoiceCode,
+	0,
+	(SELECT dbo.SalesPersonPreInvMov(PIM.IDPreInventoryMov)) AS SalesPerson
+FROM 
+	PreInventoryMov PIM
+	JOIN Model M ON ( PIM.ModelID = M.IDModel )
+	JOIN TabGroup TG ON ( M.GroupID = TG.IDGroup )
+	JOIN StoreToTabGroup STC ON ( STC.IDStore = PIM.StoreID AND STC.IDGroup = TG.IDGroup )
+	LEFT OUTER JOIN TaxCategory TC ON ( TC.IDTaxCategory = STC.IDTaxCategory )
+	LEFT OUTER JOIN TaxCategory TCI ON ( TCI.IDTaxCategory = STC.IDSaleTax )
+	JOIN Invoice I ON (I.IDPreSale = PIM.DocumentID AND PIM.InventMovTypeID IN (1,25) ) 
+WHERE 
+	PIM.DocumentID IN (SELECT IDPreSale FROM Invoice where IDPreSaleParent = @DocumentID) 
+	AND
+	PIM.InventMovTypeID IN (1,25) --Sale and Canceled
+	AND
+	PIM.IDParentPack Is Null
+	
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+
+-- Inclusao dos item do InventoryMov Parent
+INSERT
+	#InventoryItems 
+	(
+	IDItem, 
+	IDModel,
+	IDSalesPerson, 
+	IDUser,
+	IDStore,
+	Qty, 
+	ExchangeInvoice, 
+	SalePrice, 
+	CostPrice, 
+	Discount, 
+	Tax,
+	IsDelivered,
+	SaleCode,
+	InvoiceCode,
+	AutoServiceNum,
+	SalesPerson
+	)
+SELECT 
+	IM.IDInventoryMov, 
+	IM.ModelID,
+	0 AS ComissionID,  
+	IM.IDUser,
+	IM.StoreID,
+	IM.Qty, 
+	IM.ExchangeInvoice, 
+	IM.SalePrice,
+	IM.CostPrice, 
+	IM.Discount,
+	IM.SalesTax,
+	1,
+	I.SaleCode,
+	I.InvoiceCode,
+	IM.SequencyNum,
+	(SELECT dbo.SalesPersonInvMov(IM.IDInventoryMov)) AS SalesPerson
+FROM 
+	InventoryMov IM
+	JOIN Invoice I ON (I.IDInvoice = IM.DocumentID AND IM.InventMovTypeID IN (1,25) ) 
+WHERE 
+	IM.DocumentID IN (SELECT IDInvoice FROM Invoice where IDPreSale = @DocumentID AND IDInvoice IS NOT NULL) 
+	AND
+	IM.InventMovTypeID = 1
+	AND
+	IM.IDParentPack Is Null
+	
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+	 
+-- Inclusao dos InventoryMov Splits
+INSERT
+	#InventoryItems 
+	(
+	IDItem, 
+	IDModel,
+	IDSalesPerson, 
+	IDUser,
+	IDStore,
+	Qty, 
+	ExchangeInvoice, 
+	SalePrice, 
+	CostPrice, 
+	Discount, 
+	Tax,
+	IsDelivered,
+	SaleCode,
+	InvoiceCode,
+	AutoServiceNum,
+	SalesPerson
+	)
+SELECT 
+	IM.IDInventoryMov, 
+	IM.ModelID,
+	0 AS ComissionID, 
+	IM.IDUser,
+	IM.StoreID,
+	IM.Qty, 
+	IM.ExchangeInvoice, 
+	IM.SalePrice,
+	IM.CostPrice, 
+	IM.Discount,
+	IM.SalesTax,
+	1,
+	I.SaleCode,
+	I.InvoiceCode,
+	IM.SequencyNum,
+	(SELECT dbo.SalesPersonInvMov(IM.IDInventoryMov)) AS SalesPerson
+FROM 
+	InventoryMov IM
+	JOIN Invoice I ON (I.IDInvoice = IM.DocumentID AND IM.InventMovTypeID IN (1,25) ) 
+WHERE 
+	IM.DocumentID IN (SELECT IDInvoice FROM Invoice where IDPreSaleParent = @DocumentID AND IDInvoice IS NOT NULL) 
+	AND
+	IM.InventMovTypeID = 1
+	AND
+	IM.IDParentPack Is Null
+
+	
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+
+SELECT
+	IM.IDModel as ModelID,
+	M.Model,
+	M.Description ,
+	SalesPerson ,
+	M.SuggRetail ,
+	SU.IDUser ,
+	IM.IDSalesPerson as IDComission,
+	IM.Qty ,
+	IM.ExchangeInvoice,
+	IM.SalePrice ,
+	IM.CostPrice,
+	IM.Discount ,
+	IDItem as  IDInventoryMov,
+	TG.SerialNumber,
+	IM.Tax as Tax,
+	SZ.CodSize,
+	SZ.SizeName,
+	CL.CodColor,
+	CL.Color,
+	IM.IsDelivered,
+	IM.SaleCode,
+	IM.InvoiceCode,
+	IM.AutoServiceNum
+FROM
+	#InventoryItems IM
+	JOIN Model M ON ( IM.IDModel = M.IDModel )
+	LEFT OUTER JOIN InvSize SZ ON (M.IDSize = SZ.IDSize)
+	LEFT OUTER JOIN InvColor CL ON (M.IDColor = CL.IDColor)
+	JOIN SystemUser SU ON ( SU.IDUser = IM.IDUser )
+	JOIN TabGroup TG ON ( M.GroupID = TG.IDGroup )
+	JOIN StoreToTabGroup STC ON ( STC.IDStore = IM.IDStore AND STC.IDGroup = TG.IDGroup )
+	JOIN TaxCategory TC ON ( TC.IDTaxCategory = STC.IDTaxCategory )
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -206
+	GOTO ERRO
+END
+
+
+OK:
+	RETURN 0
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PreSale_quPreSaleItemSplited', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_Purchase_Do
+	(
+	@IDPurchase	int,
+	@Date 		DateTime,
+	@TaxInCost	Bit
+	)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+		
+		- Deleto os InventoryMov
+		- Incluo no Inventario os barcodes que ainda nao existam
+		- Altero o Category no Model quando diferente
+		- Incluo o InventoryMov se necessario
+		- Se necessario crio os lancamentos no contas a pagar
+		- Deleto as Qty do Pur_PurchaseQtyPreSale ##Rodrigo
+		- Incluo as Qty do Pur_PurchaseQtyPreSale ##Rodrigo
+		- Incluo os serial Numbers no inventory
+		- Crio os lancamentos de retorno no contas a pagar, se necessario
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Deleto as Qty do Pur_PurchaseQtyPreSale
+		-202  Erro em Deleto as Qty do Pur_PurchaseQtyOrder
+		-203  Erro em Deleto os PreInventoryMov
+		-204  Erro em Deleto os InventoryMov
+		-205  Erro em Incluo no Inventario os barcodes que ainda nao exitam
+		-206  Erro em Atualizo a informa??o de category
+		-207  Erro em Atualizar a TBL de Model com os valores se for Final
+		-208  Erro em Incluo o InventoryMov se necessario
+		-209  Erro em Insiro as Qty do Pur_PurchaseQtyPrePurchase se for PreReceiving para atualizar o qtyOnPreReceive na TBL Inventory
+		-210  Erro em Insiro as Qty do Pur_PurchaseQtyOrder - Atualizar as qty no PO
+		-211  Erro em Atualiza o total do PO
+		-212  Erro em Crio os Serial Numbers no inventory se for final
+		-213  Erro em Delete os Serail Numbers do Purchase
+		-214  Erro em Deleto o Term do Fin >>> Os termos so serao deletados se o Purchase Type for do typo Invoice
+		-215  Erro em Crio os lancamentos no contas a pagar, se necessario
+		-216  Erro em Incluio novamente o Term do Fin >>> Os termos so serao incluidos se o Purchase Type for do typo Invoice
+		-217  Erro em Deletetar o InventoryMovTax
+		-218  Erro em atualizar o PO
+		-219  Erro em Crio os lancamentos de retorno no contas a pagar, se necessario
+
+	LOG DE MODIFICA??ES
+
+	Data			Programador		Modifica??o
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	04 dezembro 	2000	Eduardo Costa		Cria??o;
+	18 dezembro 	2000	Rodrigo Costa		Complemento;
+	06 junho        	2001	Davi Gouveia		Variavel @ErrorLevel/Lista de Return_Values
+	07 junho        	2001	Rodrigo Costa		Insert no Fin_LancamentoTerm
+	07 dezembro 	2001	Rodrigo Costa		Nao pode deletar p PreInventoryMov, pois os item nao sao salvos la.
+	13 May	        	2002	Rodrigo Costa		Criacao Lancamento Termo para os Disbursements 
+	29 Oct		2003	Rodrigo Costa		Criado Cuersor para InvMov, Pur_PurchaseQtyPrePurchase, Pur_PurchaseQtyOrder_Cursor;
+							Chamado da sp_GetNextCode;
+	13 Feb		2004	Rodrigo Costa		Deletar o InventoryMovTax da Compra
+	18 Aug		2004	Rodrigo Costa		Gravar error log
+	14 Dez		2004	Rodrigo Costa		Cricao do campo @TaxInCost para incluir o preco do item; Retirado o update NewSalePrice
+	11 Mar		2005	Carlos Lima		Tratamento das quantidades devolvidas
+	11 Mar		2005	Rodrigo Costa		Atualizacao das quantidades no PO
+	14 Mar		2005	Carlos Lima		Criação da Devolução no Contas a Pagar
+	26 Abr		2005	Rodrigo Costa		Incluir impostos de devolucao caso necessario; Nao alterar categoria dos produtos
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @IDPO 			int
+DECLARE @ErrorLevel 			int
+DECLARE @SysError			int
+
+--Declara??o de vari?veis para o Cursor de InventoryMov
+DECLARE @StoreID 			int 
+DECLARE @IDPessoa 			int 
+DECLARE @InventMovTypeID 		int 
+DECLARE @DocumentID 		int 
+DECLARE @ModelID 			int 
+DECLARE @Qty 			float 
+DECLARE @CostPrice 			money 
+DECLARE @SalePrice 			money 
+DECLARE @BarCodeID 			char(20)
+DECLARE @MovDate 			smalldatetime 
+DECLARE @IDUser 			int 
+DECLARE @IDInventoryMov		int
+DECLARE @HasRet				int
+
+--Declara??o de vari?veis para o Cursor de Pur_PurchaseQtyPrePurchase
+DECLARE @IDModel 			int 
+DECLARE @IDStore 			int 
+DECLARE @IDPurchaseQtyPreSale	float
+
+--Declara??o de vari?veis para o Cursor de Pur_PurchaseQtyOrder
+DECLARE @IDPOItem 			int 
+DECLARE @IDPurchaseQtyOrder	float
+
+BEGIN TRAN
+
+
+-----------------------------------------------------------
+-- Deleto as Qty do Pur_PurchaseQtyPreSale
+DELETE
+	PQP
+FROM
+	Pur_PurchaseQtyPrePurchase PQP
+WHERE
+	PQP.IDPurchase = @IDPurchase
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+-----------------------------------------------------------
+-- Deleto as Qty do Pur_PurchaseQtyOrder
+DELETE
+	PQP
+FROM
+	Pur_PurchaseQtyOrder PQP
+WHERE
+	PQP.IDPurchase = @IDPurchase
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Deleto os PreInventoryMov
+/*
+DELETE
+	PIM
+FROM
+	PreInventoryMov PIM
+WHERE
+	PIM.DocumentID = @IDPurchase
+	AND
+	PIM.InventMovTypeID = 2
+
+IF @@ERROR <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+*/
+
+------------------------------------------------------------------------------
+-- Deleto os InventoryMovTax
+
+DELETE
+	IMT
+FROM
+	InventoryMovTax IMT
+WHERE
+	IMT.IDInventoryMov IN (	SELECT IDInventoryMov
+			       	FROM InventoryMov IM
+				WHERE IM.DocumentID = @IDPurchase AND
+				IM.InventMovTypeID = 2
+				)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -217
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Deleto os InventoryMov
+
+DELETE
+	IM
+FROM
+	InventoryMov IM
+WHERE
+	IM.DocumentID = @IDPurchase
+	AND
+	IM.InventMovTypeID = 2
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Incluo no Inventario os barcodes que ainda nao exitam
+
+INSERT
+	BarCode (IDBarCode, IDModel, Data)
+SELECT
+
+	PPI.BarCode,
+	PPI.IDModel,
+	@Date
+FROM
+	Pur_PurchaseItem PPI
+	LEFT OUTER JOIN BarCode BC ON (PPI.BarCode = BC.IDBarCode)
+WHERE
+	BC.IDModel IS Null
+	AND
+	PPI.BarCode IS NOT NULL
+	AND
+	PPI.IDPurchase = @IDPurchase
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -205
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Atualizo a informacao de category
+
+UPDATE
+	M
+SET
+	M.GroupID = PPI.IDGroup
+FROM
+	Model M
+	JOIN Pur_PurchaseItem PPI ON (M.IDModel = PPI.IDModel)
+WHERE
+	M.GroupID <> PPI.IDGroup
+	AND
+	PPI.IDPurchase = @IDPurchase
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -206
+	GOTO ERRO
+END
+
+
+--------------------------------------------------------------------------------------------------
+---Atualizar a TBL de Model com os valores se for Final
+---Imposto nao esta incluido no Custo do produto
+IF (@TaxInCost=1)
+BEGIN
+	UPDATE
+		Model
+	SET
+		Model.Desativado     	= 0,
+		Model.LastCost       	= IsNull(Model.VendorCost,0),
+		Model.VendorCost     	= IsNull(PUI.NewCostPrice,0),
+		Model.DateLastCost   	= @Date,
+		Model.OtherCost		= 0, --OtherCost ja esta incluido no custo
+		Model.FreightCost    	= 0, --Freight ja esta incluido no custo
+		Model.AvgCost  		= ROUND(IsNull(	(
+	
+						SELECT 	(
+								CASE WHEN	(PUI.Qty - IsNull(PUI.QtyRet, 0)) + SUM(IsNull(Inv.QtyOnHand,0)) = 0 THEN 0
+								ELSE		(
+											(
+											(PUI.NewCostPrice * (PUI.Qty - IsNull(PUI.QtyRet, 0))) + 
+											( IsNull(Model.FinalCost,0) * SUM(IsNull(Inv.QtyOnHand,0)))
+											)
+											/
+						       			               	(
+											(PUI.Qty - IsNull(PUI.QtyRet, 0)) + SUM(IsNull(Inv.QtyOnHand,0))
+											)
+										)
+								END
+							)
+	
+						FROM	
+							Inventory Inv
+							JOIN Model ON (Inv.ModelId = Model.IDModel)
+						WHERE
+							Inv.ModelID = PUI.IDModel
+						GROUP BY  
+							Model.FinalCost 
+	
+						), PUI.NewCostPrice ),2)
+	FROM
+		Pur_Purchase PU
+		JOIN Pur_PurchaseItem PUI ON (PU.IDPurchase = PUI.IDPurchase)
+		JOIN Pur_PurchaseTotal PUT ON (PU.IDPurchase = PUT.IDPurchase)
+	WHERE
+		PU.IDPurchase = @IDPurchase
+		AND
+		DateFinalReceiving IS NOT NULL
+		AND
+		Model.IDModel = PUI.IDModel
+END
+ELSE
+BEGIN
+
+	UPDATE
+		Model
+	SET
+		Model.Desativado	= 0,
+		Model.SellingPrice 	= IsNull(PUI.NewSalePrice,0),
+		Model.SuggRetail 	= IsNull(PUI.NewSuggRetail,0),
+		Model.LastCost		= IsNull(Model.VendorCost,0),
+		Model.VendorCost	= IsNull(PUI.NewCostPrice,0),
+		Model.DateLastCost	= @Date,
+	
+		Model.OtherCost 	= ROUND(
+					CASE	WHEN 	PUT.SubTotal = 0 THEN 0
+						ELSE	( IsNull((PU.OtherCharges / PUT.SubTotal)  * (PUI.NewCostPrice)  , 0 ) )
+					END
+	
+				      	,2),
+	
+	
+		Model.FreightCost 	= ROUND(
+					  CASE	WHEN 	PUT.SubTotal = 0 THEN 0
+						ELSE	( IsNull(	(PU.Freight / PUT.SubTotal)  * (PUI.NewCostPrice) , 0 ) )
+					  END
+				      	,2),
+	
+		Model.AvgCost  		= ROUND(IsNull(	(
+	
+						SELECT 	(
+								CASE WHEN	PUI.Qty + SUM(IsNull(Inv.QtyOnHand,0)) = 0 THEN 0
+								ELSE		(
+											(
+											(PUI.NewCostPrice * PUI.Qty) + 
+											( IsNull(Model.FinalCost,0) * SUM(IsNull(Inv.QtyOnHand,0)))
+											)
+											/
+						       			               	(
+											PUI.Qty + SUM(IsNull(Inv.QtyOnHand,0))
+											)
+										)
+								END
+							)
+	
+						FROM	
+							Inventory Inv
+							JOIN Model ON (Inv.ModelId = Model.IDModel)
+						WHERE
+							Inv.ModelID = PUI.IDModel
+						GROUP BY  
+							Model.FinalCost 
+	
+						), PUI.NewCostPrice ),2)
+	FROM
+		Pur_Purchase PU
+		JOIN Pur_PurchaseItem PUI ON (PU.IDPurchase = PUI.IDPurchase)
+		JOIN Pur_PurchaseTotal PUT ON (PU.IDPurchase = PUT.IDPurchase)
+	WHERE
+		PU.IDPurchase = @IDPurchase
+		AND
+		DateFinalReceiving IS NOT NULL
+		AND
+		Model.IDModel = PUI.IDModel
+
+END
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -207
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Incluo o InventoryMov se necessario
+--Declara??o do Cursor de InventoryMov
+DECLARE InventoryMov_Cursor CURSOR FOR
+
+SELECT
+	PP.IDStore,
+	PP.IDFornecedor,
+	2, -- Compra
+	PP.IDPurchase,
+	PPI.IDModel,
+	PPI.Qty - IsNull(PPI.QtyRet, 0) AS Qty,
+	PPI.NewCostPrice,
+	PPI.NewSalePrice,
+	PPI.BarCode,
+	PP.DateFinalReceiving,
+	PP.IDUserFinalReceiving
+FROM
+	Pur_Purchase PP
+	JOIN Pur_PurchaseItem PPI ON (PP.IDPurchase = PPI.IDPurchase)
+WHERE
+	PP.IDPurchase = @IDPurchase
+	AND
+	DateFinalReceiving IS NOT NULL
+
+OPEN InventoryMov_Cursor
+
+--Inicializacao de InventoryMov_Cursor
+FETCH NEXT FROM InventoryMov_Cursor INTO
+	@StoreID,
+	@IDPessoa,
+	@InventMovTypeID,
+	@DocumentID,
+	@ModelID,
+	@Qty,
+	@CostPrice,
+	@SalePrice,
+	@BarCodeID,
+	@MovDate,
+	@IDUser
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		StoreID,
+		IDPessoa,
+		InventMovTypeID,
+		DocumentID,
+		ModelID,
+		Qty,
+		CostPrice,
+		SalePrice,
+		BarCodeID,
+		MovDate,
+		IDUser
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		@StoreID,
+		@IDPessoa,
+		@InventMovTypeID,
+		@DocumentID,
+		@ModelID,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@BarCodeID,
+		@MovDate,
+		@IDUser
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE InventoryMov_Cursor
+		DEALLOCATE InventoryMov_Cursor
+		SET @ErrorLevel = -208
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM InventoryMov_Cursor INTO
+		@StoreID,
+		@IDPessoa,
+		@InventMovTypeID,
+		@DocumentID,
+		@ModelID,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@BarCodeID,
+		@MovDate,
+		@IDUser
+END
+--fechamento do cursor
+CLOSE InventoryMov_Cursor
+--Destrui??o do cursor
+DEALLOCATE InventoryMov_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -208
+	GOTO ERRO
+END
+
+
+-----------------------------------------------------------
+-- Insiro as Qty do Pur_PurchaseQtyPrePurchase se for PreReceiving para atualizar o qtyOnPreReceive na TBL Inventory
+--Declara??o do Cursor de Pur_PurchaseQtyPrePurchase
+DECLARE Pur_PurchaseQtyPrePurchase_Cursor CURSOR FOR
+
+
+SELECT
+	PUI.IDModel,
+	PU.IDStore,
+	SUM(PUI.Qty - IsNull(PUI.QtyRet, 0))
+FROM
+	Pur_Purchase PU
+	JOIN Pur_PurchaseItem PUI ON (PU.IDPurchase = PUI.IDPurchase)
+WHERE
+	PU.IDPurchase = @IDPurchase
+	AND
+	PU.DateFinalReceiving IS NULL
+GROUP BY
+	PUI.IDModel,
+	PU.IDStore,
+	PUI.IDPOItem
+
+
+OPEN Pur_PurchaseQtyPrePurchase_Cursor
+
+--Inicializa??o de Pur_PurchaseQtyPrePurchase_Cursor
+FETCH NEXT FROM Pur_PurchaseQtyPrePurchase_Cursor INTO
+	@IDModel,
+	@IDStore,
+	@Qty
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'Pur_PurchaseQtyPrePurchase.IDPurchaseQtyPreSale', @IDPurchaseQtyPreSale OUTPUT
+	INSERT Pur_PurchaseQtyPrePurchase
+		(
+		IDPurchaseQtyPreSale,
+		IDPurchase,
+		IDModel,
+		IDStore,
+		Qty
+		)
+	VALUES
+		(
+		@IDPurchaseQtyPreSale,
+		@IDPurchase,
+		@IDModel,
+		@IDStore,
+		@Qty
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE Pur_PurchaseQtyPrePurchase_Cursor
+		DEALLOCATE Pur_PurchaseQtyPrePurchase_Cursor
+		SET @ErrorLevel = -209
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM Pur_PurchaseQtyPrePurchase_Cursor INTO
+		@IDModel,
+		@IDStore,
+		@Qty
+END
+--fechamento do cursor
+CLOSE Pur_PurchaseQtyPrePurchase_Cursor
+--Destrui??o do cursor
+DEALLOCATE Pur_PurchaseQtyPrePurchase_Cursor
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -209
+	GOTO ERRO
+END
+
+
+-----------------------------------------------------------
+-- Insiro as Qty do Pur_PurchaseQtyOrder - Atualizar as qty no PO
+--Declara??o do Cursor de Pur_PurchaseQtyOrder
+
+DECLARE Pur_PurchaseQtyOrder_Cursor CURSOR FOR
+
+SELECT
+	PUI.IDModel,
+	PU.IDStore,
+	PUI.IDPOItem,
+	SUM(PUI.Qty - IsNull(PUI.QtyRet, 0))
+FROM
+	Pur_Purchase PU
+	JOIN Pur_PurchaseItem PUI ON (PU.IDPurchase = PUI.IDPurchase)
+WHERE
+	PU.IDPurchase = @IDPurchase
+GROUP BY
+	PUI.IDModel,
+	PU.IDStore,
+	PUI.IDPOItem
+
+OPEN Pur_PurchaseQtyOrder_Cursor
+
+--Inicializa??o de Pur_PurchaseQtyOrder_Cursor
+FETCH NEXT FROM Pur_PurchaseQtyOrder_Cursor INTO
+	@IDModel,
+	@IDStore,
+	@IDPOItem,
+	@Qty
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'Pur_PurchaseQtyOrder.IDPurchaseQtyOrder', @IDPurchaseQtyOrder OUTPUT
+	INSERT Pur_PurchaseQtyOrder
+		(
+		IDPurchaseQtyOrder,
+		IDPurchase,
+		IDModel,
+		IDStore,
+		IDPOItem,
+		Qty
+		)
+	VALUES
+		(
+		@IDPurchaseQtyOrder,
+		@IDPurchase,
+		@IDModel,
+		@IDStore,
+		@IDPOItem,
+		@Qty
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE Pur_PurchaseQtyOrder_Cursor
+		DEALLOCATE Pur_PurchaseQtyOrder_Cursor
+		SET @ErrorLevel = -210
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM Pur_PurchaseQtyOrder_Cursor INTO
+		@IDModel,
+		@IDStore,
+		@IDPOItem,
+		@Qty
+END
+--fechamento do cursor
+CLOSE Pur_PurchaseQtyOrder_Cursor
+--Destrui??o do cursor
+DEALLOCATE Pur_PurchaseQtyOrder_Cursor
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -210
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Atualiza o total do PO
+
+SELECT
+	@IDPO = PIM.DocumentID
+FROM
+	PreInventoryMov PIM
+	JOIN Pur_PurchaseQtyOrder PQO ON (PIM.IDPreInventoryMov = PQO.IDPOItem)
+
+EXEC sp_PO_AtuPOTotal @IDPO
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -211
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Atualizo os totais da PO, se necessario
+SELECT	@IDPO = P.IDPO
+FROM
+	Pur_Purchase P
+WHERE
+	IDPurchase = @IDPurchase
+
+EXEC sp_PO_CalcTotalQty @IDPO
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -218
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Crio os Serial Numbers no inventory se for final
+INSERT
+	InventorySerial
+	(
+	StoreID,
+	ModelID,
+	Serial
+	)
+SELECT
+	PU.IDStore,
+	PUI.IDModel,
+	PIS.SerialNumber
+FROM
+	Pur_Purchase PU
+	JOIN Pur_PurchaseItemSerial PIS ON (PU.IDPurchase = PIS.IDPurchase)
+	JOIN Pur_PurchaseItem PUI ON (PU.IDPurchase = PUI.IDPurchase)
+WHERE
+	PIS.IDPurchase = @IDPurchase
+	AND
+	PU.DateFinalReceiving IS NOT NULL
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -212
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Delete os Serail Numbers do Purchase
+DELETE
+	PIS
+FROM
+	Pur_PurchaseItemSerial PIS
+	JOIN Pur_Purchase PU ON (PU.IDPurchase = PIS.IDPurchase)
+WHERE
+	PIS.IDPurchase = @IDPurchase
+	AND
+	PU.DateFinalReceiving IS NOT NULL
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -213
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Deleto o Term do Fin >>> Os termos so serao deletados se o Purchase Type for do typo Invoice
+
+
+DELETE
+	Fin_LancamentoTerm
+WHERE
+	IDLancamento IN (SELECT L.IDLancamento FROM Fin_Lancamento L WHERE L.IDPurchase = @IDPurchase)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -214
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Crio os lancamentos no contas a pagar, se necessario
+IF (@TaxInCost=1)
+	EXEC sp_Purchase_CriaPagamentoComImposto @IDPurchase
+ELSE
+	EXEC sp_Purchase_CriaPagamento @IDPurchase
+
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -215
+	GOTO ERRO
+END
+
+
+------------------------------------------------------------------------------
+-- Crio os lancamentos de retorno no contas a pagar, se necessario
+
+SELECT
+	@HasRet = SUM(ABS(IsNull(PPI.QtyRet, 0)))
+FROM
+	Pur_Purchase PP
+	JOIN Pur_PurchaseItem PPI ON (PP.IDPurchase = PPI.IDPurchase)
+WHERE
+	PP.IDPurchase = @IDPurchase
+	AND
+	DateFinalReceiving IS NOT NULL
+
+IF ((@TaxInCost=1) AND (@HasRet>0))
+	EXEC sp_Purchase_CriaPagamentoComImpostoRet @IDPurchase
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -219
+	GOTO ERRO
+END
+
+------------------------------------------------------------------------------
+-- Incluio novamente o Term do Fin >>> Os termos so serao incluidos se o Purchase Type for do typo Invoice
+
+INSERT
+	Fin_LancamentoTerm (IDLancamento, DueDateShift, Discount)
+SELECT
+	L.IDLancamento, PT.DueDateShift, PT.Discount
+FROM
+	Pur_PurchaseTerm PT
+	JOIN Fin_Lancamento L ON (L.IDPurchase = PT.IDPurchase)
+WHERE
+	L.IDPurchase = @IDPurchase
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -216
+	GOTO ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Purchase_Do', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+
+CREATE PROCEDURE sp_Repair_Do 
+		(
+		@IDRepair	int
+		)
+
+AS
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Deleto os InventoryMov
+		- Incluo no Inventario se necessario
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em DELETO O INVMOV
+		-202  Erro em Send To Vendor
+		-203  Erro em Back From Vendor
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 June 2001		Rodrigo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	28 Oct	2003		Rodrigo Costa		Criacao do InventoryMov Cursor;
+							Chama sp_GetNextCode
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de InventoryMov
+DECLARE @InventMovTypeID 	int 
+DECLARE @DocumentID 	int 
+DECLARE @StoreID 		int 
+DECLARE @ModelID 		int 
+DECLARE @IDPessoa 		int 
+DECLARE @MovDate 		smalldatetime 
+DECLARE @Qty 		float
+DECLARE @IDUser 		int 
+DECLARE @CostPrice 		money 
+DECLARE @Notes 		varchar(255)
+DECLARE @IDInventoryMov	int
+
+BEGIN TRAN
+---------------------------------------
+-- DELETO O INVMOV
+DELETE
+	InventoryMov
+WHERE
+	IDRepair = @IDRepair
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+
+---------------------------------------
+--- Send To Vendor
+
+--Declaração do Cursor de InventoryMov
+
+DECLARE InventoryMov_Cursor CURSOR FOR
+
+	SELECT
+		9,   /* saida por Repair */
+		R.IDRepair,
+		R.IDRepair,
+		R.IDStore,
+		R.IDModel,
+		0,
+		R.SentDate, --Data que foi enviado o Item
+		R.Qty,
+		R.IDUserSent,
+		R.LastCost,
+		R.Defect
+	FROM
+		Repair R
+	WHERE
+		R.IDRepair = @IDRepair
+		AND
+		R.SentDate IS NOT NULL
+		AND
+		R.Tipo = 2 -- so atualiza se for Inventory
+
+OPEN InventoryMov_Cursor
+
+--Inicialização de InventoryMov_Cursor
+FETCH NEXT FROM InventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@IDRepair,
+	@DocumentID,
+	@StoreID,
+	@ModelID,
+	@IDPessoa,
+	@MovDate,
+	@Qty,
+	@IDUser,
+	@CostPrice,
+	@Notes
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		InventMovTypeID,
+		IDRepair,
+		DocumentID,
+		StoreID,
+		ModelID,
+		IDPessoa,
+		MovDate,
+		Qty,
+		IDUser,
+		CostPrice,
+		Notes
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		@InventMovTypeID,
+		@IDRepair,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@IDPessoa,
+		@MovDate,
+		@Qty,
+		@IDUser,
+		@CostPrice,
+		@Notes
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE InventoryMov_Cursor
+		DEALLOCATE InventoryMov_Cursor
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM InventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@IDRepair,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@IDPessoa,
+		@MovDate,
+		@Qty,
+		@IDUser,
+		@CostPrice,
+		@Notes
+END
+--fechamento do cursor
+CLOSE InventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE InventoryMov_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+---------------------------------------
+--- Back From Vendor
+--Declaração do Cursor de InventoryMov
+DECLARE InventoryMov_Cursor CURSOR FOR
+
+	SELECT
+		(
+		CASE TipoRepair
+			WHEN 1 THEN 10   /* Exchanged - Back from Repair */
+			WHEN 2 THEN 10   /* Fixed - Back from Repair */
+			WHEN 3 THEN 16   /* Repair Damage*/
+			WHEN 4 THEN 17   /* Vendor Credit - Repair */
+		END
+		) as RepairType,
+		R.IDRepair,
+		R.IDRepair,
+		R.IDStore,
+		R.IDModel,
+		0,
+		R.ReturnDate, --Data recebida do Vendor		R.Qty,
+		R.IDUserReturn, --Usuario que enviou
+		R.LastCost,
+		R.OBSReturn
+
+	FROM
+		Repair R
+	WHERE
+		R.IDRepair = @IDRepair
+		AND
+		R.ReturnDate IS NOT NULL
+		AND
+		R.Tipo = 2 -- so atualiza se for Inventory
+
+OPEN InventoryMov_Cursor
+
+--Inicialização de InventoryMov_Cursor
+FETCH NEXT FROM InventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@IDRepair,
+	@DocumentID,
+	@StoreID,
+	@ModelID,
+	@IDPessoa,
+	@MovDate,
+	@Qty,
+	@IDUser,
+	@CostPrice,
+	@Notes
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		InventMovTypeID,
+		IDRepair,
+		DocumentID,
+		StoreID,
+		ModelID,
+		IDPessoa,
+		MovDate,
+		Qty,
+		IDUser,
+		CostPrice,
+		Notes
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		@InventMovTypeID,
+		@IDRepair,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@IDPessoa,
+		@MovDate,
+		@Qty,
+		@IDUser,
+		@CostPrice,
+		@Notes
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE InventoryMov_Cursor
+		DEALLOCATE InventoryMov_Cursor
+		SET @ErrorLevel = -203
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM InventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@IDRepair,
+		@DocumentID,
+		@StoreID,
+		@ModelID,
+		@IDPessoa,
+		@MovDate,
+		@Qty,
+		@IDUser,
+		@CostPrice,
+		@Notes
+END
+--fechamento do cursor
+CLOSE InventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE InventoryMov_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Repair_Do', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+
+CREATE PROCEDURE sp_Request_GenerateComputer
+ AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Gera ps pedidos do computador
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em DELETE FROM Request
+		-202  Erro em INSERT	Request
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values
+	27 Oct	2003		André Bogado		Chamada a sp_Sis_GetNextCode
+							Declaraçao do cursor Request_Cursor	
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+/*	Gera ps pedidos do computador		*/
+DECLARE @MinQty  	float
+DECLARE @MinPerc 	numeric(5, 2)
+DECLARE @ErrorLevel	int
+DECLARE @SysError	int
+
+--Declaração de variáveis para o Cursor de Request
+DECLARE @IDRequest	int
+DECLARE @ModelID 	int 
+DECLARE @UserID 	int 
+DECLARE @Type 	char(1)
+DECLARE @QtyReq 	float
+DECLARE @DateRequest 	smalldatetime 
+DECLARE @StoreID 	int 
+DECLARE @Description varchar(50)
+
+SET @ErrorLevel = 0
+
+SELECT  @MinQty   = ( SELECT CONVERT(float, ( SELECT SrvValue FROM Param WHERE IDParam = 13 ) ) )
+
+SELECT  @MinPerc  = ( SELECT CONVERT(int, ( SELECT SrvValue FROM Param WHERE IDParam = 14 ) ) )
+
+/*	Testa se venda dos nMes ultimos meses foi maior que a nMinPerc de compras */
+
+DELETE
+FROM
+	Request
+WHERE
+	Type = 'C'
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+--Declaração do Cursor de Request
+
+DECLARE Request_Cursor CURSOR FOR
+
+SELECT
+		vwInventoryModel.IDModel,
+		0,
+		'C',
+		1,
+		GetDate(),
+		1,
+		Description
+	FROM
+		vwInventoryModel
+	WHERE
+		NOT EXISTS
+		(
+		SELECT
+			ModelID
+		FROM
+			Request (NOLOCK)
+		WHERE
+			Request.ModelID = vwInventoryModel.IDModel
+			)
+			AND
+			vwInventoryModel.TotQtyOnHand <= @MinQty
+			AND
+			convert(numeric(5, 2),
+			(
+			(
+			SELECT
+				SUM(Qty)
+			FROM
+				InventoryMov (NOLOCK)
+			WHERE
+				InventoryMov.InventMovTypeID = 1
+				AND
+				InventoryMov.ModelID = vwInventoryModel.IDModel
+			)/
+			(
+			SELECT
+				SUM(Qty)
+			FROM
+				InventoryMov (NOLOCK)
+			WHERE
+				InventoryMov.InventMovTypeID = 2
+				AND
+				InventoryMov.ModelID = vwInventoryModel.IDModel
+			)
+		)) >= 1+(@MinPerc/100)
+OPEN Request_Cursor
+
+--Inicialização de Request_Cursor
+FETCH NEXT FROM Request_Cursor INTO
+	@ModelID,
+	@UserID,
+	@Type,
+	@QtyReq,
+	@DateRequest,
+	@StoreID,
+	@Description
+--Enquanto tem registros
+WHILE @@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode 'Request.IDRequest', @IDRequest OUTPUT
+
+	INSERT Request
+		(
+		IDRequest,
+		ModelID,
+		UserID,
+		Type,
+		QtyReq,
+		DateRequest,
+		StoreID,
+		Description
+		)
+	VALUES 
+		(
+		@IDRequest,
+		@ModelID,
+		@UserID,
+		@Type,
+		@QtyReq,
+		@DateRequest,
+		@StoreID,
+		@Description	
+		)
+
+		SET @SysError = @@ERROR
+		IF @SysError <> 0
+		BEGIN
+			CLOSE Request_Cursor
+			DEALLOCATE Request_Cursor
+			SET @ErrorLevel = -202
+			GOTO ERRO
+		END
+	FETCH NEXT FROM Request_Cursor INTO
+		@ModelID,
+		@UserID,
+		@Type,
+		@QtyReq,
+		@DateRequest,
+		@StoreID,
+		@Description
+END
+--fechamento do cursor
+CLOSE Request_Cursor
+--Destruição do cursor
+DEALLOCATE Request_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+
+OK:
+	RETURN 0
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Request_GenerateComputer', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+
+CREATE PROCEDURE sp_TourGroup_AddGift 
+			(
+			@IDTouristGroup 	int,
+			@IDModel 		int,
+			@IDStore 		int,
+			@Qty 			float,
+			@DataGift 		smalldatetime,
+			@IDUser 		int 
+			)
+AS
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		Três fases compreendem o gift, a movimentacao
+		de inventario, o registro no cost do group e
+		o registro no GroupCostGift para armazenar o
+		Model e o User
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Registro no InventoryMov
+		-202  Erro em Registra o cost
+		-203  Erro em Registra o GroupCostGift
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	27 June 2001		Davi Gouveia		Log de Return Values
+	30 Oct	2003		Rodrigo Costa		Criacao o cursor InventoryMov_Cursor;
+							Chama sp_GetNextCode;  
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @ErrorLevel 		int
+DECLARE @SysError		int
+
+--Declaração de variáveis para o Cursor de InventoryMov
+DECLARE @InventMovTypeID 	int 
+DECLARE @DocumentID 	int 
+DECLARE @CostPrice 		money 
+DECLARE @SalePrice 		money 
+DECLARE @Discount 		money 
+DECLARE @IDInventoryMov 	int
+DECLARE @IDCost 		int
+DECLARE @IDGroupCostGift 	int
+
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+
+/* Registro no InventoryMov */
+
+--Declaração do Cursor de InventoryMov
+
+DECLARE InventoryMov_Cursor CURSOR FOR
+
+	SELECT
+		13, /* Tipo saida por gift */
+		0,
+		M.VendorCost,
+		M.SellingPrice,
+		M.SellingPrice * @Qty
+	FROM
+		Model M
+	WHERE
+		IDModel = @IDModel
+
+OPEN InventoryMov_Cursor
+
+--Inicialização de InventoryMov_Cursor
+FETCH NEXT FROM InventoryMov_Cursor INTO
+	@InventMovTypeID,
+	@DocumentID,
+	@CostPrice,
+	@SalePrice,
+	@Discount
+
+--Enquanto tem registros
+WHILE
+@@FETCH_STATUS = 0
+BEGIN
+	EXEC sp_Sis_GetNextCode'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+
+	INSERT InventoryMov
+		(
+		IDInventoryMov,
+		InventMovTypeID,
+		DocumentID,
+		StoreID,
+		ModelID,
+		MovDate,
+		Qty,
+		CostPrice,
+		SalePrice,
+		Discount,
+		IDUser
+		)
+	VALUES
+		(
+		@IDInventoryMov,
+		@InventMovTypeID,
+		@DocumentID,
+		@IDStore,
+		@IDModel,
+		@DataGift,
+		@Qty,
+		@CostPrice,
+		@SalePrice,
+		@Discount,
+		@IDUser
+		)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		CLOSE InventoryMov_Cursor
+		DEALLOCATE InventoryMov_Cursor
+		SET @ErrorLevel = -201
+		GOTO ERRO
+	END
+
+	FETCH NEXT FROM InventoryMov_Cursor INTO
+		@InventMovTypeID,
+		@DocumentID,
+		@CostPrice,
+		@SalePrice,
+		@Discount
+END
+--fechamento do cursor
+CLOSE InventoryMov_Cursor
+--Destruição do cursor
+DEALLOCATE InventoryMov_Cursor
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+/* Registra o cost */
+EXEC sp_Sis_GetNextCode'GroupCost.IDCost', @IDCost OUTPUT
+	INSERT GroupCost
+		(
+		IDCost,
+		IDTouristGroup,
+		IDCostType,
+		CostDate,
+		UnitCost,
+		Quantity
+		)
+	SELECT
+		@IDCost,
+		@IDTouristGroup,
+     		5, /* Tipo gift */
+		@DataGift,
+		M.VendorCost,
+		@Qty
+	FROM
+		Model M
+	WHERE
+		IDModel = @IDModel
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+END
+
+/* Registra o GroupCostGift */
+EXEC sp_Sis_GetNextCode'GroupCostGift.IDGroupCostGift', @IDGroupCostGift OUTPUT
+	INSERT GroupCostGift
+		(
+		IDGroupCostGift,
+		IDGroupCost,
+		IDModel,
+		IDUser,
+		Desativado
+		)
+	VALUES
+		(
+		@IDGroupCostGift,
+		@IDCost,
+		@IDModel,
+		@IDUser,		0
+		)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+
+OK:
+	COMMIT TRAN
+	RETURN 0
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_TourGroup_AddGift', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+
+GO
+
+CREATE PROCEDURE sp_Inventory_Count
+		(
+		@IDModel    	int,
+		@IDStore      	int,
+		@Difference 	float,
+		@CountDate 	SmallDateTime,
+		@IDUser	int,
+		@Date		Datetime,
+		@Notes		varchar(255) -- Davi
+		)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		Calcula o total de quantidade movimentada ate a contagem
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-201  Erro em Ajuste por entrada de estoque
+		-202  Erro em Ajuste por saida de estoque
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	25 June 2001		Davi Gouveia		Log de Return Values
+ 	21 Oct	2003		Rodrigo Costa		Chamada a sp_Sis_GetNextCode para @IDInventoryMov; 
+							Criado @IDInventoryMov;
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @TotalMov		int
+DECLARE @ErrorLevel 		int
+DECLARE @SysError		int
+DECLARE @IDInventoryMov	int
+
+SET @ErrorLevel = 0
+
+SELECT @TotalMov = (
+		SELECT
+			SUM(IM.Qty * (2*IMT.UpdateOnHand-1))
+		FROM
+			InventoryMov IM Inner Join InventoryMovType IMT on (IM.InventMovTypeID = IMT.IDInventMovType)
+		WHERE
+			IM.StoreID = @IDStore     
+			AND
+			IM.ModelID = @IDModel     	
+			AND
+			IM.MovDate > @CountDate
+		   )
+
+
+SELECT @TotalMov = IsNull(@TotalMov,0)
+
+
+EXEC sp_Sis_GetNextCode 'InventoryMov.IDInventoryMov', @IDInventoryMov OUTPUT
+if (@Difference + @TotalMov) > 0
+begin
+	/*	Ajuste por entrada de estoque	*/
+	INSERT InventoryMov 	(
+				IDInventoryMov,
+				InventMovTypeID,
+				DocumentID,
+				StoreID,
+				ModelID,
+				MovDate,
+				Qty,
+				IDUser,
+				Notes
+				)
+				VALUES
+				(
+				@IDInventoryMov,
+				21,
+				0,
+				@IDStore,
+				@IDModel,
+				@Date,
+				Abs(@Difference + @TotalMov),
+				@IDUser,
+				@Notes
+				)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -201
+		GOTO ERRO
+	END
+
+end
+else
+begin
+	/*	Ajuste por saida de estoque	*/
+	INSERT InventoryMov 	(
+				IDInventoryMov,
+				InventMovTypeID,
+				DocumentID,
+				StoreID,
+				ModelID,
+				MovDate,
+				Qty,
+				IDUser,
+				Notes
+				)
+				VALUES
+				(
+				@IDInventoryMov,
+				22,
+				0,
+				@IDStore,
+ 				@IDModel,
+				@Date,
+				Abs(@Difference + @TotalMov),
+				@IDUser,
+				@Notes
+				)
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -202
+		GOTO ERRO
+	END
+end
+
+OK:
+	RETURN 0
+ERRO:
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_Inventory_Count', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+GO
+
+CREATE PROCEDURE sp_PO_AddItem
+		(
+		@IDUser			int,
+		@IDModel     		int,
+		@IDFornecedor		int,
+		@IDStore     		int,
+		@Qty         		float,
+		@CostPrice      	money,
+		@SalePrice      	money,
+		@SuggRetail      	money,
+		@DataPedido    		smalldatetime,
+		@EstimatedDate		smalldatetime,
+		@BalanceRequest		bit,
+		@IDPOItem 	  	int Output
+		)
+AS
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	SUMARIO
+
+		- Descobre o IDPO do Fornecedor aberto no momento
+		- Inclui o POItem
+		- Atualiza o Model
+                - Atualiza os totais do PO
+		- Atualiza os Vendor Requests para a Mercadoria
+
+	TABELA DE ERROS PARA RETURN_VALUE
+
+		 000  Ok
+		-001  Ok
+		-201  Erro em Inclui o POItem
+		-202  Erro em Atualiza o Model
+		-203  Erro em Atualiza os totais do PO
+		-204  Erro em Deleto de Request
+		-205  Erro em Insiro em Request
+
+
+	LOG DE MODIFICAÇÕES
+
+	Data			Programador		Modificação
+	--------------------------------------- --------------------------------------- -----------------------------------------------------------------------------------------------------
+	15 May  2000		Eduardo Costa		Criacao;
+	26 June 2001		Davi Gouveia		Log de Return Values;
+ 	21 Oct	2003		Rodrigo Costa		Chamada a sp_Sis_GetNextCode para @IDPOItem, @IDPO, @IDRequest; 
+							Removido SELECT @IDPO = @@IDENTITY, SELECT @IDPOItem = @@IDENTITY;
+							Criado @IDRequest;
+	18 Aug 2004		Rodrigo Costa		Gravar error log
+    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+DECLARE @Result		int
+DECLARE @IDPO		int
+DECLARE @TotalRequest   	int
+DECLARE @SubTotal		money
+DECLARE @Description		varchar(50)
+DECLARE @ErrorLevel		int
+DECLARE @SysError		int
+DECLARE @IDRequest		int
+
+SET @ErrorLevel = 0
+
+BEGIN TRAN
+
+/*------------------------------------------------------------------------------*/
+/*                Descobre o IDPO do Fornecedor aberto no momento                   */
+/*------------------------------------------------------------------------------*/
+SELECT @IDPO = 	IsNull(
+		(
+		SELECT 
+			IDPO
+		FROM 
+			dbo.PO PO
+		WHERE
+			IDFornecedor = @IDFornecedor   
+			AND
+			Aberto   = 1 	       
+			AND
+			IDStore  = @IDStore
+		)
+		, -1)
+IF @IDPO = -1
+BEGIN
+	SELECT @Result = -1
+
+	EXEC sp_Sis_GetNextCode 'PO.IDPO', @IDPO OUTPUT
+	INSERT dbo.PO 
+		(
+		IDPO,
+		IDFornecedor, 
+		DataPedido, 
+		Aberto, 
+		IDStore
+		) 
+		VALUES 
+		(
+		@IDPO,
+		@IDFornecedor, 
+		@DataPedido, 
+		1, 
+		@IDStore
+		)
+
+END
+ELSE
+BEGIN
+	SELECT @Result = 0
+END
+
+/*------------------------------------------------------------------------------*/
+/*		Inclui o POItem			*/
+/*------------------------------------------------------------------------------*/
+EXEC sp_Sis_GetNextCode 'PreInventoryMov.IDPreInventoryMov', @IDPOItem OUTPUT
+INSERT dbo.vwPOItem	(
+	IDPOItem,
+	IDPO , 
+	ModelID , 
+	MovDate , 
+	Qty ,
+	CostPrice , 
+	SalePrice, 
+	SuggRetail, 
+	IDFornecedor , 
+	DateEstimatedMov ,
+  	IDStore, 
+	InventMovTypeID
+	)
+	VALUES
+	(
+	@IDPOItem,
+	@IDPO, 
+	@IDModel, 
+	@DataPedido, 
+	@Qty,
+	@CostPrice, 
+	@SalePrice, 
+	@SuggRetail, 
+	@IDFornecedor, 
+	@EstimatedDate,
+	@IDStore, 
+	2
+	)
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -201
+	GOTO ERRO
+END
+
+
+/*------------------------------------------------------------------------------*/
+/*                             Atualiza o Model                                 */
+/*------------------------------------------------------------------------------*/
+UPDATE 
+	MODEL
+SET 
+	SuggRetail = @SuggRetail
+FROM 
+	MODEL
+WHERE 
+	IDModel = @IDModel
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -202
+	GOTO ERRO
+
+END
+
+/*------------------------------------------------------------------------------*/
+/*        		    Atualiza os totais do PO				*/
+/*------------------------------------------------------------------------------*/ 
+SELECT @SubTotal = @Qty * @CostPrice 
+EXEC sp_PO_AtuPOTotal	@IDPO, @SubTotal
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -203
+	GOTO ERRO
+END
+
+/*------------------------------------------------------------------------------*/
+/*     		    Atualiza os Vendor Requests para a Mercadoria		*/
+/*------------------------------------------------------------------------------*/
+SELECT @TotalRequest =	IsNull(
+			(
+			SELECT
+				SUM(QtyReq)
+			FROM	
+				dbo.Request
+			WHERE
+				dbo.Request.StoreID = @IDStore 
+				AND
+				dbo.Request.ModelID = @IDModel
+				), 0)
+
+-- Deleto de Request
+DELETE
+FROM
+	dbo.Request
+WHERE
+	dbo.Request.StoreID = @IDStore
+	AND
+	dbo.Request.ModelID = @IDModel
+
+SET @SysError = @@ERROR
+IF @SysError <> 0
+BEGIN
+	SET @ErrorLevel = -204
+	GOTO ERRO
+END
+
+IF @TotalRequest > @Qty AND @BalanceRequest = 1
+BEGIN
+	SELECT @Description = (SELECT Description FROM Model WHERE IDModel = @IDModel)
+
+	-- Insiro em Request
+	EXEC sp_Sis_GetNextCode 'Request.IDRequest', @IDRequest OUTPUT
+	INSERT
+		Request (
+			IDRequest,
+			UserID,
+			ModelID,
+			Description,
+			StoreID,
+			Type,
+			QtyReq,
+			DateRequest
+			)
+		VALUES
+			(
+			@IDRequest,
+			@IDUser,
+			@IDModel,
+			@Description,
+			@IDStore,
+			'P',
+			(@TotalRequest-@Qty),
+			GetDate()
+			)
+
+	SET @SysError = @@ERROR
+	IF @SysError <> 0
+	BEGIN
+		SET @ErrorLevel = -205
+		GOTO ERRO
+	END
+END
+
+OK:
+	COMMIT TRAN
+	RETURN @Result
+ERRO:
+	ROLLBACK TRAN
+	PRINT CAST(@ErrorLevel AS VARCHAR)
+
+	DECLARE @ErrorLevelStr varchar(10)
+	SET  @ErrorLevelStr =  CAST(@ErrorLevel AS VARCHAR)
+	EXEC sp_Sis_AppHistory_Add 0, 0, @SysError, 'MainRetail', 'Error: sp_PO_AddItem', @ErrorLevelStr
+
+	RETURN @ErrorLevel
+GO

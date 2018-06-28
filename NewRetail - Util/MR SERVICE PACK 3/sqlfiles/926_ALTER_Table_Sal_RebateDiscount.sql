@@ -1,0 +1,3 @@
+IF NOT EXISTS (SELECT C.NAME FROM SYSCOLUMNS C WHERE C.ID = OBJECT_ID('Sal_RebateDiscount') AND C.NAME = 'BonusCode')
+	ALTER TABLE Sal_RebateDiscount ADD BonusCode varchar(20) NULL
+GO

@@ -1,0 +1,16 @@
+[Captions]
+TFchPetPorte.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchPetPorte.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchPetPorte.Label1=Porte :~!@#$Porte :~!@#$Porte :~!@#$
+TFchPetPorte.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchPetPorte.spHelp=&Help~!@#$A&juda~!@#$Ayuda~!@#$
+TFchPetPorte.TFchPetPorte=FchPetPorte~!@#$Porte~!@#$Porte~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

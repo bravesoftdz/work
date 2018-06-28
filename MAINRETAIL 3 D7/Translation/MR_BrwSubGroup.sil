@@ -1,0 +1,43 @@
+[Captions]
+TBrwSubGroup.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TBrwSubGroup.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TBrwSubGroup.btColorGroup=Group Horiz.~!@#$Agrupar Horiz.~!@#$Grupo Horiz.~!@#$
+TBrwSubGroup.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TBrwSubGroup.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TBrwSubGroup.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TBrwSubGroup.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TBrwSubGroup.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TBrwSubGroup.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwSubGroup.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TBrwSubGroup.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwSubGroup.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TBrwSubGroup.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwSubGroup.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwSubGroup.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwSubGroup.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwSubGroup.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwSubGroup.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TBrwSubGroup.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TBrwSubGroup.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TBrwSubGroup.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwSubGroup.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TBrwSubGroup.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TBrwSubGroup.grdBrowseDBIDSubGroup=ID~!@#$ID~!@#$ID~!@#$
+TBrwSubGroup.grdBrowseDBSubGroup=Sub Group~!@#$Sub Grupo~!@#$Sub Grupo~!@#$
+TBrwSubGroup.grdBrowseDBUserCode=User Code~!@#$Código~!@#$código~!@#$
+TBrwSubGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TBrwSubGroup.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TBrwSubGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TBrwSubGroup.quBrowseIDSubGroup=IDSubGroup~!@#$~!@#$~!@#$
+TBrwSubGroup.quBrowseSubGroup=SubGroup~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

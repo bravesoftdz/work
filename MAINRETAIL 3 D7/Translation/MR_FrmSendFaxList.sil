@@ -1,0 +1,17 @@
+[Captions]
+TFrmSendFaxList.flCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmSendFaxList.Label3=&Phone number:~!@#$Número &Telefone :~!@#$Número &Teléfono :~!@#$
+TFrmSendFaxList.sbOpenFile=Fax File Name~!@#$Arquivo de Fax~!@#$Archivo de Fax~!@#$
+TFrmSendFaxList.TFrmSendFaxList=Add/modify/delete faxes~!@#$Adicionar/Modificar/Eliminar Faxes~!@#$Agregar/Modificar/Eliminar Faxes~!@#$
+
+[Hints]
+TFrmSendFaxList.sbOpenFile=Open fax file~!@#$Abrir arquivo fax~!@#$Abrir archivo fax~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

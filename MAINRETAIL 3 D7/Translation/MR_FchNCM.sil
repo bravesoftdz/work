@@ -1,0 +1,27 @@
+[Captions]
+TFchNCM.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchNCM.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchNCM.DBCheckBox1=Apply tax~!@#$Incide~!@#$Aplica~!@#$
+TFchNCM.Label1=Description :~!@#$Descrição :~!@#$Descricción :~!@#$
+TFchNCM.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchNCM.Label3=Internal Tax :~!@#$MVA Interno :~!@#$MVA Interno :~!@#$
+TFchNCM.Label5=External Tax :~!@#$MVA Interestadual :~!@#$MVA Interestadual :~!@#$
+TFchNCM.Label8=Code :~!@#$Código :~!@#$Código :~!@#$
+TFchNCM.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TFchNCM.quFormCodigo=Codigo~!@#$Código~!@#$Código~!@#$
+TFchNCM.quFormDescricao=Descricao~!@#$Descrição~!@#$Descricción~!@#$
+TFchNCM.quFormIDNCM=IDNCM~!@#$ID~!@#$ID~!@#$
+TFchNCM.quFormIncide=Incide~!@#$Incide~!@#$Incide~!@#$
+TFchNCM.quFormMVAInterestadual=MVAInterestadual~!@#$MVAInterestadual~!@#$MVAInterestadual~!@#$
+TFchNCM.quFormMVAInterno=MVAInterno~!@#$MVAInterno~!@#$MVAInterno~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

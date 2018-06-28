@@ -1,0 +1,30 @@
+[Captions]
+TFrmEnterPayments.Label1=Frequency :~!@#$Nº Vezes :~!@#$Frecuencia :~!@#$
+TFrmEnterPayments.lbAmount=Amount :~!@#$Valor :~!@#$Valor :~!@#$
+TFrmEnterPayments.lbAuthori=Authorization :~!@#$Autorização :~!@#$Autorización :~!@#$
+TFrmEnterPayments.lbBank=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFrmEnterPayments.lbCheckEnd=Final Check :~!@#$Doc. Final :~!@#$Cheque Fim :~!@#$
+TFrmEnterPayments.lbDate=Date :~!@#$Data :~!@#$Fetcha :~!@#$
+TFrmEnterPayments.lbDoc=Document :~!@#$CPF/CNPJ :~!@#$Documento :~!@#$
+TFrmEnterPayments.lbIniCheck=Initial Check :~!@#$Doc. Inic. :~!@#$Cheque Ini :~!@#$
+TFrmEnterPayments.lbName=Customer :~!@#$Cliente :~!@#$Cliente :~!@#$
+TFrmEnterPayments.lbOBS=OBS :~!@#$OBS :~!@#$OBS :~!@#$
+TFrmEnterPayments.lbPhone=Phone :~!@#$Tel :~!@#$Tel :~!@#$
+TFrmEnterPayments.lbSearchCustomer=(F2) Search Customer~!@#$(F2) Procurar Cliente~!@#$(F2) Buscar Cliente~!@#$
+TFrmEnterPayments.TFrmEnterPayments=Partial Payments~!@#$Pre-Datado~!@#$Pre-Datado~!@#$
+
+[Collections]
+TFrmEnterPayments.lvwPayments.Columns-0+.Caption=Partial~!@#$Parcela~!@#$Parcela~!@#$
+TFrmEnterPayments.lvwPayments.Columns-1+.Caption=Num Doc.~!@#$Num Doc~!@#$Num Doc~!@#$
+TFrmEnterPayments.lvwPayments.Columns-2+.Caption=Bank~!@#$Banco~!@#$Banco~!@#$
+TFrmEnterPayments.lvwPayments.Columns-3+.Caption=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmEnterPayments.lvwPayments.Columns-4+.Caption=Amount~!@#$Total~!@#$Total~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

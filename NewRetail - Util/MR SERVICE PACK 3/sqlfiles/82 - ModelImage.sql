@@ -1,0 +1,3 @@
+ALTER TABLE Model
+ADD LargeImage VARCHAR(255)
+GO

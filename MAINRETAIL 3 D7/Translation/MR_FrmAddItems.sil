@@ -1,0 +1,46 @@
+[Captions]
+TFrmAddItems.sbHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmAddItems.btSave=&Save~!@#$&Salvar~!@#$&Guardar~!@#$
+TFrmAddItems.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmAddItems.btnSearch=S&earch~!@#$&Procurar~!@#$&Buscar~!@#$
+TFrmAddItems.btnCategClear=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmAddItems.btnGroupClear=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmAddItems.btnSubGroupClear=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmAddItems.btnAdd=Add~!@#$Adicionar~!@#$Adicionar~!@#$
+TFrmAddItems.btnAddAll=Add all~!@#$Adicionar tudo~!@#$Adicionar todo~!@#$
+TFrmAddItems.btnColumn=Columns~!@#$Colunas~!@#$Colunas~!@#$
+TFrmAddItems.btnGroup=Grouping~!@#$Agrupar~!@#$Agrupar~!@#$
+TFrmAddItems.btnShowDetails=Show Details~!@#$Exibir Detalhes~!@#$Mostrar Detalle~!@#$
+TFrmAddItems.btnRemove=Remove~!@#$Remover~!@#$Remover~!@#$
+TFrmAddItems.btnRemoveAll=Remove all~!@#$Remover tudo~!@#$Remover todo~!@#$
+TFrmAddItems.lblCategory=Category :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFrmAddItems.lblGroup=Sub Category :~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmAddItems.lblSubGroup=Group :~!@#$Sub Grupo :~!@#$Sub Grupo :~!@#$
+TFrmAddItems.lblModelResultTitle=Products~!@#$Produtos~!@#$Produtos~!@#$
+TFrmAddItems.lblModelAddTitle=Products to Add~!@#$Produtos para adicionar~!@#$Produtos para adicionar~!@#$
+TFrmAddItems.grdModelResultTableViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmAddItems.grdModelResultTableViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmAddItems.grdModelResultTableViewSellingPrice=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmAddItems.grdModelResultTableViewVendorCost=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TFrmAddItems.grdModelResultTableViewName=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmAddItems.grdModelResultTableViewModelGroup=Sub Category~!@#$Grupo~!@#$Grupo~!@#$
+TFrmAddItems.grdModelResultTableViewModelSubGroup=Group~!@#$Sub Grupo~!@#$Sub Grupo~!@#$
+TFrmAddItems.grdModelResultTableViewManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmAddItems.grdModelAddTableViewModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmAddItems.grdModelAddTableViewDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmAddItems.grdModelAddTableViewQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmAddItems.grdModelAddTableViewCostPrice=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TFrmAddItems.grdModelAddTableViewSalePrice=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmAddItems.grdModelAddTableViewManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+
+[Multilines]
+TFrmAddItems.cbxMethod.Items="Start with","End with",Contains~!@#$"Começe com","Termine com",Contenha~!@#$Inicia,Termina,Ter~!@#$
+TFrmAddItems.cbxType.Items=Barcode,Model,Description~!@#$"Código Barra",Modelo,Descrição~!@#$"Código Barra",Model,Descripción~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

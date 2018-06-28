@@ -1,0 +1,54 @@
+[Captions]
+TFrmTelemarketingFilter.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmTelemarketingFilter.btnCType=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTelemarketingFilter.btnStateClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTelemarketingFilter.Button1=&Save~!@#$&Salvar~!@#$Guardar~!@#$
+TFrmTelemarketingFilter.Button2=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTelemarketingFilter.Button3=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTelemarketingFilter.Label1=To :~!@#$Até :~!@#$Até :~!@#$
+TFrmTelemarketingFilter.Label10=State :~!@#$Estado :~!@#$Estado :~!@#$
+TFrmTelemarketingFilter.Label2=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmTelemarketingFilter.Label23=Home Page :~!@#$Home Page :~!@#$Home Page :~!@#$
+TFrmTelemarketingFilter.Label3=Media :~!@#$Mídia :~!@#$Medios :~!@#$
+TFrmTelemarketingFilter.Label4=Sale :~!@#$Vendas :~!@#$Ventas :~!@#$
+TFrmTelemarketingFilter.Label5=Birthdate from :~!@#$Aniversário  :~!@#$Nacimiento :~!@#$
+TFrmTelemarketingFilter.Label6=To :~!@#$Ate :~!@#$Ate :~!@#$
+TFrmTelemarketingFilter.Label7=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFrmTelemarketingFilter.Label8=Zip code :~!@#$CEP:~!@#$Cod. Postal :~!@#$
+TFrmTelemarketingFilter.Label9=Phone :~!@#$Tel. :~!@#$Tel. :~!@#$
+TFrmTelemarketingFilter.lbBairro=Neighborhood :~!@#$Bairro :~!@#$Bairro :~!@#$
+TFrmTelemarketingFilter.lbCell=Cell :~!@#$Cel :~!@#$Cel :~!@#$
+TFrmTelemarketingFilter.lbCType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFrmTelemarketingFilter.lbFilterName=Filter Name :~!@#$Nome do Filtro :~!@#$Nombre del filtro :~!@#$
+TFrmTelemarketingFilter.lbInvDate=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmTelemarketingFilter.lbResult=Result :~!@#$Resultado :~!@#$Resultado :~!@#$
+TFrmTelemarketingFilter.lbType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFrmTelemarketingFilter.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmTelemarketingFilter.tsCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmTelemarketingFilter.tsInvoice=Invoice~!@#$Nota~!@#$Boleta~!@#$
+TFrmTelemarketingFilter.tsResult=Result~!@#$Resultado~!@#$Resultado~!@#$
+TFrmTelemarketingFilter.lbCategory=Category~!@#$Categoria :~!@#$Categoria :~!@#$
+TFrmTelemarketingFilter.lbModel=Model~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmTelemarketingFilter.lbProfession=Profession :~!@#$Profissão :~!@#$Profesión :~!@#$
+TFrmTelemarketingFilter.lbSex=Gender :~!@#$Sexo :~!@#$Sexo :~!@#$
+TFrmTelemarketingFilter.tsSO=Service Order~!@#$Ordem de serviço~!@#$Orden de Servicio~!@#$
+TFrmTelemarketingFilter.Button4=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTelemarketingFilter.Button5=All~!@#$Todos~!@#$Todos~!@#$
+TFrmTelemarketingFilter.lbSOIni=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmTelemarketingFilter.lbSOEnd=To :~!@#$Até :~!@#$Até :~!@#$
+TFrmTelemarketingFilter.lbSOStore=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmTelemarketingFilter.lbSOProduct=Product :~!@#$Produto :~!@#$Produto :~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmTelemarketingFilter.rgGender.Items=Male,Female~!@#$Masculino,Feminino~!@#$Masculino,Feminino~!@#$
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

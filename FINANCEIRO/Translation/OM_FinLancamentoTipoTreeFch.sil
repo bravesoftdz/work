@@ -1,0 +1,59 @@
+[Captions]
+TFinLancamentoTipoTreeFch.bbNovoItem=New Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinLancamentoTipoTreeFch.bbNovoSubItem=New Sub Item~!@#$Novo Sub Item~!@#$Nuevo Sub Item~!@#$
+TFinLancamentoTipoTreeFch.bbRemoveItem=Remove Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinLancamentoTipoTreeFch.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFinLancamentoTipoTreeFch.DBRadioGroup1=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.Label2=Chart of accounts # :~!@#$Gráfico de Nº Contas  :~!@#$Gráfico de Cuentas # :~!@#$
+TFinLancamentoTipoTreeFch.Label3=Chart of account name :~!@#$Gráfico de Conta :~!@#$Gráfico de Cuenta :~!@#$
+TFinLancamentoTipoTreeFch.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinLancamentoTipoTreeFch.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinLancamentoTipoTreeFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.pnlFicha=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.rgTipo=~!@#$~!@#$~!@#$
+TFinLancamentoTipoTreeFch.TFinLancamentoTipoTreeFch=FinLancamentoTipoTreeFch~!@#$FinLançamentoTipoTreeFch~!@#$FinContabilizaciónTipoTreeFch~!@#$
+
+[DisplayLabels]
+TFinLancamentoTipoTreeFch.quTreeViewImageIndex=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagen~!@#$
+TFinLancamentoTipoTreeFch.quTreeViewSelectedIndex=SelectedIndex~!@#$IndiceSelecionado~!@#$IndiceSeleccionado~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsCodigoContabil=CodigoContabil~!@#$CódigoContab~!@#$CódigoContab~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsContaCorrenteFixa=ContaCorrenteFixa~!@#$ContaCorrenteFixa~!@#$CuentaCorrienteFija~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsIDContaCorrenteDefault=IDContaCorrenteDefault~!@#$IDContaCorrenteOriginal~!@#$IDCuentaCorrienteOriginal~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsIDLancamentoTipo=IDLancamentoTipo~!@#$IDTipoLançamento~!@#$IDTipoContabilización~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsIDLancamentoTipoParent=IDLancamentoTipoParent~!@#$IDTipoLançamento~!@#$IDTipoContabilización~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsIDPessoaTipo=IDPessoaTipo~!@#$IDTipoPessoa~!@#$IDTipoPersona~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsLancamentoTipo=LancamentoTipo~!@#$TipoLançamento~!@#$TipoContabilización~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsPath=Path~!@#$Localização~!@#$Localización~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsPathName=PathName~!@#$NomeLocalização~!@#$NombreLocalización~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsPermitePessoaNula=PermitePessoaNula~!@#$PermitePessoaNula~!@#$PermitePersonaNula~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsPessoaFixa=PessoaFixa~!@#$PessoaFixa~!@#$PersonaFija~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsSintetico=Sintetico~!@#$Sintético~!@#$Sintético~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsSugereContaCorrente=SugereContaCorrente~!@#$SugereContaCorrente~!@#$SugiereCuentaCorriente~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsSugerePessoa=SugerePessoa~!@#$SugerePessoa~!@#$SugierePersona~!@#$
+TFinLancamentoTipoTreeFch.TblTreeViewsSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinLancamentoTipoTreeFch.bbNovoItem=New Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinLancamentoTipoTreeFch.bbNovoSubItem=New Sub Item~!@#$Novo Sub Item~!@#$Nuevo Sub Item~!@#$
+TFinLancamentoTipoTreeFch.bbRemoveItem=Remove Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinLancamentoTipoTreeFch.btPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinLancamentoTipoTreeFch.DBRadioGroup1.Items="Detailed account","Summary account"~!@#$"Detalhe Conta","Resumo Conta"~!@#$"Detalle Cuenta","Resumen Cuenta"~!@#$
+TFinLancamentoTipoTreeFch.rgTipo.Items=Credit,Debit~!@#$Crédito,Débito~!@#$Crédito,Débito~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

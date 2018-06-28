@@ -1,0 +1,3 @@
+C:\work\MainRetail_Wizard>"C:\Program Files\Borland\Delphi7\Bin\dcc32.exe" -B -U
+C:\WORK\LIBD7;C:\work\ZipDelphi7\tpabbrevia;C:\work\RepositoryD7  MainRetail_Wiz
+ard.Dpr

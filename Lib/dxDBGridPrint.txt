@@ -1,0 +1,45 @@
+object ProgressForm: TProgressForm
+  Left = 360
+  Top = 209
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Printing'
+  ClientHeight = 148
+  ClientWidth = 229
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblPagina: TLabel
+    Left = 40
+    Top = 30
+    Width = 151
+    Height = 13
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Pagina'
+  end
+  object BitBtn1: TBitBtn
+    Left = 40
+    Top = 105
+    Width = 151
+    Height = 25
+    Caption = '&Aborta Impressão '
+    TabOrder = 0
+    OnClick = BitBtn1Click
+    Kind = bkAbort
+  end
+  object pb1: TProgressBar
+    Left = 10
+    Top = 65
+    Width = 206
+    Height = 21
+    Min = 0
+    Max = 559
+    TabOrder = 1
+  end
+end

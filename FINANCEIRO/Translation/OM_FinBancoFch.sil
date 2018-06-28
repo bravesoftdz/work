@@ -1,0 +1,52 @@
+[Captions]
+TFinBancoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinBancoFch.btFchBrwDetalhe=&Detail~!@#$&Detalhes~!@#$&Detalles~!@#$
+TFinBancoFch.btFchBrwNovo=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TFinBancoFch.btFchBrwRemove=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TFinBancoFch.btFchBrwRestaura=&Restore~!@#$&Reestabelecer~!@#$&Restablecer~!@#$
+TFinBancoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinBancoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinBancoFch.grbFchBrwBancoAgencia=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinBancoFch.grbFchBrwCodigoBancoAgencia=ID~!@#$ID~!@#$ID~!@#$
+TFinBancoFch.Label1=ID :~!@#$ID :~!@#$ID :~!@#$
+TFinBancoFch.Label2=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinBancoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinBancoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegador~!@#$
+TFinBancoFch.lblPTitulo=Bank~!@#$Banco~!@#$Banco~!@#$
+TFinBancoFch.lblPTituloShadow=Bank~!@#$Banco~!@#$Banco~!@#$
+TFinBancoFch.pnlBrwTitle=  Branches~!@#$Sucursal~!@#$Sucursales~!@#$
+TFinBancoFch.TFinBancoFch=FinBancoFch~!@#$FinBancoFch~!@#$FinBancoFch~!@#$
+TFinBancoFch.tsBrowse=Agency~!@#$Agência~!@#$Agencia~!@#$
+
+[DisplayLabels]
+TFinBancoFch.quFchBrwBancoAgencia=Descrição~!@#$Descrição~!@#$Descripción~!@#$
+TFinBancoFch.quFchBrwCodigoBancoAgencia=Código~!@#$Código~!@#$Código~!@#$
+TFinBancoFch.quFchBrwIDBanco=IDBanco~!@#$IDBanco~!@#$IDBanco~!@#$
+TFinBancoFch.quFchBrwIDBancoAgencia=IDBancoAgencia~!@#$IDAgênciaBanco~!@#$IDAgenciaBanco~!@#$
+TFinBancoFch.quFormBanco=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinBancoFch.quFormCodigoBanco=ID~!@#$ID~!@#$ID~!@#$
+TFinBancoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinBancoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinBancoFch.quFormIDBanco=IDBanco~!@#$IDBanco~!@#$IDBanco~!@#$
+TFinBancoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinBancoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinBancoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinBancoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinBancoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinBancoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinBancoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinBancoFch.imgFolder=Doucle-click to show deleted~!@#$Duplo clique para mostrar os eliminados~!@#$Presione dos veces para mostrar los eliminados~!@#$
+TFinBancoFch.ImgTrash=Doucle-click to show non deleted items~!@#$Duplo clique para não mostrar os eliminados~!@#$Presione dos veces para no mostrar los eliminados~!@#$
+TFinBancoFch.Label3=Campo Obrigatório~!@#$Campo Obrigatório~!@#$Campo Obligatorio~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

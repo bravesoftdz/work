@@ -1,0 +1,64 @@
+[Captions]
+TCashRegOpen.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TCashRegOpen.btClose=OK~!@#$OK~!@#$OK~!@#$
+TCashRegOpen.btOpenCash=click here to &Open~!@#$Clique para A&brir~!@#$Presione para A&brir~!@#$
+TCashRegOpen.grpBill=Bills~!@#$Notas~!@#$Billetes~!@#$
+TCashRegOpen.grpCoin=Coins~!@#$Moedas~!@#$Monedas~!@#$
+TCashRegOpen.hhh=~!@#$~!@#$~!@#$
+TCashRegOpen.Label1=Open User ~!@#$Usuário :~!@#$Usuario :~!@#$
+TCashRegOpen.Label10=Post Dated~!@#$Pre Datado~!@#$A Fecha~!@#$
+TCashRegOpen.Label12=Total Cash~!@#$Total Caixa~!@#$Total Caja~!@#$
+TCashRegOpen.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TCashRegOpen.Label16=Checks~!@#$Cheques~!@#$Cheques~!@#$
+TCashRegOpen.Label17=Credit Cards~!@#$Crts Crédito~!@#$Trjs Crédito~!@#$
+TCashRegOpen.Label18=Other~!@#$Outros~!@#$Otros~!@#$
+TCashRegOpen.Label2=at~!@#$às~!@#$a las~!@#$
+TCashRegOpen.Label23=~!@#$~!@#$~!@#$
+TCashRegOpen.Label3=Open Cash Register~!@#$Abrir Caixa Registradora~!@#$Abrir Caja Registradora~!@#$
+TCashRegOpen.Label4=Enter the quantity for each denomination in the appropriate box.~!@#$Entrar a quantidade para cada denominação no campo apropriado~!@#$Entrar la cantidad para cada denominación en el campo adecuado~!@#$
+TCashRegOpen.Label5=Cash register is closed~!@#$Caixa Registradora está fechada~!@#$Caja Registradora está cerrada~!@#$
+TCashRegOpen.Label50=$1~!@#$$1~!@#$$1~!@#$
+TCashRegOpen.Label51=$2~!@#$$2~!@#$$2~!@#$
+TCashRegOpen.Label52=$5~!@#$$5~!@#$$5~!@#$
+TCashRegOpen.Label53=$10~!@#$$10~!@#$$10~!@#$
+TCashRegOpen.Label54=$20~!@#$$20~!@#$$20~!@#$
+TCashRegOpen.Label55=$50~!@#$$50~!@#$$50~!@#$
+TCashRegOpen.Label56=$100~!@#$$100~!@#$$100~!@#$
+TCashRegOpen.Label58=$1~!@#$$1~!@#$$1~!@#$
+TCashRegOpen.Label59=50¢~!@#$50¢~!@#$50¢~!@#$
+TCashRegOpen.Label6=To open, click the button below~!@#$Para abrir, clique o botão de abaixo~!@#$Para abrir, presione el botón de abajo~!@#$
+TCashRegOpen.Label60=25¢~!@#$25¢~!@#$25¢~!@#$
+TCashRegOpen.Label61=10¢~!@#$10¢~!@#$10¢~!@#$
+TCashRegOpen.Label62=5¢~!@#$5¢~!@#$5¢~!@#$
+TCashRegOpen.Label63=1¢~!@#$1¢~!@#$1¢~!@#$
+TCashRegOpen.Label7=Grand Total~!@#$Total Final~!@#$Total Final~!@#$
+TCashRegOpen.lbDebit=Debit Cards~!@#$Crts Débito~!@#$Trj Débito~!@#$
+TCashRegOpen.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TCashRegOpen.lblSubMenu=Open Cash Register~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TCashRegOpen.Panel1=~!@#$~!@#$~!@#$
+TCashRegOpen.Panel10=~!@#$~!@#$~!@#$
+TCashRegOpen.Panel11=Cash~!@#$Dinheiro~!@#$Efectivo~!@#$
+TCashRegOpen.Panel2=~!@#$~!@#$~!@#$
+TCashRegOpen.Panel3=~!@#$~!@#$~!@#$
+TCashRegOpen.Panel4=Panel10~!@#$Panel10~!@#$Panel10~!@#$
+TCashRegOpen.Panel5=~!@#$~!@#$~!@#$
+TCashRegOpen.Panel6=Other~!@#$Outros~!@#$Otros~!@#$
+TCashRegOpen.pnlOpenMessage=~!@#$~!@#$~!@#$
+TCashRegOpen.pnlOther=~!@#$~!@#$~!@#$
+TCashRegOpen.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TCashRegOpen.TCashRegOpen=Open Cash Register~!@#$Abrir Caixa Registradora~!@#$Abrir Caja Registradora~!@#$
+
+[Hints]
+TCashRegOpen.cmbTotalCard=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presione F2~!@#$
+TCashRegOpen.cmbTotalCheck=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presione F2~!@#$
+TCashRegOpen.cmbTotalOther=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presione F2~!@#$
+TCashRegOpen.cmbTotalPre=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presione F2~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

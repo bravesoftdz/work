@@ -1,0 +1,68 @@
+[Captions]
+TSisMain.btCloseWindows=Close all open windows~!@#$Fechar todas as telas~!@#$Cerrar todas las ventanas~!@#$
+TSisMain.btExit=Exit~!@#$Sair~!@#$Salir~!@#$
+TSisMain.btLogOff=Log off user~!@#$Fazer logoff~!@#$Fazer logoff~!@#$
+TSisMain.btnBack=Back~!@#$Voltar~!@#$Volver~!@#$
+TSisMain.btnClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TSisMain.btnEditor=Editor~!@#$Editor~!@#$Editor~!@#$
+TSisMain.btnEmail=Email~!@#$Email~!@#$Email~!@#$
+TSisMain.btnHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisMain.btnHistory=History~!@#$Histórico~!@#$Histórico~!@#$
+TSisMain.btnInternet=Internet~!@#$Internet~!@#$Internet~!@#$
+TSisMain.btnMenu=Menu~!@#$Menu~!@#$Menú~!@#$
+TSisMain.btnNext=Next~!@#$Seguinte~!@#$Siguiente~!@#$
+TSisMain.btnQuick=Info~!@#$Info~!@#$Info~!@#$
+TSisMain.btnRefresh=Refresh~!@#$Atualizar~!@#$Actualizar~!@#$
+TSisMain.dxBarSubItem1=Files~!@#$Arquivos~!@#$Archivos~!@#$
+TSisMain.Label1=Acc. Payable to Approve~!@#$Ctas.A Pagar para Aprovar~!@#$Ctas.A Pagar para Aprobar~!@#$
+TSisMain.Label14=Net Profit~!@#$Lucro Líquido~!@#$Lucro Neto~!@#$
+TSisMain.Label2=Item(s) On Hold :~!@#$Item (s) Em N.Pend :~!@#$Item (s) En B.Pend :~!@#$
+TSisMain.Label3=Acc. Receivable to Approve~!@#$Ctas.Por Recibir para Aprovar~!@#$Ctas.Por Recibir para Aprobar~!@#$
+TSisMain.Label4=Item(s) On PO :~!@#$Item (s) em OC :~!@#$Item (s) en OC :~!@#$
+TSisMain.Label6=Payments Past Due~!@#$Pagamentos Vencidos~!@#$Pagos Vencidos~!@#$
+TSisMain.Label9=Total Sales :~!@#$Total Vendas :~!@#$Total Ventas :~!@#$
+TSisMain.lblMes=Dez~!@#$Dez~!@#$Diez~!@#$
+TSisMain.TSisMain=SisMain~!@#$SisPpal~!@#$SisPpal~!@#$
+TSisMain.XPanel=XPanel~!@#$XPainel~!@#$XPanel~!@#$
+
+[DisplayLabels]
+TSisMain.quQuickInfoAccountPayableToAprove=AccountPayableToAprove~!@#$Ctas.APagarEAprovar~!@#$Ctas.APagarYAprobar~!@#$
+TSisMain.quQuickInfoAccountReceivableToAprove=AccountReceivableToAprove~!@#$Ctas.AReceberEAprovar~!@#$Ctas.ARecibirYAprobar~!@#$
+TSisMain.quQuickInfoBreakEven=BreakEven~!@#$Igualado~!@#$Igualado~!@#$
+TSisMain.quQuickInfoItemOnHand=ItemOnHand~!@#$ItemEmN.Pend~!@#$ItemEnB.Pend~!@#$
+TSisMain.quQuickInfoItemOnHold=ItemOnHold~!@#$ItemEmN.Pend~!@#$ItemEnB.Pend~!@#$
+TSisMain.quQuickInfoItemOnPO=ItemOnPO~!@#$ItemEmOC~!@#$ItemEnOC~!@#$
+TSisMain.quQuickInfoItemOnRequest=ItemOnRequest~!@#$ItemEmPedido~!@#$ItemEnPedido~!@#$
+TSisMain.quQuickInfoPastDuePayments=PastDuePayments~!@#$PagamentosVencidos~!@#$PagosVencidos~!@#$
+TSisMain.quQuickInfoTotalSale=TotalSale~!@#$TotalVendas~!@#$TotalVentas~!@#$
+
+[Hints]
+TSisMain.btCloseWindows=Close all open windows~!@#$Fechar todas as telas~!@#$Cerrar todas las ventanas~!@#$
+TSisMain.btExit=Exit~!@#$Sair~!@#$Salir~!@#$
+TSisMain.btLogOff=Log off user~!@#$Saída Usuário~!@#$Salida Usuario~!@#$
+TSisMain.btnBack=Back~!@#$Voltar~!@#$Volver~!@#$
+TSisMain.btnClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TSisMain.btnEditor=Editor~!@#$Editor~!@#$Editor~!@#$
+TSisMain.btnEmail=Email~!@#$Email~!@#$Email~!@#$
+TSisMain.btnHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisMain.btnHistory=History~!@#$Histórico~!@#$Histórico~!@#$
+TSisMain.btnInternet=Internet~!@#$Internet~!@#$Internet~!@#$
+TSisMain.btnMenu=Menu~!@#$Menú~!@#$Menú~!@#$
+TSisMain.btnNext=Next~!@#$Seguinte~!@#$Siguiente~!@#$
+TSisMain.btnQuick=Show Quick Info~!@#$Mostrar Info Rápida~!@#$Mostrar Info Rápida~!@#$
+TSisMain.btnRefresh=Refresh~!@#$Refrescar~!@#$Refrescar~!@#$
+TSisMain.Image1=Preview Total Sales~!@#$Ver Total Vendas~!@#$Ver Total Ventas~!@#$
+TSisMain.Image2=Preview Items On Hold~!@#$Ver Items Em N.Pend~!@#$Ver Items En B.Pend~!@#$
+TSisMain.Image3=Preview Items On PO~!@#$Ver Items Em OC~!@#$Ver Items En OC~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisMain.dxMainBar.Categories="Office Navigator",WebControl,MainMenu~!@#$"Navegador do Office",ControlWeb,MenúPpal~!@#$"Navegador del Office",ControlWeb,MenúPpal~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

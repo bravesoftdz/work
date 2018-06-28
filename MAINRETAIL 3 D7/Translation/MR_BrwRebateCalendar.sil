@@ -1,0 +1,47 @@
+[Captions]
+TbrwRebateCalendar.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwRebateCalendar.btClose=&Close~!@#$&Fechar~!@#$&Cierre~!@#$
+TbrwRebateCalendar.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwRebateCalendar.btDetail=F3 &Details~!@#$F3 &Detalhes~!@#$F3 &Detalles~!@#$
+TbrwRebateCalendar.btExcel=F6 &Excel~!@#$F6 &Exportar~!@#$F6 &Exportación~!@#$
+TbrwRebateCalendar.btFilter=&Show Filters~!@#$Mo&strar Filtros~!@#$Demostrar lo&s filtros~!@#$
+TbrwRebateCalendar.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwRebateCalendar.btnAllDaysOfWeek=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwRebateCalendar.btnAllStore=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwRebateCalendar.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwRebateCalendar.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwRebateCalendar.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 &Quitar~!@#$
+TbrwRebateCalendar.grdBrowseDBDaysOfWeek=Days of Week~!@#$Dias da Semana~!@#$Días de la semana~!@#$
+TbrwRebateCalendar.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwRebateCalendar.grdBrowseDBDiscountPerc=Discount Percent~!@#$Perc. de Desconto~!@#$Por ciento del descuento~!@#$
+TbrwRebateCalendar.grdBrowseDBEndDate=End Date~!@#$Data Final~!@#$Fecha del extremo~!@#$
+TbrwRebateCalendar.grdBrowseDBStartDate=Start Date~!@#$Data de Inicio~!@#$Comenzar fecha~!@#$
+TbrwRebateCalendar.grdBrowseDBStore=Store~!@#$Loja~!@#$Almacén~!@#$
+TbrwRebateCalendar.Label15=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TbrwRebateCalendar.lbDaysOfWeek=Days of Week :~!@#$Dias da Semana :~!@#$Días de la semana :~!@#$
+TbrwRebateCalendar.lbFrom=From :~!@#$De :~!@#$De :~!@#$
+TbrwRebateCalendar.lbStore=Store :~!@#$Loja :~!@#$Almacén :~!@#$
+TbrwRebateCalendar.lbTo=To :~!@#$Até :~!@#$A :~!@#$
+TbrwRebateCalendar.pnlPage=Not showing all records~!@#$Não mostrando todos os registros~!@#$No demostrando a todos expedientes~!@#$
+
+[Dialogs]
+
+[DisplayLabels]
+
+[Hints]
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TbrwRebateCalendar.cbxDayofWeek.Items=<All>,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$<Tudo>,Domingo,"Segunda Feira","Terça Feira","Quarta Feira","Quinta Feira","Sexta Feira",Sabado~!@#$<Todo>,Domingo,Lunes,Martes,Miércoles,Jueves,Viernes,Saturday~!@#$
+TbrwRebateCalendar.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TbrwRebateCalendar.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+TbrwRebateCalendar.scStore.FilterFields=~!@#$~!@#$~!@#$
+TbrwRebateCalendar.scStore.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

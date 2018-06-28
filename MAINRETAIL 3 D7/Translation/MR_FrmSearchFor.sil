@@ -1,0 +1,25 @@
+[Captions]
+TFrmSearchFor.lbCateg=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TFrmSearchFor.lbDescrip=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFrmSearchFor.lbHoriz=Horizontal :~!@#$Horizontal :~!@#$Horizontal :~!@#$
+TFrmSearchFor.lbInfo=(F2) new customer~!@#$(F2) novo cliente~!@#$(F2) nuevo cliente~!@#$
+TFrmSearchFor.lbManufect=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmSearchFor.lbModel=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmSearchFor.lbPromotion=Promotion :~!@#$Promoção :~!@#$Promoción :~!@#$
+TFrmSearchFor.lbSalePrice=Sale price :~!@#$Prç Venda :~!@#$Prc Venta :~!@#$
+TFrmSearchFor.lbSearchName=(F3) Search Name~!@#$(F3) Procurar Nome~!@#$(F3) Buscar Nombre~!@#$
+TFrmSearchFor.lbSearchPhone=(F4) Search Phone~!@#$(F4) Procurar Tel~!@#$(F4) Buscar Tel~!@#$
+TFrmSearchFor.lbSubGroup=Sub Group :~!@#$Sub Grupo :~!@#$Sub Grupo :~!@#$
+TFrmSearchFor.lbUnidade=Measure :~!@#$Unidade :~!@#$Medida :~!@#$
+TFrmSearchFor.lbVertic=Verical :~!@#$Vertical :~!@#$Vertical :~!@#$
+TFrmSearchFor.lblIdent=Identification~!@#$Identificação~!@#$Identificacion~!@#$
+TFrmSearchFor.lblHelp=(F1) Help~!@#$(F1) Ajuda~!@#$(F1) Ayuda~!@#$
+TFrmSearchFor.TFrmSearchFor=Search for~!@#$Procurar~!@#$Procura~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

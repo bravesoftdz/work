@@ -1,0 +1,97 @@
+[Captions]
+TFchTouristGroup.btAddCost=Add &Cost~!@#$Incluir &Despesas~!@#$Agregar &Gastos~!@#$
+TFchTouristGroup.btAddGift=Add &Gift~!@#$Incluir &Brinde~!@#$Agregar &Regalo~!@#$
+TFchTouristGroup.btAddRoute=&Add Route~!@#$Incluir Trajeto~!@#$&Agregar Ruta~!@#$
+TFchTouristGroup.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchTouristGroup.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchTouristGroup.btDetail=&Details~!@#$De&talhe~!@#$De&talle~!@#$
+TFchTouristGroup.btRemove=&Remove~!@#$R&emover~!@#$R&emover~!@#$
+TFchTouristGroup.cbDesconta=Deduct Agency Commission from Agent~!@#$Descontar Comissão da Agência do Agente~!@#$Descontar Comisión de Agencia del Agente~!@#$
+TFchTouristGroup.grdExpensesCostDate=Date~!@#$Data~!@#$Fecha~!@#$
+TFchTouristGroup.grdExpensesCostType=Outside Agent/Agency~!@#$Agente/Agência Externa~!@#$Agente/Agencia Externa~!@#$
+TFchTouristGroup.grdExpensesCustoTotal=Total Cost~!@#$Custo Total~!@#$Costo Total~!@#$
+TFchTouristGroup.grdExpensesIDCost=IDCost~!@#$IDCusto~!@#$IDCosto~!@#$
+TFchTouristGroup.grdExpensesIDCostType=IDCostType~!@#$IDTipoCusto~!@#$IDTipoCosto~!@#$
+TFchTouristGroup.grdExpensesIDTouristGroup=IDTouristGroup~!@#$IDGrupoTurismo~!@#$IDGrupoTurismo~!@#$
+TFchTouristGroup.grdGiftDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchTouristGroup.grdGiftIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchTouristGroup.grdGiftModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchTouristGroup.grdGiftQuantity=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFchTouristGroup.grdGiftSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFchTouristGroup.Label1=Location :~!@#$Lugar~!@#$Ubicación~!@#$
+TFchTouristGroup.Label11=Out after :~!@#$Eliminar depois :~!@#$Eliminar Después :~!@#$
+TFchTouristGroup.Label13=TIP Agent :~!@#$Dica Agente :~!@#$Info Agente :~!@#$
+TFchTouristGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchTouristGroup.Label17=Program Date and Time~!@#$Programar Data e Hora~!@#$Programar Fecha y Hora~!@#$
+TFchTouristGroup.Label18=days .~!@#$dias.~!@#$días.~!@#$
+TFchTouristGroup.Label19=TIP Group :~!@#$Dica Grupo : ~!@#$Info Grupo :~!@#$
+TFchTouristGroup.Label2=# of People :~!@#$Nº de Pessoas :~!@#$Nº de Personas :~!@#$
+TFchTouristGroup.Label20=Agency Commission :~!@#$Comissão Agência :~!@#$Comisión Agencia :~!@#$
+TFchTouristGroup.Label21=Commission~!@#$Comissão~!@#$Comisión~!@#$
+TFchTouristGroup.Label3=Real Agent :~!@#$Agente Real :~!@#$Agente Real :~!@#$
+TFchTouristGroup.Label4=ID Group :~!@#$ID Grupo :~!@#$ID Grupo :~!@#$
+TFchTouristGroup.Label5=Show on date :~!@#$Mostrar na Data :~!@#$Mostrar en Fecha :~!@#$
+TFchTouristGroup.Label7=Agency :~!@#$Agência :~!@#$Agencia :~!@#$
+TFchTouristGroup.Label8=at time :~!@#$No Horario :~!@#$En el Horario :~!@#$
+TFchTouristGroup.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchTouristGroup.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchTouristGroup.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchTouristGroup.rbStatus=Status~!@#$Status~!@#$Estado~!@#$
+TFchTouristGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchTouristGroup.TabSheet1=Group Expenses~!@#$Despesas~!@#$Gastos~!@#$
+TFchTouristGroup.TabSheet2=Gifts for this Group~!@#$Presentes para este Grupo~!@#$Regalos para este Grupo~!@#$
+TFchTouristGroup.TFchTouristGroup=Agency Group~!@#$Grupo de Agência~!@#$Grupo de Agencia~!@#$
+TFchTouristGroup.tsProgramacao=Program, Commission~!@#$Programa,Comissão~!@#$Programa,Comisión~!@#$
+
+[DisplayLabels]
+TFchTouristGroup.quCostCostDate=Date~!@#$Data~!@#$Fecha~!@#$
+TFchTouristGroup.quCostCostType=Tour Guide/Travel Agency~!@#$Agente/Agência~!@#$Agente/Agencia~!@#$
+TFchTouristGroup.quCostCustoTotal=Total Cost~!@#$CustoTotal~!@#$CostoTotal~!@#$
+TFchTouristGroup.quCostGiftDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchTouristGroup.quCostGiftIDGroupCost=IDGroupCost~!@#$IDCustoGrupo~!@#$IDCostoGrupo~!@#$
+TFchTouristGroup.quCostGiftIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchTouristGroup.quCostGiftModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchTouristGroup.quCostGiftQuantity=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFchTouristGroup.quCostGiftSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFchTouristGroup.quCostIDCost=IDCost~!@#$IDCusto~!@#$IDCosto~!@#$
+TFchTouristGroup.quCostIDCostType=IDCostType~!@#$IDTipoCusto~!@#$IDTipoCosto~!@#$
+TFchTouristGroup.quCostIDTouristGroup=IDTouristGroup~!@#$IDGrupoTurismo~!@#$IDGrupoTurismo~!@#$
+TFchTouristGroup.quFormComissaoSobreGuia=Agency Coodenation~!@#$Agência Coordenação~!@#$Agencia Coordinación~!@#$
+TFchTouristGroup.quFormDescontaCoordenacao=Discount Agency Coodernation~!@#$Desconto Agência Coordenação~!@#$Descuento Agencia Coordenación~!@#$
+TFchTouristGroup.quFormDiasValidade=DiasValidade~!@#$DíasValidade~!@#$DíasVálidos~!@#$
+TFchTouristGroup.quFormEnterDate=EnterDate~!@#$EntrarData~!@#$EntrarFecha~!@#$
+TFchTouristGroup.quFormIDAgency=Agency~!@#$Agência~!@#$Agencia~!@#$
+TFchTouristGroup.quFormIDGuide=Agent~!@#$Agente~!@#$Agente~!@#$
+TFchTouristGroup.quFormIDHotel=Hotel~!@#$Hotel~!@#$Hotel~!@#$
+TFchTouristGroup.quFormIDLancPagAgencia=IDLancPagAgencia~!@#$IDLançPagAgência~!@#$IDContabPagAgencia~!@#$
+TFchTouristGroup.quFormIDLancPagGuia=IDLancPagGuia~!@#$IDLançPagGuia~!@#$IDContabPagGuía~!@#$
+TFchTouristGroup.quFormIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFchTouristGroup.quFormIDTouristGroup=IDTouristGroup~!@#$IDGrupoTurismo~!@#$IDGrupoTurismo~!@#$
+TFchTouristGroup.quFormIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TFchTouristGroup.quFormNumTourist=# of People~!@#$Nº de Pessoas~!@#$Nº de Personas~!@#$
+TFchTouristGroup.quFormPermanente=Permanente~!@#$Permanente~!@#$Permanente~!@#$
+TFchTouristGroup.quFormTipAgency=Tip Agency~!@#$Dica Agência~!@#$Info Agencia~!@#$
+TFchTouristGroup.quFormTipGuide=Tip Agent~!@#$Dica Agente~!@#$Info Agente~!@#$
+TFchTouristGroup.quFormTipTouristGroup=TipTouristGroup~!@#$DicaGrupoTurismo~!@#$InfoGrupoTurismo~!@#$
+
+[Hints]
+TFchTouristGroup.btDetail=Altera o número de passageiros ou o custo da rota~!@#$Altera o número de passageiros ou o custo do trajeto.~!@#$Altera el número de pasajeros o el costo de la ruta.~!@#$
+TFchTouristGroup.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchTouristGroup.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchTouristGroup.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchTouristGroup.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchTouristGroup.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchTouristGroup.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+TFchTouristGroup.rbStatus=Temporary will not calculate commisions for this Tour Guide~!@#$Temporalmente não calcular comissão para este Guía.~!@#$Temporalmente no calcular comisión para este Guía.~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFchTouristGroup.rbStatus.Items=Temporary,Confirmed~!@#$Temporário,Confirmado~!@#$Temporario,Confirmado~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

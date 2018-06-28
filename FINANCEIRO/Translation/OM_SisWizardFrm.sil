@@ -1,0 +1,93 @@
+[Captions]
+TSisWizardFrm.btDeleteLine=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TSisWizardFrm.btnBack=<< &Back~!@#$<< &Voltar~!@#$<< &Volver~!@#$
+TSisWizardFrm.btnClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TSisWizardFrm.btnHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisWizardFrm.btnNext=Ne&xt >>~!@#$Se&guinte >>~!@#$Si&guiente >>~!@#$
+TSisWizardFrm.dxDBCGrid1Amount=Amount~!@#$Valor~!@#$Monto~!@#$
+TSisWizardFrm.dxDBCGrid1Category=Category~!@#$Categoria~!@#$Categoría~!@#$
+TSisWizardFrm.dxDBCGrid1IDRecord=IDRecord~!@#$IDRegistro~!@#$IDRegistro~!@#$
+TSisWizardFrm.dxDBCGrid1IDRecordParent=IDRecordParent~!@#$IDRegistro~!@#$IDRegistro~!@#$
+TSisWizardFrm.dxDBCGrid1Memo=Memo~!@#$Memo~!@#$Memo~!@#$
+TSisWizardFrm.dxDBCGrid1NumDoc=Num~!@#$Número~!@#$Número~!@#$
+TSisWizardFrm.dxDBCGrid1PaidWith=Payment~!@#$Pagamento~!@#$Pago~!@#$
+TSisWizardFrm.dxDBCGrid1Payee=Payee~!@#$Benefiaciário~!@#$Beneficiario~!@#$
+TSisWizardFrm.dxDBCGrid1Reconciled=Reconciled~!@#$Reconciliado~!@#$Reconciliado~!@#$
+TSisWizardFrm.dxDBCGrid1RecordDate=Date~!@#$Data~!@#$Fecha~!@#$
+TSisWizardFrm.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisWizardFrm.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisWizardFrm.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisWizardFrm.GroupBox1=What period do you want to select the transactions ?~!@#$Qual período da transação deseja selecionar ?~!@#$Cuál período de la transacción desea seleccionar  ?~!@#$
+TSisWizardFrm.Label1=From~!@#$Desde~!@#$Desde~!@#$
+TSisWizardFrm.Label10=Transactions history to be exported. Right-click with the mouse button to delete a transaction line.~!@#$Histórico de Transações para ser exportado. Clique com o botão direito do mouse para eliminar alguma linha.~!@#$Histórico de Transacciones para ser exportado. Presione a la derecha del mouse para eliminar alguna línea más.~!@#$
+TSisWizardFrm.Label11=From what bank account do you want to select the trasactions? ~!@#$Desde qual conta bancária será feita a transação ?~!@#$Desde cual cuenta bancaria será hecha la transacción ?~!@#$
+TSisWizardFrm.Label12=File~!@#$Arquivo~!@#$Archivo~!@#$
+TSisWizardFrm.Label13=Select a destination file.~!@#$Selecione o destino do arquivo.~!@#$Seleccione el destino del archivo~!@#$
+TSisWizardFrm.Label14=What type of trasaction will be created for this bank account?~!@#$Qual tipo de transação será criada para esta conta bancária ?~!@#$Cuál tipo de transacción será creada para esta cuenta bancaria ?~!@#$
+TSisWizardFrm.Label15=Type~!@#$Tipo~!@#$Tipo~!@#$
+TSisWizardFrm.Label16=Where do you want to create the data file ? ~!@#$Onde deseja criar o arquivo de dados?~!@#$Dónde desea crear el archivo de datos?~!@#$
+TSisWizardFrm.Label17=Exporting Expense and Income category list is optional. However, it is recommended to export them. It will help you to organize categories when you inport the file.~!@#$Exportar a categoria de Despesa e Renda é opcional. No entanto é recomendável pois ajudará a organizar categorias quando importar o arquivo.~!@#$Exportar la categoría de Gastos e Ingresos es opcional. Se recomienda hacerlo pues facilitará a organizar las categorías cuando importe el archivo.~!@#$
+TSisWizardFrm.Label18=Software~!@#$Software~!@#$Software~!@#$
+TSisWizardFrm.Label19=Select a software that you want to export the data.~!@#$Selecione o software que deseja para exportar os dados.~!@#$Seleccione el software que desea para exportar los datos.~!@#$
+TSisWizardFrm.Label2=To~!@#$Até~!@#$Hasta~!@#$
+TSisWizardFrm.Label20=List of software available.~!@#$Lista de softwares disponíveis.~!@#$Lista de softwares disponibles.~!@#$
+TSisWizardFrm.Label21=Choose a software.~!@#$Escolher um software.~!@#$Escoger un software.~!@#$
+TSisWizardFrm.Label28=Office Manager export Wizard~!@#$Assistente para exportar do Office Manager~!@#$Office Manager exporta Wizard~!@#$
+TSisWizardFrm.Label29=You have completed the required steps of your Office Manager export. Review your information below. Click << &Back to correct any data.~!@#$Você completou os passos requeridos do seu Office Manager.Verifique a informação abaixo. Clique << Voltar para corregir qualquer dado.~!@#$Usted completó los pasos requeridos de su Office Manager. Verifique los datos. Presione <<Volver para cambiar algún dato. ~!@#$
+TSisWizardFrm.Label3=Bank Account~!@#$Conta Bancária~!@#$Cuenta Bancaria~!@#$
+TSisWizardFrm.Label36=This wizard helps you export data from Office Manager to file.  In this wizard you will follow the steps below:~!@#$Este assistente ajuda a exportar dados do Office Manager para arquivo. Seguir as seguintes instruções :  ~!@#$Este wizard ayuda a exportar datos desde el O.Manager para el archivo. Siga las siguientes instrucciones :~!@#$
+TSisWizardFrm.Label37=Completing the Office Manager Wizard~!@#$Terminando o Assistente do Office Manager.~!@#$Terminando el Office Manager Wizard.~!@#$
+TSisWizardFrm.Label4=Select the bank account that will be exported to a file.~!@#$Selecione a conta bancária que será exportada para arquivo.~!@#$Seleccione la cuenta bancaria que será exportada al archivo.~!@#$
+TSisWizardFrm.Label5=Bank Account~!@#$Conta Bancária~!@#$Cuenta Bancaria~!@#$
+TSisWizardFrm.Label6=Category~!@#$Categoria~!@#$Categoría~!@#$
+TSisWizardFrm.Label7=Display the categories lines that will be saved to a file. You can update and delete categories. Changes will not update the system information.~!@#$Mostrar as linhas das categorias que serão salvas em arquivo. Pode atualizar e eliminar categorias. As mudanças não afetarão a informação do sistema.~!@#$Mostrar las líneas de las categorías que serán guardadas en el archivo. Puede actualizar y eliminar categorías. Los cambios no afectarán la información del sistema. ~!@#$
+TSisWizardFrm.Label8=Transactions list.~!@#$Lista de Transações.~!@#$Lista de Transacciones.~!@#$
+TSisWizardFrm.Label9=Transactions~!@#$Transações~!@#$Transacciones~!@#$
+TSisWizardFrm.lbDirOption=Path~!@#$Localização~!@#$Localización~!@#$
+TSisWizardFrm.lbLabel=Income/Expeses~!@#$Rendas/Despesas~!@#$Ingresos/Gastos~!@#$
+TSisWizardFrm.lblProgress=Label~!@#$Etiqueta~!@#$Etiqueta~!@#$
+TSisWizardFrm.lblTopic2=Choose a bank account and transaction.~!@#$Escolher uma conta de banco e transação.~!@#$Escoger una cuenta de banco y la transacción.~!@#$
+TSisWizardFrm.lblTopic3=Choose categories.~!@#$Escolher categoria.~!@#$Escoger categoría.~!@#$
+TSisWizardFrm.lblTopic4=Specify a file.~!@#$Especificar o arquivo.~!@#$Especificar el archivo.~!@#$
+TSisWizardFrm.lbSoftware=The data will exported to ~!@#$Os dados serão exportados para~!@#$Los datos serán exportados para~!@#$
+TSisWizardFrm.sbRefreshList=List records~!@#$Lista de Registros~!@#$Lista de Registros~!@#$
+TSisWizardFrm.SpeedButton1=Import categories~!@#$Importar Categ.~!@#$Importar Categ.~!@#$
+TSisWizardFrm.SpeedButton3=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TSisWizardFrm.SpeedButton4=Clear Lines~!@#$Limpar Linhas~!@#$Limpiar Líneas~!@#$
+TSisWizardFrm.TSisWizardFrm=SisWizardFrm~!@#$SisWizardFrm~!@#$SisWizardFrm~!@#$
+
+[DisplayLabels]
+TSisWizardFrm.quPreRecordsAmount=Amount~!@#$Quantía~!@#$Monto~!@#$
+TSisWizardFrm.quPreRecordsContaCorrentDebit=ContaCorrentDebit~!@#$DébitoCtaCorrente~!@#$DébitoCtaCorriente~!@#$
+TSisWizardFrm.quPreRecordsContaCorrenteCredit=ContaCorrenteCredit~!@#$CréditoCtaCorrente~!@#$CréditoCtaCorriente~!@#$
+TSisWizardFrm.quPreRecordsDataReconciliacao=DataReconciliacao~!@#$DataReconciliação~!@#$FechaReconciliación~!@#$
+TSisWizardFrm.quPreRecordsDocMumber=DocMumber~!@#$NúmeroDoc~!@#$NúmeroDoc~!@#$
+TSisWizardFrm.quPreRecordsIDQuitacao=IDQuitacao~!@#$IDPago~!@#$IDPago~!@#$
+TSisWizardFrm.quPreRecordsIDTransferencia=IDTransferencia~!@#$IDTransferencia~!@#$IDTransferencia~!@#$
+TSisWizardFrm.quPreRecordsMeioPag=MeioPag~!@#$MeioPag~!@#$MedioPago~!@#$
+TSisWizardFrm.quPreRecordsMemo=Memo~!@#$Memo~!@#$Memo~!@#$
+TSisWizardFrm.quPreRecordsPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TSisWizardFrm.quPreRecordsPayee=Payee~!@#$Beneficiário~!@#$Beneficiario~!@#$
+TSisWizardFrm.quPreRecordsRecordDate=RecordDate~!@#$DataRegistrada~!@#$FechaRegistrada~!@#$
+TSisWizardFrm.quPreRecordsTipo=Tipo~!@#$Tipo~!@#$Tipo~!@#$
+TSisWizardFrm.quRecordsAmount=Amount~!@#$Quantía~!@#$Monto~!@#$
+TSisWizardFrm.quRecordsCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TSisWizardFrm.quRecordsIDRecord=IDRecord~!@#$IDRegistro~!@#$IDRegistro~!@#$
+TSisWizardFrm.quRecordsIDRecordParent=IDRecordParent~!@#$IDRegistro~!@#$IDRegistro~!@#$
+TSisWizardFrm.quRecordsMemo=Memo~!@#$Memo~!@#$Memo~!@#$
+TSisWizardFrm.quRecordsNumDoc=NumDoc~!@#$NúmDoc~!@#$NúmDoc~!@#$
+TSisWizardFrm.quRecordsPaidWith=PaidWith~!@#$PagoCom~!@#$PagadoCon~!@#$
+TSisWizardFrm.quRecordsPayee=Payee~!@#$Beneficiário~!@#$Beneficiario~!@#$
+TSisWizardFrm.quRecordsPaymentType=PaymentType~!@#$TipoPagamento~!@#$TipoPago~!@#$
+TSisWizardFrm.quRecordsReconciled=Reconciled~!@#$Reconciliado~!@#$Reconciliado~!@#$
+TSisWizardFrm.quRecordsRecordDate=RecordDate~!@#$RegistrarData~!@#$RegistrarFecha~!@#$
+TSisWizardFrm.quRecordsRecordType=RecordType~!@#$TipoRegistro~!@#$TipoRegistro~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

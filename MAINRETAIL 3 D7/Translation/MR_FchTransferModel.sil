@@ -1,0 +1,101 @@
+[Captions]
+TFchTransferModel.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TFchTransferModel.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchTransferModel.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchTransferModel.btColumn=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFchTransferModel.btDetail=F3 &Details ~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TFchTransferModel.btExcel=F6 Spreadsheet~!@#$F6 Exportar~!@#$F6 Exportar~!@#$
+TFchTransferModel.btGroup=&Grouping~!@#$&Agrupar~!@#$&Agrupar~!@#$
+TFchTransferModel.btnImport=Import~!@#$Importar~!@#$Importar~!@#$
+TFchTransferModel.btnPrintBarcode=Print &Barcode~!@#$Imprimir C&B~!@#$Imprimir C&B~!@#$
+TFchTransferModel.btPreview=F5 &Preview~!@#$F5&Visualizar~!@#$F5&Visualizar~!@#$
+TFchTransferModel.btRemove=F4 Re&move~!@#$F4 &Eliminar~!@#$F4 &Eliminar~!@#$
+TFchTransferModel.grdBrowseDBCaseQty=Case Qty~!@#$Embalagem~!@#$Embalaje ~!@#$
+TFchTransferModel.grdBrowseDBCostPrice=Transfer Cost~!@#$Custo Transfer.~!@#$Custo Transfer.~!@#$
+TFchTransferModel.grdBrowseDBDateLastCost=LastPurchDate~!@#$Última Data Compra~!@#$UltimaFechaCompra~!@#$
+TFchTransferModel.grdBrowseDBDateLastSellingPrice=LastPriceAdjmnt~!@#$Último Ajuste Prç~!@#$UltimoAjustePrecio~!@#$
+TFchTransferModel.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchTransferModel.grdBrowseDBFinalCost=NetCost~!@#$Custo~!@#$CostoNeto~!@#$
+TFchTransferModel.grdBrowseDBFreightCost=Freight~!@#$Frete~!@#$Flete~!@#$
+TFchTransferModel.grdBrowseDBIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchTransferModel.grdBrowseDBIDModelTransfDet=IDModelTransfDet~!@#$IDModeloTransfDet~!@#$IDModeloTransfDet~!@#$
+TFchTransferModel.grdBrowseDBLastCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TFchTransferModel.grdBrowseDBManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFchTransferModel.grdBrowseDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchTransferModel.grdBrowseDBOtherCost=OtherExp~!@#$Outras Despesas~!@#$OtrosGastos~!@#$
+TFchTransferModel.grdBrowseDBQtyOnHand=QtyOnHand~!@#$Qtd Em Loja~!@#$CtdExistente~!@#$
+TFchTransferModel.grdBrowseDBQtyTransfer=TransferQty~!@#$Qtd Transferida~!@#$CtdTransferida~!@#$
+TFchTransferModel.grdBrowseDBSellingPrice=Our Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFchTransferModel.grdBrowseDBSuggRetail=MSRP~!@#$Preço Sugerido~!@#$Precio Sugerido~!@#$
+TFchTransferModel.grdBrowseDBTotalCost=Transfer Total~!@#$Total Transfer.~!@#$Total Transfer.~!@#$
+TFchTransferModel.grdBrowseDBTotalFinalCost=Ext NetCost~!@#$Total~!@#$ExtCostoNeto~!@#$
+TFchTransferModel.grdBrowseDBTotalLastCost=ExtendedCost~!@#$Extender Custo~!@#$ExtenderCosto~!@#$
+TFchTransferModel.grdBrowseDBTotalSellingPrice=Ext OurPrice~!@#$Ext Prç Venda ~!@#$ExtPrecioVenta~!@#$
+TFchTransferModel.grdBrowseDBTotalSuggRetail=Ext MSRP~!@#$Ext Prç Sug.~!@#$ExtPrecioSug~!@#$
+TFchTransferModel.grdBrowseDBVendorCost=VendorCost~!@#$Custo Fornec.~!@#$CostoProveedor~!@#$
+TFchTransferModel.grdBrowseDBUseLot=Lot Control~!@#$Usa Lote~!@#$Usa Lote~!@#$
+TFchTransferModel.grdBrowseDBLot=Lot~!@#$Lote~!@#$Lote~!@#$
+TFchTransferModel.Label1=Change for the correct name~!@#$Item para Transferir~!@#$Item Para Transferir~!@#$
+TFchTransferModel.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchTransferModel.Label2=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFchTransferModel.Label3=FROM :~!@#$DESDE :~!@#$DESDE :~!@#$
+TFchTransferModel.Label4=TO :~!@#$PARA :~!@#$PARA :~!@#$
+TFchTransferModel.Label5=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFchTransferModel.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchTransferModel.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchTransferModel.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchTransferModel.lbNumber=Number :~!@#$Número :~!@#$Número :~!@#$
+TFchTransferModel.menuAdd=Add~!@#$Adicionar~!@#$Adicionar~!@#$
+TFchTransferModel.menuQuickEntry=Quick Entry~!@#$Entrada rápida~!@#$Entrada rápida~!@#$
+TFchTransferModel.pnlsdjhfksdhfjksdhf=~!@#$~!@#$~!@#$
+TFchTransferModel.rbType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFchTransferModel.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchTransferModel.lbOBS=Notes :~!@#$OBS :~!@#$OBS :~!@#$
+
+[DisplayLabels]
+TFchTransferModel.quBrowseDateLastCost=DateLastCost~!@#$Data Último Custo~!@#$FechaUltimoCosto~!@#$
+TFchTransferModel.quBrowseDateLastSellingPrice=DateLastSellingPrice~!@#$Data Último Prç Venda~!@#$FechaUltimoPrecioDeVenta~!@#$
+TFchTransferModel.quBrowseDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchTransferModel.quBrowseFinalCost=FinalCost~!@#$CustoFinal~!@#$CostoFinal~!@#$
+TFchTransferModel.quBrowseFreightCost=FreightCost~!@#$Custo Frete~!@#$CostoFlete~!@#$
+TFchTransferModel.quBrowseIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFchTransferModel.quBrowseIDModelTransfDet=IDModelTransfDet~!@#$IDModeloTransfDet~!@#$IDModeloTransfDet~!@#$
+TFchTransferModel.quBrowseLastCost=LastCost~!@#$Último Custo~!@#$UltimoCosto~!@#$
+TFchTransferModel.quBrowseModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchTransferModel.quBrowseOtherCost=OtherCost~!@#$OutroCusto ~!@#$OtroCosto~!@#$
+TFchTransferModel.quBrowseQtyOnHand=QtyOnHand~!@#$Qtd Na Loja~!@#$CtdExistente~!@#$
+TFchTransferModel.quBrowseQtyTransfer=QtyTransfer~!@#$Qtd A Transferir~!@#$CtdATransferir~!@#$
+TFchTransferModel.quBrowseSellingPrice=SellingPrice~!@#$Prç Venda~!@#$PrecioDeVenta~!@#$
+TFchTransferModel.quBrowseSuggRetail=SuggRetail~!@#$Preço Sug.~!@#$PrecioSug~!@#$
+TFchTransferModel.quBrowseTotalFinalCost=TotalFinalCost~!@#$Total Custo Final~!@#$TotalCostoFinal~!@#$
+TFchTransferModel.quBrowseTotalLastCost=TotalLastCost~!@#$Total Último Custo~!@#$TotalUltimoCosto~!@#$
+TFchTransferModel.quBrowseTotalSellingPrice=TotalSellingPrice~!@#$Total Prç Venda~!@#$TotalPrecioVenta~!@#$
+TFchTransferModel.quBrowseTotalSuggRetail=TotalSuggRetail~!@#$Total Prç Sug.~!@#$TotalPrecioSug~!@#$
+TFchTransferModel.quBrowseVendorCost=VendorCost~!@#$Custo Fornecedor~!@#$CostoProveedor~!@#$
+TFchTransferModel.quFormData=Data~!@#$Data~!@#$Fecha~!@#$
+TFchTransferModel.quFormIDLojaDestino=IDLojaDestino~!@#$IDLojaDestino~!@#$IDTiendaDestino~!@#$
+TFchTransferModel.quFormIDLojaOrigem=IDLojaOrigem~!@#$IDLojaOrigem~!@#$IDLojaOrigen~!@#$
+TFchTransferModel.quFormIDModelTransf=IDModelTransf~!@#$IDModeloTransf~!@#$IDModeloTransf~!@#$
+TFchTransferModel.quFormIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+
+[Hints]
+TFchTransferModel.btExcel=Export grid to Spreadsheet~!@#$Exportar rede à Planilha~!@#$Exportar red a Planilla~!@#$
+TFchTransferModel.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchTransferModel.btGroup=~!@#$~!@#$~!@#$
+TFchTransferModel.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchTransferModel.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchTransferModel.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchTransferModel.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchTransferModel.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFchTransferModel.rbType.Items=OUT,IN~!@#$Saída,Entrada~!@#$Salida,Entrada~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

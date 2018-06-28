@@ -1,0 +1,58 @@
+[Captions]
+TFchMargem.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregue~!@#$
+TFchMargem.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchMargem.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchMargem.btColumn=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFchMargem.btDetail=F3 &Details ~!@#$F3 &Detalhes~!@#$F3 &Detalhes~!@#$
+TFchMargem.btExcel=F6 Spreadsheet~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TFchMargem.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TFchMargem.btLoopInc=~!@#$~!@#$~!@#$
+TFchMargem.btPreview=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TFchMargem.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TFchMargem.EEE=~!@#$~!@#$~!@#$
+TFchMargem.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchMargem.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchMargem.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchMargem.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchMargem.grdBrowseDBMaxValue=MaxValue~!@#$Valor Máximo ~!@#$Valor Máximo ~!@#$
+TFchMargem.grdBrowseDBMinValue=MinValue~!@#$Valor Mínimo ~!@#$Valor Mínimo ~!@#$
+TFchMargem.grdBrowseDBPercentage=Percentage~!@#$Porcentagem~!@#$Porcentaje~!@#$
+TFchMargem.grdBrowseLevel=~!@#$~!@#$~!@#$
+TFchMargem.gridPrinterLink=New Report~!@#$Novo Relatório~!@#$Nuevo Informe~!@#$
+TFchMargem.hhh=~!@#$~!@#$~!@#$
+TFchMargem.Label1=Bands of Margin~!@#$Faixas da Margem~!@#$Bands del Porcentaje~!@#$
+TFchMargem.Label15=User:~!@#$Usuário~!@#$Usuário~!@#$
+TFchMargem.lblModified=Edit Mode~!@#$Modo de Edição~!@#$Corrija el Modo~!@#$
+TFchMargem.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menu Principal~!@#$
+TFchMargem.lbRoundName=Margin Name :~!@#$Nome da Margem : ~!@#$Nombre de Margem:~!@#$
+TFchMargem.Panel1=~!@#$~!@#$~!@#$
+TFchMargem.Panel2=~!@#$~!@#$~!@#$
+TFchMargem.Panel3=~!@#$~!@#$~!@#$
+TFchMargem.Panel4=~!@#$~!@#$~!@#$
+TFchMargem.Panel6=~!@#$~!@#$~!@#$
+TFchMargem.Panel8=~!@#$~!@#$~!@#$
+TFchMargem.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchMargem.pnlComand=~!@#$~!@#$~!@#$
+TFchMargem.pnlDetail=~!@#$~!@#$~!@#$
+TFchMargem.pnlKey=~!@#$~!@#$~!@#$
+TFchMargem.pnlNavigation=~!@#$~!@#$~!@#$
+TFchMargem.pnlsdjhfksdhfjksdhf=~!@#$~!@#$~!@#$
+TFchMargem.spHelp=&Help~!@#$A&juda ~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TFchMargem.quBrowseIDMargemTable=IDMarginTable~!@#$ID~!@#$ID~!@#$
+TFchMargem.quBrowseIDMargemTableRange=IDMarginTableRange~!@#$IDRange~!@#$IDRange~!@#$
+TFchMargem.quBrowseMaxValue=MaxValue~!@#$Valor Máximo~!@#$Valor Máximo~!@#$
+TFchMargem.quBrowseMinValue=MinValue~!@#$Valor Mínimo~!@#$Valor Mínimo~!@#$
+TFchMargem.quBrowsePercentage=Percentage~!@#$Porcentagem~!@#$Porcentaje~!@#$
+TFchMargem.quFormIDMargemTable=IDMarginTable~!@#$ID~!@#$ID~!@#$
+TFchMargem.quFormMargemTable=Margin Name~!@#$Nome da Margem~!@#$Nombre Margem~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

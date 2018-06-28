@@ -1,0 +1,22 @@
+[Captions]
+TFrmTransferImport.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmTransferImport.btnImport=&Import~!@#$&Importar~!@#$%Importar~!@#$
+TFrmTransferImport.grdTransferDBCostPrice=CostPrice~!@#$Custo~!@#$Costo~!@#$
+TFrmTransferImport.grdTransferDBCostTotal=CostTotal~!@#$Custo Total~!@#$Total~!@#$
+TFrmTransferImport.grdTransferDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmTransferImport.grdTransferDBIDModel=IDModel~!@#$~!@#$~!@#$
+TFrmTransferImport.grdTransferDBIDModelTransf=IDModelTransf~!@#$~!@#$~!@#$
+TFrmTransferImport.grdTransferDBIDModelTransfDet=IDModelTransfDet~!@#$~!@#$~!@#$
+TFrmTransferImport.grdTransferDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmTransferImport.grdTransferDBQtyTransfer=QtyTransfer~!@#$Qtd~!@#$Ctd~!@#$
+TFrmTransferImport.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmTransferImport.TFrmTransferImport=FrmTransferImport~!@#$Importar Transfer~!@#$Importar Transfer~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

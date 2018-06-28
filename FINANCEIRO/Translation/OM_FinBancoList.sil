@@ -1,0 +1,123 @@
+[Captions]
+TFinBancoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinBancoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinBancoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinBancoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinBancoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinBancoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinBancoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinBancoList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinBancoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinBancoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinBancoList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinBancoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinBancoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinBancoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinBancoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinBancoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinBancoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinBancoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinBancoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinBancoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinBancoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinBancoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinBancoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinBancoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinBancoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinBancoList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinBancoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinBancoList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinBancoList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinBancoList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinBancoList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinBancoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinBancoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinBancoList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinBancoList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TFinBancoList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TFinBancoList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TFinBancoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinBancoList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinBancoList.brwGridBanco=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinBancoList.brwGridCodigoBanco=ID~!@#$ID~!@#$ID~!@#$
+TFinBancoList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinBancoList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinBancoList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinBancoList.cbxStatus=~!@#$~!@#$~!@#$
+TFinBancoList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TFinBancoList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinBancoList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinBancoList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinBancoList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinBancoList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinBancoList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinBancoList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinBancoList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinBancoList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinBancoList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinBancoList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinBancoList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinBancoList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinBancoList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinBancoList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinBancoList.TFinBancoList=Bancos~!@#$Bancos~!@#$Bancos~!@#$
+TFinBancoList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TFinBancoList.quBrowseBanco=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinBancoList.quBrowseCodigoBanco=ID~!@#$ID~!@#$ID~!@#$
+TFinBancoList.quBrowseIDBanco=IDBanco~!@#$IDBanco~!@#$IDBanco~!@#$
+
+[Hints]
+TFinBancoList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinBancoList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinBancoList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinBancoList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinBancoList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinBancoList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinBancoList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinBancoList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinBancoList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinBancoList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinBancoList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinBancoList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinBancoList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinBancoList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinBancoList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinBancoList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinBancoList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinBancoList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinBancoList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinBancoList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinBancoList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinBancoList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinBancoList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinBancoList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinBancoList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinBancoList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinBancoList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinBancoList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinBancoList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinBancoList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinBancoList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinBancoList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinBancoList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinBancoList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinBancoList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TFinBancoList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TFinBancoList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TFinBancoList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinBancoList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinBancoList.brwGrid=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinBancoList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

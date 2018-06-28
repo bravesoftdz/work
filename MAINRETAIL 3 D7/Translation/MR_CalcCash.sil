@@ -1,0 +1,41 @@
+[Captions]
+TCalcCash.btClose=&OK~!@#$&OK~!@#$&OK~!@#$
+TCalcCash.Button1=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TCalcCash.EspacamentoDireito=~!@#$~!@#$~!@#$
+TCalcCash.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TCalcCash.EspacamentoInferior=~!@#$~!@#$~!@#$
+TCalcCash.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TCalcCash.grpBill=Bills~!@#$Notas~!@#$Billetes~!@#$
+TCalcCash.grpCoin=Coins~!@#$Moedas~!@#$Monedas~!@#$
+TCalcCash.hhh=~!@#$~!@#$~!@#$
+TCalcCash.Label12=Sub Total ~!@#$SubTotal~!@#$SubTotal~!@#$
+TCalcCash.Label50=$1~!@#$$1~!@#$$1~!@#$
+TCalcCash.Label51=$2~!@#$$2~!@#$$2~!@#$
+TCalcCash.Label52=$5~!@#$$5~!@#$$5~!@#$
+TCalcCash.Label53=$10~!@#$$10~!@#$$10~!@#$
+TCalcCash.Label54=$20~!@#$$20~!@#$$20~!@#$
+TCalcCash.Label55=$50~!@#$$50~!@#$$50~!@#$
+TCalcCash.Label56=$100~!@#$$100~!@#$$100~!@#$
+TCalcCash.Label58=$1~!@#$$1~!@#$$1~!@#$
+TCalcCash.Label59=50¢~!@#$50¢~!@#$50¢~!@#$
+TCalcCash.Label60=25¢~!@#$25¢~!@#$25¢~!@#$
+TCalcCash.Label61=10¢~!@#$10¢~!@#$10¢~!@#$
+TCalcCash.Label62=5¢~!@#$5¢~!@#$5¢~!@#$
+TCalcCash.Label63=1¢~!@#$1¢~!@#$1¢~!@#$
+TCalcCash.Panel1=~!@#$~!@#$~!@#$
+TCalcCash.Panel10=~!@#$~!@#$~!@#$
+TCalcCash.Panel11=Cash~!@#$Dinheiro~!@#$Efectivo~!@#$
+TCalcCash.Panel3=~!@#$~!@#$~!@#$
+TCalcCash.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TCalcCash.TCalcCash=Count Cash~!@#$Contar o Caixa~!@#$Contar la Caja~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

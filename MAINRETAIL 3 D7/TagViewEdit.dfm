@@ -1,0 +1,569 @@
+inherited frmTagViewEdit: TfrmTagViewEdit
+  Left = 434
+  Top = 242
+  BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
+  BorderStyle = bsSingle
+  Caption = 'Tag'
+  ClientHeight = 484
+  ClientWidth = 945
+  PixelsPerInch = 96
+  TextHeight = 16
+  inherited Panel2: TPanel
+    Width = 945
+    inherited Image1: TImage
+      Width = 671
+    end
+    inherited lblSubMenu: TLabelEffect
+      Top = 3
+      Width = 175
+      Caption = 'Tag Maintenance'
+    end
+    inherited lblMenu: TLabel
+      Left = 684
+      Caption = 'Inventory'
+    end
+    inherited EspacamentoSuperior: TPanel
+      Width = 945
+      inherited EEE: TPanel
+        Width = 945
+      end
+    end
+    inherited pnlAutoInc: TPanel
+      Left = 898
+    end
+  end
+  inherited Panel1: TPanel
+    Top = 443
+    Width = 945
+    inherited EspacamentoInferior: TPanel
+      Width = 945
+      inherited Panel3: TPanel
+        Width = 945
+      end
+    end
+    inherited hhh: TPanel
+      Left = 724
+      inherited btCancel: TButton
+        Caption = 'Save'
+      end
+      inherited btClose: TButton
+        Visible = False
+      end
+    end
+    object btActive: TButton
+      Left = 266
+      Top = 15
+      Width = 75
+      Height = 21
+      Caption = 'Activate'
+      TabOrder = 3
+      OnClick = btActiveClick
+    end
+    object btDeactivate: TButton
+      Left = 347
+      Top = 14
+      Width = 75
+      Height = 22
+      Caption = 'Deactivate'
+      TabOrder = 4
+      OnClick = btDeactivateClick
+    end
+  end
+  inherited pnlKey: TPanel
+    Width = 945
+    object Label1: TLabel [0]
+      Left = 7
+      Top = 10
+      Width = 59
+      Height = 13
+      Caption = 'Tag Name:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited Panel4: TPanel
+      Width = 945
+    end
+    object edtTag: TEdit
+      Left = 75
+      Top = 8
+      Width = 186
+      Height = 24
+      TabOrder = 1
+    end
+  end
+  inherited pnlDetail: TPanel
+    Width = 939
+    Height = 363
+    object Splitter1: TSplitter
+      Left = 267
+      Top = 0
+      Width = 0
+      Height = 363
+    end
+    object Panel5: TPanel
+      Left = 0
+      Top = 0
+      Width = 267
+      Height = 363
+      Align = alLeft
+      TabOrder = 0
+      object grdTag: TcxGrid
+        Left = 1
+        Top = 1
+        Width = 172
+        Height = 361
+        Align = alLeft
+        TabOrder = 0
+        LookAndFeel.Kind = lfFlat
+        object grdTagDB: TcxGridDBTableView
+          DataController.DataSource = dsTagPriceBreak
+          DataController.Filter.Criteria = {FFFFFFFF0000000000}
+          DataController.Summary.DefaultGroupSummaryItems = <>
+          DataController.Summary.FooterSummaryItems = <>
+          DataController.Summary.SummaryGroups = <>
+          Filtering.MaxDropDownCount = 50
+          Filtering.Visible = fvNever
+          OptionsBehavior.IncSearch = True
+          OptionsData.Deleting = False
+          OptionsData.DeletingConfirmation = False
+          OptionsData.Editing = False
+          OptionsData.Inserting = False
+          OptionsSelection.CellSelect = False
+          OptionsView.CellEndEllipsis = True
+          OptionsView.ColumnAutoWidth = True
+          OptionsView.Footer = True
+          OptionsView.GridLines = glHorizontal
+          OptionsView.GroupByBox = False
+          OptionsView.HeaderAutoHeight = True
+          OptionsView.HeaderEndEllipsis = True
+          Preview.AutoHeight = False
+          Preview.MaxLineCount = 2
+          object grdTagDBDBColumn1: TcxGridDBColumn
+            Caption = 'Qty'
+            DataBinding.FieldName = 'minQuantity'
+          end
+          object grdTagDBDBColumn2: TcxGridDBColumn
+            Caption = 'Price Break %'
+            DataBinding.FieldName = 'Discount'
+            PropertiesClassName = 'TcxCurrencyEditProperties'
+            Properties.DisplayFormat = '0.00;-0.00'
+            SortOrder = soAscending
+          end
+        end
+        object grdTagLevel: TcxGridLevel
+          GridView = grdTagDB
+        end
+      end
+      object Panel9: TPanel
+        Left = 175
+        Top = 1
+        Width = 91
+        Height = 361
+        Align = alRight
+        TabOrder = 1
+        object addPriceBreak: TSpeedButton
+          Left = 2
+          Top = -3
+          Width = 86
+          Height = 24
+          Caption = 'Add'
+          Flat = True
+          Glyph.Data = {
+            F6000000424DF600000000000000760000002800000010000000100000000100
+            04000000000080000000C40E0000C40E00001000000000000000000000000000
+            8000008000000080800080000000800080008080000080808000C0C0C0000000
+            FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00DDDDDDDDDDDD
+            DDDDDDDDDDDDDDDDDDDDDD00000000000DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF
+            0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF
+            0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF0DDDDD0FFFFFF0000DDDDD0FFFFFF0F0
+            DDDDDD0FFFFFF00DDDDDDD00000000DDDDDDDDDDDDDDDDDDDDDD}
+          Margin = 3
+          Spacing = 5
+          OnClick = addPriceBreakClick
+        end
+        object spbRemove: TSpeedButton
+          Tag = 2
+          Left = 3
+          Top = 28
+          Width = 85
+          Height = 24
+          Caption = 'Remove'
+          Flat = True
+          Glyph.Data = {
+            A2070000424DA207000000000000360000002800000019000000190000000100
+            1800000000006C070000C40E0000C40E00000000000000000000FFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2959F7FFFFFFFFFFFFFFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE
+            0030DEFFFFFFFFFFFF00FFFFFFFFFFFF0030DE0030DE0030DEFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFF0030DE0030DE0030DEFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0030DE00
+            30DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFF
+            FF00FFFFFFFFFFFF0030DE0030DE0030DE0030DE0030DEFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE0030DEFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE
+            0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6382F70030
+            DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFF0030DE0030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFF6382F70030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE0030
+            DE0030DEFFFFFFFFFFFFFFFFFF2959F70030DE0030DE0030DEFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFF0030DE0030DE0030DEFFFFFF2959F70030DE0030DE00
+            30DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0034FF00
+            30DE0030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFF0030DE0030DE0034FF0030DEFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0034FF0030DE0030DE0034FF
+            6382F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0034FF
+            0030DE0034FF2959F70034FF0030DE6382F7FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFF0034FF0034FF0030DE0034FFFFFFFFFFFFFFFFFFFF0034FF0034FF6382
+            F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFF0034FF0030DE0034FF0034FFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFF0034FF0034FF6382F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0034FF0034FF0034FF0034
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2959F70034FF6382F7FF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFF0034
+            FF0034FF0034FF0034FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF4271FF0034FF4271FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF
+            FFFFFFFFFFFFFF0034FF0034FF0034FF0034FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9CAAEF0034FFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0034FF0034FF0034FF0034FFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0034FF00
+            34FF0034FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            FFFFFFFFFF00}
+          Margin = 3
+          Spacing = 5
+          OnClick = spbRemoveClick
+        end
+      end
+    end
+    object Panel6: TPanel
+      Left = 267
+      Top = 0
+      Width = 672
+      Height = 363
+      Align = alClient
+      TabOrder = 1
+      object Panel7: TPanel
+        Left = 1
+        Top = 1
+        Width = 560
+        Height = 361
+        Align = alClient
+        Caption = 'Panel7'
+        TabOrder = 0
+        object grdBrowse: TcxGrid
+          Left = 1
+          Top = 1
+          Width = 558
+          Height = 359
+          Align = alClient
+          TabOrder = 0
+          LookAndFeel.Kind = lfFlat
+          object grdBrowseDB: TcxGridDBTableView
+            DataController.DataSource = dsTagModel
+            DataController.Filter.Criteria = {FFFFFFFF0000000000}
+            DataController.Summary.DefaultGroupSummaryItems = <>
+            DataController.Summary.FooterSummaryItems = <
+              item
+                Format = '#,##0.00'
+                Kind = skSum
+                FieldName = 'SellingPrice'
+                Column = grdBrowseDBDBColumn6
+              end>
+            DataController.Summary.SummaryGroups = <>
+            Filtering.MaxDropDownCount = 50
+            Filtering.Visible = fvNever
+            OptionsBehavior.IncSearch = True
+            OptionsData.Deleting = False
+            OptionsData.DeletingConfirmation = False
+            OptionsData.Editing = False
+            OptionsData.Inserting = False
+            OptionsSelection.CellSelect = False
+            OptionsSelection.MultiSelect = True
+            OptionsView.CellEndEllipsis = True
+            OptionsView.ColumnAutoWidth = True
+            OptionsView.Footer = True
+            OptionsView.GridLines = glHorizontal
+            OptionsView.GroupByBox = False
+            OptionsView.HeaderAutoHeight = True
+            OptionsView.HeaderEndEllipsis = True
+            Preview.AutoHeight = False
+            Preview.MaxLineCount = 2
+            object grdBrowseDBDBColumn9: TcxGridDBColumn
+              DataBinding.FieldName = 'Active'
+              PropertiesClassName = 'TcxCheckBoxProperties'
+              Properties.DisplayUnchecked = 'False'
+            end
+            object grdBrowseDBDBColumn3: TcxGridDBColumn
+              Caption = 'Model'
+              DataBinding.FieldName = 'model'
+              Width = 240
+            end
+            object grdBrowseDBDBColumn4: TcxGridDBColumn
+              Caption = 'Description'
+              DataBinding.FieldName = 'description'
+              Width = 241
+            end
+            object grdBrowseDBDBColumn5: TcxGridDBColumn
+              DataBinding.FieldName = 'IdModel'
+              Visible = False
+            end
+            object grdBrowseDBDBColumn6: TcxGridDBColumn
+              DataBinding.FieldName = 'SellingPrice'
+              PropertiesClassName = 'TcxCurrencyEditProperties'
+              Properties.DisplayFormat = '0.00;-0.00'
+              Visible = False
+            end
+            object grdBrowseDBDBColumn7: TcxGridDBColumn
+              DataBinding.FieldName = 'Category'
+              Visible = False
+            end
+            object grdBrowseDBDBColumn1: TcxGridDBColumn
+              Caption = 'SubCategory'
+              DataBinding.FieldName = 'Subcategory'
+              Visible = False
+              SortOrder = soAscending
+            end
+            object grdBrowseDBDBColumn2: TcxGridDBColumn
+              Caption = 'Manufacturer'
+              DataBinding.FieldName = 'Pessoa'
+              Visible = False
+            end
+            object grdBrowseDBDBColumn8: TcxGridDBColumn
+              DataBinding.FieldName = 'Group'
+              Visible = False
+            end
+          end
+          object grdBrowseLevel: TcxGridLevel
+            GridView = grdBrowseDB
+          end
+        end
+      end
+      object Panel8: TPanel
+        Left = 561
+        Top = 1
+        Width = 110
+        Height = 361
+        Align = alRight
+        Caption = 'Panel8'
+        TabOrder = 1
+        object pnlComand: TPanel
+          Left = 2
+          Top = 1
+          Width = 107
+          Height = 359
+          Align = alRight
+          BevelOuter = bvNone
+          Color = 14607076
+          TabOrder = 0
+          object btAdd: TSpeedButton
+            Left = 2
+            Top = 1
+            Width = 101
+            Height = 24
+            Caption = 'F2 Add'
+            Flat = True
+            Glyph.Data = {
+              F6000000424DF600000000000000760000002800000010000000100000000100
+              04000000000080000000C40E0000C40E00001000000000000000000000000000
+              8000008000000080800080000000800080008080000080808000C0C0C0000000
+              FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00DDDDDDDDDDDD
+              DDDDDDDDDDDDDDDDDDDDDD00000000000DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF
+              0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF
+              0DDDDD0FFFFFFFFF0DDDDD0FFFFFFFFF0DDDDD0FFFFFF0000DDDDD0FFFFFF0F0
+              DDDDDD0FFFFFF00DDDDDDD00000000DDDDDDDDDDDDDDDDDDDDDD}
+            Margin = 3
+            Spacing = 5
+            OnClick = btAddClick
+          end
+          object btRemove: TSpeedButton
+            Tag = 2
+            Left = 3
+            Top = 27
+            Width = 102
+            Height = 24
+            Caption = 'F4 Remove'
+            Flat = True
+            Glyph.Data = {
+              A2070000424DA207000000000000360000002800000019000000190000000100
+              1800000000006C070000C40E0000C40E00000000000000000000FFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2959F7FFFFFFFFFFFFFFFFFF00FFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE
+              0030DEFFFFFFFFFFFF00FFFFFFFFFFFF0030DE0030DE0030DEFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFF0030DE0030DE0030DEFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0030DE00
+              30DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFF
+              FF00FFFFFFFFFFFF0030DE0030DE0030DE0030DE0030DEFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE0030DEFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE
+              0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6382F70030
+              DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFF0030DE0030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFF6382F70030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0030DE0030
+              DE0030DEFFFFFFFFFFFFFFFFFF2959F70030DE0030DE0030DEFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFF0030DE0030DE0030DEFFFFFF2959F70030DE0030DE00
+              30DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0034FF00
+              30DE0030DE0030DE0030DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFF0030DE0030DE0034FF0030DEFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0034FF0030DE0030DE0034FF
+              6382F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0030DE0034FF
+              0030DE0034FF2959F70034FF0030DE6382F7FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFF0034FF0034FF0030DE0034FFFFFFFFFFFFFFFFFFFF0034FF0034FF6382
+              F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFF0034FF0030DE0034FF0034FFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFF0034FF0034FF6382F7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0034FF0034FF0034FF0034
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2959F70034FF6382F7FF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFF0034
+              FF0034FF0034FF0034FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFF4271FF0034FF4271FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF
+              FFFFFFFFFFFFFF0034FF0034FF0034FF0034FFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9CAAEF0034FFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0034FF0034FF0034FF0034FFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0034FF00
+              34FF0034FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFF00}
+            Margin = 3
+            Spacing = 5
+            OnClick = btRemoveClick
+          end
+          object btColumn: TSpeedButton
+            Tag = 4
+            Left = 2
+            Top = 59
+            Width = 103
+            Height = 24
+            AllowAllUp = True
+            GroupIndex = 1235
+            Caption = 'Columns'
+            Flat = True
+            Glyph.Data = {
+              12040000424D1204000000000000360000002800000011000000130000000100
+              180000000000DC03000000000000000000000000000000000000FF00FFFF00FF
+              FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00
+              FFFF00FFFF00FFFF00FFFF00FF00D07622993401993401993401993401993401
+              9934019934019934019934019934019934019934019934019934019934018080
+              8000D07622FFFFFFF8E1D7FDF4F0FFFFFFFEFCFBFAF3EEF8EFE8F7EDE6F7EDE6
+              F7EDE6F8EFE9FDFAF9FFFFFF9D39039C380380808000D07622FFFFFFF6D5C7FB
+              EEE9FFFFFFFEFCFBF9F1ECF7EDE6F7EDE6F7EDE6F8EEE7F8EFE9FDFAF9FFFFFF
+              A23E0696958080808000D07622FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE
+              FDFCFDFAF9FCF9F7FDFAF9FFFFFFFFFFFFFFFFFFA74509A4551F80808000D076
+              22FFFFFF87F0F4FFFFFFFFFFFFFCF9F7F5E9E0F4E7DDF4E7DDF5E9E0F7ECE5F9
+              F2EDFCF8F6FFFFFFB55510B5561180808000D07622FFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBD5D14A6
+              9E7C80808000D07622FFFFFFFE0102FFFFFFFFFFFFF6E9E1F1DFD2F2E1D5F5E7
+              DEF7ECE5FAF3EEFDFBFAFFFFFFFFFFFFC36618A4B29680808000D07622FFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFCA6E1BCA6E1B80808000D0762257C9FF57C9FF57C9FF57C9FF57C9FF
+              57C9FF57C9FF57C9FF57C9FF57C9FF2CBCFF49C5FFC6EDFFD0751FD0751F8080
+              8000D07622BEEBFFBEEBFFC6EDFFC6EDFFC6EDFFC6EDFFC6EDFFC6EDFFC6EDFF
+              C6ECFDC6EDFFFFFFFFFFFFFFD77D23AFBA9580808000D07622B8F3FEA6F0FEEC
+              FCFFFFFFFFFFFEFEF6EBE3F6ECE4F5E8DFF9F1ECFDFBFAFFFFFFFFFFFFFFFFFF
+              DE8527D0964980808000D07622F4FDFFCDF7FFFFFFFFFFFFFFFFFFFFFCF7F5FC
+              F8F6FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE58D2BE58D2B80808000D076
+              22E8F6E891D491F4FBF3FFFFFFF3E3D8F3E3D9F3E3D9F6EAE2F6EAE2F9F1EBFF
+              FFFFFFFFFFFFFFFFEB952EC5BA8180808000D07622DBF1DB67C466FCFEFCFFFF
+              FFFBF6F2FBF5F1FBF6F2FCF8F6FCF8F5FDFAF9FFFFFFFFFFFFFFFFFFF19C32BB
+              CA9D80808000D07622FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+              FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEF9C32E2A85180808000D07622D07622
+              4666B73C78C2A77254E38B2DE28A2DE08A2DE08A2EE18B2FE28C2DE28E2DE28C
+              2DE38D2EE58F2EE38F2D80808000D07622DD86293B92CA4694BEA47862E08A2C
+              E0882CE0892DE0892CDF892DE0892EE08A2DDF892CE0892CE08A2DDE882CFF00
+              FF00FF00FFF8A436DF8729E38B2AEC9732F5A035F49E35F39E35F29D34F19D34
+              F09C34EF9B33EF9A32F09B32F09B33FF00FFFF00FF00}
+            Margin = 3
+            Spacing = 5
+            OnClick = btColumnClick
+          end
+          object Bevel1: TBevel
+            Left = -4
+            Top = 55
+            Width = 112
+            Height = 2
+          end
+        end
+      end
+    end
+  end
+  inherited EspacamentoEsquerdo: TPanel
+    Height = 363
+  end
+  inherited EspacamentoDireito: TPanel
+    Left = 942
+    Height = 363
+  end
+  inherited siLang: TsiLangRT
+    Left = 544
+    Top = 41
+  end
+  inherited dsForm: TDataSource
+    Left = 436
+    Top = 41
+  end
+  inherited quForm: TPowerADOQuery
+    Left = 486
+    Top = 42
+  end
+  inherited FormConfig: TFormConfig
+    Left = 391
+    Top = 39
+  end
+  object dsTagPriceBreak: TDataSource
+    Left = 38
+    Top = 140
+  end
+  object dsTagModel: TDataSource
+    Left = 323
+    Top = 126
+  end
+end

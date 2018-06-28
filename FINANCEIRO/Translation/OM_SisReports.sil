@@ -1,0 +1,117 @@
+[Captions]
+TSisReports.barFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisReports.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TSisReports.btnAll=All~!@#$Tudo~!@#$Todo~!@#$
+TSisReports.btnAppendFilters=Append Filter(s)~!@#$Anexar Filtro (s)~!@#$Añadir Filtro (s)~!@#$
+TSisReports.btnCopy=Copy as~!@#$Copiar como~!@#$Copiar como~!@#$
+TSisReports.btnDelFilters=Delete Filter(s)~!@#$Eliminar Filtro (s)~!@#$Eliminar Filtro (s)~!@#$
+TSisReports.btnEdit=Edit~!@#$Editar~!@#$Editar~!@#$
+TSisReports.btnFirst=First~!@#$Primeiro~!@#$Primero~!@#$
+TSisReports.btnFull=Full~!@#$Cheio~!@#$Lleno~!@#$
+TSisReports.btnLast=Last~!@#$Ultimo~!@#$Ultimo~!@#$
+TSisReports.btnNew=New~!@#$Novo~!@#$Nuevo~!@#$
+TSisReports.btnNext=Next~!@#$Seguinte~!@#$Siguiente~!@#$
+TSisReports.btnOpen=Open~!@#$Abrir~!@#$Abrir~!@#$
+TSisReports.btnPrint=Print~!@#$Imprimir ~!@#$Imprimir~!@#$
+TSisReports.btnPrior=Prior~!@#$Prévio~!@#$Anterior~!@#$
+TSisReports.btnRemove=Remove~!@#$Remover~!@#$Remover~!@#$
+TSisReports.btnSave=Save~!@#$Salvar~!@#$Guardar~!@#$
+TSisReports.btnSaveFilters=Save Filter(s)~!@#$Salvar Filtro (s)~!@#$Guardar Filtro (s)~!@#$
+TSisReports.btnStopPrint=Stop Printing~!@#$Parar de Imprimir~!@#$Parar de Imprimir~!@#$
+TSisReports.btnWidth=Width~!@#$Largura~!@#$Ancho~!@#$
+TSisReports.dxDBGrid1Name=Report Name~!@#$Nome Relatório~!@#$Nombre Informe~!@#$
+TSisReports.edtPagNum=Page Number~!@#$Número Página~!@#$Número Página~!@#$
+TSisReports.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisReports.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisReports.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisReports.gridRepItemType=T~!@#$T~!@#$T~!@#$
+TSisReports.Label1=Report :~!@#$Relatório :~!@#$Informe :~!@#$
+TSisReports.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisReports.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisReports.lblTitulo=Report Title~!@#$Título Relatório~!@#$Título Informe~!@#$
+TSisReports.lblUsuarioData=User and Date~!@#$Usuário e Data~!@#$Usuario y Fecha~!@#$
+TSisReports.mmFiltro=mmFiltro~!@#$mmFiltro~!@#$mmFiltro~!@#$
+TSisReports.Panel4=~!@#$~!@#$~!@#$
+TSisReports.pnlAviso=~!@#$~!@#$~!@#$
+TSisReports.pnlBasicFilter=~!@#$~!@#$~!@#$
+TSisReports.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisReports.pnlExecuta=~!@#$~!@#$~!@#$
+TSisReports.pnlFields=~!@#$~!@#$~!@#$
+TSisReports.ppDesigner=Application Network - Dynamic Reports~!@#$Applications Network - Relatórios Dinâmicos~!@#$Applications Network - Informes Dinámicos~!@#$
+TSisReports.ppLabel10= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel12= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel13= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel14= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel17= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel18= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel19= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel2= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel20= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel21= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel22=User~!@#$Usuário~!@#$Usuario~!@#$
+TSisReports.ppLabel3= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel4=Report Title~!@#$Título Relatório~!@#$Título Informe~!@#$
+TSisReports.ppLabel5= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel6= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel7= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel8= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppLabel9= Label2~!@#$ Label2~!@#$ Label2~!@#$
+TSisReports.ppMemo1=mmFiltro~!@#$mmFiltro~!@#$mmFiltro~!@#$
+TSisReports.TSisReports=SisReports~!@#$SisRelatórios~!@#$SisInformes~!@#$
+
+[DisplayLabels]
+TSisReports.quFieldAutoSearch=AutoSearch~!@#$AutoProcura~!@#$AutoBúsqueda~!@#$
+TSisReports.quFieldDataType=DataType~!@#$TipoData~!@#$TipoFecha~!@#$
+TSisReports.quFieldFieldAlias=FieldAlias~!@#$PseudônimoCampo~!@#$AliasCampo~!@#$
+TSisReports.quFieldFieldName=FieldName~!@#$NomeCampo~!@#$NombreCampo~!@#$
+TSisReports.quFieldMandatory=Mandatory~!@#$Obrigatório~!@#$Obligatorio~!@#$
+TSisReports.quFieldSearchable=Searchable~!@#$A ser Procurado~!@#$A ser Buscado~!@#$
+TSisReports.quFieldSelectable=Selectable~!@#$A ser Selecionado~!@#$A ser Seleccionado~!@#$
+TSisReports.quFieldSortable=Sortable~!@#$A ser Classificado~!@#$A ser clasificado~!@#$
+TSisReports.quFieldTableName=TableName~!@#$NomeTabela~!@#$NombreTabla~!@#$
+TSisReports.quJoinFieldNames1=FieldNames1~!@#$NomeCampo1~!@#$NomeCampo1~!@#$
+TSisReports.quJoinFieldNames2=FieldNames2~!@#$NomeCampo2~!@#$NombreCampo2~!@#$
+TSisReports.quJoinJoinType=JoinType~!@#$Tipo União~!@#$Tipo Unión~!@#$
+TSisReports.quJoinOperators=Operators~!@#$Operador~!@#$Operador~!@#$
+TSisReports.quJoinTableName1=TableName1~!@#$NomeTabela1~!@#$NombreTabla1~!@#$
+TSisReports.quJoinTableName2=TableName2~!@#$NomeTabela2~!@#$NombreTabla2~!@#$
+TSisReports.quReportFilters=Filters~!@#$Filtros~!@#$Filtros~!@#$
+TSisReports.quReportFolderID=FolderID~!@#$PastaID~!@#$CarpetaID~!@#$
+TSisReports.quReportItemID=ItemID~!@#$ItemID~!@#$ItemID~!@#$
+TSisReports.quReportItemType=ItemType~!@#$Tipo Item~!@#$Tipo Item~!@#$
+TSisReports.quReportName=Name~!@#$Nome~!@#$Nombre~!@#$
+TSisReports.quSelectedReportFolderID=FolderID~!@#$PastaID~!@#$CarpetaID~!@#$
+TSisReports.quSelectedReportName=Name~!@#$Nome~!@#$Nombre~!@#$
+TSisReports.quSelectedReportTemplate=Template~!@#$Modelo~!@#$Modelo~!@#$
+TSisReports.quTableTableAlias=TableAlias~!@#$PseudônimoTabela~!@#$AliasTabla~!@#$
+TSisReports.quTableTableName=TableName~!@#$NomeTabela~!@#$NombreTabla~!@#$
+
+[Hints]
+TSisReports.btnAll=All~!@#$Tudo~!@#$Todo~!@#$
+TSisReports.btnAppendFilters=Append Filter(s)~!@#$Anexar Filtro (s)~!@#$Añadir Filtro (s)~!@#$
+TSisReports.btnCopy=Copy as~!@#$Copiar como~!@#$Copiar como~!@#$
+TSisReports.btnDelFilters=~!@#$~!@#$~!@#$
+TSisReports.btnEdit=Edit~!@#$Editar~!@#$Editar~!@#$
+TSisReports.btnFirst=First~!@#$Primeiro~!@#$Primero~!@#$
+TSisReports.btnFull=Full~!@#$Cheio~!@#$Lleno~!@#$
+TSisReports.btnLast=Last~!@#$Ultimo~!@#$Ultimo~!@#$
+TSisReports.btnNew=New~!@#$Novo~!@#$Nuevo~!@#$
+TSisReports.btnNext=Next~!@#$Seguinte ~!@#$Siguiente~!@#$
+TSisReports.btnOpen=Open~!@#$Abrir~!@#$Abrir~!@#$
+TSisReports.btnPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TSisReports.btnPrior=Prior~!@#$Prévio~!@#$Anterior~!@#$
+TSisReports.btnRemove=Remove~!@#$Remover~!@#$Remover~!@#$
+TSisReports.btnSave=Save~!@#$Salvar~!@#$Guardar~!@#$
+TSisReports.btnSaveFilters=~!@#$~!@#$~!@#$
+TSisReports.btnStopPrint=Stop Printing~!@#$Parar de Imprimir~!@#$Parar de Imprimir~!@#$
+TSisReports.btnWidth=Width~!@#$Largura~!@#$Ancho~!@#$
+TSisReports.edtPagNum=Page Number~!@#$Número Página~!@#$Número Página~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

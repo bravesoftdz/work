@@ -1,0 +1,24 @@
+[Captions]
+TFrmLicenseKey.btClose=&Validate~!@#$&Validar~!@#$&Valide~!@#$
+TFrmLicenseKey.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmLicenseKey.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmLicenseKey.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmLicenseKey.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmLicenseKey.hhh=~!@#$~!@#$~!@#$
+TFrmLicenseKey.Label1=Number : ~!@#$Número :~!@#$Número :~!@#$
+TFrmLicenseKey.Label2=Key : ~!@#$Chave :~!@#$Llave :~!@#$
+TFrmLicenseKey.Label3=Please enter Main Retail license key~!@#$Por favor entre com Main Retail chave~!@#$Entre por favor llave de licencia~!@#$
+TFrmLicenseKey.Label4=Contact us for more information ~!@#$Telefone para Main Retail para mais informação~!@#$Contáctenos para más información~!@#$
+TFrmLicenseKey.Panel1=~!@#$~!@#$~!@#$
+TFrmLicenseKey.Panel3=~!@#$~!@#$~!@#$
+TFrmLicenseKey.sbHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmLicenseKey.TFrmLicenseKey=Key validation~!@#$Validar chave~!@#$validación llave~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

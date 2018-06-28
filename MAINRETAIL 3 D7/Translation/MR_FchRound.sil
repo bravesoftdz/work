@@ -1,0 +1,69 @@
+[Captions]
+TFchRound.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregue~!@#$
+TFchRound.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchRound.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchRound.btColumn=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFchRound.btDetail=F3 &Details ~!@#$F3 &Detalhes~!@#$F3 &Detalles~!@#$
+TFchRound.btExcel=F6 &Spreadsheet~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TFchRound.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TFchRound.btLoopInc=~!@#$~!@#$~!@#$
+TFchRound.btPreview=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TFchRound.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TFchRound.EEE=~!@#$~!@#$~!@#$
+TFchRound.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchRound.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchRound.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchRound.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchRound.grdBrowseDBMaxValue=MaxValue~!@#$Valor Máximo ~!@#$Valor Maximo ~!@#$
+TFchRound.grdBrowseDBMinValue=MinValue~!@#$Valor Mínimo~!@#$Valor Mínimo ~!@#$
+TFchRound.grdBrowseDBRoundType=RoundType~!@#$Tipo~!@#$Tipo~!@#$
+TFchRound.grdBrowseDBRoundTypeName=RoundType~!@#$Tipo~!@#$Tipo~!@#$
+TFchRound.grdBrowseDBRoundValues=RoundValues~!@#$Valor do Arredondamento~!@#$Valor do Redondo~!@#$
+TFchRound.grdBrowseLevel=~!@#$~!@#$~!@#$
+TFchRound.gridPrinterLink=New Report~!@#$Novo Relatório~!@#$Nuevo Informe~!@#$
+TFchRound.hhh=~!@#$~!@#$~!@#$
+TFchRound.Label1=Bands of Arrendondamento~!@#$Faixas de Arrendondamento~!@#$Vendas de Arrendondamento~!@#$
+TFchRound.Label15=User:~!@#$Usuário~!@#$Usuário~!@#$
+TFchRound.Label2=RoundingTable :~!@#$Tabela de Arredondamento~!@#$Table de Redondos~!@#$
+TFchRound.lblModified=Edit Mode~!@#$Modo de Edição~!@#$Corrija el Modo~!@#$
+TFchRound.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menu Principal~!@#$
+TFchRound.lbRoundName=Round Name :~!@#$Nome do Arredondamento:~!@#$Nombre do Redondo:~!@#$
+TFchRound.Panel1=~!@#$~!@#$~!@#$
+TFchRound.Panel2=~!@#$~!@#$~!@#$
+TFchRound.Panel3=~!@#$~!@#$~!@#$
+TFchRound.Panel4=~!@#$~!@#$~!@#$
+TFchRound.Panel6=~!@#$~!@#$~!@#$
+TFchRound.Panel8=~!@#$~!@#$~!@#$
+TFchRound.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchRound.pnlComand=~!@#$~!@#$~!@#$
+TFchRound.pnlDetail=~!@#$~!@#$~!@#$
+TFchRound.pnlKey=~!@#$~!@#$~!@#$
+TFchRound.pnlNavigation=~!@#$~!@#$~!@#$
+TFchRound.pnlsdjhfksdhfjksdhf=~!@#$~!@#$~!@#$
+TFchRound.spHelp=&Help~!@#$A&juda ~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TFchRound.quBrowseIDRoundingTableRange=IDRoundingTableRange~!@#$ID Escala da Tabela de Arredondamento~!@#$ID  Escala Da Tabela Arredondando~!@#$
+TFchRound.quBrowseMaxValue=MaxValue~!@#$Valor Máximo~!@#$Valor Máximo~!@#$
+TFchRound.quBrowseMinValue=MinValue~!@#$Valor Mínimo~!@#$Valor Mínimo~!@#$
+TFchRound.quBrowseRoundType=RoundType~!@#$Tipo de Arredondamento~!@#$Tipo de Redondos~!@#$
+TFchRound.quBrowseRoundValues=RoundValues~!@#$Valores Arredondados~!@#$Valores Redondos~!@#$
+TFchRound.quFormIDRoundingTable=IDRoundingTable~!@#$ID Tabela de Arredondamento~!@#$ID tabla de Redondos~!@#$
+TFchRound.quFormRoundingTable=Round Name~!@#$Nome do Arredon.~!@#$Nombre Redondos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFchRound.FormConfig.RequiredFields=~!@#$~!@#$~!@#$
+TFchRound.FormConfig.UniqueFields=~!@#$~!@#$~!@#$
+TFchRound.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TFchRound.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+TFchRound.quForm.FilterFields=~!@#$~!@#$~!@#$
+TFchRound.quForm.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

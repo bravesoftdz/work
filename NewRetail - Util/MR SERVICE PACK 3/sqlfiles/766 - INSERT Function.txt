@@ -1,0 +1,83 @@
+INSERT INTO SysFunction (IDSysFunction, IDMenu, IDSubMenu, SysFunction)
+VALUES (76, 9, 4, 'Can remove products ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (76, 1, 'Can remove products ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (76, 2, 'Pode remover produtos ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (76, 3, '¿Puede remover el products?')
+GO
+
+UPDATE UserTypeToSysFunction
+SET Acesso = 1
+WHERE IDSysFunction = 76 AND IDUserType = 1
+GO
+
+INSERT INTO SysFunction (IDSysFunction, IDMenu, IDSubMenu, SysFunction)
+VALUES (77, 9, 4, 'Can remove payments ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (77, 1, 'Can remove payments ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (77, 2, 'Pode remover pagamentos ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (77, 3, '¿Pueden eliminar los pagos?')
+GO
+
+UPDATE UserTypeToSysFunction
+SET Acesso = 1
+WHERE IDSysFunction = 77 AND IDUserType = 1
+GO
+
+INSERT INTO SysFunction (IDSysFunction, IDMenu, IDSubMenu, SysFunction)
+VALUES (78, 9, 4, 'Can remove services item ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (78, 1, 'Can remove services item ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (78, 2, 'Pode remover item de serviços ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (78, 3, '¿Pueden eliminar servicios artículo?')
+GO
+
+UPDATE UserTypeToSysFunction
+SET Acesso = 1
+WHERE IDSysFunction = 78 AND IDUserType = 1
+GO
+
+INSERT INTO SysFunction (IDSysFunction, IDMenu, IDSubMenu, SysFunction)
+VALUES (79, 9, 4, 'Can remove item defects ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (79, 1, 'Can remove item defects ?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (79, 2, 'Pode remover defeitos do item?')
+GO
+
+INSERT INTO SysFunctionLanguage (IDSysFunction, IDLanguage, SysFunction)
+VALUES (79, 3, '¿Puede eliminar defectos tema?')
+GO
+
+UPDATE UserTypeToSysFunction
+SET Acesso = 1
+WHERE IDSysFunction = 79 AND IDUserType = 1
+GO

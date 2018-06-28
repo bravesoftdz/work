@@ -1,0 +1,55 @@
+[Captions]
+TFinDesdobramentoTipoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinDesdobramentoTipoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinDesdobramentoTipoFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFinDesdobramentoTipoFch.Label1=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinDesdobramentoTipoFch.Label2=ID :~!@#$ID :~!@#$ID :~!@#$
+TFinDesdobramentoTipoFch.Label3=Identifier :~!@#$Identificador :~!@#$Identificador :~!@#$
+TFinDesdobramentoTipoFch.Label4=Document Type :~!@#$Tipo Documento :~!@#$Tipo Documento :~!@#$
+TFinDesdobramentoTipoFch.Label6=Leave blank if not known.~!@#$Deixar em branco se não sabe.~!@#$Dejar en blanco si no lo sabe.~!@#$
+TFinDesdobramentoTipoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinDesdobramentoTipoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinDesdobramentoTipoFch.lblPTitulo=Type of Disbursement~!@#$Tipo de Desdobramento~!@#$Tipo de Fraccionamiento~!@#$
+TFinDesdobramentoTipoFch.lblPTituloShadow=Type of Disbursement~!@#$Tipo de Desdobramento~!@#$Tipo de Fraccionamiento~!@#$
+TFinDesdobramentoTipoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.TFinDesdobramentoTipoFch=FinDesdobramentoTipoFch~!@#$FinDesdobramentoTipoFch~!@#$FinDesdoblamientoTipoFch~!@#$
+
+[DisplayLabels]
+TFinDesdobramentoTipoFch.quFormCodigoDesdobramentoTipo=ID~!@#$ID~!@#$ID~!@#$
+TFinDesdobramentoTipoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinDesdobramentoTipoFch.quFormDesdobramentoTipo=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFinDesdobramentoTipoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinDesdobramentoTipoFch.quFormIDDesdobramentoTipo=IDDesdobramentoTipo~!@#$IDTipoDesdobramento~!@#$IDTipoFraccionamiento~!@#$
+TFinDesdobramentoTipoFch.quFormIDDocumentoTipo=Document Type~!@#$Tipo Documento~!@#$Tipo Documento~!@#$
+TFinDesdobramentoTipoFch.quFormIdentificadorDesdobramento=Identifier~!@#$Identificador~!@#$Identificador~!@#$
+TFinDesdobramentoTipoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinDesdobramentoTipoFch.btCancel=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinDesdobramentoTipoFch.btHelp=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinDesdobramentoTipoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinDesdobramentoTipoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinDesdobramentoTipoFch.btOK=~!@#$~!@#$~!@#$
+TFinDesdobramentoTipoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinDesdobramentoTipoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinDesdobramentoTipoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

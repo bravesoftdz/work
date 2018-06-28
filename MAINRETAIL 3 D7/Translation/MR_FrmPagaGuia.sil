@@ -1,0 +1,83 @@
+[Captions]
+TFrmPagaGuia.btAddCommission=Record Payment~!@#$Registrar Pagamento~!@#$Registrar Pago~!@#$
+TFrmPagaGuia.btAplicar=Update~!@#$Atualizar~!@#$Actualizar~!@#$
+TFrmPagaGuia.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmPagaGuia.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmPagaGuia.btPreviewCommission=Print statement~!@#$Imprimir Info~!@#$Imprimir Info~!@#$
+TFrmPagaGuia.btPrint=Reprint~!@#$Imprimir~!@#$Imprimir~!@#$
+TFrmPagaGuia.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmPagaGuia.btSave=~!@#$~!@#$~!@#$
+TFrmPagaGuia.btStatment=Statement~!@#$Informe~!@#$Informe~!@#$
+TFrmPagaGuia.DetailedStatement1=&Statement with details~!@#$&Informe com detalhes~!@#$&Informe con detalles~!@#$
+TFrmPagaGuia.grdPaymentDataLancamento=Data~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaGuia.grdPaymentIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaGuia.grdPaymentIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrmPagaGuia.grdPaymentSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaGuia.grdPaymentTotalQuitado=Total~!@#$Total~!@#$Total~!@#$
+TFrmPagaGuia.grdPaymentValorNominal=Amount~!@#$Quantía~!@#$Monto~!@#$
+TFrmPagaGuia.hhh=~!@#$~!@#$~!@#$
+TFrmPagaGuia.Label1=Agent :~!@#$Agente :~!@#$Agente :~!@#$
+TFrmPagaGuia.Label10=Payment Date :~!@#$Data Pagamento :~!@#$Fecha del Pago :~!@#$
+TFrmPagaGuia.Label11=First select Agent Name and commission period below. Click GO.~!@#$Primeiro selecione o Nome Agente e depois o período da comissão abaixo. Clique IR~!@#$Primero seleccione el Nombre del Agente y luego el período de la comisión abajo. Presione IR~!@#$
+TFrmPagaGuia.Label13=Bank Account :~!@#$Conta Bancária :~!@#$Cuenta Bancária :~!@#$
+TFrmPagaGuia.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmPagaGuia.Label18=To :~!@#$Até~!@#$Hasta~!@#$
+TFrmPagaGuia.Label2=WARNING: Commission will only calculate if agent has been "confirmed".~!@#$CUIDADO : A comissão será somente calculada se o Agente for "Confirmado".~!@#$CUIDADO : La comisión sólo será calculada si el Agente ha sido "Confirmado".~!@#$
+TFrmPagaGuia.Label20=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmPagaGuia.Label21=Debit :~!@#$Débito :~!@#$Débito :~!@#$
+TFrmPagaGuia.Label23=New Amount :~!@#$Nova Quantía :~!@#$Nuevo Valor :~!@#$
+TFrmPagaGuia.Label3=Then, click on RECORD PAYMENT to record and print payment.~!@#$Depois, clique em REGISTRO DE PAGAMENTO para registrar e imprimir pagamento.~!@#$Después, presione REGISTRO DE PAGO para registrar e imprimir el pago.~!@#$
+TFrmPagaGuia.Label4=Original Amount :~!@#$Quantía Original :~!@#$Valor Original :~!@#$
+TFrmPagaGuia.Label5=Payment Type :~!@#$Tipo Pagamento :~!@#$Tipo de Pago :~!@#$
+TFrmPagaGuia.Label6=Amount :~!@#$Quantía :~!@#$Monto :~!@#$
+TFrmPagaGuia.Label7=Sales :~!@#$Vendas :~!@#$Ventas :~!@#$
+TFrmPagaGuia.Label8=Deductions :~!@#$Deduções :~!@#$Deducciones :~!@#$
+TFrmPagaGuia.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmPagaGuia.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFrmPagaGuia.lblTip=To calculate and pay an Outside Agent Commission:~!@#$Para calcular e pagar comissão de um Agente Externo :~!@#$Para calcular y pagar comisión a un Agente Externo :~!@#$
+TFrmPagaGuia.Panel11=Unpaid Commissions~!@#$Comissões não pagas~!@#$Comisiones sin Pagar~!@#$
+TFrmPagaGuia.Panel6=Payment History~!@#$Histórico Pagamento~!@#$Histórico Pagamento~!@#$
+TFrmPagaGuia.ppLabel1=Agent Commisssion~!@#$Comissão Agente~!@#$Comisión Agente~!@#$
+TFrmPagaGuia.ppLabel10=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPagaGuia.ppLabel2=Invoice #~!@#$Nota #~!@#$Boleta #~!@#$
+TFrmPagaGuia.ppLabel3=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaGuia.ppLabel4=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaGuia.ppLabel5=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaGuia.ppLabel6=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaGuia.ppLabel8=Commisssion~!@#$Comissão~!@#$Comisión~!@#$
+TFrmPagaGuia.ppLabel9=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmPagaGuia.RestorePayments=&Restore Payments~!@#$&Reestabelecer Pagamentos~!@#$&Restablecer Pagos~!@#$
+TFrmPagaGuia.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmPagaGuia.TFrmPagaGuia=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TFrmPagaGuia.quAgentCommisAgentName=AgentName~!@#$NomeAgente~!@#$NombreAgente~!@#$
+TFrmPagaGuia.quAgentCommisDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaGuia.quAgentCommisFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TFrmPagaGuia.quAgentCommisIDAgent=IDAgent~!@#$IDAgente~!@#$IDAgente~!@#$
+TFrmPagaGuia.quAgentCommisIDInvoice=IDInvoice~!@#$IDNota~!@#$IDBoleta~!@#$
+TFrmPagaGuia.quAgentCommisInvoiceDate=InvoiceDate~!@#$DataNota~!@#$FechaBoleta~!@#$
+TFrmPagaGuia.quAgentCommisLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmPagaGuia.quAgentCommisModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaGuia.quAgentCommisMovCommission=MovCommission~!@#$MovComissão~!@#$MovComisión~!@#$
+TFrmPagaGuia.quAgentCommisMovCost=MovCost~!@#$MovCusto~!@#$MovCosto~!@#$
+TFrmPagaGuia.quAgentCommisMovSale=MovSale~!@#$MovVendas~!@#$MovVentas~!@#$
+TFrmPagaGuia.quAgentCommisQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaGuia.quAgentCommisTipTouristGroup=TipTouristGroup~!@#$DicaGrupoTurismo~!@#$InfoGrupoTurismo~!@#$
+TFrmPagaGuia.quHistPagGuiaDataLancamento=DataLancamento~!@#$Data~!@#$FechaContabilización~!@#$
+TFrmPagaGuia.quHistPagGuiaIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaGuia.quHistPagGuiaIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrmPagaGuia.quHistPagGuiaTotalQuitado=TotalQuitado~!@#$Total~!@#$TotalPagado~!@#$
+TFrmPagaGuia.quHistPagGuiaUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+
+[Hints]
+TFrmPagaGuia.btSave=Saves the current Value~!@#$Salvar Quantía atual~!@#$Guardar Valor actual~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

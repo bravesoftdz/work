@@ -1,0 +1,6 @@
+ALTER TABLE TabGroup ADD
+	GiftCard bit NULL CONSTRAINT DF_Zero2496 DEFAULT 0
+GO
+
+UPDATE TabGroup SET GiftCard = 0
+GO

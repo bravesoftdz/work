@@ -1,0 +1,52 @@
+[Captions]
+TFrmQuickEntryListUpdate.btClose=&Close~!@#$&Fechar~!@#$&Cierre~!@#$
+TFrmQuickEntryListUpdate.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TFrmQuickEntryListUpdate.btExcel=E&xport~!@#$E&xportar~!@#$E&xportación~!@#$
+TFrmQuickEntryListUpdate.btImport=&Import~!@#$&Importar~!@#$&Importación~!@#$
+TFrmQuickEntryListUpdate.btnCategory=Category~!@#$Categoria~!@#$Categoria ~!@#$
+TFrmQuickEntryListUpdate.btRemove=Re&move~!@#$Re&mover~!@#$&Quitar~!@#$
+TFrmQuickEntryListUpdate.btSave=&Save~!@#$&Salvar~!@#$&Excepto~!@#$
+TFrmQuickEntryListUpdate.btSelectAll=SelectAll~!@#$Selecionar Todos~!@#$Seleccionar todos ~!@#$
+TFrmQuickEntryListUpdate.btUnSelectAll=UnSelectAll~!@#$Desmarcar Todos~!@#$No Selecciona Todos ~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBCaseQty=CaseQty~!@#$Embalagem~!@#$Embalaje~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBIDBarcode=Barcode~!@#$Cod. de Barras~!@#$Barcode~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBIDGroup=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBIDManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBIDModelGroup=SubCategory~!@#$Grupo~!@#$Grupo~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBIDModelSubGroup=Group~!@#$Sub Grupo~!@#$Sub Grupo~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBIDVendor=Vendor~!@#$Fornecedor~!@#$Surtidor~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBMarkup=Markup %~!@#$Markup~!@#$Markup~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBMaxQty=Max~!@#$Qtd Máx.~!@#$Ctd Máxima~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBMinQty=Min~!@#$Qtd Mín.~!@#$Ctd Mínima~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBQtyOnHand=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBSellingPrice=SellingPrice~!@#$Prç Venda~!@#$Precio de Venta~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBSuggRetail=MSRP~!@#$Preço Sugerido~!@#$Precio Sugerido~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBUpdate=Update~!@#$Atualizar~!@#$Atualizar~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBVendorCode=Vendor Code~!@#$Cód. Fornecedor~!@#$Cod. Fornect.~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBVendorCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TFrmQuickEntryListUpdate.grdModelListDBManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmQuickEntryListUpdate.Label15=User:~!@#$Usuário~!@#$Usuario~!@#$
+TFrmQuickEntryListUpdate.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFrmQuickEntryListUpdate.lblSubMenu=Main Menu~!@#$Menu principal~!@#$Menú principal~!@#$
+TFrmQuickEntryListUpdate.lblUserName=User Name :~!@#$Nome de Usuário~!@#$Nombre del Usuario~!@#$
+TFrmQuickEntryListUpdate.TFrmQuickEntryListUpdate=Quick Entry List~!@#$Lista de Entrada~!@#$Lista de la Entrada~!@#$
+
+[Hints]
+TFrmQuickEntryListUpdate.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmQuickEntryListUpdate.btColumn=Column~!@#$Coluna~!@#$Columna ~!@#$
+TFrmQuickEntryListUpdate.btExcel=Export grid~!@#$Exportação Grid~!@#$Rejilla Exportación ~!@#$
+TFrmQuickEntryListUpdate.btImport=Import Grid~!@#$Importação Grid~!@#$Rejilla Importación ~!@#$
+TFrmQuickEntryListUpdate.btnCategory=Category~!@#$Categoria~!@#$Categoría ~!@#$
+TFrmQuickEntryListUpdate.btSave=Save~!@#$Salvar~!@#$Excepto~!@#$
+TFrmQuickEntryListUpdate.btSelectAll=Select All~!@#$Selecionar Todos~!@#$Seleccionar todos ~!@#$
+TFrmQuickEntryListUpdate.btUnSelectAll=UnSelect All~!@#$Desmarcar Todos~!@#$Desmarcar Todos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

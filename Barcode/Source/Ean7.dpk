@@ -1,0 +1,51 @@
+package Ean7;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Barcode components for Delphi'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  rtl,
+  dbrtl,
+  vclx,
+  bdertl,
+  vcldb,
+  qrpt,
+  visualclx,
+  visualdbclx,
+  rbRCL77;
+
+contains
+  EanReg in 'EanReg.pas',
+  EanSpecs in 'EanSpecs.pas',
+  EanDB in 'EanDB.pas',
+  EanDBQr in 'EanDBQr.pas',
+  EanFmt2 in 'EanFmt2.pas' {EANSetupFmt},
+  EanKod in 'EanKod.pas',
+  EanQR in 'EanQR.pas',
+  EanRead in 'EanRead.pas',
+  EanPDF417;
+
+end.

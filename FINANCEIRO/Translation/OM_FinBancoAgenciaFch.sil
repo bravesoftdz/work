@@ -1,0 +1,139 @@
+[Captions]
+TFinBancoAgenciaFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinBancoAgenciaFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinBancoAgenciaFch.btLastRec=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btLoopInc=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btNextRec=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFinBancoAgenciaFch.btPrintFch=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btPriorRec=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label1=Branche ID:~!@#$Agencia ID :~!@#$Agencia ID :~!@#$
+TFinBancoAgenciaFch.Label2=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinBancoAgenciaFch.Label3=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TFinBancoAgenciaFch.Label4=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFinBancoAgenciaFch.Label5=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFinBancoAgenciaFch.Label6=*~!@#$*~!@#$*~!@#$
+TFinBancoAgenciaFch.Label7=*~!@#$*~!@#$*~!@#$
+TFinBancoAgenciaFch.Label8=*~!@#$*~!@#$*~!@#$
+TFinBancoAgenciaFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinBancoAgenciaFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegador~!@#$
+TFinBancoAgenciaFch.lblPTitulo=Bank Branches~!@#$Agências Bancárias~!@#$Agencias Bancarias~!@#$
+TFinBancoAgenciaFch.lblPTituloShadow=Bank Branches~!@#$Agências Bancárias~!@#$Agencias Bancarias~!@#$
+TFinBancoAgenciaFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.TFinBancoAgenciaFch=FinBancoAgenciaFch~!@#$FinBancoAgênciaFch~!@#$FinAgenciaBancoFch~!@#$
+
+[Dialogs]
+TFinBancoAgenciaFch.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TFinBancoAgenciaFch.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TFinBancoAgenciaFch.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinBancoAgenciaFch.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TFinBancoAgenciaFch.Error=Error~!@#$Erro~!@#$Error~!@#$
+TFinBancoAgenciaFch.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFinBancoAgenciaFch.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TFinBancoAgenciaFch.Information=Information~!@#$Informação~!@#$Información~!@#$
+TFinBancoAgenciaFch.No=&No~!@#$&Não~!@#$&No~!@#$
+TFinBancoAgenciaFch.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TFinBancoAgenciaFch.OK=OK~!@#$OK~!@#$OK~!@#$
+TFinBancoAgenciaFch.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TFinBancoAgenciaFch.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TFinBancoAgenciaFch.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TFinBancoAgenciaFch.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[DisplayLabels]
+TFinBancoAgenciaFch.quFormBairro=Bairro~!@#$Bairro~!@#$Comuna~!@#$
+TFinBancoAgenciaFch.quFormBancoAgencia=BancoAgencia~!@#$AgênciaBanco~!@#$AgenciaBanco~!@#$
+TFinBancoAgenciaFch.quFormCodigoBancoAgencia=CodigoBancoAgencia~!@#$CódigoAgênciaBanco~!@#$CódigoAgenciaBanco~!@#$
+TFinBancoAgenciaFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinBancoAgenciaFch.quFormEndereco=Endereco~!@#$Endereço~!@#$Dirección~!@#$
+TFinBancoAgenciaFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinBancoAgenciaFch.quFormIDBanco=IDBanco~!@#$IDBanco~!@#$IDBanco~!@#$
+TFinBancoAgenciaFch.quFormIDBancoAgencia=IDBancoAgencia~!@#$IDAgênciaBanco~!@#$IDAgenciaBanco~!@#$
+TFinBancoAgenciaFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TFinBancoAgenciaFch.btCancel=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinBancoAgenciaFch.btHelp=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinBancoAgenciaFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinBancoAgenciaFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinBancoAgenciaFch.btOK=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinBancoAgenciaFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinBancoAgenciaFch.DBEdit1=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.DBEdit2=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.DBEdit3=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.DBEdit4=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.DBSuperCombo1=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.imgOff=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.imgOn=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label1=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label2=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label3=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label4=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label5=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label6=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label7=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.Label8=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.lblModified=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.lblNavegacao=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.lblPTitulo=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.lblPTituloShadow=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.TFinBancoAgenciaFch=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFinBancoAgenciaFch.Currency String=$~!@#$$~!@#$$~!@#$
+TFinBancoAgenciaFch.Date Separator=/~!@#$/~!@#$/~!@#$
+TFinBancoAgenciaFch.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TFinBancoAgenciaFch.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TFinBancoAgenciaFch.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFinBancoAgenciaFch.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFinBancoAgenciaFch.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFinBancoAgenciaFch.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFinBancoAgenciaFch.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TFinBancoAgenciaFch.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFinBancoAgenciaFch.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFinBancoAgenciaFch.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TFinBancoAgenciaFch.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFinBancoAgenciaFch.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFinBancoAgenciaFch.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[MultiLines]
+TFinBancoAgenciaFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+TFinBancoAgenciaFch.DBSuperCombo1.FilterFields=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.DBSuperCombo1.FilterValues=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.FormConfig.DependentTableKeys=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.FormConfig.DependentTables=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.FormConfig.RequiredFields=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.FormConfig.UniqueFields=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.quForm.FilterFields=~!@#$~!@#$~!@#$
+TFinBancoAgenciaFch.quForm.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

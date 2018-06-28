@@ -1,0 +1,86 @@
+[Captions]
+TFinQuitacaoMeioFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinQuitacaoMeioFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinQuitacaoMeioFch.btNovoPostDate=&New range~!@#$&Nova Gama~!@#$&Nuevo Rango~!@#$
+TFinQuitacaoMeioFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFinQuitacaoMeioFch.btRemovePostDate=&Remove range~!@#$&Remover Gama~!@#$&Remover Gama~!@#$
+TFinQuitacaoMeioFch.cbxPayFee=Auto register payment's fee~!@#$Registrar desconto em forma automática.~!@#$Registrar descuento en forma automática.~!@#$
+TFinQuitacaoMeioFch.grbFchBrwDifDay=Allowed post days~!@#$Permitir predatar~!@#$Núm. Días para "A Fecha"~!@#$
+TFinQuitacaoMeioFch.grbFchBrwTotalSale=TotalSale~!@#$Total Vendas~!@#$TotalVentas~!@#$
+TFinQuitacaoMeioFch.grdStoreIDContaCorrente=Deposit account~!@#$Conta Depósito~!@#$Cuenta Depósito~!@#$
+TFinQuitacaoMeioFch.grdStoreStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFinQuitacaoMeioFch.Label1=Code :~!@#$Código :~!@#$Código :~!@#$
+TFinQuitacaoMeioFch.Label10=Parent Type :~!@#$Tipo :~!@#$Tipo Parent :~!@#$
+TFinQuitacaoMeioFch.Label11=Batch :~!@#$Batch :~!@#$Batch :~!@#$
+TFinQuitacaoMeioFch.Label13=Record Type :~!@#$Tipo Registro :~!@#$Tipo Registro :~!@#$
+TFinQuitacaoMeioFch.Label14=Vendor :~!@#$Fornecedor : ~!@#$Proveedor :~!@#$
+TFinQuitacaoMeioFch.Label2=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinQuitacaoMeioFch.Label3=Payment Days :~!@#$Días Pagamento :~!@#$Días de Pago :~!@#$
+TFinQuitacaoMeioFch.Label4=Charge Fee :~!@#$Desconto :~!@#$Descuento :~!@#$
+TFinQuitacaoMeioFch.Label5=Doc Identify :~!@#$Identif. Doc :~!@#$Identif. Docto :~!@#$
+TFinQuitacaoMeioFch.Label6=Leave it blank if not known.~!@#$Deixar em branco se não souber.~!@#$Dejar en blanco si no lo sabe.~!@#$
+TFinQuitacaoMeioFch.Label8=Quando um meio de quitação possuir um valor mínimo para predatado, esta valor é configurado aqui. Cada numero de dias corresponde a um valor mínimo de transação.~!@#$Quando um meio de quitação possuir um valor mínimo para predatado, esta valor é configurado aqui. Cada numero de dias corresponde a um valor mínimo de transação.~!@#$Cuando un medio de pago posee un valor mínimo para pagar a fecha, este valor es configurado aquí.Cada números de días corresponde a una valor mínimo de transacción.~!@#$
+TFinQuitacaoMeioFch.Label9=Para cada loja voce deve indicar qual será a conta corrente de deposito para este meio de quitação. Geralmente espécie é depositado na conta caixa, e cartões de crédito em uma conta bancária.~!@#$Para cada loja voce deve indicar qual será a conta corrente de deposito para este meio de quitação. Geralmente espécie é depositado na conta caixa, e cartões de crédito em uma conta bancária.~!@#$Para cada tienda debe indicar cuál será la cuenta corriente de depósito según el medio de pago. Generalmente, especie es depositado en la cuenta de caja y tarjetas de crédito en una cuenta bancaria.~!@#$
+TFinQuitacaoMeioFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinQuitacaoMeioFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinQuitacaoMeioFch.lblPTitulo=Payment Type~!@#$Tipo Pagamento~!@#$Tipo de Pago~!@#$
+TFinQuitacaoMeioFch.lblPTituloShadow=Payment Type~!@#$Tipo Pagamento~!@#$Tipo de Pago~!@#$
+TFinQuitacaoMeioFch.rgTipo=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFinQuitacaoMeioFch.TFinQuitacaoMeioFch=FinQuitacaoMeioFch~!@#$FinMeioQuitaçãoFch~!@#$FinMedioPagoFch~!@#$
+TFinQuitacaoMeioFch.tsCadastro=Register~!@#$Registro~!@#$Registro~!@#$
+TFinQuitacaoMeioFch.tsContaCorrente=Deposit accounts~!@#$Contas Depósito~!@#$Cuentas Depósito~!@#$
+TFinQuitacaoMeioFch.tsPostDate=Post date ranges~!@#$Gama para Predatados~!@#$Rangos para "A Fecha"~!@#$
+
+[DisplayLabels]
+TFinQuitacaoMeioFch.quContaCorrenteIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TFinQuitacaoMeioFch.quContaCorrenteNumero=Numero~!@#$Número~!@#$Número~!@#$
+TFinQuitacaoMeioFch.quFormAutoDiscountFee=AutoDiscountFee~!@#$AutoDescontarTaxa~!@#$AutoDescontarImp~!@#$
+TFinQuitacaoMeioFch.quFormCodigoMeioPag=CodigoMeioPag~!@#$CódigoMeioPag~!@#$CódigoMedioPago~!@#$
+TFinQuitacaoMeioFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinQuitacaoMeioFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinQuitacaoMeioFch.quFormIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TFinQuitacaoMeioFch.quFormIdentificadorDocumento=IdentificadorDocumento~!@#$IdentificadorDocumento~!@#$IdentificadorDocumento~!@#$
+TFinQuitacaoMeioFch.quFormIDLancamentoTipo=Record Type~!@#$Tipo Registro~!@#$Tipo Registro~!@#$
+TFinQuitacaoMeioFch.quFormIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPago~!@#$
+TFinQuitacaoMeioFch.quFormIDMeioPagBatch=IDMeioPagBatch~!@#$IDMeioPagLote~!@#$IDMedioPagoPartida~!@#$
+TFinQuitacaoMeioFch.quFormIDPessoa=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TFinQuitacaoMeioFch.quFormMeioPag=MeioPag~!@#$MeioPag~!@#$MedioPago~!@#$
+TFinQuitacaoMeioFch.quFormParentType=ParentType~!@#$TipoParent~!@#$TipoParent~!@#$
+TFinQuitacaoMeioFch.quFormPrazoRecebimento=Payment Days~!@#$Días Pagamento~!@#$Días de Pago~!@#$
+TFinQuitacaoMeioFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFinQuitacaoMeioFch.quFormTaxaAdmin=Discount Fee~!@#$Taxa Desconto~!@#$Imp. Descuento~!@#$
+TFinQuitacaoMeioFch.quFormTaxMode=TaxMode~!@#$ModoTaxa~!@#$ModoImp~!@#$
+TFinQuitacaoMeioFch.quFormTemDocumento=TemDocumento~!@#$CondDocumento~!@#$CondDocumento~!@#$
+TFinQuitacaoMeioFch.quFormTipo=Tipo~!@#$Tipo~!@#$Tipo~!@#$
+TFinQuitacaoMeioFch.quMeioPagDifDay=DifDay~!@#$DíaDif~!@#$DíaDif~!@#$
+TFinQuitacaoMeioFch.quMeioPagIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPag~!@#$
+TFinQuitacaoMeioFch.quMeioPagTotalSale=TotalSale~!@#$Total Venda~!@#$TotalVenta~!@#$
+TFinQuitacaoMeioFch.quStoreIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuentaCorriente~!@#$
+TFinQuitacaoMeioFch.quStoreIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFinQuitacaoMeioFch.quStoreName=Name~!@#$Nome~!@#$Nombre~!@#$
+
+[Hints]
+TFinQuitacaoMeioFch.btCancel=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinQuitacaoMeioFch.btHelp=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinQuitacaoMeioFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinQuitacaoMeioFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinQuitacaoMeioFch.btNovoPostDate=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioFch.btOK=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinQuitacaoMeioFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinQuitacaoMeioFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinQuitacaoMeioFch.rgTipo.Items=Cash,"Credit Card",Others,Check,"Store Credit"~!@#$Dinheiro,CartãoCrédito,Outros,Cheque,Crédito~!@#$Efectivo,TarjetaCrédito,Otros,Cheque,"Tienda Crédito"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

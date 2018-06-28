@@ -1,0 +1,188 @@
+:Base MR_Screen_ES.hlp
+:Title Main Retail Screen
+1 MR Screen Help
+2 Filter Details=Filter_Details
+2 Serial Number=Serial_Number
+1 Point of Sale
+2 Cash Register
+3 Cash Register=Cash_Register
+3 Cash Register Open=Cash_Register_Open
+3 Cash Register Add Invoice=Cash_Register_Add_Invoice
+3 Cash Register Detail of Hold Item=CashRegDetailHoldItem
+3 Cash Register Hold Number=Cash_Register_Hold_Number
+3 Cash Register Receive Payment=CashRegister_Receive
+3 Cash Register Close=Cash_Register_Close
+3 Cash Register Xpress Sale=Cash_Register_Xpress_Sale
+2 Cash Register History
+3 Cash Register History=Cash_Register_History
+3 Cash Register History Details=Cash_Register_Details
+3 Cash Register History Details Open Deposit=Cash_Register_History_Details_Open_Deposit
+3 Cash Register History Totals=Cash_Register_History_Totals
+2 Invoice History
+3 Cash Register Invoice History=Cash_Register_Invoice_History
+3 Cash Register Invoice History Details=Cash_Register_Invoice_History_Details
+2 Reports
+3 Point of Sale - Reports=Point_of_Sale_-_Reports
+2 Maintenance
+3 Cash Register Maintenance=Cash_Register_Maintenance
+3 Cash Register Maintenance Add=Cash_Register_Maintenance_Add
+1 Sales Support
+2 Invoices on Hold
+3 Sales Support Holds=Sales_Support_Holds
+3 Sales Support Hold Detail=Sales_Support_Hold_Detail
+2 View Inventory
+3 Sales Support View Inventory=Sales_Support_View_Inventory
+2 Sales Person Request
+3 Sales Support Sales Person Request=Sales_Support_Sales_Person_Request
+3 Sales Person Request Add=Sales_Person_Request_Add
+3 Sales Support Sales Person Request Details=Sales_Support_Sales_Person_Request_Add
+2 Unlock Hold
+3 Sales Support Unlock Hold=Sales_Support_Unlock_Hold
+2 Customer Repair
+3 Sales Support Customer Repair=Sales_Support_Customer_Repair
+3 Sales Support Customer Repair Add=Sales_Support_Customer_Repair_Add
+2 Customer File
+3 Sales Support Customer File=Sales_Support_Customer_File
+3 Sales Support Customer File Add=Sales_Support_Customer_File_Add
+2 Sales Graph
+3 Sales Support Graphs=Sales_Support_Graphs
+2 Reports
+3 Sales Support Reports=Sales_Support_Reports
+1 Advertising
+2 Advertising Media
+3 Advertising Media=Advertising_Media
+3 Advertising Media Detail=Advertising_Media_Detail
+2 Media Results
+3 Advertising Media Result=Advertising_Media_Result
+2 Pickup Routes
+3 Advertising Pickup Routes=Advertising_Routes
+3 Advertising Pickup Routes Details=Advertising_Routes_Details
+2 Expenses Categories
+3 Advertising Expense Category=Advertising_Expense_Category
+3 Advertising Expense Category Details=Advertising_Expense_Category_Details
+2 Group History
+3 Advertising Agency Group=Advertising_Agency_Group
+3 Advertising Agency Group Add=Advertising_Agency_Group_Add
+2 Outside Agents
+3 Advertising Outside Agent File=Advertising_Outside_Agent_File
+3 Advertising Outside Agent File Details=Advertising_Outside_Agent_File_Details
+3 Advertising Outside Agent File New=Advertising_Outside_Agent_File_New
+2 Pickup Locations
+3 Advertising Pickup Locations=Advertising_Hotels_File
+2 Agency Group Results
+3 Advertising Agency Group Results=Advertising_Outside_Agency_Results
+2 Agency Files
+3 Advertising Agency File=Advertising_Outside_Agency_File
+3 Advertising Agency File Details=Advertising_Outside_Agency_File_Details
+2 Reports
+3 Advertising Reports=Advertising_Reports
+1 Purchasing
+2 Price Quotes
+3 Purchasing Price Quote=Purchasing_Price_Quote
+3 Purchasing Price Quote Add Select Models=Purchasing_Price_Quote_Add_Select_Models
+3 Purchasing Price Quote Add Select Vendors=Purchasing_Price_Quote_Add_Select_Vendors
+3 Purchasing Price Quote Add Tab Responses=Purchasing_Price_Quote_Add_Tab_Responses
+3 Purchasing Price Quote Add Tab Setup Qty=Purchasing_Price_Quote_Add_Tab_Setup_Qty
+3 Purchasing Price Quote Add Tab Result Sheet=Purchasing_Price_Quote_Add_Tab_Result_Sheet
+3 Purchasing Price Quote Add Purchase Orders=Purchasing_Price_Quote_Add_Purchase_Orders
+2 Purcharse Orders
+3 Purchasing Purchase Orders=Purchasing_Purchase_Orders
+3 Purchasing Purchase Orders Add Item=Purchasing_Purchase_Orders_Add_Item
+2 Receiving
+3 Purchasing Receiving=Purchasing_Pre_Receiving
+3 Purchasing Receiving Add=Purchasing_Pre_Receiving_Add
+3 Purchasing Receiving Add Purchase Item=Purchasing_Pre_Receiving_Add_Purch_Item
+2 Final Receiving
+3 Purchasing Final Receiving=Purchasing_Final_Receiving
+2 Vendor File
+3 Purchasing Vendor File=Purchasing_Vendor_File
+3 Purchasing Vendor File Details=Purchaseing_Vendor_File_Details
+2 Purcharse History
+3 Purchasing Purchase History=Purchasing_Purchase_History
+2 Reports
+3 Purchasing Reports=Purchasing_Reports
+1 Commissions
+2 Sales Person
+3 Commission Pay Salesperson=Commission_Pay_Salesperson
+2 Outside Agents
+3 Commission Pay Outside Agent=Commission_Pay_Outside_Agent
+2 Agency
+3 Commission Pay Agency=Commission_Pay_Outside_Agency
+2 Others
+3 Commission Pay Other=Commission_Pay_Other
+2 Reports
+3 Commission Reports=Commission_Reports
+2 Maintenance
+3 Commission Maintenance=Commission_Maintenance
+3 Commission Maintenance Add=Commission_Maintenance_Add
+1 Inventory
+2 Inventory Maintenance
+3 Inventory Maintenance=Inventory_Maintenance
+3 Inventory Maintenance Add=Inventory_Maintenance_Add
+2 View by Store
+3 Inventory View By Store=Inventory_View_By_Store
+3 Inventory View By Store Add=Inventory_View_By_Store_Add
+2 Category Maintenance
+3 Inventory Category Maintenance=Inventory_Category_Maintenance
+3 Inventory Category Maintenance Add=Inventory_Category_Maintenance_Add
+2 Manufacturer Maintenance
+3 Inventory Manufacturers Maintenance=Inventory_Manufacturers_Maintenance
+3 Inventory Manufacturers Maintenance Add=Inventory_Manufacturers_Maintenance_Add
+2 Movement History
+3 Inventory Movement History=Inventory_Movement_History
+3 Inventory Movement History Add=Inventory_Movement_History_Add
+2 Movement Types
+3 Inventory Movement Types=Inventory_Movement_Types
+3 Inventory Movement Types Add=Inventory_Movement_Types_Add
+2 Inventory Returns
+3 Inventory Returns=Inventory_Returns
+3 Inventory Returns Add=Inventory_Returns_Add
+2 View Inventory by Item
+3 Inventory View Inventory by Item=Inventory_Item
+3 Inventory Items View Model=Inventory_Items_View_Model
+2 Transfer Items
+3 Inventory Move Items=Inventory_Move_Items
+3 Inventory Move Items Details=Inventory_Move_Items_Details
+3 Inventory Move Items Details Add=Inventory_Move_Items_Details_Add
+2 Reset Inventory
+3 Reset Inventory=Inventory_Clean_Up
+2 Physical Inventory
+3 Inventory Physical=Inventory_Physical
+2 Color
+3 Inventory Color=Inventory_Color
+2 Size
+3 Inventory Size=Inventory_Size
+2 Reports
+3 Inventory Reports=Inventory_Reports
+1 Maintenance
+2 Stores
+3 Maintenance Stores=Maintenance_Stores
+3 Maintenance Stores Add=Maintenance_Stores_Add
+2 Special Prices
+3 Maintenance Special Price=Maintenance_Special_Price
+3 Maintenance Special Price Add=Maintenance_Special_Price_Add
+2 Delivery Types
+3 Maintenance Delivery Types=Maintenance_Delivery_Types
+2 Users
+3 Maintenance Users=Maintenance_Users
+3 Maintenance Users Add=Maintenance_Users_Add
+2 Type of Users
+3 Maintenance Users Type=Maintenance_Users_Type
+3 Maintenance Users Type Add=Maintenance_Users_Type_Add
+2 Client Parameters
+3 Maintenance Client Parameters=Maintenance_Client_Parameters
+2 Server Parameters
+3 Maintenance Server Parameters=Maintenance_Server_Parameters
+2 Menu Items
+3 Maintenance Menu Item=Maintenance_Menu_Item
+2 Transfers
+3 Maintenance Tranfer Data=Maintenance_Tranfer_Data
+2 Type of Payments
+3 Maintenance Type of Payments=Maintenance_Type_of_Payments
+3 Maintenance Type of Payments Add=Maintenance_Type_of_Payments_Add
+2 Tax Categories
+3 Maintenance Tax Category=Maintenance_Tax_Category
+3 Maintenance Tax Category Add=Maintenance_Tax_Category_Add
+1 Utilities
+2 Time Clock
+3 Utilities Time Clock=Utilities_Time_Clock

@@ -1,0 +1,19 @@
+ALTER TABLE Mnt_PessoaAddress ALTER COLUMN
+	[Name] VARCHAR(60) NOT NULL
+GO
+
+ALTER TABLE Mnt_PessoaAddress ALTER COLUMN
+	Address VARCHAR(80) NOT NULL
+GO
+
+ALTER TABLE Mnt_PessoaAddress ALTER COLUMN
+	City VARCHAR(30) NOT NULL
+GO
+
+ALTER TABLE Mnt_PessoaAddress ADD
+	Neighborhood VARCHAR(30)
+GO
+
+ALTER TABLE Mnt_PessoaAddress ADD
+	CompanyReg VARCHAR(30)
+GO

@@ -1,0 +1,27 @@
+[Captions]
+TSubMovHistory.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TSubMovHistory.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TSubMovHistory.grdMovHistDBTableViewAvgCostOut=$ Avg Cost~!@#$$ Custo Médio~!@#$$ Costo Medio~!@#$
+TSubMovHistory.grdMovHistDBTableViewBalance=Balance Qty~!@#$Saldo Qtd~!@#$Saldo Ctd~!@#$
+TSubMovHistory.grdMovHistDBTableViewBalanceQty=Balance Qty~!@#$Saldo Qtd~!@#$Saldo Ctd~!@#$
+TSubMovHistory.grdMovHistDBTableViewBalanceTotal=$ Balance Total~!@#$$ Custo Total~!@#$$ Costo Total~!@#$
+TSubMovHistory.grdMovHistDBTableViewCostPrice=CostPrice~!@#$$ Custo~!@#$$ Costo~!@#$
+TSubMovHistory.grdMovHistDBTableViewDocumentID=DocumentID~!@#$Nº Doc.~!@#$DocumentoID~!@#$
+TSubMovHistory.grdMovHistDBTableViewMovDate=MovDate~!@#$Data~!@#$FechaMov~!@#$
+TSubMovHistory.grdMovHistDBTableViewName=Type~!@#$Tipo~!@#$Tipo~!@#$
+TSubMovHistory.grdMovHistDBTableViewQty=Qty~!@#$Qtd~!@#$Cantidad~!@#$
+TSubMovHistory.grdMovHistDBTableViewSalePrice=SalePrice~!@#$$ Venda~!@#$$ Venta~!@#$
+TSubMovHistory.grdMovHistDBTableViewStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TSubMovHistory.grdMovHistDBTableViewSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TSubMovHistory.Label31=From~!@#$Desde~!@#$Desde~!@#$
+TSubMovHistory.Label33=To~!@#$Até~!@#$Hasta~!@#$
+TSubMovHistory.Label34=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

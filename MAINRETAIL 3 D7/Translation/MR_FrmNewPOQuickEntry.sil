@@ -1,0 +1,30 @@
+[Captions]
+TFrmNewPOQuickEntry.btAdd=&Add~!@#$&Adicionar~!@#$&Agregue~!@#$
+TFrmNewPOQuickEntry.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmNewPOQuickEntry.btNewItem=&New Item~!@#$&Novo Item~!@#$&Nuevo Artículo~!@#$
+TFrmNewPOQuickEntry.btSearch=&Search~!@#$&Procurar~!@#$&Busquear~!@#$
+TFrmNewPOQuickEntry.lblVendor=Vendor :~!@#$Fornec. :~!@#$Prov. :~!@#$
+TFrmNewPOQuickEntry.lblSearchType=Search with :~!@#$Procurar com :~!@#$Busquear con :~!@#$
+TFrmNewPOQuickEntry.lblQty=Qty :~!@#$Qtd :~!@#$Ctd :~!@#$
+TFrmNewPOQuickEntry.lblManufacturer=Manufecturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmNewPOQuickEntry.lblModel=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmNewPOQuickEntry.lblDescription=Description :~!@#$Descrição :~!@#$descripción :~!@#$
+TFrmNewPOQuickEntry.lblCost=Cost :~!@#$Custo :~!@#$Coste :~!@#$
+TFrmNewPOQuickEntry.lblOurPrice=Our price :~!@#$Preço de venda :~!@#$Precio de venta :~!@#$
+TFrmNewPOQuickEntry.lblQtyType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFrmNewPOQuickEntry.lblCaseQty=Case :~!@#$Embalagem :~!@#$Embalaje :~!@#$
+TFrmNewPOQuickEntry.lblVendorCode=Vendor item # :~!@#$Cod. fornec. :~!@#$Cod. fornec. :~!@#$
+
+[Hints]
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmNewPOQuickEntry.cbxSearchType.Items=Barcode,Model,Vendor#~!@#$Cód.Barras,Modelo,Fornec.#~!@#$Clav.Barras,Modelo,Prov.#~!@#$
+TFrmNewPOQuickEntry.cbxQtyType.Items=Case,Unit~!@#$Embalagem,Unitário~!@#$Embalaje,Unidad~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

@@ -1,0 +1,80 @@
+/*
+
+    Usage:
+DocumentID, manual discount, manual discount type (% vs $)
+Possible param: boolean to indicate whether or not to update preinventorymov?
+
+    Calculations:
+Lots of data is selected from the preinventorymov table, such as the unit price,
+whether it has a "Special" price or not. see sp_PreSale_CalcPrice.txt.
+
+    Return Table:
+* Unit discount (per quantity 1, rounded to 4 decimals) 
+* Extended discount (rounded to 2 decimals)
+* Order total discount (amount discounted from the entire order) will
+be calculated with sum() on the result table.
+
+Questions:
+    * PreInventoryMov.Discount is a "per-each-Qty"
+    * How do I get IDGroup from a DocumentID? Is it from the Model table?
+        + I already figured this out.
+
+Description:
+    Each SP returns 0 for success -- no error numbers/messages yet. In the future
+    they may throw an exception.
+    
+Notes:
+    There is always only a single IDPessoa associated with a given DocumentID, so
+    it is safe to use with the equals operator instead of the IN() operator.
+    But if you want to join it to something, it would be PreInvInvoice.IDCustomer.
+    
+    
+Always stackable:
+    Frequent Buyer
+    %X off subtotal
+    
+
+First, if the item has a special price (i.e. entry in the special price table),
+only manual discounts apply, nothing else (exit early).
+
+Select the greatest single discount from the following five.
+
+1) Customer File Discount: Ent_CustomerDiscount - joins pessoa on IDTipoPessoa
+and model on idgroup/groupid; % Off based on group item is in. Convert % to
+amount for comparison (which of the 6 is the highest discount) but keep
+percentage as a second col.
+2) Promo Sale - Sale Price - Specify amount item price will end up at.  Must
+then calculate what discount should be.
+3) Promo Sale - Amount Off - Specifies discount amount that will be subtracted. (-$2)
+4) Promo Sale - Percent Off - Specify discount percentage to then calculate
+the amount to be subtracted.
+5) Promo Sale - BOGO - Buy X, Get X or Buy X, Get Y.  This get quantity could
+also allow a % off that qty.  IE: Buy 2 shows, get third pair at 50% off.
+6) Manual Discount -
+
+-------------------------------------------------------------------------------
+
+Add to that discount all of the following discounts
+
+1) Promo Coupon - Sale Price - Item Qualifier -- Get X for $5.97
+2) Promo Coupon - Amount - Item Qualifier -- Get $2 off X items
+3) Promo Coupon - Percent - Item Qualifier -- Get 20% off X items
+4) Promo Coupon - Quantity - Item Qualifier -- Buy 3 X and Get Y free.
+   Free Y item is rung up as an discount on Y item.
+5) Promo Coupon - Amount - Sale Qualifier -- Get $10 off any sale of $50 or more
+6) Promo Coupon - Percent - Sale Qualifier -- Get 10% off any sale of $50 or more
+7) Promo Sale - Amount - Sale Qualifier -- Get $10 off any sale of $50 or more
+8) Promo Sale - Percent - Sale Qualifier -- Get 10% off any sale of $50 or more
+
+Future Dev:
+Need to pass if coupon is a store coupon or mfg coupon.  If mfg coupon, and
+exp., amount, items with full gtins is available, gets uploaded to API for
+review.  MRManager also checks in with API nightly for new coupons in select
+categories (pets for instance) that can be added to the system.  On PO side,
+review process to approve new submissions by stores.
+
+-------------------------------------------------------------------------------
+
+ */
+
+

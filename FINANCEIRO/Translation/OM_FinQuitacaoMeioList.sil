@@ -1,0 +1,126 @@
+[Captions]
+TFinQuitacaoMeioList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinQuitacaoMeioList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinQuitacaoMeioList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinQuitacaoMeioList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinQuitacaoMeioList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinQuitacaoMeioList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinQuitacaoMeioList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinQuitacaoMeioList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinQuitacaoMeioList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinQuitacaoMeioList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinQuitacaoMeioList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinQuitacaoMeioList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinQuitacaoMeioList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinQuitacaoMeioList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinQuitacaoMeioList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinQuitacaoMeioList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinQuitacaoMeioList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinQuitacaoMeioList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinQuitacaoMeioList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinQuitacaoMeioList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinQuitacaoMeioList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinQuitacaoMeioList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinQuitacaoMeioList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinQuitacaoMeioList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinQuitacaoMeioList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinQuitacaoMeioList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinQuitacaoMeioList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinQuitacaoMeioList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinQuitacaoMeioList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinQuitacaoMeioList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinQuitacaoMeioList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinQuitacaoMeioList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinQuitacaoMeioList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinQuitacaoMeioList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinQuitacaoMeioList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TFinQuitacaoMeioList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Vista~!@#$
+TFinQuitacaoMeioList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Vista Actual~!@#$
+TFinQuitacaoMeioList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinQuitacaoMeioList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinQuitacaoMeioList.brwGridCodigoMeioPag=Code~!@#$Código~!@#$Código~!@#$
+TFinQuitacaoMeioList.brwGridMeioPag=Name~!@#$Nome~!@#$Nombre~!@#$
+TFinQuitacaoMeioList.brwGridParent=Parent~!@#$Parent~!@#$Parent~!@#$
+TFinQuitacaoMeioList.brwGridType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFinQuitacaoMeioList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinQuitacaoMeioList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinQuitacaoMeioList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinQuitacaoMeioList.cbxStatus=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TFinQuitacaoMeioList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinQuitacaoMeioList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinQuitacaoMeioList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinQuitacaoMeioList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinQuitacaoMeioList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinQuitacaoMeioList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinQuitacaoMeioList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinQuitacaoMeioList.TFinQuitacaoMeioList=Meios de Pagamento~!@#$Meios de Pagamento~!@#$Medios de Pago~!@#$
+TFinQuitacaoMeioList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TFinQuitacaoMeioList.quBrowseCodigoMeioPag=Code~!@#$Código~!@#$Código~!@#$
+TFinQuitacaoMeioList.quBrowseIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPago~!@#$
+TFinQuitacaoMeioList.quBrowseMeioPag=Name~!@#$Nome~!@#$Nombre~!@#$
+TFinQuitacaoMeioList.quBrowseParent=Parent~!@#$Parent~!@#$Parent~!@#$
+TFinQuitacaoMeioList.quBrowseType=Type~!@#$Tipo~!@#$Tipo~!@#$
+
+[Hints]
+TFinQuitacaoMeioList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinQuitacaoMeioList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinQuitacaoMeioList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinQuitacaoMeioList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinQuitacaoMeioList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinQuitacaoMeioList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinQuitacaoMeioList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinQuitacaoMeioList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinQuitacaoMeioList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinQuitacaoMeioList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinQuitacaoMeioList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinQuitacaoMeioList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinQuitacaoMeioList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinQuitacaoMeioList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinQuitacaoMeioList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinQuitacaoMeioList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinQuitacaoMeioList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinQuitacaoMeioList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinQuitacaoMeioList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinQuitacaoMeioList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinQuitacaoMeioList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinQuitacaoMeioList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinQuitacaoMeioList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinQuitacaoMeioList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinQuitacaoMeioList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinQuitacaoMeioList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinQuitacaoMeioList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinQuitacaoMeioList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinQuitacaoMeioList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinQuitacaoMeioList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinQuitacaoMeioList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinQuitacaoMeioList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinQuitacaoMeioList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinQuitacaoMeioList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar vista~!@#$
+TFinQuitacaoMeioList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Vista~!@#$
+TFinQuitacaoMeioList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar vista actual~!@#$
+TFinQuitacaoMeioList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinQuitacaoMeioList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinQuitacaoMeioList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

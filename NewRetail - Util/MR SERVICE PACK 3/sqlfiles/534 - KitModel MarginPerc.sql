@@ -1,0 +1,3 @@
+ALTER TABLE KitModel ADD
+	MarginPerc float NOT NULL DEFAULT 0
+GO

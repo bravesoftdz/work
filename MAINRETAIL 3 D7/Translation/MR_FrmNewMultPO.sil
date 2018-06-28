@@ -1,0 +1,49 @@
+[Captions]
+TFrmNewMultPO.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmNewMultPO.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmNewMultPO.btConsultTransfer=Consult Transfer~!@#$Consultar Transferência~!@#$Consultar Transferência~!@#$
+TFrmNewMultPO.btSave=&Save~!@#$&Salvar~!@#$%Cerrar~!@#$
+TFrmNewMultPO.btTransfer=Transfer~!@#$Transferência~!@#$Transferência~!@#$
+TFrmNewMultPO.cxChoice=Find~!@#$Localizar~!@#$Localizar~!@#$
+TFrmNewMultPO.cxInfoStoreDBTableView1Qty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmNewMultPO.cxInfoStoreDBTableView1StoreName=StoreName~!@#$Loja~!@#$Tienda~!@#$
+TFrmNewMultPO.cxInfoStoreDBTableView1DBOnHand=OnHand~!@#$Em Estoque~!@#$Na Tienda~!@#$
+TFrmNewMultPO.cxInfoStoreDBTableView1DBAvgSale=AvgSale~!@#$Méd. Venda~!@#$Med. Venta~!@#$
+TFrmNewMultPO.cxInfoStoreDBTableView1TotalSold=Sold~!@#$Vendida~!@#$Vendida~!@#$
+TFrmNewMultPO.lbSalePeriod=Sale Period  :~!@#$Periodo Vendas :~!@#$Ventas :~!@#$
+TFrmNewMultPO.Label1=IDItemPedCompra~!@#$IDItemPedCompra~!@#$IDItemPedCompra~!@#$
+TFrmNewMultPO.Label10=Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmNewMultPO.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TFrmNewMultPO.Label8=Qty~!@#$Qtd ~!@#$Ctd ~!@#$
+TFrmNewMultPO.lbEstimated=Estimated  :~!@#$Data Cheg.:~!@#$Data Cheg.:~!@#$
+TFrmNewMultPO.lblCost=Cost :~!@#$Custo :~!@#$Costo :~!@#$
+TFrmNewMultPO.lblQtyType=Qty Type :~!@#$Qtd Tipo :~!@#$Ctd Tipo :~!@#$
+TFrmNewMultPO.lblSale=Sale :~!@#$Venda :~!@#$Venta :~!@#$
+TFrmNewMultPO.lblSug=Sug :~!@#$Suge :~!@#$Suge :~!@#$
+TFrmNewMultPO.lbModel=Model :~!@#$Modelo :~!@#$Model :~!@#$
+TFrmNewMultPO.lbPOTotal=PO Total Due: 0.00~!@#$PO Total : 0.00~!@#$PO Total : 0.00~!@#$
+TFrmNewMultPO.lbRequest=Date Request :~!@#$DataPed.  :~!@#$DataPed.  :~!@#$
+TFrmNewMultPO.lbTitList=Store´s list~!@#$Lista de Lojas~!@#$Lista Tiendas~!@#$
+TFrmNewMultPO.lbVendor=Vendor :~!@#$Fornec. :~!@#$Prov. :~!@#$
+TFrmNewMultPO.menConsult=ConsultTransfer~!@#$Consultar Tranferência~!@#$Transferencia consulta~!@#$
+TFrmNewMultPO.menFind=Search~!@#$Localizar~!@#$Hallazgo~!@#$
+TFrmNewMultPO.menTransfer=Transfer~!@#$Tranferência~!@#$Transferencia ~!@#$
+TFrmNewMultPO.pnlSizeAndColor=Store´s list~!@#$Lista de Lojas~!@#$Lista Tiendas~!@#$
+TFrmNewMultPO.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmNewMultPO.lblCaseQty=Case Qty :~!@#$Embalagem :~!@#$Embale ctd:~!@#$
+
+[DisplayLabels]
+TFrmNewMultPO.cdsNewMultPOQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmNewMultPO.cdsNewMultPOStoreName=StoreName~!@#$Nome da Loja~!@#$Nombre Tienda~!@#$
+TFrmNewMultPO.FloatField1=Qty~!@#$Qtd~!@#$Ctd~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmNewMultPO.cbxQtyType.Items=Case,Unit~!@#$Embalagem,Unitário~!@#$Embalaje,Unidad~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

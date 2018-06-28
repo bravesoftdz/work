@@ -1,0 +1,24 @@
+[Captions]
+TFrmTransferData.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmTransferData.Button1=&Ok~!@#$&OK~!@#$&OK~!@#$
+TFrmTransferData.Label1=From Agent :~!@#$Desde Agente :~!@#$Desde Agente :~!@#$
+TFrmTransferData.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmTransferData.Label2=To Agent :~!@#$Para Agente :~!@#$Para Agente :~!@#$
+TFrmTransferData.Label3=Transfer :~!@#$Transferir :~!@#$Transferir :~!@#$
+TFrmTransferData.Label4=From Agency :~!@#$Desde Agência :~!@#$Desde Agencia :~!@#$
+TFrmTransferData.Label5=To Agency :~!@#$Para Agência :~!@#$Para Agencia :~!@#$
+TFrmTransferData.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmTransferData.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmTransferData.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmTransferData.cmbTransfer.Items="Move data between Agency","Move data between Agent"~!@#$"Mudar dados entre Agências","Mudar dados entre Agentes"~!@#$"Trasladar datos entre Agencias","Trasladar datos entre Agentes"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

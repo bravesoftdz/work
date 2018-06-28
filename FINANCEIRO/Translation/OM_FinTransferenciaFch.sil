@@ -1,0 +1,44 @@
+[Captions]
+TFinTransferenciaFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinTransferenciaFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinTransferenciaFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinTransferenciaFch.Label1=Transfer ID :~!@#$Transferência ID :~!@#$Transferencia ID :~!@#$
+TFinTransferenciaFch.Label2=Amount :~!@#$Valor :~!@#$Monto :~!@#$
+TFinTransferenciaFch.Label3=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFinTransferenciaFch.Label4=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFinTransferenciaFch.Label5=Debit Account :~!@#$Conta Débito :~!@#$Cuenta Débito :~!@#$
+TFinTransferenciaFch.Label6=Credit Account :~!@#$Conta Crédito :~!@#$Cuenta Crédito :~!@#$
+TFinTransferenciaFch.Label7=Memo :~!@#$Memo :~!@#$Memo :~!@#$
+TFinTransferenciaFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinTransferenciaFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinTransferenciaFch.lblPTitulo=Transfer~!@#$Transferência~!@#$Transferencia~!@#$
+TFinTransferenciaFch.lblPTituloShadow=Transfer~!@#$Transferência~!@#$Transferencia~!@#$
+
+[DisplayLabels]
+TFinTransferenciaFch.quFormData=Date~!@#$Data~!@#$Fecha~!@#$
+TFinTransferenciaFch.quFormIDContaCorrenteCredito=Credit Account~!@#$Conta Crédito~!@#$Cuenta Crédito~!@#$
+TFinTransferenciaFch.quFormIDContaCorrenteDebito=Debit Account~!@#$Conta Débito~!@#$Cuenta Débito~!@#$
+TFinTransferenciaFch.quFormIDTransferencia=IDTransferencia~!@#$IDTransferencia~!@#$IDTransferencia~!@#$
+TFinTransferenciaFch.quFormIDUsuario=User~!@#$Usuário~!@#$Usuario~!@#$
+TFinTransferenciaFch.quFormObs=Obs~!@#$Obs~!@#$Obs~!@#$
+TFinTransferenciaFch.quFormValor=Value~!@#$Valor~!@#$Valor~!@#$
+
+[Hints]
+TFinTransferenciaFch.btCancel=~!@#$~!@#$~!@#$
+TFinTransferenciaFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinTransferenciaFch.btHelp=~!@#$~!@#$~!@#$
+TFinTransferenciaFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinTransferenciaFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinTransferenciaFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinTransferenciaFch.btOK=~!@#$~!@#$~!@#$
+TFinTransferenciaFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinTransferenciaFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

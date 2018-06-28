@@ -1,0 +1,1005 @@
+unit uPaymentCard;
+
+interface
+
+uses
+  ADODB, uMRTraceControl, uPayment, uMRPCCharge, uMRPinPad, uPCCIntegration,
+  uCCMercuryIntegration, uCreditCardFunction, Classes, uOperationSystem,
+  DbClient;
+
+const
+  SERVICE_ORDER_PREFIX = 'SO';
+
+type
+  TPaymentCard = class(TPayment)
+  private
+    FPCCharge: TMRPCCharge;
+    FPCCT: TPCCTransaction;
+    FMercutyWidget : TCCWidget;
+
+    //amfsouza 02.14.2012
+    FMercuryErrorsCode: TClientDataSet;
+
+    FTroutD: String;
+    FAuthorization: String;
+    FLastDigits: String;
+    FTransactResult: Boolean;
+    FProcessorType: Integer;
+    FCardSwiped: WideString;
+    FRefundID: Integer;
+    FRefundDate: TDateTime;
+    FRefundCardInt : TStringList;
+
+    procedure NeedSwipe(Sender: TObject; var SwipedTrack: WideString;
+      var Canceled: Boolean);
+    procedure SucessFullSwipe(Sender: TObject; const ACardNumber,
+      ACardMember, ACardExpireDate: WideString);
+    procedure NeedTroutD(Sender: TObject; var ATrouD, ARefNo, AAuthCode: WideString;
+      var ACanceled: Boolean);
+
+    function PCCResult: Boolean;
+    function MercuryResult : Boolean;
+
+    function DoPCCharge: Boolean;
+    function DoMercury : Boolean;
+
+    function VoidSaleTransation : Boolean;
+    function GetRefundInfo : Boolean;
+
+    function ReturnErrorMsg(AIDError:String):String;
+  protected
+    procedure BeforeProcessPayment; override;
+    procedure FillParameters(FCmdPayment : TADOCommand); override;
+    procedure SetProperties(ADSPayment: TADODataSet); override;
+
+    procedure PreparePCC; virtual;
+
+    function ExecutePCCharge: Boolean; virtual;
+    function ExecuteMercury: Boolean; virtual;
+
+    function GetAutoProcess: Boolean; override;
+    function GetSQLFields: String; override;
+    function CanDelete: Boolean; override;
+    function getTicketNumber: String;
+  public
+    constructor Create(AADOConnection: TADOConnection; ATraceControl: TMrTraceControl); override;
+    destructor Destroy; override;
+
+    property CardSwiped : WideString read FCardSwiped write FCardSwiped;
+    property RefundID   : Integer    read FRefundID   write FRefundID;
+    property RefundDate : TDateTime  read FRefundDate write FRefundDate;
+  end;
+
+  TPaymentDebitCard = class(TPaymentCard)
+  private
+    FPinPad: TMRPinPad;
+  protected
+    procedure PreparePCC; override;
+    function ExecutePCCharge: Boolean; override;
+    function ExecuteMercury: Boolean; override;
+  public
+    function GetPaymentType: Integer; override;
+
+    property PinPad: TMRPinPad read FPinPad write FPinPad;
+  end;
+
+  TPaymentCreditCard = class(TPaymentCard)
+  private
+  protected
+    function ExecutePCCharge: Boolean; override;
+    function ExecutePCChargeNoCard: Boolean;
+    function ExecutePCChargeWithCard: Boolean;
+
+    function ExecuteMercury: Boolean; override;
+    function ExecuteMercuryNoCard: Boolean;
+    function ExecuteMercuryWithCard: Boolean;
+  public
+    function GetPaymentType: Integer; override;
+  end;
+
+  //amfsouza 10.18.2011 - Gift cards by Mercury
+  TPaymentPrePaid = class(TPaymentCard)
+  private
+  protected
+     function ExecuteMercury: Boolean; override;
+     function ExecuteMercuryWithCard: Boolean;
+     function ExecuteMercuryNoCard: Boolean;
+  public
+     function getPaymentType: Integer; override;
+  end;
+
+
+implementation
+
+uses SysUtils, uSystemConst, ufrmPCCharge, uFrmPCCSwipeCard, uNumericFunctions,
+  uMsgBox, Math, Registry, Windows, Dialogs, uDocumentInfo, ufrmPCVoid,
+  DateUtils,uDebugFunctions, DB;
+
+{ TPaymentCard }
+
+destructor TPaymentCard.Destroy;
+begin
+
+  if Assigned(FPCCharge) then
+    FreeAndNil(FPCCharge);
+
+  if Assigned(FPCCT) then
+    FreeAndNil(FPCCT);
+
+  if Assigned(FMercutyWidget) then
+    FreeAndNil(FMercutyWidget);
+
+  if Assigned(FRefundCardInt) then
+    FreeAndNil(FRefundCardInt);
+
+  inherited;
+end;
+
+function TPaymentCard.getTicketNumber: String;
+begin
+  case DocumentType of
+    dtInvoice: Result := IntToStr(FIDPreSale);
+    dtServiceOrder: Result := SERVICE_ORDER_PREFIX + IntToStr(FIDPreSale);
+  end;
+end;
+
+
+function TPaymentCard.DoPCCharge: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.DoPCCharge');
+  Result := False;
+
+  PreparePCC;
+
+  Result := ExecutePCCharge;
+
+  if Result then
+  begin
+    FAuthorization := FPCCT.Auth;
+    FTroutD        := FPCCT.TroutD;
+    FLastDigits    := FPCCT.LastDigits;
+  end;
+
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.FillParameters(FCmdPayment: TADOCommand);
+begin
+  inherited;
+  FTraceControl.TraceIn(Self.ClassName + '.FillParameters');
+
+  FCmdPayment.Parameters.ParamByName('NumMeioQuitPrevisto').Value := 'A:'+ FAuthorization + ' R:' + FTroutD + ' L:' + FLastDigits;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCard.GetSQLFields: String;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.GetSQLFields');
+  Result := (inherited GetSQLFields) + ',NumMeioQuitPrevisto';
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.NeedSwipe(Sender: TObject; var SwipedTrack: WideString;
+  var Canceled: Boolean);
+var
+  FrmSC: TFrmPCCSwipeCard;
+  iIDMeioPag : Integer;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.NeedSwipe');
+
+  FrmSC := TFrmPCCSwipeCard.Create(nil);
+  try
+    Canceled := not FrmSC.Start(SwipedTrack, iIDMeioPag);
+
+    //Tocar o ID do Meio Pag pelo que foi feito no swipe
+    if (not Canceled) and (iIDMeioPag <> -1) then
+      IDPaymentType := iIDMeioPag;
+
+  finally
+    FreeAndNil(FrmSC);
+  end;
+
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.BeforeProcessPayment;
+begin
+  inherited;
+  FTraceControl.TraceIn(Self.ClassName + '.BeforeProcessPayment');
+
+  //##NEWCARD
+  if GetAutoProcess then
+  begin
+    case FProcessorType of
+      PROCESSOR_PCCHARGE : begin
+                              if not Assigned(FPCCharge) then
+                              begin
+    (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step - Processor Type = PCCHARGE', '(PII):'+ self.ClassName);
+                                FPCCharge := TMRPCCharge.Create;
+                                FPCCharge.SetIDMeioPag(FIDPaymentType);
+                              end;
+
+                              if not Assigned(FPCCT) then
+                                FPCCT := TPCCTransaction.Create(nil);
+
+                              FAuthorization := '';
+                              FTroutD := '';
+                              FTransactResult := DoPCCharge;
+                           end;
+      PROCESSOR_MERCURY :  begin
+                              (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step - Processor Type = MERCURY', '(PII):'+ self.ClassName);
+                              FAuthorization := '';
+                              FTroutD := '';
+                              FTransactResult := DoMercury;
+                           end;
+    end;
+
+    if not FTransactResult then begin
+     (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step - Transact Result Fail: ' + inttoSTr(FProcessorType), '(PII):'+ self.ClassName);
+      raise Exception.Create('CARD NOT CHARGED!_' + FErrorMsg);
+
+    end;
+
+  end;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCard.PCCResult: Boolean;
+var
+  sMsg: String;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.PCCResult');
+  Result := False;
+
+  sMsg := '';
+  try
+    case FPCCT.TransactionReturn of
+      ttrSuccessfull:
+      begin
+        Result := True;
+        sMsg := Format('%S'#13#10'Auth: %S'#13#10'RefNumber: %S'#13#10'TroutD: %S', [FPCCT.PCCResult, FPCCT.Auth, FPCCT.RefNumber, FPCCT.TroutD]);
+
+        if FPCCT.AVS <> '' then
+          sMsg := Format(sMsg + #13#10'AVS: %S', [FPCCT.AVS]);
+
+        if FPCCT.CVV2Ver <> '' then
+          sMsg := Format(sMsg + #13#10'CVV2: %S', [FPCCT.CVV2Ver]);
+
+        // TODO
+        //Application.MessageBox(PChar(sMsg), 'Transaction result', MB_OK + MB_ICONINFORMATION);
+      end;
+
+      ttrNotSuccessfull:
+      begin
+        sMsg := Format('%S'#13#10'Reason: %S', [FPCCT.PCCResult, FPCCT.Auth]);
+        raise Exception.Create(sMsg);
+      end;
+
+      ttrError:
+      begin
+        sMsg := Format('%S'#13#10'Error: %D - %S', [FPCCT.PCCResult, FPCCT.ErrorCode, FPCCT.ErrorDesc]);
+        raise Exception.Create(sMsg);
+      end;
+
+      ttrException:
+      begin
+        sMsg := Format(''#13#10'Error: %S', [FPCCT.ErrorDesc]);
+        raise Exception.Create(sMsg);
+      end;
+    end;
+  except
+    FErrorMsg := sMsg;
+  end;
+
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.PreparePCC;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.PreparePCC');
+
+  FPCCT.Path                 := FPCCharge.Path;
+  FPCCT.User                 := FPCCharge.User;
+  FPCCT.TimeOut              := FPCCharge.TimeOut;
+  FPCCT.Multi                := IntToStr(Byte(FPCCharge.MultTrans));
+  FPCCT.LastValidDate        := IntToStr(FPCCharge.LastDate);
+  FPCCT.PrintReceipts        := IntToStr(FPCCharge.PrintNum);
+  FPCCT.Processor            := FPCCharge.Processor;
+  FPCCT.Port                 := FPCCharge.Port;
+  FPCCT.IPAddress            := FPCCharge.Server;
+  FPCCT.MerchantNumber       := FPCCharge.MercantAcc;
+  FPCCT.OnNeedSwipe          := NeedSwipe;
+  FPCCT.AfterSucessfullSwipe := SucessFullSwipe;
+  FPCCT.OnNeedTroutD         := nil;
+
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.SucessFullSwipe(Sender: TObject; const ACardNumber,
+  ACardMember, ACardExpireDate: WideString);
+begin
+  // Adicionar neste evento qualquer código que precise ser executado após
+  // uma tentativa bem sucedida de leitura do cartão
+  FTraceControl.TraceIn(Self.ClassName + '.SucessFullSwipe');
+
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.SetProperties(ADSPayment: TADODataSet);
+var
+  Field: String;
+  pA, pR, pL: Integer;
+begin
+  inherited;
+  FTraceControl.TraceIn(Self.ClassName + '.SetProperties');
+
+  Field := ADSPayment.FieldByName('NumMeioQuitPrevisto').Value;
+
+  pA := Pos('A:', Field);
+  pR := Pos('R:', Field);
+  pL := Pos('L:', Field);
+
+  FAuthorization := copy(Field, pA+2, pR-1);
+  FTroutD        := copy(Field, pR+2, pL-1);
+  FLastDigits    := copy(Field, pL+2, Length(Field));
+
+  FTraceControl.TraceOut;  
+end;
+
+function TPaymentCard.GetAutoProcess: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.GetAutoProcess');
+  //amfsouza
+  Result := ( FProcessorType <> 0 ) and ( FProcessorType <> 3 );
+  FTraceControl.TraceOut;
+end;
+
+constructor TPaymentCard.Create(AADOConnection: TADOConnection; ATraceControl: TMrTraceControl);
+var
+   buildInfo: String;
+begin
+  inherited Create(AADOConnection, ATraceControl);
+  with TRegistry.Create do
+  try
+    if ( getOS(buildInfo) = osW7 ) then
+       RootKey := HKEY_CURRENT_USER
+    else
+       RootKey := HKEY_LOCAL_MACHINE;
+       
+    OpenKey(REGISTRY_PATH, True);
+    FProcessorType := ReadInteger('ProcessorType');
+  finally
+    Free;
+  end;
+end;
+
+function TPaymentCard.ExecutePCCharge: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecutePCCharge');
+
+  Result := PCCResult;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCard.CanDelete: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.CanDelete');
+
+  Result := False;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCard.DoMercury: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.DoMercury');
+  Result := False;
+
+  Result := ExecuteMercury;
+
+  if Result then
+  begin
+    FAuthorization := FMercutyWidget.FResultAuth;
+    FTroutD        := FMercutyWidget.FResultRefNo;
+    FLastDigits    := FMercutyWidget.FLastDigits;
+    (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIDUser,
+      'Debug-Step - Mercury transaction: ' + 'Autho: ' + FMercutyWidget.FResultAuth +
+      ' TroutD: ' + FMercutyWidget.FResultRefNo + ' Last Digits: ' + FMercutyWidget.FLastDigits, '(PII):'+ self.ClassName);
+  end;
+
+  FTraceControl.TraceOut;
+
+end;
+
+function TPaymentCard.ExecuteMercury: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercury');
+
+  Result := MercuryResult;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCard.MercuryResult: Boolean;
+var
+  sMsg: String;
+  sMsg2 : String;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.MercuryResult');
+  Result := False;
+
+  sMsg  := '';
+  sMsg2 := '';
+  try
+
+    if FMercutyWidget <> nil then
+    begin
+
+      sMsg2 := ReturnErrorMsg(FMercutyWidget.FErrorCode);
+
+      case FMercutyWidget.TransactionReturn of
+        ttrSuccessfull:
+        begin
+          debugtofile('Mercury transaction = success');
+          Result := True;
+          sMsg := Format('%S'#13#10'Auth: %S'#13#10'RefNumber: %S'#13#10'RefDataD: %S', [FMercutyWidget.FMsg, FMercutyWidget.FResultAuth, FMercutyWidget.FResultRefNo, FMercutyWidget.FResultAcqRefData]);
+        end;
+
+        ttrNotSuccessfull:
+        begin
+          debugtofile('Mercury transaction = not successfull');
+          sMsg := Format('%S'#13#10'Reason: %S', [FMercutyWidget.FMsg, FMercutyWidget.FResultAuth]) + sMsg2;
+          raise Exception.Create(sMsg);
+        end;
+
+        ttrError:
+        begin
+          debugtofile('Mercury transaction = error');
+          sMsg := Format(#13#10'Error: %S', [FMercutyWidget.FMsg]) + sMsg2;
+          raise Exception.Create(sMsg);
+        end;
+
+        ttrException:
+        begin
+          sMsg := Format(''#13#10'Error: %S', [FMercutyWidget.FMsg + ' ' + FErrorMsg]);
+          debugtofile('Mercury transaction = exception >> '+sMsg);
+          raise Exception.Create(sMsg);
+        end;
+      end;
+    end;
+
+  except
+    FErrorMsg := sMsg;
+  end;
+  (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step - Mercury Transaction: ' + sMsg, '(PII):'+ self.ClassName);
+
+  FTraceControl.TraceOut;
+end;
+
+procedure TPaymentCard.NeedTroutD(Sender: TObject; var ATrouD,
+  ARefNo, AAuthCode: WideString; var ACanceled: Boolean);
+var
+  PCV: TfrmPCVoid;
+begin
+  PCV := TfrmPCVoid.Create(nil);
+  try
+    ARefNo    := IntToStr(RefundID);
+    ACanceled := not PCV.Start(PaymentValue, ATrouD, ARefNo, AAuthCode, FRefundCardInt);
+  finally
+    PCV.Free;
+  end;
+end;
+
+function TPaymentCard.GetRefundInfo : Boolean;
+var
+  sResult : String;
+  cInvoicePayment : Currency;
+begin
+
+  FTraceControl.TraceIn(Self.ClassName + '.GetRefundInfo');
+
+  with TADODataSet.Create(nil) do
+  try
+    try
+      Connection := FADOConnection;
+      CommandText := 'SELECT NumMeioQuitPrevisto, ValorNominal FROM Fin_Lancamento WHERE IDPreSale = :IDPreSale';
+      Parameters.ParamByName('IDPreSale').Value := RefundID;
+      Open;
+      Result := not IsEmpty;
+
+      if Result then
+      begin
+        if not Assigned(FRefundCardInt) then
+          FRefundCardInt := TStringList.Create;
+        FRefundCardInt.Clear;
+        cInvoicePayment := 0;
+        First;
+        while not EOF do
+        begin
+          FRefundCardInt.Add(FieldByName('NumMeioQuitPrevisto').AsString);
+          cInvoicePayment := cInvoicePayment + FieldByName('ValorNominal').AsCurrency;
+          Next;
+        end;
+
+        if ABS(FPaymentValue) <> ABS(cInvoicePayment) then
+          Result := False;
+      end;
+
+      Close;
+    finally
+      Free;
+    end;
+  except
+    on E: Exception do
+    begin
+      Result := False;
+      ErrorMsg := E.Message;
+      FTraceControl.SaveTrace(FIDUser, E.Message, Self.ClassName);
+    end;
+  end;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCard.VoidSaleTransation: Boolean;
+begin
+  Result := (FRefundID <> 0) and (FPaymentValue < 0) and (DaysBetween(Trunc(PaymentDate), Trunc(FRefundDate)) = 0) and GetRefundInfo;
+end;
+
+function TPaymentCard.ReturnErrorMsg(AIDError: String): String;
+begin
+
+  if (AIDError = '1') or (AIDError = '2') then
+    Result := Format(#13#10'%S'#13#10'%S'#13#10'%S', ['Visa/MasterCard: 800-944-1111', 'Amex: 800-528-2121', 'Discover: 800-347-1111'])
+  else
+    Result := '';
+
+end;
+
+{ TPaymentDebitCard }
+
+function TPaymentDebitCard.ExecuteMercury: Boolean;
+begin
+
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercuryDebitCard');
+
+  if not Assigned(FMercutyWidget) then
+    FMercutyWidget := TCDebit.Create;
+
+  with TCDebit(FMercutyWidget) do
+  begin
+    //Manual entry card
+    debugToFile('Debit Card: Beginning Swiped');
+    OnNeedSwipe          := NeedSwipe;
+    AfterSucessfullSwipe := AfterSucessfullSwipe;
+    if VoidSaleTransation then
+      OnNeedTroutD       := NeedTroutD
+    else
+      OnNeedTroutD       := nil;
+    debugToFile('Debit Card: Ending Swiped');
+
+    debugToFile('Pin Pad settings');
+    FMPinPad.FBaudRate   := Self.FPinPad.Baud;
+    debugtofile('pin pad baud rate: '+ self.PinPad.Baud);
+
+    FMPinPad.FComPort    := Self.FPinPad.Comm;
+    debugtofile('pin pad baud rate: '+ self.PinPad.Baud);
+
+    FMPinPad.FTimeout    := StrToInt(Self.FPinPad.TimeOut);
+    debugtofile('pin pad timeout: '+ self.PinPad.TimeOut);
+
+
+    FMemo                := PaymentMemo;
+    FOperatorID          := IntToStr(FIDUser);
+    FInvoiceNo           := getTicketNumber;
+    debugtofile('InvoiceNo: '+ FInvoiceNo);
+
+    FRefNo               := FMercutyWidget.FInvoiceNo;
+    debugtofile('RefNo: '+ FMercutyWidget.FInvoiceNo);
+
+    FPurchase            := FPaymentValue;
+    debugtofile('Purchase (paymentValue): '+ floatToStr(FPaymentValue));
+
+    FCashBack            := 0;
+    debugtofile('CashBack: '+ floatToStr(0));
+
+    FTrack2              := CardSwiped;
+    debugtofile('Track2: '+ FTrack2);
+
+(* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser,
+  'Debug-Step : Manual entry card (debit card)  ', '(PII):'+ self.ClassName);
+
+
+    if (FPaymentValue > 0) then begin
+      debugtofile('Debit Card Payment Value > 0');
+      (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step : begin process sale card (debit card)', '(PII):'+ self.ClassName);
+      debugtofile('Debit Card ProcessSale - begin');
+      ProcessSale;
+      debugtofile('Debit Card ProcessSale - end');
+      (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step : end process sale card (debit card)', '(PII):'+ self.ClassName);
+    end
+    else begin
+      debugtofile('Debit Card Payment Value <= 0');
+      debugtofile('Debit Card ProcessRefund - begin');
+      ProcessRefund;
+      debugtofile('Debit Card ProcessRefund - end');
+    end;
+  end;
+
+  debugtofile('Debit Card Payment calling Mercury Routine - begin');
+  Result := inherited ExecuteMercury;
+  debugtofile('Debit Card Payment calling Mercury Routine - end');
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentDebitCard.ExecutePCCharge: Boolean;
+var
+  iAction: Integer;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecutePCCharge');
+
+  if (FPaymentValue > 0) then
+    iAction := DEBIT_SALE
+  else
+    iAction := DEBIT_RETURN;
+
+  if not FPCCT.RetailDebitCardPresent(MyFormatCur(Abs(FPaymentValue), '.'), '0.00', getTicketNumber, CardSwiped, iAction) then
+    FErrorMsg := FPCCT.ErrorDesc;
+
+  Result := inherited ExecutePCCharge;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentDebitCard.GetPaymentType: Integer;
+begin
+  Result := PAYMENT_TYPE_DEBIT;
+end;
+
+procedure TPaymentDebitCard.PreparePCC;
+begin
+  inherited;
+  FTraceControl.TraceIn(Self.ClassName + '.PreparePCC');
+
+  FPCCT.PinTimeOut       := StrToIntDef(FPinPad.TimeOut, 0);
+  FPCCT.PinEncryptMethod := StrToIntDef(FPinPad.EncryptMethod, 0);
+  FPCCT.PinDevice        := StrToIntDef(FPinPad.GetDevice, 0);
+  FPCCT.PinBaud          := FPinPad.Baud;
+  FPCCT.PinDataBits      := FPinPad.DataBits;
+  FPCCT.PinParity        := FPinPad.Parity;
+  FPCCT.PinComm          := FPinPad.Comm;
+
+  FTraceControl.TraceOut;
+end;
+
+{ TPaymentCreditCard }
+
+function TPaymentCreditCard.ExecutePCCharge: Boolean;
+var
+  iMsgResult: Integer;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecutePCCharge');
+
+  if CardSwiped = '' then
+    iMsgResult := MsgBox('Is the customer card present?_Total to be proccessed: ' + FormatCurr('#,##0.00', FPaymentValue), vbYesNoCancel)
+  else
+    iMsgResult := vbYes;
+
+  case iMsgResult of
+    vbYes:    Result := ExecutePCChargeWithCard;
+    vbNo:     Result := ExecutePCChargeNoCard;
+    vbCancel: FErrorMsg := 'Canceled.';
+  end;
+
+  Result := inherited ExecutePCCharge;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCreditCard.GetPaymentType: Integer;
+begin
+  Result := PAYMENT_TYPE_CARD;
+end;
+
+function TPaymentCreditCard.ExecutePCChargeNoCard: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecutePCChargeNoCard');
+
+  with TfrmPCCharge.Create(nil) do
+  try
+    Result := Start(FPCCT, getTicketNumber, FPaymentValue);
+    if not Result then
+      FErrorMsg := 'Canceled by user.';
+  finally
+    Free;
+  end;
+
+  FTraceControl.TraceOut;
+end;
+
+
+function TPaymentCreditCard.ExecutePCChargeWithCard: Boolean;
+begin
+
+  FTraceControl.TraceIn(Self.ClassName + '.ExecutePCChargeWithCard');
+
+  Result := FPCCT.RetailCreditOrAutorizationCardPresent(MyFormatCur(Abs(FPaymentValue), '.'), getTicketNumber, CardSwiped, FPaymentValue < 0);
+
+  if not Result then
+    FErrorMsg := FPCCT.ErrorDesc;
+
+  FTraceControl.TraceOut;
+
+end;
+
+function TPaymentCreditCard.ExecuteMercury: Boolean;
+var
+  iMsgResult: Integer;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercury');
+
+  if CardSwiped = '' then
+    iMsgResult := MsgBox('Is the customer card present?_Total to be proccessed: ' + FormatCurr('#,##0.00', FPaymentValue), vbYesNoCancel)
+  else
+    iMsgResult := vbYes;
+
+  case iMsgResult of
+    vbYes:    Result := ExecuteMercuryWithCard;
+    vbNo:     Result := ExecuteMercuryNoCard;
+    vbCancel: FErrorMsg := 'Canceled.';
+  end;
+
+  Result := inherited ExecuteMercury;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentCreditCard.ExecuteMercuryNoCard: Boolean;
+var
+  sCardNumber, sMemberName, sExpireDate, sStreetAddress, sZipCode, sCVV2 : String;
+begin
+
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercuryCard');
+
+  with TfrmPCCharge.Create(nil) do
+  try
+    Result := StartMercury(sCardNumber, sMemberName, sExpireDate, sStreetAddress, sZipCode, sCVV2);
+    if Result then
+    begin
+
+      if not Assigned(FMercutyWidget) then begin
+        FMercutyWidget := TCCredit.Create;
+//        FMercutyWidget.MercuryErrorsCode := FMercuryErrorsCode;
+      end;
+
+      with TCCredit(FMercutyWidget) do
+      begin
+        //Manual entry card
+        OnNeedSwipe          := nil;
+        AfterSucessfullSwipe := nil;
+
+        if VoidSaleTransation then
+          OnNeedTroutD       := NeedTroutD
+        else
+          OnNeedTroutD       := nil;
+
+        FMemo                := PaymentMemo;
+        FOperatorID          := IntToStr(FIDUser);
+        FInvoiceNo           := getTicketNumber;
+        FRefNo               := FMercutyWidget.FInvoiceNo;
+        FPurchase            := FPaymentValue;
+        FTax                 := 0;
+
+        FAcctNo              := sCardNumber;
+        FExpDate             := sExpireDate;
+
+        FAddress             := sStreetAddress;
+        FZip                 := sZipCode;
+        FCustomerCode        := sMemberName;
+
+        FTrack2              := '';
+        FCVVData             := sCVV2;
+
+        if (FPaymentValue > 0) then
+          ProcessSale
+        else
+          if VoidSaleTransation then
+            VoidSale
+          else
+            ProcessRefund;
+      end;
+
+    end
+    else
+      FErrorMsg := 'Canceled by user.';
+  finally
+    Free;
+  end;
+
+  FTraceControl.TraceOut;
+
+end;
+
+function TPaymentCreditCard.ExecuteMercuryWithCard: Boolean;
+begin
+
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercuryWithCard');
+
+  if not Assigned(FMercutyWidget) then
+    FMercutyWidget := TCCredit.Create;
+
+  with TCCredit(FMercutyWidget) do
+  begin
+    //Manual entry card
+   (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step Manualy entry card ( Credit )', '(PII):'+ self.ClassName);
+    OnNeedSwipe          := NeedSwipe;
+    AfterSucessfullSwipe := AfterSucessfullSwipe;
+
+    if VoidSaleTransation then
+      OnNeedTroutD       := NeedTroutD
+    else
+      OnNeedTroutD       := nil;
+
+    FMemo                := PaymentMemo;
+    FOperatorID          := IntToStr(FIDUser);
+    FInvoiceNo           := getTicketNumber;
+    FRefNo               := FMercutyWidget.FInvoiceNo;
+    FPurchase            := FPaymentValue;
+    FTax                 := 0;
+    FCardSwiped          := CardSwiped;
+
+    if (FPaymentValue > 0) then
+      ProcessSale
+    else
+      if VoidSaleTransation then begin
+        VoidSale;
+          (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step VoidSale ( Credit Card) - Value: ' + CurrToStr(FPaymentValue), '(PII):'+ self.ClassName);
+      end
+      else
+        ProcessRefund;
+  end;
+
+  FTraceControl.TraceOut;
+
+end;
+
+{ TPaymentPrePaid }
+
+function TPaymentPrePaid.ExecuteMercury: Boolean;
+var
+  iMsgResult: Integer;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercury');
+
+  if CardSwiped = '' then
+    iMsgResult := MsgBox('Is the customer card present?_Total to be proccessed: ' + FormatCurr('#,##0.00', FPaymentValue), vbYesNoCancel)
+  else
+    iMsgResult := vbYes;
+
+  case iMsgResult of
+    vbYes:    Result := ExecuteMercuryWithCard;
+    vbNo:     Result := ExecuteMercuryNoCard;
+    vbCancel: FErrorMsg := 'Canceled.';
+  end;
+
+  Result := inherited ExecuteMercury;
+
+  FTraceControl.TraceOut;
+end;
+
+function TPaymentPrePaid.ExecuteMercuryNoCard: Boolean;
+var
+  sCardNumber, sMemberName, sExpireDate, sStreetAddress, sZipCode, sCVV2 : String;
+begin
+
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercuryNoCard');
+
+  with TfrmPCCharge.Create(nil) do
+  try
+    Result := StartMercury(sCardNumber, sMemberName, sExpireDate, sStreetAddress, sZipCode, sCVV2);
+    if Result then
+    begin
+
+      if not Assigned(FMercutyWidget) then
+        FMercutyWidget := TCPrePaid.Create;
+
+      with TCPrePaid(FMercutyWidget) do
+      begin
+        //Manual entry card
+        OnNeedSwipe          := nil;
+        AfterSucessfullSwipe := nil;
+
+        if VoidSaleTransation then
+          OnNeedTroutD       := NeedTroutD
+        else
+          OnNeedTroutD       := nil;
+
+        FMemo                := PaymentMemo;
+        FOperatorID          := IntToStr(FIDUser);
+        FInvoiceNo           := getTicketNumber;
+        FRefNo               := FMercutyWidget.FInvoiceNo;
+        FPurchase            := FPaymentValue;
+        FTax                 := 0;
+
+        FAcctNo              := sCardNumber;
+        FExpDate             := sExpireDate;
+
+        FAddress             := sStreetAddress;
+        FZip                 := sZipCode;
+        FCustomerCode        := sMemberName;
+
+        FTrack2              := '';
+        FCVVData             := sCVV2;
+
+        if (FPaymentValue > 0) then
+          ProcessSale
+        else
+          if VoidSaleTransation then
+            VoidSale
+          else
+            ProcessRefund;
+      end;
+
+    end
+    else
+      FErrorMsg := 'Canceled by user.';
+  finally
+    Free;
+  end;
+
+  FTraceControl.TraceOut;
+
+end;
+
+function TPaymentPrePaid.ExecuteMercuryWithCard: Boolean;
+begin
+  FTraceControl.TraceIn(Self.ClassName + '.ExecuteMercuryWithCard');
+
+  if not Assigned(FMercutyWidget) then
+    FMercutyWidget := TCPrePaid.Create;
+
+  with TCPrePaid(FMercutyWidget) do
+  begin
+    //Manual entry card
+   (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step Manualy entry card ( Credit )', '(PII):'+ self.ClassName);
+    OnNeedSwipe          := NeedSwipe;
+    AfterSucessfullSwipe := AfterSucessfullSwipe;
+
+    if VoidSaleTransation then
+      OnNeedTroutD       := NeedTroutD
+    else
+      OnNeedTroutD       := nil;
+
+    FMemo                := PaymentMemo;
+    FOperatorID          := IntToStr(FIDUser);
+    FInvoiceNo           := getTicketNumber;
+    FRefNo               := FMercutyWidget.FInvoiceNo;
+    FPurchase            := FPaymentValue;
+    FTax                 := 0;
+    FCardSwiped          := CardSwiped;
+
+    if (FPaymentValue > 0) then
+      ProcessSale
+    else
+      if VoidSaleTransation then begin
+        VoidSale;
+          (* amfsouza 09.26.2011-debug *)FTraceControl.SaveTrace(FIdUser, 'Debug-Step VoidSale ( Credit Card) - Value: ' + CurrToStr(FPaymentValue), '(PII):'+ self.ClassName);
+      end
+      else
+        ProcessRefund;
+  end;
+
+  FTraceControl.TraceOut;
+
+end;
+
+function TPaymentPrePaid.getPaymentType: Integer;
+begin
+// 3
+end;
+
+end.

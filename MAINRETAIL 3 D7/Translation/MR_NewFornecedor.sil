@@ -1,0 +1,22 @@
+[Captions]
+TNewFornecedor.btClose=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TNewFornecedor.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TNewFornecedor.Label1=Vendor :~!@#$Fornecedor :~!@#$Proveedor :~!@#$
+TNewFornecedor.lbQtyToOrder=Qty minimum : ~!@#$Qtd mínima : ~!@#$Qtd mínima : ~!@#$
+TNewFornecedor.lbQtyType=CaseQty :~!@#$Qtd Embalagem :~!@#$Qty del caso :~!@#$
+TNewFornecedor.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TNewFornecedor.TNewFornecedor=NewVendor~!@#$NovoFornecedor~!@#$NuevoProveedor~!@#$
+TNewFornecedor.lbVendorCost=Vendor Cost :~!@#$Custo Fornec:~!@#$Custo Prov :~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TNewFornecedor.cbxQtyType.Items=Case,Unit~!@#$Embalagem,Unitário~!@#$Embalaje,Unidad~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

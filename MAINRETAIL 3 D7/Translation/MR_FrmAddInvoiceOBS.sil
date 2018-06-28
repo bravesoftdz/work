@@ -1,0 +1,18 @@
+[Captions]
+TFrmAddInvoiceOBS.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmAddInvoiceOBS.btnNew=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TFrmAddInvoiceOBS.btnDelete=&Delete~!@#$&Excluir~!@#$&Excluir~!@#$
+TFrmAddInvoiceOBS.lblType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFrmAddInvoiceOBS.lblAdditional=Additional :~!@#$Adicional :~!@#$Adicional :~!@#$
+
+[Hints]
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmAddInvoiceOBS.cbxType.Items=All,Payment,Customer,"Sales Person"~!@#$Todas,Pagamento,Cliente,Vendedor~!@#$Todas,Pagamento,Cliente,Vendedor~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

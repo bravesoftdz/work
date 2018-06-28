@@ -1,0 +1,587 @@
+/* Cria a Procedure que remove a PK da tabela */
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Util_DropPK]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Util_DropPK]
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[sp_Util_DropDefault]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[sp_Util_DropDefault]
+GO
+
+CREATE PROCEDURE sp_Util_DropDefault(@TableName varchar(50), @ColumnName varchar(50)) AS
+DECLARE @PKName as varchar(50)
+DECLARE @SQL VARCHAR(1000)
+
+SET @PKName = (
+	select	
+		c_obj.name
+	from	sysobjects	c_obj
+	join 	syscomments	com on 	c_obj.id = com.id
+	join 	sysobjects	t_obj on c_obj.parent_obj = t_obj.id  
+	join    sysconstraints con on c_obj.id	= con.constid
+	join 	syscolumns	col on t_obj.id = col.id
+	and con.colid = col.colid
+	where
+		c_obj.uid	= user_id()
+		and c_obj.xtype	= 'D'
+		and t_obj.name = @TableName
+		and col.name = @ColumnName
+	)
+
+IF @PKName IS null
+BEGIN
+	print 'There is no Default for ' + @TableName + ' Table.'
+	RETURN 1
+END
+SET @SQL = 'ALTER TABLE ' + @TableName + ' DROP CONSTRAINT ' + @PKName
+EXEC (@SQL)
+GO
+
+CREATE PROCEDURE sp_Util_DropPK(@TableName sysname) AS
+DECLARE @PKName as varchar(50)
+DECLARE @SQL VARCHAR(1000)
+
+SET @PKName = (
+	SELECT 
+		A.name
+	FROM 
+		sysindexes A
+		INNER JOIN sysobjects B ON (A.ID = B.ID) 
+WHERE
+	B.name = @TableName
+	AND 
+	A.name like 'PK%')
+
+IF @PKName IS null
+BEGIN
+	print 'There is no PK for ' + @TableName + ' Table.'
+	RETURN 1
+END
+
+SET @SQL = 'ALTER TABLE ' + @TableName + ' DROP CONSTRAINT ' + @PKName
+
+EXEC (@SQL)
+GO
+
+
+/* CotacaoResult.Qty */
+ALTER TABLE CotacaoResult ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE CotacaoResult SET newcol = Qty
+GO
+ALTER TABLE CotacaoResult DROP COLUMN Qty
+GO
+EXEC sp_rename 'CotacaoResult.newcol', 'Qty', 'COLUMN'
+GO
+
+/* CotacaoToModel.QtyCotada */
+ALTER TABLE CotacaoToModel DROP CONSTRAINT DF_Zero177
+GO
+ALTER TABLE CotacaoToModel ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_Zero177 DEFAULT 0
+GO
+UPDATE CotacaoToModel SET newcol = QtyCotada
+GO
+ALTER TABLE CotacaoToModel DROP COLUMN QtyCotada
+GO
+EXEC sp_rename 'CotacaoToModel.newcol', 'QtyCotada', 'COLUMN'
+GO
+
+/* EstimatedItem.Qty */
+ALTER TABLE EstimatedItem ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE EstimatedItem SET newcol = Qty
+GO
+ALTER TABLE EstimatedItem DROP COLUMN Qty
+GO
+EXEC sp_rename 'EstimatedItem.newcol', 'Qty', 'COLUMN'
+GO
+
+/* Fis_Registro60Item.Qtde */
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60Item]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+ALTER TABLE Fis_Registro60Item ADD newcol Decimal(38, 4) NULL
+GO
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60Item]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+UPDATE Fis_Registro60Item SET newcol = Qtde
+GO
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60Item]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+ALTER TABLE Fis_Registro60Item DROP COLUMN Qtde
+GO
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60Item]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+EXEC sp_rename 'Fis_Registro60Item.newcol', 'Qtde', 'COLUMN'
+GO
+
+/* Fis_Registro60Item.Qtde */
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60ResumoDiario]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+ALTER TABLE Fis_Registro60ResumoDiario ADD newcol Decimal(38, 4) NULL
+GO
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60ResumoDiario]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+UPDATE Fis_Registro60ResumoDiario SET newcol = Qtde
+GO
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60ResumoDiario]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+ALTER TABLE Fis_Registro60ResumoDiario DROP COLUMN Qtde
+GO
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Fis_Registro60ResumoDiario]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+EXEC sp_rename 'Fis_Registro60ResumoDiario.newcol', 'Qtde', 'COLUMN'
+GO
+
+/* Inventory.QtyOnPreSale */
+ALTER TABLE Inventory DROP CONSTRAINT DF_ZERO59 
+GO
+ALTER TABLE Inventory ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO59 DEFAULT 0
+GO
+UPDATE Inventory SET newcol = QtyOnPreSale
+GO
+ALTER TABLE Inventory DROP COLUMN QtyOnPreSale
+GO
+EXEC sp_rename 'Inventory.newcol', 'QtyOnPreSale', 'COLUMN'
+GO
+
+/* Inventory.QtyOnHand */
+ALTER TABLE INVENTORY DROP CONSTRAINT DF_ZERO60
+GO
+ALTER TABLE inventory ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO60 DEFAULT 0
+GO
+UPDATE inventory SET newcol = QtyOnHand
+GO
+ALTER TABLE inventory DROP COLUMN QtyOnHand
+GO
+EXEC sp_rename 'inventory.newcol', 'QtyOnHand', 'COLUMN'
+GO
+
+/* Inventory.QtyOnOrder */
+ALTER TABLE INVENTORY DROP CONSTRAINT DF_ZERO61 
+GO
+ALTER TABLE inventory ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO61 DEFAULT 0
+GO
+UPDATE inventory SET newcol = QtyOnOrder
+GO
+ALTER TABLE inventory DROP COLUMN QtyOnOrder
+GO
+EXEC sp_rename 'inventory.newcol', 'QtyOnOrder', 'COLUMN'
+GO
+
+/* Inventory.QtyOnRepair */
+ALTER TABLE INVENTORY DROP CONSTRAINT DF_ZERO62
+GO
+ALTER TABLE inventory ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO62 DEFAULT 0
+GO
+UPDATE inventory SET newcol = QtyOnRepair
+GO
+ALTER TABLE inventory DROP COLUMN QtyOnRepair
+GO
+EXEC sp_rename 'inventory.newcol', 'QtyOnRepair', 'COLUMN'
+GO
+
+
+/* Inventory.MaxQty */
+ALTER TABLE INVENTORY DROP CONSTRAINT DF_ZERO63
+GO
+ALTER TABLE inventory ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO63 DEFAULT 0
+GO
+UPDATE inventory SET newcol = MaxQty
+GO
+ALTER TABLE inventory DROP COLUMN MaxQty
+GO
+EXEC sp_rename 'inventory.newcol', 'MaxQty', 'COLUMN'
+GO
+
+/* Inventory.MinQty */
+ALTER TABLE INVENTORY DROP CONSTRAINT DF_ZERO64
+GO
+ALTER TABLE INVENTORY ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO64 DEFAULT 0
+GO
+UPDATE INVENTORY SET newcol = MinQty
+GO
+ALTER TABLE INVENTORY DROP COLUMN MinQty
+GO
+EXEC sp_rename 'INVENTORY.newcol', 'MinQty', 'COLUMN'
+GO
+
+/* Inventory.QtyContada */
+ALTER TABLE INVENTORY ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE INVENTORY SET newcol = QtyContada
+GO
+ALTER TABLE INVENTORY DROP COLUMN QtyContada
+GO
+EXEC sp_rename 'INVENTORY.newcol', 'QtyContada', 'COLUMN'
+GO
+
+/* Inventory.QtyOnPrePurchase */
+ALTER TABLE INVENTORY DROP CONSTRAINT DF_ZERO67
+GO
+ALTER TABLE inventory ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO67 DEFAULT 0
+GO
+UPDATE inventory SET newcol = QtyOnPrePurchase
+GO
+ALTER TABLE inventory DROP COLUMN QtyOnPrePurchase
+GO
+EXEC sp_rename 'inventory.newcol', 'QtyOnPrePurchase', 'COLUMN'
+GO
+
+
+--							--
+--	InventoryMov tem que desabilitar a TRIGGER	--
+--							--
+ALTER TABLE InventoryMov DISABLE TRIGGER ALL
+GO
+/* InventoryMov.Qty */
+ALTER TABLE InventoryMov ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE InventoryMov SET newcol = QTY
+GO
+ALTER TABLE InventoryMov DROP COLUMN QTY
+GO
+EXEC sp_rename 'InventoryMov.newcol', 'QTY', 'COLUMN'
+GO
+
+/* InventoryMov.QtyExchanged */
+ALTER TABLE INVENTORYMOV ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE INVENTORYMOV SET newcol = QtyExchanged
+GO
+ALTER TABLE INVENTORYMOV DROP COLUMN QtyExchanged
+GO
+EXEC sp_rename 'INVENTORYMOV.newcol', 'QtyExchanged', 'COLUMN'
+GO
+
+--							--
+--	InventoryMov tem que reabilitar a TRIGGER	--
+--							--
+ALTER TABLE InventoryMov ENABLE TRIGGER ALL
+GO
+
+/* InventoryMovTotal.TotQty */
+ALTER TABLE INVENTORYMOVTOTAL DROP CONSTRAINT DF_ZERO121
+GO
+ALTER TABLE InventoryMovTotal ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO121 DEFAULT 0
+GO
+UPDATE InventoryMovTotal SET newcol = TotQty
+GO
+ALTER TABLE InventoryMovTotal DROP COLUMN TotQty
+GO
+EXEC sp_rename 'InventoryMovTotal.newcol', 'TotQty', 'COLUMN'
+GO
+
+/* InvResetHistory.Qty */
+ALTER TABLE InvResetHistory ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE InvResetHistory SET newcol = Qty
+GO
+ALTER TABLE InvResetHistory DROP COLUMN Qty
+GO
+EXEC sp_rename 'InvResetHistory.newcol', 'Qty', 'COLUMN'
+GO
+
+/* Model.TotQtyOnHand */
+ALTER TABLE MODEL DROP CONSTRAINT DF_ZERO51 
+GO
+ALTER TABLE Model ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO51 DEFAULT 0
+GO
+UPDATE Model SET newcol = TotQtyOnHand
+GO
+ALTER TABLE Model DROP COLUMN TotQtyOnHand
+GO
+EXEC sp_rename 'Model.newcol', 'TotQtyOnHand', 'COLUMN'
+GO
+
+/* Model.TotQtyOnRepair */
+ALTER TABLE MODEL ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE MODEL SET newcol = TotQtyOnRepair
+GO
+ALTER TABLE MODEL DROP COLUMN TotQtyOnRepair
+GO
+EXEC sp_rename 'MODEL.newcol', 'TotQtyOnRepair', 'COLUMN'
+GO
+
+
+/* Model.TotQtyOnPreSale */
+ALTER TABLE MODEL ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE MODEL SET newcol = TotQtyOnPreSale
+GO
+ALTER TABLE MODEL DROP COLUMN TotQtyOnPreSale
+GO
+EXEC sp_rename 'MODEL.newcol', 'TotQtyOnPreSale', 'COLUMN'
+GO
+
+/* Model.TotQtyOnPrePurchase */
+ALTER TABLE model ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE model SET newcol = TotQtyOnPrePurchase
+GO
+ALTER TABLE model DROP COLUMN TotQtyOnPrePurchase
+GO
+EXEC sp_rename 'model.newcol', 'TotQtyOnPrePurchase', 'COLUMN'
+GO
+
+/* Model.TotQtyOnOrder */
+ALTER TABLE model ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE model SET newcol = TotQtyOnOrder
+GO
+ALTER TABLE model DROP COLUMN TotQtyOnOrder
+GO
+EXEC sp_rename 'model.newcol', 'TotQtyOnOrder', 'COLUMN'
+GO
+
+/* Model.CaseQty */
+ALTER TABLE MODEL ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE MODEL SET newcol = CaseQty
+GO
+ALTER TABLE MODEL DROP COLUMN CaseQty
+GO
+EXEC sp_rename 'MODEL.newcol', 'CaseQty', 'COLUMN'
+GO
+
+/* ModelTransfDet.Qty */
+ALTER TABLE ModelTransfDet DROP CONSTRAINT DF_ZERO181
+GO
+ALTER TABLE ModelTransfDet ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO181 DEFAULT 0
+GO
+UPDATE ModelTransfDet SET newcol = qty
+GO
+ALTER TABLE ModelTransfDet DROP COLUMN qty
+GO
+EXEC sp_rename 'ModelTransfDet.newcol', 'Qty', 'COLUMN'
+GO
+
+/* PackModel.Qty */
+ALTER TABLE PackModel ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE PackModel SET newcol = QTY
+GO
+ALTER TABLE PackModel DROP COLUMN QTY
+GO
+EXEC sp_rename 'PackModel.newcol', 'Qty', 'COLUMN'
+GO
+
+
+/* POItemRequest.Qty */
+ALTER TABLE POItemRequest ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE POItemRequest SET newcol = qty
+GO
+ALTER TABLE POItemRequest DROP COLUMN qty
+GO
+EXEC sp_rename 'POItemRequest.newcol', 'Qty', 'COLUMN'
+GO
+
+
+--							--
+--	PreInventoryMov tem que desabilitar a TRIGGER	--
+--							--
+ALTER TABLE PreInventoryMov DISABLE TRIGGER ALL
+
+
+/* PreInventoryMov.Qty */
+ALTER TABLE PreInventoryMov DROP CONSTRAINT DF_ZERO127
+GO
+ALTER TABLE PreInventoryMov ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO127 DEFAULT 0
+GO
+UPDATE PreInventoryMov SET newcol = qty
+GO
+ALTER TABLE PreInventoryMov DROP COLUMN qty
+GO
+EXEC sp_rename 'PreInventoryMov.newcol', 'Qty', 'COLUMN'
+GO
+
+/* PreInventoryMov.QtyRealMov */
+ALTER TABLE PreInventoryMov DROP CONSTRAINT DF_ZERO131
+GO
+ALTER TABLE PreInventoryMov ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_ZERO131 DEFAULT 0
+GO
+UPDATE PreInventoryMov SET newcol = QtyRealMov
+GO
+ALTER TABLE PreInventoryMov DROP COLUMN QtyRealMov
+GO
+EXEC sp_rename 'PreInventoryMov.newcol', 'QtyRealMov', 'COLUMN'
+GO
+
+/* PreInventoryMov.QtyExceeded */
+ALTER TABLE PreInventoryMov DROP CONSTRAINT DF_Zero1482
+GO
+ALTER TABLE PreInventoryMov ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_Zero1482 DEFAULT 0
+GO
+UPDATE PreInventoryMov SET newcol = QtyExceeded
+GO
+ALTER TABLE PreInventoryMov DROP COLUMN QtyExceeded
+GO
+EXEC sp_rename 'PreInventoryMov.newcol', 'QtyExceeded', 'COLUMN'
+GO
+
+/* PreInventoryMov.QtyExchanged */
+ALTER TABLE PREINVENTORYMOV ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE PREINVENTORYMOV SET newcol = QtyExchanged
+GO
+ALTER TABLE PREINVENTORYMOV DROP COLUMN QtyExchanged
+GO
+EXEC sp_rename 'PREINVENTORYMOV.newcol', 'QtyExchanged', 'COLUMN'
+GO
+
+/* PreInventoryMov.CaseQty */
+ALTER TABLE PreInventoryMov ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE PreInventoryMov SET newcol = CaseQty
+GO
+ALTER TABLE PreInventoryMov DROP COLUMN CaseQty
+GO
+EXEC sp_rename 'PreInventoryMov.newcol', 'CaseQty', 'COLUMN'
+GO
+
+--							--
+--	PreInventoryMov tem que reabilitar a TRIGGER	--
+--							--
+ALTER TABLE PreInventoryMov ENABLE TRIGGER ALL
+GO
+
+
+
+/* Pur_PurchaseItem.Qty */
+ALTER TABLE Pur_PurchaseItem ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Pur_PurchaseItem SET newcol = QTY
+GO
+ALTER TABLE Pur_PurchaseItem DROP COLUMN QTY
+GO
+EXEC sp_rename 'Pur_PurchaseItem.newcol', 'Qty', 'COLUMN'
+GO
+
+/* Pur_PurchaseItem.QtyRet */
+ALTER TABLE Pur_PurchaseItem ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Pur_PurchaseItem SET newcol = QtyRet
+GO
+ALTER TABLE Pur_PurchaseItem DROP COLUMN QtyRet
+GO
+EXEC sp_rename 'Pur_PurchaseItem.newcol', 'QtyRet', 'COLUMN'
+GO
+
+/* Pur_PurchaseItem.CaseQty */
+ALTER TABLE Pur_PurchaseItem ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Pur_PurchaseItem SET newcol = CaseQty
+GO
+ALTER TABLE Pur_PurchaseItem DROP COLUMN CaseQty
+GO
+EXEC sp_rename 'Pur_PurchaseItem.newcol', 'CaseQty', 'COLUMN'
+GO
+
+/* Repair.Qty */
+ALTER TABLE Repair ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Repair SET newcol = Qty
+GO
+ALTER TABLE Repair DROP COLUMN Qty
+GO
+EXEC sp_rename 'Repair.newcol', 'Qty', 'COLUMN'
+GO
+
+/* Request.QtyReq */
+ALTER TABLE Request ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Request SET newcol = QtyReq
+GO
+ALTER TABLE Request DROP COLUMN QtyReq
+GO
+EXEC sp_rename 'Request.newcol', 'QtyReq', 'COLUMN'
+GO
+
+/* Request.QtyOrdered */
+ALTER TABLE Request ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Request SET newcol = QtyOrdered
+GO
+ALTER TABLE Request DROP COLUMN QtyOrdered
+GO
+EXEC sp_rename 'Request.newcol', 'QtyOrdered', 'COLUMN'
+GO
+
+/* UpInvent.Qty */
+ALTER TABLE UpInvent ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE UpInvent SET newcol = Qty
+GO
+ALTER TABLE UpInvent DROP COLUMN Qty
+GO
+EXEC sp_rename 'UpInvent.newcol', 'Qty', 'COLUMN'
+GO
+
+
+/* KitModel.Qty */
+EXEC sp_Util_DropPK 'KitModel'
+GO
+
+EXEC sp_Util_DropDefault 'KitModel', 'Qty'
+GO
+ALTER TABLE KitModel ADD newcol Decimal(38, 4) NOT NULL DEFAULT 0
+GO
+UPDATE KitModel SET newcol = Qty
+GO
+ALTER TABLE KitModel DROP COLUMN Qty
+GO
+EXEC sp_rename 'KitModel.newcol', 'Qty', 'COLUMN'
+GO
+ALTER TABLE KitModel ADD PRIMARY KEY CLUSTERED 
+	(
+		IDModel,
+		Qty
+	)  
+GO
+
+
+/* Pur_PurchaseQtyOrder.Qty */
+--							--
+--	Pur_PurchaseQtyOrder tem que desabilitar a TRIGGER	--
+--							--
+ALTER TABLE Pur_PurchaseQtyOrder DISABLE TRIGGER ALL
+
+ALTER TABLE Pur_PurchaseQtyOrder ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Pur_PurchaseQtyOrder SET newcol = Qty
+GO
+ALTER TABLE Pur_PurchaseQtyOrder DROP COLUMN Qty
+GO
+EXEC sp_rename 'Pur_PurchaseQtyOrder.newcol', 'Qty', 'COLUMN'
+GO
+--							--
+--	Pur_PurchaseQtyOrder tem que reabilitar a TRIGGER	--
+--							--
+ALTER TABLE Pur_PurchaseQtyOrder ENABLE TRIGGER ALL
+
+
+
+/* Pur_PurchaseQtyPrePurchase.Qty */
+--									--
+--	Pur_PurchaseQtyPrePurchase tem que desabilitar a TRIGGER	--
+--									--
+ALTER TABLE Pur_PurchaseQtyPrePurchase DISABLE TRIGGER ALL
+
+ALTER TABLE Pur_PurchaseQtyPrePurchase ADD newcol Decimal(38, 4) NULL
+GO
+UPDATE Pur_PurchaseQtyPrePurchase SET newcol = Qty
+GO
+ALTER TABLE Pur_PurchaseQtyPrePurchase DROP COLUMN Qty
+GO
+EXEC sp_rename 'Pur_PurchaseQtyPrePurchase.newcol', 'Qty', 'COLUMN'
+GO
+--								--
+--	Pur_PurchaseQtyPrePurchase tem que reabilitar a TRIGGER	--
+--								--
+ALTER TABLE Pur_PurchaseQtyPrePurchase ENABLE TRIGGER ALL
+GO
+
+
+/* Inv_ModelVendor.CaseQty */
+ALTER TABLE Inv_ModelVendor DROP CONSTRAINT DF_InvModelVendor_CaseQty_Zero
+GO
+ALTER TABLE Inv_ModelVendor ADD newcol Decimal(38, 4) NULL CONSTRAINT DF_InvModelVendor_CaseQty_Zero DEFAULT 0
+GO
+UPDATE Inv_ModelVendor SET newcol = CaseQty
+GO
+ALTER TABLE Inv_ModelVendor DROP COLUMN CaseQty
+GO
+EXEC sp_rename 'Inv_ModelVendor.newcol', 'CaseQty', 'COLUMN'
+GO

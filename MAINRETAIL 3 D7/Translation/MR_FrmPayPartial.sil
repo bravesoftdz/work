@@ -1,0 +1,42 @@
+[Captions]
+TFrmPayPartial.btClose=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmPayPartial.btnAdd=&Add~!@#$&Adicionar~!@#$&Agregar~!@#$
+TFrmPayPartial.btnDel=&Delete~!@#$&Deletar~!@#$&Borrar~!@#$
+TFrmPayPartial.btnDelAll=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmPayPartial.lbAmount=Amount :~!@#$Valor :~!@#$Valor :~!@#$
+TFrmPayPartial.lbBank=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFrmPayPartial.lbCheckEnd=Final Check :~!@#$Doc. Fim :~!@#$Cheque Fim :~!@#$
+TFrmPayPartial.lbCustomerInfo=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPayPartial.lbDate=Date :~!@#$Data :~!@#$Data :~!@#$
+TFrmPayPartial.lbDoc=Doc :~!@#$CPF :~!@#$Doc :~!@#$
+TFrmPayPartial.lbFrequency=Frequency :~!@#$Nº Vezes :~!@#$Frecuencia :~!@#$
+TFrmPayPartial.lbIniCheck=Initial Check :~!@#$Doc. Ini :~!@#$Cheque Ini :~!@#$
+TFrmPayPartial.lblPaymentPlace=P. Place~!@#$Local~!@#$Lugar~!@#$
+TFrmPayPartial.lbName=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TFrmPayPartial.lbPAmount=Amount :~!@#$Valor :~!@#$Valor :~!@#$
+TFrmPayPartial.lbPayments=Payments~!@#$Pagamentos~!@#$Pagamentos~!@#$
+TFrmPayPartial.lbPBank=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFrmPayPartial.lbPDate=Date :~!@#$Data :~!@#$Data :~!@#$
+TFrmPayPartial.lbPDoc=Doc :~!@#$CPF :~!@#$Doc :~!@#$
+TFrmPayPartial.lbPhone=Phone :~!@#$Tel :~!@#$Tel :~!@#$
+TFrmPayPartial.lbPOBS=OBS :~!@#$OBS :~!@#$OBS :~!@#$
+TFrmPayPartial.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmPayPartial.TFrmPayPartial=Pay Partial~!@#$Pre-Datado~!@#$Pre-Datado~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmPayPartial.cmbPaymentPlace.Items=Store,Delivery,Other,~!@#$Loja,Contra-Entrega,Outros,~!@#$Loja,Contra-Entrega,Outros,~!@#$
+TFrmPayPartial.cmbPaymentType.FilterFields=~!@#$~!@#$~!@#$
+TFrmPayPartial.cmbPaymentType.FilterValues=~!@#$~!@#$~!@#$
+TFrmPayPartial.scBank.FilterFields=~!@#$~!@#$~!@#$
+TFrmPayPartial.scBank.FilterValues=~!@#$~!@#$~!@#$
+TFrmPayPartial.scBankEdit.FilterFields=~!@#$~!@#$~!@#$
+TFrmPayPartial.scBankEdit.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

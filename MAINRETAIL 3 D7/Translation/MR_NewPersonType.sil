@@ -1,0 +1,21 @@
+[Captions]
+TNewPersonType.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TNewPersonType.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TNewPersonType.EspacamentoDireito=~!@#$~!@#$~!@#$
+TNewPersonType.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TNewPersonType.EspacamentoInferior=~!@#$~!@#$~!@#$
+TNewPersonType.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TNewPersonType.hhh=~!@#$~!@#$~!@#$
+TNewPersonType.lblTypePerson=Person Type :~!@#$Tipo Pessoa :~!@#$Tipo De la Persona :~!@#$
+TNewPersonType.Panel1=~!@#$~!@#$~!@#$
+TNewPersonType.Panel3=~!@#$~!@#$~!@#$
+TNewPersonType.sbHelp=&Help~!@#$&Ajuda~!@#$A&yuda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

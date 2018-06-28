@@ -1,0 +1,40 @@
+[Captions]
+TFrmUserMessager.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmUserMessager.btnRemove=Remove~!@#$Remover~!@#$Remover~!@#$
+TFrmUserMessager.btnRestore=Restore~!@#$Restaurar~!@#$Restaurar~!@#$
+TFrmUserMessager.btnForward=Forward~!@#$Encaminhar~!@#$Delantero~!@#$
+TFrmUserMessager.btnMarkMsg=Mark as read~!@#$Marcar como lida~!@#$Marque lea como~!@#$
+TFrmUserMessager.btnNew=New Message~!@#$Nova mensagem~!@#$Nueva msg~!@#$
+TFrmUserMessager.btnReplay=Replay~!@#$Responder~!@#$Responder~!@#$
+TFrmUserMessager.btnSendReceive=Refresh~!@#$Atualizar~!@#$Refresh~!@#$
+TFrmUserMessager.gridMessageDBTableView1Body=Body~!@#$Mensagem~!@#$Mensaje~!@#$
+TFrmUserMessager.gridMessageDBTableView1CreationDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmUserMessager.gridMessageDBTableView1ReadDate=ReadDate~!@#$Data Leitura~!@#$Lea la Fecha~!@#$
+TFrmUserMessager.gridMessageDBTableView1Subject=Subject~!@#$Assunto~!@#$Sujeto~!@#$
+TFrmUserMessager.gridMessageDBTableView1SystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmUserMessager.gridMessageLevel1=~!@#$~!@#$~!@#$
+TFrmUserMessager.Label1=From:~!@#$De :~!@#$Desde :~!@#$
+TFrmUserMessager.Label15=User:~!@#$Usuário :~!@#$Usuario:~!@#$
+TFrmUserMessager.Label2=Subject:~!@#$Assunto :~!@#$Sujeto :~!@#$
+TFrmUserMessager.Label3=To:~!@#$Para :~!@#$Para :~!@#$
+TFrmUserMessager.TFrmUserMessager=UserMessager~!@#$Mensagem~!@#$Mensaje~!@#$
+TFrmUserMessager.btnEmptyBin=Empty Trash~!@#$Esvaziar~!@#$Vaciar~!@#$
+
+
+[DisplayLabels]
+TFrmUserMessager.quMessageBody=Body~!@#$Mensagem~!@#$Mensaje~!@#$
+TFrmUserMessager.quMessageCreationDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmUserMessager.quMessageIDMessage=IDMessage~!@#$~!@#$~!@#$
+TFrmUserMessager.quMessageIDUserReceiver=IDUserReceiver~!@#$~!@#$~!@#$
+TFrmUserMessager.quMessageIDUserSender=IDUserSender~!@#$~!@#$~!@#$
+TFrmUserMessager.quMessageReadDate=ReadDate~!@#$Data Leitura~!@#$Lea la Fecha~!@#$
+TFrmUserMessager.quMessageSubject=Subject~!@#$Assunto~!@#$Sujeto~!@#$
+TFrmUserMessager.quMessageSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

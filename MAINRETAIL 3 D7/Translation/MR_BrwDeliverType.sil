@@ -1,0 +1,63 @@
+[Captions]
+TbrwDeliverType.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwDeliverType.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwDeliverType.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwDeliverType.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwDeliverType.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwDeliverType.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwDeliverType.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwDeliverType.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwDeliverType.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwDeliverType.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwDeliverType.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwDeliverType.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwDeliverType.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwDeliverType.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwDeliverType.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwDeliverType.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwDeliverType.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwDeliverType.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwDeliverType.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwDeliverType.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwDeliverType.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwDeliverType.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwDeliverType.grdBrowseDBIDDeliverType=IDDeliverType~!@#$ID~!@#$ID~!@#$
+TbrwDeliverType.grdBrowseDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwDeliverType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwDeliverType.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwDeliverType.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwDeliverType.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwDeliverType.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwDeliverType.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwDeliverType.TbrwDeliverType=brwDeliverType~!@#$brwTipoEnvio~!@#$brwTipoEnvio~!@#$
+
+[DisplayLabels]
+TbrwDeliverType.quBrowseIDDeliverType=IDDeliverType~!@#$IDTipoEnvio~!@#$IDTipoEnvio~!@#$
+TbrwDeliverType.quBrowseName=Name~!@#$Nome~!@#$Nombre~!@#$
+
+[Hints]
+TbrwDeliverType.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwDeliverType.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwDeliverType.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwDeliverType.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwDeliverType.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwDeliverType.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwDeliverType.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwDeliverType.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwDeliverType.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwDeliverType.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwDeliverType.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwDeliverType.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TbrwDeliverType.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,78 @@
+[Captions]
+TFchTaxCategory.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchTaxCategory.btCancelPost=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchTaxCategory.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchTaxCategory.btDelete=Remove~!@#$Remover~!@#$Remover~!@#$
+TFchTaxCategory.btnClear=Clear~!@#$Limpar~!@#$Borrar~!@#$
+TFchTaxCategory.btnCost=(c)ost~!@#$(c)usto~!@#$(c)osto~!@#$
+TFchTaxCategory.btNew=New~!@#$Novo~!@#$Nuevo~!@#$
+TFchTaxCategory.btnFreight=(f)reight~!@#$(f)rete~!@#$(f)lete~!@#$
+TFchTaxCategory.btnOther=(o)ther~!@#$(o)utros~!@#$(o)tros~!@#$
+TFchTaxCategory.btnPercent=(p)Tax~!@#$Im(p)osto~!@#$Im(p)uesto~!@#$
+TFchTaxCategory.btnShowFormula=Show Formula~!@#$Mostrar Formula~!@#$Mostrar Formula~!@#$
+TFchTaxCategory.btnSpace=Space~!@#$Espaço~!@#$Espacio~!@#$
+TFchTaxCategory.btnTest=Teste~!@#$Testar~!@#$Testar~!@#$
+TFchTaxCategory.DBCheckBox1=TaxExempt~!@#$Isentar Imposto~!@#$ExentoImpuesto~!@#$
+TFchTaxCategory.DBRadioGroup1= Operation ~!@#$ Operação ~!@#$ Operacion ~!@#$
+TFchTaxCategory.DBRadioGroup2= Operation ~!@#$ Operação ~!@#$ Operacion ~!@#$
+TFchTaxCategory.Label1=MaxItemValue :~!@#$Max Valor Item :~!@#$MaxValorItem :~!@#$
+TFchTaxCategory.Label10=Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFchTaxCategory.Label12=Formulates :~!@#$Formula :~!@#$Formula :~!@#$
+TFchTaxCategory.Label13=Tax Category :~!@#$Categoria Imposto :~!@#$Categoria Impuesto :~!@#$
+TFchTaxCategory.Label14=Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFchTaxCategory.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchTaxCategory.Label17=Acc. Payable Chart :~!@#$Categ. Contas a Pagar :~!@#$Categ. Contas a Pagar :~!@#$
+TFchTaxCategory.Label2=Tax Category :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFchTaxCategory.Label3=Tax :~!@#$Imposto :~!@#$Impuesto :~!@#$
+TFchTaxCategory.Label4=Special tax :~!@#$Impostos Especial :~!@#$Impuesto Especial :~!@#$
+TFchTaxCategory.Label6=Date end :~!@#$Data término :~!@#$Fecha término :~!@#$
+TFchTaxCategory.Label7=Date start :~!@#$Data início :~!@#$Fecha inicio :~!@#$
+TFchTaxCategory.Label8=Tax Category :~!@#$Categoria Imposto :~!@#$Categoria Impuesto :~!@#$
+TFchTaxCategory.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchTaxCategory.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchTaxCategory.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchTaxCategory.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchTaxCategory.tsPurchase=Purchase~!@#$Compras~!@#$Compras~!@#$
+TFchTaxCategory.tsSaleCharge=Sale Charge~!@#$Encargos de Venda~!@#$Encargos de ventas~!@#$
+TFchTaxCategory.tsSaleTax=Sale Tax~!@#$Impostos~!@#$Impuestos~!@#$
+TFchTaxCategory.chkExemptTax=Tax Exempt~!@#$Não totalizar Impostos~!@#$Nao totalizar Impostos~!@#$
+TFchTaxCategory.btnDiscount=(d)iscount~!@#$(d)esconto~!@#$(d)esconto~!@#$
+
+[DisplayLabels]
+TFchTaxCategory.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFchTaxCategory.quFormHidden=Hidden~!@#$Esconder~!@#$Esconder~!@#$
+TFchTaxCategory.quFormIDTaxCategory=IDTaxCategory~!@#$IDCategoriaTaxa~!@#$IDCategoriaImpuesto~!@#$
+TFchTaxCategory.quFormMaxItemValue=MaxItemValue~!@#$MaxvalorItem~!@#$MaxValorItem~!@#$
+TFchTaxCategory.quFormSpecialDateEnd=SpecialDateEnd~!@#$DataTerminoEspecial~!@#$FechaTerminoEspecial~!@#$
+TFchTaxCategory.quFormSpecialDateStart=SpecialDateStart~!@#$DataInicioEspecial~!@#$FechaInicioEspecial~!@#$
+TFchTaxCategory.quFormSpecialTax=SpecialTax~!@#$TaxaEspecial~!@#$ImpuestoEspecial~!@#$
+TFchTaxCategory.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFchTaxCategory.quFormTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFchTaxCategory.quFormTaxCategory=Tax Category~!@#$Categoria Taxa~!@#$Categoria Impuesto~!@#$
+TFchTaxCategory.quFormTaxExempt=TaxExempt~!@#$TaxaIsenta~!@#$ExentoImpuesto~!@#$
+TFchTaxCategory.quSubTaxPurchaseTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFchTaxCategory.quSubTaxPurchaseTaxCategory=Tax Category~!@#$Sub Categoria de Imposto~!@#$Sub Categoria Impuesto~!@#$
+TFchTaxCategory.quSubTaxTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TFchTaxCategory.quSubTaxTaxCategory=Tax Category~!@#$Sub Categoria Imposto~!@#$Sub Categoria Impuesto~!@#$
+TFchTaxCategory.quFormIDLancamentoTipo=Acc. Payable Chart~!@#$Categ. Contas a Pagar~!@#$Categ. Contas a Pagar~!@#$
+
+[Hints]
+TFchTaxCategory.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchTaxCategory.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchTaxCategory.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchTaxCategory.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchTaxCategory.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchTaxCategory.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFchTaxCategory.DBRadioGroup1.Items=Subtract,Add~!@#$Subtrair,Adicionar~!@#$Reste,Agregue~!@#$
+TFchTaxCategory.DBRadioGroup2.Items=Subtract,Add~!@#$Subtrair,Adicionar~!@#$Reste,Agregue~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

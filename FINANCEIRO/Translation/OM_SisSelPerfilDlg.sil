@@ -1,0 +1,55 @@
+[Captions]
+TSisSelPerfilDlg.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TSisSelPerfilDlg.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TSisSelPerfilDlg.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.Label1=Qual o perfil de acesso que deseja usar hoje ?~!@#$Qual o perfil de acesso que deseja usar hoje ?~!@#$Cuál es el perfil de acceso que desea usar hoy?~!@#$
+TSisSelPerfilDlg.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.pnlPBarra=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TSisSelPerfilDlg.TSisSelPerfilDlg=SisSelPerfilDlg~!@#$SisSelecPerfilDlg~!@#$SisSelecPerfilDlg~!@#$
+
+[Dialogs]
+TSisSelPerfilDlg.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TSisSelPerfilDlg.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TSisSelPerfilDlg.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisSelPerfilDlg.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TSisSelPerfilDlg.Error=Error~!@#$Erro~!@#$Error~!@#$
+TSisSelPerfilDlg.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TSisSelPerfilDlg.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TSisSelPerfilDlg.Information=Information~!@#$Informação~!@#$Información~!@#$
+TSisSelPerfilDlg.No=&No~!@#$&Não~!@#$&No~!@#$
+TSisSelPerfilDlg.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TSisSelPerfilDlg.OK=OK~!@#$OK~!@#$OK~!@#$
+TSisSelPerfilDlg.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TSisSelPerfilDlg.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TSisSelPerfilDlg.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TSisSelPerfilDlg.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TSisSelPerfilDlg.Currency String=$~!@#$$~!@#$$~!@#$
+TSisSelPerfilDlg.Date Separator=/~!@#$/~!@#$/~!@#$
+TSisSelPerfilDlg.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TSisSelPerfilDlg.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TSisSelPerfilDlg.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TSisSelPerfilDlg.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TSisSelPerfilDlg.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TSisSelPerfilDlg.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TSisSelPerfilDlg.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TSisSelPerfilDlg.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TSisSelPerfilDlg.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TSisSelPerfilDlg.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TSisSelPerfilDlg.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TSisSelPerfilDlg.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TSisSelPerfilDlg.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

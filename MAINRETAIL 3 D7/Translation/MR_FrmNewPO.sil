@@ -1,0 +1,60 @@
+[Captions]
+TFrameModel.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmNewPO.btAddColor= Add Color~!@#$Cor~!@#$Color~!@#$
+TFrmNewPO.btAddSize= Add Size~!@#$Tamanho~!@#$Tamaño~!@#$
+TFrmNewPO.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmNewPO.btClose=Save~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmNewPO.btConsultTransfer=Consult Transfer~!@#$Consultar Transferência~!@#$Consultar Transferencia~!@#$
+TFrmNewPO.btLoopInc=~!@#$~!@#$~!@#$
+TFrmNewPO.btnAddSizeColor= &Matrix~!@#$&Matriz~!@#$&Matriz~!@#$
+TFrmNewPO.btnFind=Search~!@#$Procurar~!@#$Busquear~!@#$
+TFrmNewPO.btnSearchDesc=Find~!@#$Proc~!@#$Proc~!@#$
+TFrmNewPO.btTransfer=Transfer~!@#$Transferência~!@#$Transferencia~!@#$
+TFrmNewPO.Label1=IDItemPedCompra~!@#$IDItemPedCompra~!@#$IDItemPedCompra~!@#$
+TFrmNewPO.Label14=Sugg. retail :~!@#$Preço Sug :~!@#$Precio Sug :~!@#$
+TFrmNewPO.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmNewPO.Label17=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmNewPO.Label2=Quantity:~!@#$Qtd :~!@#$Ctd :~!@#$
+TFrmNewPO.Label3=Cost:~!@#$Custo :~!@#$Costo :~!@#$
+TFrmNewPO.Label30=Our price :~!@#$Preço Venda :~!@#$Precio Venta :~!@#$
+TFrmNewPO.Label4=Est Arriv. :~!@#$ChegAprox :~!@#$LlegAprox :~!@#$
+TFrmNewPO.Label5=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmNewPO.Label6=Vendor :~!@#$Fornec. :~!@#$Prov. :~!@#$
+TFrmNewPO.Label7=Size and Colors~!@#$Tamanho e Cores~!@#$Tamaño y Colores~!@#$
+TFrmNewPO.Label8=Ordered on :~!@#$Pedido em :~!@#$Pedido el :~!@#$
+TFrmNewPO.lblCaseCost=Cost:~!@#$Custo :~!@#$Costo :~!@#$
+TFrmNewPO.lblCaseQty=Quantity:~!@#$Qtd :~!@#$Ctd :~!@#$
+TFrmNewPO.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmNewPO.lblModified=Edit Mode~!@#$Modo Edição~!@#$Modo Edición~!@#$
+TFrmNewPO.lblQtyType=Type:~!@#$Tipo:~!@#$Tipo:~!@#$
+TFrmNewPO.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmNewPO.lbPOTotal=PO Total Due: 0.00~!@#$Total Pedido :~!@#$Total Pedido :~!@#$
+TFrmNewPO.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmNewPO.TFrmNewPO=FrmNewPO~!@#$FrmNovoPedido~!@#$FrmNuevoPedido~!@#$
+
+[Hints]
+TFrmNewPO.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFrmNewPO.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFrmNewPO.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFrmNewPO.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFrmNewPO.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFrmNewPO.Label10=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.Label11=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.Label12=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.Label13=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.Label16=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.Label18=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.Label9=Field can not be empty~!@#$Campo deve ser preenchido~!@#$Campo debe ser llenado~!@#$
+TFrmNewPO.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmNewPO.cbxQtyType.Items=Case,Unit~!@#$Embalagem,Unitário~!@#$Embalaje,Unidad~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

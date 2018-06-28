@@ -1,0 +1,68 @@
+[Captions]
+TSisMoedaFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisMoedaFch.btFchBrwDetalhe=&Detail~!@#$&Detalhes~!@#$&Detalles~!@#$
+TSisMoedaFch.btFchBrwNovo=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TSisMoedaFch.btFchBrwRemove=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TSisMoedaFch.btFchBrwRestaura=&Restore~!@#$&Reestabelecer~!@#$&Restablecer~!@#$
+TSisMoedaFch.btFirstRec=~!@#$~!@#$~!@#$
+TSisMoedaFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisMoedaFch.cbPadrao=Moeda de Referência~!@#$Moeda de Referência~!@#$Moneda de Referencia~!@#$
+TSisMoedaFch.grbFchBrwDataCotacao=Date~!@#$Data~!@#$Fecha~!@#$
+TSisMoedaFch.Label1=Cod :~!@#$Cód :~!@#$Cód :~!@#$
+TSisMoedaFch.Label2=Currency :~!@#$Atual :~!@#$Actual :~!@#$
+TSisMoedaFch.Label3=Acronym :~!@#$Sigla :~!@#$Sigla :~!@#$
+TSisMoedaFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisMoedaFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TSisMoedaFch.lblPTitulo=Currency~!@#$Moeda~!@#$Moneda~!@#$
+TSisMoedaFch.lblPTituloShadow=Currency~!@#$Moeda~!@#$Moneda~!@#$
+TSisMoedaFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlBottomAlign=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlBrw=pnlBrw~!@#$pnlBrw~!@#$pnlBrw~!@#$
+TSisMoedaFch.pnlBrwCmd=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlBrwEspacoEsquerdo=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlBrwTitle=  Quotation~!@#$Cotação~!@#$Cotización~!@#$
+TSisMoedaFch.pnlBrwTitleBotton=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlBrwTitleTop=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlLeftSpace=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlNavigation=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlPBarra=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlPLinha=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TSisMoedaFch.pnlRightSpace=~!@#$~!@#$~!@#$
+TSisMoedaFch.tsBrowse=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TSisMoedaFch.quFchBrwDataCotacao=Data~!@#$Data~!@#$Fecha~!@#$
+TSisMoedaFch.quFchBrwIDMoeda=IDMoeda~!@#$IDMoeda~!@#$IDMoneda~!@#$
+TSisMoedaFch.quFchBrwIDMoedaCotacao=IDMoedaCotacao~!@#$IDCotaçãoMoeda~!@#$IDCotizaciónMoneda~!@#$
+TSisMoedaFch.quFchBrwValorMoedaPadrao=RUN TIME~!@#$TEMPO RODADO~!@#$TIEMPO CORRIDO~!@#$
+TSisMoedaFch.quFormCodigoMoeda=CodigoMoeda~!@#$CódigoMoeda~!@#$IDCódigoMoneda~!@#$
+TSisMoedaFch.quFormDataCotacao=DataCotacao~!@#$DataCotação~!@#$FechaCotización~!@#$
+TSisMoedaFch.quFormIDMoeda=IDMoeda~!@#$IDMoeda~!@#$IDMoneda~!@#$
+TSisMoedaFch.quFormMoeda=Moeda~!@#$Moeda~!@#$Moneda~!@#$
+TSisMoedaFch.quFormMoedaPadrao=MoedaPadrao~!@#$MoedaPadrão~!@#$MonedaPatrón~!@#$
+TSisMoedaFch.quFormSigla=Sigla~!@#$Sigla~!@#$Sigla~!@#$
+TSisMoedaFch.quFormValorMoedaPadrao=ValorMoedaPadrao~!@#$ValorMoedaPadrão~!@#$ValorMonedaPatrón~!@#$
+
+[Hints]
+TSisMoedaFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TSisMoedaFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TSisMoedaFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TSisMoedaFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TSisMoedaFch.btOK=~!@#$~!@#$~!@#$
+TSisMoedaFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TSisMoedaFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TSisMoedaFch.imgFolder=Doucle-click to show deleted~!@#$Duplo clique para mostrar os eliminados~!@#$Presione dos veces para mostrar los eliminados~!@#$
+TSisMoedaFch.ImgTrash=Doucle-click to show non deleted items~!@#$Duplo clique para não mostrar os eliminados~!@#$Presione dos veces para no mostrar los eliminados~!@#$
+TSisMoedaFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,42 @@
+object dmNFe: TdmNFe
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Left = 314
+  Top = 349
+  Height = 228
+  Width = 178
+  object ACBrNFe: TACBrNFe
+    Configuracoes.Geral.Salvar = True
+    Configuracoes.Geral.PathSalvar = 'c:\work\mrNfe\log\'
+    Configuracoes.WebServices.UF = 'RJ'
+    Configuracoes.WebServices.AguardarConsultaRet = 0
+    Configuracoes.WebServices.IntervaloTentativas = 1000
+    Configuracoes.WebServices.AjustaAguardaConsultaRet = False
+    DANFE = ACBrNFeDANFERave
+    Left = 60
+    Top = 20
+  end
+  object ACBrNFeDANFERave: TACBrNFeDANFERave
+    ACBrNFe = ACBrNFe
+    Sistema = 'MainRetail'
+    PathPDF = 'c:\work\mrNfe\log\'
+    ImprimirHoraSaida = False
+    MostrarPreview = True
+    MostrarStatus = True
+    TipoDANFE = tiRetrato
+    NumCopias = 1
+    ImprimirDescPorc = False
+    ImprimirTotalLiquido = False
+    MargemInferior = 0.800000000000000000
+    MargemSuperior = 0.800000000000000000
+    MargemEsquerda = 0.600000000000000000
+    MargemDireita = 0.510000000000000000
+    CasasDecimais._qCom = 2
+    CasasDecimais._vUnCom = 2
+    ExibirResumoCanhoto = False
+    FormularioContinuo = False
+    RavFile = 'C:\work\MRNFE\Report\NotaFiscalEletronica.rav'
+    Left = 60
+    Top = 75
+  end
+end

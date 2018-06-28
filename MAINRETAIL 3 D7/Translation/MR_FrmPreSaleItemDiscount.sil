@@ -1,0 +1,20 @@
+[Captions]
+TFrmPreSaleItemDiscount.btApply=&Apply~!@#$&Aplicar~!@#$&Aplicar~!@#$
+TFrmPreSaleItemDiscount.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmPreSaleItemDiscount.Label1=Selling Price :~!@#$Preço de venda :~!@#$Precio Venta :~!@#$
+TFrmPreSaleItemDiscount.Label2=Discount :~!@#$Desconto:~!@#$Desconto:~!@#$
+TFrmPreSaleItemDiscount.Label3=New Price :~!@#$Novo Preço :~!@#$Nuevo Precio :~!@#$
+TFrmPreSaleItemDiscount.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmPreSaleItemDiscount.TFrmPreSaleItemDiscount=Item Discount~!@#$Desconto de item~!@#$Descuento de artículo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmPreSaleItemDiscount.cmbCalcType.Items="Percent (%)","Amount ($)"~!@#$"Percentual ( %) ","Valor ($)"~!@#$"Por ciento ( %) ","la Cantidad ($)"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,2 @@
+10/05/2010 17:18 SQL (Global) : Erro arquivos não atualizados.
+10/05/2010 17:18 SQL (Global - Customer.xml) : Invalid column name 'StoreAccountLimit'

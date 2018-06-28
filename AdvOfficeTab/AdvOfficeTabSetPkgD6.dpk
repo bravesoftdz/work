@@ -1,0 +1,46 @@
+package AdvOfficeTabSetPkgD6;
+
+{$R *.res}
+{$R 'AdvOfficeTabSetReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TMS TAdvOfficeTabSet'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb,
+  designide;
+
+contains
+  AdvOfficeTabSetStylers in 'AdvOfficeTabSetStylers.pas',
+  AdvOfficeTabSet in 'AdvOfficeTabSet.pas',
+  AdvOfficeTabSetReg in 'AdvOfficeTabSetReg.pas',
+  AdvOfficeTabSetRegDE in 'AdvOfficeTabSetRegDE.pas',
+  AdvStyleIF in 'advstyleif.pas',
+  AdvGDIP in 'AdvGDIP.pas',
+  AdvGlowButton in 'AdvGlowButton.pas',
+  GDIPicture in 'GDIPicture.pas',
+  AdvHintInfo in 'AdvHintInfo.pas',
+  GDIPicDE in 'GDIPicDe.pas';
+
+end.

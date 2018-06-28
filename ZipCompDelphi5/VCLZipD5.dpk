@@ -1,0 +1,47 @@
+package VCLZipD5;
+
+{$R *.RES}
+{$R 'VCLZip.dcr'}
+{$R 'VCLUnZip.dcr'}
+{$R 'kpSFXCfg.dcr'}
+{$ALIGN ON}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'VCLZip 2.23'}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl50,
+  Vclx50;
+
+contains
+  VCLZip in 'VCLZip.pas',
+  VCLUnZip in 'VCLUnZip.pas',
+  kpZipObj in 'kpzipobj.pas',
+  KpLib in 'kplib.pas',
+  kpSStrm in 'kpsstrm.pas',
+  kpSHuge in 'kpshuge.pas',
+  kpCntn in 'kpcntn.pas',
+  kpMatch in 'kpmatch.pas',
+  kpZcnst in 'kpzcnst.pas',
+  kpSFXCfg in 'kpSFXCfg.pas';
+
+end.

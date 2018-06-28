@@ -1,0 +1,30 @@
+[Captions]
+TSisMenuFxd.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisMenuFxd.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisMenuFxd.lblObs=lblTitulo~!@#$lblTitulo~!@#$lblTitulo~!@#$
+TSisMenuFxd.lblPath=Estock \ Purchase~!@#$Estoque \ Compra~!@#$Existente \ Compra~!@#$
+TSisMenuFxd.lblTitulo=lblTitulo~!@#$lblTitulo~!@#$lblTitulo~!@#$
+TSisMenuFxd.Panel1=~!@#$~!@#$~!@#$
+TSisMenuFxd.Panel3=~!@#$~!@#$~!@#$
+TSisMenuFxd.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisMenuFxd.TSisMenuFxd=SisMenuFxd~!@#$SisMenúFxd~!@#$SisMenúFxd~!@#$
+
+[DisplayLabels]
+TSisMenuFxd.quMenuFormID=FormID~!@#$FormaID~!@#$FormaID~!@#$
+TSisMenuFxd.quMenuIDMenuItem=IDMenuItem~!@#$IDItemMenú~!@#$IDItemMenú~!@#$
+TSisMenuFxd.quMenuIDMenuItemParent=IDMenuItemParent~!@#$IDItemMenúParent~!@#$IDItemMenúParent~!@#$
+TSisMenuFxd.quMenuImageIndex=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagem~!@#$
+TSisMenuFxd.quMenuLoaderType=LoaderType~!@#$Tipo Carga~!@#$Tipo Carga~!@#$
+TSisMenuFxd.quMenuMenuItem=MenuItem~!@#$ItemMenú~!@#$ItemMenú~!@#$
+TSisMenuFxd.quMenuObs=Obs~!@#$Obs~!@#$Obs~!@#$
+TSisMenuFxd.quMenuParametro=Parametro~!@#$Parámetro~!@#$Parámetro~!@#$
+TSisMenuFxd.quMenuPriority=Priority~!@#$Prioridade~!@#$Prioridade~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,60 @@
+[Captions]
+TbrwFrmInventMovType.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmInventMovType.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmInventMovType.Label1=ID :~!@#$ID :~!@#$ID :~!@#$
+TbrwFrmInventMovType.Label10=QtyOnHand :~!@#$Estoque :~!@#$CtdExistente :~!@#$
+TbrwFrmInventMovType.Label11=QtyOnRepair :~!@#$Conserto :~!@#$CtdEnReparación :~!@#$
+TbrwFrmInventMovType.Label12=QtyOnOrder :~!@#$Pedido :~!@#$CtdEnPedido :~!@#$
+TbrwFrmInventMovType.Label13=QtyOnHold :~!@#$Pendente :~!@#$CtdEnBoletaPendiente :~!@#$
+TbrwFrmInventMovType.Label14=QtyInReceiving :~!@#$Recebida :~!@#$CtdRecibida :~!@#$
+TbrwFrmInventMovType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmInventMovType.Label2=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TbrwFrmInventMovType.Label3=QtyOnHand :~!@#$Estoque :~!@#$CtdExistente :~!@#$
+TbrwFrmInventMovType.Label4=QtyOnRepair :~!@#$Conserto :~!@#$CtdEnReparación :~!@#$
+TbrwFrmInventMovType.Label5=QtyOnOrder :~!@#$Pedido :~!@#$CtdEnPedido :~!@#$
+TbrwFrmInventMovType.Label6=QtyOnHold :~!@#$Pendente :~!@#$CtdEnBoletaPendiente :~!@#$
+TbrwFrmInventMovType.Label7=Update~!@#$Atualizar~!@#$Actualizar~!@#$
+TbrwFrmInventMovType.Label8=QtyInReceiving :~!@#$Recebida :~!@#$CtdRecibida :~!@#$
+TbrwFrmInventMovType.Label9=Update~!@#$Atualizar~!@#$Actualizar~!@#$
+TbrwFrmInventMovType.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmInventMovType.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmInventMovType.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmInventMovType.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwFrmInventMovType.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmInventMovType.TbrwFrmInventMovType=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+TbrwFrmInventMovType.tsInventory=Permanent Inventory~!@#$Permanente ~!@#$Inventario Permanente~!@#$
+TbrwFrmInventMovType.tsPreInventory=Temporary Inventory~!@#$Temporário~!@#$Inventario Transitorio~!@#$
+
+
+[DisplayLabels]
+TbrwFrmInventMovType.quFormEntrando=Enter~!@#$Entrar~!@#$Entrar~!@#$
+TbrwFrmInventMovType.quFormIDInventMovType=IDInventMovType~!@#$ID~!@#$ID~!@#$
+TbrwFrmInventMovType.quFormName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwFrmInventMovType.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TbrwFrmInventMovType.quFormUpdateOnHand=UpdateOnHand~!@#$AtualizarEmLoja~!@#$ActualizarExistentes~!@#$
+TbrwFrmInventMovType.quFormUpdateOnOrder=UpdateOnOrder~!@#$AtualizarEmPedido~!@#$ActualizarEnPedidos~!@#$
+TbrwFrmInventMovType.quFormUpdateOnPrePurchase=UpdateOnPrePurchase~!@#$AtualizarEmPreCompra~!@#$ActualizarEnPreCompra~!@#$
+TbrwFrmInventMovType.quFormUpdateOnPreSale=UpdateOnPreSale~!@#$AtualizarEmPreVenda~!@#$ActualizarEnPreVenta~!@#$
+TbrwFrmInventMovType.quFormUpdateOnRepair=UpdateOnRepair~!@#$AtualizarEmConserto~!@#$ActualizarEnReparación~!@#$
+TbrwFrmInventMovType.quFormUpdatePreOnHand=UpdatePreOnHand~!@#$AtualizarPreEmLoja~!@#$ActualizarPreExistentes~!@#$
+TbrwFrmInventMovType.quFormUpdatePreOnOrder=UpdatePreOnOrder~!@#$AtualizarPreEmPedido~!@#$ActualizarPreEnPedidos~!@#$
+TbrwFrmInventMovType.quFormUpdatePreOnPrePurchase=UpdatePreOnPrePurchase~!@#$AtualizarPreEmPreCompra~!@#$ActualizarPreEnPreCompra~!@#$
+TbrwFrmInventMovType.quFormUpdatePreOnPreSale=UpdatePreOnPreSale~!@#$AtualizarPreEmPreVenda~!@#$ActualizarPreEnPreVenta~!@#$
+TbrwFrmInventMovType.quFormUpdatePreOnRepair=UpdatePreOnRepair~!@#$AtualizarPreEmConserto~!@#$ActualizarPreEnReparación~!@#$
+
+[Hints]
+TbrwFrmInventMovType.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmInventMovType.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmInventMovType.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmInventMovType.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmInventMovType.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmInventMovType.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

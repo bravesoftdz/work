@@ -1,0 +1,88 @@
+[Captions]
+TFchPromo.btAdd=F2 &Add~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TFchPromo.btAddItemDiscount=F3 Add~!@#$F3 Adicionar~!@#$F3 Agregar~!@#$
+TFchPromo.btAddPersonType=Add~!@#$Adicionar~!@#$Agregar~!@#$
+TFchPromo.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchPromo.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchPromo.btColumn=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFchPromo.btColumnItemDiscount=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFchPromo.btGroup=&Grouping~!@#$&Agrupar~!@#$&Agrupar~!@#$
+TFchPromo.btnDelPersonType=&Remove~!@#$Remover~!@#$Remover~!@#$
+TFchPromo.btPreview=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TFchPromo.btRemove=F4 Re&move~!@#$F4 &Remover~!@#$F4 &Remover~!@#$
+TFchPromo.btRemoveItemDiscount=F4 Remove~!@#$F4 Remover~!@#$F4 Remover~!@#$
+TFchPromo.cxGrid1DBTableView1TipoPessoa=Person Type~!@#$Tipo Pessoa~!@#$Tipo De la Persona~!@#$
+TFchPromo.dbxFlatPromo=Same as(X)~!@#$Mesmo que(X)~!@#$Igual que el(X)~!@#$
+TFchPromo.gpCoupon=Coupon~!@#$Cupom~!@#$Cupón~!@#$
+TFchPromo.gpFrequentBuyer=FrequentBuyer~!@#$Freq. de Compra~!@#$Comprador Frecuente ~!@#$
+TFchPromo.gpLoyalty=Loyalty~!@#$Fidelização~!@#$Lealtad~!@#$
+TFchPromo.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchPromo.grdBrowseDBIDModel=IDModel~!@#$ID Modelo~!@#$ID Modelo~!@#$
+TFchPromo.grdBrowseDBIDPromo=IDPromo~!@#$ID Promoção~!@#$ID Promo~!@#$
+TFchPromo.grdBrowseDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchPromo.grdPromoItemDBCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFchPromo.grdPromoItemDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchPromo.grdPromoItemDBGroup=Sub-Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TFchPromo.grdPromoItemDBManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFchPromo.grdPromoItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchPromo.grdPromoItemDBNewMargin=New Margin~!@#$Nova Margem~!@#$Nuevo Margen~!@#$
+TFchPromo.grdPromoItemDBSubCategory=Sub-Category~!@#$Grupo~!@#$Sub-Category~!@#$
+TFchPromo.grdPromoItemDBVendor=Vendor~!@#$Fornecedor~!@#$Surtidor~!@#$
+TFchPromo.grdPromoItemDiscountDBCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFchPromo.grdPromoItemDiscountDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFchPromo.grdPromoItemDiscountDBGroup=Sub-Grupo~!@#$Grupo~!@#$Grupo~!@#$
+TFchPromo.grdPromoItemDiscountDBManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFchPromo.grdPromoItemDiscountDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchPromo.grdPromoItemDiscountDBSubCategory=Sub-Category~!@#$Grupo~!@#$Sub-Category~!@#$
+TFchPromo.grdPromoItemDiscountDBVendor=Vendor~!@#$Fornecedor~!@#$Surtidor~!@#$
+TFchPromo.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TFchPromo.lbFreqInfo=Number of units of a product the customer needs to purchase to receive the promo. The customer must be selected during each sale.~!@#$Número de unidades de um produto que o cliente precisa comprar para receber a promoção. O cliente deve ser selecionado em cada venda.~!@#$Número de unidades de un producto que el cliente necesita comprar para recibir el descuento. El cliente debe seleccionar en cada venta.~!@#$
+TFchPromo.lblBarcode=Barcode :~!@#$Código de Barra :~!@#$Barcode :~!@#$
+TFchPromo.lblDayOfWeek=Day Of Week :~!@#$Dia da Semama :~!@#$Día De la Semana :~!@#$
+TFchPromo.lblDiscountType=Discount Type :~!@#$Tipo Desc. :~!@#$Tipo Del Descuento :~!@#$
+TFchPromo.lblDiscountValue=Discount Value :~!@#$Valor Desc. :~!@#$Valor Del Descuento :~!@#$
+TFchPromo.lblEndDate=End Date :~!@#$Data Final :~!@#$Fecha Del Extremo :~!@#$
+TFchPromo.lblModified=Edit Mode~!@#$Mode de Edição~!@#$Corrija El Modo ~!@#$
+TFchPromo.lblPromo=Promo Name :~!@#$Nome Promoção :~!@#$Nombre Promo :~!@#$
+TFchPromo.lblPromoType=Promo Type :~!@#$Tipo Prom. :~!@#$Tipo Promo : ~!@#$
+TFchPromo.lblQtyFrequent=Qty Frequent :~!@#$Qtd Frequência :~!@#$Qtd Frecuente :~!@#$
+TFchPromo.lblQtyPromoItem=Qty Promo Item :~!@#$Qtd Item Prom. :~!@#$Artículo Promo Qtd :~!@#$
+TFchPromo.lblStartDate=Start Date :~!@#$Data Inicial :~!@#$Comience Fecha  :~!@#$
+TFchPromo.lblStore=Store :~!@#$Loja :~!@#$Almacén :~!@#$
+TFchPromo.pnDiscount=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TFchPromo.pnlVendorCode=PersonType~!@#$Tipo Pessoa~!@#$Tipo De la Persona ~!@#$
+TFchPromo.pnPromo=Promo~!@#$Promoção~!@#$Promo~!@#$
+TFchPromo.pnPromoItems=Promo Items~!@#$Itens da promoção~!@#$Artículos Del Promo~!@#$
+TFchPromo.pnSchedule=Schedule~!@#$Programação~!@#$Horario~!@#$
+TFchPromo.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TFchPromo.quFormBarcode=Barcode~!@#$Código de Barra~!@#$Barcode~!@#$
+TFchPromo.quFormDaysOfWeek=DaysOfWeek~!@#$Dias da Semana~!@#$Día De la Semana :~!@#$
+TFchPromo.quFormDiscountType=DiscountType~!@#$Tipo de Desonto~!@#$Tipo Del Descuento :~!@#$
+TFchPromo.quFormDiscountValue=DiscountValue~!@#$Valor do Desconto~!@#$Valor Del Descuento :~!@#$
+TFchPromo.quFormEndDate=EndDate~!@#$Data Final~!@#$Fecha Del Extremo~!@#$
+TFchPromo.quFormIDPromo=IDPromo~!@#$ID Promoção~!@#$IDPromo~!@#$
+TFchPromo.quFormIDStore=IDStore~!@#$ID Loja~!@#$ID Almacén~!@#$
+TFchPromo.quFormPromo=Promo Name~!@#$Nome Promoção~!@#$Nombre Promo~!@#$
+TFchPromo.quFormPromoType=PromoType~!@#$Tipo de Promoçao~!@#$Tipo Promo~!@#$
+TFchPromo.quFormQtyFrequent=QtyFrequent~!@#$Qtd Frequência de Compra~!@#$Qtd Frecuente~!@#$
+TFchPromo.quFormQtyPromoItem=QtyPromoItem~!@#$Qtd Item da Promoção~!@#$Artículo Promo Qtd~!@#$
+TFchPromo.quFormStartDate=StartDate~!@#$Data Inicial ~!@#$Comience Fecha~!@#$
+TFchPromo.quLoyaltyCustomerIDPromo=IDPromo~!@#$ID Promoção~!@#$ID  Promo~!@#$
+TFchPromo.quLoyaltyCustomerIDTipoPessoa=IDPerson Type~!@#$ID Tipo Pessoa~!@#$ID Tipo persona~!@#$
+TFchPromo.quLoyaltyCustomerTipoPessoa=Person Type~!@#$Tipo Pessoa~!@#$Tipo persona~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFchPromo.cbxDayOfWeek.Items=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda-Feira,Terça-Feira,Quarta-Feira,Quinta-Feira,Sexta-Feira,"Sábado "~!@#$Domingo,Lunes,Martes,Miércoles,Jueves,Viernes,"Sábado "~!@#$
+TFchPromo.cbxDiscountType.Items=Percentual,"Discounting in Item ",Qty,"Discounting in Note"~!@#$Percentagem,"Desconto no Item",Quantidade,"Desconto na Nota"~!@#$Percentual,"Descontar en la artículo ",Qtd,"Descontar en la Nota "~!@#$
+TFchPromo.cbxPromoType.Items=Sale,FrequentBuyer,Coupon,Loyalty~!@#$Venda,"Frequência de Compra",Cupom,Fidelização~!@#$Venta,"Compra Frecuente","Cupón ","Lealtad "~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

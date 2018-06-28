@@ -1,0 +1,19 @@
+[Captions]
+TFrmPO.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmPO.btOK=OK~!@#$OK~!@#$OK~!@#$
+TFrmPO.Label1=Vendor :~!@#$Fornecedor :~!@#$Proveedor :~!@#$
+TFrmPO.Label2=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFrmPO.Label3=Est Arriv. :~!@#$Cheg. Aprox :~!@#$LlegAprox :~!@#$
+TFrmPO.Label4=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmPO.Label5=Pay in~!@#$Pagar em~!@#$Pargar em~!@#$
+TFrmPO.Label6=day(s)~!@#$dia(s)~!@#$dia(s)~!@#$
+TFrmPO.TNewPO=New PO~!@#$Novo Pedido Compra~!@#$Nuevo Pedido Compra~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

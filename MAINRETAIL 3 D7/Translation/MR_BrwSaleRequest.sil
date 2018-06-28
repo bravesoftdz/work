@@ -1,0 +1,104 @@
+[Captions]
+TbrwSaleRequest.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwSaleRequest.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwSaleRequest.btAutoReq=Toggle AutoReq.~!@#$Requisição Auto~!@#$AutoReq~!@#$
+TbrwSaleRequest.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwSaleRequest.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwSaleRequest.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwSaleRequest.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwSaleRequest.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwSaleRequest.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwSaleRequest.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwSaleRequest.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwSaleRequest.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwSaleRequest.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwSaleRequest.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwSaleRequest.btnForceRequest=Force computer req.~!@#$Iniciar req. comp.~!@#$Inic. req. comp.~!@#$
+TbrwSaleRequest.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwSaleRequest.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwSaleRequest.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwSaleRequest.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwSaleRequest.btOnlyOpen=Requests without PO~!@#$Requisição sem OC~!@#$Requerir sin OC~!@#$
+TbrwSaleRequest.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwSaleRequest.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwSaleRequest.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwSaleRequest.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwSaleRequest.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwSaleRequest.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwSaleRequest.grdBrowseDBAutomaticRequest=AutoReq~!@#$Requisição Auto~!@#$AutoReq~!@#$
+TbrwSaleRequest.grdBrowseDBCategory=Category~!@#$Categoría~!@#$Categoría~!@#$
+TbrwSaleRequest.grdBrowseDBClassABC=Class ABC~!@#$Classe ABC~!@#$Clase ABC~!@#$
+TbrwSaleRequest.grdBrowseDBDateRequest=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwSaleRequest.grdBrowseDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwSaleRequest.grdBrowseDBGroupID=GroupID~!@#$CategoríaID~!@#$CategoríaID~!@#$
+TbrwSaleRequest.grdBrowseDBIDManufacturer=IDManufacturer~!@#$IDFabricante~!@#$IDFabricante~!@#$
+TbrwSaleRequest.grdBrowseDBIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TbrwSaleRequest.grdBrowseDBIDRequest=IDRequest~!@#$IDRequerido~!@#$IDRequerido~!@#$
+TbrwSaleRequest.grdBrowseDBIDVendor=IDVendor~!@#$IDFornecedor~!@#$IDProveedor~!@#$
+TbrwSaleRequest.grdBrowseDBManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TbrwSaleRequest.grdBrowseDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwSaleRequest.grdBrowseDBModelLastMovDate=ModelLastMovDate~!@#$DataUltMovItem~!@#$FechaUltMovItem~!@#$
+TbrwSaleRequest.grdBrowseDBQtyOrdered=QtyOrdered~!@#$Qtd Ordenada~!@#$CtdRequerida~!@#$
+TbrwSaleRequest.grdBrowseDBQtyReq=QtyReq~!@#$Qtd Requerida~!@#$CtdReq~!@#$
+TbrwSaleRequest.grdBrowseDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwSaleRequest.grdBrowseDBSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TbrwSaleRequest.grdBrowseDBTotQtyOnHand=TotQtyOnHand~!@#$TotQtdEmLoja~!@#$TotCtdExistente~!@#$
+TbrwSaleRequest.grdBrowseDBVendor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TbrwSaleRequest.grdBrowseLevel=~!@#$~!@#$~!@#$
+TbrwSaleRequest.hhh=~!@#$~!@#$~!@#$
+TbrwSaleRequest.Label1=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwSaleRequest.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwSaleRequest.Label2=Requests~!@#$Tipo Req.~!@#$Tipo Req.~!@#$
+TbrwSaleRequest.Label7=Store :~!@#$Loja~!@#$Tienda~!@#$
+TbrwSaleRequest.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TbrwSaleRequest.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwSaleRequest.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwSaleRequest.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TbrwSaleRequest.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwSaleRequest.lbTo=To~!@#$Até~!@#$Hasta~!@#$
+TbrwSaleRequest.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwSaleRequest.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwSaleRequest.quBrowseAutomaticRequest=AutomaticRequest~!@#$Requerimento Automático~!@#$RequerimientoAutomático~!@#$
+TbrwSaleRequest.quBrowseCategory=Category~!@#$Categoría~!@#$Categoría~!@#$
+TbrwSaleRequest.quBrowseDateRequest=DateRequest~!@#$Data Requerimento~!@#$FechaRequerimiento~!@#$
+TbrwSaleRequest.quBrowseDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TbrwSaleRequest.quBrowseGroupID=GroupID~!@#$CategoríaID~!@#$CategoríaID~!@#$
+TbrwSaleRequest.quBrowseIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TbrwSaleRequest.quBrowseIDRequest=IDRequest~!@#$ID~!@#$IDRequerido~!@#$
+TbrwSaleRequest.quBrowseIDVendor=IDVendor~!@#$IDFornecedor~!@#$IDProveedor~!@#$
+TbrwSaleRequest.quBrowseModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TbrwSaleRequest.quBrowseModelLastMovDate=ModelLastMovDate~!@#$DataUltMovItem~!@#$FechaUltMovItem~!@#$
+TbrwSaleRequest.quBrowseQtyOrdered=QtyOrdered~!@#$QtdSolicitada~!@#$CtdSolicitada~!@#$
+TbrwSaleRequest.quBrowseQtyReq=QtyReq~!@#$Qtd Pedida~!@#$CtdReq~!@#$
+TbrwSaleRequest.quBrowseStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TbrwSaleRequest.quBrowseSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TbrwSaleRequest.quBrowseTotQtyOnHand=TotQtyOnHand~!@#$TotQtdEmLoja~!@#$TotCtdExistente~!@#$
+
+[Hints]
+TbrwSaleRequest.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwSaleRequest.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwSaleRequest.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwSaleRequest.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwSaleRequest.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwSaleRequest.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwSaleRequest.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwSaleRequest.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwSaleRequest.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwSaleRequest.btOnlyOpen=Click here to filter request items not currently on PO~!@#$Clique Aquí para Filtrar Items Requeridos não incluidos em Pedidos~!@#$Presione Aquí para Filtrar Items Requeridos no Incluidos en Pedidos~!@#$
+TbrwSaleRequest.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwSaleRequest.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwSaleRequest.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwSaleRequest.cxbFilterReq.Items=All,"User ",Category,Manufacturer,System,HandHeld~!@#$Tudo,"Usuário ",Categoría,Fabricante,Sistema,Coletor~!@#$Todo,"Usuario ",Categoría,Fabricante,Sistema,Coletor~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

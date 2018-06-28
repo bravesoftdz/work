@@ -1,0 +1,61 @@
+[Captions]
+TSubRupture.btColumn=Colum&ns~!@#$&Colunas~!@#$Columnas~!@#$
+TSubRupture.btExcel=E&xport~!@#$&Exportar~!@#$Exportación~!@#$
+TSubRupture.btGroup=&Grouping~!@#$A&grupar~!@#$El agrupar~!@#$
+TSubRupture.btPrint=&Preview~!@#$&Visualizar~!@#$Inspección previo~!@#$
+TSubRupture.grdRuptureDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSubRupture.grdRuptureDBFinalQty=Final Qty~!@#$Qtd Final~!@#$Cantidad final~!@#$
+TSubRupture.grdRuptureDBGiro=Avg Sales~!@#$Média Vendas~!@#$Ventas medias~!@#$
+TSubRupture.grdRuptureDBIDModel=IDModel~!@#$~!@#$~!@#$
+TSubRupture.grdRuptureDBInitialQty=Initial Qty~!@#$Qtd Inicial~!@#$Cantidad inicial~!@#$
+TSubRupture.grdRuptureDBLostRevenue=Lost Revenue~!@#$Ruptura~!@#$Rédito perdido~!@#$
+TSubRupture.grdRuptureDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TSubRupture.grdRuptureDBNetProfit=Lost Profit~!@#$Perda de Receita~!@#$Beneficio perdido~!@#$
+TSubRupture.grdRuptureDBNumDaysZeroSupply=Num days zero supply~!@#$Num dias zero estoque~!@#$Días del número cero fuente~!@#$
+TSubRupture.grdRuptureDBSalePrice=Sale Price~!@#$Preço Venda~!@#$Precio de venta~!@#$
+TSubRupture.grdRuptureDBTax=Tax~!@#$Imposto~!@#$Impuesto~!@#$
+TSubRupture.grdRuptureDBVendor=Vendor~!@#$Fornecedor~!@#$Surtidor~!@#$
+TSubRupture.grdRuptureDBVendorCost=Vendor Cost~!@#$Custo~!@#$Coste~!@#$
+TSubRupture.grdRuptureLevel=~!@#$~!@#$~!@#$
+TSubRupture.gridPrinterLink=New Report~!@#$~!@#$~!@#$
+TSubRupture.Panel1=~!@#$~!@#$~!@#$
+TSubRupture.pnlDivisoria2=~!@#$~!@#$~!@#$
+TSubRupture.TSubRupture=SubRupture~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TSubRupture.cdsRupturaDescription=Description~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaGiro=Giro~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaIDModel=IDModel~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaLucro=Lucro~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaModel=Model~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaNumDiasRuptura=NumDiasRuptura~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaPessoa=Pessoa~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaQtdFinal=QtdFinal~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaQtdInicial=QtdInicial~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaRuptura=Ruptura~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaSellingPrice=SellingPrice~!@#$~!@#$~!@#$
+TSubRupture.cdsRupturaVendorCost=VendorCost~!@#$~!@#$~!@#$
+TSubRupture.qryGiroBalanceQty=BalanceQty~!@#$~!@#$~!@#$
+TSubRupture.qryMovimentoMovDate=MovDate~!@#$~!@#$~!@#$
+TSubRupture.qryMovimentoQty=Qty~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaDescription=Description~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaGiro=Giro~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaIDModel=IDModel~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaLucro=Lucro~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaModel=Model~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaNumDiasRuptura=NumDiasRuptura~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaPessoa=Pessoa~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaQtdFinal=QtdFinal~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaQtdInicial=QtdInicial~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaRuptura=Ruptura~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaSellingPrice=SellingPrice~!@#$~!@#$~!@#$
+TSubRupture.qryRupturaVendorCost=VendorCost~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

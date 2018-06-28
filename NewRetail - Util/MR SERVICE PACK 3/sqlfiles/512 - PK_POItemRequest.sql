@@ -1,0 +1,3 @@
+ALTER TABLE POItemRequest ADD CONSTRAINT
+	XPKPOItemRequest PRIMARY KEY (IDPreInventoryMov, IDRequest)
+GO

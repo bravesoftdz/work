@@ -1,0 +1,36 @@
+[Captions]
+TFrmSearchCustomer.btClose=&Close~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmSearchCustomer.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colu&nas~!@#$
+TFrmSearchCustomer.btnOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmSearchCustomer.grdCustomerDBCEP=ZIP~!@#$CEP~!@#$C.POSTAL~!@#$
+TFrmSearchCustomer.grdCustomerDBPessoa=Full Name~!@#$Nome~!@#$Persona~!@#$
+TFrmSearchCustomer.grdCustomerDBPessoaFirstName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmSearchCustomer.grdCustomerDBPessoaLastName=FirstName~!@#$Nome~!@#$Persona~!@#$
+TFrmSearchCustomer.grdCustomerDBPhone=Phone~!@#$Tel.~!@#$Tel.~!@#$
+TFrmSearchCustomer.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmSearchCustomer.Label5=Search for~!@#$Buscar por~!@#$Buscar por~!@#$
+TFrmSearchCustomer.sbDetailCustumer=&Details~!@#$&Detalhe~!@#$&Detalhe~!@#$
+TFrmSearchCustomer.sbNewCostumer=&New~!@#$&Novo~!@#$&Novo~!@#$
+TFrmSearchCustomer.TFrmSearchCustomer=Search Customer~!@#$Buscar~!@#$Buscar~!@#$
+
+[DisplayLabels]
+TFrmSearchCustomer.quCostumerCEP=ZIP~!@#$CEP~!@#$C.POSTAL~!@#$
+TFrmSearchCustomer.quCostumerCustomerCard=CustomerCard~!@#$Cartão Cliente~!@#$Tarjeta Cliente~!@#$
+TFrmSearchCustomer.quCostumerDriverLicense=DriverLicense~!@#$CarteiraMotorista~!@#$LicenciaConducir~!@#$
+TFrmSearchCustomer.quCostumerPessoa=Full Name~!@#$Nome~!@#$Persona~!@#$
+TFrmSearchCustomer.quCostumerPessoaFirstName=FirstName~!@#$Nome~!@#$Persona~!@#$
+TFrmSearchCustomer.quCostumerPessoaLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmSearchCustomer.quCostumerPhone=Phone~!@#$Tel.~!@#$Tel.~!@#$
+TFrmSearchCustomer.quCostumerSocialSecurity=SocialSecurity~!@#$Carteira Identidade~!@#$Carnet Identidad~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmSearchCustomer.cbSearchFor.Items="First Name","Last Name","Driver License","Customer Card","Full Name","Employee ID","Federal ID #"~!@#$Nome,Sobrenome,"Carteira Motorista","Cartão Cliente","Nome Completo",C.P.F.,C.N.P.J.~!@#$Nombre,Apellido,"Licencia Conducir","Tarjeta Cliente","Nombre Completo",ID,"Federal ID #"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

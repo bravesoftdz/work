@@ -1,0 +1,37 @@
+[Captions]
+TSubSaleConsult.btnExec=&GO!~!@#$IR!~!@#$IR!~!@#$
+TSubSaleConsult.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSubSaleConsult.Label1=Date~!@#$Data~!@#$Fetcha~!@#$
+TSubSaleConsult.Label3=Search Documents~!@#$Procurar Documentos~!@#$Procurar Documentos~!@#$
+TSubSaleConsult.Label4=Hold #~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TSubSaleConsult.Label5=Search for~!@#$Procurar por~!@#$Procurar por~!@#$
+TSubSaleConsult.lblBasicFilter=~!@#$~!@#$~!@#$
+TSubSaleConsult.lblSubMenu=Search~!@#$Procurar~!@#$Procurar~!@#$
+TSubSaleConsult.lbParamSearch=Docs~!@#$Docs~!@#$Docs~!@#$
+TSubSaleConsult.lbSearchName=Name~!@#$Nome~!@#$Nombre~!@#$
+TSubSaleConsult.btnShowNote=Show Notes~!@#$Mostrar OBS~!@#$Mostrar OBS~!@#$
+
+
+[DisplayLabels]
+TSubSaleConsult.quPreSaleIDPreSale=Number~!@#$Nº~!@#$Nº~!@#$
+TSubSaleConsult.quPreSalePessoa=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TSubSaleConsult.quPreSalePessoaFirstName=First Name~!@#$Nome~!@#$Nombre~!@#$
+TSubSaleConsult.quPreSalePessoaLastName=Last Name~!@#$Sobrenome~!@#$Apellido~!@#$
+TSubSaleConsult.quPreSalePreSaleDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TSubSaleConsult.quPreSaleSaleCode=Hold #~!@#$Nº Pedido~!@#$Nº Boleta~!@#$
+TSubSaleConsult.quPreSaleTotInvoice=Total~!@#$Total~!@#$Total~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TSubSaleConsult.cbSearchFor.Items=,"Customer Card","Employee ID","Federal ID #","Social Security"~!@#$,"Cartão Cliente",C.P.F.,"Insc. Estadual","Carteira Identidade"~!@#$,"Tarjeta Cliente",ID,"Insc. Estadual","Carnet Identidad"~!@#$
+TSubSaleConsult.cbSearchForName.Items=,"First Name","Last Name","Full Name"~!@#$,Nome,Sobrenome,"Nome Completo"~!@#$,Nombre,Apellido,"Nombre Completo"~!@#$
+TSubSaleConsult.cbxHoldStatus.Items=,"Confirmed Holds","Canceled Holds"~!@#$,"Pedidos Confirmados","Pedidos Cancelados"~!@#$,"Beletas Confirmados","Boletas Cancelados"~!@#$
+TSubSaleConsult.grdPreSales.Bands=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,37 @@
+[Captions]
+TFrmTimeControlUpdate.btCancel=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmTimeControlUpdate.btClose=Save~!@#$Salvar~!@#$Salvar~!@#$
+TFrmTimeControlUpdate.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmTimeControlUpdate.grdObjetoEnterDate=Clock IN~!@#$Hora ENTRADA~!@#$Hora ENTRADA~!@#$
+TFrmTimeControlUpdate.grdObjetoExitDate=Clock OUT~!@#$Hora SAÍDA~!@#$Hora SALIDA~!@#$
+TFrmTimeControlUpdate.hhh=~!@#$~!@#$~!@#$
+TFrmTimeControlUpdate.Label1=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmTimeControlUpdate.Label2=From~!@#$Desde~!@#$Desde~!@#$
+TFrmTimeControlUpdate.Label3=To~!@#$Até~!@#$Hasta~!@#$
+TFrmTimeControlUpdate.Label4=Date In :~!@#$Data Entrada :~!@#$Fecha Entrada :~!@#$
+TFrmTimeControlUpdate.Label5=Edit Time :~!@#$Editar Hora :~!@#$Editar Hora :~!@#$
+TFrmTimeControlUpdate.Label6=Date Out:~!@#$Data Saída :~!@#$Fecha Salida :~!@#$
+TFrmTimeControlUpdate.Label7=Edit Time :~!@#$Editar Hora :~!@#$Editar Hora :~!@#$
+TFrmTimeControlUpdate.lblMenu=Time Clock update~!@#$Atualizar Relogio~!@#$Actualizar Reloj~!@#$
+TFrmTimeControlUpdate.sbDelete=&Delete~!@#$&Eliminar~!@#$&Eliminar~!@#$
+TFrmTimeControlUpdate.sbInsert=&Insert~!@#$&Inserir~!@#$&Insertar~!@#$
+TFrmTimeControlUpdate.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmTimeControlUpdate.TFrmTimeControlUpdate=Update Time~!@#$Atualizar Relogio~!@#$Actualizar Reloj~!@#$
+
+[DisplayLabels]
+TFrmTimeControlUpdate.quListTimeGridEnterDate=EnterDate~!@#$Entrada~!@#$FechaEntrada~!@#$
+TFrmTimeControlUpdate.quListTimeGridExitDate=ExitDate~!@#$Saída~!@#$FechaSalida~!@#$
+TFrmTimeControlUpdate.quListTimeGridIDTime=IDTime~!@#$IDHora~!@#$IDHora~!@#$
+
+[Hints]
+TFrmTimeControlUpdate.sbDelete=Delete date~!@#$Eliminar data~!@#$Eliminar Fecha~!@#$
+TFrmTimeControlUpdate.sbInsert=Insert new date~!@#$Inserir nova data~!@#$Insertar nueva fecha~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

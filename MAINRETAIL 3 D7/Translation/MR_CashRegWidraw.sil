@@ -1,0 +1,36 @@
+[Captions]
+TCashRegWidraw.btCancel=Cancel~!@#$Cancel~!@#$Cancel~!@#$
+TCashRegWidraw.btClose=&Deposit~!@#$&Depositar~!@#$&Depositar~!@#$
+TCashRegWidraw.grpBill=Bills~!@#$Notas~!@#$Billetes~!@#$
+TCashRegWidraw.grpCoin=Coins~!@#$Moedas~!@#$Monedas~!@#$
+TCashRegWidraw.Label1=Max Cash Deposit~!@#$Máx Depósito~!@#$Máx Depósito~!@#$
+TCashRegWidraw.Label10=Post Dated~!@#$Pre Datado~!@#$A Fecha~!@#$
+TCashRegWidraw.Label12=Sub Total ~!@#$SubTotal~!@#$SubTotal~!@#$
+TCashRegWidraw.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TCashRegWidraw.Label16=Checks~!@#$Cheques~!@#$Cheques~!@#$
+TCashRegWidraw.Label17=Credit Cards~!@#$Crts. Crédito~!@#$Trjs Crédito~!@#$
+TCashRegWidraw.Label18=Other~!@#$Outros~!@#$Otros~!@#$
+TCashRegWidraw.Label7=Total Deposit~!@#$Total Depositado~!@#$Total Depositado~!@#$
+TCashRegWidraw.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TCashRegWidraw.lblSubMenu=Deposit Cash Register~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TCashRegWidraw.Panel11=Cash~!@#$Dinheiro~!@#$Efectivo~!@#$
+TCashRegWidraw.Panel6=Other~!@#$Outros~!@#$Otros~!@#$
+TCashRegWidraw.TCashRegWidraw=Deposit Cash Register~!@#$Depósito Caixa Registradora~!@#$Depósito Caja Registradora~!@#$
+TCashRegWidraw.lbDebitCard=Debit Cards~!@#$Crts Débito~!@#$Trj Débito~!@#$
+TCashRegWidraw.lblReason=Reason :~!@#$Motivo :~!@#$Motivo :~!@#$
+
+
+[Hints]
+TCashRegWidraw.cmbTotalCard=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presiones F2~!@#$
+TCashRegWidraw.cmbTotalCheck=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presiones F2~!@#$
+TCashRegWidraw.cmbTotalOther=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presiones F2~!@#$
+TCashRegWidraw.cmbTotalPre=Click Button to Show Calculator or press F2~!@#$Clique Botão para Mostrar Calculadora ou Pressione F2~!@#$Presione Botón para Mostrar Calculadora o Presiones F2~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

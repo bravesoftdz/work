@@ -1,0 +1,36 @@
+[Captions]
+TFrmNewCustomer.Label1=First Name :~!@#$Nome : ~!@#$Nombre :~!@#$
+TFrmNewCustomer.Label10=Cell :~!@#$Celular :~!@#$Cel :~!@#$
+TFrmNewCustomer.Label11=Website :~!@#$Website :~!@#$Website :~!@#$
+TFrmNewCustomer.Label12=Email :~!@#$Email :~!@#$Email :~!@#$
+TFrmNewCustomer.Label13=Obs :~!@#$Obs :~!@#$Obs :~!@#$
+TFrmNewCustomer.Label17=DBA :~!@#$Insc. Estatual :~!@#$DBA :~!@#$
+TFrmNewCustomer.Label18=Federal ID # :~!@#$CNPJ :~!@#$Federal ID # :~!@#$
+TFrmNewCustomer.Label19=Sales Tax # :~!@#$Insc. Municipal :~!@#$Impuesto # :~!@#$
+TFrmNewCustomer.Label2=Last name :~!@#$Sobrenome :~!@#$Apellido :~!@#$
+TFrmNewCustomer.Label20=Contact:~!@#$Contato :~!@#$Contacto :~!@#$
+TFrmNewCustomer.Label21=Social Security # :~!@#$Nº Identidade :~!@#$Identificación # :~!@#$
+TFrmNewCustomer.Label22=Birth Date :~!@#$Nascimento :~!@#$Nacimiento :~!@#$
+TFrmNewCustomer.Label23=Customer Card # :~!@#$Nº Cartão Cliente :~!@#$Tarjeta Cliente # :~!@#$
+TFrmNewCustomer.Label24=Driver's Licence # :~!@#$Nº Cart. Motorista :~!@#$Licencia Conducir # :~!@#$
+TFrmNewCustomer.Label3=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TFrmNewCustomer.Label4=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFrmNewCustomer.Label5=Neighborhood :~!@#$Bairro :~!@#$Vencindario :~!@#$
+TFrmNewCustomer.Label6=ZIP :~!@#$CEP :~!@#$Código Postal :~!@#$
+TFrmNewCustomer.Label7=Employee ID :~!@#$CPF :~!@#$Estado :~!@#$
+TFrmNewCustomer.Label8=Phone :~!@#$Tel :~!@#$Tel :~!@#$
+TFrmNewCustomer.Label9=State :~!@#$Estado :~!@#$Estado :~!@#$
+TFrmNewCustomer.lbLastName=Last name :~!@#$Sobrenome :~!@#$Apellido :~!@#$
+TFrmNewCustomer.TFrmNewCustomer=New Customer~!@#$Novo Cliente~!@#$Nuevo Cliente~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmNewCustomer.rgType.Items=Personal,Business~!@#$Físico,Jurídico~!@#$Personal,Comercial~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

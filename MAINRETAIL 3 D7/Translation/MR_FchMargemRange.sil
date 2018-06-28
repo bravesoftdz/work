@@ -1,0 +1,41 @@
+[Captions]
+TFchMargemRange.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchMargemRange.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchMargemRange.btLoopInc=~!@#$~!@#$~!@#$
+TFchMargemRange.EEE=~!@#$~!@#$~!@#$
+TFchMargemRange.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchMargemRange.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchMargemRange.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchMargemRange.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchMargemRange.hhh=~!@#$~!@#$~!@#$
+TFchMargemRange.Label1=MinValue:~!@#$Valor Mínimo :~!@#$Valor Mínimo :~!@#$
+TFchMargemRange.Label15=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFchMargemRange.Label2=MaxValue :~!@#$Valor Máximo :~!@#$Valor Máximo :~!@#$
+TFchMargemRange.Label3=Percentage :~!@#$Porcentagem :~!@#$Percentaje~!@#$
+TFchMargemRange.lblModified=Edit Mode~!@#$Modo de Edição~!@#$Corrija El Modo~!@#$
+TFchMargemRange.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFchMargemRange.Panel1=~!@#$~!@#$~!@#$
+TFchMargemRange.Panel2=~!@#$~!@#$~!@#$
+TFchMargemRange.Panel3=~!@#$~!@#$~!@#$
+TFchMargemRange.Panel4=~!@#$~!@#$~!@#$
+TFchMargemRange.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchMargemRange.pnlDetail=~!@#$~!@#$~!@#$
+TFchMargemRange.pnlKey=~!@#$~!@#$~!@#$
+TFchMargemRange.pnlNavigation=~!@#$~!@#$~!@#$
+TFchMargemRange.spHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+
+[DisplayLabels]
+TFchMargemRange.quFormIDMargemTable=IDMarginTable~!@#$ID~!@#$ID~!@#$
+TFchMargemRange.quFormIDMargemTableRange=IDMarginTableRange~!@#$IDRange~!@#$IDRange~!@#$
+TFchMargemRange.quFormMaxValue=MaxValue~!@#$Valor Máximo~!@#$Valor Máximo~!@#$
+TFchMargemRange.quFormMinValue=MinValue~!@#$Valor Mínimo~!@#$Valor Mínimo~!@#$
+TFchMargemRange.quFormPercentage=Percentage~!@#$Porcentagem~!@#$Percentajem~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

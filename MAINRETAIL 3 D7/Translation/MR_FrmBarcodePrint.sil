@@ -1,0 +1,70 @@
+[Captions]
+TFrmBarcodePrint.btAdd=&Add~!@#$&Adicionar~!@#$&Add~!@#$
+TFrmBarcodePrint.btAddAll=&Add All~!@#$Ad. Todos~!@#$Add Todo~!@#$
+TFrmBarcodePrint.btAllModel=All~!@#$Todos~!@#$Todo~!@#$
+TFrmBarcodePrint.btClearCatego=All~!@#$Todos~!@#$Todo~!@#$
+TFrmBarcodePrint.btClearGroup=All~!@#$Todos~!@#$Todo~!@#$
+TFrmBarcodePrint.btClearSubCatego=All~!@#$Todos~!@#$Todo~!@#$
+TFrmBarcodePrint.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmBarcodePrint.btDel=&Del~!@#$&Apagar~!@#$&Anular~!@#$
+TFrmBarcodePrint.btDelAll=&Del All~!@#$Apg. Todos~!@#$Anular Todo~!@#$
+TFrmBarcodePrint.btnClearList=Clear Queue~!@#$Limpar Lista~!@#$Borrar Lista~!@#$
+TFrmBarcodePrint.btnEdit=&Edit~!@#$&Editar~!@#$R&edacte~!@#$
+TFrmBarcodePrint.btnOpenFile=~!@#$~!@#$~!@#$
+TFrmBarcodePrint.btnPrint=&Print~!@#$Im&primir~!@#$Im&primir~!@#$
+TFrmBarcodePrint.btnRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmBarcodePrint.cbxInventoryCopies=Equal number of copies of inventory ~!@#$Número de cópias igual do Estoque~!@#$Número igual de las copias del inventario ~!@#$
+TFrmBarcodePrint.grdBarcodeDBCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmBarcodePrint.grdBarcodeDBData=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmBarcodePrint.grdBarcodeDBDescription=Description~!@#$Descrição~!@#$Descripción ~!@#$
+TFrmBarcodePrint.grdBarcodeDBIDBarcode=Barcode~!@#$Cód. Barras~!@#$Barcode~!@#$
+TFrmBarcodePrint.grdBarcodeDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmBarcodePrint.grdBarcodeDBNumCopy=Num Copies~!@#$Núm. Copias~!@#$Copias del Núm.~!@#$
+TFrmBarcodePrint.grdBarcodeDBSellingPrice=Selling Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmBarcodePrint.grdBarcodeIDBarcode=Barcode~!@#$Código barras~!@#$Código barras~!@#$
+TFrmBarcodePrint.grdBarcodeIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmBarcodePrint.grdBarcodeListDBBarcode=Barcode~!@#$Cód. Barras~!@#$Barcode~!@#$
+TFrmBarcodePrint.grdBarcodeListDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmBarcodePrint.grdBarcodeListDBNumCopies=Num Copies~!@#$Núm. Copias~!@#$Copias del Núm.~!@#$
+TFrmBarcodePrint.grdBarcodeListDBReport=Report~!@#$Página~!@#$Página~!@#$
+TFrmBarcodePrint.grdBarcodeListDBSellingPrice=Selling Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmBarcodePrint.grdBarcodeModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmBarcodePrint.Label4=Category :~!@#$Categoria:~!@#$Categoría:~!@#$
+TFrmBarcodePrint.Label6=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmBarcodePrint.Label7=Barcodes to print~!@#$Imprimir código barras~!@#$Impresión de código barras~!@#$
+TFrmBarcodePrint.Label8=Model :~!@#$Modelo:~!@#$Modelo:~!@#$
+TFrmBarcodePrint.lbBarcodeQueue=Click on go to display all Barcode in the Queue~!@#$Clique no "IR" para exibir a listagem do coletor~!@#$Chasque "IR" exhibir todo el Barcode en la coleta ~!@#$
+TFrmBarcodePrint.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmBarcodePrint.lbModelGroup=Sub-Category:~!@#$Grupo:~!@#$Sub Categoría:~!@#$
+TFrmBarcodePrint.lbModelSubGroup=Group:~!@#$Sub-Grupo:~!@#$Grupo:~!@#$
+TFrmBarcodePrint.lbReport1=Report 1 :~!@#$Relatório 1 :~!@#$Informe 1:~!@#$
+TFrmBarcodePrint.lbReport2=Report 2 :~!@#$Relatório 2 :~!@#$Informe 2:~!@#$
+TFrmBarcodePrint.lbSetup=Reports Setup~!@#$Configurar Relatório~!@#$Configuración Informe~!@#$
+TFrmBarcodePrint.lbSkipRep1=Skip :~!@#$Pular :~!@#$Salto~!@#$
+TFrmBarcodePrint.lbSkipRep2=Skip :~!@#$Pular :~!@#$Salto~!@#$
+TFrmBarcodePrint.lbTo=to~!@#$até~!@#$hasta~!@#$
+TFrmBarcodePrint.Panel4=Barcodes to print~!@#$Código barras p imprimir~!@#$Código barras p imprimir~!@#$
+TFrmBarcodePrint.pnlTitle5=Barcodes~!@#$Código barras~!@#$Código barras~!@#$
+TFrmBarcodePrint.ppDesigner=Application Network - Dynamic Reports~!@#$Application Network - Dynamic Reports~!@#$Application Network - Dynamic Reports~!@#$
+TFrmBarcodePrint.ppLabel1=Price :~!@#$~!@#$~!@#$
+TFrmBarcodePrint.ppLabel2=MSRP :~!@#$~!@#$~!@#$
+TFrmBarcodePrint.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmBarcodePrint.TFrmBarcodePrint=Barcode Print~!@#$Imprimir Código de barras~!@#$Impresión de Código Barras~!@#$
+TFrmBarcodePrint.tsBarcodeQueue=Print Queue~!@#$Listagem do Coletor~!@#$Coleta De Impresión~!@#$
+TFrmBarcodePrint.tsDate=Last Update~!@#$Última atualização~!@#$Actualización Pasada~!@#$
+TFrmBarcodePrint.tsMultiple=List~!@#$Lista~!@#$Lista~!@#$
+TFrmBarcodePrint.lbBarcodePrinter=Barcode printer :~!@#$Impressora :~!@#$Impressora :~!@#$
+TFrmBarcodePrint.chkPrimaryUpc=Display primary barcodes only~!@#$Mostrar apenas Cód. Barras primário~!@#$Mostrar sólo los códigos de barras primaria~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmBarcodePrint.cbxMethod.Items="Starts with","End with",Contains~!@#$"Começa com","Termina com",Contém~!@#$"Comienza con","Termina con",Contiene~!@#$
+TFrmBarcodePrint.cbxType.Items=Model,Description,Barcode~!@#$Modelo,Descrição,"Código Barra"~!@#$Model,Descripción,"Código Barra"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

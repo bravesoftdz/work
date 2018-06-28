@@ -1,0 +1,94 @@
+[Captions]
+TFrmCreateFile.btClose=Done~!@#$OK~!@#$OK~!@#$
+TFrmCreateFile.EEE=~!@#$~!@#$~!@#$
+TFrmCreateFile.EspacamentoInferior=EspacamentoInferior~!@#$EspacamentoInferior~!@#$EspacamentoInferior~!@#$
+TFrmCreateFile.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmCreateFile.Label1=File Path~!@#$Trajeto Arquivo~!@#$Trayecto Archivo~!@#$
+TFrmCreateFile.Label2=Total~!@#$Total~!@#$Total~!@#$
+TFrmCreateFile.Label3=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TFrmCreateFile.lblMenu=Email File~!@#$Email Arquivo~!@#$Email Archivo~!@#$
+TFrmCreateFile.lblSubMenu=~!@#$~!@#$~!@#$
+TFrmCreateFile.LbPath=File Path~!@#$Trajeto Arquivo~!@#$Trayecto Archivo~!@#$
+TFrmCreateFile.Panel2=~!@#$~!@#$~!@#$
+TFrmCreateFile.Panel3=~!@#$~!@#$~!@#$
+TFrmCreateFile.Panel4=~!@#$~!@#$~!@#$
+TFrmCreateFile.PanelPO=~!@#$~!@#$~!@#$
+TFrmCreateFile.SbMoveDates=UpDate Table~!@#$Atualizar Tabela~!@#$Actualizar Tabla~!@#$
+TFrmCreateFile.SbOpen=Open File~!@#$Abrir Arquivo~!@#$Abrir Archivo~!@#$
+TFrmCreateFile.TFrmCreateFile=Create File~!@#$Crear Arquivo~!@#$Crear Archivo ~!@#$
+
+[Dialogs]
+TFrmCreateFile.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TFrmCreateFile.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TFrmCreateFile.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmCreateFile.Confirm=Confirm~!@#$Corfirmar~!@#$Confirmar~!@#$
+TFrmCreateFile.Error=Error~!@#$Erro~!@#$Error~!@#$
+TFrmCreateFile.Help=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmCreateFile.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TFrmCreateFile.Information=Information~!@#$Informação~!@#$Información~!@#$
+TFrmCreateFile.No=&No~!@#$&Não~!@#$&No~!@#$
+TFrmCreateFile.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TFrmCreateFile.OK=OK~!@#$OK~!@#$OK~!@#$
+TFrmCreateFile.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TFrmCreateFile.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TFrmCreateFile.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TFrmCreateFile.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a To&do~!@#$
+
+[Hints]
+TFrmCreateFile.btClose=~!@#$~!@#$~!@#$
+TFrmCreateFile.EEE=~!@#$~!@#$~!@#$
+TFrmCreateFile.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmCreateFile.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmCreateFile.hhh=~!@#$~!@#$~!@#$
+TFrmCreateFile.IDVendor=~!@#$~!@#$~!@#$
+TFrmCreateFile.Image1=~!@#$~!@#$~!@#$
+TFrmCreateFile.Label1=~!@#$~!@#$~!@#$
+TFrmCreateFile.Label2=~!@#$~!@#$~!@#$
+TFrmCreateFile.Label3=~!@#$~!@#$~!@#$
+TFrmCreateFile.lblMenu=~!@#$~!@#$~!@#$
+TFrmCreateFile.lblSubMenu=~!@#$~!@#$~!@#$
+TFrmCreateFile.LbPath=~!@#$~!@#$~!@#$
+TFrmCreateFile.LbTotal=~!@#$~!@#$~!@#$
+TFrmCreateFile.LbVendorName=~!@#$~!@#$~!@#$
+TFrmCreateFile.Panel3=~!@#$~!@#$~!@#$
+TFrmCreateFile.Panel4=~!@#$~!@#$~!@#$
+TFrmCreateFile.PanelPO=~!@#$~!@#$~!@#$
+TFrmCreateFile.PBar=~!@#$~!@#$~!@#$
+TFrmCreateFile.SbMoveDates=Move Dates to Table~!@#$Mudar Datas Tabela~!@#$Mover Fechas Tabla~!@#$
+TFrmCreateFile.SbOpen=~!@#$~!@#$~!@#$
+TFrmCreateFile.StringGrid1=~!@#$~!@#$~!@#$
+TFrmCreateFile.TFrmCreateFile=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFrmCreateFile.Currency String=U$~!@#$$~!@#$$~!@#$
+TFrmCreateFile.Date Separator=/~!@#$/~!@#$/~!@#$
+TFrmCreateFile.Decimal Separator=.~!@#$,~!@#$,~!@#$
+TFrmCreateFile.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TFrmCreateFile.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sabado~!@#$Domingo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFrmCreateFile.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFrmCreateFile.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFrmCreateFile.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFrmCreateFile.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,Ter,Qua,Qui,Sex,Sab~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb~!@#$
+TFrmCreateFile.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFrmCreateFile.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFrmCreateFile.Thousand Separator=,~!@#$.~!@#$.~!@#$
+TFrmCreateFile.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFrmCreateFile.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFrmCreateFile.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+
+[Other]
+TFrmCreateFile.OD.DefaultExt=*.txt~!@#$~!@#$~!@#$
+TFrmCreateFile.OD.FileName=~!@#$~!@#$~!@#$
+TFrmCreateFile.OD.Filter=Text|*.txt|All|*.*~!@#$Texto|*.txt|Todos|*.*~!@#$Texto|*.txt|Todos|*.*~!@#$
+TFrmCreateFile.OD.InitialDir=~!@#$~!@#$~!@#$
+TFrmCreateFile.OD.Title=~!@#$~!@#$~!@#$
+TFrmCreateFile.TFrmCreateFile.HelpFile=~!@#$~!@#$~!@#$
+

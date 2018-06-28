@@ -1,0 +1,30 @@
+[Captions]
+TFrmNewPOTransfer.btClose=&Cancel~!@#$&Cancelar~!@#$&Cancelación~!@#$
+TFrmNewPOTransfer.btSave=Save~!@#$Salvar~!@#$Escriba~!@#$
+TFrmNewPOTransfer.EEE=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.hhh=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.Label15=User:~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmNewPOTransfer.lblDate=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFrmNewPOTransfer.lblModel=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmNewPOTransfer.lblQty=Qty :~!@#$Qtd :~!@#$Cantidad :~!@#$
+TFrmNewPOTransfer.lblSince=Since :~!@#$Desde :~!@#$Fuente :~!@#$
+TFrmNewPOTransfer.lblTo=To :~!@#$Para :~!@#$Destino :~!@#$
+TFrmNewPOTransfer.lblUser=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmNewPOTransfer.Panel1=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.Panel2=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.Panel3=~!@#$~!@#$~!@#$
+TFrmNewPOTransfer.spHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmNewPOTransfer.TFrmNewPOTransfer=Transfer~!@#$Transferência~!@#$Transferencia~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

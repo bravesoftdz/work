@@ -1,0 +1,20 @@
+[Captions]
+TFchMunicipio.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchMunicipio.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchMunicipio.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchMunicipio.Label2=Description :~!@#$UF :~!@#$UF :~!@#$
+TFchMunicipio.lbCode=Code :~!@#$Cod. (IBGE) :~!@#$Cod. (IBGE) :~!@#$
+TFchMunicipio.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TFchMunicipio.quFormCodigo=Codigo~!@#$Cod. (IBGE)~!@#$Cod. (IBGE)~!@#$
+TFchMunicipio.quFormDescricao=Descricao~!@#$UF~!@#$UF~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,105 @@
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE
+GO
+
+SET ARITHABORT ON
+GO
+
+SET NUMERIC_ROUNDABORT OFF
+GO
+
+SET CONCAT_NULL_YIELDS_NULL ON
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+SET ANSI_WARNINGS ON
+GO
+
+CREATE TABLE dbo.Tmp_TMC_TimeControl
+	(
+	IDTime int NOT NULL,
+	IDStore int NULL,
+	IDUser int NULL,
+	IDPessoa int NULL,
+	EnterDate datetime NULL,
+	ExitDate datetime NULL
+	)  ON [PRIMARY]
+GO
+
+IF EXISTS(SELECT * FROM dbo.TMC_TimeControl)
+	 EXEC('INSERT INTO dbo.Tmp_TMC_TimeControl (IDTime, IDStore, IDUser, IDPessoa, EnterDate, ExitDate)
+		SELECT IDTime, IDStore, IDUser, IDPessoa, EnterDate, ExitDate FROM dbo.TMC_TimeControl TABLOCKX')
+GO
+
+DROP TABLE dbo.TMC_TimeControl
+GO
+
+EXECUTE sp_rename N'dbo.Tmp_TMC_TimeControl', N'TMC_TimeControl', 'OBJECT'
+GO
+
+ALTER TABLE dbo.TMC_TimeControl ADD CONSTRAINT
+	PK__TMC_TimeControl__178D7CA5 PRIMARY KEY CLUSTERED 
+	(
+	IDTime
+	) ON [PRIMARY]
+
+GO
+
+CREATE NONCLUSTERED INDEX XIF88TMC_TimeControl ON dbo.TMC_TimeControl
+	(
+	IDStore
+	) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX XIF89TMC_TimeControl ON dbo.TMC_TimeControl
+	(
+	IDUser
+	) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX XIF90TMC_TimeControl ON dbo.TMC_TimeControl
+	(
+	IDPessoa
+	) ON [PRIMARY]
+GO
+
+ALTER TABLE dbo.TMC_TimeControl WITH NOCHECK ADD CONSTRAINT
+	FK_Pessoa_TMCTimeControl_IDPessoa FOREIGN KEY
+	(
+	IDPessoa
+	) REFERENCES dbo.Pessoa
+	(
+	IDPessoa
+	) NOT FOR REPLICATION
+
+GO
+
+ALTER TABLE dbo.TMC_TimeControl WITH NOCHECK ADD CONSTRAINT
+	FK_SystemUser_TMCTimeControl_IDUser FOREIGN KEY
+	(
+	IDUser
+	) REFERENCES dbo.SystemUser
+	(
+	IDUser
+	) NOT FOR REPLICATION
+
+GO
+
+ALTER TABLE dbo.TMC_TimeControl WITH NOCHECK ADD CONSTRAINT
+	FK_Store_TMCTimeControl_IDStore FOREIGN KEY
+	(
+	IDStore
+	) REFERENCES dbo.Store
+	(
+	IDStore
+	) NOT FOR REPLICATION
+
+GO
+

@@ -1,0 +1,81 @@
+[Captions]
+TFrmImportPO.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmImportPO.btMarked=Select All~!@#$Marcar Todos~!@#$Seleccione Todos ~!@#$
+TFrmImportPO.btnSave=Import &PO~!@#$Im&portar Pedido~!@#$Im&portar Pedido~!@#$
+TFrmImportPO.btPOColumn=Colum&ns~!@#$Colunas~!@#$Colunas~!@#$
+TFrmImportPO.btUnMarked=un Select All~!@#$Desmarcar Todos~!@#$Un Selecto ~!@#$
+TFrmImportPO.chkCalcTax=Auto-Calculate vendor tax~!@#$Auto-Calcular o custo com imposto do fornecedor~!@#$Auto-Calcular el impuesto del vendedor ~!@#$
+TFrmImportPO.chkUpdateSalePrice=Update Sale Price after Final Receiving items~!@#$Atualizar o preço de venda após importar pedido~!@#$Precio de venta de la actualización después del final que recibe artículos~!@#$
+TFrmImportPO.grdPODBDataPedido=Date~!@#$Data~!@#$Data~!@#$
+TFrmImportPO.grdPreSaleItemDBCaseCost=CaseCost~!@#$Custo Emb.~!@#$Custo Emb.~!@#$
+TFrmImportPO.grdPreSaleItemDBDescription=Description Model~!@#$Descrição do Modelo~!@#$Descripción del Modelo~!@#$
+TFrmImportPO.grdPreSaleItemDBExtCaseCost=ExtCaseCost~!@#$Ext. Custo Emb.~!@#$Ext. Custo Emb.~!@#$
+TFrmImportPO.grdPreSaleItemDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmImportPO.grdPreSaleItemDBNewSalePrice=New Sale Price~!@#$Novo Preço de Venda~!@#$Nuevo Precio de Venta~!@#$
+TFrmImportPO.grdPreSaleItemDBNewSuggRetail=New Sugg. Retail~!@#$Novo Preço Sugerido~!@#$Nuevo Precio Sugerido~!@#$
+TFrmImportPO.grdPreSaleItemDBQty=Qty Total~!@#$Qtd Total~!@#$Ctd Total~!@#$
+TFrmImportPO.grdPreSaleItemDBQtyRealMov=Arrived Qty~!@#$Qtd Recebida~!@#$Ctd Recibida~!@#$
+TFrmImportPO.grdPreSaleItemDBSalePrice=Sale Price~!@#$Preço de Venda~!@#$Precio de Vienta~!@#$
+TFrmImportPO.grdPreSaleItemDBSuggRetail=Sugg. Retail~!@#$Preço Sugerido~!@#$Precio Sugerido~!@#$
+TFrmImportPO.grdPreSaleItemDBTotal=Total~!@#$Total~!@#$Total~!@#$
+TFrmImportPO.grdPreSaleItemDBVendorCode=VendorCode~!@#$Cód. Forn.~!@#$Cod. Forn.~!@#$
+TFrmImportPO.Label1=PO Detail~!@#$Detalhe do Pedido~!@#$Detalle del Pedido~!@#$
+TFrmImportPO.Label10=Total :~!@#$Total :~!@#$Total :~!@#$
+TFrmImportPO.Label11=Freight :~!@#$Frete :~!@#$Flete :~!@#$
+TFrmImportPO.Label14=Order date :~!@#$Data Pedido :~!@#$Fecha Pedido :~!@#$
+TFrmImportPO.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmImportPO.Label7=Purchase Orders~!@#$Pedido~!@#$Pedido~!@#$
+TFrmImportPO.Label8=SubTotal :~!@#$Sub Total :~!@#$Sub Total :~!@#$
+TFrmImportPO.Label9=Other Charges :~!@#$Outras Taxas :~!@#$Otros Cargos :~!@#$
+TFrmImportPO.lbDelItem=Remove backordered items after import is enabled. After import, there is no undo!!!~!@#$Remover itens restantes após importar OC está ativado. Depois que importar não terá como desfazer!~!@#$Eliminar los temas pendientes después de la importación está habilitado. Después de importación, no hay deshacer!~!@#$
+
+[DisplayLabels]
+TFrmImportPO.quPOCharges=Charges~!@#$Taxas~!@#$Cargos~!@#$
+TFrmImportPO.quPODataPedido=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmImportPO.quPOEstArrival=EstArrival~!@#$DataAproxChegada~!@#$FechaAproxLlegada~!@#$
+TFrmImportPO.quPOFornecedor=Fornecedor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TFrmImportPO.quPOFreight=Freight~!@#$Frete~!@#$Flete~!@#$
+TFrmImportPO.quPOIDFornecedor=IDFornecedor~!@#$IDFornecedor~!@#$IDProveedor~!@#$
+TFrmImportPO.quPOIDPO=IDPO~!@#$IDOC~!@#$IDOC~!@#$
+TFrmImportPO.quPOIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFrmImportPO.quPOItemCategory=Category~!@#$Categoría~!@#$Categoría~!@#$
+TFrmImportPO.quPOItemCodColor=Color Code~!@#$Código da Cor~!@#$Código del Color~!@#$
+TFrmImportPO.quPOItemCodSize=Size Code~!@#$Código do Tamanho~!@#$Código del Tamaño~!@#$
+TFrmImportPO.quPOItemColor=Color~!@#$Cor~!@#$Color~!@#$
+TFrmImportPO.quPOItemCostPrice=New Cost Price~!@#$Novo Preço de Custo~!@#$Nuevo Precio de Costo~!@#$
+TFrmImportPO.quPOItemCurrentCost=Current Cost Price~!@#$Preço de Custo Atual~!@#$Precio de Costo Actual~!@#$
+TFrmImportPO.quPOItemCurrentSale=Current Sale Price~!@#$Preço de Venda Atual~!@#$Precio de Venta Actual~!@#$
+TFrmImportPO.quPOItemCurrentSuggRetail=Current Sugg. Retail~!@#$Preço Sugerido Atual~!@#$Precio Sugerido Actual~!@#$
+TFrmImportPO.quPOItemDateEstimatedMov=Arrive Date~!@#$Data Recebida~!@#$Fecha Recibida~!@#$
+TFrmImportPO.quPOItemDescription=Model description~!@#$Descrição do Modelo~!@#$Descripción del Modelo~!@#$
+TFrmImportPO.quPOItemDocumentID=DocumentID~!@#$DocumentoID~!@#$DocumentoID~!@#$
+TFrmImportPO.quPOItemExtCaseCost=ExtCaseCost~!@#$Ext. Custo Emb.~!@#$Ext. Custo Emb.~!@#$
+TFrmImportPO.quPOItemIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TFrmImportPO.quPOItemIDPreInventoryMov=IDPreInventoryMov~!@#$IDPreMovInventario~!@#$IDPreMovInventario~!@#$
+TFrmImportPO.quPOItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmImportPO.quPOItemModelCaseQty=Model Case Qty~!@#$Emb. Produto~!@#$Emb. Produto~!@#$
+TFrmImportPO.quPOItemModelType=ModelType~!@#$TipoModelo~!@#$TipoModelo~!@#$
+TFrmImportPO.quPOItemMovDate=Ordered Date~!@#$Data do Pedido~!@#$Fecha del Pedido~!@#$
+TFrmImportPO.quPOItemNewSalePrice=New Sale Price~!@#$Novo Preço de Venda~!@#$Nuevo Precio de Venta~!@#$
+TFrmImportPO.quPOItemNewSuggRetail=New Sugg. Retail~!@#$Novo Preço Sugerido~!@#$Nuevo Precio Sugerido~!@#$
+TFrmImportPO.quPOItemPessoa=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmImportPO.quPOItemQty=Ordered Qty~!@#$Qtd Pedida~!@#$Ctd Pedida~!@#$
+TFrmImportPO.quPOItemQtyRealMov=Arrived Qty~!@#$Qtd Recebida~!@#$Ctd Recibida~!@#$
+TFrmImportPO.quPOItemQtyTotal=Qty Total~!@#$Qtd Total~!@#$Ctd Total~!@#$
+TFrmImportPO.quPOItemSalePrice=Sale Price~!@#$Preço de Venda~!@#$Precio de Venta~!@#$
+TFrmImportPO.quPOItemSize=Size~!@#$Tamanho~!@#$Tamaño~!@#$
+TFrmImportPO.quPOItemSubTotal=SubTotal~!@#$Sub Total~!@#$Sub Total~!@#$
+TFrmImportPO.quPOItemSuggRetail=Sugg. Retail~!@#$Preço Sugerido~!@#$Precio Sugerido~!@#$
+TFrmImportPO.quPOItemVendorCode=VendorCode~!@#$Cód. Forn.~!@#$Cod. Forn.~!@#$
+TFrmImportPO.quPOStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmImportPO.quPOSubTotal=SubTotal~!@#$Sub Total~!@#$Sub Total~!@#$
+TFrmImportPO.quPOTotal=Total~!@#$Total~!@#$Total~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

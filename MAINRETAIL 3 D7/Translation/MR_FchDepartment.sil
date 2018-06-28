@@ -1,0 +1,13 @@
+[Captions]
+TFchDepartment.lblDepartment=Department :~!@#$Departamento :~!@#$Departamento :~!@#$
+
+[DisplayLabels]
+TFchDepartment.quFormDepartment=Department~!@#$Departamento~!@#$Departamento~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

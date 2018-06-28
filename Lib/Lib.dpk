@@ -1,0 +1,84 @@
+package LIB;
+
+{$R *.RES}
+{$R 'DateBox.dcr'}
+{$R 'FormConfig.dcr'}
+{$R 'BrowseConfig.dcr'}
+{$R 'LBLEFFCT.dcr'}
+{$R 'Email.dcr'}
+{$R 'uDevExpressGridPrint.dcr'}
+{$R 'FormPartConfig.dcr'}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Applications Network Lib'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl50,
+  vcldb50,
+  VclSmp50,
+  Qrpt50,
+  dxEdtrD5,
+  dxDBEdD5,
+  EQTLD5,
+  ECQDBCD5,
+  EQGridD5,
+  vclado50,
+  Dclusr50,
+  rbDB55,
+  rbRCL55,
+  dxELibD5,
+  TSiLang_D5;
+
+contains
+  FormConfig in 'FormConfig.pas',
+  MemoStr in 'MemoStr.pas',
+  SuperEdit in 'SuperEdit.pas',
+  ResizePanel in 'ResizePanel.pas',
+  DBTreeView in 'DBTreeView.pas',
+  RegProperty in 'RegProperty.pas',
+  BrowseConfig in 'BrowseConfig.pas',
+  PanelSelect in 'PanelSelect.pas',
+  RadioButtonAll in 'RadioButtonAll.pas',
+  FormPartConfig in 'FormPartConfig.pas',
+  dxDBGridPrint in 'dxDBGridPrint.pas',
+  dxDBCGrid in 'dxDBCGrid.pas',
+  LblEffct in 'LBLEFFCT.PAS',
+  RCADOQuery in 'RCADOQuery.pas',
+  PowerADOQuery in 'PowerADOQuery.pas',
+  LookUpADOQuery in 'LookUpADOQuery.pas',
+  SuperComboADO in 'SuperComboADO.pas',
+  SuperCalendar in 'supercalendar.pas',
+  Email in 'Email.pas',
+  uDevExpressGridPrint in 'uDevExpressGridPrint.pas',
+  uRptBuildPrintGrid in 'uRptBuildPrintGrid.pas' {FrmRptBuildPrintGrid},
+  PanelRights in 'PanelRights.pas',
+  DBLinkGrade in 'DBLinkGrade.pas',
+  DBPopUpMenu in 'DBPopUpMenu.pas',
+  DateBox in 'DateBox.pas' {FMGetDate},
+  TimerEx,
+  GIFReg,
+  GIFImage,
+  SubListPanel in '..\LibD7\SubListPanel.pas';
+
+end.

@@ -1,0 +1,20 @@
+[Captions]
+TFrmEstimatedItemNew.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmEstimatedItemNew.btnSearchDesc=(F2) Search ...~!@#$(F2) Procurar ...~!@#$(F2) Procurar ...~!@#$
+TFrmEstimatedItemNew.btOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmEstimatedItemNew.Label1=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmEstimatedItemNew.Label2=Qty :~!@#$Qtd :~!@#$Ctd :~!@#$
+TFrmEstimatedItemNew.lblModified=Edit Mode~!@#$Editando~!@#$Editando~!@#$
+TFrmEstimatedItemNew.lbSalePrice=Sale Price :~!@#$Preço Venda :~!@#$Precio Venta :~!@#$
+TFrmEstimatedItemNew.lblDepartment=Department :~!@#$Departamento :~!@#$Departamento :~!@#$
+TFrmEstimatedItemNew.sbHelp=&Help~!@#$&Ajuda~!@#$&Ajuda~!@#$
+TFrmEstimatedItemNew.TFrmEstimatedItemNew=New Budget Item~!@#$Novo Item~!@#$Novo Item~!@#$
+TFrmEstimatedItemNew.lblCost=Cost Price :~!@#$Custo Preço:~!@#$Costo Precio:~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

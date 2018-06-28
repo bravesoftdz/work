@@ -1,0 +1,1410 @@
+Changes to PawCom from V2.7.1 to V2.8.0
+=======================================
+
+1. Support added for Peachtree 2007 and Quantum.
+
+2. Added classes UserRole and Roles to support new user functionality in all flavors
+   of 2007.
+
+3. Added method SalesOrderJournal.GetForSalesOrder.
+
+4. Modified Access front end to include separate checkbox for JrnlSNo.
+
+5. Added BankReconciliation class.
+
+6. Changed length of AuditTrail.TransactionID field size in Access from 20 to 40
+   characters.
+
+7. Added field PayrollJobDetail.DateCleared in Access.
+
+8. Fixed problem for Peachtree 2006 where insert/update of chart records wrote
+   record that was 4 bytes too long.
+
+9. Fixed problem with adding customer.
+
+10. Fixed problem applying payment to an invoice.
+
+11. Added method PurchaseOrderJournal.GetForSalesOrder
+
+12. Added LineItem.PartNumber property. (V2.8.0.014)
+
+13. Added RemitTo address properties to PurchaseOrderJournal. (V2.8.0.015)
+
+14. In Access fixed field length of Employee DirDepRoutingAccount and
+    DirDepRoutingNumber. (V2.8.0.16)
+
+15. Corrected problem where several objects were generating error 51 when attempting
+    to open empty 2007 files. (V2.8.0.16)
+
+16. Corrected problem where chart object was generating error 51 for 2007 if no
+    budget data had been defined. (V2.8.0.16)
+
+17. In Access the field PurchaseOrderHeader.NumPOLines was changed from byte to
+    integer to account for orders with more than 255 lines.  (V2.8.0.16)
+
+18. Corrected a problem that was causing JrnlRow to read very slowly in 2007 if no
+    phases or costs had been defined. (V2.8.0.16)
+
+19. Corrected problem that was causing Eventlog to read slowly. (V2.8.0.16)
+
+20. Added DetailHasSerialNumber property to AssemblyAdjustment, InventoryAdjustment,
+    Purchase and Sales journals.  (V2.8.0.17)
+
+21. Fix problem where JrnlRow.CostID and .PhaseID last character was getting dropped.
+    (V2.8.0.18)
+
+22. Speeded up get of Customer.SalesRepID and added Customer.SalesRepIndex. (V2.8.0.19)
+
+
+Changes to PawCom from V2.7.0 to V2.7.1
+=======================================
+
+1. For version 2006 Peachtree moved the address information out of the customer and vendor
+   records into a separate address file.  This means that for V2006 there is additional
+   overhead associated with getting the customer and vendor BillTo/MailTo/ShipTo addresses.
+   In PawCom 2.7.0 the way that we implemented this additional overhead was not very
+   efficient and resulted in much longer times to read customer and vendor records.  In
+   PawCom 2.7.1 we have rewritten the code for getting the addresses, resulting in much
+   faster times to read the customer and vendor records.
+
+2. A problem with the SelectJob form that caused a fatal error when there were JobIDs
+   longer than 16 characters was fixed.
+
+3. A problem with retrieving vendor MailTo and RemitTo addresses was corrected.
+
+4. For the Default Employee EE records and the Employee EE records the amount for
+   non-calculated fields was always being set to 0.  The problem has been corrected.
+
+5. SalesOrderJournal.NotePrintsAfterItem was not being returned correctly.  The problem
+   has been corrected.
+
+Changes to PawCom from V2.6.0 to V2.7.0
+=======================================
+
+New Functionality
+-----------------
+1. Support added for Peachtree 2006 versions.  New fields:
+
+	CompanyInformation
+		Unused12		As Double
+
+	Customer
+		FormDeliveryFlags2	As Long
+
+	DefaultJobData
+		PayRetainageAccount	As Long
+		RecRetainageAccount	As Long
+		RetainagePercent	As Double
+		ProgBillingMethod	As Long
+		LaborBurdenAccount	As Long
+		AppLaborBurdenAccount	As Long
+		LaborBurdenPercent	As Double
+
+	Employee
+		Unknown9(1 to 14)	As Byte
+
+	JobData
+		RetainagePercent	As Double
+		Unused1			As String * 39
+		Address1		As String * 30
+		Address2		As String * 30
+		City			As String * 20
+		State			As String * 2
+		Zipcode			As String * 12
+		Country			As String * 15
+		BillingMethod		As Long
+		LaborBurdenPercent	As Double
+
+	JrnlHdr
+		Unknown18(1 to 28)	As Byte
+		ElectronicPayment	As Boolean
+		DateSent		As Variant
+		ElectronicID		As String * 10
+		Unknown19(1 to 21)	As Byte
+		ProposalAccepted	As Boolean
+
+	JrnlRow
+		RetainagePercent	As Double
+		LaborBurdenPercent	As Double
+
+	MemorizedTransactions
+		Unknown6(1 to 50)	As Byte
+		JournalID		As Integer
+		NRecord			As Long
+		ShipToName		As String * 39
+		ShipToAddress1		As String * 30
+		ShipToAddress2		As String * 30
+		ShipToCity		As String * 20
+		ShipToState		As String * 2
+		ShipToZipcode		As String * 12
+		ShipToCountry		As String * 15
+		DetailLineNo		As Integer
+		DetailFlag1		As Boolean
+		DetailJournalID		As Integer
+		DetailCostOfSalesTrx	As Boolean
+		DetailCustomerIndex	As Long
+		DetailVendorIndex	As Long
+		DetailGUID		As String * 38
+
+	Vendor
+		FormDeliveryFlags2	As Long
+		ShipmentsAddrType	As Long
+		POAddrType		As Long
+		PaymentsAddrType	As Long
+		VendorUseBillPay	As Boolean
+		RemitToAddress1(i)	As String * 30
+		RemitToAddress2(i)	As String * 30
+		RemitToCity(i)		As String * 20
+		RemitToCountry(i)	As String * 15
+		RemitToName(i)		As String * 39
+		RemitToState(i)		As String * 2
+		RemitToZipcode(i)	As String * 12
+
+2. Added table "Lookup Warranty Period" to Access.
+
+3. Added filtered Item Costing Report and supporting "Temporary Item Costing Data" table.
+
+4. For Purchase Journal and Purchase Order Journal classes added property CustomerSONo.
+
+5. For JrnlRow class added GetFirstForAccount and GetNextByAccount methods.
+
+6. For Journal class added VendorInJournals method.
+
+7. For Access Maintain Vendors form added a check to see if vendor exists on delete.
+
+8. For the Purchase Journal class the method GetForInvoice was added.
+
+9. Starting with Peachtree version 11.5 the component properties were moved from
+   the LineItem records to the BOMHistory and BOMItems records.  In order to maintain
+   some backward compatibility the component properties of the LineItem class for
+   assemblies now returns the most recent revision of the BOM data.
+
+10. A new class for V13 has been added: AFLOCAT.  Properties of this class return
+    data used in Peachtree's pull-down location lists.
+
+11. A new function mwSave_GeneralJournal has been added to Access.  This function inserts
+    a new General Journal transaction into Peachtree and can do so with in RealTime mode.
+    The data for the transaction is supplied to the function with some simple structures.
+    The function does a thorough validation of the data supplied.  If the data is valid
+    then the transaction is inserted into the Peachtree Database.  If the transaction
+    needs to be posted, the function performs that operation also.  The routine
+    DemoWriteToGeneralJournal now calls this routine to provide a much better example
+    of generating a General Journal transaction.
+
+Problems Fixed
+--------------
+1. Corrected several problems in the code for Access module "Support Functions 2",
+   used by General Ledger and Balance Sheet reports.
+
+2. In Access module Line Item Functions routines "mw{To/From}Table_LineItemHeader"
+   a problem was corrected where WarrantyPeriod and WarrantySpan were not being
+   read or written.
+
+3. In Access function "DemoWriteToSalesJrnl" added conditional statements to include
+   freight line only if FreightAmount <> 0.
+
+4. For the Chart class the field Inactive was not being returned on a read for some
+   versions of Peachtree.  The problem has been corrected.
+
+5. Modify Access routine mwSetBatchMode in Support Functions so that it doesn't
+   update if RealTime = False.
+
+6. The Access Receive Payment for Invoice form, when used with BCS data, now returns
+   a date in the current accounting year instead of for the current date.
+
+7. A problem with closing the Access Receive Payment for Invoice form has been
+   corrected. 
+
+8. For Peachtree versions >= 11.5 PayrollJournal.JobHours was not being read or
+   written.  The problem has been corrected.
+
+9. A problem was corrected on the Access Maintain Customer form where clicking an
+   Invoice on the Invoice History tab was not showing detail data.
+
+10. A problem was corrected on the Maintain Line Item and Maintain Vendor forms
+    where clicking New then clicking Cancel on the pop-up form would leave a
+    character in the ID field.
+
+11. On the Maintain Customer form Note and Task tabs when the Edit screen appeared
+    the OK or CANCEL button had to be clicked twice.  Also when CANCEL was checked
+    a new record was generated.  These problems have been corrected.
+
+12. There was a problem on the Sales/Invoicing form in Access where, when an
+    existing invoice was selected the detail was not showing properly.  The problem
+    has been corrected.
+
+Changes to PawCom from V2.5.3 to V2.6.0
+=======================================
+
+New Functionality
+-----------------
+1. Support added for Peachtree 2005 versions.  New fields:
+
+	CompanyInformation:
+		ArchiveDate        As Variant
+		ArchiveDescription As String*30
+		LastArchiveDate    As Variant
+	Customer
+		CreditStatus As Long
+	JrnlHdr
+		CustomerSONo      As String * 20
+		AppName           As String * 14
+		UPSShippingRecNum As Long
+	JrnlRow
+		POCreated As Boolean
+		HasSerialNumbers As Boolean
+	LineItem
+		WarrantySpan   As Long
+		WarrantyPeriod As Long
+
+	JrnlSNo (New class)
+		SerialRecordNumber As Long
+		ItemRecordNumber   As Long
+		SerialNumber	   As String * 30
+		TransactionClass   As Long
+		TransactionCost    As Double
+		TransactionDate	   As Variant
+		JrnlPostOrder      As Long
+		JrnlRowIndex	   As Long
+		WorkTktReferenceNo As Long
+
+2. A function DecimalRound was added to the module "Support functions" to
+   improve rounding calculations in various places.  All rounding in Access
+   was changed to use this function.
+
+3. For the PayrollJournal class the following properties were added:
+	JobAccount     As String * 15
+	JobEmployeeID  As String * 20
+	JobFieldNumber As Integer
+
+4. For the class oPeachw the property ProgramPath was added.
+
+Problems Fixed
+--------------
+1. CompanyInformation.BusinessType now returns correct description for V9-V11.
+
+2. CompanyInformation.LastAccessTestDate now works properly for V11.
+
+3. mwCustomer_Update function in Access now writes FormDeliveryFlags and
+   LastUpdateCounter for V11.
+
+4. Customer.GetbyPercent and Vendor.GetByPercent now work correctly for V9 and greater.
+
+5. Maintain Customer 2 form in Access now works properly when lower case characters
+   are entered in the CustomerID.
+
+6. Maintain Customer 2 form now allows last item to be selected from CustomerID list.
+
+7. Sales Invoicing form in Access now correctly displays invoices with closed sales orders.
+
+8. Sales Invoicing form in Access now shows the lists of invoices in correct sort order.
+
+9. The query "qry Sales by Sales Rep Report" was modified to select only records with
+   TrxType = 0 so that duplicate entries would not appear on the Sales by Sales Rep report.
+
+10. A report "Paid Invoices by Sales Rep" was added along with a supporting query.
+
+11. Several problems were fixed up related to item aging:
+    a. A field TrxDate was added to the table "Temporary Item Aging".
+    b. In the routine BuildTemporaryItemAging in module "Support Functions 3" a line was
+       added to generate RS!TrxDate = ReportDate and several other problems were corrected.
+    c. In the query "qry Aged Inventory 1" the field TrxDate was added. 
+
+12. A problem in the function "mwPeriodForDate" was corrected.
+
+13. A problem was corrected where sometimes all functions mwWrite_* were not positioning
+    on the current detail for V10, V11.
+
+14. The description of the property CustomerName and VendorName for all journals where it
+    appears was changed in the User Manual to indicate the length is 39. 
+
+15. Several problems were corrected in the General Ledger and Trial Balance reports.
+
+16. A problem was fixed where when writing a Payroll Journal record the second detail line
+    was getting omitted.
+
+17. Numerous adjustments were made to the Demonstration function routines.  If you have
+    developed some custom code based on these routines you should compare your code with
+    the latest version of these routines.
+
+18. An alignment problem with Memorized GJ transactions for V11 and V11MD was fixed.
+
+19. When two SalesTaxCodes existed that differed only in case, refeshing the data failed.  The
+    problem has been corrected.
+
+20. A problem with writing StockingUnitPrice and StockingUnitQuantity to JrnlRow records has
+    been fixed.
+
+21. In the module "Chart functions" the routines mwWriteAll_Charts and mwWrite_Chart were
+    generating errors for V9 and above.  The problem has been corrected.
+
+22. For the SelectCustomer, SelectItem and SelectVendor forms and error was generated if
+    there were more than 32767 IDs and scrolling had some problems when there were large
+    numbers of records.  These problems have been corrected.
+
+23. Help buttons on various forms were not working correctly.  The problem has been fixed.
+
+24. On the Maintain Inventory Items form the Item Class pulldown list was displaying extra
+    list items for V7 through V9.
+
+25. In the routine mwReadAll_Charts there was no BtrieveDisconnect at the end.  The problem
+    has been corrected.
+
+26. Some problems with scrolling on the Sales/Invoicing form has been cleaned up.
+
+27. A problem was corrected in the Aged Inventory report where counts were not always going
+    to the correct aging group.
+
+28. In the Access table Purchase Order Journal Detail the field length of POLine was changed
+    from Byte to Integer.
+
+
+Changes to PawCom from V2.5.2 to V2.5.3
+=======================================
+
+New Functionality
+-----------------
+1. Added support for Peachtree Premium 2004 Manufacturing and Distribution versions.
+   This includes the addition of several new tables for these versions.
+
+2. Added SelectJob form to library.
+
+3. Added total weight and weight per item to queries underlying the Sales Invoice
+   report temporary source tables.  The weights were not added to the report itself
+   - this is left as an exercise for the reader.
+
+4. Added EditCount field to all journal classes for V2004.
+
+Problems Fixed
+--------------
+1. Fixed problem with Ticket.CompletedForID where it was not creating correct data
+   for jobs.
+
+2. Fixed problem with writing SalesJournal.ShipDate property.
+
+3. Corrected problem where Sales Invoicing form was defaulting to March 15.
+
+4. Fixed problem with AssemblyAdjustmentJournal.ReasonForBuild for V2003 and V2004.
+
+5. Modified table and form "Filtered Report" to fix problem with Report Date and
+   removed date range for Aged Receivables reports.
+
+6. Fixed problem with property Ticket.RecordedByID where it was returning the wrong
+   value for vendors in V11.
+
+7. In the Sales Journal Header and Temporary Sales Journal Header the field length
+   of CustomerName was increased from 30 to 39 to fix an error in the Sales/Invoice
+   form on Print or Save when custumer's name was > 30 characters.
+
+8. The Aged Inventory Report filter on line items now works correctly.
+
+9. Corrected problem where the Default Inventory Data was not being refreshed.
+
+10. The General Ledger and General Ledger Trial Balance reports now include a
+    SysCost adjustment found on the equivalent reports generated by Peachtree
+    that correct cost of sales for inventory items whose quantity went negative
+    and were then replenished at a different price.
+
+
+Changes to PawCom from V2.5.1 to V2.5.2
+=======================================
+
+New Functionality
+-----------------
+1. An Aged Inventory report has been added to the Access front end.  It can be
+   found under Reports:Line Items:Aged Inventory on the menu bar.
+
+Problems Fixed
+--------------
+1. For the Employee class the property DateHired was returning an empty value
+   for Peachtree 2002, 2003, and 2004.   The property DateLastRaise for Peachtree
+   2004 was returning with an odd value rather than returning empty (because
+   the data is now located in the RaiseHistory class.
+
+2. A description for the property JrnlTypeEx has been added to the Purchase Journal
+   and Sales Journal classes.
+
+3. Some minor cosmetic problems were corrected in the manual.
+
+4. The Microsoft Calendar Control used by the SetDate class has problems on systems
+   running both OfficeXP and WindowsXP.  The problem was fixed by eliminating the
+   use of the Microsoft control and replacing it with a built-in proprietary control.
+
+5. For the MemorizedTransactions class the VendorID in the transaction header was
+   not being set correctly.  The problem has been corrected.
+
+6. For several journals the description of the DetailFlag2 property in the manual
+   has been rewritten to clarify the roll of this field with reimbursable expenses.
+
+Changes to PawCom from V2.5.0 to V2.5.1
+=======================================
+
+Problems Fixed
+--------------
+1. In the forms Maintain Customers 2, Maintain Line Items and Maintain Vendors
+   the function UpdateCurrentRecord was not setting the GUID for new V10(2003)
+   and V11(2004) records.  This didn't create a noticable problem for V10, but
+   for V11 the GUID must be unique so after the first record was added with an
+   empty GUID attempts to enter additional records with an empty GUID gave a
+   Btrieve error 5 (Duplicate key value).  The function was modified in the
+   three forms to correct this problem.
+
+2. Occasionally Peachtree tax tables end up with duplicate records.  In this case
+   refreshing the tax table data was causing duplicate record messages to be
+   generated because the table defined the field CodeID as a unique index. The
+   problem was corrected by removing the two indices in this table.
+
+3. On the form "Filtered Reports" several of the controls wre not sorting in
+   Ascending order.  The controls have been edited to correct this.
+
+4. For the class CompanyInformation in the manual the method name "Save" was incorrect.
+   The manual was edited to change this method's name to "Update".
+
+5. In the file PawData250.mdb for the table "Vendor Lookup" the length of "Name" field
+   was not long enough for recent versions.  The length of this field was changed from
+   30 to 39.
+
+6. When printing an invoice on the PawCom Sales/Invoice form for a V11(2004) company
+   an error message would pop up because of a missing field in the "Temporary Sales
+   Journal Detail" table.  This problem was corrected by adding a text field GUID
+   of length 39 with Allow Zero Length = True.
+
+7. For reports that were filtered by Sales Rep the report was generating an error
+   message if the Peachtree data had no employee records that were marked as being
+   sales reps.  The form  "Filtered Reports" was modified to correct this problem.
+
+8. Some of the Microsoft redistributable ddl, tlb and ocx components were accidentally
+   left out of the kits.  The kit build procedures have been modified to include these
+   components.
+
+9. On page 6 of the manual in the section on Registered Files the files fm20.dll and
+   comcat.dll were left off the list.  The manual has been revised to include them.
+
+10. For any property of type string, if the string specified was longer than the field
+    on an update or insert, then the next physical field in the record was being
+    overwritten.  For example, if the BillToState of a customer record was specified
+    as four or more characters, then the BillToZipcode would be overwritten.  And if
+    the BillToState was specified as three characters, then reading the BillToState
+    would return the state plus zipcode.  This problem has been corrected in the PawCom
+    library.
+
+11. On the Filtered Reports form the StartDate control allowed a value to be entered
+    manually but the EndDate did not.  The StartDate field behavior was made consistent
+    with the EndDate so that the user could not enter an invalid date.
+
+12. For the "Items Sold to Customers" report when an explicit date range was specified
+    for the report a box would pop up asking for a TrxDate and the report would not
+    limit data to the specified date range.  The problem was with the underlying query
+    "qry Items Sold to Customers" did not include the TrxDate as one of its fields.
+    The problem was corrected by adding TrxDate to the query's fields.
+
+13. For the reports "Sales by Item", "Sales by Item Summary" and "Sales by Sales Rep"
+    the filtering by state was using the ShipTo state on the invoice.  In actual practice
+    the ShipTo state if often not filled in on invoices, which caused many entries to be
+    missed when a state range was selected.  The state filtering was modified to use the
+    customer BillTo state, which produces more meaningful state-filtered reports.  To
+    accomplish this modification the hidden field ShipToState on the three reports was
+    changed to BillToState, the queries "qry Sales by Item Report" and "qry Sales by
+    Sales Rep Report" were modified to contain the customer BillToState, and the code
+    in the Filtered Reports form for the filter Where Clause was changed from selecting
+    the ShipToState to selecting the BillToState.
+
+14. For the class SortJob the manual describes four properties starting with "Unknown"
+    that actually have been identified and are now obsolete:
+	Unknown1: identified as ItemIndex
+	Unknown2: identified as JournalCode
+	Unknown3: identified as CostOfSalesTrx
+	Unknown4: identified as Quote + Subindex2
+
+15. The Job Profitability report was indicating that there was no data available because
+    a line had accidentally been commented out in the code behind the report.  To fix the
+    problem in "rpt Job Profitability" in the routine Report_Open the comment character (')
+    was removed from the line that reads "BuildProfitabilityTable".
+
+16. For V11(2004) Expense Tickets that referenced a job with or without phases and costs,
+    the CompletedForID fields in the Tickets table was not showing the JobID.  This problem
+    has been corrected in the PawCom library.
+
+17. For the Customer, LineItem and Vendor classes in the manual the description of the
+    Index property has been modified to say "for creating new records set the Index = 0
+    and Btrieve will generate the correct value for the Index."
+
+18. The functions mwUpdateAll_I and UpdateFlagged_* where * = Customer, Employee, LineItem
+    or Vendor tried a GetEqual method on the appropriate ID to determine whether the record
+    was an update or an insert of a new record.  This meant that the ID could not be changed
+    or the status of the record might be incorrect.  To get around this problem the method
+    used was changed to GetForIndex on the appropriate index.  This applies to all versions
+    from V7 forward except for Employee records, which only started using an index at
+    V11(2004).  For earlier Employee records the GetEqual method is used.
+
+
+Changes to PawCom from V2.4.3 to V2.5.0
+=======================================
+
+New Functionality
+-----------------
+1. Added support for Peachtree 2004 (V11).  Some changes in the database were necessary
+   to include this support:
+   a. Chart: The number of Budget periods now goes from 0 to 55 for V11.
+   b. Chart: eCheckID is no longer used for V11.
+   c. Chart: a new detail field, Revised(0 to 28), has appeared in V11.
+   d. Chart: a new header field, Unknown(1 to 216), has appeared in V11.
+   e. Chart: a new header field, Internal1(1 to 21), has appeared in V11.
+   f. mwReadAll_Charts function modified for V11.
+   g. Customer: the properties FormDeliveryFlags and LastUpdateCounter have appeared in V11.
+      The FormDeliveryFlags property is interpreted as follows:
+	Value	Deliver by Paper	Deliver by Email   CC Sales Rep
+	-----   ----------------	----------------   ------------
+	  0		Yes			No		No
+	  1		No			Yes		No
+	  4		Yes			No		Yes
+	  5		No			Yes		Yes
+   h. Employee: header property DateLastRaise no longer used in V11.
+   i. Employee: a new header field, Index, has appeared in V11.
+   j. Employee: the range on some properties has changed for V11:
+	EEUnused(i)	previously: i = 1 to 16		V11: i = 1 to 4
+	Unused0(i)	previously: i = 1 to 241	V11: i = 1 to 257
+	Unused4(i)	previously: i = 1 to 56		V11: i = 1 to 32
+   k. Company Information:  the range of some properties has changed for V11:
+	Unknown1(i)	previously: version dep.	V11: i = 1 to 83
+	Unused11(i)	previously: i = 1 to 107	V11: i = 1 to 83
+   l. Employee: the property Unused0, which was previously empty, seems to have occasional
+      values in V11.  Specifically, bytes at index 62, 126, 190, and 254 have a value of
+      1.  This seems to be an artifact - setting these indices to 0 doesn't appear to
+      have any effect.
+   m. DefaultTaxTypes: the property Unknown is no longer used in V11.
+   n. DefaultCustomerData: the range of the property Unused11 has changed for V11:
+	Unused11(i)	previously: i = 1 to 2685	V11: i = 1 to 1281
+      For V11 (and V10) the property Unused11 text has been observed at the following
+      index values:
+	Index		Contents
+	-----           --------
+	8 or 20		"10001"
+	  29		"m101"
+	  50		"m10001"
+	  71		"m101"
+      The meaning of these values is unknown - they may just be artifacts.
+      The following fields appeared in V11:
+	Unused2(1 to 20)	Byte
+	Unused3			Integer
+	Unused4			Byte
+	Unused5(1 to 3)		Integer
+	Unused6(1 to 9)		Byte
+   o. DefaultVendorData:  the property Unused5 was added.  This property actually
+      appeared in earlier versions but was not exposed in PawCom.  The field is
+      indexed as follows:
+	V7	1 to 4208
+	V8-V10	1 to 4194
+	V11	1 to 2778
+      For V11 text has been observed at the following index values:
+	Index		Contents
+	-----		--------
+	   1		"000011"
+	   2		"00050"
+	  22		"m101"
+      The meaning of these values is unknown - they may just be artifacts.
+   p. DefaultEmployeeData: The following properties appeared in V11:
+	Unknown1		Integer
+	Unknown2		Integer
+	Unknown3(1 to 22)	Byte 
+      The property Unknown3 has been observed to contain the text "101" for V11.
+      The meaning of this value is unknown - it may be just an artifact.
+   q. GeneralData: the property Unknown1(1 to 96) 1 has been added for V11.
+      For V11 the property Unused10 is obsolete and has become part of Unknown11.
+      Unknown11 has been observed to sometimes contain a value 128 at byte 2
+      and a value 2 or 3 at byte 3.  The meaning of these values is unknown.
+   r. All journals:  a property DetailGUID (DetailJobGUID and DetailPayGUID for
+      payroll and just GUID for JrnlRow) appeared in V11.
+   s. All journals:  a property DetailDateCleared appeared in the CDJ, CRJ, GJ
+      and PaJ for V11.
+   t. RaiseHistory appeared in V11.  A class has been added to support the data.
+   u. Vendor: the following properties appeared in V11:
+	EmployeeIndex
+	FormsDeliveryFlags (Email = 1, ccPurchaseRep = 8)
+   v. Users:  two new properties appeared in V11:  System_File_ReconsilidateCompany
+      and GeneralLedger_Maint_Budgets.
+   w. MemorizedTransactions: For V11 the following changes appeared:
+	The AddressPresent property is no longer used.
+	The DetailUnused2 maximum index has changed from 41 to 25.
+	A new property was added: DetailUnused6(1 to 52).
+	
+2. Chart: a new method, GetForAccountID, has been added.
+
+3. Employee: a new method, GetForIndex, was added.
+
+4. JrnlHdr: additional values have been noted for the property JrnlTypeEx
+	Journal	Value
+        ------- -----
+	  SJ	  2	for V10 credit memos
+	  PJ	  3	for V10 credit memos
+	  CD	  1	for V8, V9, V10 with no check #
+
+5. Employee: added comment in the Employee class documentation that the PawCom property
+   Pension is called Retirement Plan on the Peachtree Maintain Employee form
+   and the PawCom property Deferred is called Statuory Employee on the Peachtree
+   form.
+
+6. Employee: added CacheCharts method.  In V11 the record structure was changed so
+   that the chart data needs to be referenced for each employee.  When reading all
+   employee's this can slow the read time down significantly - by caching the chart
+   data most of this overhead can be eliminated.
+
+7. Ticket: the meaning of some unused fields has been identified and new properties
+   added:
+	Unused2 --> StartSeconds
+	Unused3 --> StopSeconds
+        Unused4 --> BreakSeconds
+	Unused5 --> DurationSeconds
+
+8. AuditTrail: For V9, V10 and V11, JournalID has been replaced by UnknownL.
+
+9. Ticket:  Added the following methods:
+	GetFirst
+	GetGreaterThan (TicketNumber)
+	GetGreaterThanOrEqual (TicketNumber)
+	GetLast
+	GetLessThan (TicketNumber)
+	GetLessThanOrEqual (TicketNumber)
+	GetNext
+	GetPrevious
+
+10. User: comments added to documentation that the following properties appear
+    with a different name on the Peachtree User form:
+	System_File_IntegrityCheck	-->	Data Verification
+	System_Tasks_LinkToOtherApps	-->	COM & DDE Data Access
+	CreditCardAccess		-->	Credit Card Center
+
+11. The Filtered Reports form has been reworked to provide more filter
+    options and an improved interface.
+
+12. Documentation for adding filtered reports has been added.
+
+13. Documentation on accounting periods in Peachtree has been expanded.
+
+14. Added functions mwCustomerBalance(CustomerID,BalanceDate) and
+    mwVendorBalance(VendorID,BalanceDate) to module Support Functions 3.
+
+15. A VB.NET example has been added to the kit.
+
+16. The ability to filter reports by Ship To State, Customer Type, and Item Type
+    has bee added to the filter form and these three types of filters have been
+    included for the Sales by Item, Sales by Item Summary, and Sales by Sales
+    Rep reports.
+
+17. The Unknown fields for the SortJob class have been identified and new
+    properties have been added:
+	Item Index	was Unknown1
+	JournalCode	was Unknown2
+	CostOfSalesTrx	was Unknown3
+	Quote		was part of Unknown4
+	Subindex2	was part of Unknown4
+
+18. For the PurchaseOrderJournal class the property CustomerInvoiceNumber was
+    added.  This is identical with the property DropShipInvoiceNumber but the
+    new name makes it easier to associate the property with the corresponding
+    name on the 2004 PO form.
+
+19. For the JrnlRow class a new property AccountIndex has been added.  This
+    is the index for the account returned in AccoundID, so the two properties
+    return the same chart info in a different form.
+
+Problems Fixed
+--------------
+1. Customer class: a problem was fixed with the UseStandardTerms property where the
+   value was always returning false for V9 and V10.
+
+2. Vendor class: a problem was fixed with the UseStandardTerms property where the
+   value was always returning false for V9 and V10.
+
+3. DefaultCustomerData: documentation was corrected for Unused10 and Unused11 - they
+   are actually indexed properties.
+
+4. JobData: a problem with the Insert method where it was generating a "bad key"
+   error has been corrected.
+
+5. qry Inventory Sales: fixed query to select only TrxType = 0 to prevent it from
+   selecting multiple lines on the Inventory Sales reports.  Also query was pulling
+   up both Invoices and Quotes - it was modified to get only Invoices.
+
+6. Ticket: an error in the documentation for the GetEqual method was corrected.
+
+7. The General Ledger and General Ledger Trial Balance reports were producing
+   significantly different results from Peachtree.  The problem has been corrected.
+
+8. The "Items Sold to Customers" report was providing incorrect results in some
+   cases.  The routine that generated the data for this report was completely
+   rewritten to produce results similar to those of the Peachtree report of the
+   same name.  The difference is that Peachtree's report includes non-item lines
+   in its report and the PawCom report does not.  We are not sure if this is a
+   question of interpretation about what the "Gross Margin" column means on the
+   report or is due to a bug in Peachtree.
+
+9. When the Demo:Update Flagged function was run from the menu bar it would only
+   update the flagged items but report that it had updated all items.  This
+   problem has been corrected.
+
+10. There were several problems on the Sales/Invoice form that were causing
+    incorrect records to be created in some cases.  These problems were corrected.
+
+11. A problem was fixed in writing Sales Detail and Sales Order records where
+    the string length in some string variables was dropping the last character
+    if the string was the maximum length.
+
+12. In the SalesOrderJournal class the method ReadFirstForCustomer was producing
+    and error.  The problem has been corrected.
+
+13. There were several places in the Access code where database and recordset
+    objects were being defined without explicitly declaring them as DAO objects.
+    This could cause some confusion to Access since the same objects occur in
+    ADO.  All these ambiguous references to database and recordset objects were
+    located and modified to declare them explicitly as DAO objects.
+
+14. For the SelectCompany class the form was not highlighting the company when
+    the CompanyPath property was specified.
+
+15. A problem was fixed where drilling down to item data on the History tab of
+    the Maintain Customer form was hanging Access.
+
+16. The open company form was not locating the default Peachtree data location
+    for Peachtree Premium Accounting 2004 Accountants' Edition.  The problem
+    has been corrected.
+
+17. The tab order on the attach tables screen was out of order.  The problem
+    has been corrected.
+
+Changes to PawCom from V2.4.02 to V2.4.3
+========================================
+
+New Functionality
+-----------------
+1. The following functions have been added to the Inventory Cost functions
+   module:
+	mwInventoryQuantityOnHand
+	mwInventoryCostAverage
+	mwInventoryCostFIFO
+	mwInventoryCostLIFO
+	Build TemporaryQuantityOnHand
+   to allow better handling of item costs.
+
+2. A Clear method has been added to the Memorized Transactions class.
+
+3. In the class JrnlRow a GetFirst(NRecord) and Get Next method have been
+   added.
+
+4. In the class PurchaseOrderJournal a ReadFirstForVendor(VendorIndex) and
+   ReadNextByVendor method have been added.
+
+
+
+Problems Fixed
+--------------
+1. Several queries were using the old Key filed to join header and detail.
+   These were modified to use NRecord instead.
+
+2. A bug in .IncrementBatchCount for all journals was fixed.
+
+3. In the routine mwReadAll_InventoryAdjustmentJournal in the module
+   "Inventory Adjustment Journal functions" the status count was not
+   incrementing.  This has been corrected.
+
+4. The method ReadFirstByCustomer for the Cash Receipts Journal and Sales
+   Journal classes was modified to get around a problem of slow response
+   when there were no records for the customer.
+
+5. A problem in mwUpdate_LineItem that produced an error message under
+   certain conditions was corrected.
+
+6. In mwReadAll_LineItems R3 was not getting closed when not including
+   history.  This problem has been corrected.
+
+7. The RequestedByID property of the Ticket class was not restoring or
+   setting properly.  This problem has been corrected.
+
+8. The routine mwPeriodForDate was sometimes not returning the correct
+   period for a date in January 2003.  The routine has been rewritten
+   to correct this problem.  Also corrected code in several other places
+   to deal with the same problem.
+
+9. Under certain conditions the function PhoneFormat was generating an
+   error.  This problem has been corrected.
+
+10. The classes Select Customer, Select Line Item, and Select Vendor were
+    not picking up the ID on re-entry.  This has been corrected.
+
+11. On the Maintain Customer, Maintain Line Item, Maintain Vendor and
+    Sales/Invoicing forms the appropriate Select form is popped up when
+    the first character of the ID is entered.  This new behavior is
+    consistent with Peachtree.
+
+12. Corrected code in BuildGeneralLedger and BuildGeneralLedgerTrialBalance
+    to generate results that are consistent with Peachtree's reports.
+
+13. The DiscountDate for the SalesJournal class was not getting written
+    correctly for V8 and V9.  The problem has been corrected.
+
+14. Several error messages were referring to JOURNAL.DAT despite the
+    PT version.  The references have been changed to "Journal".
+
+15. The MaxTrxNumber property of the InventoryAdjustmentJournal class was
+    returning a correct value.  The problem has been corrected.
+
+16. The routine DemoWriteToInventoryAdjustmentJrnl has been cleaned up
+    and made more general for completeness.
+
+17. The ReadFirst and ReadNext methods of the Sales Journal class were
+    not returning quotes for V8 and higher.  The problem has been corrected.
+
+18. The document for the classes SalesJournal and SalesOrderJournal methods
+    ReadFirstForCustomer and ReadNextByCustomer has been changed to indicate
+    that these methods do not return quotes.
+
+19. Fixed problem with all Select forms that was causing them to be positioned
+    incorrectly when the underlying form was not pop-up.
+
+20. For the JobEstimate class the GetEqual method was always returning a status
+    of 6.  The problem has been corrected.
+
+21. Documentation for the customer credit card fields has been changed to
+    indicate these fields were added at V10, not V9.
+
+22. The demonstration function Demo_AddNewVendor was not working for V10.
+    The problem has been corrected.
+
+23. The demonstration function Demo_AddNewCustomer was failing to include the
+    GUID for V10.  The problem has been corrected.
+
+
+Changes to PawCom from V2.4.01 to V2.4.02
+=========================================
+
+Problems Fixed
+--------------
+1. The CustomerPO property of the SalesOrderJournal class was not functioning
+   properly for V8, V9 and V10.
+
+2. The TrxNumber property of the AuditTrail class was not functioning properly.
+
+3. In the User's Manual for the AuditTrail class the properties TrxNumber, Key,
+   Period, Subindex1, and Subindex2 are now marked as being obsolete starting
+   with V9.
+
+4. In the User's Manual a comment for the JobTag class has been added indicating
+   that it is obsolete after V7.
+
+5. At V10 Peachtree changed the key for the journals from 8 bytes to 10 bytes.
+   The key still contains the same five components: Period, TrxNumber, JournalID,
+   Subindex1, and Subindex2, but TrxNumber has been increased from an Integer
+   field to a Long field to allow more transactions in period 0.  Some changes
+   in the Access front end that were affected by the new structure had been missed,
+   causing errors when period 0 contained more than 2**15 transactions in any
+   of the journals.  These problems have been corrected.  Also the property Key
+   for all journals is now returned empty for V10.
+
+6. Some V9 and V10 databases were generating errors on refresh of LineItem data
+   when there were no price levels defined.
+
+7. The SJ and CRJ method ReadFirstForCustomer and the PJ and CDJ method
+   ReadFirstForVendor were not returning detail properly.
+
+8. During a refresh of the Inventory Adjustment Journal the status line at the
+   bottom of the Access screen was not advancing.
+
+9. The SalesOrderJournal ReadFirst method was hanging the Access application
+   when the starting period was greater than 0.
+
+
+Changes to PawCom from V2.4 to V2.4.01
+======================================
+
+New Features
+------------
+1. For all module functions that move data from the Access tables to the
+   PawCom class properties where the property is a string type a check is
+   now made to be sure an attempt is not made to load the property with a
+   null.  This makes write operations more reliable and robust.
+
+2. The following properties were added to the LineItem class:
+	string  PriceLevelName
+	integer PriceLevelIndex
+	integer PriceLevelUse
+	integer PriceLevelMethod
+	integer PriceLevelRounding
+	double  PriceLevelMethodAmount
+	double  PriceLevelSpecificCent
+	double	PriceLevelPrice
+	double	PriceLevel1Value
+   to support the new Price Level functionality in PCAW V10.
+
+3. Added the property JrnlHdr.MaxTrxNulberL(Period, JournalCode)
+
+Problems Fixed
+--------------
+1. For PCAW V7 there was a problem with refreshing JrnlHdr and JrnlRow data.
+
+2. In mwWrite_SalesOrderJournal the class was not being closed correctly if
+   an error occured.
+
+3. The SalesOrderJournal.CloseSalesOrder and PurchaseOrderJournal.CloseSalesorder
+   properties were not getting saved properly on an insert or update for PCAW
+   V8 or higher.
+
+4. The Employee supporting tables
+	Employee EE Detail
+	Employee ER Detail
+	Employee Pay Info
+	Employee Payroll Detail
+   were not getting cleared on a refresh, causing duplicate records.
+
+5. On the Sales Invoicing form when, on a new invoice, if a Sales Order line
+   shipped quanitity was added and a new item was added to the invoice then the
+   invoice was not being created correctly in PCAW.
+
+6. Some reports were not displaying or were producing a request for the value
+   of DATEVAL when a date range filter was selected.
+
+7. Some errors were corrected in the manual.
+
+
+Changes to PawCom from V2.3.03 to V2.4
+======================================
+
+New Features
+------------
+1. Now supports V10.  See description of new methods and properties below.
+
+2. Added Customer ShipTo Addresses and labels to PawTrack and Maintain Customer
+   form.  You can now have as many ship to addresses as you want.
+
+3. Added pop-up notes on invoices.  To enable this feature set the flag in the
+   Options table.  This allows you to view customer notes when you invoice them.
+
+4. SelectCompany, SelectCustomer, SelectEmployee, SelectLineItem, SelectSalesRep,
+   SelectTaxCode and SelectVendor objects now return a status from the ShowOpen
+   method: True if OK was clicked, False if Cancel was clicked.
+
+5. The ExcludeInactive property of the SelectAccount, SelectCustomer, SelectEmployee,
+   SelectLineItem, SelectSalesRep, and SelectVendor objects has been documented.
+
+6. Modified sort on SelectInvoice pop-up of SalesInvoicing form so it sorts by
+   Reference after Date.
+
+7. Added function mwDateIsValid(Period, Date) to verify that a date is in the range
+   for the specified period.  This is useful to call before writing journal records,
+   which can give footing errors if the date is not valid for the period.
+
+8. On all Select objects normally hold the previously selected value.  However, now
+   reinitializing the object will clear the value.  Note:  the value desired should
+   be loaded before calling ShowOpen.
+
+9. An Open Sales by Job report has been added.
+
+10. A status message has been added to DemoUpdateAll and DemoUpdateFlagged to report
+    what was updated.
+
+11. Cosmetic changes made to rpt Sales by Item Monthly and rpt Sales by Item Summary.
+
+12. Added function mwWriteAll_AuditTr to assist in restoring damaged AUDITTR.DAT files.
+
+13. Added Discount button to Sales/Invoicing.  This makes it easy to add a line
+    to the invoice with a discount amount based of dollars or percent.
+
+14. When refreshing journal data the status line at the bottom of the screen now
+    shows a progress count so you know what is happening.
+
+15. A new scheme has been created for the PawTrack data.  Previously the data for
+    all companies was held in a single file.  Now separate PawTrack24.mdb files
+    are placed in each company folder and these files hold only the records for
+    that company.  This gets around a problem with the previous scheme where
+    the company data folder could not be moved after the PawTrack file had
+    records for that company.  It also insures that the PawTrack data gets backed
+    up with the rest of the company data when a backup operation is performed in
+    Peachtree.
+
+16. Price level descriptions have been added to the Unit Price pull-down list on the
+    Sales/Invoicing form.
+
+17. An "Available Credit" field has been added to the Sales/Invoicing form.
+
+18. Functions mwGetLastCost_InventoryCost and mwGetAverageCost_InventoryCost have
+    been added to the module "Inventory Cost functions."
+
+19. A Payment Defaults tab has been added to the Maintain Customer 2 form for V10.
+
+20. Function mwPeriodForDate and mwStartDateForPeriod have been added to the
+    module Support functions.
+
+21. In the module Demonstration functions the function mwDemoWriteToSalesJrnl has
+    been completely rewritten to be more understandable and general.  The setting
+    of TrxDate for the other demo journal write functions has also been cleaned up.
+
+Problems Fixed
+--------------
+The following problems have been corrected in V2.4:
+
+1. There was an extraneous message box that appeared in the OpenCompany form.
+
+2. The length of CustomerName in the "Temporary Items Sold To Customers" table
+   was incorrectly set to 30 instead of 39.
+
+3. On the Maintain Customer 2 form when tasks were pulled up for a customer,
+   data from another company that had a customer with the same CustomerIndex
+   would appear. (Actually fixed in qry Customer Tasks.)
+
+4. Function mwDateAe was not handling a date value of null properly.
+
+5. The queries "qry Sales by Item Monthly Summary" and "qry Sales by Item Report"
+   were incorrectly including data from quotes.
+
+6. In mwReadAll_LineItems there was a problem that was a causing some incorrect
+   numbers in the Line Item History Report.  The problem was fixed by adding
+   "qry Inventory Sales by Period" and modifying "mwUpdate_LineItemHistory".
+
+7. SelectCompany was sometimes not returning CompanyName correctly.
+
+8. Scrolling in SelectCustomer, SelectLineItem and SelectVendor objects was
+   improved.
+
+9. A problem prevented the Memorized Transaction report from running.
+
+10. The SelectCustomer, SelectLineItem, and SelectVendor objects would fail with
+    an Error=3 (file not open) message if the Cancel button was previously
+    clicked and the ShowOpen method was invoked again.
+
+11. On the Sales/Invoicing form for PAW (but not PCW) Sales Orders were not
+    showing.
+
+12. There was a problem in the Job Profitability Report for PAW (but not PCW).
+
+13. The MemorizedTransactions object was not returning detail correctly for
+    GJ records (type =1).
+
+14. The Job data for a Payroll Journal record was using the LineNo and JobLevel
+    inconsistently across versions.
+
+15. There was a minor problem with the SalesOrderJournal object.
+
+16. For the SalesJournal object the ReadNextByCustomer method was getting a
+    premature EOF before the last customer record was reached.
+
+17. On the Sales/Invoicing form Sales Order data was not being displayed after
+    a previous invoice with Sales Order data had been pulled up.
+
+18. On the Maintain Customer form the Invoice History tab was not always showing
+    all history.
+
+19. The TextInvoice form has a display problem with very long address strings.
+
+20. On the Sales/Invoice form when a record was saved and an error occured, the
+    form was cleared instead of retaining its data.
+
+21. For the CashReceiptsJournal object the fields DetailInventoryAccount and
+    DetailCostOfSalesAccount were reversed.
+
+22. For the MemorizedTransaction object the ID and Index were not being handled
+    properly.
+
+23. In the form Filtered Reports when the Report Date was specified, it was not
+    filtering the records properly.
+
+24. For the CashReceiptsJournal object the property Reference was not getting
+    saved on an Insert or Update.
+
+25. On the Maintain Customer form Invoice History tab the Sales This Month,
+    Total Sales and Balance Due fields were sometimes incorrect.
+
+26. The functions DemoWriteToPurchaseOrderJrnl and DemoWriteToSalesOrderJrnl
+    were setting the field Extension to non-zero values for V7 instead of 0.
+
+27. For V9 only the AuditTrail object was returning incorrect values in some
+    fields.
+
+28. For the AuditTrail object the fields EntryDate and EntryTime were not being
+    saved properly on an insert or update.
+
+29. On the Maintain Customer form Period History tab the display was showing
+    future period data.
+
+30. On the Maintain Customer form when data was deleted from some of the address
+    fields an error would occur on a Save.
+
+31. The function DemoWriteToTicketRegister was writing some incorrect data.
+
+32. On the Sales/Invoicing form certain conditions would cause the total to be
+    erroneously set to 0.
+
+33. On the Maintain Inventory form the accounts on the General tab were sometimes
+    being set to the default values.
+
+34. On the Maintain Customer form ShipTo Addresses tab the address zipcode was
+    not being saved.
+
+35. The SalesJournal object GetForInvoice method was returning an arbitrary value
+    with status = btStatusOK if the record was not found instead of a btEOF status.
+
+36. On the Maintain Customer, Maintain Inventory Item and Maintain Vendor forms
+    entering an ID of more than 20 characters caused an error.
+
+37. When no price level data was available an error was occuring on refresh.
+
+38. For V9 only, the Purchase Journal, Purchase Order Journal, and Sales
+    Journal objects the field NotePrintsAfterItems wasn't being set or returned
+    properly.
+
+39. The ReadBytes method and RecordByte property of the JrnlHdr and JrnlRow
+    objects described in the manual were not operational.
+
+40. The Invoice and Packing Slip generated from the Sales/Invoicing form did
+    not display properly when there were more lines than would fit on a single
+    printed page.
+
+41. The indexing relationships for the employee tables were changed so that the
+    EmployeeID field is no longer part of the primary key.  This fixes a problem
+    that was occuring when two EmployeeIDs differed only in case.
+
+42. For the PurchaseOrderJournal and SalesOrderJournal objects the property
+    DetailQuantity was being read and written as zero.
+
+43. For the PurchaseOrderJournal object the property ClosePurchaseOrder was not
+    being written correctly for Peachtree V8 and higher.
+
+44. For the SalesOrderJournal object the property CloseSalesOrder was not
+    being written correctly for Peachtree V8 and higher.
+
+45. For the SelectCustomer, SelectLineItem and SelectVendor objects if no list
+    items were available, clicking the scroll bar produced a divide by zero error.
+
+46. On the General Ledger report when a date range was selected and the Windows
+    Regional Setting date format was "dd/MM/yy" the report did not function
+    properly.
+
+47. On the Sales/Invoicing form when items where applied to a Sales Order, data
+    was not being written correctly to Peachtree.
+
+48. For the ReadFirstForCustomer method of the SalesJournal object the property
+    NDistributions was not being set.
+
+49. The DiscountDate property of the PurchaseJournal object was not being set
+    correctly for PT V8 and V9.
+
+New Methods and Properties PawCom Object Library
+------------------------------------------------
+V10 (2003) support has been added for all classes and some additional methods
+and properties have been defined.  The classes have been updated as follows:
+
+Throughout the properties Key, TrxNumber, and MaxTrxNumber are now obsolete.
+The properties will continue to work but no longer support longer TrxNumbers
+that have been defined in V10.  (This was a case of "be careful what you ask
+for - you may get it." We reported to Peachtree that the TrxNumber was too
+small to hold period 0 records for very active companies that had several
+years of data.  They heard us and fixed the problem by changing the TrxNumber
+from integer to long.  Hurrah!  Unfortunately that broke the definitions
+for anything relating to the TrxNumber.)
+
+Alarm
+	double  Key 	      - obsolete
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+AssemblyAdjustmentJournal
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+AuditTrail
+	double  Key 	      - obsolete
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+Btrieve
+	string	PawComVersion - new property
+
+CashDisbursementJournal
+	ReadFirstForVendor    - new method
+	ReadNextByVendor      - new method
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+CashReceiptJournal
+	GetForKey	      - obsolete method
+	GetForKeyL	      - new method for V10, replaces GetForKey
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+Chart
+	string  GUID          - new for V10
+
+CompanyInformation
+	byte	Unused11()    - new for V10
+
+Customer
+	string  GUID               - new for V10
+	string	PaymentAccount     - new for V10
+	long	PaymentDefaultData - new for V10
+	string	PaymentMethod	   - new for V10
+
+DefaultEmployeeGeneralData
+	boolean DisplayLastNameFirst - new with V10
+	integer	W2Field14B	     - new for V10
+	integer W2Field13F4	     - new for V10
+	string  W2Field13C4	     - new for V10
+	string	W2Text2		     - new for V10
+
+Employee
+	string	EmployeeFirstName  - new for V10
+	string	EmployeeLastName   - new for V10
+	string	EmployeeMiddleInit - new for V10
+	string  GUID               - new for V10
+	byte	Unused0()	   - new for V10
+
+EventLog
+	double  Key 	      - obsolete
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+GeneralJournal
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+InventoryAdjustmentJournal
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+JobData
+	string  GUID          - new for V10
+
+JrnlHdr  (not meaningful for V7)
+	GetForKeyL			    - new method
+	ReadFirstForIDIndex		    - new method
+	ReadFirstForInvoice		    - new method
+	ReadNextForIDIndex		    - new method
+	ReadNextForInvoice		    - new method
+	string  GUID                        - new for V10
+	double  Key 	                    - obsolete
+	integer MaxTrxNumber                - obsolete
+	long    MaxTrxNumberL               - new, replaces MaxTrxNumber
+	boolean PrintBeforeInvoiceReference - new for V10
+	string  ReturnAuthorization         - new for V10
+	variant ShipByDate                  - new for V10
+	string	StatementNote               - new for V10
+	integer TrxNumber                   - obsolete
+	long    TrxNumberL                  - new, replaces TrxNumber
+	byte    Unknown15()		    - new for V10
+	byte	Unknown16()		    - new for V10
+
+JrnlRow
+	boolean	CloseOrder    - new for V10
+
+LineItem
+	string	BuyerID                               - new for V10
+	string  GUID                                  - new for V10
+	string	MasterItemID                          - new for V10
+	long	MasterItemIndex                       - new for V10
+	long	NPrimaryAttributes                    - new for V10
+	long	NSecondaryAttributes                  - new for V10
+	string	PrimaryAttributeDescription           - new for V10
+	string	PrimaryAttributeID                    - new for V10
+	string	PrimaryAttributeName                  - new for V10
+	string	SecondaryAttributeDescription         - new for V10
+	string	SecondaryAttributeID                  - new for V10
+	string	SecondaryAttributeName                - new for V10
+	string	SubstockPrimaryAttributeDescription   - new for V10
+	string	SubstockPrimaryAttributeID            - new for V10
+	string	SubstockSecondaryAttributeDescription - new for V10
+	string	SubstockSecondaryAttributeID          - new for V10
+	string	UPC_SKU                               - new for V10
+	double  Weight				      - new for V10
+
+MemorizedTransactions
+	long	DetailFreightFlag     - new
+	boolean DropShip              - new
+	long	DropShipCustomerIndex - new
+	long	ShipToIndex           - new
+
+PayrollJournal
+	integer FieldNumber   - new for V10
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+Peachw
+	string	GUID          - new
+
+PurchaseJournal
+	ReadFirstForVendor	    - new method
+	ReadNextByVendor            - new method
+	integer DetailDisplayedLine - new with PawCom V2.4
+	string  GUID                - new for V10
+	double  Key 	            - obsolete
+	integer MaxTrxNumber        - obsolete
+	long    MaxTrxNumberL       - new, replaces MaxTrxNumber
+	integer NumOrderLines       - new for PawCom V2.4
+	integer TrxNumber           - obsolete
+	long    TrxNumberL          - new, replaces TrxNumber
+
+PurchaseOrderJournal
+ 	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+SalesJournal
+	integer DetailDisplayedLine - new with PawCom V2.4
+	string  GUID                - new for V10
+	double  Key 	            - obsolete
+	integer MaxTrxNumber        - obsolete
+	long    MaxTrxNumberL       - new, replaces MaxTrxNumber
+	integer NumOrderLines	    - new with PawCom V2.4
+	variant ShipByDate          - new for V10
+	integer TrxNumber           - obsolete
+	long    TrxNumberL          - new, replaces TrxNumber
+
+SalesOrderJournal
+	string  GUID          - new for V10
+	double  Key 	      - obsolete
+	integer MaxTrxNumber  - obsolete
+	long    MaxTrxNumberL - new, replaces MaxTrxNumber
+	integer TrxNumber     - obsolete
+	long    TrxNumberL    - new, replaces TrxNumber
+
+TaxAuthority
+	double	Rate2	       - new for V10
+	double	TaxChangeAt    - new for V10
+	long	TaxBasis       - new for V10
+	boolean	TaxUsesFormula - new for V10	
+
+TaxTable
+    New Property:
+	byte    V9Flag
+
+User
+	string  GUID                                - new for V10
+	integer	Purchases_Tasks_VendorCreditMemos   - new
+	integer	Sales_Maint_CustomerPaymentDefaults - new
+	integer Sales_Tasks_CreditMemos             - new
+
+Vendor
+	string  GUID          - new for V10

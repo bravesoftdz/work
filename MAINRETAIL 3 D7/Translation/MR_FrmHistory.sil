@@ -1,0 +1,29 @@
+[Captions]
+TFrmHistory.btClose=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmHistory.btOk=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmHistory.Label1=History Type :~!@#$Tipo Histórico :~!@#$Tipo Histórico :~!@#$
+TFrmHistory.Label2=User :~!@#$Usuário :~!@#$Usuário :~!@#$
+TFrmHistory.Label3=Date :~!@#$Data :~!@#$Fetcha :~!@#$
+TFrmHistory.Label4=OBS :~!@#$OBS :~!@#$OBS :~!@#$
+TFrmHistory.Label8=Invoice #~!@#$Nº Fatura :~!@#$Factura :~!@#$
+TFrmHistory.lblReceivedBy=Received By :~!@#$Recebido por :~!@#$Recebido por :~!@#$
+TFrmHistory.sbHelp=&Help~!@#$A&juda~!@#$Ayuda~!@#$
+TFrmHistory.TFrmHistory=History~!@#$Histórico~!@#$Histórico~!@#$
+TFrmHistory.gbxCarrier=  Carrier  ~!@#$  Transportador  ~!@#$  Transportador   ~!@#$
+TFrmHistory.lbFilterCarrier=Filter :~!@#$Filtro :~!@#$Filtro :~!@#$
+TFrmHistory.lbCarrier=Carrier :~!@#$Transp. :~!@#$Transp. :~!@#$
+TFrmHistory.lbFreightType=Freight Type:~!@#$Frete Conta :~!@#$Frete Conta :~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmHistory.cbxFreightType.Items=Store,Destination~!@#$Emitente,Destinatário~!@#$Emitente,Destinatario~!@#$
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

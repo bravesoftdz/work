@@ -1,0 +1,53 @@
+[Captions]
+TFrmInventoryList.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmInventoryList.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TFrmInventoryList.btFabricanteAll=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmInventoryList.btFilter=Show &Filters~!@#$Filtro~!@#$Filtro~!@#$
+TFrmInventoryList.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TFrmInventoryList.btGroupAll=All~!@#$Tudo~!@#$Todo~!@#$
+TFrmInventoryList.btnExec=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFrmInventoryList.btPrint=&Preview~!@#$&Visualizar~!@#$&Visualizar~!@#$
+TFrmInventoryList.grdModelListDBCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmInventoryList.grdModelListDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInventoryList.grdModelListDBHasInStore=HasInStore~!@#$EmEstoque~!@#$NaTienda~!@#$
+TFrmInventoryList.grdModelListDBIDModel=IDModel~!@#$IDModel~!@#$IDModel~!@#$
+TFrmInventoryList.grdModelListDBManufacture=Manufacture~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmInventoryList.grdModelListDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInventoryList.grdModelListDBTotQtyOnHand=OnHand~!@#$Estoque~!@#$Existente~!@#$
+TFrmInventoryList.grdModelListDBTotQtyOnHandF=OnHandF~!@#$Disponível~!@#$ExistenteF~!@#$
+TFrmInventoryList.grdModelListDBTotQtyOnOrder=OnOrder~!@#$Pedidos~!@#$EnPedidos~!@#$
+TFrmInventoryList.grdModelListDBTotQtyOnPrePurchase=OnPurchasing~!@#$Recebidos~!@#$Recebidos~!@#$
+TFrmInventoryList.grdModelListDBTotQtyOnPreSale=OnPreSale~!@#$Reservada~!@#$EnBoletaReservado~!@#$
+TFrmInventoryList.grdModelListLevel=~!@#$~!@#$~!@#$
+TFrmInventoryList.gridPrinterLink=InventoryReport~!@#$Listagem do estoque~!@#$Listagem do estoque~!@#$
+TFrmInventoryList.Label2=Category :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFrmInventoryList.Label4=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmInventoryList.sbHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmInventoryList.btExcel=E&xport~!@#$E&xportar~!@#$E&xportar~!@#$
+
+[DisplayLabels]
+TFrmInventoryList.quModelCategory=Category~!@#$Categoria~!@#$Categoria~!@#$
+TFrmInventoryList.quModelCurrentCost=CurrentCost~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInventoryList.quModelFloatPercent=FloatPercent~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelHasInStore=HasInStore~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelIDModel=IDModel~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelManufacture=Manufacture~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelModel=Model~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelReplacementCost=ReplacementCost~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelSellingPrice=SellingPrice~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelTotQtyOnHand=OnHand~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelTotQtyOnHandF=TotQtyOnHandF~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelTotQtyOnOrder=OnOrder~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelTotQtyOnPrePurchase=OnPurchasing~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelTotQtyOnPreSale=OnHold~!@#$~!@#$~!@#$
+TFrmInventoryList.quModelTotQtyOnRepair=OnRepair~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

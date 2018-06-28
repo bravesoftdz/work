@@ -1,0 +1,35 @@
+[Captions]
+TFrmImportEstimated.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmImportEstimated.btnExec=&GO!~!@#$IR!~!@#$IR!~!@#$
+TFrmImportEstimated.btnOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmImportEstimated.Button1=All~!@#$Todos~!@#$Todos~!@#$
+TFrmImportEstimated.Button2=All~!@#$Todos~!@#$Todos~!@#$
+TFrmImportEstimated.chkUpdateSalePrice=Update Sale Price~!@#$Atualizar Preço de Venda~!@#$Atualizar Precio Venta~!@#$
+TFrmImportEstimated.grdBrowseDBCustomer=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmImportEstimated.grdBrowseDBEstimatedDate=Date~!@#$Data~!@#$Fetcha~!@#$
+TFrmImportEstimated.grdBrowseDBIDEstimated=Number~!@#$Nº Orçamento~!@#$Nº Presupuesto~!@#$
+TFrmImportEstimated.grdBrowseDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmImportEstimated.grdBrowseDBSystemUser=SystemUser~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmImportEstimated.grdBrowseDBTotal=Total~!@#$Total~!@#$Total~!@#$
+TFrmImportEstimated.Label1=Document :~!@#$Documento :~!@#$Documento :~!@#$
+TFrmImportEstimated.Label2=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TFrmImportEstimated.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmImportEstimated.Label4=Estimated :~!@#$Orçamento :~!@#$Presupuesto :~!@#$
+TFrmImportEstimated.Label5=User :~!@#$Vendedor :~!@#$Vendedor :~!@#$
+TFrmImportEstimated.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmImportEstimated.lbTo=To~!@#$até~!@#$hasta~!@#$
+TFrmImportEstimated.sbHelp=&Help~!@#$&Ajuda~!@#$&Ajuda~!@#$
+TFrmImportEstimated.TFrmImportEstimated=Import Budget~!@#$Importar Orçamento~!@#$Importar Presupuesto~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmImportEstimated.cbmDocs.Items=,"Driver License","Social Security","Customer Card","Employee ID"~!@#$,"Carteira Motorista","Carteira Identidade","Cartão Cliente",C.P.F.~!@#$,"Licencia Conducir","Carnet Identidad","Tarjeta Cliente",ID~!@#$
+TFrmImportEstimated.cbmName.Items=,"First Name","Last Name","Full Name"~!@#$,Nome,Sobrenome,"Nome Completo"~!@#$,Nombre,Apellido,"Nombre Completo"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

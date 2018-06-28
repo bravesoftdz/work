@@ -1,0 +1,64 @@
+[Captions]
+TbrwTreeItemParent.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwTreeItemParent.btAddSubType=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TbrwTreeItemParent.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TbrwTreeItemParent.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwTreeItemParent.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwTreeItemParent.btDetailType=D&etail~!@#$D&etalhe~!@#$D&etalle~!@#$
+TbrwTreeItemParent.btExcel=F6 Spread&sheet~!@#$F6 Plani&lha~!@#$F6 Plani&lla~!@#$
+TbrwTreeItemParent.btFilter=Undo &Filters~!@#$Remover &Filtros~!@#$Retirar &Filtros~!@#$
+TbrwTreeItemParent.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwTreeItemParent.btnCollapse=Collapse all Groups~!@#$Consolidar Grupos~!@#$Consolidar Grupos~!@#$
+TbrwTreeItemParent.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwTreeItemParent.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwTreeItemParent.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar excluindo campo selecionado~!@#$Filtrar excluyendo campo seleccionado~!@#$
+TbrwTreeItemParent.btnFilterSel=Filter for Selected Field~!@#$Filtrar por campo selecionado~!@#$Filtrar por campo seleccionado~!@#$
+TbrwTreeItemParent.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwTreeItemParent.btnSortAsc=Sort Ascending~!@#$Classificar Ascendente~!@#$Clasificar Ascendiente~!@#$
+TbrwTreeItemParent.btnSortDesc=Sort Descending~!@#$Classificar Descendente~!@#$Clasificar Descendiente~!@#$
+TbrwTreeItemParent.btnUndoFilter=Undo Filter~!@#$Desfazer Filtro~!@#$Deshacer Filtro~!@#$
+TbrwTreeItemParent.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwTreeItemParent.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwTreeItemParent.btRemoveType=Re&move~!@#$Re&mover~!@#$Re&mover~!@#$
+TbrwTreeItemParent.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwTreeItemParent.CheckSub=Show sub items~!@#$Mostrar sub items~!@#$Mostrar sub items~!@#$
+TbrwTreeItemParent.edtFilter=Filter~!@#$Filtrar~!@#$Filtrar~!@#$
+TbrwTreeItemParent.FilterbySelection=Filter by selection~!@#$Filtrar segundo seleção~!@#$Filtrar según selección~!@#$
+TbrwTreeItemParent.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo seleção~!@#$Filtrar excluyendo selección~!@#$
+TbrwTreeItemParent.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwTreeItemParent.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwTreeItemParent.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TbrwTreeItemParent.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwTreeItemParent.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwTreeItemParent.pnlTitleGrid=Items~!@#$Items~!@#$Items~!@#$
+TbrwTreeItemParent.pnlTitleTree=Classification~!@#$Classificação~!@#$Clasificación~!@#$
+TbrwTreeItemParent.pnlTreeCommand=~!@#$~!@#$~!@#$
+TbrwTreeItemParent.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwTreeItemParent.TbrwTreeItemParent=brwTreeItemParent~!@#$~!@#$~!@#$
+
+[Hints]
+TbrwTreeItemParent.btExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TbrwTreeItemParent.btnCollapse=Collapse all Groups~!@#$Consolidar Grupos~!@#$Consolidar Grupos~!@#$
+TbrwTreeItemParent.btnExec=~!@#$~!@#$~!@#$
+TbrwTreeItemParent.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwTreeItemParent.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar excluindo campo selecionado~!@#$Filtrar excluyendo campo seleccionado~!@#$
+TbrwTreeItemParent.btnFilterSel=Filter for Selected Field~!@#$Filtrar por campo selecionado~!@#$Filtrar por campo seleccionado~!@#$
+TbrwTreeItemParent.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwTreeItemParent.btnSortAsc=Sort Ascending~!@#$Classificar Ascendente~!@#$Clasificar Ascendiente~!@#$
+TbrwTreeItemParent.btnSortDesc=Sort Descending~!@#$Classificar Descendente~!@#$Clasificar Descendiente~!@#$
+TbrwTreeItemParent.btnUndoFilter=Undo Filter~!@#$Desfazer Filtro~!@#$Deshacer Filtro~!@#$
+TbrwTreeItemParent.edtFilter=Filter~!@#$Filtrar~!@#$Filtrar~!@#$
+TbrwTreeItemParent.imgFolder=Double-click to show deleted~!@#$Duplo-click para ver items eliminados~!@#$Doble click para ver items eliminados~!@#$
+TbrwTreeItemParent.ImgTrash=Double-click to show non deleted items~!@#$Duplo-click para ver items não eliminados~!@#$Doble click para ver items no eliminados~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwTreeItemParent.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

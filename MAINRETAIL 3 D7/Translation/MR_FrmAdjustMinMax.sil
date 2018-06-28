@@ -1,0 +1,115 @@
+[Captions]
+TFrmAdjustMinMax.btClose=&Close~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmAdjustMinMax.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colu&nas~!@#$
+TFrmAdjustMinMax.btExcel=E&xport~!@#$&Exportar~!@#$&Exportar~!@#$
+TFrmAdjustMinMax.btFabricanteAll=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TFrmAdjustMinMax.btnApplyMax=Apply Max Sug.~!@#$Aplicar Max Sug.~!@#$Aplicar Max Sug.~!@#$
+TFrmAdjustMinMax.btnApplyMinMax=Apply Min/Max~!@#$Aplicar Min/Max~!@#$Aplicar Min/Max~!@#$
+TFrmAdjustMinMax.btnCategClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.btnColorClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.btnGroupClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.btnSave=&Save~!@#$&Salvar~!@#$&Salvar~!@#$
+TFrmAdjustMinMax.btnSizeClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.btnSubGroupClear=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.btSearch=&Search~!@#$&Buscar~!@#$&Buscar~!@#$
+TFrmAdjustMinMax.Button1=All~!@#$Todos~!@#$Tudo~!@#$
+TFrmAdjustMinMax.EEE=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBAvgQtySold=Qty Avg~!@#$Media Venda~!@#$Media Venda~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBMaxQty=Max~!@#$Max~!@#$Max~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBMinQty=Min~!@#$Min~!@#$Min~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBModelPrice=Price~!@#$Prç Venda~!@#$Precio Venta~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBQtyOnHand=On Hand~!@#$Estoque~!@#$Ctd~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBStoreSellingPrice=Store Price~!@#$Prç Loja~!@#$Prc Tienda~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxDBTotalQtySold=Qty Sold~!@#$Qtd Vendida~!@#$Qtd Vendida~!@#$
+TFrmAdjustMinMax.grdBrowseMinMaxLevel=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.hhh=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TFrmAdjustMinMax.lbCategory=Category :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFrmAdjustMinMax.lbDays=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.lbGroup=Sub-Category:~!@#$Sub-Categoria :~!@#$Sub-Categoria :~!@#$
+TFrmAdjustMinMax.lbHoriz=Hotizontal :~!@#$Hotizontal :~!@#$Hotizontal :~!@#$
+TFrmAdjustMinMax.lbManufect=Manufacturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmAdjustMinMax.lblMinSafetyStock=Min Safety stock :~!@#$Min. Estoque Seg. :~!@#$Min. Estoque seg. :~!@#$
+TFrmAdjustMinMax.lblMaxSafetyStock=Max Safety stock :~!@#$Max. Estoque Seg. :~!@#$Max. Estoque seg. :~!@#$
+TFrmAdjustMinMax.lblInDays=(in days)~!@#$(em dias)~!@#$(en dias)~!@#$
+TFrmAdjustMinMax.lbSalePeriod=Sale Period :~!@#$Media Periodo :~!@#$Media Periodo :~!@#$
+TFrmAdjustMinMax.lbStore=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmAdjustMinMax.lbSubGroup=Group:~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmAdjustMinMax.lbVendor=Vendor :~!@#$Fornecedor :~!@#$Fornecedor :~!@#$
+TFrmAdjustMinMax.lbVerti=Vertical :~!@#$Vertical :~!@#$Vertical :~!@#$
+TFrmAdjustMinMax.Panel1=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.Panel2=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.Panel3=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.Panel4=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.Panel5=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.pnlButtons=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.pnlDivisoria2=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.TFrmAdjustMinMax=Adjust Min/Max~!@#$Ajustar Min/Max~!@#$Ajustar Min/Max~!@#$
+
+[DisplayLabels]
+TFrmAdjustMinMax.BCDField1=ModelPrice~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.BCDField2=StoreSellingPrice~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.FloatField1=QtyOnHand~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.FloatField2=TotalQtySold~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.FloatField3=MinQty~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.FloatField4=MaxQty~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.FloatField5=AvgQtySold~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.IntegerField1=ModelID~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.IntegerField2=StoreID~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxAvgQtySold=AvgQtySold~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxCategory=Category~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxDescription=Description~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxManufacture=Manufacture~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxMaxQty=MaxQty~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxMGroup=MGroup~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxMinQty=MinQty~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxModel=Model~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxModelID=ModelID~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxModelPrice=ModelPrice~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxQtyOnHand=QtyOnHand~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxStoreID=StoreID~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxStoreSellingPrice=StoreSellingPrice~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxSubCategory=SubCategory~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.quMinMaxTotalQtySold=TotalQtySold~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.StringField1=Model~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.StringField2=Description~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.StringField3=Manufacture~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.StringField4=Category~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.StringField5=SubCategory~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.StringField6=MGroup~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmAdjustMinMax.cbxMethod.Items="Start with","End with",Contains~!@#$"Começe com","Termine com",Contenha~!@#$Inicia,Termina,Ter~!@#$
+TFrmAdjustMinMax.cbxType.Items=Model,Description,"Vendor Code"~!@#$Modelo,Descrição,"Cód. Fornec."~!@#$Model,Descripción,"Cód. Fornec."~!@#$
+TFrmAdjustMinMax.scCategory.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scCategory.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scColor.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scColor.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scFabricante.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scFabricante.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scGroup.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scGroup.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scSize.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scSize.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scStore.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scStore.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scSubGroup.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scSubGroup.FilterValues=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scVendor.FilterFields=~!@#$~!@#$~!@#$
+TFrmAdjustMinMax.scVendor.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

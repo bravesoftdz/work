@@ -1,0 +1,60 @@
+[Captions]
+TbrwStore.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwStore.btClose=&Close~!@#$Fechar~!@#$Cerrar~!@#$
+TbrwStore.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwStore.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwStore.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwStore.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwStore.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwStore.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwStore.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwStore.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwStore.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwStore.grdBrowseDBAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TbrwStore.grdBrowseDBBeeper=Beeper~!@#$Beeper~!@#$Beeper~!@#$
+TbrwStore.grdBrowseDBCellular=Cell~!@#$Celular~!@#$Celular~!@#$
+TbrwStore.grdBrowseDBCity=City~!@#$Cidade~!@#$Ciudad~!@#$
+TbrwStore.grdBrowseDBContato=Contact~!@#$Contato~!@#$Contacto~!@#$
+TbrwStore.grdBrowseDBFax=Fax~!@#$Fax~!@#$Fax~!@#$
+TbrwStore.grdBrowseDBFranchise=Is Franchise~!@#$Franquia~!@#$Franquia~!@#$
+TbrwStore.grdBrowseDBIDEstado=IDState~!@#$IDEstado~!@#$IDEstado~!@#$
+TbrwStore.grdBrowseDBIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TbrwStore.grdBrowseDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwStore.grdBrowseDBTelephone=Phone~!@#$Fone~!@#$Fono~!@#$
+TbrwStore.grdBrowseDBZip=Zip~!@#$Cep~!@#$Código postal~!@#$
+TbrwStore.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TbrwStore.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwStore.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwStore.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwStore.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwStore.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwStore.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwStore.TbrwStore=brwStore~!@#$brwLoja~!@#$brwTienda~!@#$
+
+[DisplayLabels]
+TbrwStore.quBrowseAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TbrwStore.quBrowseBeeper=Beeper~!@#$Beeper~!@#$Beeper~!@#$
+TbrwStore.quBrowseCellular=Cell~!@#$Cel~!@#$Cel~!@#$
+TbrwStore.quBrowseCity=City~!@#$Cidade~!@#$Ciudad~!@#$
+TbrwStore.quBrowseContato=Contact~!@#$Contato~!@#$Contacto~!@#$
+TbrwStore.quBrowseFax=Fax~!@#$Fax~!@#$Fax~!@#$
+TbrwStore.quBrowseIDEmpresa=IDCompany~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TbrwStore.quBrowseIDEstado=IDState~!@#$IDEstado~!@#$IDEstado~!@#$
+TbrwStore.quBrowseIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TbrwStore.quBrowseName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwStore.quBrowseTelephone=Phone~!@#$Fone~!@#$Fono~!@#$
+TbrwStore.quBrowseZip=Zip~!@#$CEP~!@#$C.Postal~!@#$
+
+[Hints]
+TbrwStore.btExcel=Export ~!@#$Exportar~!@#$Exportar ~!@#$
+TbrwStore.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwStore.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

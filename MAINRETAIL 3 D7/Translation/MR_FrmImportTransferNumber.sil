@@ -1,0 +1,20 @@
+[Captions]
+TFrmImportTransferNumber.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmImportTransferNumber.btnSave=&Import~!@#$&Importar~!@#$&Importar~!@#$
+TFrmImportTransferNumber.Label1=Tranfer Number :~!@#$Número da transferência :~!@#$Número del transferência :~!@#$
+TFrmImportTransferNumber.TFrmImportTransferNumber=Import TransferNumber~!@#$Importar transferência~!@#$Importar transferência~!@#$
+TFrmImportTransferNumber.btnSearch=Search~!@#$Procurar~!@#$Procurar~!@#$
+TFrmImportTransferNumber.grdTransfersDBStoreOrigem=FROM~!@#$DE~!@#$DE~!@#$
+TFrmImportTransferNumber.grdTransfersDBStoreDestino=TO~!@#$PARA~!@#$PARA~!@#$
+TFrmImportTransferNumber.grdTransfersDBNumber=Number~!@#$Nº Transf.~!@#$&Nº Transf.~!@#$
+TFrmImportTransferNumber.grdTransfersDBData=Date~!@#$Data~!@#$Fetcha~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,31 @@
+[Captions]
+TFrmEstimatedInfo.btClose=&Close~!@#Fe&char~!@#&Cerrar~!@#
+TFrmEstimatedInfo.btnAdd=Add~!@#Adicionar~!@#Adc.~!@#
+TFrmEstimatedInfo.btnDell=Delete~!@#Remover~!@#Remover~!@#
+TFrmEstimatedInfo.btnSave=&Save~!@#&Salvar~!@#Guardar~!@#
+TFrmEstimatedInfo.grdBrowseDBAmount=Amount~!@#Valor~!@#Valor~!@#
+TFrmEstimatedInfo.grdBrowseDBMeioPag=Payment~!@#Pagamento~!@#Pagamento~!@#
+TFrmEstimatedInfo.grdBrowseDBOBS=OBS~!@#OBS~!@#OBS~!@#
+TFrmEstimatedInfo.Label12=Payment Type :~!@#Tipo Pgto :~!@#Tipo Pgto :~!@#
+TFrmEstimatedInfo.Label28=OBS :~!@#OBS :~!@#OBS :~!@#
+TFrmEstimatedInfo.Label4=Type :~!@#Tipo :~!@#Tipo :~!@#
+TFrmEstimatedInfo.Label5=Date :~!@#Data :~!@#Fetcha :~!@#
+TFrmEstimatedInfo.Label6=Address :~!@#Endereço :~!@#Dirección:~!@#
+TFrmEstimatedInfo.lbAmount=Amount :~!@#Valor :~!@#Valor :~!@#
+TFrmEstimatedInfo.lbObs=OBS :~!@#OBS :~!@#OBS :~!@#
+TFrmEstimatedInfo.sbHelp=&Help~!@#Ajuda~!@#Ayada~!@#
+TFrmEstimatedInfo.TFrmEstimatedInfo=Estimated Info~!@#Orçamento~!@#Presupuesto~!@#
+TFrmEstimatedInfo.tsDeliver=Deliver~!@#Entrega~!@#Entrega~!@#
+TFrmEstimatedInfo.tsPayments=Payments~!@#Pagamentos~!@#Pagamentos~!@#
+TFrmEstimatedInfo.lbDate=Date :~!@#Data :~!@#Fetcha :~!@#
+TFrmEstimatedInfo.grdBrowseDBEstimetedDate=Date~!@#Data~!@#Fetcha~!@#
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

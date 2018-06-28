@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-16"?>
+<events>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="9" SPID="66" LoginName="NT SERVICE\ReportServer$PINOGY" DatabaseName="ReportServer$PINOGY" ObjectName="sp_reset_connection" ApplicationName="Report Server">exec sp_reset_connection</event>
+  <event EventClass="10" CPU="0" Reads="4" Writes="0" Duration="192" SPID="66" LoginName="NT SERVICE\ReportServer$PINOGY" DatabaseName="ReportServer$PINOGY" ObjectName="GetDBVersion" ApplicationName="Report Server">declare @p1 nvarchar(64)
+set @p1=N'162'
+exec GetDBVersion @DBVersion=@p1 output
+select @p1</event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="9" SPID="66" LoginName="NT SERVICE\ReportServer$PINOGY" DatabaseName="ReportServer$PINOGY" ObjectName="sp_reset_connection" ApplicationName="Report Server">exec sp_reset_connection</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="153" SPID="66" LoginName="NT SERVICE\ReportServer$PINOGY" DatabaseName="ReportServer$PINOGY" ObjectName="GetMyRunningJobs" ApplicationName="Report Server">exec GetMyRunningJobs @ComputerName=N'SOLOMON',@JobType=1</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="23" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="39" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET FMTONLY ON select ModelId,sic.IdCommission,pim.SalePrice,StoreId,DocumentId from  PreInventoryMov pim join SaleItemCommission sic on pim.IdPreInventoryMov = sic.IdPreInventoryMov WHERE 1=2  SET FMTONLY OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="10" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE ON</event>
+  <event EventClass="10" CPU="0" Reads="7" Writes="0" Duration="147" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'select sum(isnull(pim.qty, 0)) currentQty        ,pim.IdPreInventoryMov                       ,pim.discount        ,pim.documentID from PreInventoryMov pim join SaleItemCommission sic on pim.IdPreInventoryMov = sic.IdPreInventoryMov where ModelId = @P1   and sic.IdCommission = @P2   and pim.SalePrice = @P3   and StoreId = @P4   and DocumentId = @P5   and pim.InventMovTypeID = 1 group by pim.StoreId         ,pim.ModelId         ,pim.SalePrice         ,pim.Discount         ,sic.IdCommission         ,pim.IdPreInventoryMov         ,pim.DocumentId 
+',N'@P1 int,@P2 int,@P3 money,@P4 int,@P5 int',519,2,15.9900,1,20557</event>
+  <event EventClass="12" CPU="0" Reads="2" Writes="0" Duration="83" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SELECT GroupID FROM Model WHERE ( IDModel = 519 )
+</event>
+  <event EventClass="12" CPU="0" Reads="2" Writes="0" Duration="69" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SELECT UseDocumentOnSale FROM TabGroup WHERE ( IDGroup = 9 )
+</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="12" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE OFF</event>
+  <event EventClass="10" CPU="0" Reads="447" Writes="0" Duration="15432" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_ChangeItem" ApplicationName="Main Retail 6.0">declare @p23 int
+set @p23=54110
+exec sp_PreSale_ChangeItem;1 20557,519,1,2,1,15.9900,12.0000,1.5990,'2014-03-13 17:13:00',0,0,'2014-03-13 17:13:21',NULL,0,0,0,0,0,'',0,0.0000,1.5990,@p23 output
+select @p23</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="41" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET FMTONLY ON select m.Idmodel from  model m join tabgroup tg on m.groupID = tg.idGroup WHERE 1=2  SET FMTONLY OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="9" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE ON</event>
+  <event EventClass="10" CPU="0" Reads="4" Writes="0" Duration="69" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'select m.model, m.description, tg.serialnumber
+ from model m join tabgroup tg on m.groupID = tg.idGroup
+ where tg.serialnumber = 1 and m.Idmodel =@P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="46" Writes="0" Duration="368" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_quPreSaleItem" ApplicationName="Main Retail 6.0">exec sp_PreSale_quPreSaleItem;1 20557,1,'2014-03-13 17:13:10'</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="98" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="21" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="81" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="13" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="82" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="97" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="15" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="69" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="11" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="71" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="143" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="17" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="77" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="13" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="130" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="103" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="13" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="56" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="20" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="99" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="72" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_quPreSaleValue" ApplicationName="Main Retail 6.0">exec sp_PreSale_quPreSaleValue;1 20557</event>
+  <event EventClass="10" CPU="0" Reads="46" Writes="0" Duration="432" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_quPreSaleItem" ApplicationName="Main Retail 6.0">exec sp_PreSale_quPreSaleItem;1 20557,1,'2014-03-13 17:13:21'</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="89" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="52" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="81" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="19" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="118" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="89" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="15" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="73" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="13" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="78" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="75" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="10" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="111" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="12" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="71" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="81" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	M.LargeImage,
+	M.LargeImage2
+FROM
+	Model M (NOLOCK)
+WHERE
+	M.IDModel = @P1',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="10" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 100 </event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="51" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT 
+	F.IDInvFeatures,
+	F.Feature
+FROM
+	InvFeatures F (NOLOCK)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="7" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET ROWCOUNT 0 </event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="60" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT
+	F.IDInvTechFeatures,
+	F.TechFeature
+FROM
+	InvTechFeatures F (NOLOCK)
+	JOIN Model M (NOLOCK) ON (M.IDModel = F.IDModel)
+WHERE
+	F.IDModel = @P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="10" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="27" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET FMTONLY ON select m.Idmodel from  Model m join PT_GlobalSetting p on m.GroupID = p.IDPetCategory WHERE 1=2  SET FMTONLY OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="7" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE ON</event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="49" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'select m.IdModel from Model m join PT_GlobalSetting p on m.GroupID = p.IDPetCategory where m.Idmodel = @P1 
+',N'@P1 int',519</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="69" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_quPreSaleValue" ApplicationName="Main Retail 6.0">exec sp_PreSale_quPreSaleValue;1 20557</event>
+  <event EventClass="10" CPU="0" Reads="0" Writes="0" Duration="69" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT DISTINCT
+	IA.IDInvAccessory,
+	IA.IDModel,
+	M.Model,
+	M.Description,
+	M.SellingPrice,
+	M.AvgCost,
+	M.FinalCost,
+	I.StoreCostPrice,
+	I.SellingPrice as StoreSellingPrice,
+	I.StoreAvgPrice
+FROM
+	PreInventoryMov PIM
+	JOIN InvAccessory IA ON (PIM.ModelID = IA.IDModel)
+	JOIN Model M ON (M.IDModel = IA.IDInvAccessory)
+	LEFT JOIN Inventory I ON (I.ModelID = M.IDModel)
+WHERE
+	PIM.InventMovTypeID = 1
+	AND
+	PIM.DocumentID = @P1
+	AND
+	M.IDModel NOT IN (SELECT ModelID FROM PreInventoryMov WHERE DocumentID = PIM.DocumentID AND InventMovTypeID = 1)
+	AND
+	I.StoreID = @P2
+
+',N'@P1 int,@P2 int',20557,1</event>
+  <event EventClass="10" CPU="0" Reads="46" Writes="0" Duration="396" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_quPreSaleItem" ApplicationName="Main Retail 6.0">exec dbo.sp_PreSale_quPreSaleItem 20557,1,'2014-03-13 17:13:21'</event>
+  <event EventClass="10" CPU="0" Reads="46" Writes="0" Duration="373" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_PreSale_quPreSaleItem" ApplicationName="Main Retail 6.0">exec dbo.sp_PreSale_quPreSaleItem 20557,1,'2014-03-13 17:13:21'</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="13" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="37" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET FMTONLY ON select IdModel from  Model WHERE 1=2  SET FMTONLY OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="9" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE ON</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="52" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'select SellingPrice from Model where IdModel =@P1
+',N'@P1 int',519</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="8" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="26" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET FMTONLY ON select P.StartDate,P.EndDate from                        Sal_Promo P (NOLOCK) WHERE 1=2  SET FMTONLY OFF</event>
+  <event EventClass="12" CPU="0" Reads="0" Writes="0" Duration="7" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="" ApplicationName="Main Retail 6.0">SET NO_BROWSETABLE ON</event>
+  <event EventClass="10" CPU="0" Reads="2" Writes="0" Duration="72" SPID="64" LoginName="sa" DatabaseName="a0001348DB" ObjectName="sp_executesql" ApplicationName="Main Retail 6.0">exec sp_executesql N'SELECT                 P.IDPromo,        P.Promo,          P.PromoType,      P.IDStore,        P.Barcode,        P.QtyFrequent,      P.StartDate,        P.EndDate,          P.DaysOfWeek,       P.DiscountType,      P.DiscountValue,      P.QtyPromoItem   FROM                       Sal_Promo P (NOLOCK) WHERE                          P.StartDate &lt;= @P1      AND (P.EndDate IS NULL OR P.EndDate &gt;= @P2)      AND P.DaysOfWeek LIKE ''%1;2;3;4;5;6;7%''      AND P.System = 0                      AND P.Hidden = 0                      AND P.Desativado = 0             
+',N'@P1 datetime,@P2 datetime','2014-03-13 17:13:21','2014-03-13 17:13:21'</event>
+</events>

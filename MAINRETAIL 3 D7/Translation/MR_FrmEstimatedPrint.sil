@@ -1,0 +1,18 @@
+[Captions]
+TFrmEstimatedPrint.btClose=Close~!@#$Fe&char~!@#$Cerrar~!@#$
+TFrmEstimatedPrint.btnPrint=Print~!@#$Imprimir~!@#$Imprimir~!@#$
+TFrmEstimatedPrint.chkFeatures=Display Features~!@#$Exibir Características~!@#$Exibir Características~!@#$
+TFrmEstimatedPrint.chkImage=Display image 1~!@#$Exibir Imagem 1~!@#$Exibir Imagem 1~!@#$
+TFrmEstimatedPrint.chkImage2=Display image 2~!@#$Exibir Imagem 2~!@#$Exibir Imagem 1~!@#$
+TFrmEstimatedPrint.chkTechFeatures=Display Tech Features~!@#$Exibir Características Téc.~!@#$Exibir Características Tec.~!@#$
+TFrmEstimatedPrint.chkQty=Display Qty and Prices~!@#$Exibir Qtd e Preço~!@#$Exibir Ctd e Precio~!@#$
+TFrmEstimatedPrint.sbHelp=Help~!@#$&Ajuda~!@#$&Ajuda~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,37 @@
+FROM        : Company Name
+TO          : Exotic Reef Imports
+Contact     : Paul Tepper / Vicki Tepper
+Address     : 233 S. Broadway 
+              Pennsville, New Jersey - 08070       
+Phone       : 856-678-8600
+Fax         : 856-678-0355
+Pay in 30 day(s)
+
+Please ship me this order as soon as possible. E-mail or fax me back which items you will be shipping.
+
+==================================================================================================
+
+Model                         |Description                                       |Qty |Cost Price|
+--------------------------------------------------------------------------------------------------
+0012                          |ZOANTHIS SUPER FANCY                              |10  |13        |
+--------------------------------------------------------------------------------------------------
+00231                         |BLUE EYE KOLE TANG                                |10  |14        |
+--------------------------------------------------------------------------------------------------
+010279106174                  |Simple Solution Renovation Cat Urine 32 Oz        |10  |3.92      |
+--------------------------------------------------------------------------------------------------
+                                                                                 Total:   309.2
+--------------------------------------------------------------------------------------------------
+PLEASE INFORM THE PO NUMBER ON PURCHASE INVOICE: 335
+==================================================================================================
+
+Thank you.
+
+
+Date        :04/26/2017
+Due Date    :05/03/2017
+Contact     : Joe / Paul
+Company Name:Exotic Reef Imports
+Phone       : 648-7258
+Fax         : 310-648-7611
+Obs         :Test add PO
+

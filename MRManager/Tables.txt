@@ -1,0 +1,11 @@
+1) Customers - ( What changed )
+1) Transactions/Invoice History ( New since last run )
+1) Cash Register History ( What changed )
+1) Inventory 
+1) Users ( What changed )
+2) PuppyTracker/Pet Information (Access)
+3) Gift Card/Store Credits
+4) Sales/Promotions
+4) Commissions
+5) Time Clock
+5) Purchasing/Receiving

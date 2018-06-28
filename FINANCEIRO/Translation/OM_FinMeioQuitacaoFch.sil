@@ -1,0 +1,57 @@
+[Captions]
+TFinMeioQuitacaoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinMeioQuitacaoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinMeioQuitacaoFch.Label1=Código :~!@#$Código :~!@#$Código :~!@#$
+TFinMeioQuitacaoFch.Label2=Descrição :~!@#$Descrição :~!@#$Descripción :~!@#$
+TFinMeioQuitacaoFch.Label3=Dias de retenção :~!@#$Días de retenção :~!@#$Días para retener :~!@#$
+TFinMeioQuitacaoFch.Label4=Taxa de desconto :~!@#$Taxa de desconto :~!@#$Impuesto Descuento :~!@#$
+TFinMeioQuitacaoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinMeioQuitacaoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinMeioQuitacaoFch.lblPTitulo=Meio de Quitação~!@#$Meio de Pagamento~!@#$Medio de Pago~!@#$
+TFinMeioQuitacaoFch.lblPTituloShadow=Meio de Quitação~!@#$Meio de Pagamento~!@#$Medio de Pago~!@#$
+TFinMeioQuitacaoFch.Panel1=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.rbVenda=Disponível para Venda~!@#$Disponível para Venda :~!@#$Disponible para Venta :~!@#$
+TFinMeioQuitacaoFch.TFinMeioQuitacaoFch=FinMeioQuitacaoFch~!@#$FinMeioPagamentoFch~!@#$FinMedioPagamentoFch~!@#$
+
+[DisplayLabels]
+TFinMeioQuitacaoFch.quFormCodigoQuitacaoMeio=CodigoQuitacaoMeio~!@#$CódigoMeioQuitação~!@#$CódigoMediodePago~!@#$
+TFinMeioQuitacaoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinMeioQuitacaoFch.quFormDiasRetencao=DiasRetencao~!@#$DíasRetenção~!@#$DíasRetener~!@#$
+TFinMeioQuitacaoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinMeioQuitacaoFch.quFormIDQuitacaoMeio=IDQuitacaoMeio~!@#$IDMeioQuitação~!@#$IDMedioPagamento~!@#$
+TFinMeioQuitacaoFch.quFormQuitacaoMeio=QuitacaoMeio~!@#$MeioQuitação~!@#$MediodePago~!@#$
+TFinMeioQuitacaoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFinMeioQuitacaoFch.quFormTaxaDesconto=TaxaDesconto~!@#$TaxaDesconto~!@#$ImpDescuento~!@#$
+TFinMeioQuitacaoFch.quFormVenda=Venda~!@#$Venda~!@#$Venta~!@#$
+
+[Hints]
+TFinMeioQuitacaoFch.btCancel=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinMeioQuitacaoFch.btHelp=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinMeioQuitacaoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinMeioQuitacaoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinMeioQuitacaoFch.btOK=~!@#$~!@#$~!@#$
+TFinMeioQuitacaoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinMeioQuitacaoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinMeioQuitacaoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinMeioQuitacaoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

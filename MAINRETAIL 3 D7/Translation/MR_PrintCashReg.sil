@@ -1,0 +1,42 @@
+[Captions]
+TPrintCashReg.Label1=Printing Ticket, Please Wait~!@#$Imprimindo Recibo, Porfavor Espere~!@#$Imprimiendo Recibo, Porfavor Espere~!@#$
+TPrintCashReg.Panel1=If printer does not start, check the "On Line" Button or position of the paper~!@#$Se a impressora não imprimir, cheque o "Em Linha"~!@#$Si la impresora no imprime, verifique el "En Línea"~!@#$
+TPrintCashReg.TPrintCashReg=Printing Receipt~!@#$Imprimindo Recibo~!@#$Imprimiendo Recibo~!@#$
+
+[DisplayLabels]
+TPrintCashReg.quCashRegLogBill1=Bill1~!@#$Nota1~!@#$Billete1~!@#$
+TPrintCashReg.quCashRegLogBill10=Bill10~!@#$Nota10~!@#$Billete10~!@#$
+TPrintCashReg.quCashRegLogBill100=Bill100~!@#$Nota100~!@#$Billete100~!@#$
+TPrintCashReg.quCashRegLogBill2=Bill2~!@#$Nota2~!@#$Billete2~!@#$
+TPrintCashReg.quCashRegLogBill20=Bill20~!@#$Nota20~!@#$Billete20~!@#$
+TPrintCashReg.quCashRegLogBill5=Bill5~!@#$Nota5~!@#$Billete5~!@#$
+TPrintCashReg.quCashRegLogBill50=Bill50~!@#$Nota50~!@#$Billete50~!@#$
+TPrintCashReg.quCashRegLogCashRegister=CashRegister~!@#$CaixaRegistradora~!@#$CajaRegistradora~!@#$
+TPrintCashReg.quCashRegLogCoin001=Coin001~!@#$Moeda001~!@#$Moneda001~!@#$
+TPrintCashReg.quCashRegLogCoin005=Coin005~!@#$Moeda005~!@#$Moneda005~!@#$
+TPrintCashReg.quCashRegLogCoin010=Coin010~!@#$Moeda010~!@#$Moneda010~!@#$
+TPrintCashReg.quCashRegLogCoin025=Coin025~!@#$Moeda025~!@#$Moneda025~!@#$
+TPrintCashReg.quCashRegLogCoin050=Coin050~!@#$Moeda050~!@#$Moneda050~!@#$
+TPrintCashReg.quCashRegLogCoin1=Coin1~!@#$Moeda1~!@#$Moneda1~!@#$
+TPrintCashReg.quCashRegLogIDCashRegister=IDCashRegister~!@#$IDCaixaRegistradora~!@#$IDCajaRegistradora~!@#$
+TPrintCashReg.quCashRegLogIDCashRegLog=IDCashRegLog~!@#$~!@#$~!@#$
+TPrintCashReg.quCashRegLogIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TPrintCashReg.quCashRegLogLogTime=LogTime~!@#$RegHora~!@#$RegHora~!@#$
+TPrintCashReg.quCashRegLogLogUser=LogUser~!@#$RegUsuário~!@#$RegUsuario~!@#$
+TPrintCashReg.quCashRegLogOpenTime=OpenTime~!@#$HoraAbriu~!@#$HoraAbrio~!@#$
+TPrintCashReg.quCashRegLogOpenUser=OpenUser~!@#$UsuárioAbriu~!@#$UsuarioAbriu~!@#$
+TPrintCashReg.quCashRegLogTotalCard=TotalCard~!@#$TotalCartão~!@#$TotalTarjeta~!@#$
+TPrintCashReg.quCashRegLogTotalCardPre=TotalCardPre~!@#$TotalCartãoPre~!@#$TotalTarjetaAFecha~!@#$
+TPrintCashReg.quCashRegLogTotalCash=TotalCash~!@#$TotalDinheiro~!@#$TotalEfectivo~!@#$
+TPrintCashReg.quCashRegLogTotalCheck=TotalCheck~!@#$TotalCheque~!@#$TotalCheque~!@#$
+TPrintCashReg.quCashRegLogTotalOther=TotalOther~!@#$TotalOutros~!@#$TotalOtros~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

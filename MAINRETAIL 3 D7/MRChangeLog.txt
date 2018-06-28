@@ -1,0 +1,70 @@
+************************************************************************************************************************************************************************
+
+In order to becomes easy know all updates about MainRetail or tools, this document was created. Through this document, both users or support can verify if their request were solved as details about where find them. This document not intend replace CRM tool. The MRChangeLog is specific to version control and their changes.
+
+************************************************************************************************************************************************************************
+
+date       : 10/15/2010
+version    : ( 287 - 273 )
+author     : Antonio Marcos Souza
+
+request    : Layaway Customer Error and Layaway Payment Error
+user       : Jeremy ( Pinogy Staff )
+implemented: 1. Implemented Specific Layaway message to client.
+             2. Implemented Specific Layaway message to Layaway payment.
+changed    : 1. Improvement in layaway Payment Receive screen. 
+                    
+
+request    : Cash Register Screen
+user       : Jeremy ( Pinogy Staff)
+Implemented: nothing.
+changed    : dimensions were corrected.
+
+request    : Cash Register Print Receipt Printed Page
+user       : Jeremy ( Pinogy Staff)
+Implemented: Implemented Reprint button.
+changed    : Print receipt routine.
+
+version    : ( 287 - 272 ) 
+************************************************************************************************************************************************************************
+
+
+date       : 10/12/2010
+version    : ( 287 - 272 ) - database = 287 ; MainRetail = 272
+author     : Antonio Marcos Souza
+implemented: Fixed bug due discount on sales ( TotalPayd <> TotalInvoice )
+changed    : 1. New files sent added into mrfiles ( MRChangeLog, MRImportExport )
+             2. CashRegister / Payment Receive
+             3. Login Access ( user were blocked )
+             4. Exception when print sale cupom ( finish sale )
+             5. Old bug solved ( bug that not allowed to finish sale )
+             
+request    : Rounding causing "Total Payment < > " error at Payment screen
+user       : Jeremy (Pinogy)
+version    : 
+************************************************************************************************************************************************************************
+
+date       : 10/02/2010
+version    : ( 286 - 271 ) - database = 286 ; MainRetail = 271
+author     : Antonio Marcos Souza
+implemented: nothing - jumped to ( 287 - 272 )
+version    : ( 286-270 ) - database = 286 ; MainRetail = 270
+************************************************************************************************************************************************************************
+
+date       : 09/29/2010
+version    : ( 286 - 270 ) - database = 286 ; MainRetail = 270
+author     : Antonio Marcos Souza
+implemented: nothing
+changed    : 1. New files sent added into mrfiles
+             
+             2.CashRegister Screen size: 
+               - I noticed CashRegister screen was cut on the bottom boundary.
+               - Point of Sale/CashRegister (Menu: Point of Sale; Submenu: CashRegister)
+             
+            3. Comments about screen license code were removed ( because first idea, bypass...)
+
+request    : add mrfiles in Update MRUpdatePack 3 subfolder.
+user       : Nick (Pinogy)
+version    : ( 286-269 ) - database = 286 ; MainRetail = 269
+************************************************************************************************************************************************************************
+           

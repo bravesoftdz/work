@@ -1,0 +1,44 @@
+[Captions]
+TFrmPromoPrizeItem.btClose=&Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmPromoPrizeItem.btnAllVendor=All~!@#$Todos~!@#$Todos~!@#$
+TFrmPromoPrizeItem.btnCategClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmPromoPrizeItem.btnGroupClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmPromoPrizeItem.btnSubGroupClear=All~!@#$Todos~!@#$Todos~!@#$
+TFrmPromoPrizeItem.btSave=&Save~!@#$Salvar~!@#$Guardar~!@#$
+TFrmPromoPrizeItem.btSearch=Search~!@#$&Procurar~!@#$Búsqueda~!@#$
+TFrmPromoPrizeItem.btSelectAll=Select all~!@#$Selecionar Todos~!@#$Seleccione Todos~!@#$
+TFrmPromoPrizeItem.btUnSelectAll=Un select all~!@#$Desmarcar Todos~!@#$Un Seleccione Todos~!@#$
+TFrmPromoPrizeItem.Button1=All~!@#$Todos~!@#$Todos~!@#$
+TFrmPromoPrizeItem.grdPromoPrizeItensFilterDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPromoPrizeItem.grdPromoPrizeItensFilterDBIDModel=IDModel~!@#$ID Modelo~!@#$ID Modelo~!@#$
+TFrmPromoPrizeItem.grdPromoPrizeItensFilterDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPromoPrizeItem.grdPromoPrizeItensFilterDBValidation=Validation~!@#$Validação~!@#$Validación~!@#$
+TFrmPromoPrizeItem.Label11=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmPromoPrizeItem.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TFrmPromoPrizeItem.lblCategory=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TFrmPromoPrizeItem.lblGroup=Sub-Category:~!@#$Sub-Categoria :~!@#$Sub-Categoría :~!@#$
+TFrmPromoPrizeItem.lblManufacturer=Manufecturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmPromoPrizeItem.lblSubGroup=Group:~!@#$Grupo : ~!@#$Grupo :~!@#$
+TFrmPromoPrizeItem.lblVendor=Vendor :~!@#$Fornecedor :~!@#$Vendedor :~!@#$
+
+[DisplayLabels]
+TFrmPromoPrizeItem.cdsPromoPrizeItemDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPromoPrizeItem.cdsPromoPrizeItemIDModel=IDModel~!@#$ID Modelo~!@#$ID Modelo~!@#$
+TFrmPromoPrizeItem.cdsPromoPrizeItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPromoPrizeItem.cdsPromoPrizeItemValidation=Validation~!@#$Validação~!@#$Validation~!@#$
+TFrmPromoPrizeItem.quPromoPrizeItemDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPromoPrizeItem.quPromoPrizeItemIDModel=IDModel~!@#$ID Modelo~!@#$ID Modelo~!@#$
+TFrmPromoPrizeItem.quPromoPrizeItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+
+[Hints]
+TFrmPromoPrizeItem.btSelectAll=Select All~!@#$Selecionar Todos~!@#$Seleccione Todos~!@#$
+TFrmPromoPrizeItem.btUnSelectAll=Un Select All~!@#$Desmarcar Todos~!@#$Un Seleccione Todos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

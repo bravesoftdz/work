@@ -1,0 +1,65 @@
+[Captions]
+TBrwCostType.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TBrwCostType.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TBrwCostType.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TBrwCostType.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TBrwCostType.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TBrwCostType.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TBrwCostType.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TBrwCostType.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwCostType.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TBrwCostType.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwCostType.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TBrwCostType.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwCostType.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwCostType.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwCostType.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwCostType.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwCostType.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TBrwCostType.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TBrwCostType.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TBrwCostType.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwCostType.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TBrwCostType.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TBrwCostType.grdBrowseDBCostType=CostType~!@#$Tipo de despesa~!@#$Tipo de gastos~!@#$
+TBrwCostType.grdBrowseDBIDCostType=IDCostType~!@#$ID~!@#$ID~!@#$
+TBrwCostType.hhh=~!@#$~!@#$~!@#$
+TBrwCostType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TBrwCostType.lblBasicFilter=~!@#$~!@#$~!@#$
+TBrwCostType.lblGenFilter=~!@#$~!@#$~!@#$
+TBrwCostType.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TBrwCostType.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TBrwCostType.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TBrwCostType.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TBrwCostType.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TBrwCostType.quBrowseCostType=CostType~!@#$Tipo de despesa~!@#$TipodeCosto~!@#$
+TBrwCostType.quBrowseIDCostType=IDCostType~!@#$ID~!@#$ID~!@#$
+
+[Hints]
+TBrwCostType.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TBrwCostType.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwCostType.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwCostType.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TBrwCostType.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwCostType.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwCostType.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwCostType.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwCostType.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwCostType.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwCostType.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TBrwCostType.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os atuais~!@#$Doble-Click para mostrar los actuales~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[MultiLines]
+TBrwCostType.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

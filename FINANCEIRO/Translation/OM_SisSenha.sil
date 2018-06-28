@@ -1,0 +1,38 @@
+[Captions]
+TSisSenha.btAlterarSenha=Change password~!@#$Trocar Senha ~!@#$Cambiar Contraseña~!@#$
+TSisSenha.btCancel=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TSisSenha.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TSisSenha.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisSenha.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisSenha.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisSenha.Label1=Password :~!@#$Senha :~!@#$Contraseña :~!@#$
+TSisSenha.Label2=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TSisSenha.Label3=Company :~!@#$Empresa :~!@#$Empresa :~!@#$
+TSisSenha.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisSenha.pnlPBarra=~!@#$~!@#$~!@#$
+TSisSenha.pnlPDAlignRight=~!@#$~!@#$~!@#$
+TSisSenha.pnlPLinhaSuperior=~!@#$~!@#$~!@#$
+TSisSenha.Titulo1=~!@#$~!@#$~!@#$
+TSisSenha.Titulo1Sombra=~!@#$~!@#$~!@#$
+TSisSenha.Titulo2=Office Manager~!@#$Office Manager~!@#$Office Manager~!@#$
+TSisSenha.Titulo2Sombra=Office Manager~!@#$Office Manager~!@#$Office Manager~!@#$
+TSisSenha.TSisSenha=Applications Network Inc.~!@#$Applications Network Inc.~!@#$Applications Network Inc.~!@#$
+
+
+[DisplayLabels]
+TSisSenha.quSenhaCodigoUsuario=CodigoUsuario~!@#$CódigoUsuário~!@#$CódigoUsuario~!@#$
+TSisSenha.quSenhaContadorClasse=ContadorClasse~!@#$ClasseContador~!@#$ClaseContador~!@#$
+TSisSenha.quSenhaIDGrupo=IDGrupo~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TSisSenha.quSenhaIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TSisSenha.quSenhaIDUsuario=IDUsuario~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TSisSenha.quSenhaSenha=Senha~!@#$Senha~!@#$Contraseña~!@#$
+TSisSenha.quSenhaUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,34 @@
+[Captions]
+TFrmServiceOrderDiscount.btClose=&Close~!@#Fe&char~!@#&Cerrar~!@#
+TFrmServiceOrderDiscount.btnAddPet=A&dd~!@#Adicionar~!@#Anadir~!@#
+TFrmServiceOrderDiscount.btnApply=&Apply~!@#&Aplicar~!@#&Aplicar~!@#
+TFrmServiceOrderDiscount.btnDelPet=&Remove~!@#&Remover~!@#Ce&rrar~!@#
+TFrmServiceOrderDiscount.cxApplyDiscLevel=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.cxGridDBColumn1=Payment~!@#Pagamento~!@#Pagamento~!@#
+TFrmServiceOrderDiscount.cxGridDBColumn2=DiscountPercent~!@#% Desconto~!@#% Desconto~!@#
+TFrmServiceOrderDiscount.EspacamentoDireito=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.EspacamentoEsquerdo=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.EspacamentoInferior=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.EspacamentoSuperior=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.grdDiscountDBTableViewDiscountPercent=DiscountPercent~!@#% Desconto~!@#% Desconto~!@#
+TFrmServiceOrderDiscount.grdDiscountDBTableViewPayment=Payment~!@#Pagamento~!@#Pagamento~!@#
+TFrmServiceOrderDiscount.grdDiscountLevel=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.hhh=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.Label1=Selected discount :~!@#Selecionar Desconto:~!@#Selecionar Desconto:~!@#
+TFrmServiceOrderDiscount.lbDiscount=Discount :~!@#Desconto :~!@#Desconto :~!@#
+TFrmServiceOrderDiscount.lbPayment=Payment :~!@#Pagamento :~!@#Pagamento :~!@#
+TFrmServiceOrderDiscount.Panel1=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.Panel3=~!@#~!@#~!@#
+TFrmServiceOrderDiscount.sbHelp=&Help~!@#Ajuda~!@#Ayuda~!@#
+TFrmServiceOrderDiscount.TFrmServiceOrderDiscount=Discount~!@#Desconto no Pgto~!@#Desconto no Pgto~!@#
+TFrmServiceOrderDiscount.tsApply=Apply~!@#Aplicar~!@#Aplicar~!@#
+TFrmServiceOrderDiscount.tsConfig=Config~!@#Configurar~!@#Configurar~!@#
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

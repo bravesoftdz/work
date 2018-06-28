@@ -1,0 +1,126 @@
+[Captions]
+TFinBancoAgenciaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinBancoAgenciaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinBancoAgenciaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinBancoAgenciaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinBancoAgenciaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinBancoAgenciaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinBancoAgenciaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinBancoAgenciaList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinBancoAgenciaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinBancoAgenciaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinBancoAgenciaList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinBancoAgenciaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinBancoAgenciaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinBancoAgenciaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinBancoAgenciaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinBancoAgenciaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinBancoAgenciaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinBancoAgenciaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinBancoAgenciaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinBancoAgenciaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinBancoAgenciaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinBancoAgenciaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinBancoAgenciaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinBancoAgenciaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinBancoAgenciaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinBancoAgenciaList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinBancoAgenciaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinBancoAgenciaList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinBancoAgenciaList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinBancoAgenciaList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinBancoAgenciaList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinBancoAgenciaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinBancoAgenciaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinBancoAgenciaList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinBancoAgenciaList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Vista~!@#$
+TFinBancoAgenciaList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Vista~!@#$
+TFinBancoAgenciaList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Vista Actual~!@#$
+TFinBancoAgenciaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinBancoAgenciaList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinBancoAgenciaList.brwGridBanco=Bank Description~!@#$Descrição Banco~!@#$Descripción Banco~!@#$
+TFinBancoAgenciaList.brwGridBancoAgencia=Branch Description~!@#$Descrição Agência~!@#$Descripción Agencia~!@#$
+TFinBancoAgenciaList.brwGridCodigoBanco=Bank ID~!@#$Banco ID~!@#$Banco ID~!@#$
+TFinBancoAgenciaList.brwGridCodigoBancoAgencia=Branch ID~!@#$AgênciaID~!@#$AgenciaID~!@#$
+TFinBancoAgenciaList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinBancoAgenciaList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinBancoAgenciaList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TFinBancoAgenciaList.cbxStatus=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.cpListGridLink=Zepta TI~!@#$Zepta TI~!@#$Zepta TI~!@#$
+TFinBancoAgenciaList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinBancoAgenciaList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinBancoAgenciaList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinBancoAgenciaList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinBancoAgenciaList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinBancoAgenciaList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinBancoAgenciaList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinBancoAgenciaList.TFinBancoAgenciaList=Agências Bancárias~!@#$Agências Bancárias~!@#$Agencias Bancarias~!@#$
+TFinBancoAgenciaList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TFinBancoAgenciaList.quBrowseBanco=Bank Description~!@#$Descrição Banco~!@#$Descripción Banco~!@#$
+TFinBancoAgenciaList.quBrowseBancoAgencia=Branch Decription~!@#$Descrição Agência ~!@#$Descripción Agencia~!@#$
+TFinBancoAgenciaList.quBrowseCodigoBanco=Bank ID~!@#$Banco ID~!@#$Banco ID~!@#$
+TFinBancoAgenciaList.quBrowseCodigoBancoAgencia=Branch ID~!@#$Agência ID~!@#$Agência ID~!@#$
+TFinBancoAgenciaList.quBrowseIDBancoAgencia=IDBancoAgencia~!@#$IDAgênciaBanco~!@#$IDAgenciaBanco~!@#$
+
+[Hints]
+TFinBancoAgenciaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinBancoAgenciaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinBancoAgenciaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinBancoAgenciaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinBancoAgenciaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinBancoAgenciaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinBancoAgenciaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinBancoAgenciaList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinBancoAgenciaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinBancoAgenciaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinBancoAgenciaList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinBancoAgenciaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinBancoAgenciaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinBancoAgenciaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinBancoAgenciaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinBancoAgenciaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinBancoAgenciaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinBancoAgenciaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinBancoAgenciaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinBancoAgenciaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinBancoAgenciaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinBancoAgenciaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinBancoAgenciaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinBancoAgenciaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinBancoAgenciaList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinBancoAgenciaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinBancoAgenciaList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinBancoAgenciaList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinBancoAgenciaList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinBancoAgenciaList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinBancoAgenciaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinBancoAgenciaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinBancoAgenciaList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinBancoAgenciaList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar vista~!@#$
+TFinBancoAgenciaList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Vista~!@#$
+TFinBancoAgenciaList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar vista actual~!@#$
+TFinBancoAgenciaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinBancoAgenciaList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinBancoAgenciaList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

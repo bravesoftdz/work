@@ -1,0 +1,34 @@
+[Captions]
+TFrmAccountCard.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmAccountCard.btnAllUser=All~!@#$Todos~!@#$Todos~!@#$
+TFrmAccountCard.btnExpDate=Expiration Date~!@#$Data Expiração ~!@#$Fecha De Vencim.~!@#$
+TFrmAccountCard.btPOColumn=Add Credit~!@#$Ad. Crédito~!@#$Ad. Crédito~!@#$
+TFrmAccountCard.btPOGroup=&Disable Account~!@#$Desabilitar Conta~!@#$Inhab. Cuenta~!@#$
+TFrmAccountCard.btSearch=&Search~!@#$Procurar~!@#$Busquear~!@#$
+TFrmAccountCard.grdAccountCardDBCardDate=CardDate~!@#$Data do Vale~!@#$Data do Vale~!@#$
+TFrmAccountCard.grdAccountCardDBCardNumber=CardNumber~!@#$Num. Vale~!@#$Num. Vale~!@#$
+TFrmAccountCard.grdAccountCardDBExpirationDate=ExpirationDate~!@#$Data de Expiração~!@#$Fecha De Vencimiento~!@#$
+TFrmAccountCard.grdAccountCardDBSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFrmAccountCard.grdAccountCardDBTotalAmount=TotalAmount~!@#$Total~!@#$Total~!@#$
+TFrmAccountCard.gridAccountMovDBCredit=Credit~!@#$Crédito~!@#$Crédito~!@#$
+TFrmAccountCard.gridAccountMovDBDateMov=DateMov~!@#$Data Mov.~!@#$Fetcha Mov.~!@#$
+TFrmAccountCard.gridAccountMovDBObs=Obs~!@#$Obs~!@#$Obs~!@#$
+TFrmAccountCard.gridAccountMovDBSaleCode=SaleCode~!@#$Nº Pedido~!@#$Nº Pedido~!@#$
+TFrmAccountCard.gridAccountMovDBSystemUser=SystemUser~!@#$Usuário~!@#$Usuario~!@#$
+TFrmAccountCard.gridAccountMovDBValue=Value~!@#$Valor~!@#$Monto~!@#$
+TFrmAccountCard.Label1=Card Number :~!@#$Vale Presente :~!@#$Vale Presente :~!@#$
+TFrmAccountCard.Label15=User:~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmAccountCard.lbSales=Card Date :~!@#$Data do Vale :~!@#$Fetch do Vale :~!@#$
+TFrmAccountCard.lbUser=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmAccountCard.pnlTitle2=Transaction History~!@#$Histórico~!@#$Historia~!@#$
+TFrmAccountCard.SpeedButton1=Add Debit~!@#$Ad. Débito~!@#$Agreg. Debe~!@#$
+TFrmAccountCard.TFrmAccountCard=Account Card~!@#$Vale Presente~!@#$Vale Presente~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

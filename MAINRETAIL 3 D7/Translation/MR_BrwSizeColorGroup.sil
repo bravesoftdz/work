@@ -1,0 +1,100 @@
+[Captions]
+TbrwSizeColorGroup.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwSizeColorGroup.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwSizeColorGroup.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwSizeColorGroup.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwSizeColorGroup.btExcel=F6 E&xport~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwSizeColorGroup.btFilter=Show &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwSizeColorGroup.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwSizeColorGroup.btnExec=&GO!~!@#$&IR~!@#$&IR~!@#$
+TbrwSizeColorGroup.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwSizeColorGroup.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwSizeColorGroup.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwSizeColorGroup.EEE=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoDireito=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoInferior=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.grdBrowseDBDescription=Description~!@#$Grupo~!@#$Grupo~!@#$
+TbrwSizeColorGroup.grdBrowseDBIDSizeColorGroup=ID~!@#$ID~!@#$ID~!@#$
+TbrwSizeColorGroup.grdBrowseLevel=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.hhh=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwSizeColorGroup.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TbrwSizeColorGroup.Panel1=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Panel2=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Panel3=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.panel8=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pblGO=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlAviso=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlBasicFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlButton=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlDivisor=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlDivisoria2=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlGenFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlMain=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlMainBrowse=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwSizeColorGroup.quBrowseDescription=Description~!@#$Grupo~!@#$Grupo~!@#$
+TbrwSizeColorGroup.quBrowseIDSizeColorGroup=IDSizeColorGroup~!@#$ID~!@#$ID~!@#$
+
+[Hints]
+TbrwSizeColorGroup.btAdd=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btClose=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btColumn=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btDetail=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btExcel=Export grid~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwSizeColorGroup.btFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btGroup=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btnExec=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btPrint=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btRemove=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.btRestore=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EEE=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoDireito=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoInferior=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.grdBrowse=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.hhh=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Image1=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Image3=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwSizeColorGroup.imgMenu=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.imgTopIni=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+TbrwSizeColorGroup.Label15=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblMenu=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblSubMenu=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.lblUserName=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Panel1=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Panel2=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.Panel3=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.panel8=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pblGO=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlAviso=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlBasicFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlButton=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlDivisor=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlDivisoria2=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlGenFilter=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlMain=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlMainBrowse=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.pnlPage=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.spHelp=~!@#$~!@#$~!@#$
+TbrwSizeColorGroup.TbrwSizeColorGroup=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

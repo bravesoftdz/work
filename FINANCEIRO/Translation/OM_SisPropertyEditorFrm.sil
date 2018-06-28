@@ -1,0 +1,28 @@
+[Captions]
+TSisPropertyEditorFrm.btCancel=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TSisPropertyEditorFrm.btNewValue=&New value~!@#$&Novo Valor~!@#$&Nuevo Valor~!@#$
+TSisPropertyEditorFrm.btNovaPropriedade=&New Property~!@#$&Nova Propriedade~!@#$&Nueva Propiedad~!@#$
+TSisPropertyEditorFrm.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TSisPropertyEditorFrm.btRemovePropriedade=&Remove Property~!@#$&Remover Propriedade~!@#$&Remover Propiedad~!@#$
+TSisPropertyEditorFrm.btRemoveValue=&Remove value~!@#$&Remover Valor~!@#$&Remover Valor~!@#$
+TSisPropertyEditorFrm.dxDBGrid1PropertyValue=Possible value for selected properties~!@#$Valores para a propriedade selecionada~!@#$posibles valores para las propiedades seleccionadas~!@#$
+TSisPropertyEditorFrm.dxDBGrid2Property=Property~!@#$Propriedade~!@#$Propiedad~!@#$
+TSisPropertyEditorFrm.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisPropertyEditorFrm.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisPropertyEditorFrm.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisPropertyEditorFrm.lblPTitulo=Property editor~!@#$Editor Propriedade~!@#$Editor Propiedad~!@#$
+TSisPropertyEditorFrm.lblPTituloShadow=Property editor~!@#$Editor Propriedade~!@#$Editor Propiedad~!@#$
+
+[DisplayLabels]
+TSisPropertyEditorFrm.quPropertyProperty=Property~!@#$Propriedade~!@#$Propiedad~!@#$
+TSisPropertyEditorFrm.quValueProperty=Property~!@#$Propriedade~!@#$Propiedad~!@#$
+TSisPropertyEditorFrm.quValuePropertyValue=PropertyValue~!@#$ValorPropriedade~!@#$ValorPropiedad~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

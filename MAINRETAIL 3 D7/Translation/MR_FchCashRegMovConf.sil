@@ -1,0 +1,74 @@
+[Captions]
+TFchCashRegMovConf.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchCashRegMovConf.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchCashRegMovConf.Label1=IDUser~!@#$Usuário~!@#$IDUsuario~!@#$
+TFchCashRegMovConf.Label10=Post Dated~!@#$Pre Datado~!@#$A Fecha~!@#$
+TFchCashRegMovConf.Label11=Other~!@#$Outros~!@#$Otros~!@#$
+TFchCashRegMovConf.Label12=Checks~!@#$Cheques~!@#$Cheques~!@#$
+TFchCashRegMovConf.Label13=Total~!@#$Total~!@#$Total~!@#$
+TFchCashRegMovConf.Label14=Debit Cards~!@#$Crts Dédito~!@#$Trj Dédito~!@#$
+TFchCashRegMovConf.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchCashRegMovConf.Label16=Total~!@#$Total~!@#$Total~!@#$
+TFchCashRegMovConf.Label17=Debit Cards~!@#$Crts Dédito~!@#$Trj Dédito~!@#$
+TFchCashRegMovConf.Label2=Deposit Time:~!@#$Hora Depósito :~!@#$Hora Depósito :~!@#$
+TFchCashRegMovConf.Label3=Credit Cards~!@#$Cartões Crédito~!@#$Tarjetas Crédito~!@#$
+TFchCashRegMovConf.Label4=Checks~!@#$Cheques~!@#$Cheques~!@#$
+TFchCashRegMovConf.Label5=Other~!@#$Outros~!@#$Otros~!@#$
+TFchCashRegMovConf.Label6=Cash~!@#$Dinheiro~!@#$Efectivo~!@#$
+TFchCashRegMovConf.Label7=Post Dated~!@#$Pre Datado~!@#$A Fecha~!@#$
+TFchCashRegMovConf.Label8=Cash~!@#$Dinheiro~!@#$Efectivo~!@#$
+TFchCashRegMovConf.Label9=Credit Cards~!@#$Cartões Crédito~!@#$Tarjetas Crédito~!@#$
+TFchCashRegMovConf.LabelEffect1=Manager~!@#$Gerente~!@#$Gerente~!@#$
+TFchCashRegMovConf.LabelEffect2=Cashier~!@#$Caixeiro~!@#$Cajero~!@#$
+TFchCashRegMovConf.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchCashRegMovConf.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchCashRegMovConf.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchCashRegMovConf.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchCashRegMovConf.TFchCashRegMovConf=Deposit Conference~!@#$Conferencia de Depósito~!@#$Conferencia de Depósito~!@#$
+
+[DisplayLabels]
+TFchCashRegMovConf.quFormBill1=Bill1~!@#$Nota1~!@#$Billete1~!@#$
+TFchCashRegMovConf.quFormBill10=Bill10~!@#$Nota10~!@#$Billete10~!@#$
+TFchCashRegMovConf.quFormBill100=Bill100~!@#$Nota100~!@#$Billete100~!@#$
+TFchCashRegMovConf.quFormBill2=Bill2~!@#$Nota2~!@#$Billete2~!@#$
+TFchCashRegMovConf.quFormBill20=Bill20~!@#$Nota20~!@#$Billete20~!@#$
+TFchCashRegMovConf.quFormBill5=Bill5~!@#$Nota5~!@#$Billete5~!@#$
+TFchCashRegMovConf.quFormBill50=Bill50~!@#$Nota50~!@#$Billete50 ~!@#$
+TFchCashRegMovConf.quFormCoin001=Coin001~!@#$Moeda001~!@#$Moneda001~!@#$
+TFchCashRegMovConf.quFormCoin005=Coin005~!@#$Moeda005~!@#$Moneda005~!@#$
+TFchCashRegMovConf.quFormCoin010=Coin010~!@#$Moeda010~!@#$Moneda010~!@#$
+TFchCashRegMovConf.quFormCoin025=Coin025~!@#$Moeda025~!@#$Moneda025~!@#$
+TFchCashRegMovConf.quFormCoin050=Coin050~!@#$Moeda050~!@#$Moneda050~!@#$
+TFchCashRegMovConf.quFormCoin1=Coin1~!@#$Moeda1~!@#$Moneda1~!@#$
+TFchCashRegMovConf.quFormIDUser=IDUser~!@#$IDUser~!@#$IDUser~!@#$
+TFchCashRegMovConf.quFormLogTime=LogTime~!@#$HoraReg~!@#$HoraReg~!@#$
+TFchCashRegMovConf.quFormTotalCard=TotalCard~!@#$TotalCartão~!@#$TotalTarjeta~!@#$
+TFchCashRegMovConf.quFormTotalCardConf=TotalCardConf~!@#$TotalConfCartão~!@#$TotalConfTarjeta~!@#$
+TFchCashRegMovConf.quFormTotalCardPre=TotalCardPre~!@#$TotalPreCartão~!@#$TotalPreTarjeta~!@#$
+TFchCashRegMovConf.quFormTotalCardPreConf=TotalCardPreConf~!@#$TotalPreConfCartão~!@#$TotalPreConfTarjeta~!@#$
+TFchCashRegMovConf.quFormTotalCash=TotalCash~!@#$TotalDinheiro~!@#$TotalEfectivo~!@#$
+TFchCashRegMovConf.quFormTotalCashConf=TotalCashConf~!@#$TotalConfDinheiro~!@#$TotalConfEfectivo~!@#$
+TFchCashRegMovConf.quFormTotalCheck=TotalCheck~!@#$TotalCheque~!@#$TotalCheque~!@#$
+TFchCashRegMovConf.quFormTotalCheckConf=TotalCheckConf~!@#$TotalConfCheques~!@#$TotalConfCheques~!@#$
+TFchCashRegMovConf.quFormTotalGeralCashier=TotalGeralCashier~!@#$TotalGeralCaixeiro~!@#$TotalGeneralCajero~!@#$
+TFchCashRegMovConf.quFormTotalGeralConf=TotalGeralConf~!@#$TotalGeralConf~!@#$TotalGeneralConf~!@#$
+TFchCashRegMovConf.quFormTotalOther=TotalOther~!@#$TotalOutros~!@#$TotalOtros~!@#$
+TFchCashRegMovConf.quFormTotalOtherConf=TotalOtherConf~!@#$TotalConfOutros~!@#$TotalConfOtros~!@#$
+
+[Hints]
+TFchCashRegMovConf.btDetCash=Show Cash Details~!@#$Mostrar Detalhe Dinheiro~!@#$Mostrar Detalle Efectivo~!@#$
+TFchCashRegMovConf.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchCashRegMovConf.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchCashRegMovConf.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchCashRegMovConf.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchCashRegMovConf.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchCashRegMovConf.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,136 @@
+package dcl7cr11;
+
+{$R *.res}
+{$R 'UCrpeReg.dcr'}
+{$ALIGN 1}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Crystal Reports XI VCL'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+{$DEFINE CR_6UP}
+
+requires
+  vcl,
+  vclx,
+  vclsmp,
+  vcldb,
+  bdertl,
+  designide,
+  rtl;
+
+contains
+  UCrpeReg in 'UCrpeReg.pas',
+  UCrpe32 in 'UCrpe32.pas',
+  CRDynamic in 'CRDynamic.pas',
+  UDAreaFormat in 'UDAreaFormat.pas' {CrpeAreaFormatDlg},
+  UDBorder in 'UDBorder.pas' {CrpeBorderDlg},
+  UDFormulaEdit in 'UDFormulaEdit.pas' {CrpeFormulaEditDlg},
+  UDBoxes in 'UDBoxes.pas' {CrpeBoxesDlg},
+  UDConnect in 'UDConnect.pas' {CrpeConnectDlg},
+  UDExportOptions in 'UDExportOptions.pas' {CrpeExportOptionsDlg},
+  UDExportExcel in 'UDExportExcel.pas' {CrpeExcelDlg},
+  UDExportOdbc in 'UDExportOdbc.pas' {CrpeOdbcDlg},
+  UDExportPagText in 'UDExportPagText.pas' {CrpePagTextDlg},
+  UDFieldMapping in 'UDFieldMapping.pas' {CrpeFieldMappingDlg},
+  UDTableFields in 'UDTableFields.pas' {CrpeFieldsDlg},
+  UDGroups in 'UDGroups.pas' {CrpeGroupsDlg},
+  UDGroupSelection in 'UDGroupSelection.pas' {CrpeGroupSelectionDlg},
+  UDGroupSortFields in 'UDGroupSortFields.pas' {CrpeGroupSortFieldsDlg},
+  UDLines in 'UDLines.pas' {CrpeLinesDlg},
+  UDLogOnInfo in 'UDLogOnInfo.pas' {CrpeLogOnInfoDlg},
+  UDMargins in 'UDMargins.pas' {CrpeMarginsDlg},
+  UDPathEdit in 'UDPathEdit.pas' {CrpePathDlg},
+  UDPrintDate in 'UDPrintDate.pas' {CrpePrintDateDlg},
+  UDPrintOptions in 'UDPrintOptions.pas' {CrpePrintOptionsDlg},
+  UDSelection in 'UDSelection.pas' {CrpeSelectionDlg},
+  UDSQLQuery in 'UDSQLQuery.pas' {CrpeSQLQueryDlg},
+  UDSummaryInfo in 'UDSummaryInfo.pas' {CrpeSummaryInfoDlg},
+  UDWindowButtonBar in 'UDWindowButtonBar.pas' {CrpeWindowButtonBarDlg},
+  UDWindowCursor in 'UDWindowCursor.pas' {CrpeWindowCursorDlg},
+  UDWindowParent in 'UDWindowParent.pas' {CrpeWindowParentDlg},
+  UDWindowSize in 'UDWindowSize.pas' {CrpeWindowSizeDlg},
+  UDWindowStyle in 'UDWindowStyle.pas' {CrpeWindowStyleDlg},
+  UDDesignControls in 'UDDesignControls.pas' {CrpeDesignControlsDlg},
+  UDAbout in 'UDAbout.pas' {CrpeAboutBox},
+  UDLogOnServer in 'UDLogOnServer.Pas' {CrpeLogOnServerDlg},
+  UDReportOptions in 'UDReportOptions.pas' {CrpeReportOptionsDlg},
+  UDPrinter in 'UDPrinter.pas' {CrpePrinterDlg},
+  UDSortFieldBuild in 'UDSortFieldBuild.pas' {CrpeBuildSortDlg},
+  UDSectionFormat in 'UDSectionFormat.pas' {CrpeSectionFormatDlg},
+  UDSectionFont in 'UDSectionFont.pas' {CrpeSectionFontDlg},
+  UDSessionInfo in 'UDSessionInfo.pas' {CrpeSessionInfoDlg},
+  UDSortFields in 'UDSortFields.pas' {CrpeSortFieldsDlg},
+  UDSubreports in 'UDSubreports.pas' {CrpeSubreportsDlg},
+  UDTables in 'UDTables.pas' {CrpeTablesDlg},
+  UDVersion in 'UDVersion.pas' {CrpeVersionDlg},
+  UDWindowZoom in 'UDWindowZoom.pas' {CrpeWindowZoomDlg},
+  UDTextObjects in 'UDTextObjects.pas' {CrpeTextObjectsDlg},
+  UDCrossTabSummaries in 'UDCrossTabSummaries.pas' {CrpeCrossTabSummariesDlg},
+  UDDatabaseFields in 'UDDatabaseFields.pas' {CrpeDatabaseFieldsDlg},
+  UDFormulas in 'UDFormulas.pas' {CrpeFormulasDlg},
+  UDGroupNameFields in 'UDGroupNameFields.pas' {CrpeGroupNameFieldsDlg},
+  UDOLAPCubes in 'UDOLAPCubes.pas' {CrpeOLAPCubesDlg},
+  UDOleObjects in 'UDOleObjects.pas' {CrpeOleObjectsDlg},
+  UDPFAsDate in 'UDPFAsDate.pas' {CrpePFAsDateDlg},
+  UDRunningTotals in 'UDRunningTotals.pas' {CrpeRunningTotalsDlg},
+  UDSpecialFields in 'UDSpecialFields.pas' {CrpeSpecialFieldsDlg},
+  UDSQLExpressions in 'UDSQLExpressions.pas' {CrpeSQLExpressionsDlg},
+  UDSummaryFields in 'UDSummaryFields.pas' {CrpeSummaryFieldsDlg},
+  UDCrossTabs in 'UDCrossTabs.pas' {CrpeCrossTabsDlg},
+  UDFormat in 'UDFormat.pas' {CrpeFormatDlg},
+  UDLogOnServerAdd in 'UDLogOnServerAdd.pas' {CrpeLogOnServerAddDlg},
+  UDCrossTabGroups in 'UDCrossTabGroups.pas' {CrpeCrossTabGroupsDlg},
+  UDToolTipEdit in 'UDToolTipEdit.pas' {CrpeToolTipEditDlg},
+  UDGraphs in 'UDGraphs.pas' {CrpeGraphsDlg},
+  UDPictures in 'UDPictures.pas' {CrpePicturesDlg},
+  UDMaps in 'UDMaps.pas' {CrpeMapsDlg},
+  UDHiliteConditions in 'UDHiliteConditions.pas' {CrpeHiliteConditionsDlg},
+  UDFieldSelect in 'UDFieldSelect.pas' {CrpeFieldSelectDlg},
+  UDTabStops in 'UDTabStops.pas' {CrpeTabStopsDlg},
+  UDParagraphs in 'UDParagraphs.pas' {CrpeParagraphsDlg},
+  UDEmbeddedFields in 'UDEmbeddedFields.pas' {CrpeEmbeddedFieldsDlg},
+  UDMiscellaneous in 'UDMiscellaneous.pas' {CrpeMiscellaneousDlg},
+  UDPages in 'UDPages.pas' {CrpePagesDlg},
+  UDSectionSize in 'UDSectionSize.pas' {CrpeSectionSizeDlg},
+  UDRecords in 'UDRecords.pas' {CrpeRecordsDlg},
+  UCrpeUtl in 'UCrpeUtl.pas',
+  UDExportHTML4 in 'UDExportHTML4.pas' {CrpeHTML4Dlg},
+  UDMapSumField in 'UDMapSumField.pas' {CrpeMapSummaryFieldsDlg},
+  UDMapCondField in 'UDMapCondField.pas' {CrpeMapConditionFieldsDlg},
+  UDExportXML in 'UDExportXML.pas' {CrpeXML1Dlg},
+  UDExportRTF in 'UDExportRTF.pas' {CrpeRichTextFormatDlg},
+  UDExportPDF in 'UDExportPDF.pas' {CrpeAdobeAcrobatPDFDlg},
+  UDTODeleteText in 'UDTODeleteText.pas' {CrpeDeleteTextDlg},
+  UDFont in 'UDFont.pas' {CrpeFontDlg},
+  UDParamFields in 'UDParamFields.pas' {CrpeParamFieldsDlg},
+  UDPFRanges in 'UDPFRanges.pas' {CrpeParamFieldRangesDlg},
+  UDPFPValues in 'UDPFPValues.pas' {CrpePFPromptValuesDlg},
+  UDPFCValues in 'UDPFCValues.pas' {CrpePFCurrentValuesDlg},
+  UCrpeClasses in 'UCrpeClasses.pas',
+  UCrpeDSAbout in 'UCrpeDSAbout.pas' {CrpeDSAboutDlg},
+  UCrpeDS in 'UCrpeDS.pas',
+  UCrDataSource in 'UCrDataSource.pas',
+  UDExportSepVal in 'UDExportSepVal.pas' {CrpeSepValDlg},
+  UDExportWord in 'UDExportWord.pas' {CrpeWordDlg},
+  UDExportRecords in 'UDExportRecords.pas' {CrpeExportRecordsDlg};
+
+end.

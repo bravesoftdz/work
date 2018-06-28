@@ -1,0 +1,36 @@
+[Captions]
+TbrwFrmDeliverType.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmDeliverType.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmDeliverType.chkCanExchange=Can Exchange Hold Item~!@#$Pode devolver itens na venda~!@#$Puede Cambiar Artículo de Venta~!@#$
+TbrwFrmDeliverType.chkConfirmDelivery=Can Confirm Deliver~!@#$Pode Confirmar Entrega~!@#$Puede Confirmar Entregue~!@#$
+TbrwFrmDeliverType.Label1=IDDeliverType~!@#$ID :~!@#$ID :~!@#$
+TbrwFrmDeliverType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmDeliverType.Label19=Delivery Type Info~!@#$Info Tipo Entrega~!@#$Info Tipo Entrega~!@#$
+TbrwFrmDeliverType.Label2=Name~!@#$Nome :~!@#$Nombre :~!@#$
+TbrwFrmDeliverType.Label3=Max Deliver Delay (Days) :~!@#$Máximo dias para entrega :~!@#$Max Entrega la Demora (días) :~!@#$
+TbrwFrmDeliverType.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmDeliverType.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmDeliverType.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmDeliverType.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TbrwFrmDeliverType.TbrwFrmDeliverType=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+
+[DisplayLabels]
+TbrwFrmDeliverType.quFormIDDeliverType=IDDeliverType~!@#$ID~!@#$ID~!@#$
+TbrwFrmDeliverType.quFormName=Name~!@#$Nome~!@#$Nombre~!@#$
+
+[Hints]
+TbrwFrmDeliverType.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmDeliverType.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmDeliverType.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmDeliverType.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmDeliverType.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmDeliverType.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

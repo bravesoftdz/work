@@ -1,0 +1,15 @@
+[Captions]
+TFrmPDVPayments.Label1=F2 ~!@#$F2 ~!@#$F2 ~!@#$
+TFrmPDVPayments.Label2=F3~!@#$F3~!@#$F3~!@#$
+TFrmPDVPayments.Label3=Payment Type~!@#$Forma de Pagamento~!@#$Forma Pago~!@#$
+TFrmPDVPayments.lbF2=Now~!@#$Vista~!@#$Ahora~!@#$
+TFrmPDVPayments.lbF3=Post-Date~!@#$Pré-datar~!@#$Anunc.-fecha~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

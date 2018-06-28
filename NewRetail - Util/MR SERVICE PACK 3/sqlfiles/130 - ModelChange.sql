@@ -1,0 +1,2 @@
+ALTER TABLE Model ADD FloatPercent int NULL DEFAULT 0
+GO

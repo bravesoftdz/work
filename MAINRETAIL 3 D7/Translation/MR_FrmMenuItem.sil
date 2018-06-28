@@ -1,0 +1,38 @@
+[Captions]
+TFrmMenuItem.btClose=Done~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmMenuItem.grdMenuItemCmdLine=Program path~!@#$Trajetória Programa~!@#$Trayectoria Programa~!@#$
+TFrmMenuItem.grdMenuItemDBCmdLine=CmdLine~!@#$Comando~!@#$Cmd~!@#$
+TFrmMenuItem.grdMenuItemDBEnabled=Enabled~!@#$Permitir~!@#$Permitido~!@#$
+TFrmMenuItem.grdMenuItemDBImageIndex=ImageIndex~!@#$Imagem~!@#$Imagen~!@#$
+TFrmMenuItem.grdMenuItemDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TFrmMenuItem.grdMenuItemDBShortcut=Shortcut #~!@#$Nº do atalho~!@#$N. del atajo~!@#$
+TFrmMenuItem.grdMenuItemDBVisible=Visible~!@#$Visualizar~!@#$Visualizar~!@#$
+TFrmMenuItem.grdMenuItemEnabled=Enabled~!@#$Permitido~!@#$Permitido~!@#$
+TFrmMenuItem.grdMenuItemIDMenuName=Menu~!@#$Menu~!@#$Menú~!@#$
+TFrmMenuItem.grdMenuItemLevel=~!@#$~!@#$~!@#$
+TFrmMenuItem.grdMenuItemName=MenuItem~!@#$ItemMenu~!@#$ItemMenú~!@#$
+TFrmMenuItem.grdMenuItemVisible=Visible~!@#$Visivel~!@#$Visible~!@#$
+TFrmMenuItem.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmMenuItem.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmMenuItem.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmMenuItem.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+
+[DisplayLabels]
+TFrmMenuItem.quMenuItemCmdLine=Program path~!@#$Trajetória Programa~!@#$Trayectoria Programa~!@#$
+TFrmMenuItem.quMenuItemEnabled=Enabled~!@#$Permitido~!@#$Permitido~!@#$
+TFrmMenuItem.quMenuItemIDMenu=IDMenu~!@#$IDMenu~!@#$IDMenú~!@#$
+TFrmMenuItem.quMenuItemIDMenuName=Menu~!@#$Menu~!@#$Menuú~!@#$
+TFrmMenuItem.quMenuItemIDSubMenu=IDSubMenu~!@#$IDSubMenu~!@#$IDSubMenu~!@#$
+TFrmMenuItem.quMenuItemName=MenuItem~!@#$MenuItem~!@#$MenúItem~!@#$
+TFrmMenuItem.quMenuItemParentMenu=ParentMenu~!@#$~!@#$~!@#$
+TFrmMenuItem.quMenuItemTip=Tip~!@#$Dica~!@#$Info~!@#$
+TFrmMenuItem.quMenuItemVisible=Visible~!@#$Visivel~!@#$Visible~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

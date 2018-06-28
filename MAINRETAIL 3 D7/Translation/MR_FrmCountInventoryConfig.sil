@@ -1,0 +1,21 @@
+[Captions]
+TFrmCountInventoryConfig.btCheckAll=Check All~!@#$Selecione Todos~!@#$Selecione Todos~!@#$
+TFrmCountInventoryConfig.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmCountInventoryConfig.btOk=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TFrmCountInventoryConfig.btUnCheckAll=UnCheck All~!@#$Desmarcar todos~!@#$Desmarcar todos~!@#$
+TFrmCountInventoryConfig.Label1=Print when :~!@#$Imprimir ao :~!@#$Imprimir ao :~!@#$
+TFrmCountInventoryConfig.lbNumItem=Number of Itens :~!@#$Numero de ítens :~!@#$Numero de ítens :~!@#$
+TFrmCountInventoryConfig.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmCountInventoryConfig.TFrmCountInventoryConfig=Inventory Count~!@#$Contagem de estoque~!@#$Contagem de estoque~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmCountInventoryConfig.cmbPrint.Items="Open Cash Reg","Close Cash Reg"~!@#$"Abrir o caixa","Fechar o caixa"~!@#$"Abrir o caixa","Cerrar o caixa"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

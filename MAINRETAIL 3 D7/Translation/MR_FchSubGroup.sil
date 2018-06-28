@@ -1,0 +1,18 @@
+[Captions]
+TFchSubGroup.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchSubGroup.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchSubGroup.Label1=Sub Group :~!@#$Sub Grupo :~!@#$Sub Grupo :~!@#$
+TFchSubGroup.Label2=User Code :~!@#$Código :~!@#$SCódigo :~!@#$
+TFchSubGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchSubGroup.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchSubGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchSubGroup.TFchSubGroup=FchSubGroup~!@#$Sub Grupo~!@#$Sub Grupo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

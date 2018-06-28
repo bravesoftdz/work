@@ -1,0 +1,120 @@
+[Captions]
+TSisEmpresaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisEmpresaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TSisEmpresaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisEmpresaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TSisEmpresaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TSisEmpresaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisEmpresaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TSisEmpresaList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TSisEmpresaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisEmpresaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisEmpresaList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TSisEmpresaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisEmpresaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisEmpresaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisEmpresaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisEmpresaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisEmpresaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisEmpresaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisEmpresaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TSisEmpresaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisEmpresaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisEmpresaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisEmpresaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisEmpresaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisEmpresaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisEmpresaList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TSisEmpresaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisEmpresaList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TSisEmpresaList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TSisEmpresaList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TSisEmpresaList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TSisEmpresaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisEmpresaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisEmpresaList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisEmpresaList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TSisEmpresaList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TSisEmpresaList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TSisEmpresaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisEmpresaList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TSisEmpresaList.brwGridCodigoEmpresa=ID Co.~!@#$ID Emp.~!@#$ID Emp.~!@#$
+TSisEmpresaList.brwGridEmpresa=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSisEmpresaList.brwGridRazaoSocial=Company Name~!@#$Nome Empresa~!@#$Nombre Empresa~!@#$
+TSisEmpresaList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TSisEmpresaList.btExecuta=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TSisEmpresaList.btnXML=XML~!@#$XML~!@#$XML~!@#$
+TSisEmpresaList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TSisEmpresaList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisEmpresaList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TSisEmpresaList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TSisEmpresaList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TSisEmpresaList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TSisEmpresaList.pnlDivisor=~!@#$~!@#$~!@#$
+TSisEmpresaList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisEmpresaList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TSisEmpresaList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TSisEmpresaList.pnlGenFilter=~!@#$~!@#$~!@#$
+TSisEmpresaList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisEmpresaList.TSisEmpresaList=Empresas~!@#$Empresas~!@#$Empresas~!@#$
+TSisEmpresaList.Zoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+
+[DisplayLabels]
+TSisEmpresaList.quBrowseCodigoEmpresa=ID Company~!@#$ID Código Empresa~!@#$ID Código Empresa~!@#$
+TSisEmpresaList.quBrowseEmpresa=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSisEmpresaList.quBrowseIDEmpresa=IDEmpresa~!@#$ID Empresa~!@#$ID Empresa~!@#$
+TSisEmpresaList.quBrowseRazaoSocial=Company Name~!@#$Nome Empresa~!@#$Nombre Empresa~!@#$
+
+[Hints]
+TSisEmpresaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TSisEmpresaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TSisEmpresaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TSisEmpresaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TSisEmpresaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TSisEmpresaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TSisEmpresaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TSisEmpresaList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TSisEmpresaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TSisEmpresaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TSisEmpresaList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TSisEmpresaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TSisEmpresaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TSisEmpresaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TSisEmpresaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TSisEmpresaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TSisEmpresaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TSisEmpresaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TSisEmpresaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TSisEmpresaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TSisEmpresaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TSisEmpresaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TSisEmpresaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TSisEmpresaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TSisEmpresaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TSisEmpresaList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TSisEmpresaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TSisEmpresaList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TSisEmpresaList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TSisEmpresaList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TSisEmpresaList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TSisEmpresaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TSisEmpresaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TSisEmpresaList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TSisEmpresaList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TSisEmpresaList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TSisEmpresaList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TSisEmpresaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisEmpresaList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TSisEmpresaList.brwGrid=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisEmpresaList.cbxStatus.Items="Show Active","Show Deleted"~!@#$"Mostrar Ativos","Mostrar Eliminados"~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

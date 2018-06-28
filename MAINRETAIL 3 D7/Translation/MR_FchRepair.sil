@@ -1,0 +1,108 @@
+[Captions]
+TFchRepair.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchRepair.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchRepair.btLoopInc=~!@#$~!@#$~!@#$
+TFchRepair.btnBackVendor=Back from Vendor~!@#$Ret. Fornecedor~!@#$Retorna del Prov.~!@#$
+TFchRepair.btnInStore=Sent To Vendor~!@#$Enviar ao Fornecedor~!@#$Enviado al Proveedor~!@#$
+TFchRepair.btnSendToCustomer=Returned To Customer~!@#$Entregue ao Cliente~!@#$Entregado al Cliente~!@#$
+TFchRepair.btPrint=&Receipt~!@#$&Recibo~!@#$&Recibo~!@#$
+TFchRepair.btSentToCustomer=&Receipt~!@#$&Recibo~!@#$&Recibo~!@#$
+TFchRepair.Label1=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFchRepair.Label10=Vendor~!@#$Fornecedor :~!@#$Proveedor :~!@#$
+TFchRepair.Label12=Customer~!@#$Cliente :~!@#$Cliente :~!@#$
+TFchRepair.Label13=Notes~!@#$Obs~!@#$Obs~!@#$
+TFchRepair.Label14=Return Item Info~!@#$Info Item Devolvido~!@#$Info Item Devuelto~!@#$
+TFchRepair.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchRepair.Label17=Defect :~!@#$Defeito :~!@#$Defecto :~!@#$
+TFchRepair.Label18=Received by:~!@#$Recebido por :~!@#$Recibido por :~!@#$
+TFchRepair.Label19=Serial #~!@#$Nº Série~!@#$Nº Série~!@#$
+TFchRepair.Label2=Name~!@#$Nome~!@#$Nombre~!@#$
+TFchRepair.Label20=Last Cost :~!@#$Último Custo :~!@#$Ultimo Costo :~!@#$
+TFchRepair.Label21=LastPurchDate:~!@#$Última Compra :~!@#$Ultima Compra :~!@#$
+TFchRepair.Label22=On~!@#$Em ~!@#$El~!@#$
+TFchRepair.Label24=RA #~!@#$Nº Autor. :~!@#$Autor. Nº :~!@#$
+TFchRepair.Label25=Carrier :~!@#$Forma Envio :~!@#$Frm Envio :~!@#$
+TFchRepair.Label26=Received by:~!@#$Recebido por :~!@#$Recibido por :~!@#$
+TFchRepair.Label27=On~!@#$Em ~!@#$El~!@#$
+TFchRepair.Label29=On~!@#$Em~!@#$El~!@#$
+TFchRepair.Label3=Returned by:~!@#$Enviado por :~!@#$Enviado por :~!@#$
+TFchRepair.Label33=Notes~!@#$Obs~!@#$Obs~!@#$
+TFchRepair.Label4=Sent by:~!@#$Enviado por :~!@#$Enviado por :~!@#$
+TFchRepair.Label7=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFchRepair.Label8=Notes~!@#$Obs~!@#$Obs~!@#$
+TFchRepair.Label9=On~!@#$Em~!@#$El~!@#$
+TFchRepair.lbDefect=Defect Type :~!@#$Tipo Defeito :~!@#$Tipo Defeito :~!@#$
+TFchRepair.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFchRepair.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchRepair.lblReturn=The item has been credited in inventory.~!@#$O Item foi creditado no inventario~!@#$El Item fue abonado en inventario~!@#$
+TFchRepair.lblSend=The item has been debited from inventory.~!@#$O Item foi debitado do inventario~!@#$El Item fue debitado del inventario~!@#$
+TFchRepair.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchRepair.lbStatus=Status~!@#$Status~!@#$Estado~!@#$
+TFchRepair.rdgTipoRepairCli=Return Status~!@#$Status Devolvido~!@#$Estado Devuelto~!@#$
+TFchRepair.sbSendToVendor=Sent To Vendor~!@#$Env. Fornecedor~!@#$Enviado a Proveedor~!@#$
+TFchRepair.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchRepair.TFchRepair=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+TFchRepair.tsBackCustomer=Sent to Customer~!@#$Enviado ao Cliente~!@#$Enviado al Cliente~!@#$
+TFchRepair.tsReceiveCustomer=Received from Customer~!@#$Recebido do Cliente~!@#$Recibido del Cliente~!@#$
+TFchRepair.tsReturnVendor=Back from Vendor~!@#$Retorna do Fornecedor~!@#$Retorna del Proveedor~!@#$
+TFchRepair.tsSentVendor=Sent to Vendor~!@#$Enviado Fornecedor~!@#$Enviado a Proveedor~!@#$
+TFchRepair.lbBarcode=Barcode :~!@#$Cód. Barra :~!@#$Cód. Barra :~!@#$
+TFchRepair.lbLot=Lot :~!@#$Lote :~!@#$Lote :~!@#$
+
+[DisplayLabels]
+TFchRepair.quFormBackDate=Back on~!@#$Retorna em~!@#$Retorna el~!@#$
+TFchRepair.quFormDateLastCost=DateLastCost~!@#$DataUltimoCusto~!@#$FechaUltimoCosto~!@#$
+TFchRepair.quFormDefect=Defect~!@#$Defeito~!@#$Defecto~!@#$
+TFchRepair.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFchRepair.quFormFase=Fase~!@#$Fase~!@#$Etapa~!@#$
+TFchRepair.quFormIDCliente=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFchRepair.quFormIDFornecedor=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TFchRepair.quFormIDInvMovReturn=IDInvMovReturn~!@#$IDMovInvDevolução~!@#$IDMovInvDevuelto~!@#$
+TFchRepair.quFormIDInvMovSend=IDInvMovSend~!@#$IDMovInvEnviado~!@#$IDMovInvEnviado~!@#$
+TFchRepair.quFormIDModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFchRepair.quFormIDRepair=IDRepair~!@#$IDConserto~!@#$IDReparación~!@#$
+TFchRepair.quFormIDStore=IDStore~!@#$IDLoja~!@#$IDTienda~!@#$
+TFchRepair.quFormIDUserBack=Returnd by~!@#$Devolvido por~!@#$Devuelto por~!@#$
+TFchRepair.quFormIDUserReceive=Received By~!@#$Recebido por~!@#$Recibido por~!@#$
+TFchRepair.quFormIDUserReturn=Received by~!@#$Recebido por ~!@#$Recibido por~!@#$
+TFchRepair.quFormIDUserSent=Sent By~!@#$Enviado por~!@#$Enviado por~!@#$
+TFchRepair.quFormLastCost=LastCost~!@#$UltimoCusto~!@#$UltimoCosto~!@#$
+TFchRepair.quFormOBSBack=OBSBack~!@#$Observações~!@#$Observaciones~!@#$
+TFchRepair.quFormOBSReceive=OBSReceive~!@#$Observações~!@#$Observaciones~!@#$
+TFchRepair.quFormOBSReturn=OBSReturn~!@#$Observação~!@#$Observación~!@#$
+TFchRepair.quFormQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFchRepair.quFormRA=RA~!@#$Autorização #~!@#$Autorización #~!@#$
+TFchRepair.quFormReceiveDate=Receive On~!@#$Recebido em~!@#$Recibido el~!@#$
+TFchRepair.quFormReturnDate=Return on~!@#$Devolvido em~!@#$Devuelto el~!@#$
+TFchRepair.quFormReturnStatus=ReturnStatus~!@#$EstadoDevolvido~!@#$EstadoDevuelto~!@#$
+TFchRepair.quFormSentDate=Sent on~!@#$Enviado em~!@#$Enviado el~!@#$
+TFchRepair.quFormSerialNumber=SerialNumber~!@#$NúmeroSérie~!@#$NúmeroSérie~!@#$
+TFchRepair.quFormTipo=Tipo~!@#$Tipo~!@#$Tipo~!@#$
+TFchRepair.quFormTipoRepair=Return status~!@#$Estado Devolução~!@#$Estado Devolución~!@#$
+TFchRepair.quFormUPS=UPS~!@#$Forma Envio~!@#$Forma Envio~!@#$
+
+[Hints]
+TFchRepair.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchRepair.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchRepair.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchRepair.btnBackVendor=~!@#$~!@#$~!@#$
+TFchRepair.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchRepair.btnInStore=~!@#$~!@#$~!@#$
+TFchRepair.btnSendToCustomer=~!@#$~!@#$~!@#$
+TFchRepair.btPrint=~!@#$~!@#$~!@#$
+TFchRepair.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchRepair.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFchRepair.rdgTipoRepairInv.Items=Exchanged,Repaired,Damaged,Credited~!@#$Trocado,Consertado,Quebrado,Creditado~!@#$Cambiado,Reparado,Dañado,Abonado~!@#$
+TFchRepair.rdgTipoRepairInv.Values=1,2,3,4~!@#$1,2,3,4~!@#$1,2,3,4~!@#$
+TFchRepair.rdgTipoRepairCli.Items=Exchanged,Repaired,Damaged~!@#$Trocado,Consertado,Quebrado~!@#$Cambiado,Reparado,Dañado~!@#$
+TFchRepair.rdgTipoRepairCli.Values=1,2,3~!@#$1,2,3~!@#$1,2,3~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

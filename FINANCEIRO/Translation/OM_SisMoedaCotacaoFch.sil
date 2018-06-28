@@ -1,0 +1,43 @@
+[Captions]
+TSisMoedaCotacaoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisMoedaCotacaoFch.btFirstRec=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisMoedaCotacaoFch.Label1=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TSisMoedaCotacaoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisMoedaCotacaoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TSisMoedaCotacaoFch.lblPTitulo=Quotation~!@#$Cotação~!@#$Cotización~!@#$
+TSisMoedaCotacaoFch.lblPTituloShadow=Quotation~!@#$Cotação~!@#$Cotización~!@#$
+TSisMoedaCotacaoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TSisMoedaCotacaoFch.quFormDataCotacao=DataCotacao~!@#$DataCotação~!@#$FechaCotización~!@#$
+TSisMoedaCotacaoFch.quFormIDMoeda=IDMoeda~!@#$IDMoeda~!@#$IDMoneda~!@#$
+TSisMoedaCotacaoFch.quFormIDMoedaCotacao=IDMoedaCotacao~!@#$IDCotaçãoMoeda~!@#$IDCotizaciónMoneda~!@#$
+TSisMoedaCotacaoFch.quFormValorMoedaPadrao=ValorMoedaPadrao~!@#$ValorMoedaPadrão~!@#$ValorMonedaPatrón~!@#$
+
+[Hints]
+TSisMoedaCotacaoFch.btCancel=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TSisMoedaCotacaoFch.btHelp=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TSisMoedaCotacaoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TSisMoedaCotacaoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TSisMoedaCotacaoFch.btOK=~!@#$~!@#$~!@#$
+TSisMoedaCotacaoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TSisMoedaCotacaoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TSisMoedaCotacaoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

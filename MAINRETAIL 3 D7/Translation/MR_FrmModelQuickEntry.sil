@@ -1,0 +1,62 @@
+[Captions]
+TFrmModelQuickEntry.btAdd=&Add~!@#$&Adicionar~!@#$&Agregue~!@#$
+TFrmModelQuickEntry.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmModelQuickEntry.lbCasePrice=Case Cost :~!@#$Custo Embal. :~!@#$Custo Embale:~!@#$
+TFrmModelQuickEntry.lbCaseQty=Case Qty :~!@#$Embalagem :~!@#$Embale ctd:~!@#$
+TFrmModelQuickEntry.lblBarcode=Barcode :~!@#$Código barras :~!@#$Clave barras :~!@#$
+TFrmModelQuickEntry.lblCategory=Category :~!@#$Categoria :~!@#$Categoría :~!@#$
+TFrmModelQuickEntry.lblColor=Color :~!@#$Cor :~!@#$Cor :~!@#$
+TFrmModelQuickEntry.lblDescription=Description :~!@#$Descrição :~!@#$descripción :~!@#$
+TFrmModelQuickEntry.lblEstoque=Inventory~!@#$Estoque~!@#$Inventario~!@#$
+TFrmModelQuickEntry.lblGroup=Group :~!@#$Sub-grupo :~!@#$Sub-grupo :~!@#$
+TFrmModelQuickEntry.lblManufacturer=Manufecturer :~!@#$Fabricante :~!@#$Fabricante :~!@#$
+TFrmModelQuickEntry.lblMaxQty=Max qty :~!@#$Qtd max :~!@#$Ctd max :~!@#$
+TFrmModelQuickEntry.lblMinQty=Min qty :~!@#$Qtd min :~!@#$Ctd min:~!@#$
+TFrmModelQuickEntry.lblModel=Model :~!@#$Modelo :~!@#$Modelo :~!@#$
+TFrmModelQuickEntry.lblModelInformation=Model Information~!@#$Informação do Modelo~!@#$Información Modelo ~!@#$
+TFrmModelQuickEntry.lblMSRP=MSRP :~!@#$Preço Sug :~!@#$Precio Sug :~!@#$
+TFrmModelQuickEntry.lblOurPrice=Our price :~!@#$Preço de venda :~!@#$Precio de venta :~!@#$
+TFrmModelQuickEntry.lblPricing=Pricing~!@#$Informação de preço~!@#$Tasación~!@#$
+TFrmModelQuickEntry.lblQtyOnHand=Qty :~!@#$Qtd :~!@#$Ctd :~!@#$
+TFrmModelQuickEntry.lblSize=Size :~!@#$Tamanho :~!@#$Tamanõ :~!@#$
+TFrmModelQuickEntry.lblSubCategory=Sub-Category :~!@#$Grupo :~!@#$Grupo :~!@#$
+TFrmModelQuickEntry.lblUnit=Unit :~!@#$Unidade :~!@#$Unidad :~!@#$
+TFrmModelQuickEntry.lblUnitCost=Cost :~!@#$Custo :~!@#$Coste :~!@#$
+TFrmModelQuickEntry.lblVendor=Vendor :~!@#$Fornec. :~!@#$Prov. :~!@#$
+TFrmModelQuickEntry.lblVendorInfo=Vendor :~!@#$Fornecedor :~!@#$Vendedor :~!@#$
+TFrmModelQuickEntry.lblVendorPart=Vendor item number :~!@#$Código Fornec. :~!@#$Código Prov. :~!@#$
+TFrmModelQuickEntry.lbMinQtyPO=MinQtyPO :~!@#$Min Qtd Compra :~!@#$Min Qtd Orden :~!@#$
+TFrmModelQuickEntry.lbQtyType=CaseQty :~!@#$Qtd Embalagem :~!@#$Qty del caso :~!@#$
+TFrmModelQuickEntry.btnVendorSuggestion=Other Vendors~!@#$Outros Fornec.~!@#$Otros Fornec.~!@#$
+TFrmModelQuickEntry.lbBarcodeCase=Barcode Case :~!@#$Cód.Barra Emb.:~!@#$Cód.Barra Emb.:~!@#$
+
+
+[Hints]
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFrmModelQuickEntry.cbxQtyType.Items=Case,Unit~!@#$Embalagem,Unitário~!@#$Embalaje,Unidad~!@#$
+TFrmModelQuickEntry.scCategory.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scCategory.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scColor.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scColor.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scGroup.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scGroup.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scManufacturer.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scManufacturer.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scSize.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scSize.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scSubCategory.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scSubCategory.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scUnit.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scUnit.FilterValues=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scVendor.FilterFields=~!@#$~!@#$~!@#$
+TFrmModelQuickEntry.scVendor.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

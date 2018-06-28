@@ -1,0 +1,84 @@
+[Captions]
+TFchMeioPag.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchMeioPag.btCancelPost=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchMeioPag.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchMeioPag.btDelete=Remove~!@#$Remover~!@#$Remover~!@#$
+TFchMeioPag.btNew=New~!@#$Novo~!@#$Nuevo~!@#$
+TFchMeioPag.btPost=Ok~!@#$Ok~!@#$Ok~!@#$
+TFchMeioPag.cbAutoDiscountFee=Auto register payment's fee~!@#$Auto registrar Pagamento Imposto~!@#$Auto Registrar Pago de Impuesto~!@#$
+TFchMeioPag.chxDrawerKick=Drawer kick on pay~!@#$Abrir a gaveta no pagamento~!@#$Abrir el cajón en el pago~!@#$
+TFchMeioPag.chxPayOnCloseReg=Pay on cash register close~!@#$Quitar no fechamento do caixa~!@#$Quita en cierre de la caja registradora~!@#$
+TFchMeioPag.chxRequireCustomer=Require Customer~!@#$Requer Cliente~!@#$Requer Cliente~!@#$
+TFchMeioPag.dbrdgType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFchMeioPag.grdMinPayTypeDifDay=Days~!@#$Dias~!@#$Días~!@#$
+TFchMeioPag.grdMinPayTypeTotalSale=MinSale~!@#$Mín Venda~!@#$MinVenta~!@#$
+TFchMeioPag.grdStoreIDContaCorrente=Bank Accounting~!@#$Contabilidade Bancária~!@#$Contabilidad Bancaria~!@#$
+TFchMeioPag.grdStoreName=Store~!@#$Loja~!@#$Tienda~!@#$
+TFchMeioPag.grdStoreNumero=Account Number~!@#$Numero Conta ~!@#$Numero Cuenta~!@#$
+TFchMeioPag.grdStoreTipo=Account Type~!@#$Tipo Conta~!@#$Tipo Cuenta~!@#$
+TFchMeioPag.Label1=ID :~!@#$ID :~!@#$ID :~!@#$
+TFchMeioPag.Label11=  Mininum sale values~!@#$Mínima Quantia em Venda~!@#$Monto Mínimo de Ventas~!@#$
+TFchMeioPag.Label12=  Deposit account for each store~!@#$Conta Deposito para cada loja~!@#$Cuenta Depósito para cada Tienda~!@#$
+TFchMeioPag.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchMeioPag.Label2=Payment Type :~!@#$Tipo Pagamento :~!@#$Tipo Pago :~!@#$
+TFchMeioPag.Label29=Bank account :~!@#$Conta Bancária :~!@#$Cuenta Bancaria :~!@#$
+TFchMeioPag.Label3=Record Type :~!@#$Tipo Registro :~!@#$Tipo Registro :~!@#$
+TFchMeioPag.Label4=Vendor :~!@#$Fornecedor :~!@#$Surtidor :~!@#$
+TFchMeioPag.Label6=Parent type :~!@#$Categoria :~!@#$Categoria :~!@#$
+TFchMeioPag.lbBatch=Batch :~!@#$Batch :~!@#$Batch :~!@#$
+TFchMeioPag.lbDiscFee=Discount Fee :~!@#$Taxa Adm. :~!@#$Taxa Adm. :~!@#$
+TFchMeioPag.lblDiscountfeeTitle= Discount fee~!@#$Descontar Imposto~!@#$Descontar Impuesto~!@#$
+TFchMeioPag.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchMeioPag.lblPaymentDays=Payment Days :~!@#$Dia de Pagamento :~!@#$Día de Pago :~!@#$
+TFchMeioPag.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TFchMeioPag.lbPayDays=Payment Days :~!@#$Dia de Pagamento :~!@#$Día de Pago :~!@#$
+TFchMeioPag.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchMeioPag.TFchMeioPag=Ficha Meio Pagamento~!@#$Ficha Meio Pagamento~!@#$Ficha Medio Pago~!@#$
+TFchMeioPag.grdPaymentDBIDStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFchMeioPag.grdPaymentDBIDContaCorrente=Bank Account~!@#$Conta Bancária~!@#$Conta Bancaria~!@#$
+TFchMeioPag.grdPaymentDBAdmTax=Adm Tax~!@#$Taxa Adm.~!@#$Taxa Adm.~!@#$
+TFchMeioPag.grdPaymentDBReceivingDay=Payment Days~!@#$Dia de Pgto~!@#$Día Pago~!@#$
+TFchMeioPag.grdPaymentDBFlatFee=Flat Fee~!@#$Taxa Fixa~!@#$Taxa Flat~!@#$
+TFchMeioPag.chcPrintBankBillet=Bank Billet. Print?~!@#$Boleto Bancário. Imprimir?~!@#$Boleto Bancário. Imprimir?~!@#$
+TFchMeioPag.lbBilletInterest=Billet Interest :~!@#$Juros do Boleto :~!@#$Juros Boleto :~!@#$
+TFchMeioPag.Label5=Record Type :~!@#$Tipo Registro :~!@#$Tipo Registro :~!@#$
+TFchMeioPag.chkDelinquent=Delinquent Controller~!@#$Verificar Inadimplência~!@#$La falta de verificación~!@#$
+
+[DisplayLabels]
+TFchMeioPag.quFormAutoDiscountFee=AutoDiscountFee~!@#$TaxaAutoDesconto~!@#$ImpuestoAutoDescuento~!@#$
+TFchMeioPag.quFormIDContaCorrente=IDContaCorrente~!@#$IDContaCorrente~!@#$IDCuenta Corriente~!@#$
+TFchMeioPag.quFormIDLancamentoTipo=Record Type~!@#$Tipo Registro~!@#$Tipo Registro~!@#$
+TFchMeioPag.quFormIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPag~!@#$
+TFchMeioPag.quFormIDMeioPagBatch=Batch~!@#$Batch~!@#$Batch~!@#$
+TFchMeioPag.quFormIDPessoa=Vendor~!@#$Fornecedor~!@#$Proveedor~!@#$
+TFchMeioPag.quFormMeioPag=Payment type~!@#$Tipo Pagamento~!@#$Tipo Pago~!@#$
+TFchMeioPag.quFormParentType=ParentType~!@#$Categoria~!@#$Categoria~!@#$
+TFchMeioPag.quFormPrazoRecebimento=Payment Days~!@#$Dia de Pagamanto~!@#$Día de Pago~!@#$
+TFchMeioPag.quFormTaxaAdmin=Discount Fee~!@#$Descontar Taxa~!@#$Descontar Impuesto~!@#$
+TFchMeioPag.quFormTemDocumento=TemDocumento~!@#$TemDocumento~!@#$TieneDocumento~!@#$
+TFchMeioPag.quFormTipo=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFchMeioPag.quMinPayTypeDifDay=Days~!@#$Dias~!@#$Días~!@#$
+TFchMeioPag.quMinPayTypeIDMeioPag=IDMeioPag~!@#$IDMeioPag~!@#$IDMedioPag~!@#$
+TFchMeioPag.quMinPayTypeTotalSale=MinSale~!@#$Venda Mínima~!@#$MinVenta~!@#$
+
+[Hints]
+TFchMeioPag.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TFchMeioPag.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TFchMeioPag.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TFchMeioPag.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TFchMeioPag.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TFchMeioPag.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFchMeioPag.cmbParentType.Items=Sale,Batch~!@#$Sale,Batch~!@#$Sale,Batch~!@#$
+TFchMeioPag.dbrdgType.Items=Cash,"Credit Card",Others,Check,"Store Credit","Gift Card","Debit Card","Bonus Bucks","Store Account"~!@#$Dinheiro,"Cartão Crédito",Outros,Cheque,Crédito,"Vale Presente","Cartão Débito",Bônus,"Conta da Loja"~!@#$Efectivo,"Trj Crédito",Otros,Cheque,"Tienda Crédito","Vale Presente","Trj Débito",Bônus,"Conta Tienda"~!@#$
+TFchMeioPag.dbrdgType.Values=1,2,3,4,5,6,7,8,9~!@#$1,2,3,4,5,6,7,8,9~!@#$1,2,3,4,5,6,7,8,9~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

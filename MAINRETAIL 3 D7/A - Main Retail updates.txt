@@ -1,0 +1,78 @@
+Main Retail 
+
+Build 1
+- Pack Model created
+
+Build 2
+- Model Image Create
+- Deposit date (Pagamento Pre-datado)
+
+Build 3
+- Adicionar tratamento de erros nas storedprocs
+
+Build 4
+- incluir campos para os relatorios do Financeiro
+
+Build 5
+- Criado opcao para adcionar Servicos nas categorias dos produtos
+- Opcao para agregar impostos na compra
+- Criado impostos para Fornecedor
+- Criado impostos para Items de compra
+- Criacao dos campos de cheque pre-datado no Financeiro
+- Criado campos e parametro para entrega no Invoice
+- Criado campo Web e Email para as lojas
+- Nova funcao para deletar pagamentos
+
+Build 6
+- Novo menu de Despesas com invoice
+- Nova opcaos para adicionar Despesas no invoice
+- Criacao de acessorios para Modelos
+- Criacao das imagens do Tipo de Pagamento
+- Criado parametro para local do pagamento
+- Criado parametro para exibir tabs no invoice
+- Consulta CERASA
+- Consult CEP
+
+Build 7
+- Paramtro para confirmar entrega antes de fechar o invoice
+- Criacao do historico de acompanhamento dos invoices
+- Crido Opcao para cancelar um invoice
+- Criado caixa registradora para vendas de escritori (warehouse)
+- Opcao para isentar impostos na venda
+
+Build 8
+- Criada opcao para dividir o invoice em diferentes entregas
+- Criado numeracao de hold e invoice por loja
+
+Build 9
+- Criacao de features para os modelos
+- Criacao do controle de credito para os clientes
+- Criacao de orcamentos de vendas
+
+Build 10
+- Criado features tecnicas para os modelos
+- Criacao do estoque flutuante (Disponibolizar parte do estoque)
+- Criacao do cliente prospect
+- Criacao da categoria de credito
+- Criado campo da 2 imagem para os modelos
+
+Build 11
+- Metodo para adiconar nos campos nos relatorios
+- Parametro para adciona impostos no custo das mercadorias (Brasil only)
+- Novos campos para calcular os impostos no brasil na categoria de impostos
+
+Build 12
+- Novos campos para calcular impostos nos items de compra
+
+Build 13
+- Funcao de usuarios para atualizar credito dos clientes
+- Criacao das tabelas para loja tipo Pet
+- Criacao de agrupamentos de cores e tamanhos
+- Criacao de desdobramento para impostos de compra no Financeiro
+
+Build 14
+- Incliur IPI no total da fatura de compra
+- Criado funcao para poder atualizar fatura de compra
+- Parametro pra habilitar opcoes de loja PET
+
+

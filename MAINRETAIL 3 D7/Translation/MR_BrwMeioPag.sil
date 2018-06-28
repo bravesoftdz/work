@@ -1,0 +1,67 @@
+[Captions]
+TBrwMeioPag.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TBrwMeioPag.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TBrwMeioPag.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TBrwMeioPag.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TBrwMeioPag.btExcel=F6 &Export~!@#$F6 &Export~!@#$F6 &Export~!@#$
+TBrwMeioPag.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TBrwMeioPag.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TBrwMeioPag.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwMeioPag.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TBrwMeioPag.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwMeioPag.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TBrwMeioPag.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwMeioPag.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwMeioPag.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwMeioPag.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwMeioPag.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwMeioPag.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TBrwMeioPag.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TBrwMeioPag.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TBrwMeioPag.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwMeioPag.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TBrwMeioPag.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TBrwMeioPag.grdBrowseDBIDMeioPag=ID~!@#$ID~!@#$ID~!@#$
+TBrwMeioPag.grdBrowseDBMeioPag=Type~!@#$Tipo~!@#$Tipo~!@#$
+TBrwMeioPag.grdBrowseDBParentType=Parent~!@#$Categoria~!@#$Categoria~!@#$
+TBrwMeioPag.hhh=~!@#$~!@#$~!@#$
+TBrwMeioPag.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TBrwMeioPag.lblBasicFilter=~!@#$~!@#$~!@#$
+TBrwMeioPag.lblGenFilter=~!@#$~!@#$~!@#$
+TBrwMeioPag.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TBrwMeioPag.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TBrwMeioPag.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TBrwMeioPag.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TBrwMeioPag.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TBrwMeioPag.TBrwMeioPag=BrwMeioPag~!@#$BrwMeioPag~!@#$BrwFormaPag~!@#$
+
+[DisplayLabels]
+TBrwMeioPag.quBrowseIDMeioPag=IDMeioPag~!@#$ID~!@#$ID~!@#$
+TBrwMeioPag.quBrowseMeioPag=MeioPag~!@#$MeiodePag~!@#$FormaPag~!@#$
+TBrwMeioPag.quBrowseParentType=ParentType~!@#$TipoCategoria~!@#$TipoCategoria~!@#$
+
+[Hints]
+TBrwMeioPag.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TBrwMeioPag.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwMeioPag.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwMeioPag.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TBrwMeioPag.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwMeioPag.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwMeioPag.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwMeioPag.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwMeioPag.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwMeioPag.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwMeioPag.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TBrwMeioPag.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TBrwMeioPag.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,41 @@
+[Captions]
+TSplitPreSale.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TSplitPreSale.btSplit=&Split~!@#$&Dividir~!@#$&Dividir~!@#$
+TSplitPreSale.grdPreSaleItemDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSplitPreSale.grdPreSaleItemMarked=Marked~!@#$Marcado~!@#$Marcado~!@#$
+TSplitPreSale.grdPreSaleItemMovDate=Date~!@#$Data~!@#$Fecha~!@#$
+TSplitPreSale.grdPreSaleItemQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TSplitPreSale.grdPreSaleItemSalesPerson=Sales Person~!@#$Vendedor~!@#$Vendedor~!@#$
+TSplitPreSale.grdPreSaleItemTotal=Total~!@#$Total~!@#$Total~!@#$
+TSplitPreSale.hhh=~!@#$~!@#$~!@#$
+TSplitPreSale.Label1=Customer Name:~!@#$Cliente :~!@#$Cliente :~!@#$
+TSplitPreSale.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TSplitPreSale.Label2=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TSplitPreSale.Label3=Date :~!@#$Data :~!@#$Fetcha :~!@#$
+TSplitPreSale.Label4=Address :~!@#$Endereço :~!@#$Dirección :~!@#$
+TSplitPreSale.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TSplitPreSale.lblSubMenu=Split Hold~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TSplitPreSale.pnlTitle6=Deliver Info~!@#$Informação da entrega~!@#$Información Envio~!@#$
+TSplitPreSale.TSplitPreSale=SplitPreSale~!@#$DividirPreVenda~!@#$DividirPreVenta~!@#$
+
+[DisplayLabels]
+TSplitPreSale.quPreSaleItemDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TSplitPreSale.quPreSaleItemDiscount=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TSplitPreSale.quPreSaleItemDocumentID=DocumentID~!@#$DocumentoID~!@#$DocumentoID~!@#$
+TSplitPreSale.quPreSaleItemIDPreInventoryMov=IDPreInventoryMov~!@#$IDPreMovInventario~!@#$IDPreMovInventario~!@#$
+TSplitPreSale.quPreSaleItemMarked=Marked~!@#$Marcado~!@#$Marcado~!@#$
+TSplitPreSale.quPreSaleItemModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TSplitPreSale.quPreSaleItemMovDate=Date~!@#$Data~!@#$Fecha~!@#$
+TSplitPreSale.quPreSaleItemQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TSplitPreSale.quPreSaleItemQtyRealMov=Qty RealMov~!@#$Qtd Marcada~!@#$Ctd Marcada~!@#$
+TSplitPreSale.quPreSaleItemSalesPerson=SalesPerson~!@#$Vendedor~!@#$Vendedor~!@#$
+TSplitPreSale.quPreSaleItemTotal=Total~!@#$Total~!@#$Total~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

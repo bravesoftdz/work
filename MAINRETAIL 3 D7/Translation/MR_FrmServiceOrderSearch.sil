@@ -1,0 +1,39 @@
+[Captions]
+TFrmServiceOrderSearch.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmServiceOrderSearch.btCustomerC=All~!@#$Todos~!@#$Todos~!@#$
+TFrmServiceOrderSearch.btnExec=&GO!~!@#$IR!~!@#$IR!~!@#$
+TFrmServiceOrderSearch.btnOK=&OK~!@#$&OK~!@#$&OK~!@#$
+TFrmServiceOrderSearch.btProducts=All~!@#$Todos~!@#$Todos~!@#$
+TFrmServiceOrderSearch.btStatusC=All~!@#$Todos~!@#$Todos~!@#$
+TFrmServiceOrderSearch.btStoreC=All~!@#$Todos~!@#$Todos~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBCCell=Cell~!@#$Cel.~!@#$Cel.~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBColor=Color~!@#$Cor~!@#$Color~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBCPhone=Phone~!@#$Tel.~!@#$Tel.~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBEmail=Email~!@#$Email~!@#$Email~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBPessoa=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBSalePrice=Total~!@#$Total~!@#$Total~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBSOCloseDate=End Date~!@#$Data Final~!@#$Data Final~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBSODate=Ini Date~!@#$Data Início~!@#$Data Início~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBSONumber=SO Number~!@#$O.S. Número~!@#$O.S. Número~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBSOStatus=SOStatus~!@#$O.S. Status~!@#$O.S. Status~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmServiceOrderSearch.grdServiceOrderDBSerialNumber=S/N~!@#$N/S~!@#$N/S~!@#$
+TFrmServiceOrderSearch.Label1=Products :~!@#$Produtos :~!@#$Produtos :~!@#$
+TFrmServiceOrderSearch.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmServiceOrderSearch.Label2=Customer :~!@#$Cliente :~!@#$Cliente :~!@#$
+TFrmServiceOrderSearch.Label3=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmServiceOrderSearch.Label4=Status :~!@#$Status :~!@#$Status :~!@#$
+TFrmServiceOrderSearch.Label5=S/N :~!@#$N/S :~!@#$N/S :~!@#$
+TFrmServiceOrderSearch.lbFrom=From :~!@#$De :~!@#$Desde :~!@#$
+TFrmServiceOrderSearch.lbTo=To~!@#$até~!@#$até~!@#$
+TFrmServiceOrderSearch.lbCustDoc=Cust. Doc~!@#$CPF/CNPJ~!@#$Cust. Doc~!@#$
+TFrmServiceOrderSearch.lbSONumber=SO Nº :~!@#$Nº OS:~!@#$Nº OS:~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

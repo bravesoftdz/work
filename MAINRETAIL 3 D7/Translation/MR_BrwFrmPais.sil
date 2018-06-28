@@ -1,0 +1,47 @@
+[Captions]
+TbrwFrmPais.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmPais.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmPais.btLoopInc=~!@#$~!@#$~!@#$
+TbrwFrmPais.DBCheckBox1=Desactivate~!@#$Desativado~!@#$Desactivado~!@#$
+TbrwFrmPais.DBCheckBox2=hidden~!@#$Esconder~!@#$Esconder~!@#$
+TbrwFrmPais.DBCheckBox3=system~!@#$Sistema~!@#$Sistema~!@#$
+TbrwFrmPais.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmPais.Label2=Country Code :~!@#$Código País :~!@#$Código País :~!@#$
+TbrwFrmPais.Label3=CodPais~!@#$CódPaís~!@#$CódPaís~!@#$
+TbrwFrmPais.Label4=Pais~!@#$País~!@#$País~!@#$
+TbrwFrmPais.Label5=Country :~!@#$País :~!@#$País :~!@#$
+TbrwFrmPais.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmPais.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmPais.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmPais.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwFrmPais.TbrwFrmPais=brwFrmPais~!@#$brwFrmPaís~!@#$brwFrmPaís~!@#$
+
+
+[DisplayLabels]
+TbrwFrmPais.quFormCodPais=Country Code~!@#$Código País~!@#$Código País~!@#$
+TbrwFrmPais.quFormDesativado=Desactivate~!@#$Desativado~!@#$Desactivado~!@#$
+TbrwFrmPais.quFormhidden=hidden~!@#$Esconder~!@#$Esconder~!@#$
+TbrwFrmPais.quFormIDPais=IDCountry~!@#$IDPaís~!@#$IDPaís~!@#$
+TbrwFrmPais.quFormPais=Country~!@#$País~!@#$País~!@#$
+TbrwFrmPais.quFormsystem=system~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TbrwFrmPais.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmPais.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmPais.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmPais.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmPais.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmPais.EspacamentoDireito=~!@#$~!@#$~!@#$
+TbrwFrmPais.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TbrwFrmPais.EspacamentoInferior=~!@#$~!@#$~!@#$
+TbrwFrmPais.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TbrwFrmPais.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

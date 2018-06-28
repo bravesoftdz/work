@@ -1,0 +1,57 @@
+[Captions]
+TFrameFilterAcc.btnBank=All~!@#$Tudo~!@#$Todo~!@#$
+TFrameFilterAcc.btnBKAcc=All~!@#$Tudo~!@#$Todo~!@#$
+TFrameFilterAcc.btnEntity=All~!@#$Tudo~!@#$Todo~!@#$
+TFrameFilterAcc.btnEntType=All~!@#$Tudo~!@#$Todo~!@#$
+TFrameFilterAcc.btnRecType=All~!@#$Tudo~!@#$Todo~!@#$
+TFrameFilterAcc.Label1=to~!@#$Até~!@#$Al~!@#$
+TFrameFilterAcc.Label2=Bank Account :~!@#$Conta de Banco~!@#$Cuenta Bancária~!@#$
+TFrameFilterAcc.Label3=Bank :~!@#$Banco :~!@#$Banco :~!@#$
+TFrameFilterAcc.Label4=Entity :~!@#$Entidade :~!@#$Entidad :~!@#$
+TFrameFilterAcc.Label5=Entity Type :~!@#$Tipo Entidade :~!@#$Tipo Entidad :~!@#$
+TFrameFilterAcc.Label6=Record Status :~!@#$Estado Registro :~!@#$Estado Registro :~!@#$
+TFrameFilterAcc.Label7=Record Type :~!@#$Tipo Registro :~!@#$Tipo Registro :~!@#$
+TFrameFilterAcc.Label8=Doc. Type :~!@#$Tipo Doc. :~!@#$Tipo Docto.:~!@#$
+TFrameFilterAcc.SpeedButton1=All~!@#$Tudo~!@#$Todo~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFrameFilterAcc.Currency String=$~!@#$$~!@#$$~!@#$
+TFrameFilterAcc.Date Separator=/~!@#$/~!@#$/~!@#$
+TFrameFilterAcc.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TFrameFilterAcc.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM,  yyyy~!@#$dddd, dd MMMM , yyyy~!@#$
+TFrameFilterAcc.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domingo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFrameFilterAcc.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Jluio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFrameFilterAcc.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFrameFilterAcc.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFrameFilterAcc.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,Ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb~!@#$
+TFrameFilterAcc.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFrameFilterAcc.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFrameFilterAcc.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TFrameFilterAcc.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFrameFilterAcc.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFrameFilterAcc.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[MultiLines]
+TFrameFilterAcc.cbxFilterDate.Items="Record Date","Issue Date","Payment Date","Due Date","Transaction Date"~!@#$"Data Registro","Data Emissão","Data Pagamento","Data Vencimento","Data Transação"~!@#$"Fecha Registro","Fecha Emisión","Fecha del Pago","Fecha Vencimiento","Fecha Transacción"~!@#$
+TFrameFilterAcc.cbxStatus.Items=All,Open,Paid,Legal,Canceled,"Partially Paid"~!@#$Tudo,Aberto,Pago,Legal,Cancelado,"Parcialmente Pago"~!@#$Todo,Abierto,Pagado,Legal,Cancelado,"Parcialmente Pagado"~!@#$
+TFrameFilterAcc.scBank.FilterFields=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scBank.FilterValues=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scBKAcc.FilterFields=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scBKAcc.FilterValues=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scDocType.FilterFields=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scDocType.FilterValues=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scEntity.FilterFields=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scEntity.FilterValues=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scEntType.FilterFields=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scEntType.FilterValues=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scRecordType.FilterFields=~!@#$~!@#$~!@#$
+TFrameFilterAcc.scRecordType.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

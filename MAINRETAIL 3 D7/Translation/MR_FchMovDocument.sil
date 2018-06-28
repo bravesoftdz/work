@@ -1,0 +1,24 @@
+[Captions]
+TFchMovDocument.lblDocumentNumber=Number :~!@#$Número :~!@#$Número :~!@#$
+TFchMovDocument.lblDocumentDate=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TFchMovDocument.lblDocumentStatus=Status :~!@#$Estado :~!@#$Estado :~!@#$
+TFchMovDocument.lblDocumentType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TFchMovDocument.lblDocumentOBS=OBS :~!@#$OBS :~!@#$OBS :~!@#$
+
+[DisplayLabels]
+TFchMovDocument.quFormDocumentNumber=Number~!@#$Número~!@#$Número~!@#$
+TFchMovDocument.quFormDocumentDate=Date~!@#$Data~!@#$Fecha~!@#$
+TFchMovDocument.quFormDocumentStatus=Status~!@#$Estado~!@#$Estado~!@#$
+TFchMovDocument.quFormIDDocumentType=Type~!@#$Tipo~!@#$Tipo~!@#$
+TFchMovDocument.quFormOBS=OBS~!@#$OBS~!@#$OBS~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFchMovDocument.cbxDocumentStatus.Items="Created","Signed for the customer","waiting sending","Sent","Received","Filed"~!@#$"Criado","Assinado pelo cliente","Aguardando envio","Enviado","Recebido","Arquivado"~!@#$"Criado","Assinado pelo cliente","Aguardando envio","Enviado","Recebido","Arquivado"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$

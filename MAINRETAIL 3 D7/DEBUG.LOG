@@ -1,0 +1,133 @@
+number of parameters in command line 1
+parameter[0] = C:\work\MAINRETAIL 3 D7\MainRetail.exe
+parameter[1] = -d
+search purchase: SELECT
+	0 as IDRequest,
+	M.IDModel,
+	M.Model,
+	M.Description,
+	M.ClasseABC,
+	(CASE IsNull(MV.VendorCost, 0) WHEN 0 THEN M.FinalCost ELSE IsNull(MV.VendorCost, 0) END) as FinalCost,
+	M.SuggRetail as MSRP,
+	M.SellingPrice,
+	M.TotQtyOnHand,
+	(CASE WHEN ISNULL(MV.CaseQty, -1) < 2 THEN IsNull(M.CaseQty,0) ELSE MV.CaseQty END) as CaseQty,
+	M.Peso as Weight,
+	(M.Peso * 0) as ExtWeight,
+	TG.Name as Category,
+	MG.ModelGroup as SubCategory,
+	MGS.ModelSubGroup as MGroup,
+	F.Pessoa as Manufacture,
+	INV.StoreID as IDStore,
+	INV.UltimaMovimentacao as DateRequest,
+	INV.QtyOnHand,
+	PO.QtyOnOrder,
+	INV.MaxQty,
+	INV.MinQty,
+	IMV.Qty as QtySold,
+	((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) - IsNull(PO.QtyOnOrder,0)) as QtyOrdered,
+	CASE WHEN (CASE WHEN ISNULL(MV.CaseQty, -1) < 2 THEN IsNull(M.CaseQty,0) ELSE MV.CaseQty END) > 1 THEN IsNull(Round((((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) - IsNull(PO.QtyOnOrder,0))/(CASE WHEN ISNULL(MV.CaseQty, -1) < 2 THEN IsNull(M.CaseQty,0) ELSE MV.CaseQty END))+0.4, 0), 0) ELSE 0 END as CaseQtyOrdered,
+	S.Name as Store,
+	'System' as [SystemUser],
+	CAST(0 as Bit) as Marked,
+	MV.IDPessoa as IDVendor,
+	V.Pessoa as Vendor,
+	(M.FinalCost * 0) as ExtCost,
+	B.IDBarcode as Barcode,
+	CASE WHEN ((CASE WHEN ISNULL(MV.CaseQty, -1) < 2 THEN IsNull(M.CaseQty,0) ELSE MV.CaseQty END) > 1) THEN (CASE WHEN IsNull(Round((((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) - IsNull(PO.QtyOnOrder,0))/(CASE WHEN ISNULL(MV.CaseQty, -1) < 2 THEN IsNull(M.CaseQty,0) ELSE MV.CaseQty END))+0.4, 0), 0) < MV.MinQtyPO THEN MV.MinQtyPO
+						       ELSE IsNull(Round((((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) - IsNull(PO.QtyOnOrder,0))/(CASE WHEN ISNULL(MV.CaseQty, -1) < 2 THEN IsNull(M.CaseQty,0) ELSE MV.CaseQty END))+0.4, 0), 0) END) 
+	     ELSE (CASE WHEN ((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) - IsNull(PO.QtyOnOrder,0)) < MV.MinQtyPO THEN MV.MinQtyPO
+		        ELSE ((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) - IsNull(PO.QtyOnOrder,0)) END) END as QtyToOrder	
+FROM
+	Model M (NOLOCK)
+	JOIN TabGroup TG (NOLOCK) ON (M.GroupID = TG.IDGroup)
+	LEFT JOIN Barcode B (NOLOCK) ON (B.IDModel = M.IDModel and B.BarcodeOrder = 1)
+	LEFT OUTER JOIN ModelGroup MG (NOLOCK)ON (M.IDModelGroup = MG.IDModelGroup)
+	LEFT OUTER JOIN ModelSubGroup MGS (NOLOCK) ON (M.IDModelSubGroup = MGS.IDModelSubGroup)
+	LEFT OUTER JOIN Pessoa F (NOLOCK) ON (F.IDPessoa = M.IDFabricante)
+	JOIN Inventory INV (NOLOCK)ON (INV.ModelID = M.IDModel)
+	JOIN Store S (NOLOCK) ON (INV.StoreID = S.IDStore)
+	JOIN Inv_ModelVendor MV (NOLOCK) ON (MV.IDModel = M.IDModel and IsNull(MV.VendorOrder,-1) = IsNull(1, IsNull(MV.VendorOrder,-1)))
+	JOIN Pessoa V (NOLOCK) ON (V.IDPessoa = MV.IDPessoa)
+	LEFT JOIN (SELECT
+			PIM.ModelID,
+			PIM.StoreID,
+			SUM(IsNull(PIM.Qty, 0) - IsNull(PIM.QtyRealMov, 0)) as QtyOnOrder
+		FROM
+			PO (NOLOCK) 
+			JOIN PreInventoryMov PIM (NOLOCK) ON (PIM.InventMovTypeID = 2 AND PIM.DocumentID = PO.IDPO)
+		WHERE
+			PO.Aberto = 1
+		GROUP BY
+			PIM.ModelID,
+			PIM.StoreID
+		) PO ON (PO.ModelID = INV.ModelID AND PO.StoreID = INV.StoreID)
+	JOIN (SELECT
+			I.ModelID,
+			I.StoreID,
+			SUM(IsNull(IMV.Qty, 0)) as Qty
+		FROM
+			Inventory I (NOLOCK) 
+			LEFT JOIN InventoryMov IMV (NOLOCK) ON (I.ModelID = IMV.ModelID AND I.StoreID = IMV.StoreID AND IMV.InventMovTypeID = 1 AND IMV.MovDate >='06/01/2015')
+		GROUP BY
+			I.StoreID,
+			I.ModelID
+		) IMV ON (IMV.StoreID = S.IDStore AND IMV.ModelID = M.IDModel)
+WHERE
+	INV.StoreID = IsNull(1, INV.StoreID)
+	AND
+	IsNull(M.IDModelGroup, -1) = IsNull(Null, IsNull(M.IDModelGroup, -1))
+	AND
+	IsNull(M.IDModelSubGroup, -1) = IsNull(Null, IsNull(M.IDModelSubGroup, -1))
+	AND
+	IsNull(INV.MinQty,0) >= INV.QtyOnHand
+	AND
+	M.GroupID = IsNull(Null, M.GroupID)
+	AND
+      	IsNull(MV.IDPessoa,-1) = IsNull(Null, IsNull(MV.IDPessoa,-1))
+	AND
+	IsNull(M.IDFabricante,-1) = IsNull(Null, IsNull(M.IDFabricante,-1))
+	AND
+	M.ModelType IN ('R','S')
+	AND
+	IsNull(INV.MinQty,0) <> 0
+	AND
+	IsNull(INV.MaxQty,0) <> 0
+	AND
+	((IsNull(INV.MaxQty,0) - IsNull(INV.QtyOnHand,0)) > IsNull(PO.QtyOnOrder,0))
+	AND
+	M.Desativado = 0
+	AND
+	M.Hidden = 0
+        AND
+        MV.DoNotOrder = 0
+GROUP BY
+	M.IDModel,
+	M.Model,
+	M.Description,
+	M.ClasseABC,
+	M.FinalCost,
+	M.SuggRetail,
+	M.SellingPrice,
+	M.TotQtyOnHand,
+	M.CaseQty,
+	MV.CaseQty,
+	M.Peso,
+	TG.Name,
+	MG.ModelGroup,
+	MGS.ModelSubGroup,
+	F.Pessoa,
+	INV.StoreID,
+	INV.UltimaMovimentacao,
+	INV.QtyOnHand,
+	INV.QtyOnOrder,
+	INV.MinQty,
+	INV.MaxQty,
+	S.Name,
+	MV.IDPessoa,
+	V.Pessoa,
+	PO.QtyOnOrder,
+	IMV.Qty,
+	MV.MinQtyPO,
+	MV.VendorCost,
+	B.IDBarcode

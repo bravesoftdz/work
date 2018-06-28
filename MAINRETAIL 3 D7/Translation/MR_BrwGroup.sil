@@ -1,0 +1,77 @@
+[Captions]
+TbrwGroup.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwGroup.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwGroup.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwGroup.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwGroup.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwGroup.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwGroup.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwGroup.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwGroup.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwGroup.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwGroup.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwGroup.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwGroup.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwGroup.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwGroup.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwGroup.btnSubGroup=&Group~!@#$&Grupo~!@#$&Grupo~!@#$
+TbrwGroup.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwGroup.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwGroup.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwGroup.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwGroup.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwGroup.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwGroup.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwGroup.grdBrowseDBCredit=Credit~!@#$Crédito~!@#$Crédito~!@#$
+TbrwGroup.grdBrowseDBIDGroup=ID~!@#$ID~!@#$ID~!@#$
+TbrwGroup.grdBrowseDBName=Category~!@#$Categoria~!@#$Categoría~!@#$
+TbrwGroup.grdBrowseDBPackModel=Pack Models~!@#$Cesta de Itens~!@#$Cesta de Item~!@#$
+TbrwGroup.grdBrowseDBPuppyTracker=Puppy Tracker~!@#$Puppy Tracker~!@#$Puppy Tracker~!@#$
+TbrwGroup.grdBrowseDBRequestCustomer=Request Customer~!@#$Exigir Cliente~!@#$El cliente Requirió~!@#$
+TbrwGroup.grdBrowseDBSerialNumber=Serial Number~!@#$Número de Série~!@#$Número de Serie~!@#$
+TbrwGroup.grdBrowseDBService=Service~!@#$Serviço~!@#$Servicio~!@#$
+TbrwGroup.grdBrowseDBSizeAndColor=Size and Color~!@#$Tamanho e Cor~!@#$Tamaño y Color~!@#$
+TbrwGroup.grdBrowseDBUserCode=Code~!@#$Código~!@#$Codigo~!@#$
+TbrwGroup.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwGroup.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwGroup.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwGroup.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwGroup.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwGroup.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwGroup.grdBrowseDBGiftCard=Gift Card~!@#$Vale Presente~!@#$Vale Presente~!@#$
+
+[DisplayLabels]
+TbrwGroup.quBrowseCredit=Credit~!@#$Crédito~!@#$Crédito~!@#$
+TbrwGroup.quBrowseIDGroup=IDGroup~!@#$IDGrupo~!@#$IDGrupo~!@#$
+TbrwGroup.quBrowseName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwGroup.quBrowsePackModel=Pack Model~!@#$Cesta de Itens~!@#$Cesta de Item~!@#$
+TbrwGroup.quBrowseSerialNumber=SerialNumber~!@#$NúmerodeSérie~!@#$NúmerodeSerie~!@#$
+TbrwGroup.quBrowseService=Service~!@#$Serviço~!@#$Servicio~!@#$
+TbrwGroup.quBrowseSizeAndColor=SizeAndColor~!@#$TamanhoeCor~!@#$TamañoyColor~!@#$
+
+[Hints]
+TbrwGroup.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwGroup.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwGroup.btnExec=~!@#$~!@#$~!@#$
+TbrwGroup.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwGroup.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwGroup.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwGroup.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwGroup.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwGroup.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwGroup.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwGroup.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwGroup.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwGroup.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwGroup.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

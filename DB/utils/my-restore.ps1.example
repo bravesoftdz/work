@@ -1,0 +1,10 @@
+.\utils\restore-db.ps1 `
+    -db_path 'C:\MSSQL_Data' `
+    -temp_path 'C:\Temp' `
+    -zip_program_dir 'C:\Program Files\7-Zip' `
+    -zip_password 'MR_DB_User' `
+    -delete_bak_when_done $true `
+    -migrations_path '.\changes\V6\319' `
+    -server '(LOCAL)\Pinogy' `
+    -db_name 'MainRetailDB_Master' `
+    -db_zipfile 'c:\MRBackup\MainRetailDB\MainRetail20112014.7z'

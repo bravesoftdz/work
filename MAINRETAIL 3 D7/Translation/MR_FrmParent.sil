@@ -1,0 +1,14 @@
+[Captions]
+TFrmParent.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmParent.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmParent.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmParent.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

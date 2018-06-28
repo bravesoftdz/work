@@ -1,0 +1,65 @@
+[Captions]
+TFinQuitacaoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinQuitacaoFch.btFchBrwDetalhe=&Detail~!@#$&Detalhes~!@#$&Detalles~!@#$
+TFinQuitacaoFch.btFchBrwNovo=&New~!@#$&Novo~!@#$&Nuevo~!@#$
+TFinQuitacaoFch.btFchBrwRemove=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TFinQuitacaoFch.btFchBrwRestaura=&Restore~!@#$&Reestabelecer~!@#$&Restablecer~!@#$
+TFinQuitacaoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinQuitacaoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinQuitacaoFch.grbFchBrwDiscount=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TFinQuitacaoFch.grbFchBrwIDLancamento=Record ID~!@#$Registro ID~!@#$Registro ID~!@#$
+TFinQuitacaoFch.grbFchBrwValorJuros=Interest~!@#$Juros~!@#$Intereses~!@#$
+TFinQuitacaoFch.grbFchBrwValorQuitado=Amount~!@#$Valor~!@#$Monto~!@#$
+TFinQuitacaoFch.Label1=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFinQuitacaoFch.Label13=Payee :~!@#$Beneficiário :~!@#$Beneficiario :~!@#$
+TFinQuitacaoFch.Label5=Payment date :~!@#$Data Pagamento :~!@#$Fecha de Pago :~!@#$
+TFinQuitacaoFch.Label8=Amount :~!@#$Valor :~!@#$Monto :~!@#$
+TFinQuitacaoFch.Label9=Memo :~!@#$Memo :~!@#$Memo :~!@#$
+TFinQuitacaoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinQuitacaoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinQuitacaoFch.TFinQuitacaoFch=FinQuitacaoFch~!@#$FinQuitaçãoFch~!@#$FinPagoFch~!@#$
+
+[DisplayLabels]
+TFinQuitacaoFch.quFchBrwDiscount=Discount~!@#$Desconto~!@#$Descuento~!@#$
+TFinQuitacaoFch.quFchBrwIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFinQuitacaoFch.quFchBrwIDQuitacao=IDQuitacao~!@#$IDQuitação~!@#$IDPago~!@#$
+TFinQuitacaoFch.quFchBrwValorJuros=ValorJuros~!@#$ValorJuros~!@#$ValorIntereses~!@#$
+TFinQuitacaoFch.quFchBrwValorQuitado=ValorQuitado~!@#$ValorQuitado~!@#$ValorPagado~!@#$
+TFinQuitacaoFch.quFormDataDesbloqueio=DataDesbloqueio~!@#$DataDesbloqueio~!@#$FechaDesbloquear ~!@#$
+TFinQuitacaoFch.quFormDataQuitacao=DataQuitacao~!@#$DataQuitação~!@#$FechaPago~!@#$
+TFinQuitacaoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinQuitacaoFch.quFormFavorecido=Payee~!@#$Beneficiário~!@#$Beneficiario~!@#$
+TFinQuitacaoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinQuitacaoFch.quFormIDBanco=IDBanco~!@#$IDBanco~!@#$IDBanco~!@#$
+TFinQuitacaoFch.quFormIDBancoAgencia=IDBancoAgencia~!@#$IDAgenciaBanco~!@#$IDAgenciaBanco~!@#$
+TFinQuitacaoFch.quFormIDContaCorrente=Account~!@#$Conta~!@#$Cuenta~!@#$
+TFinQuitacaoFch.quFormIDQuitacao=IDQuitacao~!@#$IDQuitação~!@#$IDPago~!@#$
+TFinQuitacaoFch.quFormIDQuitacaoMeio=Payment type~!@#$Tipo Pagamento~!@#$Tipo de pago~!@#$
+TFinQuitacaoFch.quFormIDUsuarioQuitacao=User~!@#$Usuário~!@#$Usuario~!@#$
+TFinQuitacaoFch.quFormNumeroMeioQuit=Number~!@#$Número~!@#$Número~!@#$
+TFinQuitacaoFch.quFormPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TFinQuitacaoFch.quFormString=String~!@#$Linha~!@#$Línea~!@#$
+TFinQuitacaoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFinQuitacaoFch.quFormValorJuros=ValorJuros~!@#$ValorJuros~!@#$ValorIntereses~!@#$
+TFinQuitacaoFch.quFormValorQuitacao=ValorQuitacao~!@#$ValorQuitação~!@#$ValordelPago~!@#$
+
+[Hints]
+TFinQuitacaoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinQuitacaoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinQuitacaoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinQuitacaoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinQuitacaoFch.btOK=~!@#$~!@#$~!@#$
+TFinQuitacaoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinQuitacaoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinQuitacaoFch.imgFolder=Doucle-click to show deleted~!@#$Duplo clique para mostrar os eliminados~!@#$Presione dos veces para mostrar los eliminados~!@#$
+TFinQuitacaoFch.ImgTrash=Doucle-click to show non deleted items~!@#$Duplo clique para não mostrar os eliminados~!@#$Presione dos veces para no mostrar los eliminados~!@#$
+TFinQuitacaoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

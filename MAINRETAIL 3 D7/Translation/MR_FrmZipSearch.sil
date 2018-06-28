@@ -1,0 +1,37 @@
+[Captions]
+TFrmZipSearch.Aplicar=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TFrmZipSearch.Cancelar=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TFrmZipSearch.grdBrowseDBBairro=Neighborhood~!@#$Bairro~!@#$Vencindario~!@#$
+TFrmZipSearch.grdBrowseDBCEP=Zip~!@#$CEP~!@#$C. Postal~!@#$
+TFrmZipSearch.grdBrowseDBEndereco=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFrmZipSearch.grdBrowseDBIDEstado=State~!@#$Estado~!@#$Estado~!@#$
+TFrmZipSearch.grdBrowseLevel=~!@#$~!@#$~!@#$
+TFrmZipSearch.Label1=City :~!@#$Cidade :~!@#$Ciudad :~!@#$
+TFrmZipSearch.Label2=State :~!@#$Estado :~!@#$Estado :~!@#$
+TFrmZipSearch.Label3=Neighborhood :~!@#$Bairro :~!@#$Vencindario :~!@#$
+TFrmZipSearch.lbZip=ZipCode :~!@#$CEP:~!@#$Código Postal :~!@#$
+TFrmZipSearch.Panel1=~!@#$~!@#$~!@#$
+TFrmZipSearch.Panel2=~!@#$~!@#$~!@#$
+TFrmZipSearch.sbSearchZip=&Search~!@#$&Procurar~!@#$&Procurar~!@#$
+TFrmZipSearch.TFrmZipSearch=Search zipcode~!@#$Procurar CEP~!@#$Procurar Código Postal~!@#$
+
+[DisplayLabels]
+TFrmZipSearch.quZipCodeBairro=Neighborhood~!@#$Bairro~!@#$Vencindario~!@#$
+TFrmZipSearch.quZipCodeCEP=Zip~!@#$CEP~!@#$C. Postal~!@#$
+TFrmZipSearch.quZipCodeComplemento=Complemento~!@#$~!@#$~!@#$
+TFrmZipSearch.quZipCodeEndereco=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFrmZipSearch.quZipCodeIDBairro=IDBairro~!@#$~!@#$~!@#$
+TFrmZipSearch.quZipCodeIDEstado=State~!@#$Estado~!@#$Estado~!@#$
+TFrmZipSearch.quZipCodeIDLocalidade=IDLocalidade~!@#$~!@#$~!@#$
+TFrmZipSearch.quZipCodeLocalidade=Localidade~!@#$~!@#$~!@#$
+TFrmZipSearch.quZipCodeLogradouro=Logradouro~!@#$~!@#$~!@#$
+TFrmZipSearch.quZipCodeTitulo=Titulo~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

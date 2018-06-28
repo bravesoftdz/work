@@ -1,0 +1,76 @@
+[Captions]
+TbrwCashRegister.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwCashRegister.btClose=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TbrwCashRegister.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwCashRegister.btCountConfig=Count Config~!@#$Contagem Estoq.~!@#$Contagem Estoq.~!@#$
+TbrwCashRegister.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwCashRegister.btDrawerKickLog=Drawer Kick Log~!@#$Log Abertura Cx~!@#$Log Abertura Cx~!@#$
+TbrwCashRegister.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwCashRegister.btFilter=Undo &Filters~!@#$A&nular Filtros~!@#$Anular &Filtros~!@#$
+TbrwCashRegister.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwCashRegister.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwCashRegister.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwCashRegister.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwCashRegister.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwCashRegister.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwCashRegister.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwCashRegister.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwCashRegister.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwCashRegister.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwCashRegister.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwCashRegister.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwCashRegister.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwCashRegister.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwCashRegister.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Selección~!@#$
+TbrwCashRegister.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo Seleção~!@#$Filtrar Excluyendo Selección~!@#$
+TbrwCashRegister.grdBrowseDBIDCashRegister=IDCashRegister~!@#$IDCaixaRegistradora~!@#$IDCajaRegistradora~!@#$
+TbrwCashRegister.grdBrowseDBIDCashRegister=IDCashRegister~!@#$IDCaixaRegistradora~!@#$IDCajaRegistradora~!@#$
+TbrwCashRegister.grdBrowseDBIsAssociated=Associated~!@#$Associado~!@#$Asociado~!@#$
+TbrwCashRegister.grdBrowseDBIsAssociated=Associated~!@#$Associado~!@#$Asociado~!@#$
+TbrwCashRegister.grdBrowseDBLevel=~!@#$~!@#$~!@#$
+TbrwCashRegister.grdBrowseDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwCashRegister.grdBrowseDBName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwCashRegister.hhh=~!@#$~!@#$~!@#$
+TbrwCashRegister.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwCashRegister.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwCashRegister.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwCashRegister.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwCashRegister.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwCashRegister.lblUserName=lblUserName~!@#$lblNomeUsuario~!@#$lblNombreUsuario~!@#$
+TbrwCashRegister.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwCashRegister.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwCashRegister.TbrwCashRegister=brwCashRegister~!@#$brwCaixaRegistradora~!@#$brwCajaRegistradora~!@#$
+
+[DisplayLabels]
+TbrwCashRegister.quBrowseIDCashRegister=IDCashRegister~!@#$IDCaixaRegistradora~!@#$IDCajaRegistradora~!@#$
+TbrwCashRegister.quBrowseIsAssociated=Associated~!@#$Associado~!@#$Asociado~!@#$
+TbrwCashRegister.quBrowseName=Name~!@#$Nome~!@#$Nombre~!@#$
+
+[Hints]
+TbrwCashRegister.btExcel=Export ~!@#$Exportar ~!@#$Exportar~!@#$
+TbrwCashRegister.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwCashRegister.btnExec=~!@#$~!@#$~!@#$
+TbrwCashRegister.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwCashRegister.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwCashRegister.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwCashRegister.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwCashRegister.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwCashRegister.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwCashRegister.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwCashRegister.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwCashRegister.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwCashRegister.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwCashRegister.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+TbrwCashRegister.quBrowse.FilterFields=~!@#$~!@#$~!@#$
+TbrwCashRegister.quBrowse.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,40 @@
+[Captions]
+TFrmEntityValidation.btClose=&Close~!@#Fe&char~!@#&Cerrar~!@#
+TFrmEntityValidation.Button1=&Save~!@#&Salvar~!@#Guardar~!@#
+TFrmEntityValidation.chkAddress=Address~!@#Endereço~!@#Dirección~!@#
+TFrmEntityValidation.chkBeeper=Beeper~!@#Beeper~!@#Beeper~!@#
+TFrmEntityValidation.chkBirthDate=Birth Date~!@#Data Nascimento~!@#Fecha Nacimiento~!@#
+TFrmEntityValidation.chkCellular=Cellular~!@#Celular~!@#Celular~!@#
+TFrmEntityValidation.chkCity=City~!@#Cidade~!@#Ciudad~!@#
+TFrmEntityValidation.chkCityCode=City Code~!@#Municipio~!@#Ciudad Code~!@#
+TFrmEntityValidation.chkContact=Contact~!@#Contato~!@#Contacto~!@#
+TFrmEntityValidation.chkCountry=Country~!@#País~!@#País~!@#
+TFrmEntityValidation.chkCustomerCard=Customer Card~!@#Nº Cartão Cliente~!@#Tarjeta Cliente #~!@#
+TFrmEntityValidation.chkDBA=DBA~!@#Insc. Estadual~!@#DBA~!@#
+TFrmEntityValidation.chkDriverLicence=Driver's Licence #~!@#Nº Cart. Motorista~!@#Licencia Conducir #~!@#
+TFrmEntityValidation.chkEmail=Email~!@#Email~!@#Email~!@#
+TFrmEntityValidation.chkEmployeeID=Employee ID~!@#CPF~!@#CPF~!@#
+TFrmEntityValidation.chkFax=Fax~!@#Fax~!@#Fax~!@#
+TFrmEntityValidation.chkFederalID=Federal ID #~!@#CNPJ~!@#Federal ID #~!@#
+TFrmEntityValidation.chkHomePage=HomePage~!@#HomePage~!@#HomePage~!@#
+TFrmEntityValidation.chkNeighborhood=Neighborhood~!@#Bairro~!@#Bairro~!@#
+TFrmEntityValidation.chkPhone=Phone~!@#Fone~!@#Fono~!@#
+TFrmEntityValidation.chkSalesTax=Sales Tax #~!@#Insc. Municipal~!@#Impuesto #~!@#
+TFrmEntityValidation.chkSocialSecurity=Social Security #~!@#Nº Identidade~!@#Identificación #~!@#
+TFrmEntityValidation.chkState=State~!@#Estado~!@#Estado~!@#
+TFrmEntityValidation.chkZip=ZIP~!@#CEP~!@#Código Postal ~!@#
+TFrmEntityValidation.gbxAddress= Required  Adress Info  ~!@#  Endereço~!@#  Dirección~!@#
+TFrmEntityValidation.gbxBusinessDocument=  Required Business Document Info  ~!@#  Documentos Jurídico  ~!@#  Documento~!@#
+TFrmEntityValidation.gbxContact=  Required Contact Info  ~!@#  Contato~!@#  Contacto~!@#
+TFrmEntityValidation.gbxPersonalDocument=  Required Personal Document Info  ~!@#  Documentos Físico  ~!@#  Documento~!@#
+TFrmEntityValidation.sbHelp=&Help~!@#A&juda~!@#A&yuda~!@#
+TFrmEntityValidation.TFrmEntityValidation=Entity Validation~!@#Validar Cadastro~!@#Validar Cadastro~!@#
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

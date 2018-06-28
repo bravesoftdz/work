@@ -1,0 +1,45 @@
+[Captions]
+TFrmTimeControl.btnPrint=&Print~!@#$&Imprimir~!@#$&Imprimir~!@#$
+TFrmTimeControl.btReg=&Close~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmTimeControl.EEE=~!@#$~!@#$~!@#$
+TFrmTimeControl.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmTimeControl.grdObjetoEnterDate=Clock IN~!@#$Hora ENTRADA~!@#$Hora ENTRADA~!@#$
+TFrmTimeControl.grdObjetoExitDate=Clock OUT~!@#$Hora SAÍDA~!@#$Hora SALIDA~!@#$
+TFrmTimeControl.grdObjetoStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmTimeControl.grdObjetoUserName=UserName~!@#$NomeUsuário ~!@#$NombreUsuario~!@#$
+TFrmTimeControl.hhh=~!@#$~!@#$~!@#$
+TFrmTimeControl.Label1=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TFrmTimeControl.Label2=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFrmTimeControl.lbDate=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmTimeControl.lblMenu=Time Clock~!@#$Ponto~!@#$Reloj Registrador~!@#$
+TFrmTimeControl.lbStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmTimeControl.lbUserName=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmTimeControl.sbClockIN=Clock &In~!@#$&Entrada~!@#$&Entrada~!@#$
+TFrmTimeControl.sbClockOUT=Clock &Out~!@#$&Saída~!@#$&Salida~!@#$
+TFrmTimeControl.sbUpdateTime=&Edit Time~!@#$&Editar Hora~!@#$&Editar Hora~!@#$
+TFrmTimeControl.spHelp=&Help~!@#$&Ajuda :~!@#$&Ayuda :~!@#$
+TFrmTimeControl.TFrmTimeControl=Time Clock~!@#$Ponto~!@#$Reloj Registrador~!@#$
+
+[DisplayLabels]
+TFrmTimeControl.quCheckUserEnterDate=EnterDate~!@#$Entrada~!@#$FechaEntrada~!@#$
+TFrmTimeControl.quCheckUserExitDate=ExitDate~!@#$DataSaída~!@#$FechaSalida~!@#$
+TFrmTimeControl.quCheckUserExpirationDate=ExpirationDate~!@#$DataVencimento~!@#$FechaVencimiento~!@#$
+TFrmTimeControl.quListTimeGridEnterDate=EnterDate~!@#$Entrada~!@#$FechaEntrada~!@#$
+TFrmTimeControl.quListTimeGridExitDate=ExitDate~!@#$DataSaída~!@#$FechaSalida~!@#$
+TFrmTimeControl.quListTimeGridIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrmTimeControl.quListTimeGridIDTime=IDTime~!@#$IDHora~!@#$IDHora~!@#$
+TFrmTimeControl.quListTimeGridIDUser=IDUser~!@#$IDUsuário~!@#$IDUsuario~!@#$
+TFrmTimeControl.quListTimeGridStore=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmTimeControl.quListTimeGridUserName=UserName~!@#$Nome Usuário~!@#$NombreUsuario~!@#$
+TFrmTimeControl.quTimeControlEnterDate=EnterDate~!@#$Entrada~!@#$FechaEntrada~!@#$
+TFrmTimeControl.quTimeControlExitDate=ExitDate~!@#$DataSaída~!@#$FechaSalida~!@#$
+TFrmTimeControl.quTimeControlIDTime=IDTime~!@#$IDHora~!@#$IDHora~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

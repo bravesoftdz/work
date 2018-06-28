@@ -1,0 +1,51 @@
+[Captions]
+TMainMenu.Label1=Office Manager~!@#$Office Manager~!@#$Office Manager~!@#$
+TMainMenu.Label10=Purchasing~!@#$Compras~!@#$Compras~!@#$
+TMainMenu.Label11=Inventory~!@#$Estoque~!@#$Inventario~!@#$
+TMainMenu.Label12=Commissions~!@#$Comissões~!@#$Comisiones~!@#$
+TMainMenu.Label13=System~!@#$Sistema~!@#$Sistema~!@#$
+TMainMenu.Label14=Maintenance~!@#$Manutenção~!@#$Mantenimiento~!@#$
+TMainMenu.Label2=Advertising~!@#$Mídia~!@#$Medios~!@#$
+TMainMenu.Label3=Exit~!@#$Sair~!@#$Salida~!@#$
+TMainMenu.Label5=Language~!@#$Idioma~!@#$Idioma~!@#$
+TMainMenu.Label6=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TMainMenu.Label8=Point of Sale~!@#$Vendas~!@#$Ventas~!@#$
+TMainMenu.Label9=Sales Support~!@#$Apoio a Vendas~!@#$Data Ventas~!@#$
+TMainMenu.lbDemo=This is a 100-hour Trial Software.  To purchase this program call                 1 (800) 310-1942                                     or                      click here www.mainretail.com~!@#$Este é um software experimental de 100 horas. Para comprar o programa ligue para 1 (800) 310-1942 ou clique aquí www.mainretail.com~!@#$Este es un software experimental de 100 horas. Si desea comprar el programa llame al 1 (800) 310-1942 o presione aquí www.mainretail.com ~!@#$
+TMainMenu.lbHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TMainMenu.lbLogIn=Login~!@#$Logar~!@#$Logar~!@#$
+TMainMenu.lblSystemExit=Utilities~!@#$Utilidades~!@#$Utilidades~!@#$
+TMainMenu.lbMenuColor=Menu color~!@#$Cor do menu~!@#$Color del menú~!@#$
+TMainMenu.lbMessage=Message~!@#$Mensagem~!@#$Mesaje~!@#$
+TMainMenu.lbOnlineHelp=Online Help~!@#$Ajuda Online~!@#$Ayuda Online~!@#$
+TMainMenu.lbShortCuts=Shortcuts~!@#$Atalhos~!@#$Atajos~!@#$
+TMainMenu.lbSysInfo=Information~!@#$Informações~!@#$Información~!@#$
+TMainMenu.lbTip=Tip~!@#$Dicas~!@#$Tip~!@#$
+TMainMenu.TIP=Welcome to Retail.~!@#$Bem vindo ao MainRetail~!@#$Bienvenido a Main Retail~!@#$
+TMainMenu.TMainMenu=MainMenu~!@#$MenuPrincipal~!@#$MenúPrincipal~!@#$
+
+[DisplayLabels]
+TMainMenu.quAccessCanAccess=CanAccess~!@#$PodeAcessar~!@#$PuedeEntrar~!@#$
+TMainMenu.quParamTimerCashDefaultValue=DefaultValue~!@#$ValorOriginal~!@#$ValorOriginal~!@#$
+TMainMenu.quParamTimerCashDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TMainMenu.quParamTimerCashSrvParameter=SrvParameter~!@#$ParámetroServidor~!@#$ParámetroServidor~!@#$
+TMainMenu.quParamTimerCashSrvValue=SrvValue~!@#$ValorServidor~!@#$ValorServidor~!@#$
+TMainMenu.quSubMenuEnabled=Enabled~!@#$Permitido~!@#$Permitido~!@#$
+TMainMenu.quSubMenuIDMenu=IDMenu~!@#$IDMenu~!@#$IDMenú~!@#$
+TMainMenu.quSubMenuIDSubMenu=IDSubMenu~!@#$IDSubMenu~!@#$IDSubMenú~!@#$
+TMainMenu.quSubMenuName=Name~!@#$Nome~!@#$Nombre~!@#$
+TMainMenu.quSubMenuParentMenu=ParentMenu~!@#$~!@#$~!@#$
+TMainMenu.quSubMenuTip=Tip~!@#$Dica~!@#$Info~!@#$
+
+[Hints]
+TMainMenu.imgFlags=Download languages~!@#$Baixar Linguas~!@#$Bajar Idiomas~!@#$
+TMainMenu.imgMessage=Send user messages~!@#$Enviar mensagem~!@#$Enviar msg~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

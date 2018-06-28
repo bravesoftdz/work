@@ -1,0 +1,129 @@
+[Captions]
+TFinTransferenciaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinTransferenciaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendente~!@#$
+TFinTransferenciaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinTransferenciaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para selecionar campo~!@#$Filtro para seleccionar campo~!@#$
+TFinTransferenciaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo o campo selecionado~!@#$Filtro excluyendo el campo seleccionado~!@#$
+TFinTransferenciaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinTransferenciaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover todos os filtros~!@#$Remover todos los filtros~!@#$
+TFinTransferenciaList.bbExportaExcel=Export~!@#$Planilha~!@#$Planilla~!@#$
+TFinTransferenciaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinTransferenciaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinTransferenciaList.bbFilterItemRemove=Remove all filters~!@#$Remover todos filtros~!@#$Remover todos filtros~!@#$
+TFinTransferenciaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinTransferenciaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinTransferenciaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinTransferenciaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinTransferenciaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinTransferenciaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinTransferenciaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinTransferenciaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna~!@#$
+TFinTransferenciaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinTransferenciaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinTransferenciaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinTransferenciaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinTransferenciaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinTransferenciaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinTransferenciaList.bbListaColuna=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFinTransferenciaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinTransferenciaList.bbListaImprime=&Print Line~!@#$&Imprimir Linhas~!@#$&Imprimir Líneas~!@#$
+TFinTransferenciaList.bbListaNovo=&New Line~!@#$&Nova Linha~!@#$&Nueva Linea~!@#$
+TFinTransferenciaList.bbListaOpen=&Open Line~!@#$A&brir Linha~!@#$A&brir Línea~!@#$
+TFinTransferenciaList.bbListaRemove=&Delete Line~!@#$&Eliminar Linha~!@#$&Eliminar Línea~!@#$
+TFinTransferenciaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinTransferenciaList.bbRemoveEsteFiltro=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinTransferenciaList.bbVisaoDelete=Delete vision~!@#$Eliminar Vista~!@#$Eliminar Visión~!@#$
+TFinTransferenciaList.bbVisaoOrganiza=Visions~!@#$Vistas~!@#$Visiones~!@#$
+TFinTransferenciaList.bbVisaoSalva=Save actual vision~!@#$Salvar Vista Atual~!@#$Guardar Visión Actual~!@#$
+TFinTransferenciaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinTransferenciaList.beFiltraTexto=Filter for :~!@#$Filtro para : ~!@#$Filtro para :~!@#$
+TFinTransferenciaList.brwGridContaCredito=Credit Acc.~!@#$Cta.Crédito~!@#$Cta.Crédito~!@#$
+TFinTransferenciaList.brwGridContaDebito=Debit Acc.~!@#$Cta. Débito~!@#$Cta. Débito~!@#$
+TFinTransferenciaList.brwGridData=Date~!@#$Data~!@#$Fecha~!@#$
+TFinTransferenciaList.brwGridIDTransferencia=Transfer ID~!@#$Transferência ID~!@#$Transferencia ID~!@#$
+TFinTransferenciaList.brwGridObs=Memo~!@#$Memo~!@#$Memo~!@#$
+TFinTransferenciaList.brwGridUsuario=User~!@#$Usuário~!@#$Usuario~!@#$
+TFinTransferenciaList.brwGridValor=Amount~!@#$Valor~!@#$Monto~!@#$
+TFinTransferenciaList.bsHeaderAlinhamento=Align~!@#$Alinhar~!@#$Alinear~!@#$
+TFinTransferenciaList.btExecuta=&GO!~!@#$&IR~!@#$&IR~!@#$
+TFinTransferenciaList.cbxStatus=~!@#$~!@#$~!@#$
+TFinTransferenciaList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFinTransferenciaList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFinTransferenciaList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFinTransferenciaList.Label1=End date :~!@#$Termino :~!@#$Término :~!@#$
+TFinTransferenciaList.Label4=Start date :~!@#$Data Inicio :~!@#$Fecha Inicio :~!@#$
+TFinTransferenciaList.lblFilterBar=Filter(s) :~!@#$Filtro (s) :~!@#$Filtro (s) :~!@#$
+TFinTransferenciaList.lblModulo=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinTransferenciaList.lblModuloSadow=Run Time~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinTransferenciaList.pnlBasicFilter=~!@#$~!@#$~!@#$
+TFinTransferenciaList.pnlBrowse=pnlBrowse~!@#$pnlBuscar~!@#$pnlBuscar~!@#$
+TFinTransferenciaList.pnlCountLine=  Number of Lines~!@#$Número de Linhas~!@#$Número de Líneas~!@#$
+TFinTransferenciaList.pnlDivisor=~!@#$~!@#$~!@#$
+TFinTransferenciaList.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinTransferenciaList.pnlExecuta=pnlExecuta~!@#$pnlExecuta~!@#$pnlEjecuta~!@#$
+TFinTransferenciaList.pnlExecutaAviso=~!@#$~!@#$~!@#$
+TFinTransferenciaList.pnlGenFilter=~!@#$~!@#$~!@#$
+TFinTransferenciaList.siListaExporta=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinTransferenciaList.TFinTransferenciaList=FinTransferenciaList~!@#$FinTransferênciaLista~!@#$FinTransferenciaLista~!@#$
+
+[DisplayLabels]
+TFinTransferenciaList.quBrowseContaCredito=Credit Acc.~!@#$Cta.Crédito~!@#$Cta.Crédito~!@#$
+TFinTransferenciaList.quBrowseContaDebito=Debit Acc.~!@#$Cta.Débito~!@#$Cta.Débito~!@#$
+TFinTransferenciaList.quBrowseData=Date~!@#$Data~!@#$Fecha~!@#$
+TFinTransferenciaList.quBrowseIDTransferencia=Transfer ID~!@#$Tranferência ID~!@#$Transferencia ID~!@#$
+TFinTransferenciaList.quBrowseObs=Memo~!@#$Memo~!@#$Memo~!@#$
+TFinTransferenciaList.quBrowseUsuario=User~!@#$Usuário~!@#$Usuario~!@#$
+TFinTransferenciaList.quBrowseValor=Amount~!@#$Quantía~!@#$Monto~!@#$
+
+[Hints]
+TFinTransferenciaList.bbColunaSalva=Save columns~!@#$Salvar Colunas~!@#$Guardar Columnas~!@#$
+TFinTransferenciaList.bbDetailClassificacaoCre=Sort Ascending~!@#$Forma Ascendente~!@#$Manera Ascendiente~!@#$
+TFinTransferenciaList.bbDetailClassificaoDesc=Sort Descending~!@#$Forma Descendente~!@#$Manera Descendiente~!@#$
+TFinTransferenciaList.bbDetailFiltraCampo=Filter for selected field~!@#$Filtro para campo selecionado~!@#$Filtro para campo seleccionado~!@#$
+TFinTransferenciaList.bbDetailFIltraExcluindoCampo=Filter excluding the selected filter~!@#$Filtro excluindo campo selecionado~!@#$Filtro excluyendo campo seleccionado~!@#$
+TFinTransferenciaList.bbDetailHelp=Filter Help~!@#$Ajuda Filtro~!@#$Ayuda Filtro~!@#$
+TFinTransferenciaList.bbDetailRemoveFiltro=Remove all filters~!@#$Remover filtros~!@#$Remover filtros~!@#$
+TFinTransferenciaList.bbExportaExcel=Export~!@#$Exportar~!@#$Exportar~!@#$
+TFinTransferenciaList.bbExportaHTML=HTML~!@#$HTML~!@#$HTML~!@#$
+TFinTransferenciaList.bbExportaTexto=Text~!@#$Texto~!@#$Texto~!@#$
+TFinTransferenciaList.bbFilterItemRemove=~!@#$~!@#$~!@#$
+TFinTransferenciaList.bbFiltroItemRemove=Remove this filter~!@#$Remover este filtro~!@#$Remover este filtro~!@#$
+TFinTransferenciaList.bbFooterAVG=Medium~!@#$Médio~!@#$Mediano~!@#$
+TFinTransferenciaList.bbFooterMax=Maximum~!@#$Máximo~!@#$Máximo~!@#$
+TFinTransferenciaList.bbFooterMin=Minimum~!@#$Mínimo~!@#$Mínimo~!@#$
+TFinTransferenciaList.bbFooterNenhum=None~!@#$Nenhum~!@#$Ninguno~!@#$
+TFinTransferenciaList.bbFooterTotal=Total~!@#$Total~!@#$Total~!@#$
+TFinTransferenciaList.bbHeaderAgrupar=Group by this field~!@#$Agrupar por este campo~!@#$Agrupar por este campo~!@#$
+TFinTransferenciaList.bbHeaderAjuste=Adjust column width~!@#$Ajustar largura coluna~!@#$Ajustar ancho columna ~!@#$
+TFinTransferenciaList.bbHeaderAjusteAll=Adjust all columns width~!@#$Ajustar largura colunas~!@#$Ajustar ancho columnas~!@#$
+TFinTransferenciaList.bbHeaderCentro=Center~!@#$Centro~!@#$Centro~!@#$
+TFinTransferenciaList.bbHeaderDireita=Right~!@#$Direita~!@#$Derecha~!@#$
+TFinTransferenciaList.bbHeaderEsquerda=Left~!@#$Esquerda~!@#$Izquierda~!@#$
+TFinTransferenciaList.bbHeaderRemoveColuna=Remove this column~!@#$Remover esta coluna~!@#$Remover esta columna~!@#$
+TFinTransferenciaList.bbListaAgrupamento=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFinTransferenciaList.bbListaColuna=Columns selection~!@#$Selecionar Colunas~!@#$Seleccionar Columnas~!@#$
+TFinTransferenciaList.bbListaFiltra=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TFinTransferenciaList.bbListaImprime=Print Line~!@#$Imprimir Linha~!@#$Imprimir Línea~!@#$
+TFinTransferenciaList.bbListaNovo=New Line~!@#$Nova Linha~!@#$Nueva Línea~!@#$
+TFinTransferenciaList.bbListaOpen=Open Line~!@#$Abrir Linha~!@#$Abrir Línea~!@#$
+TFinTransferenciaList.bbListaRemove=Delete Line~!@#$Eliminar Linha~!@#$Eliminar Línea~!@#$
+TFinTransferenciaList.bbListaRestore=Restore item~!@#$Reestabelecer Item~!@#$Restablecer Item~!@#$
+TFinTransferenciaList.bbListaZoom=Zoom~!@#$Zoom~!@#$Zoom~!@#$
+TFinTransferenciaList.bbRemoveEsteFiltro=~!@#$~!@#$~!@#$
+TFinTransferenciaList.bbVisaoDelete=Delete vision~!@#$Eliminar vista~!@#$Eliminar visión~!@#$
+TFinTransferenciaList.bbVisaoOrganiza=Organize visions~!@#$Organiza visões~!@#$Organiza Visiones~!@#$
+TFinTransferenciaList.bbVisaoSalva=Save actual vision~!@#$Salvar vista atual~!@#$Guardar visión actual~!@#$
+TFinTransferenciaList.bdcFiltraData=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+TFinTransferenciaList.beFiltraTexto=Filter for :~!@#$Filtro para :~!@#$Filtro para :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinTransferenciaList.cbxStatus.Items="Show Active","Show Deleted"~!@#$Ativos,Lixeira~!@#$"Mostrar Activos","Mostrar Eliminados"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

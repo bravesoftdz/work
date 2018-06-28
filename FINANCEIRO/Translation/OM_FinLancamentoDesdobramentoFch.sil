@@ -1,0 +1,90 @@
+[Captions]
+TFinLancamentoDesdobramentoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFinLancamentoDesdobramentoFch.btFirstRec=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFinLancamentoDesdobramentoFch.Label1=Memo :~!@#$Memo :~!@#$Memo :~!@#$
+TFinLancamentoDesdobramentoFch.lblLancamentoTipo=Record Type :~!@#$Tipo Registro :~!@#$Tipo Registro :~!@#$
+TFinLancamentoDesdobramentoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TFinLancamentoDesdobramentoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TFinLancamentoDesdobramentoFch.lblPTitulo=Disbursement~!@#$Desdobramento~!@#$Fraccionamiento~!@#$
+TFinLancamentoDesdobramentoFch.lblPTituloShadow=Disbursement~!@#$Desdobramento~!@#$Fraccionamiento~!@#$
+TFinLancamentoDesdobramentoFch.lblValorNominal=Amount :~!@#$Valor :~!@#$Monto :~!@#$
+TFinLancamentoDesdobramentoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TFinLancamentoDesdobramentoFch.quFormDataAprovacao=DataAprovacao~!@#$DataAprovação~!@#$FechaAprobación~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataEmissao=DataEmissao~!@#$DataEmissão~!@#$FechaEmisión~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataFimQuitacao=DataFimQuitacao~!@#$DataFinalQuitação~!@#$FechaFinalPago~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataInicioQuitacao=DataInicioQuitacao~!@#$DataInicioQuitação~!@#$FechaInicioPago~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataLancamento=DataLancamento~!@#$DataLançamento~!@#$FechaContabilización~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataPrimeiraRepeticao=DataPrimeiraRepeticao~!@#$DataPrimeiraRepetição~!@#$FechaPrimeraRepetición~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataProtesto=DataProtesto~!@#$DataProtesto~!@#$Fechaprotesto~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataVencimento=DataVencimento~!@#$DataVencimento~!@#$FechaVencimiento~!@#$
+TFinLancamentoDesdobramentoFch.quFormDataVencimentoOriginal=DataVencimentoOriginal~!@#$DataVencimentoOriginal~!@#$FechaVencimientoOriginal~!@#$
+TFinLancamentoDesdobramentoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TFinLancamentoDesdobramentoFch.quFormDiaRepeticoes=DiaRepeticoes~!@#$DíaRepetições~!@#$DíaRepeticiones~!@#$
+TFinLancamentoDesdobramentoFch.quFormFavorecidoPrevisto=FavorecidoPrevisto~!@#$FavorecidoPrevisto~!@#$FavorecidoPrevisto~!@#$
+TFinLancamentoDesdobramentoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TFinLancamentoDesdobramentoFch.quFormHistorico=Historico~!@#$Histórico~!@#$Histórico~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDCentroCusto=IDCentroCusto~!@#$IDCentroCusto~!@#$IDCentroCostos~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDContaCorrentePrevista=IDContaCorrentePrevista~!@#$IDContaCorrentePrevista~!@#$IDCuentaCorrientePrevista~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDDesdobramentoTipo=IDDesdobramentoTipo~!@#$IDTipoDesdobramento~!@#$IDTipoFraccionamiento~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDDocumentoTipo=Document Type~!@#$Tipo Documento~!@#$Tipo Documento~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDLancamentoOriginal=IDLancamentoOriginal~!@#$IDLançamentoOriginal~!@#$IDContabilizaciónOriginal~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDLancamentoParent=IDLancamentoParent~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDLancamentoTipo=Record Type~!@#$Tipo Registro~!@#$Tipo Registro~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDMoeda=IDMoeda~!@#$IDMoeda~!@#$IDMoneda~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDMoedaCotacao=IDMoedaCotacao~!@#$IDCotaçãoMoeda~!@#$IDCotizaciónMoneda~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDPessoaTipo=IDPessoaTipo~!@#$IDTipoPessoa~!@#$IDTipoPersona~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDPreSale=IDPreSale~!@#$IDPreVenda~!@#$IDPreVenta~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDQuitacaoMeioPrevisto=IDQuitacaoMeioPrevisto~!@#$IDMeioQuitaçãoPrevisto~!@#$IDMedioPagoPrevisto~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDUsuarioAprovacao=IDUsuarioAprovacao~!@#$IDAprovaçãoUsuário~!@#$IDAprobaciónUsuario~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDUsuarioLancamento=IDUsuarioLancamento~!@#$IDUsuárioLançamento~!@#$IDUsuarioContabilización~!@#$
+TFinLancamentoDesdobramentoFch.quFormIDUsuarioProtesto=IDUsuarioProtesto~!@#$IDUsuárioProtesto~!@#$IDUsuarioProtesto~!@#$
+TFinLancamentoDesdobramentoFch.quFormLancamentoType=LancamentoType~!@#$Tipo Lançamento~!@#$Tipo Contabilización~!@#$
+TFinLancamentoDesdobramentoFch.quFormNumDesdobramento=NumDesdobramento~!@#$NúmDesdobramento~!@#$NúmFraccionamiento~!@#$
+TFinLancamentoDesdobramentoFch.quFormNumDocumento=NumDocumento~!@#$NúmDocumento~!@#$NúmDocumento~!@#$
+TFinLancamentoDesdobramentoFch.quFormNumeroDuplicata=NumeroDuplicata~!@#$NúmeroDuplicata~!@#$NúmeroDuplicado~!@#$
+TFinLancamentoDesdobramentoFch.quFormNumeroRepeticoes=NumeroRepeticoes~!@#$NúmeroRepetições~!@#$NúmeroRepeticiones~!@#$
+TFinLancamentoDesdobramentoFch.quFormNumMeioQuitPrevisto=NumMeioQuitPrevisto~!@#$NúmMeioQuitPrevisto~!@#$NúmMedioPagoPrev~!@#$
+TFinLancamentoDesdobramentoFch.quFormPagando=Pagando~!@#$Pagando~!@#$Pagando~!@#$
+TFinLancamentoDesdobramentoFch.quFormPeriodicidadeRepeticoes=PeriodicidadeRepeticoes~!@#$PeriocidadeRepetições~!@#$FrecuenciaRepeticiones~!@#$
+TFinLancamentoDesdobramentoFch.quFormPrevisao=Previsao~!@#$Previsão~!@#$Previsión~!@#$
+TFinLancamentoDesdobramentoFch.quFormSituacao=Situacao~!@#$Situação~!@#$Situación~!@#$
+TFinLancamentoDesdobramentoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+TFinLancamentoDesdobramentoFch.quFormTotalJuros=TotalJuros~!@#$TotalJuros~!@#$TotalIntereses~!@#$
+TFinLancamentoDesdobramentoFch.quFormTotalQuitado=TotalQuitado~!@#$TotalPago~!@#$TotalPagado~!@#$
+TFinLancamentoDesdobramentoFch.quFormValorNominal=Amount~!@#$Quantía~!@#$Monto~!@#$
+
+[Hints]
+TFinLancamentoDesdobramentoFch.btCancel=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TFinLancamentoDesdobramentoFch.btHelp=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TFinLancamentoDesdobramentoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TFinLancamentoDesdobramentoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TFinLancamentoDesdobramentoFch.btOK=~!@#$~!@#$~!@#$
+TFinLancamentoDesdobramentoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TFinLancamentoDesdobramentoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TFinLancamentoDesdobramentoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TFinLancamentoDesdobramentoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

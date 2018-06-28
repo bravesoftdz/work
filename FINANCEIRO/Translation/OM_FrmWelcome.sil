@@ -1,0 +1,84 @@
+[Captions]
+TFrmWelcome.btBack=Back~!@#$Voltar~!@#$Volver~!@#$
+TFrmWelcome.btNext=Next~!@#$Seguinte~!@#$Siguiente~!@#$
+TFrmWelcome.btnHistory=History~!@#$Histórico~!@#$Histórico~!@#$
+TFrmWelcome.btnHome=Home~!@#$Inicio~!@#$Inicio~!@#$
+TFrmWelcome.btnSupport=Support~!@#$Suporte~!@#$Soporte~!@#$
+TFrmWelcome.btRefresh=Refresh~!@#$Atualizar~!@#$Actualizar~!@#$
+TFrmWelcome.btSearch=Search~!@#$Buscar~!@#$Buscar~!@#$
+TFrmWelcome.btStop=Stop~!@#$Parar~!@#$Parar~!@#$
+TFrmWelcome.cbxAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFrmWelcome.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmWelcome.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmWelcome.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmWelcome.lbAddress=Address~!@#$Endereço~!@#$Dirección~!@#$
+TFrmWelcome.lbLinks=Links :~!@#$Vinculos :~!@#$Enlaces :~!@#$
+TFrmWelcome.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFrmWelcome.TFrmWelcome=Welcome~!@#$Bem Vindo~!@#$Bien Venido~!@#$
+
+[Dialogs]
+TFrmWelcome.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TFrmWelcome.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TFrmWelcome.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmWelcome.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TFrmWelcome.Error=Error~!@#$Erro~!@#$Error~!@#$
+TFrmWelcome.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmWelcome.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TFrmWelcome.Information=Information~!@#$Informação~!@#$Información~!@#$
+TFrmWelcome.No=&No~!@#$&Não~!@#$&No~!@#$
+TFrmWelcome.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TFrmWelcome.OK=OK~!@#$OK~!@#$OK~!@#$
+TFrmWelcome.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TFrmWelcome.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TFrmWelcome.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TFrmWelcome.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[Hints]
+TFrmWelcome.btBack=Back~!@#$Voltar~!@#$Volver~!@#$
+TFrmWelcome.btNext=Next~!@#$Seguinte~!@#$Siguiente~!@#$
+TFrmWelcome.btnHistory=History~!@#$Histórico~!@#$Histórico~!@#$
+TFrmWelcome.btnHome=Home~!@#$Inicio~!@#$Inicio~!@#$
+TFrmWelcome.btnSupport=http://www.mainretail.com/support.htm~!@#$http://www.mainretail.com/support.htm~!@#$http://www.mainretail.com/support.htm~!@#$
+TFrmWelcome.btRefresh=Refresh~!@#$Atualizar~!@#$Actualizar~!@#$
+TFrmWelcome.btSearch=Search~!@#$Buscar~!@#$Buscar~!@#$
+TFrmWelcome.btStop=Stop~!@#$Parar~!@#$Parar~!@#$
+TFrmWelcome.cbxAddress=Address~!@#$Endereço ~!@#$Dirección~!@#$
+TFrmWelcome.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmWelcome.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmWelcome.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmWelcome.Image=~!@#$~!@#$~!@#$
+TFrmWelcome.lbAddress=Address~!@#$Endereço ~!@#$Dirección~!@#$
+TFrmWelcome.lbLinks=Links :~!@#$Vinculos :~!@#$Enlaces :~!@#$
+TFrmWelcome.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFrmWelcome.TFrmWelcome=~!@#$~!@#$~!@#$
+TFrmWelcome.WebBrowser=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TFrmWelcome.Currency String=$~!@#$$~!@#$$~!@#$
+TFrmWelcome.Date Separator=/~!@#$/~!@#$/~!@#$
+TFrmWelcome.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TFrmWelcome.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TFrmWelcome.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TFrmWelcome.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TFrmWelcome.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TFrmWelcome.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TFrmWelcome.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TFrmWelcome.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TFrmWelcome.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TFrmWelcome.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TFrmWelcome.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TFrmWelcome.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TFrmWelcome.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[MultiLines]
+TFrmWelcome.cbxAddress.Items=http://www.google.com/,http://www.yahoo.com/,http://www.altavista.com/,http://www.amazon.com/~!@#$~!@#$~!@#$
+TFrmWelcome.dxMainBar.Categories="Office Navigator",WebControl,Links~!@#$"Office Navegador",WebControle,Vinculos~!@#$"Office Navegador",WebControl,Enlaces~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

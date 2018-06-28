@@ -1,0 +1,28 @@
+[Captions]
+TFinCentroCustoTBrw.bbAbreItem=Abrir Item~!@#$Abrir Item~!@#$Abrir Item~!@#$
+TFinCentroCustoTBrw.bbNovoItem=Novo Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinCentroCustoTBrw.bbRemoveItem=Remover Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinCentroCustoTBrw.btPrint=Imprime~!@#$Imprimir~!@#$Imprimir~!@#$
+TFinCentroCustoTBrw.lblModulo=Centros de Custo~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinCentroCustoTBrw.lblModuloSadow=Centros de Custo~!@#$Tempo Rodado~!@#$Tiempo Corrido~!@#$
+TFinCentroCustoTBrw.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TFinCentroCustoTBrw.TFinCentroCustoTBrw=Centro de Custos~!@#$Centro de Custos~!@#$Centro de Costos~!@#$
+
+[DisplayLabels]
+TFinCentroCustoTBrw.quTreeViewImageIndex=ImageIndex~!@#$IndiceImagem~!@#$IndiceImagen~!@#$
+TFinCentroCustoTBrw.quTreeViewSelectedIndex=SelectedIndex~!@#$IndiceSelecionado~!@#$IndiceSeleccionado~!@#$
+
+[Hints]
+TFinCentroCustoTBrw.bbAbreItem=Abrir Item~!@#$Abrir Item~!@#$Abrir Item~!@#$
+TFinCentroCustoTBrw.bbNovoItem=Novo Item~!@#$Novo Item~!@#$Nuevo Item~!@#$
+TFinCentroCustoTBrw.bbRemoveItem=Remover Item~!@#$Remover Item~!@#$Remover Item~!@#$
+TFinCentroCustoTBrw.btPrint=Imprime~!@#$Imprimir~!@#$Imprimir~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

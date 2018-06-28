@@ -1,0 +1,6 @@
+UPDATE Model SET NotVerifyQty = 0 WHERE NotVerifyQty IS NULL
+GO
+
+ALTER TABLE Model ADD CONSTRAINT
+	DF_Zero1008 DEFAULT (0) FOR NotVerifyQty
+GO

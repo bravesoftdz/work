@@ -1,0 +1,37 @@
+FROM        : Company Name
+TO          : 360 Pet
+Contact     : Paul Tepper / Vicki Tepper
+Address     : 233 S. Broadway 
+              Pennsville, New Jersey - 08070       
+Phone       : 856-678-8600
+Fax         : 856-678-0355
+Pay in 30 day(s)
+
+Please ship me this order as soon as possible. E-mail or fax me back which items you will be shipping.
+
+==================================================================================================
+
+Model                         |Description                                       |Qty |Cost Price|
+--------------------------------------------------------------------------------------------------
+PPF71411                      |Earthborn Holistic Puppy Vantage 14 lb            |1   |19.99     |
+--------------------------------------------------------------------------------------------------
+PPF72053                      |Earthborn Dog Chip's Chicken Casserole 8 oz       |8   |1.64      |
+--------------------------------------------------------------------------------------------------
+010                           |PERCULA CLOWN                                     |10  |4         |
+--------------------------------------------------------------------------------------------------
+                                                                                 Total:   73.11
+--------------------------------------------------------------------------------------------------
+PLEASE INFORM THE PO NUMBER ON PURCHASE INVOICE: 331
+==================================================================================================
+
+Thank you.
+
+
+Date        :02/24/2015
+Due Date    :03/03/2015
+Contact     : Rob Cook/Steve
+Company Name:360 Pet
+Phone       : 434-0851
+Fax         : 866-444-8218
+Obs         :
+

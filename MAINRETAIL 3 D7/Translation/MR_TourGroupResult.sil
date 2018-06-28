@@ -1,0 +1,105 @@
+[Captions]
+TTourGroupResult.AvgInvoicesGroupL=Average Invoices /Group :~!@#$Média Notas/Grupo :~!@#$Promedio Boletas/Grupo :~!@#$
+TTourGroupResult.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TTourGroupResult.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TTourGroupResult.btShow=~!@#$~!@#$~!@#$
+TTourGroupResult.dxDBGrid1Expence=Expenses~!@#$Despesas ~!@#$Gastos~!@#$
+TTourGroupResult.dxDBGrid1Value=Amount~!@#$Valor~!@#$Monto~!@#$
+TTourGroupResult.editAvgInvoiceValueL=Average Invoice Amount :~!@#$Média Vendas/Notas :~!@#$Promedio Ventas Boletas :~!@#$
+TTourGroupResult.editAvgSalesGroupL=Average Sales /Group :~!@#$Média Vendas/Grupo :~!@#$Promedio Ventas/Grupo :~!@#$
+TTourGroupResult.grdAgencyAvgInvoice=AvgInv~!@#$MédiaNotas~!@#$PromBoletas~!@#$
+TTourGroupResult.grdAgencyAvgPerPax=AvgPax~!@#$MédiaPasgrs~!@#$PromPsjrs~!@#$
+TTourGroupResult.grdAgencyDate=Date~!@#$Data~!@#$Fecha~!@#$
+TTourGroupResult.grdAgencyGroupCost=Expenses~!@#$Despesas~!@#$Gastos~!@#$
+TTourGroupResult.grdAgencyIDAgency=IDAgency~!@#$IDAgência~!@#$IDAgencia~!@#$
+TTourGroupResult.grdAgencyIDGuide=IDGuide~!@#$IDGuía~!@#$IDGuía~!@#$
+TTourGroupResult.grdAgencyInvoices=#Inv~!@#$Nº Nota~!@#$Nº Boleta~!@#$
+TTourGroupResult.grdAgencyPax=Pax~!@#$Passageiro~!@#$Pasajero~!@#$
+TTourGroupResult.grdAgencySales=Sales~!@#$Vendas~!@#$Ventas~!@#$
+TTourGroupResult.grdAgencyTourGuide=Agent~!@#$Agente~!@#$Agente~!@#$
+TTourGroupResult.grdGuideAvgInvoice=AvgInv~!@#$MédiaNotas~!@#$PromBoletas~!@#$
+TTourGroupResult.grdGuideAvgPerPax=AvgPax~!@#$MédiaPasgrs~!@#$PromPasjrs~!@#$
+TTourGroupResult.grdGuideDate=Date~!@#$Data~!@#$Fecha~!@#$
+TTourGroupResult.grdGuideGroupCost=Expences~!@#$Despesas~!@#$Gastos~!@#$
+TTourGroupResult.grdGuideIDAgency=IDAgency~!@#$IDAgência~!@#$IDAgencia~!@#$
+TTourGroupResult.grdGuideIDGuide=IDGuide~!@#$IDGuía~!@#$IDGuía~!@#$
+TTourGroupResult.grdGuideInvoices=Invoices~!@#$Notas~!@#$Boletas~!@#$
+TTourGroupResult.grdGuidePax=Pax~!@#$Passageiros~!@#$Pasajeros~!@#$
+TTourGroupResult.grdGuideSales=Sales~!@#$Vendas~!@#$Ventas~!@#$
+TTourGroupResult.grdGuideTourGuide=TourGuide~!@#$Guía~!@#$Guía~!@#$
+TTourGroupResult.grdSaleCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TTourGroupResult.grdSaleCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TTourGroupResult.grdSaleFullCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TTourGroupResult.grdSaleFullCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TTourGroupResult.grdSaleFullProfit=Profit~!@#$Lucro~!@#$Lucro~!@#$
+TTourGroupResult.grdSaleFullSale=Sale~!@#$Venda~!@#$Venta~!@#$
+TTourGroupResult.grdSaleProfit=Profit~!@#$Lucro~!@#$Lucro~!@#$
+TTourGroupResult.grdSaleSale=Sale~!@#$Venda~!@#$Venta~!@#$
+TTourGroupResult.hhh=~!@#$~!@#$~!@#$
+TTourGroupResult.Label1=Agency :~!@#$Agência :~!@#$Agencia :~!@#$
+TTourGroupResult.Label10=Slice of Group Sales :~!@#$Dividir Grupo Vendas :~!@#$Dividir Grupo Ventas :~!@#$
+TTourGroupResult.Label11=Profit minus Expenses :~!@#$Lucro menos Despesas~!@#$Lucro menos Gastos~!@#$
+TTourGroupResult.Label12=Total Cost :~!@#$Total Custo :~!@#$Total Costo :~!@#$
+TTourGroupResult.Label13=Total Profit :~!@#$Total Lucro :~!@#$Total Lucro :~!@#$
+TTourGroupResult.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TTourGroupResult.Label16=Number of Pax :~!@#$Nº de Passageiros :~!@#$# de Passageiros :~!@#$
+TTourGroupResult.Label17=Total Sale (without tax) :~!@#$Total Venda (sem taxa) :~!@#$Total Venta (sin impuesto) :~!@#$
+TTourGroupResult.Label19=Number of Invoices :~!@#$Número de Notas :~!@#$Número de Boletas :~!@#$
+TTourGroupResult.Label2=Agent :~!@#$Agente :~!@#$Agente :~!@#$
+TTourGroupResult.Label20=Total Profit :~!@#$Total Lucro :~!@#$Total Lucro :~!@#$
+TTourGroupResult.Label21=Average Sales /Pax :~!@#$Média Vendas/Pasgrs :~!@#$Promedio Ventas/Pasjrs :~!@#$
+TTourGroupResult.Label22=Slice of Sales :~!@#$Dividir Vendas :~!@#$Dividir Ventas :~!@#$
+TTourGroupResult.Label23=Sales to All Groups :~!@#$Vendas de Todos Grupos :~!@#$Ventas de Todos Grupos :~!@#$
+TTourGroupResult.Label3=Total Sales by Category~!@#$Total Vendas por Categoria~!@#$Total Ventas por Categoría~!@#$
+TTourGroupResult.Label4=Unpaid Commissions :~!@#$Comissões não pagas :~!@#$Comisiones sin Pagar :~!@#$
+TTourGroupResult.Label5=Total Sale (without tax) :~!@#$Total Venda (sem taxa) :~!@#$Total Venta (sin impuesto) :~!@#$
+TTourGroupResult.Label6=Total Expenses~!@#$Total Despesas :~!@#$Total Gastos :~!@#$
+TTourGroupResult.Label7=Total Expenses :~!@#$Total Despesas :~!@#$Total Gastos :~!@#$
+TTourGroupResult.Label8=to~!@#$Até~!@#$Hasta~!@#$
+TTourGroupResult.Label9=From :~!@#$Desde :~!@#$Desde :~!@#$
+TTourGroupResult.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TTourGroupResult.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TTourGroupResult.lblTotals=Total by Agency Groups~!@#$Total por Grupo Agência~!@#$Total por Grupo Agencia~!@#$
+TTourGroupResult.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TTourGroupResult.TTourGroupResult=TourGroupResult~!@#$ResultadoGrupoTurismo~!@#$ResultadoGrupoTurismo~!@#$
+
+[DisplayLabels]
+TTourGroupResult.dtsChartData=Data~!@#$Data~!@#$Fecha~!@#$
+TTourGroupResult.dtsChartnData=nData~!@#$nData~!@#$nFecha~!@#$
+TTourGroupResult.dtsChartTotalProfit=TotalProfit~!@#$TotalLucro~!@#$TotalLucro~!@#$
+TTourGroupResult.dtsChartTourGroupProfit=TourGroupProfit~!@#$LucroGripoTurismo~!@#$LucroGrupoTurismo~!@#$
+TTourGroupResult.dtsExpenseExpence=Expenses~!@#$Despesas~!@#$Gastos~!@#$
+TTourGroupResult.dtsExpenseValue=Amount~!@#$Valor~!@#$Monto~!@#$
+TTourGroupResult.dtsProfitCategory=Category~!@#$Categoria~!@#$Categoría~!@#$
+TTourGroupResult.dtsProfitCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TTourGroupResult.dtsProfitProfit=Profit~!@#$Lucro~!@#$Lucro~!@#$
+TTourGroupResult.dtsProfitSale=Sale~!@#$Venda~!@#$Venta~!@#$
+TTourGroupResult.dtsSalesNumInvoices=NumInvoices~!@#$NúmNotas~!@#$NúmBoletas~!@#$
+TTourGroupResult.dtsSalesTotSales=TotSales~!@#$TotVendas~!@#$TotVentas~!@#$
+TTourGroupResult.dtsSalesTourGroupNumInvoices=NumInvoices~!@#$NúmNotas~!@#$NúmBoletas~!@#$
+TTourGroupResult.dtsSalesTourGroupTotSales=TotSales~!@#$TotVendas~!@#$TotVentas~!@#$
+TTourGroupResult.dtsTourGroupAvgInvoice=AvgInv~!@#$MédiaNotas~!@#$PromBoletas~!@#$
+TTourGroupResult.dtsTourGroupAvgPerPax=AvgPax~!@#$MédiaPasgrs~!@#$PromPasjrs~!@#$
+TTourGroupResult.dtsTourGroupDate=Date~!@#$Data~!@#$Fecha~!@#$
+TTourGroupResult.dtsTourGroupGroupCost=Expences~!@#$Despesas~!@#$Gastos~!@#$
+TTourGroupResult.dtsTourGroupIDAgency=IDAgency~!@#$IDAgencia~!@#$IDAgencia~!@#$
+TTourGroupResult.dtsTourGroupIDGuide=IDGuide~!@#$IDGuía~!@#$IDGuía~!@#$
+TTourGroupResult.dtsTourGroupInvoices=#Inv~!@#$Nº Nota~!@#$# Boleta~!@#$
+TTourGroupResult.dtsTourGroupPax=Pax~!@#$Passageiro~!@#$Pasajero~!@#$
+TTourGroupResult.dtsTourGroupSales=Sales~!@#$Vendas~!@#$Ventas~!@#$
+TTourGroupResult.dtsTourGroupTourGuide=TourGuide~!@#$Guía~!@#$Guía~!@#$
+
+[Hints]
+TTourGroupResult.btShow=Show Costs Details & Profit~!@#$Mostrar Detalhes Custo - Lucro~!@#$Mostrar Detalle de Costos - Lucro~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TTourGroupResult.TabControl.Tabs=Agency,Agent,"All Agency Groups"~!@#$Agência,Agente,"Todos Grupos Agência"~!@#$Agencia,Agente,"Todos Grupos Agencia"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

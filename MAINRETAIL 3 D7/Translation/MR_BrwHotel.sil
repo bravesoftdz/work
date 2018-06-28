@@ -1,0 +1,66 @@
+[Captions]
+TbrwHotel.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwHotel.btClose=&Close~!@#$F&echar~!@#$&Cerrar~!@#$
+TbrwHotel.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwHotel.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwHotel.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwHotel.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwHotel.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwHotel.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwHotel.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwHotel.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwHotel.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwHotel.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwHotel.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwHotel.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwHotel.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwHotel.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwHotel.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwHotel.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwHotel.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwHotel.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwHotel.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwHotel.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwHotel.grdBrowseDBHotel=Location~!@#$Lugar~!@#$Lugar~!@#$
+TbrwHotel.grdBrowseDBIDHotel=IDLocation~!@#$IDLugar~!@#$IDLugar~!@#$
+TbrwHotel.grdBrowseDBTelefone=Phones~!@#$Telefones~!@#$Teléfonos~!@#$
+TbrwHotel.hhh=~!@#$~!@#$~!@#$
+TbrwHotel.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwHotel.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwHotel.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwHotel.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwHotel.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwHotel.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwHotel.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwHotel.TbrwHotel=Hotels~!@#$Hotéis~!@#$Hoteles~!@#$
+
+[DisplayLabels]
+TbrwHotel.quBrowseHotel=Hotel~!@#$Hotel~!@#$Hotel~!@#$
+TbrwHotel.quBrowseIDHotel=IDHotel~!@#$IDHotel~!@#$IDHotel~!@#$
+TbrwHotel.quBrowseTelefone=Phones~!@#$Telefones~!@#$Teléfonos~!@#$
+
+[Hints]
+TbrwHotel.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwHotel.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwHotel.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwHotel.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwHotel.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwHotel.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwHotel.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwHotel.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwHotel.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwHotel.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwHotel.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwHotel.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwHotel.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

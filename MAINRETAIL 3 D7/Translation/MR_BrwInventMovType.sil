@@ -1,0 +1,78 @@
+[Captions]
+TbrwInventMovType.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwInventMovType.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TbrwInventMovType.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwInventMovType.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwInventMovType.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwInventMovType.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwInventMovType.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwInventMovType.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwInventMovType.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwInventMovType.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwInventMovType.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwInventMovType.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwInventMovType.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwInventMovType.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwInventMovType.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwInventMovType.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwInventMovType.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwInventMovType.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwInventMovType.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwInventMovType.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwInventMovType.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwInventMovType.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwInventMovType.grdBrowseDBBandedIDInventMovType=ID~!@#$ID~!@#$ID~!@#$
+TbrwInventMovType.grdBrowseDBBandedName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwInventMovType.grdBrowseDBBandedOnHand=OnHand~!@#$Estoque~!@#$Existente~!@#$
+TbrwInventMovType.grdBrowseDBBandedOnOrder=OnOrder~!@#$Pedidos~!@#$Pedidos~!@#$
+TbrwInventMovType.grdBrowseDBBandedOnPrePurchase=InReceiving~!@#$Recebidos~!@#$EnRecibidos~!@#$
+TbrwInventMovType.grdBrowseDBBandedOnPreSale=OnHold~!@#$Pendente~!@#$EnBoletaPendiente~!@#$
+TbrwInventMovType.grdBrowseDBBandedOnRepair=OnRepair~!@#$Conserto~!@#$EnReparación~!@#$
+TbrwInventMovType.grdBrowseDBBandedPreOnHand=OnHand~!@#$Estoque~!@#$Existente~!@#$
+TbrwInventMovType.grdBrowseDBBandedPreOnOrder=OnOrder~!@#$Pedidos~!@#$Pedidos~!@#$
+TbrwInventMovType.grdBrowseDBBandedPreOnPrePurchase=InReceiving~!@#$Recibidos~!@#$Recibidos~!@#$
+TbrwInventMovType.grdBrowseDBBandedPreOnPreSale=OnHold~!@#$Pendente~!@#$EnBoletaPendiente~!@#$
+TbrwInventMovType.grdBrowseDBBandedPreOnRepair=OnRepair~!@#$Conserto~!@#$EnReparación~!@#$
+TbrwInventMovType.hhh=~!@#$~!@#$~!@#$
+TbrwInventMovType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwInventMovType.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwInventMovType.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwInventMovType.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwInventMovType.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwInventMovType.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwInventMovType.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwInventMovType.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwInventMovType.TbrwInventMovType=brwInventMovType~!@#$brwTipoMovInv~!@#$brwTipoMovInv~!@#$
+
+
+[Collections]
+TbrwInventMovType.grdBrowseDBBanded.Bands-0+.Caption=Moviment Type~!@#$Tipo de Movimento~!@#$Tipo Moviment~!@#$
+TbrwInventMovType.grdBrowseDBBanded.Bands-1+.Caption=Temporary Inventory Movement~!@#$Movimentos Temporário do Inventário~!@#$Movimiento Temporario del Inventario~!@#$
+TbrwInventMovType.grdBrowseDBBanded.Bands-2+.Caption=Permanent Inventory Movement~!@#$Movimentos Permanente do Inventário~!@#$Movimiento Permanente del Inventario~!@#$
+
+
+[DisplayLabels]
+TbrwInventMovType.quBrowseIDInventMovType=IDInventMovType~!@#$IDTipoMovInventario~!@#$IDTipoMovInventario~!@#$
+TbrwInventMovType.quBrowseName=Name~!@#$Nome~!@#$Nombre~!@#$
+TbrwInventMovType.quBrowseOnHand=OnHand~!@#$EmEstoque~!@#$Existente~!@#$
+TbrwInventMovType.quBrowseOnOrder=OnOrder~!@#$EmPedidos~!@#$EnPedidos~!@#$
+TbrwInventMovType.quBrowseOnPrePurchase=OnPrePurchase~!@#$EmRecebidos~!@#$EnRecibidos~!@#$
+TbrwInventMovType.quBrowseOnPreSale=OnPreSale~!@#$EmNotaPendente~!@#$EnBoletaPendiente~!@#$
+TbrwInventMovType.quBrowseOnRepair=OnRepair~!@#$EmConserto~!@#$EnReparación~!@#$
+TbrwInventMovType.quBrowsePreOnHand=PreOnHand~!@#$PreEmEstoque~!@#$PreExistente~!@#$
+TbrwInventMovType.quBrowsePreOnOrder=PreOnOrder~!@#$PrePedidos~!@#$PrePedidos~!@#$
+TbrwInventMovType.quBrowsePreOnPrePurchase=PreOnPrePurchase~!@#$PreRecebidos~!@#$PreRecibidos~!@#$
+TbrwInventMovType.quBrowsePreOnPreSale=PreOnPreSale~!@#$PreEmNotaPendente~!@#$PreEnBoletaPendiente~!@#$
+TbrwInventMovType.quBrowsePreOnRepair=PreOnRepair~!@#$PreEmConserto~!@#$PreEnReparación~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwInventMovType.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,47 @@
+[Captions]
+TSubModelDetail.Label1=Markup value :~!@#$$ Margem :~!@#$$ Margen :~!@#$
+TSubModelDetail.Label17=Cost :~!@#$Custo :~!@#$Costo :~!@#$
+TSubModelDetail.Label18=Other Charges :~!@#$Outros :~!@#$Otros :~!@#$
+TSubModelDetail.Label19=Freight :~!@#$Frete :~!@#$Flete :~!@#$
+TSubModelDetail.Label20=Avg cost :~!@#$Custo Médio :~!@#$Cst Promedio :~!@#$
+TSubModelDetail.Label21=Markup percent :~!@#$% Margem :~!@#$% Margen :~!@#$
+TSubModelDetail.Label26=Our Price :~!@#$Prç. de Venda :~!@#$Prc. de Venta :~!@#$
+TSubModelDetail.Label29=Store :~!@#$Loja :~!@#$Tienda :~!@#$
+TSubModelDetail.Label5=Sugg. Retail :~!@#$Preço Sugerido :~!@#$Precio Sugerido :~!@#$
+TSubModelDetail.Label6=Last cost :~!@#$Último Custo :~!@#$Ultimo Costo :~!@#$
+TSubModelDetail.lblTitle=Informations about select model and vendor~!@#$Informação sobre modelo selecionado e fornecedor~!@#$Información acerca modelo seleccionado y proveedores~!@#$
+TSubModelDetail.lbReplacCost=Custom Cost :~!@#$Custo Repos.:~!@#$Custo Repos.:~!@#$
+TSubModelDetail.lbTotal=Total :~!@#$Total :~!@#$Total :~!@#$
+TSubModelDetail.tsInventoryMov=Movement History~!@#$Hist. Movimentos~!@#$Histórico Movimientos~!@#$
+TSubModelDetail.tsInventoryMovTotal=Movement Totals~!@#$Total Movimentos~!@#$Total Movimientos~!@#$
+TSubModelDetail.tsModel=Cost, Retail, Quantities~!@#$Custo,Venda,Qtd~!@#$Costo,Venta,Cantidad~!@#$
+TSubModelDetail.tsOrder=Orders~!@#$Pedidos~!@#$Pedidos~!@#$
+TSubModelDetail.tsPurchaseHistory=Purchase History~!@#$Hist. Compras~!@#$Histórico Compras~!@#$
+TSubModelDetail.tsSaleHistory=Sales History~!@#$Hist. Vendas~!@#$Histórico Ventas~!@#$
+TSubModelDetail.tsVendorHistory=Vendor History~!@#$Hist. Fornecedor~!@#$Histórico Proveedor~!@#$
+TSubModelDetail.lbCaseQty=Case :~!@#$Embalag. :~!@#$Embalag. :~!@#$
+
+[DisplayLabels]
+TSubModelDetail.quModelDateLastCost=DateLastCost~!@#$DataUltimoCusto~!@#$FechaUltimoCosto~!@#$
+TSubModelDetail.quModelDateLastSellingPrice=DateLastSellingPrice~!@#$DataUltimaVenda~!@#$FechaUltimaVenta~!@#$
+TSubModelDetail.quModelFinalCost=FinalCost~!@#$CustoFinal~!@#$CostoFinal~!@#$
+TSubModelDetail.quModelFreightCost=FreightCost~!@#$Frete~!@#$Flete~!@#$
+TSubModelDetail.quModelIDModel=IDModel~!@#$IDModelo~!@#$IDModelo~!@#$
+TSubModelDetail.quModelLastCost=LastCost~!@#$UltimoCusto~!@#$UltimoCosto~!@#$
+TSubModelDetail.quModelMarkUp=MarkUp~!@#$Margem~!@#$Margen~!@#$
+TSubModelDetail.quModelOtherCost=OtherCost~!@#$OutroCusto~!@#$OtroCosto~!@#$
+TSubModelDetail.quModelRealMarkUpPercet=RealMarkUpPercent~!@#$%MargemReal~!@#$%MargenReal~!@#$
+TSubModelDetail.quModelRealMarkUpValue=RealMarkUpValue~!@#$$MargemReal~!@#$$MargenReal~!@#$
+TSubModelDetail.quModelSellingPrice=SellingPrice~!@#$$ Venda~!@#$PrecioVenta~!@#$
+TSubModelDetail.quModelSuggRetail=SuggRetail~!@#$Preço Sugerido~!@#$PrecioSugerido~!@#$
+TSubModelDetail.quModelTotQtyOnHand=TotQtyOnHand~!@#$TotQtdEmLoja~!@#$TotCtdExistente~!@#$
+TSubModelDetail.quModelVendorCost=VendorCost~!@#$CustoFornecedor~!@#$CostoProveedor~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

@@ -1,0 +1,52 @@
+[Captions]
+TFrmModelQuickEntryList.btClose=&Close~!@#$&Fechar~!@#$&Cierre~!@#$
+TFrmModelQuickEntryList.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TFrmModelQuickEntryList.btExcel=E&xport~!@#$E&xportar~!@#$E&xportación~!@#$
+TFrmModelQuickEntryList.btImport=&Import~!@#$&Importar~!@#$&Importación~!@#$
+TFrmModelQuickEntryList.btnCategory=Category~!@#$Categoria~!@#$Categoria ~!@#$
+TFrmModelQuickEntryList.btRemove=Re&move~!@#$Re&mover~!@#$&Quitar~!@#$
+TFrmModelQuickEntryList.btSave=&Save~!@#$&Salvar~!@#$&Excepto~!@#$
+TFrmModelQuickEntryList.EEE=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.grdModelListDBCaseQty=CaseQty~!@#$Embalagem~!@#$Embalaje~!@#$
+TFrmModelQuickEntryList.grdModelListDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmModelQuickEntryList.grdModelListDBIDBarcode=Barcode~!@#$Cod. de Barras~!@#$Barcode~!@#$
+TFrmModelQuickEntryList.grdModelListDBIDGroup=Category~!@#$Categoria~!@#$Categoría~!@#$
+TFrmModelQuickEntryList.grdModelListDBIDManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmModelQuickEntryList.grdModelListDBIDModelGroup=SubCategory~!@#$Sub Categoria~!@#$Categoría Sec.~!@#$
+TFrmModelQuickEntryList.grdModelListDBIDModelSubGroup=Group~!@#$Grupo~!@#$Grupo~!@#$
+TFrmModelQuickEntryList.grdModelListDBIDVendor=Vendor~!@#$Fornecedor~!@#$Surtidor~!@#$
+TFrmModelQuickEntryList.grdModelListDBMarkup=Markup %~!@#$Markup~!@#$Markup~!@#$
+TFrmModelQuickEntryList.grdModelListDBMaxQty=Max~!@#$Qtd Máx.~!@#$Ctd Máxima~!@#$
+TFrmModelQuickEntryList.grdModelListDBMinQty=Min~!@#$Qtd Mín.~!@#$Ctd Mínima~!@#$
+TFrmModelQuickEntryList.grdModelListDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmModelQuickEntryList.grdModelListDBQtyOnHand=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmModelQuickEntryList.grdModelListDBSellingPrice=SellingPrice~!@#$Prç Venda~!@#$Precio de Venta~!@#$
+TFrmModelQuickEntryList.grdModelListDBSuggRetail=MSRP~!@#$Preço Sugerido~!@#$Precio Sugerido~!@#$
+TFrmModelQuickEntryList.grdModelListDBVendorCode=Vendor Code~!@#$Cód. Fornecedor~!@#$Cod. Fornect.~!@#$
+TFrmModelQuickEntryList.grdModelListDBVendorCost=Cost~!@#$Custo~!@#$Costo~!@#$
+TFrmModelQuickEntryList.grdModelListLevel=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.hhh=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.Label15=User:~!@#$Usuário~!@#$Usuario~!@#$
+TFrmModelQuickEntryList.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TFrmModelQuickEntryList.lblSubMenu=Main Menu~!@#$Menu principal~!@#$Menú principal~!@#$
+TFrmModelQuickEntryList.lblUserName=User Name :~!@#$Nome de Usuário~!@#$Nombre del Usuario~!@#$
+TFrmModelQuickEntryList.Panel1=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.Panel2=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.Panel3=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.Panel4=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.panel8=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.pnlButton=~!@#$~!@#$~!@#$
+TFrmModelQuickEntryList.TFrmModelQuickEntryList=Quick Entry List~!@#$Lista de Entrada~!@#$Lista de la Entrada~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

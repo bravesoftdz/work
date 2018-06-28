@@ -1,0 +1,58 @@
+[Captions]
+TFrmEstimated.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmEstimated.btCustomizeColumns=&Columns~!@#$&Colunas~!@#$&Columnas~!@#$
+TFrmEstimated.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TFrmEstimated.btNewEstimated=Add~!@#$Adicionar~!@#$Agreguar~!@#$
+TFrmEstimated.btNewEstItem=Add item~!@#$Adicionar item~!@#$Agreguar item~!@#$
+TFrmEstimated.btnExec=&GO!~!@#$IR!~!@#$IR!~!@#$
+TFrmEstimated.btnPrint=&Print~!@#$Im&primir~!@#$Im&primir~!@#$
+TFrmEstimated.btOpenEstimated=Open~!@#$Abrir~!@#$Abrir~!@#$
+TFrmEstimated.btOpenEstItem=Open item~!@#$Abrir item~!@#$Abrir item~!@#$
+TFrmEstimated.btPOItemPreview=&Preview~!@#$&Prévia~!@#$&Prévia~!@#$
+TFrmEstimated.btRemoveEst=Remove~!@#$Remover~!@#$Borrar~!@#$
+TFrmEstimated.btRemoveEstItem=&Remove item~!@#$&Remover item~!@#$Borrar item~!@#$
+TFrmEstimated.Button1=All~!@#$Todos~!@#$Todos~!@#$
+TFrmEstimated.Button2=All~!@#$Todos~!@#$Todos~!@#$
+TFrmEstimated.chkImported=Budget Imported~!@#$Listar orçamento importado~!@#$El presupuesto Importó~!@#$
+TFrmEstimated.chUpdatePrice=Update Price~!@#$Atualizar Preço~!@#$Actualizar Precio~!@#$
+TFrmEstimated.grdEstimatedDBIDEstimated=Estimated #~!@#$Nº Orçamento~!@#$Nº Presupuesto~!@#$
+TFrmEstimated.grdEstimatedDBName=Store~!@#$Loja~!@#$Tienda~!@#$
+TFrmEstimated.grdEstimatedDBPessoa=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmEstimated.grdEstimatedDBSystemUser=SystemUser~!@#$Vendedor~!@#$Vendedor~!@#$
+TFrmEstimated.grdEstimatedLevel=~!@#$~!@#$~!@#$
+TFrmEstimated.grdEstItemsDBCode=Code~!@#$Código~!@#$Código~!@#$
+TFrmEstimated.grdEstItemsDBDepartment=Department~!@#$Departamento~!@#$Departamento~!@#$
+TFrmEstimated.grdEstItemsDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmEstimated.grdEstItemsDBGrandTotal=GrandTotal~!@#$Total~!@#$Total~!@#$
+TFrmEstimated.grdEstItemsDBManufacturer=Manufacturer~!@#$Fabricante~!@#$Fabricante~!@#$
+TFrmEstimated.grdEstItemsDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmEstimated.grdEstItemsDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmEstimated.grdEstItemsDBSalePrice=SalePrice~!@#$Prç Venda~!@#$Prc Venta~!@#$
+TFrmEstimated.hhh=~!@#$~!@#$~!@#$
+TFrmEstimated.Label1=Document :~!@#$Documento :~!@#$Documento :~!@#$
+TFrmEstimated.Label2=Name :~!@#$Nome :~!@#$Nombre :~!@#$
+TFrmEstimated.Label3=Store :~!@#$Loja :~!@#$Tienda~!@#$
+TFrmEstimated.Label4=Estimated :~!@#$Orçamento :~!@#$Presupuesto :~!@#$
+TFrmEstimated.Label5=User :~!@#$Vendedor :~!@#$Vendedor :~!@#$
+TFrmEstimated.lbFrom=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmEstimated.lbTo=To~!@#$até~!@#$hasta~!@#$
+TFrmEstimated.miAddItem=Add item~!@#$Adicionar~!@#$Agreguar~!@#$
+TFrmEstimated.miQuickEntry=Quick entry~!@#$Entrada rápida~!@#$Entrada rápida~!@#$
+TFrmEstimated.sbHelp=&Help~!@#$&Ajuda~!@#$&Ajuda~!@#$
+TFrmEstimated.TFrmEstimated=Estimated~!@#$Orçamento~!@#$Presupuesto~!@#$
+TFrmEstimated.btnCreateHold=create Hold~!@#$Criar Pedido~!@#$Criar Pedido~!@#$
+TFrmEstimated.btnConfirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmEstimated.cbmDocs.Items=,"Driver License","Social Security","Customer Card","Employee ID"~!@#$,"Carteira Motorista","Carteira Identidade","Cartão Cliente",C.P.F.~!@#$,"Licencia Conducir","Carnet Identidad","Tarjeta Cliente",ID~!@#$
+TFrmEstimated.cbmName.Items=,"First Name","Last Name","Full Name"~!@#$,Nome,Sobrenome,"Nome Completo"~!@#$,Nombre,Apellido,"Nombre Completo"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

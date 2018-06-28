@@ -1,0 +1,65 @@
+[Captions]
+TBrwTrajeto.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TBrwTrajeto.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TBrwTrajeto.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TBrwTrajeto.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TBrwTrajeto.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TBrwTrajeto.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TBrwTrajeto.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TBrwTrajeto.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwTrajeto.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TBrwTrajeto.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwTrajeto.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TBrwTrajeto.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwTrajeto.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwTrajeto.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwTrajeto.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwTrajeto.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwTrajeto.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TBrwTrajeto.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TBrwTrajeto.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TBrwTrajeto.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwTrajeto.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TBrwTrajeto.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TBrwTrajeto.grdBrowseDBIDTrajeto=IDRoute~!@#$IDTrajeto~!@#$IDTrayecto~!@#$
+TBrwTrajeto.grdBrowseDBTrajeto=Route~!@#$Trajeto~!@#$Trayecto~!@#$
+TBrwTrajeto.hhh=~!@#$~!@#$~!@#$
+TBrwTrajeto.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TBrwTrajeto.lblBasicFilter=~!@#$~!@#$~!@#$
+TBrwTrajeto.lblGenFilter=~!@#$~!@#$~!@#$
+TBrwTrajeto.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TBrwTrajeto.lblSubMenu=Pai de Browses~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TBrwTrajeto.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TBrwTrajeto.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TBrwTrajeto.TBrwTrajeto=BrwTrajeto~!@#$BrwTrajeto~!@#$BrwTrayecto~!@#$
+
+[DisplayLabels]
+TBrwTrajeto.quBrowseIDTrajeto=IDRoute~!@#$IDTrajeto~!@#$IDTrayecto~!@#$
+TBrwTrajeto.quBrowseTrajeto=Route~!@#$Trajeto ~!@#$Trayecto~!@#$
+
+[Hints]
+TBrwTrajeto.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TBrwTrajeto.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TBrwTrajeto.btnExec=~!@#$~!@#$~!@#$
+TBrwTrajeto.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TBrwTrajeto.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TBrwTrajeto.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TBrwTrajeto.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TBrwTrajeto.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TBrwTrajeto.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TBrwTrajeto.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TBrwTrajeto.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TBrwTrajeto.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TBrwTrajeto.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TBrwTrajeto.bmBrowse.Categories=Default,"Menu Pop"~!@#$Original,"Menu Pop"~!@#$Original,"Menú Pop"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

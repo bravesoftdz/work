@@ -1,0 +1,23 @@
+[Captions]
+TfrmLanguageMR.btnClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TfrmLanguageMR.btnDownload=Download~!@#$~!@#$~!@#$
+TfrmLanguageMR.btnPath=Path~!@#$Arquivos~!@#$Archivos~!@#$
+TfrmLanguageMR.Label1=Applications~!@#$Applications~!@#$Applications~!@#$
+TfrmLanguageMR.Label2=Network Inc.~!@#$Network Inc.~!@#$Network Inc.~!@#$
+TfrmLanguageMR.Label3=www.mainretail.com/languages.htm~!@#$www.mainretail.com/languages.htm~!@#$www.mainretail.com/languages.htm~!@#$
+TfrmLanguageMR.Label4=Order the dictionary translator now at~!@#$Peça o dicionário de tradução agora em :~!@#$Ordene el diccionário de traducción ahora en :~!@#$
+TfrmLanguageMR.Label5=Main Retail and Office Manager support multi-language. You can customize your application with the language you wish to work. Order now the translator dictionary for FREE.~!@#$Suporte multi linguas para Main Retail e Office Manager. Você pode adequar o programa com a lingua que deseja trabalhar. Faça seu pedido já e receba de graça nosso dicionário de tradução.~!@#$Soporte multi idiomas para Main Retail y Office Manager. Usted puede adecuar el programa en el idioma que desee trabajar. Ordene ahora su diccionário de traducción y recibalo sin costo alguno.~!@#$
+TfrmLanguageMR.TfrmLanguage=Language~!@#$Lingua~!@#$Idioma~!@#$
+
+[Hints]
+TfrmLanguageMR.imgFlags=Download languages~!@#$Baixar Linguas~!@#$Bajar Idiomas~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

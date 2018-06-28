@@ -1,0 +1,92 @@
+**********************************************************************
+Author: TMS Software
+        Copyright © 1996-2007
+        E-mail: info@tmssoftware.com
+        Web: http://www.tmssoftware.com
+**********************************************************************
+
+Delphi 5.0/6.0/7.0/2005/2006/2007 & C++Builder 5.0/6.0/2006
+
+
+Files :
+-----
+  AdvOfficeTabSetD5.zip : component files for Delphi 5.0
+  AdvOfficeTabSetD6.zip : component files for Delphi 6.0
+  AdvOfficeTabSetD7.zip : component files for Delphi 7.0
+  AdvOfficeTabSetD2005.zip : component files for Delphi 2005
+  AdvOfficeTabSetD2006.zip : component files for Delphi 2006 & C++Builder 2006
+  AdvOfficeTabSetD2006.zip : component files for Delphi 2007
+  AdvOfficeTabSetC5.zip : component files for C++Builder 5
+  AdvOfficeTabSetC6.zip : component files for C++Builder 6
+  
+Release 1.2.0.0 :
+----------------
+
+  Office 2007 style / Office 2003 style TabSet control 
+  with built-in close button, page list button, prev/next scroll buttons
+
+  TAdvOfficeMDITabSet for creating tabbed MDI applications automatically
+
+
+Feature Revision history :
+------------------------
+  v1.0.0.0   : First release
+  v1.0.0.1   : Fixed issue with hidden tabs & scrolling
+  v1.1.0.0   : New : TAdvOfficeMDITabSet component
+               New : property TabRearrange added
+               New : OnTabMoved event added
+  v1.1.1.0   : New : Office 2007 silver style added
+             : Fixed : issue with close button position
+  v1.2.0.0   : New : ImagePosition can be set in TabSettings as left, top, bottom, right from tab caption
+               New : Wordwrapped tab caption support
+               New : autoscrolling pages while mouse is down on scroll buttons
+               New : ScrollButtonsAlways property to show scroll buttons always irrespective of nr. of tabs
+               New : OnDrawTab event for custom tab drawing
+	      
+
+
+Usage:
+------
+ Use of TMS software components in applications requires a license.
+ A license can be obtained by registration. A single developer license
+ registration is available as well as a site license.
+ With the purchase of one single developer license, one developer in
+ the company is entitled to:
+ - use of registered version that contains full source code and no
+   limitations 
+ - free updates for a full version cycle
+ - free email priority support & access to support newsgroups
+ - discounts to purchases of other products
+
+ With a site license, multiple developers in the company are entitled
+ to:
+ - use of registered version that contains full source code and no
+   limitations 
+ - add additional developers at any time who make use of the components
+ - free updates for a full version cycle
+ - free email priority support & access to support newsgroups
+ - discounts to purchases of other products
+
+ Online order information can be found at:
+ http://www.tmssoftware.com/go/?orders
+
+Note: 
+-----
+
+ The components are also part of the TMS Component Pack bundle, see 
+ http://www.tmssoftware.com/go/?tmspack
+
+
+Help, hints, tips, bug reports:
+-------------------------------
+ Send any questions/remarks/suggestions to : help@tmssoftware.com
+
+ Before contacting support about a possible issue with the component
+ you encounter, make sure that you are using the latest version of the 
+ component.
+ If a problem persists with the latest version, provide information 
+ about which Delphi or C++Builder version you are using as well as
+ the operating system and if possible, steps to reproduce the problem
+ you encounter. That will guarantee the fastest turnaround times for
+ your support case. 
+

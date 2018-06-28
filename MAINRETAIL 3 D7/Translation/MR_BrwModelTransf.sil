@@ -1,0 +1,97 @@
+[Captions]
+TbrwModelTransf.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregar~!@#$
+TbrwModelTransf.btAreaTodas=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwModelTransf.btClose=&Close~!@#$Fechar~!@#$Cerrar~!@#$
+TbrwModelTransf.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwModelTransf.btDetail=F3 &Details~!@#$F3 &Detalhe~!@#$F3 &Detalle~!@#$
+TbrwModelTransf.btExcel=F6 &Export~!@#$F6 &Exportar~!@#$F6&Exportar~!@#$
+TbrwModelTransf.btFilter=Undo &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwModelTransf.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwModelTransf.btnCollapse=Collapse all Groups~!@#$Separar Grupos~!@#$Separar Grupos~!@#$
+TbrwModelTransf.btnExec=&GO~!@#$&IR~!@#$&IR~!@#$
+TbrwModelTransf.btnExpandGroup=Expand all Groups~!@#$Expandir Grupos~!@#$Expandir Grupos~!@#$
+TbrwModelTransf.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo o Campo Selecionado~!@#$Filtrar Excluyendo el Campo Seleccionado~!@#$
+TbrwModelTransf.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwModelTransf.btnImport=Import Transfer~!@#$Importar~!@#$Importar~!@#$
+TbrwModelTransf.btnPrintTransfer=Print Transfer~!@#$Imp. Transf.~!@#$Imp. Transf.~!@#$
+TbrwModelTransf.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwModelTransf.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwModelTransf.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwModelTransf.btnToStore=All~!@#$Tudo~!@#$Todo~!@#$
+TbrwModelTransf.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwModelTransf.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwModelTransf.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwModelTransf.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwModelTransf.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwModelTransf.FilterbySelection=Filter by selection~!@#$Filtrar segundo Seleção~!@#$Filtrar según Elección~!@#$
+TbrwModelTransf.FilterExcluding=Filter excluding selection~!@#$Filtrar excluindo a Seleção~!@#$Filtrar Excluyendo la Elección~!@#$
+TbrwModelTransf.grdBrowseDBData=Date~!@#$Data~!@#$Fecha~!@#$
+TbrwModelTransf.grdBrowseDBIDModelTransf=Transf#~!@#$Transf #~!@#$Transf #~!@#$
+TbrwModelTransf.grdBrowseDBImported=Imported~!@#$Importado~!@#$Importado~!@#$
+TbrwModelTransf.grdBrowseDBNumber=Number~!@#$Número~!@#$Número~!@#$
+TbrwModelTransf.grdBrowseDBStoreDestContact=TO : Contact~!@#$PARA : Contato~!@#$PARA : Contacto~!@#$
+TbrwModelTransf.grdBrowseDBStoreDestFax=TO : Fax~!@#$PARA : Fax~!@#$PARA : Fax~!@#$
+TbrwModelTransf.grdBrowseDBStoreDestino=TO~!@#$Para~!@#$Para~!@#$
+TbrwModelTransf.grdBrowseDBStoreDestPhone=TO : Phone~!@#$PARA : Telefone~!@#$PARA : Teléfono~!@#$
+TbrwModelTransf.grdBrowseDBStoreOrigContact=FROM : Contact~!@#$DE : Contato~!@#$DE : Contacto~!@#$
+TbrwModelTransf.grdBrowseDBStoreOrigem=FROM~!@#$Desde~!@#$Desde~!@#$
+TbrwModelTransf.grdBrowseDBStoreOrigFax=FROM : Fax~!@#$DE : Fax~!@#$DE : Fax~!@#$
+TbrwModelTransf.grdBrowseDBStoreOrigPhone=FROM : Phone~!@#$DE : Telefone~!@#$DE : Teléfono~!@#$
+TbrwModelTransf.grdBrowseDBSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TbrwModelTransf.grdBrowseDBType=Type~!@#$Tipo~!@#$tipo~!@#$
+TbrwModelTransf.grdBrowseDBPrintDate=Print Date~!@#$Data Impressão~!@#$Fetach Impression~!@#$
+TbrwModelTransf.grdBrowseDBMsgStatus=Status~!@#$Status~!@#$Status~!@#$
+TbrwModelTransf.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwModelTransf.Label3=From :~!@#$De :~!@#$Desde :~!@#$
+TbrwModelTransf.lbFrom=From :~!@#$De :~!@#$Desde :~!@#$
+TbrwModelTransf.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwModelTransf.lblSubMenu=Pai de Browses~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwModelTransf.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwModelTransf.lbTo=To~!@#$Até :~!@#$Hasta :~!@#$
+TbrwModelTransf.lbToStore=To :~!@#$Para :~!@#$Para :~!@#$
+TbrwModelTransf.lbType=Type :~!@#$Tipo :~!@#$Tipo :~!@#$
+TbrwModelTransf.pnlPage=Not showing all records~!@#$Não mostrar todos os registros~!@#$No mostrar todos los registros~!@#$
+TbrwModelTransf.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TbrwModelTransf.TbrwModelTransf=Transference~!@#$Transferencia~!@#$Transferencia~!@#$
+TbrwModelTransf.btnChangeNumber=Change Number~!@#$Alterar Nº.~!@#$Alterar Nº Transf.~!@#$
+TbrwModelTransf.btnCorrectError=Correct Error~!@#$Corrigir Transf.~!@#$Corrigir Transf.~!@#$
+
+[DisplayLabels]
+TbrwModelTransf.quBrowseData=Data~!@#$Data~!@#$Fecha~!@#$
+TbrwModelTransf.quBrowseIDModelTransf=Transf#~!@#$Transf#~!@#$Transf#~!@#$
+TbrwModelTransf.quBrowseStoreDestContact=StoreDestContact~!@#$ContatoLojaDest~!@#$ContatoLojaDest~!@#$
+TbrwModelTransf.quBrowseStoreDestFax=StoreDestFax~!@#$FaxLojaDest~!@#$FaxTiendaDest~!@#$
+TbrwModelTransf.quBrowseStoreDestino=To Store~!@#$Para Loja~!@#$Para Tienda~!@#$
+TbrwModelTransf.quBrowseStoreDestPhone=StoreDestPhone~!@#$FoneLojaDest~!@#$FonoTiendaDest~!@#$
+TbrwModelTransf.quBrowseStoreOrigContact=StoreOrigContact~!@#$ContatoLojaOrig~!@#$ContactoTiendaOrig~!@#$
+TbrwModelTransf.quBrowseStoreOrigem=From Store~!@#$Da Loja~!@#$De Tienda~!@#$
+TbrwModelTransf.quBrowseStoreOrigFax=StoreOrigFax~!@#$FaxLojaOrig~!@#$FaxTiendaOrig~!@#$
+TbrwModelTransf.quBrowseStoreOrigPhone=StoreOrigPhone~!@#$FoneLojaOrig ~!@#$FonoTiendaOrig~!@#$
+TbrwModelTransf.quBrowseSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+
+[Hints]
+TbrwModelTransf.btExcel=Export ~!@#$Exportar ~!@#$Exportar ~!@#$
+TbrwModelTransf.btnCollapse=Collapse all Groups~!@#$Separar todos os Grupos~!@#$Separar todos los Grupos~!@#$
+TbrwModelTransf.btnExec=~!@#$~!@#$~!@#$
+TbrwModelTransf.btnExpandGroup=Expand all Groups~!@#$Expandir todos os Grupos~!@#$Expandir todos los Grupos~!@#$
+TbrwModelTransf.btnFilterExcSel=Filter Excluding Selected Field~!@#$Filtrar Excluindo Campo Selecionado~!@#$Filtrar Excluyendo Campo Seleccionado~!@#$
+TbrwModelTransf.btnFilterSel=Filter for Selected Field~!@#$Filtrar Campo Selecionado~!@#$Filtrar Campo Seleccionado~!@#$
+TbrwModelTransf.btnRemovFilter=Remove Filter~!@#$Remover Filtro~!@#$Remover Filtro~!@#$
+TbrwModelTransf.btnSortAsc=Sort Ascending~!@#$Classificação Ascendente~!@#$Clasificación Ascendente~!@#$
+TbrwModelTransf.btnSortDesc=Sort Descending~!@#$Classificação Descendente~!@#$Clasificación Descendiente~!@#$
+TbrwModelTransf.btnUndoFilter=Undo Filter~!@#$Anular Filtro~!@#$Anular Filtro~!@#$
+TbrwModelTransf.edtFilter=Filter~!@#$Filtro~!@#$Filtro~!@#$
+TbrwModelTransf.imgFolder=Double-click to show deleted~!@#$Duplo-Clique para mostrar os eliminados~!@#$Doble-Click para mostrar los eliminados~!@#$
+TbrwModelTransf.ImgTrash=Double-click to show non deleted items~!@#$Duplo-Clique para mostrar os válidos~!@#$Doble-Click para mostrar los válidos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TbrwModelTransf.cmbType.Items="Not Imported","Imported",All~!@#$"Não Importado","Importado",Tudo~!@#$"No importado","Importado",Todos~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

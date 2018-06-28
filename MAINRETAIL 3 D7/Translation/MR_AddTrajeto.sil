@@ -1,0 +1,37 @@
+[Captions]
+TAddTrajeto.Aplicar=&Add~!@#$&Ok~!@#$&Ok~!@#$
+TAddTrajeto.Cancelar=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TAddTrajeto.editNumPass0=Number of Pax :~!@#$Número Passageiros :~!@#$Número Pasajeros :~!@#$
+TAddTrajeto.EEE=~!@#$~!@#$~!@#$
+TAddTrajeto.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TAddTrajeto.Label1=Route Total :~!@#$Total Trajeto :~!@#$Total Trayecto :~!@#$
+TAddTrajeto.Label2=Gas Total :~!@#$Total Gasolina :~!@#$Total Bencina :~!@#$
+TAddTrajeto.Label3=Driver Total :~!@#$Total Motorista :~!@#$Total Chofer :~!@#$
+TAddTrajeto.lblSubMenu=Add Route~!@#$Incluir Trajeto~!@#$Agregar Trayecto~!@#$
+TAddTrajeto.Panel2=~!@#$~!@#$~!@#$
+TAddTrajeto.Panel3=~!@#$~!@#$~!@#$
+TAddTrajeto.pnlAutoInc=~!@#$~!@#$~!@#$
+TAddTrajeto.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TAddTrajeto.TAddTrajeto=Add Route~!@#$Adicionar Trajeto~!@#$Agregar Trayecto~!@#$
+
+[DisplayLabels]
+TAddTrajeto.quTrajetoCustoGasolina=GasCost~!@#$CustoGasolina~!@#$CostoBencina~!@#$
+TAddTrajeto.quTrajetoCustoMotorista=DriverCost~!@#$CustoMotorista~!@#$CostoChofer~!@#$
+TAddTrajeto.quTrajetoDesativado=Desactivate~!@#$Desativado~!@#$Desactivado~!@#$
+TAddTrajeto.quTrajetoIDTrajeto=ID Route~!@#$ID Trajeto~!@#$ID Trayecto~!@#$
+TAddTrajeto.quTrajetoMinPax=MinPax~!@#$MinPasgrs~!@#$MínPasjrs~!@#$
+TAddTrajeto.quTrajetoTrajeto=Route~!@#$Trajeto~!@#$Trayecto~!@#$
+
+[Hints]
+TAddTrajeto.Aplicar=OK~!@#$OK~!@#$OK~!@#$
+TAddTrajeto.Bevel1=~!@#$~!@#$~!@#$
+TAddTrajeto.Cancelar=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

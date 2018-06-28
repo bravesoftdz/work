@@ -1,0 +1,42 @@
+[Captions]
+TSisFeriadoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisFeriadoFch.btFirstRec=~!@#$~!@#$~!@#$
+TSisFeriadoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisFeriadoFch.Label1=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TSisFeriadoFch.Label2=Date :~!@#$Data :~!@#$Fecha :~!@#$
+TSisFeriadoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisFeriadoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TSisFeriadoFch.lblPTitulo=Holiday~!@#$Feriado~!@#$Feriado~!@#$
+TSisFeriadoFch.lblPTituloShadow=Holiday~!@#$Feriado~!@#$Feriado~!@#$
+TSisFeriadoFch.TSisFeriadoFch=SisFeriadoFch~!@#$SisFeriadoFch~!@#$SisFeriadoFch~!@#$
+
+[DisplayLabels]
+TSisFeriadoFch.quFormData=Data~!@#$Data~!@#$Fecha~!@#$
+TSisFeriadoFch.quFormDesativado=Desativado~!@#$Desativado~!@#$Desactivado~!@#$
+TSisFeriadoFch.quFormFeriado=Feriado~!@#$Feriado~!@#$Feriado~!@#$
+TSisFeriadoFch.quFormHidden=Hidden~!@#$Esconder~!@#$Ocultar~!@#$
+TSisFeriadoFch.quFormIDFeriado=IDFeriado~!@#$IDFeriado~!@#$IDFeriado~!@#$
+TSisFeriadoFch.quFormSystem=System~!@#$Sistema~!@#$Sistema~!@#$
+
+[Hints]
+TSisFeriadoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TSisFeriadoFch.btHelp=~!@#$~!@#$~!@#$
+TSisFeriadoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TSisFeriadoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TSisFeriadoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TSisFeriadoFch.btOK=~!@#$~!@#$~!@#$
+TSisFeriadoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TSisFeriadoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TSisFeriadoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[MultiLines]
+TSisFeriadoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

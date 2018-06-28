@@ -1,0 +1,17 @@
+[Captions]
+TFrmAccountAddAmount.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmAccountAddAmount.btnSave=&Save~!@#$&Salvar~!@#$&Salvar~!@#$
+TFrmAccountAddAmount.Label1=Obs :~!@#$Obs :~!@#$Obs :~!@#$
+TFrmAccountAddAmount.Label2=Amount :~!@#$Valor :~!@#$Monto :~!@#$
+TFrmAccountAddAmount.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmAccountAddAmount.TFrmAccountAddAmount=Obs~!@#$Obs~!@#$Obs~!@#$
+TFrmAccountAddAmount.lbExpDate=Expiration Date :~!@#$Expirar em : ~!@#$Fecha De Vencim. :~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

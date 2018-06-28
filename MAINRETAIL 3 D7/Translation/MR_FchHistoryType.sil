@@ -1,0 +1,32 @@
+[Captions]
+TFchHistoryType.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchHistoryType.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchHistoryType.btLoopInc=~!@#$~!@#$~!@#$
+TFchHistoryType.EEE=~!@#$~!@#$~!@#$
+TFchHistoryType.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchHistoryType.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchHistoryType.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchHistoryType.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchHistoryType.hhh=~!@#$~!@#$~!@#$
+TFchHistoryType.Label1=History Type :~!@#$Tipo de Histórico~!@#$Tipo Histórico~!@#$
+TFchHistoryType.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFchHistoryType.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TFchHistoryType.Panel1=~!@#$~!@#$~!@#$
+TFchHistoryType.Panel2=~!@#$~!@#$~!@#$
+TFchHistoryType.Panel3=~!@#$~!@#$~!@#$
+TFchHistoryType.Panel4=~!@#$~!@#$~!@#$
+TFchHistoryType.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchHistoryType.pnlDetail=~!@#$~!@#$~!@#$
+TFchHistoryType.pnlKey=~!@#$~!@#$~!@#$
+TFchHistoryType.pnlNavigation=~!@#$~!@#$~!@#$
+TFchHistoryType.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFchHistoryType.TFchHistoryType=History Type~!@#$Tipo de Histórico~!@#$Tipo Histórico~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

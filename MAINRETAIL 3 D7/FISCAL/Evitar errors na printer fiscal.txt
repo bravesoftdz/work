@@ -1,0 +1,12 @@
+Bematch
+- Descrisao da taxa nao pode comecar com "T" ou "RJ". A impressora nao imprime o item. Verificar documentacao da aliquota para Bematech.
+- Quando for aberto um cupom, as aliquotas devem ser iguais as cadastradas ma impressora. O valor das aliquotas sao cadastradas nas categorias de taxas.
+
+  Nota: Rotina simples para emitir cupom fiscal qq modelo.
+
+- Abre Cupom
+- Vende Item
+- Inicia Fechamento
+- Efetua Forma de Pagamento
+- Termina Fechamento
+

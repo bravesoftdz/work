@@ -1,0 +1,128 @@
+[Captions]
+TSisDepartamentoFch.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisDepartamentoFch.btFirstRec=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btHelp=Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TSisDepartamentoFch.btLastRec=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btLoopInc=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btNextRec=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btOK=OK~!@#$OK~!@#$OK~!@#$
+TSisDepartamentoFch.btPrintFch=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btPriorRec=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label1=Cod :~!@#$Código :~!@#$Código :~!@#$
+TSisDepartamentoFch.Label2=Description :~!@#$Descrição :~!@#$Descripción :~!@#$
+TSisDepartamentoFch.Label24=*~!@#$*~!@#$*~!@#$
+TSisDepartamentoFch.Label3=Company :~!@#$Empresa :~!@#$Empresa :~!@#$
+TSisDepartamentoFch.Label4=*~!@#$*~!@#$*~!@#$
+TSisDepartamentoFch.Label5=*~!@#$*~!@#$*~!@#$
+TSisDepartamentoFch.lblModified=Modified~!@#$Modificar~!@#$Modificar~!@#$
+TSisDepartamentoFch.lblNavegacao=Navigator~!@#$Navegador~!@#$Navegante~!@#$
+TSisDepartamentoFch.lblPTitulo=Department~!@#$Departamento~!@#$Departamento~!@#$
+TSisDepartamentoFch.lblPTituloShadow=Department~!@#$Departamento~!@#$Departamento~!@#$
+TSisDepartamentoFch.pnlAutoInc=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.TSisDepartamentoFch=SisDepartamentoFch~!@#$SisDepartamentoFch~!@#$SisDepartamentoFch~!@#$
+
+[Dialogs]
+TSisDepartamentoFch.Abort=&Abort~!@#$&Abortar~!@#$&Abortar~!@#$
+TSisDepartamentoFch.All=&All~!@#$&Tudo~!@#$&Todo~!@#$
+TSisDepartamentoFch.Cancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TSisDepartamentoFch.Confirm=Confirm~!@#$Confirmar~!@#$Confirmar~!@#$
+TSisDepartamentoFch.Error=Error~!@#$Erro~!@#$Error~!@#$
+TSisDepartamentoFch.Help=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TSisDepartamentoFch.Ignore=&Ignore~!@#$&Ignorar~!@#$&Ignorar~!@#$
+TSisDepartamentoFch.Information=Information~!@#$Informação~!@#$Información~!@#$
+TSisDepartamentoFch.No=&No~!@#$&Não~!@#$&No~!@#$
+TSisDepartamentoFch.No To All=N&o to All~!@#$Nã&o a Tudo~!@#$N&o a Todo~!@#$
+TSisDepartamentoFch.OK=OK~!@#$OK~!@#$OK~!@#$
+TSisDepartamentoFch.Retry=&Retry~!@#$&Rever~!@#$&Rever~!@#$
+TSisDepartamentoFch.Warning=Warning~!@#$Cuidado~!@#$Cuidado~!@#$
+TSisDepartamentoFch.Yes=&Yes~!@#$&Sim~!@#$&Sí~!@#$
+TSisDepartamentoFch.Yes To All=Yes to &All~!@#$Si&m a Tudo~!@#$Sí a &To&do~!@#$
+
+[DisplayLabels]
+TSisDepartamentoFch.quFormCodigoDepartamento=CodigoDepartamento~!@#$CódigoDepartamento~!@#$CódigoDepartamento~!@#$
+TSisDepartamentoFch.quFormDepartamento=Departamento~!@#$Departamento~!@#$Departamento~!@#$
+TSisDepartamentoFch.quFormIDDepartamento=IDDepartamento~!@#$IDDepartamento~!@#$IDDepartamento~!@#$
+TSisDepartamentoFch.quFormIDEmpresa=IDEmpresa~!@#$IDEmpresa~!@#$IDEmpresa~!@#$
+
+[Hints]
+TSisDepartamentoFch.btCancel=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btFirstRec=First record~!@#$Primeiro Registro~!@#$Primer Registro~!@#$
+TSisDepartamentoFch.btHelp=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btLastRec=Last record~!@#$Ultimo Registro~!@#$Ultimo Registro~!@#$
+TSisDepartamentoFch.btLoopInc=Include sequence lines~!@#$Incluir sequências de linhas~!@#$Incluir secuencias de lineas~!@#$
+TSisDepartamentoFch.btNextRec=Next~!@#$Próximo~!@#$Próximo~!@#$
+TSisDepartamentoFch.btOK=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.btPrintFch=Print this data~!@#$Imprimir este dado~!@#$Imprimir este dato~!@#$
+TSisDepartamentoFch.btPriorRec=Prior~!@#$Anterior~!@#$Anterior~!@#$
+TSisDepartamentoFch.DBEdit1=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.DBEdit2=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.EspacamentoDireito=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.imgOff=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.imgOn=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label1=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label2=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label24=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label3=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label4=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.Label5=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.lblModified=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.lblNavegacao=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.lblPTitulo=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.lblPTituloShadow=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlAutoInc=Clique aqui para a inclusão ficar em Loop~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlEspacamentoInferiror=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlNavigation=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPBarra=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPBarraRightAlign=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPLinha=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.pnlPTitulo=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.scEmpresa=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.TSisDepartamentoFch=~!@#$~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Locales]
+TSisDepartamentoFch.Currency String=$~!@#$$~!@#$$~!@#$
+TSisDepartamentoFch.Date Separator=/~!@#$/~!@#$/~!@#$
+TSisDepartamentoFch.Decimal Separator=.~!@#$.~!@#$.~!@#$
+TSisDepartamentoFch.Long Date Format=dddd, MMMM dd, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$dddd, dd MMMM, yyyy~!@#$
+TSisDepartamentoFch.Long Day Names=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday~!@#$Domingo,Segunda,Terça,Quarta,Quinta,Sexta,Sábado~!@#$Domindo,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado~!@#$
+TSisDepartamentoFch.Long Month Names=January,February,March,April,May,June,July,August,September,October,November,December~!@#$Janeiro, Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Ouctubro,Novembro,Dezembro~!@#$Enero,Febrero,Marzo,Abril,Mayo,Junio,Julio,Agosto,Septiembre,Octubre,Noviembre,Diciembre~!@#$
+TSisDepartamentoFch.Long Time Format=h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$h:mm:ss AMPM~!@#$
+TSisDepartamentoFch.Short Date Format=M/d/yyyy~!@#$d/M/yyyy~!@#$d/M/yyyy~!@#$
+TSisDepartamentoFch.Short Day Names=Sun,Mon,Tue,Wed,Thu,Fri,Sat~!@#$Dom,Seg,ter,Qua,Qui,Sex,Sáb~!@#$Dom,Lun,Mar,Mié,Jue,Vie,Sáb,~!@#$
+TSisDepartamentoFch.Short Month Names=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec~!@#$Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez~!@#$Ene,Feb,Mar,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic~!@#$
+TSisDepartamentoFch.Short Time Format=h:mm AMPM~!@#$h:mm AMPM~!@#$h:mm AMPM~!@#$
+TSisDepartamentoFch.Thousand Separator=,~!@#$,~!@#$,~!@#$
+TSisDepartamentoFch.Time AM String=AM~!@#$AM~!@#$AM~!@#$
+TSisDepartamentoFch.Time PM String=PM~!@#$PM~!@#$PM~!@#$
+TSisDepartamentoFch.Time Separator=:~!@#$:~!@#$:~!@#$
+
+[MultiLines]
+TSisDepartamentoFch.bmMDI.Categories=Default~!@#$Original~!@#$Original~!@#$
+TSisDepartamentoFch.FormConfig.DependentTableKeys=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.FormConfig.DependentTables=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.FormConfig.RequiredFields=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.FormConfig.UniqueFields=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.quForm.FilterFields=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.quForm.FilterValues=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.scEmpresa.FilterFields=~!@#$~!@#$~!@#$
+TSisDepartamentoFch.scEmpresa.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

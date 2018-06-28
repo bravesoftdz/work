@@ -1,0 +1,22 @@
+[Captions]
+TCashRegPetty.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TCashRegPetty.btClose=&OK~!@#$&OK~!@#$&OK~!@#$
+TCashRegPetty.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TCashRegPetty.Label7=Total Petty Cash: ~!@#$Total do Suprimento:~!@#$Total Caja Chica :~!@#$
+TCashRegPetty.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TCashRegPetty.lblReason=Reason :~!@#$Motivo :~!@#$Motivo :~!@#$
+TCashRegPetty.lblSubMenu=Petty Cash~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TCashRegPetty.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TCashRegPetty.TCashRegPetty=Deposit Cash Register~!@#$Suprimento~!@#$Depósito Caja Registradora~!@#$
+
+[DisplayLabels]
+TCashRegPetty.quCashRegIDCashRegMov=IDCashRegMov~!@#$IDMovCaixaReg~!@#$IDMovCajaReg~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

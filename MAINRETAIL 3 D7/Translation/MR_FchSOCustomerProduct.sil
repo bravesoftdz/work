@@ -1,0 +1,19 @@
+[Captions]
+TFchSOCustomerProduct.btCancel=Cancel~!@#Cancelar~!@#Cancelar~!@#
+TFchSOCustomerProduct.btClose=Save~!@#Salvar~!@#Guardar~!@#
+TFchSOCustomerProduct.Label1=Model :~!@#Modelo :~!@#Modelo:~!@#
+TFchSOCustomerProduct.Label15=User:~!@#Usuário:~!@#Usuario:~!@#
+TFchSOCustomerProduct.Label2=Description :~!@#Descrição :~!@#Descripción :~!@#
+TFchSOCustomerProduct.Label21=Manufacturer :~!@#Fabricante :~!@#Fabricante :~!@#
+TFchSOCustomerProduct.lblModified=Edit Mode~!@#Editando~!@#Modo Edición~!@#
+TFchSOCustomerProduct.spHelp=&Help~!@#A&juda~!@#A&yuda~!@#
+TFchSOCustomerProduct.TFchSOCustomerProduct=SO Customer Product~!@#OS Produto~!@#OS Produto~!@#
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#
+

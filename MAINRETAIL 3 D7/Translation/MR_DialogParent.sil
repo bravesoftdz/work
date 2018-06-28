@@ -1,0 +1,18 @@
+[Captions]
+TDialogParent.Aplicar=&Ok~!@#$&Ok~!@#$&Ok~!@#$
+TDialogParent.Cancelar=&Cancel~!@#$&Cancelar~!@#$&Cancelar~!@#$
+TDialogParent.Panel2=~!@#$~!@#$~!@#$
+TDialogParent.TDialogParent=DialogParent~!@#$~!@#$~!@#$
+
+[Hints]
+TDialogParent.Aplicar=OK~!@#$OK~!@#$OK~!@#$
+TDialogParent.Cancelar=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

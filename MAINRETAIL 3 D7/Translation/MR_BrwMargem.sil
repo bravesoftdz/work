@@ -1,0 +1,51 @@
+[Captions]
+TbrwMargem.btAdd=F2 &Add   ~!@#$F2 &Adicionar~!@#$F2 &Agregue~!@#$
+TbrwMargem.btClose=&Close~!@#$Fe&char~!@#$Fe&char~!@#$
+TbrwMargem.btColumn=Colum&ns~!@#$Colu&nas~!@#$Colum&nas~!@#$
+TbrwMargem.btDetail=F3 &Details~!@#$F3 &Detalhes~!@#$F3 &Detalhes~!@#$
+TbrwMargem.btExcel=F6 E&xport~!@#$F6 &Exportar~!@#$F6 &Exportar~!@#$
+TbrwMargem.btFilter=Show &Filters~!@#$Anular &Filtros~!@#$Anular &Filtros~!@#$
+TbrwMargem.btGroup=&Grouping~!@#$A&grupar~!@#$A&grupar~!@#$
+TbrwMargem.btnExec=&GO!~!@#$&IR!~!@#$&IR!~!@#$
+TbrwMargem.btPrint=F5 &Preview~!@#$F5 &Visualizar~!@#$F5 &Visualizar~!@#$
+TbrwMargem.btRemove=F4 Re&move~!@#$F4 Re&mover~!@#$F4 Re&mover~!@#$
+TbrwMargem.btRestore=&Restore~!@#$&Restaurar~!@#$&Restaurar~!@#$
+TbrwMargem.EEE=~!@#$~!@#$~!@#$
+TbrwMargem.EspacamentoDireito=~!@#$~!@#$~!@#$
+TbrwMargem.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TbrwMargem.EspacamentoInferior=~!@#$~!@#$~!@#$
+TbrwMargem.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TbrwMargem.grdBrowseDBIDMargemTable=ID~!@#$ID~!@#$ID~!@#$
+TbrwMargem.grdBrowseDBMargemTable=MarginTable~!@#$Tabela da Margem~!@#$Tabla de Margem~!@#$
+TbrwMargem.grdBrowseLevel=~!@#$~!@#$~!@#$
+TbrwMargem.hhh=~!@#$~!@#$~!@#$
+TbrwMargem.Label15=User:~!@#$Usuário:~!@#$Usuário:~!@#$
+TbrwMargem.lblBasicFilter=~!@#$~!@#$~!@#$
+TbrwMargem.lblGenFilter=~!@#$~!@#$~!@#$
+TbrwMargem.Panel1=~!@#$~!@#$~!@#$
+TbrwMargem.Panel2=~!@#$~!@#$~!@#$
+TbrwMargem.Panel3=~!@#$~!@#$~!@#$
+TbrwMargem.panel8=~!@#$~!@#$~!@#$
+TbrwMargem.pblGO=~!@#$~!@#$~!@#$
+TbrwMargem.pnlAviso=~!@#$~!@#$~!@#$
+TbrwMargem.pnlBasicFilter=~!@#$~!@#$~!@#$
+TbrwMargem.pnlButton=~!@#$~!@#$~!@#$
+TbrwMargem.pnlDivisor=~!@#$~!@#$~!@#$
+TbrwMargem.pnlDivisoria2=~!@#$~!@#$~!@#$
+TbrwMargem.pnlGenFilter=~!@#$~!@#$~!@#$
+TbrwMargem.pnlMain=~!@#$~!@#$~!@#$
+TbrwMargem.pnlMainBrowse=~!@#$~!@#$~!@#$
+TbrwMargem.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+
+[DisplayLabels]
+TbrwMargem.quBrowseIDMargemTable=ID~!@#$ID~!@#$ID~!@#$
+TbrwMargem.quBrowseMargemTable=MarginTable~!@#$Tabela da Margem~!@#$Tabla de Margem~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

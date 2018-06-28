@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>OrderServlet</servlet-name>
+		<servlet-class>com.softvar.servlet.order.OrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MainSynchServlet</servlet-name>
+		<servlet-class>com.softvar.servlet.synch.MainSynchServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AccountCostSynchServlet</servlet-name>
+		<servlet-class>com.softvar.servlet.synch.AccountCostSynchServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/orderservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainSynchServlet</servlet-name>
+		<url-pattern>/mainsynchservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AccountCostSynchServlet</servlet-name>
+		<url-pattern>/accountcostsynchservlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>	

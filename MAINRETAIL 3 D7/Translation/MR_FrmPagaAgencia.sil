@@ -1,0 +1,86 @@
+[Captions]
+TFrmPagaAgencia.btAddCommission=Record Payment~!@#$Registrar Pagamento~!@#$Registrar Pagos~!@#$
+TFrmPagaAgencia.btAplicar=Update~!@#$Atualizar~!@#$Actualizar~!@#$
+TFrmPagaAgencia.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFrmPagaAgencia.btClose=Close~!@#$Fechar~!@#$Cerrar~!@#$
+TFrmPagaAgencia.btPreviewCommission=Print statement~!@#$Imprimir Info~!@#$Imprimir Info~!@#$
+TFrmPagaAgencia.btRefresh=&GO~!@#$&IR~!@#$&IR~!@#$
+TFrmPagaAgencia.grdPaymentDataLancamento=Data~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaAgencia.grdPaymentIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilizado~!@#$
+TFrmPagaAgencia.grdPaymentIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrmPagaAgencia.grdPaymentSystemUser=User~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaAgencia.grdPaymentTotalQuitado=Total~!@#$Total~!@#$Total~!@#$
+TFrmPagaAgencia.grdPaymentValorNominal=Amount~!@#$Valor~!@#$Valor~!@#$
+TFrmPagaAgencia.Label1=Payment Type :~!@#$Tipo Pagamento :~!@#$Tipo de Pago :~!@#$
+TFrmPagaAgencia.Label11=First select Outside Agency and commission period below. Click GO.~!@#$Primeiro Selecione Agente Externo e depois o período da comissão abaixo. Clique IR.~!@#$Primero seleccione el Agente Externo y luego el período de la comisión abajo. Presione IR.~!@#$
+TFrmPagaAgencia.Label12=Amount :~!@#$Valor :~!@#$Valor :~!@#$
+TFrmPagaAgencia.Label13=Sales :~!@#$Vendas :~!@#$Ventas :~!@#$
+TFrmPagaAgencia.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TFrmPagaAgencia.Label18=To :~!@#$Até~!@#$Hasta~!@#$
+TFrmPagaAgencia.Label2=Warning: To properly pay Agency commission, all it's agents must be "confirmed". ~!@#$Cuidado : Para pagar em forma correta a comissão da Agência, todos seus agentes devem estar "confirmados"~!@#$Cuidado : Para pagar en forma correcta la comisión de la Agencia, todos sus agentes deben estar "confirmados"~!@#$
+TFrmPagaAgencia.Label20=From :~!@#$Desde :~!@#$Desde :~!@#$
+TFrmPagaAgencia.Label23=New Amount :~!@#$Nova Quantía :~!@#$Nuevo Valor :~!@#$
+TFrmPagaAgencia.Label3=Then, click on RECORD PAYMENT to record and print payment.~!@#$Depois, clique em REGISTRO PAGAMENTO para registrar e imprimir pagamento. ~!@#$Despúes, presione en REGISTRO DE PAGO para registrar e imprimir el pago.~!@#$
+TFrmPagaAgencia.Label4=Original Amount :~!@#$Valor Original :~!@#$Valor Original :~!@#$
+TFrmPagaAgencia.Label5=Agency :~!@#$Agência :~!@#$Agencia :~!@#$
+TFrmPagaAgencia.Label7=Bank Account :~!@#$Conta Bancaria :~!@#$Cuenta Bancaria :~!@#$
+TFrmPagaAgencia.Label8=Payment Date :~!@#$Data Pagamento :~!@#$Fecha Pagado :~!@#$
+TFrmPagaAgencia.lblMenu=First Menu Item~!@#$Primeiro Item Menu~!@#$Primer Item Menú~!@#$
+TFrmPagaAgencia.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFrmPagaAgencia.lblTip=To calculate and pay an Outside Agency Commission:~!@#$Para calcular e pagar a comissão de um Agente Externo :~!@#$Para calcular y pagar la comisión de un Agente Externo :~!@#$
+TFrmPagaAgencia.Panel11=Payment History~!@#$Histórico de Pagamentos~!@#$Historico de Pagos~!@#$
+TFrmPagaAgencia.Panel7=Unpaid Commissions~!@#$Comissões não pagas~!@#$Comisiones sin Pagar~!@#$
+TFrmPagaAgencia.ppLabel1=Pay Agency~!@#$Pagar Agência~!@#$Pagar Agencia~!@#$
+TFrmPagaAgencia.ppLabel10=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaAgencia.ppLabel11=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaAgencia.ppLabel12=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaAgencia.ppLabel14=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmPagaAgencia.ppLabel15=Commisssion~!@#$Comissão~!@#$Comisión~!@#$
+TFrmPagaAgencia.ppLabel16=Agency Commisssion~!@#$Comissão Agência~!@#$Comisión Agencia~!@#$
+TFrmPagaAgencia.ppLabel17=Invoice #~!@#$Nº Nota~!@#$Boleta #~!@#$
+TFrmPagaAgencia.ppLabel18=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaAgencia.ppLabel19=Customer~!@#$Cliente~!@#$Cliente~!@#$
+TFrmPagaAgencia.ppLabel2=Invoice #~!@#$Nº Nota~!@#$Boleta #~!@#$
+TFrmPagaAgencia.ppLabel3=Date~!@#$Data~!@#$Fecha~!@#$
+TFrmPagaAgencia.ppLabel4=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaAgencia.ppLabel5=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaAgencia.ppLabel6=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaAgencia.ppLabel7=Cost Price~!@#$Preço Custo~!@#$Precio Costo~!@#$
+TFrmPagaAgencia.ppLabel8=Commisssion~!@#$Comissão~!@#$Comisión~!@#$
+TFrmPagaAgencia.ppLabel9=Sale Price~!@#$Preço Venda~!@#$Precio Venta~!@#$
+TFrmPagaAgencia.RestorePayment1=&Restore Payment~!@#$Reestabelecer Pagamento :~!@#$Restablecer Pagamento :~!@#$
+TFrmPagaAgencia.spHelp=&Help~!@#$A&juda~!@#$A&yuda~!@#$
+TFrmPagaAgencia.TFrmPagaAgencia=~!@#$~!@#$~!@#$
+
+[DisplayLabels]
+TFrmPagaAgencia.quAgencyCommisAgencyName=AgencyName~!@#$Nome Agência~!@#$NombreAgencia~!@#$
+TFrmPagaAgencia.quAgencyCommisDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmPagaAgencia.quAgencyCommisFirstName=FirstName~!@#$Nome~!@#$Nombre~!@#$
+TFrmPagaAgencia.quAgencyCommisIDAgency=IDAgency~!@#$IDAgência~!@#$IDAgencia~!@#$
+TFrmPagaAgencia.quAgencyCommisIDInvoice=IDInvoice~!@#$IDNota~!@#$IDBoleta~!@#$
+TFrmPagaAgencia.quAgencyCommisInvoiceDate=InvoiceDate~!@#$DataNota~!@#$FechaBoleta~!@#$
+TFrmPagaAgencia.quAgencyCommisLastName=LastName~!@#$Sobrenome~!@#$Apellido~!@#$
+TFrmPagaAgencia.quAgencyCommisModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmPagaAgencia.quAgencyCommisMovCommission=MovCommission~!@#$MovComissão~!@#$MovComisión~!@#$
+TFrmPagaAgencia.quAgencyCommisMovCost=MovCost~!@#$MovCusto~!@#$MovCosto~!@#$
+TFrmPagaAgencia.quAgencyCommisMovSale=MovSale~!@#$MovVenda~!@#$MovVenta~!@#$
+TFrmPagaAgencia.quAgencyCommisQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmPagaAgencia.quAgencyCommisTipTouristGroup=TipTouristGroup~!@#$DicaGrupoTurismo~!@#$InfoGrupoTurismo~!@#$
+TFrmPagaAgencia.quHistPagDataLancamento=DataLancamento~!@#$Data~!@#$FechaContabilización~!@#$
+TFrmPagaAgencia.quHistPagIDLancamento=IDLancamento~!@#$IDLançamento~!@#$IDContabilización~!@#$
+TFrmPagaAgencia.quHistPagIDPessoa=IDPessoa~!@#$IDPessoa~!@#$IDPersona~!@#$
+TFrmPagaAgencia.quHistPagTotalQuitado=TotalQuitado~!@#$Total~!@#$TotalPagado~!@#$
+TFrmPagaAgencia.quHistPagUsuario=Usuario~!@#$Usuário~!@#$Usuario~!@#$
+TFrmPagaAgencia.quHistPagValorNominal=ValorNominal~!@#$Valor~!@#$ValorNominal~!@#$
+
+[Hints]
+TFrmPagaAgencia.btSave=Saves the current Value~!@#$Salvar a Quantía atual~!@#$Guardar el Valor actual~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$
+

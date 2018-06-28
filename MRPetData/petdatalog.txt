@@ -1,0 +1,81 @@
+05/04/2016 11:15 end petdate portion
+05/04/2016 11:15 Failed to establish connection.
+
+05/04/2016 11:14 Sending sale file
+05/04/2016 11:14 Sale XML file saved! C:\work\MRPetData\sales_20150417_9F9D66AD-0CA2-493F-BB76-79B3A03EE653.xml
+05/04/2016 11:14 Saving sale XML file C:\work\MRPetData\sales_20150417_9F9D66AD-0CA2-493F-BB76-79B3A03EE653.xml
+05/04/2016 11:14 time out configured
+05/04/2016 11:14 sale found
+05/04/2016 11:14 Openning sale query
+05/04/2016 11:14 Before OPEN CONNECTION
+05/04/2016 11:14 04/17/2015
+05/04/2016 11:14 04/17/2015
+05/04/2016 11:14 Petdata version 7.0
+04/23/2015 22:24 end petdate portion
+04/23/2015 22:24 Failed to establish connection.
+
+04/23/2015 22:22 Sending sale file
+04/23/2015 22:22 Sale XML file saved! C:\work\MRPetData\sales_20150422_a0000681.xml
+04/23/2015 22:22 Saving sale XML file C:\work\MRPetData\sales_20150422_a0000681.xml
+04/23/2015 22:22 time out configured
+04/23/2015 22:22 sale found
+04/23/2015 22:22 Openning sale query
+04/23/2015 22:22 Before OPEN CONNECTION
+04/23/2015 22:22 04/22/2015
+04/23/2015 22:22 04/22/2015
+04/23/2015 22:22 Petdata version 7.0
+04/23/2015 18:13 end petdate portion
+04/23/2015 18:13 CONNECTION CLOSED
+04/23/2015 18:13 Closing sale query
+04/23/2015 18:13 sale not found
+04/23/2015 18:13 Openning sale query
+04/23/2015 18:13 Before OPEN CONNECTION
+04/23/2015 18:12 04/17/2015
+04/23/2015 18:12 04/17/2015
+04/23/2015 18:12 Petdata version 7.0
+04/23/2015 18:01 end petdate portion
+04/23/2015 18:01 cannot open
+04/23/2015 18:01 Database connection fail
+04/23/2015 18:00 04/17/2015
+04/23/2015 18:00 04/17/2015
+04/23/2015 18:00 Petdata version 7.0
+04/23/2015 17:43 end petdate portion
+04/23/2015 17:43 cannot open
+04/23/2015 17:43 Database connection fail
+04/23/2015 17:38 04/17/2015
+04/23/2015 17:38 04/17/2015
+04/23/2015 17:38 Petdata version 7.0
+04/23/2015 17:33 end petdate portion
+04/23/2015 17:33 cannot open
+04/23/2015 17:33 Database connection fail
+04/23/2015 17:31 04/17/2015
+04/23/2015 17:31 04/17/2015
+04/23/2015 17:31 Petdata version 7.0
+04/23/2015 17:05 Database connection fail
+04/23/2015 17:03 04/17/2015
+04/23/2015 17:03 04/17/2015
+04/23/2015 17:03 Petdata version 7.0
+04/23/2015 17:01 end petdate portion
+04/23/2015 17:01 cannot open
+04/23/2015 17:01 Database connection fail
+04/23/2015 17:00 04/17/2015
+04/23/2015 17:00 04/17/2015
+04/23/2015 17:00 Petdata version 7.0
+04/22/2015 21:19 end petdate portion
+04/22/2015 21:19 CONNECTION CLOSED
+04/22/2015 21:19 Closing sale query
+04/22/2015 21:19 sale not found
+04/22/2015 21:19 Openning sale query
+04/22/2015 21:19 Before OPEN CONNECTION
+04/22/2015 21:19 04/17/2015
+04/22/2015 21:19 04/17/2015
+04/22/2015 21:19 Petdata version 7.0
+04/22/2015 21:17 end petdate portion
+04/22/2015 21:17 CONNECTION CLOSED
+04/22/2015 21:17 Closing sale query
+04/22/2015 21:17 sale not found
+04/22/2015 21:17 Openning sale query
+04/22/2015 21:17 Before OPEN CONNECTION
+04/22/2015 21:17 04/17/2015
+04/22/2015 21:17 04/17/2015
+04/22/2015 21:17 Petdata version 7.0

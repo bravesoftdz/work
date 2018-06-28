@@ -1,0 +1,39 @@
+[Captions]
+TbrwFrmEstado.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TbrwFrmEstado.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TbrwFrmEstado.btLoopInc=~!@#$~!@#$~!@#$
+TbrwFrmEstado.IDEstado=IDState :~!@#$IDEstado :~!@#$IDEstado :~!@#$
+TbrwFrmEstado.Label15=User:~!@#$Usuário:~!@#$Usuario:~!@#$
+TbrwFrmEstado.Label2=State :~!@#$Estado :~!@#$Estado :~!@#$
+TbrwFrmEstado.lblTaxPerc=% Tax :~!@#$% Imposto ICMS:~!@#$% Fiscal :~!@#$
+TbrwFrmEstado.lblMenu=First Menu Item~!@#$Primeiro Item Menú~!@#$Primer Item Menú~!@#$
+TbrwFrmEstado.lblModified=Edit Mode~!@#$Editando~!@#$Modo Edición~!@#$
+TbrwFrmEstado.lblSubMenu=Main Menu~!@#$Menú Principal~!@#$Menú Principal~!@#$
+TbrwFrmEstado.lblUserName=lblUserName~!@#$lblNomeUsuário~!@#$lblNombreUsuario~!@#$
+TbrwFrmEstado.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TbrwFrmEstado.TbrwFrmEstado=System User's~!@#$Usuários Sistema~!@#$Usuarios Sistema~!@#$
+TbrwFrmEstado.lbCode=Code :~!@#$Código UF :~!@#$Código :~!@#$
+TbrwFrmEstado.lbTaxPerc2=% Tax 2 :~!@#$% Imposto ST :~!@#$% Fiscal 2 :~!@#$
+
+[DisplayLabels]
+TbrwFrmEstado.quFormEstado=Estado~!@#$Estado~!@#$Estado~!@#$
+TbrwFrmEstado.quFormIDEstado=IDEstado~!@#$IDEstado~!@#$IDEstado~!@#$
+TbrwFrmEstado.quFormTaxPerc=% Tax~!@#$% Imposto~!@#$% Fiscal~!@#$
+
+[Hints]
+TbrwFrmEstado.btFirstRec=Move to First Record~!@#$Ir no Primeiro Registro~!@#$Ir al Primer Registro~!@#$
+TbrwFrmEstado.btLastRec=Move to Last Record~!@#$Ir no Último Registro~!@#$Ir al Último Registro~!@#$
+TbrwFrmEstado.btLoopInc=Continuing insert data without closing the screen.~!@#$Continuar entrando dados sem fechar a tela~!@#$Continuar ingresando datos sin cerrar la pantalla~!@#$
+TbrwFrmEstado.btNextRec=Move to Next Record~!@#$Ir no Seguinte Registro~!@#$Ir al Siguiente Registro~!@#$
+TbrwFrmEstado.btPriorRec=Move to Prior Record~!@#$Ir no Registro Anterior~!@#$Ir al Registro Anterior~!@#$
+TbrwFrmEstado.pnlAutoInc=Press here to continuing insert data~!@#$Clique aquí para continuar inserindo dados~!@#$Presione aquí para continuar registrando datos ~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+
+[OPTIONS]
+DELIMITER=~!@#$
+

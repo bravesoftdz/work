@@ -1,0 +1,41 @@
+[Captions]
+TFrmSerialNumber.Aplicar=&Ok~!@#$&OK~!@#$&OK~!@#$
+TFrmSerialNumber.btAdd=&Add~!@#$&Adicionar~!@#$&Agregar~!@#$
+TFrmSerialNumber.btnInvSerial=View~!@#$Visualizar~!@#$Ver~!@#$
+TFrmSerialNumber.btRemove=&Remove~!@#$&Remover~!@#$&Remover~!@#$
+TFrmSerialNumber.Cancelar=&Cancel~!@#$&Fechar~!@#$&Cerrar~!@#$
+TFrmSerialNumber.Label1=Serial~!@#$Série~!@#$Série~!@#$
+TFrmSerialNumber.Label2=Maximum Quantity of Serials :~!@#$Máxima Qtd de NS :~!@#$Máxima Cantidad de Séries :~!@#$
+TFrmSerialNumber.Label3=Serial numbers entered :~!@#$NS de Incluído :~!@#$Número de Série entrado :~!@#$
+TFrmSerialNumber.Label4=Select serial number(s) to transfer~!@#$Número Série (s) para trasferir~!@#$Número de serie selecto transferir~!@#$
+TFrmSerialNumber.spHelp=&Help~!@#$&Ajuda~!@#$&Ayuda~!@#$
+TFrmSerialNumber.TFrmSerialNumber=Serial Number~!@#$Número de Série~!@#$Número de Serie~!@#$
+TFrmSerialNumber.tsInventory=Inventory~!@#$Inventário~!@#$Inventario~!@#$
+TFrmSerialNumber.tsOnSale=S/N entry~!@#$N/S Incluir~!@#$N/S entrada~!@#$
+TFrmSerialNumber.tsTransfer=Transfer~!@#$Transferir~!@#$Transferir~!@#$
+TFrmSerialNumber.lblIdent=Identification~!@#$Identificação~!@#$Identificacion~!@#$
+
+[DisplayLabels]
+TFrmSerialNumber.quInventorySerialSerial=Serial Number~!@#$Número Série~!@#$Número Série~!@#$
+TFrmSerialNumber.quInventorySerialStoreID=StoreID~!@#$IDLoja~!@#$~!@#$
+TFrmSerialNumber.quSerialMovInventoryMovID=InventoryMovID~!@#$MovInventarioID~!@#$MovInventarioID~!@#$
+TFrmSerialNumber.quSerialMovSerialNumber=SerialNumber~!@#$Número Série~!@#$NúmeroSérie~!@#$
+TFrmSerialNumber.quSerialMovIdentificationNumber=Identification~!@#$Identificação~!@#$Identificacion~!@#$
+TFrmSerialNumber.quSerialPreMovPreInventoryMovID=PreInventoryMovID~!@#$PreMovInventarioID~!@#$PreMovInventarioID~!@#$
+TFrmSerialNumber.quSerialPreMovSerialNumber=Serial Number~!@#$Número Série~!@#$NúmeroSérie~!@#$
+TFrmSerialNumber.quSerialPreMovIdentificationNumber=Identification~!@#$Identificação~!@#$Identificacion~!@#$
+TFrmSerialNumber.quSNPurchaseIDPurchase=IDPurchase~!@#$IDCompra~!@#$~!@#$
+TFrmSerialNumber.quSNPurchaseIDPurchaseItem=IDPurchaseItem~!@#$IDItemCompra~!@#$~!@#$
+TFrmSerialNumber.quSNPurchaseIDPurchaseItemSerial=IDPurchaseItemSerial~!@#$IDItemSerial~!@#$~!@#$
+TFrmSerialNumber.quSNPurchaseSerialNumber=SerialNumber~!@#$NúmeroSérie~!@#$NúmeroSérie~!@#$
+TFrmSerialNumber.quSNStoreOrigemModelID=ModelID~!@#$IDModelo~!@#$~!@#$
+TFrmSerialNumber.quSNStoreOrigemSerial=Serial~!@#$Serial~!@#$~!@#$
+TFrmSerialNumber.quSNStoreOrigemStoreID=StoreID~!@#$IDLoja~!@#$~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[OPTIONS]
+DELIMITER=~!@#$

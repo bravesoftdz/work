@@ -1,0 +1,47 @@
+[Captions]
+TFrmInvoiceRefund.btClose=&Close~!@#$Fe&char~!@#$&Cerrar~!@#$
+TFrmInvoiceRefund.btnSave=&Save~!@#$&Salvar~!@#$Guardar~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBCostPrice=CostPrice~!@#$Prç Custo~!@#$Prc Costo~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBDiscount=Discount~!@#$Dsct~!@#$Descuento~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBItemTotal=Total~!@#$Total~!@#$Total~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBRetorna=Checked~!@#$Marcado~!@#$Comprobado~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsDBSalePrice=SalePrice~!@#$Prç Venda~!@#$Prc Venta~!@#$
+TFrmInvoiceRefund.grdInvoiceItemsLevel=~!@#$~!@#$~!@#$
+TFrmInvoiceRefund.Label1=Invoice Total :~!@#$Total da Nota :~!@#$Total Boleta :~!@#$
+TFrmInvoiceRefund.Label19=Hold Date~!@#$Date Pedido~!@#$Data Boleta~!@#$
+TFrmInvoiceRefund.Label2=Action :~!@#$Selecionar :~!@#$Selecionar :~!@#$
+TFrmInvoiceRefund.Label3=Vendor :~!@#$Fornecedor :~!@#$Surtidor :~!@#$
+TFrmInvoiceRefund.Label4=Obs :~!@#$Obs :~!@#$Obs :~!@#$
+TFrmInvoiceRefund.lbBarcode=Barcode~!@#$Cód. Barras~!@#$Cód. Barras~!@#$
+TFrmInvoiceRefund.lbDefeito=Defect Type :~!@#$Defeito :~!@#$Defecto :~!@#$
+TFrmInvoiceRefund.lbInvoiceNumber=Invoice #~!@#$Número Nota~!@#$Número Boleta~!@#$
+TFrmInvoiceRefund.lblInvoiceDate=Invoice Date~!@#$Data Fatura~!@#$Fetcha Boleta~!@#$
+TFrmInvoiceRefund.Panel4=Invoice items~!@#$Itens da nota~!@#$Itens da boleta~!@#$
+TFrmInvoiceRefund.pnlModelConfig=Refund type~!@#$Tipo de Devolução~!@#$Tipo de Devolución~!@#$
+TFrmInvoiceRefund.sbHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+TFrmInvoiceRefund.TFrmInvoiceRefund=Invoice Refund~!@#$Devolução~!@#$Devolución~!@#$\
+TFrmInvoiceRefund.grdInvoiceItemsDBAction=Action~!@#$Ação~!@#$Ación~!@#$
+TFrmInvoiceRefund.grdItemRepairDBModel=Model~!@#$Modelo~!@#$Modelo~!@#$
+TFrmInvoiceRefund.grdItemRepairDBDescription=Description~!@#$Descrição~!@#$Descripción~!@#$
+TFrmInvoiceRefund.grdItemRepairDBQty=Qty~!@#$Qtd~!@#$Ctd~!@#$
+TFrmInvoiceRefund.grdItemRepairDBCostPrice=Cost Price~!@#$Preço Custo~!@#$Precio Custo~!@#$
+TFrmInvoiceRefund.grdItemRepairDBIDVendor=Vendor~!@#$Fornecedor~!@#$Fornecedor~!@#$
+TFrmInvoiceRefund.grdItemRepairDBIDDefectType=Defect~!@#$Defeito~!@#$Defeito~!@#$
+TFrmInvoiceRefund.grdItemRepairDBRA=RA~!@#$Nº Reparo~!@#$# Reparo~!@#$
+
+
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFrmInvoiceRefund.cbxRefund.Items="Return to shelf","Return to vendor"~!@#$"Nova nota de devolução","Enviar para reparo do cliente"~!@#$"Nova nota de devolucion","Enviar para reparo do cliente"~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+

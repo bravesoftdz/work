@@ -1,0 +1,55 @@
+[Captions]
+TFchRoundRange.BitBtn1=Add~!@#$Adicionar~!@#$Agregue~!@#$
+TFchRoundRange.BitBtn2=Remove~!@#$Remover~!@#$Remover~!@#$
+TFchRoundRange.btCancel=Cancel~!@#$Cancelar~!@#$Cancelar~!@#$
+TFchRoundRange.btClose=Save~!@#$Salvar~!@#$Guardar~!@#$
+TFchRoundRange.btLoopInc=~!@#$~!@#$~!@#$
+TFchRoundRange.EEE=~!@#$~!@#$~!@#$
+TFchRoundRange.EspacamentoDireito=~!@#$~!@#$~!@#$
+TFchRoundRange.EspacamentoEsquerdo=~!@#$~!@#$~!@#$
+TFchRoundRange.EspacamentoInferior=~!@#$~!@#$~!@#$
+TFchRoundRange.EspacamentoSuperior=~!@#$~!@#$~!@#$
+TFchRoundRange.hhh=~!@#$~!@#$~!@#$
+TFchRoundRange.Label15=User :~!@#$Usuário :~!@#$Usuario :~!@#$
+TFchRoundRange.Label2=MinValue :~!@#$Valor Mínimo :~!@#$Valor Minimo :~!@#$
+TFchRoundRange.Label3=MaxValue :~!@#$Valor Máximo :~!@#$Valor Máximo :~!@#$
+TFchRoundRange.Label4=RoundValues :~!@#$Valores Arredondados :~!@#$Valores Redondos :~!@#$
+TFchRoundRange.Label5=RoundType :~!@#$Tipo de Arredondamento :~!@#$Tipo de Redondos :~!@#$
+TFchRoundRange.lblModified=Edit Mode~!@#$Mode de Edição~!@#$Corrija el Modo~!@#$
+TFchRoundRange.lblSubMenu=Main Menu~!@#$Menu Principal~!@#$Menú Principal~!@#$
+TFchRoundRange.Panel1=~!@#$~!@#$~!@#$
+TFchRoundRange.Panel2=~!@#$~!@#$~!@#$
+TFchRoundRange.Panel3=~!@#$~!@#$~!@#$
+TFchRoundRange.Panel4=~!@#$~!@#$~!@#$
+TFchRoundRange.pnlAutoInc=~!@#$~!@#$~!@#$
+TFchRoundRange.pnlDetail=~!@#$~!@#$~!@#$
+TFchRoundRange.pnlKey=~!@#$~!@#$~!@#$
+TFchRoundRange.pnlNavigation=~!@#$~!@#$~!@#$
+TFchRoundRange.spHelp=&Help~!@#$Ajuda~!@#$Ayuda~!@#$
+
+[DisplayLabels]
+TFchRoundRange.quFormIDRoundingTable=IDRoundingTable~!@#$ID Tabela de Arredondamento~!@#$ID  Tabla de Redondos~!@#$
+TFchRoundRange.quFormIDRoundingTableRange=IDRoundingTableRange~!@#$ID Tabela de Arredondamento de Escala~!@#$ID  Tabla de Redondos de Gama~!@#$
+TFchRoundRange.quFormMaxValue=MaxValue~!@#$Valor Máximo~!@#$Valor Máximo~!@#$
+TFchRoundRange.quFormMinValue=MinValue~!@#$Valor Mínimo~!@#$Valor Mínimo~!@#$
+TFchRoundRange.quFormRoundType=RoundType~!@#$Tipo de Arredondamento~!@#$Tipo de Redondos~!@#$
+TFchRoundRange.quFormRoundValues=RoundValues~!@#$Valores Arredondados~!@#$Valores Redondos~!@#$
+
+[Language names - for internal use only!]
+Language_1=English
+Language_2=Português
+Language_3=Español
+
+[Multilines]
+TFchRoundRange.cbRoundType.Items=Up,Down,Nearest~!@#$Cima,Baixo,"Mais Próximo"~!@#$"Em Cima","De Abajo ","Lo más cerca posible"~!@#$
+TFchRoundRange.FormConfig.DependentTableKeys=~!@#$~!@#$~!@#$
+TFchRoundRange.FormConfig.DependentTables=~!@#$~!@#$~!@#$
+TFchRoundRange.FormConfig.RequiredFields=~!@#$~!@#$~!@#$
+TFchRoundRange.FormConfig.UniqueFields=~!@#$~!@#$~!@#$
+TFchRoundRange.lbRoundValues.Items=~!@#$~!@#$~!@#$
+TFchRoundRange.quForm.FilterFields=~!@#$~!@#$~!@#$
+TFchRoundRange.quForm.FilterValues=~!@#$~!@#$~!@#$
+
+[OPTIONS]
+DELIMITER=~!@#$
+
