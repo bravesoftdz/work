@@ -75,7 +75,7 @@ begin
 
    fExpiredDate := Expiration;
 
-   pnlValidate.Visible := ((fExpiredDate < Trunc(Now)) or ((fExpiredDate-30) < Trunc(Now)));
+   pnlValidate.Visible := ((fExpiredDate < Trunc(Now)) or ((fExpiredDate-7) < Trunc(Now)));
 
    btnFreeTrial.Visible := not DM.fSystem.ValidLicense;
 

@@ -1112,8 +1112,9 @@ begin
   lbHelpShort.Left := lbHelp.Left + lbHelp.Width + 3;
 
   //Verifica se o sistema esta com a chave Valida
-  if DM.fSystem.StartMode <> SYS_ERROR then
+  if DM.fSystem.StartMode <> SYS_ERROR then begin
     DM.ValidateLicense;
+  end;
 
   // Max - 19/10/2006
   // Fazer a chamada da SP que processa o saldo de inventário

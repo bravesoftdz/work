@@ -2610,11 +2610,10 @@ begin
      //validate license key
      if ((fSystem.StartMode <> SYS_MODULE_TRIAL) and (not fSystem.ValidLicense))
         or ((fSystem.StartMode <> SYS_MODULE_TRIAL) and (DM.fSystem.ExpirationDate < DM.fSystem.SystemDate)) then
-           if not DisplayLicenseForm then
-              begin
+           if not DisplayLicenseForm then begin
               MsgBox(MSG_CRT_ERROR_INVALID_KEY, vbCritical + vbOKOnly);
-              Abort;
-              end;
+              Application.Terminate;
+           end;
 
      if IsDBaseEmpty then
      begin
@@ -4047,18 +4046,19 @@ begin
     if DisplayLicenseForm then
       MsgBox(MSG_INF_CHANGES_SYS, vbOKOnly  + vbInformation);
   end
-  else if ((DM.fSystem.ExpirationDate-5) < DM.fSystem.SystemDate) then
+  else if ((DM.fSystem.ExpirationDate-7) < DM.fSystem.SystemDate) then
   begin
     if MsgBox(Format(MSG_QST_ENTER_LICENSE, [DaysBetween(DM.fSystem.ExpirationDate, DM.fSystem.SystemDate)]), vbYesNo + vbSuperCritical) = vbYes then
       if DisplayLicenseForm Then
         MsgBox(MSG_INF_CHANGES_SYS, vbOKOnly  + vbInformation);
-  end
-  else if ((DM.fSystem.ExpirationDate-10) < DM.fSystem.SystemDate) then
+  end;
+{  else if ((DM.fSystem.ExpirationDate-10) < DM.fSystem.SystemDate) then
   begin
     if MsgBox(Format(MSG_QST_ENTER_LICENSE, [DaysBetween(DM.fSystem.ExpirationDate, DM.fSystem.SystemDate)]), vbYesNo + vbQuestion) = vbYes then
       if DisplayLicenseForm Then
         MsgBox(MSG_INF_CHANGES_SYS, vbOKOnly  + vbInformation);
   end;
+}
 end;
 
 procedure TDM.SendPetCenterInfo(fIDPreSale : Integer);
