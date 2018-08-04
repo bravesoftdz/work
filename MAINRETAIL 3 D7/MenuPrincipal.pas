@@ -945,6 +945,7 @@ end;
 procedure TMainMenu.LoadMenu;
 var
   Count, OldMenu, SubCount : Integer;
+  textSubmenu: string;
 begin
    // Zera a captura das teclas
    OldKeyMode := False;
@@ -995,9 +996,17 @@ begin
               pnlShortcuts.Visible := True;
               vtShortCuts[quSubMenuShortcut.AsInteger] := 'M='+quSubMenuIDMenu.AsString+';'+
                                                           'S='+quSubMenuIDSubMenu.AsString+';';
+
+              // Just to change text to shows the shortcut Employee Files on the right side of screen
+              textSubmenu := quSubMenuName.AsString;
+
+              if (quSubMenuShortCut.AsInteger = 7) then begin
+                 textSubMenu := 'Employee File';
+              end;
+
               SetShortCut(quSubMenuShortcut.AsInteger,
                           quSubMenuImageIndex.AsInteger,
-                          quSubMenuName.AsString,
+                          textSubmenu,//quSubMenuName.AsString,
                           quSubMenuTip.AsString);
               end;
            Next;

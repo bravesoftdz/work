@@ -220,6 +220,8 @@ begin
     end;
   end;
 
+  cbxRecord.ItemIndex := 0;
+
 end;
 
 procedure TBrwPessoa.spHelpClick(Sender: TObject);
@@ -313,9 +315,12 @@ begin
 
   if quTreeView.Parameters.ParambyName('Path').Value = '.001%' then
     case cbxRecord.ItemIndex of
-      0 : quBrowse.MaxRecords := 1000;
-      1 : quBrowse.MaxRecords := 3000;
-      2 : quBrowse.MaxRecords := 100000;
+      0 : quBrowse.MaxRecords := 10;
+      1 : quBrowse.MaxRecords := 50;
+      2 : quBrowse.MaxRecords := 100;
+      3 : quBrowse.MaxRecords := 1000;
+      4 : quBrowse.MaxRecords := 3000;
+      5 : quBrowse.MaxRecords := 100000;
     end;
 
 end;
@@ -390,13 +395,13 @@ begin
       end else //Vendor file
       If quTreeView.Parameters.ParamByName('Path').Value = '.002%' then
       begin
-        sUrlHelp  := 'http://www.mainretail.com/treinamento/Cadastro/Cad_Fornecedor.htm';
-        sUrlVideo := 'http://www.mainretail.com/treinamento/video/Adicionar_Fornecedor/Adicionar_Fornecedor.html';
+        (*sUrlHelp  := 'http://www.mainretail.com/treinamento/Cadastro/Cad_Fornecedor.htm';
+        sUrlVideo := 'http://www.mainretail.com/treinamento/video/Adicionar_Fornecedor/Adicionar_Fornecedor.html';*)
       end else //Manufacturers Maintenance
       If quTreeView.Parameters.ParamByName('Path').Value = '.004%' then
       begin
-        sUrlHelp  := 'http://www.mainretail.com/treinamento/Cadastro/Cad_Fabricante.htm';
-        sUrlVideo := 'http://www.mainretail.com/treinamento/video/Adicionar_Fabricante/Adicionar_Fabricante.html';
+        (*sUrlHelp  := 'http://www.mainretail.com/treinamento/Cadastro/Cad_Fabricante.htm';
+        sUrlVideo := 'http://www.mainretail.com/treinamento/video/Adicionar_Fabricante/Adicionar_Fabricante.html';*)
       end else //Commissions Maintenance
       If quTreeView.Parameters.ParamByName('Path').Value = '.003%' then
       begin
@@ -429,8 +434,18 @@ begin
 end;
 
 procedure TBrwPessoa.DBTreeViewChange(Sender: TObject; Node: TTreeNode);
+var
+   nodeResult : TTreeNode;
 begin
   inherited;
+
+  // to avoid call root node
+  btAdd.Enabled := ( not Node.IsFirstNode );
+
+  if ( Node.IsFirstNode ) then begin
+     exit;
+  end;
+
   if ( dbTreeview.Selected <> nil ) then begin
     //amfsouza 03.16.2011 - test if node is a system folder.
     btRemoveType.Enabled := ( not isSystemFolder(dBTreeView.ActualIDItem) );

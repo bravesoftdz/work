@@ -142,8 +142,7 @@ begin
        begin
          pnlTitleGrid.Caption := GridTitle +  DBTreeView.ActualName;
          Filtro := DBTreeView.ActualPath;
-         WhereTreeFilter := DBTreeView.FieldPath + ' like ' + Chr(39) +
-                            Trim(Filtro) + '%%' + Chr(39);
+         WhereTreeFilter := '';//DBTreeView.FieldPath + ' like ' + Chr(39) + Trim(Filtro) + '%%' + Chr(39);
        end;
     end;
 

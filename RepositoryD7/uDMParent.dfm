@@ -2,7 +2,7 @@ object DMParent: TDMParent
   OldCreateOrder = False
   OnCreate = DataModuleCreate
   OnDestroy = DataModuleDestroy
-  Top = 21
+  Top = 22
   Height = 409
   Width = 640
   object spGetNextID: TADOStoredProc

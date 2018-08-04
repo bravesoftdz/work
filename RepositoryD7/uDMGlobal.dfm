@@ -3,7 +3,7 @@ object DMGlobal: TDMGlobal
   OnCreate = DataModuleCreate
   OnDestroy = DataModuleDestroy
   Left = 61
-  Top = 21
+  Top = 22
   Height = 321
   Width = 424
   object LanguageDispatcher: TsiLangDispatcher

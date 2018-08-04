@@ -1,6 +1,6 @@
 inherited FchPessoa: TFchPessoa
-  Left = 281
-  Top = 95
+  Left = 353
+  Top = 102
   Caption = 'FchPessoa'
   ClientHeight = 476
   ClientWidth = 691
@@ -1448,28 +1448,28 @@ inherited FchPessoa: TFchPessoa
           item
             Expanded = False
             FieldName = 'Model'
-            Width = 107
+            Width = 114
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'Category'
-            Width = 107
+            Width = 114
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'MovDate'
-            Width = 49
+            Width = 52
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'Qty'
-            Width = 22
+            Width = 23
             Visible = True
             FooterType = ftCustom
           end
@@ -1477,7 +1477,7 @@ inherited FchPessoa: TFchPessoa
             Expanded = False
             FieldName = 'CostPrice'
             Title.Alignment = taRightJustify
-            Width = 69
+            Width = 73
             Visible = True
             FooterType = ftCustom
           end
@@ -1485,7 +1485,7 @@ inherited FchPessoa: TFchPessoa
             Expanded = False
             FieldName = 'Freight'
             Title.Alignment = taRightJustify
-            Width = 69
+            Width = 73
             Visible = True
             FooterType = ftCustom
           end
@@ -1493,7 +1493,7 @@ inherited FchPessoa: TFchPessoa
             Expanded = False
             FieldName = 'OtherCost'
             Title.Alignment = taRightJustify
-            Width = 69
+            Width = 73
             Visible = True
             FooterType = ftCustom
           end
@@ -1501,7 +1501,7 @@ inherited FchPessoa: TFchPessoa
             Expanded = False
             FieldName = 'Total'
             Title.Alignment = taRightJustify
-            Width = 127
+            Width = 135
             Visible = True
             FooterType = ftCustom
           end>
@@ -1554,28 +1554,28 @@ inherited FchPessoa: TFchPessoa
               item
                 Expanded = False
                 FieldName = 'Hold'
-                Width = 121
+                Width = 128
                 Visible = True
                 FooterType = ftCustom
               end
               item
                 Expanded = False
                 FieldName = 'IDInvoice'
-                Width = 73
+                Width = 77
                 Visible = True
                 FooterType = ftCustom
               end
               item
                 Expanded = False
                 FieldName = 'InvoiceDate'
-                Width = 112
+                Width = 119
                 Visible = True
                 FooterType = ftCustom
               end
               item
                 Expanded = False
                 FieldName = 'Store'
-                Width = 204
+                Width = 217
                 Visible = True
                 FooterType = ftCustom
               end
@@ -1583,7 +1583,7 @@ inherited FchPessoa: TFchPessoa
                 Expanded = False
                 FieldName = 'Value'
                 Title.Alignment = taRightJustify
-                Width = 102
+                Width = 108
                 Visible = True
                 FooterType = ftCustom
               end>
@@ -1895,35 +1895,35 @@ inherited FchPessoa: TFchPessoa
           item
             Expanded = False
             FieldName = 'EnterDate'
-            Width = 71
+            Width = 75
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'Guide'
-            Width = 152
+            Width = 161
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'Agency'
-            Width = 140
+            Width = 149
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'NumTourist'
-            Width = 86
+            Width = 91
             Visible = True
             FooterType = ftCustom
           end
           item
             Expanded = False
             FieldName = 'QTYInvoice'
-            Width = 86
+            Width = 91
             Visible = True
             FooterType = ftCustom
           end
@@ -1931,7 +1931,7 @@ inherited FchPessoa: TFchPessoa
             Expanded = False
             FieldName = 'TotalInvoice'
             Title.Alignment = taRightJustify
-            Width = 85
+            Width = 90
             Visible = True
             FooterType = ftCustom
           end>
